@@ -1,9 +1,19 @@
 {
   "id": "ACQ-04",
-  "statut": "en_attente",
-  "derniere_execution": null,
-  "taches_terminees": [],
-  "taches_suivantes": [],
+  "statut": "termine_session",
+  "derniere_execution": "2026-11-19T01:43:20+00:00",
+  "taches_terminees": [
+    "42 documents OMS acquis (38 redistribuables, 4 locaux)"
+  ],
+  "taches_suivantes": [
+    "IMCI chart booklet enfant 2 mois-5 ans (version CC si elle existe)",
+    "versions françaises des modules TB 2026 quand disponibles"
+  ],
   "objectifs": {},
-  "compteurs": {}
+  "compteurs": {
+    "documents": 42,
+    "redistribuables": 38,
+    "local_uniquement": 4,
+    "mo": 178.2
+  }
 }

@@ -1,0 +1,679 @@
+{
+  "agent": "DOS-03",
+  "date": "2026-11-19",
+  "cas": [
+    {
+      "id": "CAS-DIAB-0001",
+      "titre": "Diabète de type 2 avec maladie rénale diabétique et projet de jeûne chez un homme de 54 ans",
+      "niveau": "resident",
+      "specialite": "DIAB",
+      "items_residanat": [
+        "RES-MED-091"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 54 ans, commerçant, Sétif.",
+      "motif_consultation": "Asthénie ; souhaite jeûner le prochain Ramadan.",
+      "antecedents": "DT2 depuis 8 ans (metformine 850 mg × 2/j, gliclazide LM 60 mg/j) ; HTA (amlodipine 5 mg) ; tabagisme 25 paquets-années ; père décédé d'un infarctus à 60 ans.",
+      "symptomes": "Asthénie, polyurie modérée, paresthésies nocturnes des pieds.",
+      "examen_clinique": "IMC 31 kg/m², tour de taille 108 cm, PA 152/94 mmHg, pouls pédieux perçus, monofilament 7/10 à droite et 8/10 à gauche, hyperkératose sous la tête du 1er métatarsien droit.",
+      "biologie": "HbA1c 9,1 % (objectif < 7 %) ; glycémie à jeun 2,05 g/L (N 0,70–1,00) ; créatinine 13 mg/L, DFGe 52 mL/min/1,73 m² (N > 90) ; RAC 240 puis 260 mg/g à 3 mois (N < 30) ; LDL 1,32 g/L ; triglycérides 2,40 g/L (N < 1,50) ; K 4,6 mmol/L (N 3,5–5,0).",
+      "imagerie": "Fond d'œil : rétinopathie diabétique non proliférante modérée sans œdème maculaire. ECG normal.",
+      "hypotheses_diagnostiques": [
+        "DT2 déséquilibré compliqué de maladie rénale diabétique G3a A2",
+        "Rétinopathie non proliférante modérée",
+        "Polyneuropathie sensitive débutante avec pied à risque"
+      ],
+      "diagnostics_differentiels": [
+        "Néphropathie non diabétique (à évoquer si hématurie, déclin rapide, absence de rétinopathie)",
+        "Néphroangiosclérose hypertensive associée"
+      ],
+      "examens_a_demander": [
+        "Confirmation du RAC (fait)",
+        "Bandelette urinaire/sédiment (hématurie ?)",
+        "Échographie rénale si doute",
+        "Bilan cardiovasculaire selon symptômes",
+        "Vitamine B12 (metformine)"
+      ],
+      "diagnostic_final": "DT2 avec MRD stade G3a A2, RD non proliférante modérée, neuropathie débutante, HTA non contrôlée, dyslipidémie, tabagisme — très haut risque cardiovasculaire.",
+      "traitement": "iSGLT2 à bénéfice rénal (DFGe ≥ 20) ; IEC ou ARA2 titré à la dose maximale tolérée (contrôle créatinine/kaliémie à 1–2 semaines) ; AR GLP-1 à bénéfice démontré (ou tirzépatide) ; réduction puis arrêt du gliclazide ; poursuite de la metformine (DFGe 52) ; statine de haute intensité ; sevrage tabagique ; podologie et chaussage ; avis ophtalmologique ; finérénone si albuminurie persistante. Pour le Ramadan : évaluation du risque IDF-DAR et décision partagée ; règles de rupture du jeûne (< 70 ou > 300 mg/dL).",
+      "surveillance": "HbA1c à 3 mois ; créatinine et kaliémie après introduction de l'IEC/ARA2 ; RAC à 3–6 mois ; fond d'œil rapproché (baisse glycémique) ; pieds à chaque visite.",
+      "evolution": "À 6 mois : HbA1c 7,0 %, −6 kg, PA 128/78, RAC 120 mg/g, DFGe 49 (baisse initiale attendue puis stabilisation).",
+      "explication_pedagogique": "Chez le DT2 avec MRD, la protection cardio-rénale (iSGLT2, AR GLP-1, IEC/ARA2, finérénone) prime sur le seul objectif d'HbA1c ; l'association de plusieurs classes est la règle ; le jeûne impose une évaluation anticipée et l'arrêt des sulfamides chez les patients à risque.",
+      "questions": [
+        {
+          "question": "Quel stade KDIGO de MRC ?",
+          "reponse": "G3a (DFGe 45–59) A2 (RAC 30–299 mg/g)."
+        },
+        {
+          "question": "Faut-il arrêter la metformine ?",
+          "reponse": "Non : DFGe 52 ; réduction de dose si < 45, arrêt si < 30 (ADA 2026)."
+        },
+        {
+          "question": "Quelle classe privilégier pour la néphroprotection ?",
+          "reponse": "iSGLT2 à bénéfice rénal démontré, à initier si DFGe ≥ 20, associé à un IEC/ARA2 titré."
+        },
+        {
+          "question": "Quand rompre le jeûne ?",
+          "reponse": "Glycémie < 70 mg/dL ou > 300 mg/dL, symptômes d'hypoglycémie ou maladie aiguë (IDF-DAR 2021)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "ADA Standards of Care in Diabetes—2026, Diabetes Care 2026;49(Suppl 1) — sections 2, 6, 9, 10, 11, 12",
+          "date": "2026"
+        },
+        {
+          "reference": "Hassanein M et al. Diabetes and Ramadan: Practical guidelines 2021. Diabetes Res Clin Pract 2022;185:109185",
+          "date": "2021"
+        },
+        {
+          "reference": "Belhadj M et al. Perspectives of T2DM management in Algeria. Front Clin Diabetes Healthc 2025;6:1495849",
+          "date": "2025"
+        },
+        {
+          "reference": "KDIGO 2024 CKD Guideline. Kidney Int 2024;105(4S):S117-S314",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-DIAB-0002",
+      "titre": "Syndrome polyuro-polydipsique et amaigrissement chez un étudiant de 23 ans",
+      "niveau": "etudiant",
+      "specialite": "DIAB",
+      "items_residanat": [
+        "RES-MED-091"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 23 ans, étudiant, Alger.",
+      "motif_consultation": "Soif intense, mictions fréquentes, perte de 7 kg en 5 semaines.",
+      "antecedents": "Aucun. Sœur atteinte de thyroïdite de Hashimoto.",
+      "symptomes": "Polyurie, polydipsie, polyphagie, asthénie ; ni vomissement ni douleur abdominale.",
+      "examen_clinique": "IMC 19 kg/m², PA 118/72 mmHg, FC 92/min, FR 16/min, pas de signe de déshydratation sévère, haleine non acétonique.",
+      "biologie": "Glycémie veineuse 3,40 g/L (N 0,70–1,00) ; HbA1c 11,8 % ; β-hydroxybutyrate capillaire 1,2 mmol/L (N < 0,6) ; gaz du sang veineux : pH 7,37, HCO₃ 23 mmol/L ; K 4,4 mmol/L ; créatinine 8 mg/L ; anticorps anti-GAD positifs (titre élevé), anti-IA-2 positifs ; TSH 2,1 mUI/L.",
+      "imagerie": "Aucune nécessaire.",
+      "hypotheses_diagnostiques": [
+        "Diabète de type 1 (stade 3) inaugural avec cétose sans acidose"
+      ],
+      "diagnostics_differentiels": [
+        "DT2 à tendance cétosique",
+        "MODY (peu probable : auto-anticorps positifs)",
+        "Diabète insipide (exclu : glycémie élevée)"
+      ],
+      "examens_a_demander": [
+        "Auto-anticorps anti-îlots (faits)",
+        "Cétonémie et gaz du sang (faits)",
+        "Bilan lipidique, créatinine, RAC",
+        "TSH, anticorps anti-transglutaminase selon le contexte"
+      ],
+      "diagnostic_final": "Diabète de type 1 auto-immun inaugural (stade 3), cétose sans acidocétose.",
+      "traitement": "Insulinothérapie basal-bolus d'emblée : dose totale ≈ 0,5 U/kg/j (≈ 30 U/j pour 60 kg), dont ≈ 50 % en analogue lent et le reste en bolus prandiaux d'analogues rapides ; éducation thérapeutique (injections, autosurveillance, MCG, hypoglycémie, cétonémie et règles des jours de maladie) ; glucagon prêt à l'emploi ; suivi rapproché.",
+      "surveillance": "Glycémies (MCG si disponible), adaptation des doses tous les 2–3 jours au début ; HbA1c à 3 mois ; dépistage des complications à 5 ans d'évolution.",
+      "evolution": "Phase de « lune de miel » à 2 mois avec baisse des besoins (0,3 U/kg/j) : réduire les doses pour éviter les hypoglycémies, sans arrêter l'insuline.",
+      "explication_pedagogique": "Sujet jeune, mince, syndrome cardinal, amaigrissement, cétose et auto-anticorps : DT1. L'insuline est indispensable d'emblée ; la cétonémie sans acidose permet un traitement sous-cutané avec surveillance. La lune de miel ne doit pas faire arrêter l'insuline.",
+      "questions": [
+        {
+          "question": "Faut-il confirmer le diagnostic par un second test ?",
+          "reponse": "Non : symptômes classiques + glycémie aléatoire ≥ 2,00 g/L suffisent."
+        },
+        {
+          "question": "Est-ce une acidocétose ?",
+          "reponse": "Non : β-OHB < 3 mmol/L et pas d'acidose (pH 7,37, HCO₃ 23) ; cétose simple."
+        },
+        {
+          "question": "Quelle dose d'insuline initiale ?",
+          "reponse": "≈ 0,5 U/kg/j, ~50 % en basale (repère ADA 2026), puis titration."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "ADA Standards of Care in Diabetes—2026, Diabetes Care 2026;49(Suppl 1) — sections 2, 6, 9, 10, 11, 12",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-DIAB-0003",
+      "titre": "Douleurs abdominales, polypnée et somnolence chez une étudiante diabétique de type 1",
+      "niveau": "residanat",
+      "specialite": "DIAB",
+      "items_residanat": [
+        "RES-MED-092"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 19 ans, étudiante, Oran ; 55 kg.",
+      "motif_consultation": "Douleurs abdominales, vomissements, polypnée et somnolence.",
+      "antecedents": "DT1 depuis 6 ans (glargine 20 U le soir, asparte 5–7 U aux repas).",
+      "symptomes": "Gastro-entérite fébrile depuis 48 h ; arrêt de toutes les injections d'insuline « car elle ne mangeait plus ».",
+      "examen_clinique": "Glasgow 13, T 38,2 °C, FC 124/min, PA 96/58 mmHg, FR 32/min ample (Kussmaul), haleine acétonique, muqueuses sèches, abdomen sensible sans défense.",
+      "biologie": "Glycémie 4,60 g/L (25,5 mmol/L) ; β-OHB 6,4 mmol/L (N < 0,6) ; pH veineux 7,08 (N 7,32–7,42) ; HCO₃ 7 mmol/L (N 22–29) ; Na 131, Cl 97, K 5,6 mmol/L (N 3,5–5,0) ; créatinine 15 mg/L ; leucocytes 18 000/mm³ ; lipase 2 × N ; β-hCG négative ; ECG : tachycardie sinusale, T amples.",
+      "imagerie": "Radiographie thoracique normale.",
+      "hypotheses_diagnostiques": [
+        "Acidocétose diabétique sévère par omission d'insuline",
+        "Gastro-entérite virale déclenchante"
+      ],
+      "diagnostics_differentiels": [
+        "Pancréatite aiguë (lipase modérément élevée, fréquente dans l'ACD)",
+        "Urgence chirurgicale abdominale",
+        "Sepsis"
+      ],
+      "examens_a_demander": [
+        "Ionogramme, GDS veineux et β-OHB toutes les 4 h",
+        "Kaliémie à H2",
+        "Hémocultures, ECBU",
+        "Réévaluation abdominale après correction de l'acidose"
+      ],
+      "diagnostic_final": "Acidocétose diabétique sévère (HCO₃ < 10, β-OHB > 6) déclenchée par l'arrêt de l'insuline basale lors d'une gastro-entérite.",
+      "traitement": "Soins intensifs ; remplissage cristalloïde 1 000 mL la 1re heure puis 500–1 000 mL/h pendant 2–4 h ; K 5,6 > 5,0 : insuline IV 0,1 U/kg/h (5,5 U/h) sans potassium initial ; K à H2 (4,6) → KCl 20–30 mmol/L de soluté ; glycémie < 2,50 g/L à H6 → G10 % et insuline 0,05 U/kg/h ; pas de bicarbonates (pH > 7,0) ; HBPM préventive ; résolution à H14 (β-OHB < 0,6, pH ≥ 7,3) ; basale SC 1–2 h avant l'arrêt de l'IV.",
+      "surveillance": "Glycémie horaire, kaliémie à H2 puis toutes les 4 h, β-OHB et GDS toutes les 4 h, conscience horaire, diurèse.",
+      "evolution": "Résolution en 14 h ; acidose hyperchlorémique résiduelle sans conséquence ; sortie à J3 après éducation (règles des jours de maladie), MCG proposée, consultation à 2–4 semaines.",
+      "explication_pedagogique": "Critères D-K-A 2024 ; la kaliémie conditionne l'insuline ; le glucose est ajouté quand la glycémie passe sous 250 mg/dL pour poursuivre l'insuline jusqu'à résolution de la cétose ; ne pas juger la résolution sur le trou anionique ni la cétonurie.",
+      "questions": [
+        {
+          "question": "Calculez le trou anionique.",
+          "reponse": "131 − (97 + 7) = 27 mmol/L (élevé)."
+        },
+        {
+          "question": "Pourquoi pas de potassium initialement ?",
+          "reponse": "K 5,6 > 5,0 mmol/L ; supplémenter dès que K < 5,0 (contrôle à H2)."
+        },
+        {
+          "question": "Critères de résolution ?",
+          "reponse": "β-OHB < 0,6 mmol/L et pH ≥ 7,3 ou HCO₃ ≥ 18 mmol/L."
+        },
+        {
+          "question": "Quelle erreur éducative a déclenché l'épisode ?",
+          "reponse": "L'arrêt de l'insuline basale ; il ne faut jamais l'arrêter, même sans alimentation."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Umpierrez GE et al. Hyperglycemic Crises in Adults With Diabetes: A Consensus Report. Diabetes Care 2024;47(8):1257-1275",
+          "date": "2024"
+        },
+        {
+          "reference": "ADA Standards of Care in Diabetes—2026, Diabetes Care 2026;49(Suppl 1) — sections 2, 6, 9, 10, 11, 12",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-DIAB-0004",
+      "titre": "Confusion et déshydratation chez une femme âgée diabétique pendant une canicule",
+      "niveau": "generaliste",
+      "specialite": "DIAB",
+      "items_residanat": [
+        "RES-MED-092"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 81 ans, vit seule, Ouargla ; 58 kg.",
+      "motif_consultation": "Confusion progressive depuis 4 jours, retrouvée somnolente par sa fille.",
+      "antecedents": "DT2 sous glimépiride 4 mg/j ; HTA sous hydrochlorothiazide ; troubles cognitifs légers.",
+      "symptomes": "Polyurie puis oligurie, soif peu exprimée, faiblesse ; canicule depuis une semaine ; toux fébrile depuis 3 jours.",
+      "examen_clinique": "Glasgow 11, T 38,4 °C, PA 98/60 mmHg, FC 118/min, muqueuses très sèches, pli cutané persistant, crépitants de la base droite, pas de déficit focal, pas de Kussmaul.",
+      "biologie": "Glycémie 9,40 g/L (52 mmol/L) ; Na 146 mmol/L ; urée 24 mmol/L ; créatinine 24 mg/L (base 10) ; β-OHB 0,9 mmol/L ; pH 7,34, HCO₃ 20 mmol/L ; K 4,1 mmol/L ; osmolalité efficace calculée 2 × 146 + 52 = 344 mOsm/kg ; leucocytes 16 000/mm³, CRP 180 mg/L.",
+      "imagerie": "Radiographie thoracique : opacité alvéolaire basale droite.",
+      "hypotheses_diagnostiques": [
+        "État hyperosmolaire hyperglycémique déclenché par une pneumopathie et la canicule",
+        "IRA fonctionnelle associée"
+      ],
+      "diagnostics_differentiels": [
+        "Acidocétose ou forme mixte (exclue : β-OHB < 3, pH ≥ 7,30)",
+        "AVC (pas de déficit focal, mais imagerie si signes focaux)",
+        "Méningite"
+      ],
+      "examens_a_demander": [
+        "Osmolalité toutes les heures au début puis toutes les 4 h",
+        "Ionogramme et glycémie horaires",
+        "Hémocultures, antigénuries",
+        "ECG, troponine"
+      ],
+      "diagnostic_final": "État hyperosmolaire hyperglycémique (glycémie ≥ 600 mg/dL, osmolalité efficace > 300, sans cétose ni acidose) avec pneumopathie et IRA fonctionnelle.",
+      "traitement": "Unité de soins intensifs ; NaCl 0,9 % (bolus prudents de 250 mL chez la patiente âgée puis débit adapté ; bilan positif de 3–6 L sur 12 h selon tolérance) ; insuline à faible débit (0,05 U/kg/h) seulement quand la glycémie ne baisse plus sous remplissage (JBDS) ; potassium selon la kaliémie ; baisse de glycémie ≤ 5 mmol/L/h et de l'osmolalité de 3–8 mOsm/kg/h ; HBPM préventive ; protection des talons ; antibiothérapie de la pneumopathie ; arrêt du glimépiride et du thiazidique.",
+      "surveillance": "Osmolalité, natrémie, glycémie, kaliémie, conscience, diurèse, état cutané des pieds.",
+      "evolution": "Normalisation de l'osmolalité en 48 h, récupération neurologique, créatinine 12 mg/L à J4 ; relais par insuline basale puis réévaluation ; arrêt définitif du sulfamide (âge, risque d'hypoglycémie).",
+      "explication_pedagogique": "L'EHH touche surtout le sujet âgé dépendant ; le remplissage est le traitement principal ; une correction trop rapide expose à l'œdème cérébral et à la démyélinisation osmotique ; la hausse initiale de la natrémie est attendue.",
+      "questions": [
+        {
+          "question": "Calculez l'osmolalité efficace.",
+          "reponse": "2 × 146 + 52 = 344 mOsm/kg (> 300)."
+        },
+        {
+          "question": "Faut-il débuter l'insuline d'emblée ?",
+          "reponse": "Selon le JBDS, non : remplissage d'abord, insuline à faible débit quand la glycémie ne baisse plus (sauf cétonémie > 3)."
+        },
+        {
+          "question": "Quelles mesures associées spécifiques ?",
+          "reponse": "HBPM préventive, protection des talons et examen quotidien des pieds, traitement de la cause."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Umpierrez GE et al. Hyperglycemic Crises in Adults With Diabetes: A Consensus Report. Diabetes Care 2024;47(8):1257-1275",
+          "date": "2024"
+        },
+        {
+          "reference": "Mustafa OG et al. Management of HHS in adults: JBDS updated guideline. Diabet Med 2023;40(3):e15005",
+          "date": "2023"
+        },
+        {
+          "reference": "ADA Standards of Care in Diabetes—2026, Diabetes Care 2026;49(Suppl 1) — sections 2, 6, 9, 10, 11, 12",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-ENDO-0001",
+      "titre": "Palpitations, amaigrissement et irritation oculaire chez une enseignante de 31 ans",
+      "niveau": "residanat",
+      "specialite": "ENDO",
+      "items_residanat": [
+        "RES-MED-084"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 31 ans, enseignante, Tizi Ouzou ; fumeuse (8 cigarettes/j).",
+      "motif_consultation": "Palpitations, perte de 6 kg en 3 mois, nervosité, irritation oculaire.",
+      "antecedents": "Aucun ; projet de grossesse dans un an.",
+      "symptomes": "Thermophobie, sueurs, tremblement, insomnie, larmoiement et douleur à la mobilisation oculaire.",
+      "examen_clinique": "FC 118/min, PA 135/60 mmHg, tremblement fin, goitre diffus homogène avec souffle ; rétraction palpébrale, rougeur conjonctivale et palpébrale, œdème palpébral, douleur aux mouvements oculaires (CAS 3/7), exophtalmie modérée sans diplopie ; acuité visuelle et vision des couleurs normales.",
+      "biologie": "TSH < 0,01 mUI/L (N 0,4–4,0) ; T4L 48 pmol/L (N 12–22) ; T3L 15 pmol/L (N 3,1–6,8) ; TRAb 9,8 UI/L (seuil 1,75) ; PNN 2 300/mm³ ; transaminases 1,5 × N.",
+      "imagerie": "Échographie : goitre diffus hypoéchogène, hypervascularisation diffuse au Doppler, pas de nodule.",
+      "hypotheses_diagnostiques": [
+        "Maladie de Basedow avec orbitopathie légère et active"
+      ],
+      "diagnostics_differentiels": [
+        "Thyroïdite silencieuse (TRAb négatifs, fixation nulle)",
+        "Goitre multinodulaire toxique (nodules)",
+        "Thyrotoxicose factice (thyroglobuline basse)"
+      ],
+      "examens_a_demander": [
+        "Bilan de référence NFS et hépatique (fait)",
+        "Avis ophtalmologique (CAS, exophtalmométrie)",
+        "β-hCG",
+        "Pas de scintigraphie nécessaire"
+      ],
+      "diagnostic_final": "Maladie de Basedow (thyrotoxicose franche, TRAb positifs) avec orbitopathie légère et active.",
+      "traitement": "Propranolol 20–40 mg toutes les 6 h ; thiamazole/MMI dans la fourchette ETA 10–30 mg/j (ou carbimazole 15–40 mg/j) puis titration ; information écrite sur l'agranulocytose ; arrêt du tabac ; sélénium 6 mois ; contraception ; discussion du traitement radical (thyroïdectomie totale privilégiée en cas d'orbitopathie active et de projet de grossesse) ; si grossesse sous ATS : passage au PTU au 1er trimestre.",
+      "surveillance": "T4L/T3L à 3–4 semaines (TSH en retard) ; NFS en urgence si fièvre/angine ; CAS et acuité visuelle ; TRAb avant l'arrêt du traitement et en début de grossesse puis à 18–22 SA s'ils sont élevés.",
+      "evolution": "Euthyroïdie à 3 mois sous 7,5 mg/j de MMI ; épisode d'angine virale à 7 semaines (PNN 1 900/mm³, reprise du MMI) ; thyroïdectomie totale à 8 mois ; grossesse 5 mois plus tard sous lévothyroxine.",
+      "explication_pedagogique": "TRAb + échographie-Doppler suffisent au diagnostic ; la TSH est un mauvais marqueur précoce sous ATS ; l'agranulocytose impose une conduite réflexe ; l'orbitopathie et le projet de grossesse orientent le traitement radical.",
+      "questions": [
+        {
+          "question": "La scintigraphie est-elle utile ?",
+          "reponse": "Non : TRAb positifs et échographie typique sans nodule (ETA 2018)."
+        },
+        {
+          "question": "À 4 semaines, T4L normale et TSH < 0,01 : que faire ?",
+          "reponse": "Réduire le MMI vers l'entretien ; la TSH reste freinée plusieurs mois."
+        },
+        {
+          "question": "Conduite devant une fièvre avec angine sous ATS ?",
+          "reponse": "Arrêt immédiat de l'ATS et NFS en urgence ; PNN < 500/mm³ = agranulocytose."
+        },
+        {
+          "question": "Pourquoi éviter l'iode 131 ici ?",
+          "reponse": "Orbitopathie active chez une fumeuse (aggravation), délai de 6 mois avant conception, hausse possible des TRAb."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Kahaly GJ et al. 2018 ETA Guideline for the Management of Graves' Hyperthyroidism. Eur Thyroid J 2018;7(4):167-186",
+          "date": "2018"
+        },
+        {
+          "reference": "Bartalena L et al. 2021 EUGOGO guidelines. Eur J Endocrinol 2021;185(4):G43-G67",
+          "date": "2021"
+        },
+        {
+          "reference": "Alexander EK et al. 2017 ATA pregnancy guidelines. Thyroid 2017;27(3):315-389",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-ENDO-0002",
+      "titre": "Fièvre, agitation et insuffisance cardiaque chez une patiente basedowienne ayant arrêté son traitement",
+      "niveau": "specialiste",
+      "specialite": "ENDO",
+      "items_residanat": [
+        "RES-MED-084"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 44 ans, Annaba.",
+      "motif_consultation": "Agitation, fièvre, dyspnée et diarrhée depuis 24 h.",
+      "antecedents": "Maladie de Basedow diagnostiquée il y a 6 mois ; carbimazole arrêté de sa propre initiative il y a 2 mois ; pneumopathie depuis 3 jours.",
+      "symptomes": "Fièvre élevée, agitation, propos incohérents, palpitations, dyspnée, diarrhée, vomissements.",
+      "examen_clinique": "T 40,1 °C, FC 160/min irrégulière (fibrillation atriale), PA 110/50 mmHg, crépitants bilatéraux, œdèmes des membres inférieurs, agitation avec désorientation, ictère conjonctival discret, goitre vasculaire.",
+      "biologie": "TSH < 0,01 mUI/L ; T4L 82 pmol/L (N 12–22) ; T3L 21 pmol/L (N 3,1–6,8) ; bilirubine totale 38 mg/L ; ASAT/ALAT 3 × N ; leucocytes 15 000/mm³ ; CRP 140 mg/L ; glycémie 1,60 g/L ; créatinine 12 mg/L.",
+      "imagerie": "Radiographie thoracique : foyer basal gauche et redistribution vasculaire ; échocardiographie : FEVG 40 %, dilatation des cavités droites.",
+      "hypotheses_diagnostiques": [
+        "Crise aiguë thyrotoxique (orage thyroïdien) déclenchée par l'arrêt des ATS et une pneumopathie"
+      ],
+      "diagnostics_differentiels": [
+        "Sepsis grave isolé",
+        "Syndrome malin des neuroleptiques",
+        "Phéochromocytome",
+        "Intoxication aux sympathomimétiques"
+      ],
+      "examens_a_demander": [
+        "Score de Burch-Wartofsky",
+        "Hémocultures, ECBC",
+        "Cortisol (sans retarder les corticoïdes)",
+        "Ionogramme, kaliémie, lactates"
+      ],
+      "diagnostic_final": "Crise aiguë thyrotoxique (score de Burch-Wartofsky ≥ 45 : hyperthermie, tachycardie > 140 avec FA, insuffisance cardiaque, troubles neurologiques, troubles digestifs et ictère, facteur déclenchant) sur maladie de Basedow.",
+      "traitement": "Réanimation ; ATS à forte dose (PTU, ou MMI) par voie orale ou sonde ; iode stable au moins 1 h après la première dose d'ATS ; glucocorticoïdes IV ; bêtabloquant prudent (molécule IV de courte durée d'action sous monitorage, compte tenu de l'insuffisance cardiaque) ; anticoagulation de la FA à discuter ; refroidissement, paracétamol (pas d'aspirine), réhydratation, nutrition ; antibiothérapie de la pneumopathie ; plasmaphérèse ou thyroïdectomie en cas d'échec. Posologies : protocole local / ATA 2016 / JTA 2016 [POSOLOGIE À VÉRIFIER].",
+      "surveillance": "Scope, température, conscience, fonction cardiaque, bilan hépatique (PTU), T4L/T3L tous les 2–3 jours, glycémie (corticoïdes).",
+      "evolution": "Amélioration en 72 h ; relais par MMI oral après stabilisation ; thyroïdectomie totale programmée à distance après euthyroïdie (non-observance, crise grave).",
+      "explication_pedagogique": "Diagnostic clinique sans attendre la biologie ; ordre ATS → iode ; traitement multimodal ; mortalité ~10 % ; l'arrêt brutal des ATS et l'infection sont des déclencheurs classiques.",
+      "questions": [
+        {
+          "question": "Pourquoi administrer l'iode après l'ATS ?",
+          "reponse": "L'iode donné avant servirait de substrat à la synthèse hormonale ; l'ATS bloque d'abord l'organification."
+        },
+        {
+          "question": "Quel antipyrétique éviter ?",
+          "reponse": "L'aspirine (déplace la T4 de sa protéine de liaison)."
+        },
+        {
+          "question": "Quel seuil du score de Burch-Wartofsky évoque une crise ?",
+          "reponse": "≥ 45 ; 25–44 = crise imminente."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Kahaly GJ et al. 2018 ETA Guideline for the Management of Graves' Hyperthyroidism. Eur Thyroid J 2018;7(4):167-186",
+          "date": "2018"
+        },
+        {
+          "reference": "Ross DS et al. 2016 ATA Guidelines for Hyperthyroidism and Other Causes of Thyrotoxicosis. Thyroid 2016;26(10):1343-1421",
+          "date": "2016"
+        },
+        {
+          "reference": "Satoh T et al. 2016 JTA/JES Guidelines for the management of thyroid storm. Endocr J 2016;63(12):1025-1064",
+          "date": "2016"
+        },
+        {
+          "reference": "Burch HB, Wartofsky L. Thyroid storm. Endocrinol Metab Clin North Am 1993;22(2):263-277",
+          "date": "1993"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-NEPH-0001",
+      "titre": "IRA estivale chez un diabétique hypertendu de 71 ans sous IEC, thiazidique et AINS",
+      "niveau": "generaliste",
+      "specialite": "NEPH",
+      "items_residanat": [
+        "RES-MED-122"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 71 ans, retraité, Biskra ; poids habituel 72 kg.",
+      "motif_consultation": "Asthénie intense et vertiges en juillet.",
+      "antecedents": "DT2 et HTA : ramipril 10 mg, hydrochlorothiazide 25 mg, metformine 1 000 mg × 2/j ; diclofénac depuis 10 jours pour une gonarthrose.",
+      "symptomes": "Diarrhée aqueuse depuis 3 jours, apports hydriques faibles, oligurie.",
+      "examen_clinique": "Poids 68 kg ; PA 92/55 mmHg (78/50 debout), FC 112/min, muqueuses sèches, pli cutané, pas de globe vésical, auscultation normale ; diurèse ≈ 0,3 mL/kg/h sur 8 h.",
+      "biologie": "Créatinine 38 mg/L (336 µmol/L) — 11 mg/L il y a 2 mois ; urée 1,90 g/L ; K 6,6 mmol/L (N 3,5–5,0) ; Na 133 ; HCO₃ 13 mmol/L, pH 7,26 ; lactates 3,8 mmol/L (N < 2) ; Na urinaire 14 mmol/L ; FeUrée 24 % ; osmolalité urinaire 540 mOsm/kg ; bandelette : protéines traces, sang négatif. ECG : ondes T amples et pointues, QRS fins.",
+      "imagerie": "Échographie : reins de 11 cm bien différenciés, pas de dilatation des cavités.",
+      "hypotheses_diagnostiques": [
+        "IRA fonctionnelle KDIGO 3 par hypovolémie (diarrhée, chaleur) aggravée par AINS + IEC + diurétique",
+        "Hyperkaliémie avec signes ECG",
+        "Acidose métabolique (hypoperfusion ± metformine)"
+      ],
+      "diagnostics_differentiels": [
+        "NTA constituée (si absence de récupération après remplissage)",
+        "Obstacle (éliminé par l'échographie)",
+        "NTIA aux AINS"
+      ],
+      "examens_a_demander": [
+        "Ionogramme toutes les 4–6 h",
+        "Lactates répétés",
+        "ECG/scope",
+        "Créatinine quotidienne"
+      ],
+      "diagnostic_final": "IRA fonctionnelle stade KDIGO 3 (créatinine × 3,5, oligurie) iatrogène et hypovolémique, compliquée d'hyperkaliémie et d'acidose.",
+      "traitement": "Protocole hyperkaliémie (calcium IV, insuline-glucose, ± salbutamol) ; remplissage par cristalloïdes en bolus réévalués ; arrêt du diclofénac, du ramipril, du thiazidique et de la metformine ; surveillance horaire de la diurèse ; critères d'EER surveillés (hyperkaliémie réfractaire, acidose, surcharge, acidose lactique).",
+      "surveillance": "Diurèse horaire, kaliémie, bicarbonates, lactates, créatinine quotidienne ; réévaluation à 3 mois après la sortie.",
+      "evolution": "Après 2,5 L en 6 h : PA 125/70, diurèse 1 mL/kg/h ; créatinine 13 mg/L à J5 ; pas d'EER ; reprise progressive du ramipril, metformine réintroduite après stabilisation du DFGe, éviction des AINS, éducation aux « jours de maladie ».",
+      "explication_pedagogique": "La majorité des IRA du sujet âgé en été sont fonctionnelles et iatrogènes ; l'échographie élimine l'obstacle ; la FeUrée remplace la FeNa sous diurétique ; l'hyperkaliémie est l'urgence immédiate.",
+      "questions": [
+        {
+          "question": "Quel stade KDIGO ?",
+          "reponse": "Stade 3 (créatinine ≈ 3,5 × la base)."
+        },
+        {
+          "question": "Pourquoi la FeUrée plutôt que la FeNa ?",
+          "reponse": "Sous diurétique (thiazidique), la natriurèse est augmentée : FeNa faussée."
+        },
+        {
+          "question": "Quel suivi après la sortie ?",
+          "reponse": "Réévaluation à 3 mois (DFGe, albuminurie) selon KDIGO ; reprise progressive de l'IEC avec contrôle de la kaliémie."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Kellum JA, Lameire N. KDIGO AKI summary (Parts 1 and 2). Crit Care 2013;17(1):204-205 ; KDIGO AKI Guideline. Kidney Int Suppl 2012;2(1):1-138",
+          "date": "2012-2013"
+        },
+        {
+          "reference": "Semler MW et al. SMART. N Engl J Med 2018;378(9):829-839",
+          "date": "2018"
+        },
+        {
+          "reference": "UK Kidney Association. Clinical Practice Guideline: Management of Hyperkalaemia in Adults (2023, mise à jour juillet 2026)",
+          "date": "2023/2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-NEPH-0002",
+      "titre": "Anurie et douleurs hypogastriques chez un homme de 76 ans",
+      "niveau": "etudiant",
+      "specialite": "NEPH",
+      "items_residanat": [
+        "RES-MED-122"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : homme, 76 ans, Tlemcen.",
+      "motif_consultation": "Absence de mictions depuis 18 heures et douleurs hypogastriques.",
+      "antecedents": "Hypertrophie bénigne de la prostate non traitée ; dysurie et pollakiurie nocturne depuis 2 ans ; prise récente d'un antihistaminique sédatif pour une toux.",
+      "symptomes": "Envies impérieuses sans miction, douleurs sus-pubiennes, agitation.",
+      "examen_clinique": "PA 165/90 mmHg, FC 96/min, apyrétique, globe vésical palpable remontant à l'ombilic, toucher rectal : prostate augmentée de volume, souple, non douloureuse.",
+      "biologie": "Créatinine 31 mg/L (base 10 mg/L il y a 6 mois) ; urée 1,40 g/L ; K 5,4 mmol/L (N 3,5–5,0) ; Na 138 ; HCO₃ 20 mmol/L ; bandelette urinaire (après sondage) : leucocytes +, nitrites −.",
+      "imagerie": "Échographie : vessie distendue (≈ 1 200 mL), dilatation pyélocalicielle bilatérale modérée, reins de taille normale.",
+      "hypotheses_diagnostiques": [
+        "IRA obstructive (post-rénale) sur rétention aiguë d'urine compliquant une hypertrophie prostatique, favorisée par un anticholinergique"
+      ],
+      "diagnostics_differentiels": [
+        "Cancer de la prostate",
+        "Lithiase urétrale",
+        "Vessie neurologique"
+      ],
+      "examens_a_demander": [
+        "ECBU",
+        "PSA à distance de l'épisode (faussement élevé après rétention/sondage)",
+        "Kaliémie et créatinine après drainage"
+      ],
+      "diagnostic_final": "IRA obstructive par rétention aiguë d'urine sur hypertrophie bénigne de la prostate, déclenchée par un médicament anticholinergique.",
+      "traitement": "Drainage vésical en urgence (sondage urétral ou cathéter sus-pubien), vidange ; arrêt de l'antihistaminique anticholinergique ; surveillance de la polyurie de levée d'obstacle (compensation partielle des pertes hydroélectrolytiques) ; avis urologique (alphabloquant, traitement chirurgical à distance).",
+      "surveillance": "Diurèse horaire, poids, ionogramme (natrémie, kaliémie) toutes les 6–12 h les premières 24–48 h, créatinine quotidienne.",
+      "evolution": "Diurèse de 5 L le premier jour (polyurie de levée d'obstacle) compensée par voie IV puis orale ; créatinine 12 mg/L à J4.",
+      "explication_pedagogique": "Une anurie évoque d'abord un obstacle ; l'examen (globe) et l'échographie sont décisifs ; le drainage est le traitement ; la polyurie de levée d'obstacle expose à la déshydratation et à l'hypokaliémie.",
+      "questions": [
+        {
+          "question": "Quel examen d'imagerie en premier ?",
+          "reponse": "Échographie rénale et vésicale."
+        },
+        {
+          "question": "Quelle complication surveiller après le drainage ?",
+          "reponse": "La polyurie de levée d'obstacle (déshydratation, dyskaliémie, dysnatrémie)."
+        },
+        {
+          "question": "Quand doser le PSA ?",
+          "reponse": "À distance de l'épisode (rétention et sondage l'augmentent)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Kellum JA, Lameire N. KDIGO AKI summary (Parts 1 and 2). Crit Care 2013;17(1):204-205 ; KDIGO AKI Guideline. Kidney Int Suppl 2012;2(1):1-138",
+          "date": "2012-2013"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-NEPH-0003",
+      "titre": "Faiblesse des jambes et bradycardie chez une femme de 74 ans en insuffisance rénale chronique",
+      "niveau": "residanat",
+      "specialite": "NEPH",
+      "items_residanat": [
+        "RES-MED-125"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 74 ans, Constantine.",
+      "motif_consultation": "Faiblesse des membres inférieurs et malaise.",
+      "antecedents": "DT2, MRC G3b A3 (DFGe 34, créatinine 16 mg/L), insuffisance cardiaque à FE réduite ; ramipril 10 mg, spironolactone 25 mg, furosémide 40 mg, bisoprolol 5 mg, insuline basale ; cotrimoxazole et ibuprofène depuis 4 jours.",
+      "symptomes": "Faiblesse proximale des membres inférieurs, malaise.",
+      "examen_clinique": "PA 105/60 mmHg, FC 46/min, conscience normale, pas de surcharge, déficit moteur proximal des membres inférieurs.",
+      "biologie": "K 7,2 mmol/L (prélèvement non hémolysé ; N 3,5–5,0) ; créatinine 28 mg/L ; HCO₃ 16 mmol/L ; glycémie 1,05 g/L (5,8 mmol/L) ; Na 134. ECG : bradycardie 46/min, ondes P absentes, QRS 140 ms, ondes T amples.",
+      "imagerie": "Non nécessaire en urgence.",
+      "hypotheses_diagnostiques": [
+        "Hyperkaliémie sévère iatrogène (IEC + spironolactone + triméthoprime + AINS) sur MRC avec IRA fonctionnelle"
+      ],
+      "diagnostics_differentiels": [
+        "Pseudohyperkaliémie (éliminée : prélèvement non hémolysé, ECG pathologique)",
+        "Insuffisance surrénale",
+        "Intoxication digitalique"
+      ],
+      "examens_a_demander": [
+        "Scope continu",
+        "Kaliémie à 1–2 h puis régulière",
+        "Glycémie horaire",
+        "Gaz du sang"
+      ],
+      "diagnostic_final": "Hyperkaliémie sévère (7,2 mmol/L) avec signes ECG menaçants, d'origine médicamenteuse sur MRC G3b et IRA fonctionnelle.",
+      "traitement": "Gluconate de calcium 10 % 30 mL IV en 10 min (répété si l'ECG reste anormal) ; insuline rapide 10 UI + glucose 25 g IV en 15 min avec relais glucosé (glycémie initiale < 7 mmol/L) ; salbutamol 10–20 mg nébulisé ; arrêt du ramipril, de la spironolactone, du cotrimoxazole et de l'ibuprofène ; SZC 10 g × 3/j si disponible ; furosémide IV ; avis néphrologique pour hémodialyse si échec.",
+      "surveillance": "Scope, ECG, kaliémie à 1–2 h puis régulièrement jusqu'à 24 h, glycémie capillaire rapprochée ≥ 6 h, créatinine.",
+      "evolution": "QRS 100 ms après la 2e dose de calcium ; K 6,1 à H1, 5,6 à H4, 5,0 à J1 ; créatinine 19 mg/L à J3 ; reprise prudente du ramipril à dose réduite, discussion d'un chélateur pour maintenir la spironolactone, éviction des AINS et du triméthoprime.",
+      "explication_pedagogique": "Séquence protéger–transférer–éliminer–surveiller ; l'hypoglycémie est la complication majeure de l'insuline-glucose ; à distance, préserver si possible les bloqueurs du SRAA grâce aux mesures hypokaliémiantes.",
+      "questions": [
+        {
+          "question": "Quelle est la première mesure ?",
+          "reponse": "Gluconate de calcium 10 % (30 mL en 10 min) en raison des anomalies ECG."
+        },
+        {
+          "question": "Pourquoi un relais glucosé ?",
+          "reponse": "Glycémie initiale basse (< 7 mmol/L), MRC et insuline basale : risque élevé d'hypoglycémie après insuline-glucose."
+        },
+        {
+          "question": "Quel médicament anti-infectieux a contribué ?",
+          "reponse": "Le triméthoprime (blocage d'ENaC, effet de type amiloride)."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "UK Kidney Association. Clinical Practice Guideline: Management of Hyperkalaemia in Adults (2023, mise à jour juillet 2026)",
+          "date": "2023/2026"
+        },
+        {
+          "reference": "Lott C et al. ERC Guidelines 2021: Cardiac arrest in special circumstances. Resuscitation 2021;161:152-219",
+          "date": "2021"
+        },
+        {
+          "reference": "Clase CM et al. Potassium homeostasis and management of dyskalemia in kidney diseases: KDIGO Controversies Conference. Kidney Int 2020;97(1):42-61",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "CAS-NEPH-0004",
+      "titre": "Crampes, asthénie et hypokaliémie chronique chez une femme de 27 ans",
+      "niveau": "dems",
+      "specialite": "NEPH",
+      "items_residanat": [
+        "RES-MED-125"
+      ],
+      "scenario": "fictif",
+      "identite": "Scénario fictif : femme, 27 ans, Béjaïa.",
+      "motif_consultation": "Crampes, paresthésies péribuccales et asthénie depuis plusieurs années ; hypokaliémie découverte lors d'un bilan.",
+      "antecedents": "Aucun traitement ; nie la prise de diurétiques ou de laxatifs ; pas de vomissements.",
+      "symptomes": "Crampes, épisodes de tétanie, polyurie modérée, envie de sel.",
+      "examen_clinique": "PA 100/62 mmHg, IMC 21 kg/m², signe de Chvostek positif, pas d'œdème.",
+      "biologie": "K 2,9 mmol/L ; HCO₃ 31 mmol/L (alcalose) ; Mg 0,48 mmol/L (N 0,70–1,05) ; Ca 2,40 mmol/L ; kaliurèse 68 mmol/24 h (> 15 = perte rénale) ; chlorurie élevée ; calciurie 0,8 mmol/24 h (basse) ; rénine élevée, aldostérone élevée ; recherche urinaire de diurétiques négative.",
+      "imagerie": "Échographie rénale normale ; radiographie des genoux : chondrocalcinose débutante.",
+      "hypotheses_diagnostiques": [
+        "Syndrome de Gitelman",
+        "Prise cachée de thiazidiques",
+        "Syndrome de Bartter"
+      ],
+      "diagnostics_differentiels": [
+        "Vomissements provoqués (chlorurie basse)",
+        "Hyperaldostéronisme primaire (HTA, rénine basse)",
+        "Abus de laxatifs (kaliurèse basse, acidose)"
+      ],
+      "examens_a_demander": [
+        "Recherche urinaire répétée de diurétiques",
+        "Étude génétique (SLC12A3)",
+        "ECG (QT)"
+      ],
+      "diagnostic_final": "Syndrome de Gitelman probable (hypokaliémie, alcalose, hypomagnésémie, hypocalciurie, PA basse, hyperaldostéronisme secondaire), à confirmer par la génétique.",
+      "traitement": "Supplémentation orale en potassium (KCl) et en magnésium à vie, régime libéral en sel ; épargneurs potassiques ou autres traitements en milieu spécialisé si insuffisant ; éviter les médicaments allongeant le QT ; information sur la grossesse.",
+      "surveillance": "Kaliémie, magnésémie, ECG ; tolérance digestive des sels de magnésium ; suivi spécialisé.",
+      "evolution": "Kaliémie 3,3 mmol/L et magnésémie 0,62 mmol/L sous traitement ; disparition des crampes.",
+      "explication_pedagogique": "Hypokaliémie + alcalose + PA basse/normale + perte rénale : diurétiques, vomissements, Bartter, Gitelman ; la chlorurie, la calciurie et la magnésémie orientent ; la prise cachée de diurétiques doit être éliminée.",
+      "questions": [
+        {
+          "question": "Quel élément distingue Gitelman et Bartter ?",
+          "reponse": "La calciurie : basse dans le Gitelman, normale ou élevée dans le Bartter ; l'hypomagnésémie est typique du Gitelman."
+        },
+        {
+          "question": "Pourquoi l'aldostérone est-elle élevée ?",
+          "reponse": "Hyperaldostéronisme secondaire à la perte de sel (rénine élevée), sans HTA."
+        },
+        {
+          "question": "Que corriger en priorité avec le potassium ?",
+          "reponse": "Le magnésium, sans quoi l'hypokaliémie reste réfractaire."
+        }
+      ],
+      "sources": [
+        {
+          "reference": "Blanchard A et al. Gitelman syndrome: KDIGO Controversies Conference. Kidney Int 2017;91(1):24-33",
+          "date": "2017"
+        },
+        {
+          "reference": "Kardalas E et al. Hypokalemia: a clinical update. Endocr Connect 2018;7(4):R135-R146",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    }
+  ]
+}

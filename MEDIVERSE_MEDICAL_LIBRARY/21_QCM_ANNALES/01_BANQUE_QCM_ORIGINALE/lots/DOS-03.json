@@ -1,0 +1,3004 @@
+{
+  "agent": "DOS-03",
+  "date": "2026-11-19",
+  "qcm": [
+    {
+      "id": "QCM-DIAB-0001",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Chez un adulte non enceinte, quelle(s) situation(s) permet(tent) de retenir le diagnostic de diabète sucré selon les critères ADA 2026 ?",
+      "propositions": {
+        "A": "HbA1c à 6,7 % et glycémie à jeun à 1,32 g/L mesurées sur le même prélèvement, chez un patient asymptomatique",
+        "B": "Glycémie aléatoire à 2,15 g/L chez un patient présentant une polyuro-polydipsie et un amaigrissement",
+        "C": "Glycémie à jeun à 1,18 g/L contrôlée à deux reprises",
+        "D": "Glycémie à 1,85 g/L deux heures après une charge orale de 75 g de glucose",
+        "E": "HbA1c isolée à 6,8 % chez un patient transfusé 3 semaines auparavant pour une hémorragie digestive"
+      },
+      "reponses_correctes": [
+        "A",
+        "B"
+      ],
+      "explication_generale": "Le diagnostic repose sur HbA1c ≥ 6,5 %, GAJ ≥ 1,26 g/L, G2h-HGPO ≥ 2,00 g/L, ou glycémie aléatoire ≥ 2,00 g/L avec symptômes. Sans hyperglycémie franche, deux résultats anormaux sont requis (deux tests différents sur le même prélèvement ou un même test répété).",
+      "explications_par_proposition": {
+        "A": "Vrai : deux tests différents anormaux sur le même prélèvement suffisent à confirmer le diagnostic.",
+        "B": "Vrai : glycémie aléatoire ≥ 2,00 g/L avec symptômes classiques — aucune confirmation nécessaire.",
+        "C": "Faux : 1,18 g/L correspond à une hyperglycémie modérée à jeun (prédiabète), pas à un diabète.",
+        "D": "Faux : 1,40–1,99 g/L à 2 h définit l'intolérance au glucose.",
+        "E": "Faux : une transfusion récente rend l'HbA1c ininterprétable ; utiliser les critères glycémiques, et un résultat isolé ne suffit pas chez l'asymptomatique."
+      },
+      "specialite": "DIAB",
+      "items_residanat": [
+        "RES-MED-091"
+      ],
+      "theme": "Critères diagnostiques du diabète",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Retenir le diagnostic sur une valeur isolée chez un asymptomatique, ou se fier à une HbA1c faussée.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ADA. 2. Diagnosis and Classification of Diabetes: Standards of Care in Diabetes—2026. Diabetes Care 2026;49(Suppl 1):S27-S49",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DIAB-0002",
+      "format": "QCS (réponse unique)",
+      "enonce": "Concernant le prédiabète, quelle proposition est exacte ?",
+      "propositions": {
+        "A": "Selon l'ADA, l'hyperglycémie modérée à jeun débute à 1,10 g/L",
+        "B": "Selon l'ADA, une HbA1c comprise entre 5,7 et 6,4 % définit un prédiabète",
+        "C": "Le risque de diabète est nul en dessous de la borne inférieure des intervalles",
+        "D": "Une personne avec prédiabète doit être recontrôlée tous les 5 ans",
+        "E": "L'intolérance au glucose se définit par une glycémie à jeun entre 1,26 et 1,40 g/L"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "ADA 2026 : prédiabète = HbA1c 5,7–6,4 %, GAJ 1,00–1,25 g/L ou G2h 1,40–1,99 g/L ; le risque est continu ; contrôle annuel. L'OMS situe la borne inférieure de l'HMJ à 1,10 g/L.",
+      "explications_par_proposition": {
+        "A": "Faux : 1,10 g/L est le seuil de l'OMS ; l'ADA retient 1,00 g/L (5,6 mmol/L).",
+        "B": "Vrai.",
+        "C": "Faux : le risque est continu et s'étend sous la borne inférieure.",
+        "D": "Faux : contrôle annuel chez les personnes avec prédiabète.",
+        "E": "Faux : l'intolérance au glucose se définit sur la glycémie à 2 h de l'HGPO (1,40–1,99 g/L)."
+      },
+      "specialite": "DIAB",
+      "items_residanat": [
+        "RES-MED-091"
+      ],
+      "theme": "Prédiabète — seuils et divergences ADA/OMS",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confusion des seuils ADA (1,00 g/L) et OMS (1,10 g/L).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ADA. 2. Diagnosis and Classification of Diabetes: Standards of Care in Diabetes—2026. Diabetes Care 2026;49(Suppl 1):S27-S49",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DIAB-0003",
+      "format": "QCM (réponses multiples)",
+      "enonce": "À propos de la stadification du diabète de type 1 (ADA 2026), quelle(s) proposition(s) est(sont) exacte(s) ?",
+      "propositions": {
+        "A": "Le stade 1 associe au moins deux auto-anticorps anti-îlots et une normoglycémie",
+        "B": "Le stade 2 associe auto-immunité et dysglycémie, sans symptômes",
+        "C": "Le stade 3 correspond au diabète symptomatique répondant aux critères diagnostiques standards",
+        "D": "Au stade 1, le risque de diabète symptomatique à 5 ans est inférieur à 5 %",
+        "E": "Les auto-anticorps peuvent disparaître au stade 3"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Stade 1 : ≥ 2 auto-anticorps + normoglycémie ; stade 2 : auto-immunité + dysglycémie, asymptomatique ; stade 3 : diabète clinique. Le risque de progression à 5 ans au stade 1 est d'environ 44 %.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : environ 44 % à 5 ans selon l'ADA, avec une grande variabilité.",
+        "E": "Vrai : le tableau ADA précise que les auto-anticorps peuvent devenir indétectables."
+      },
+      "specialite": "DIAB",
+      "items_residanat": [
+        "RES-MED-091"
+      ],
+      "theme": "DT1 — physiopathologie et stades",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ADA. 2. Diagnosis and Classification of Diabetes: Standards of Care in Diabetes—2026. Diabetes Care 2026;49(Suppl 1):S27-S49",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DIAB-0004",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 38 ans, IMC 22 kg/m², est traité depuis 10 mois pour un « DT2 » par metformine puis sulfamide, avec une HbA1c passée de 7,2 % à 9,8 % et un amaigrissement de 4 kg. Quels éléments sont pertinents ?",
+      "propositions": {
+        "A": "Le tableau est évocateur d'un diabète auto-immun d'évolution lente (LADA)",
+        "B": "Le dosage des anticorps anti-GAD est indiqué",
+        "C": "Un peptide C bas renforcerait l'indication d'une insulinothérapie",
+        "D": "L'ajout d'un troisième antidiabétique oral est l'option la plus logique sans autre exploration",
+        "E": "La positivité isolée des anti-GAD est associée à une perte plus lente de l'insulinosécrétion que la multipositivité"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Adulte jeune, mince, échec rapide des antidiabétiques oraux et amaigrissement : penser LADA ; doser les auto-anticorps (anti-GAD) et le peptide C ; ne pas retarder l'insuline.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : l'ADA recommande des auto-anticorps standardisés en cas de phénotype chevauchant celui du DT1.",
+        "C": "Vrai : l'insulinopénie oriente vers l'insuline.",
+        "D": "Faux : risque d'inertie et de décompensation cétosique ; explorer d'abord.",
+        "E": "Vrai : l'ADA rapporte une perte plus lente de l'insulinosécrétion avec des anti-GAD isolés."
+      },
+      "specialite": "DIAB",
+      "items_residanat": [
+        "RES-MED-091"
+      ],
+      "theme": "Classification — LADA",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Étiqueter DT2 tout diabète de l'adulte et multiplier les ADO malgré l'échec.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ADA. 2. Diagnosis and Classification of Diabetes: Standards of Care in Diabetes—2026. Diabetes Care 2026;49(Suppl 1):S27-S49",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DIAB-0005",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la metformine selon l'ADA 2026, quelle(s) proposition(s) est(sont) exacte(s) ?",
+      "propositions": {
+        "A": "Elle ne doit pas être initiée si le DFGe est inférieur à 45 mL/min/1,73 m²",
+        "B": "Elle doit être arrêtée si le DFGe devient inférieur à 30 mL/min/1,73 m²",
+        "C": "Elle doit être arrêtée dès que le DFGe passe sous 60 mL/min/1,73 m²",
+        "D": "Son usage prolongé expose à une carence en vitamine B12",
+        "E": "Elle provoque fréquemment des hypoglycémies sévères en monothérapie"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Metformine : pas d'initiation si DFGe < 45, réduction de dose si < 45 chez les patients déjà traités, arrêt si < 30 ; troubles digestifs ; carence en B12 ; pas d'hypoglycémie en monothérapie ; acidose lactique rare.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : elle peut être poursuivie entre 30 et 60 (dose réduite sous 45).",
+        "D": "Vrai : surveillance périodique de la B12 recommandée.",
+        "E": "Faux : pas d'hypoglycémie en monothérapie."
+      },
+      "specialite": "DIAB",
+      "items_residanat": [
+        "RES-MED-091"
+      ],
+      "theme": "Antidiabétiques — metformine et fonction rénale",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Contre-indiquer la metformine dès un DFG < 60.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ADA. 9. Pharmacologic Approaches to Glycemic Treatment: Standards of Care in Diabetes—2026. Diabetes Care 2026;49(Suppl 1):S183-S215",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DIAB-0006",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les inhibiteurs du SGLT2 dans le DT2, quelle(s) proposition(s) est(sont) exacte(s) ?",
+      "propositions": {
+        "A": "Ils sont recommandés en cas d'insuffisance cardiaque, quelle que soit l'HbA1c",
+        "B": "Dans la maladie rénale diabétique, ils peuvent être initiés si le DFGe est ≥ 20 mL/min/1,73 m²",
+        "C": "Leur effet hypoglycémiant augmente lorsque le DFG diminue",
+        "D": "Ils exposent à une acidocétose parfois euglycémique, favorisée par le jeûne prolongé ou un régime cétogène",
+        "E": "Chez un patient non dialysé, ils peuvent être poursuivis lorsque le DFGe descend sous 20 mL/min/1,73 m²"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "iSGLT2 : indiqués en cas d'insuffisance cardiaque (FE réduite ou préservée) et de MRD indépendamment de l'HbA1c ; initiation si DFGe ≥ 20, poursuite possible sous 20 hors dialyse ; effet glycémique réduit sous 45 ; risque d'acidocétose euglycémique.",
+      "explications_par_proposition": {
+        "A": "Vrai (recommandation 9.8).",
+        "B": "Vrai (recommandation 11.7a).",
+        "C": "Faux : l'effet sur la glycémie diminue quand le DFG baisse (< 45), alors que les bénéfices cardio-rénaux persistent.",
+        "D": "Vrai (recommandation 9.39).",
+        "E": "Vrai : poursuite possible sous 20 mL/min/1,73 m² hors dialyse pour ralentir la progression et pour le bénéfice CV (11.11a)."
+      },
+      "specialite": "DIAB",
+      "items_residanat": [
+        "RES-MED-091"
+      ],
+      "theme": "iSGLT2 — indications et risques",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Arrêter un iSGLT2 parce qu'il « ne baisse plus la glycémie » en MRD.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ADA. 9. Pharmacologic Approaches to Glycemic Treatment: Standards of Care in Diabetes—2026. Diabetes Care 2026;49(Suppl 1):S183-S215",
+          "date": "2026"
+        },
+        {
+          "reference": "ADA. 11. Chronic Kidney Disease and Risk Management: Standards of Care in Diabetes—2026. Diabetes Care 2026;49(Suppl 1):S246-S260",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DIAB-0007",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une femme de 61 ans, DT2 depuis 9 ans, sous metformine + sitagliptine, a une HbA1c à 8,4 %, pas d'amaigrissement ni de symptôme, un IMC à 33 kg/m², sans maladie cardio-rénale. Selon l'ADA 2026, quelle(s) attitude(s) est(sont) appropriée(s) ?",
+      "propositions": {
+        "A": "Préférer un traitement à base de GLP-1 (AR GLP-1 ou tirzépatide) à l'insuline",
+        "B": "Associer l'AR GLP-1 à la sitagliptine pour un effet additif",
+        "C": "Débuter d'emblée un schéma basal-bolus",
+        "D": "Considérer le poids comme un objectif thérapeutique",
+        "E": "Si une insuline basale devient nécessaire plus tard, débuter à 0,1–0,2 U/kg/j"
+      },
+      "reponses_correctes": [
+        "A",
+        "D",
+        "E"
+      ],
+      "explication_generale": "En l'absence d'hyperglycémie sévère, un traitement à base de GLP-1 est préféré à l'insuline ; arrêter l'iDPP-4 (pas d'association avec un AR GLP-1) ; le poids est un objectif ; insuline basale à 0,1–0,2 U/kg/j si nécessaire.",
+      "explications_par_proposition": {
+        "A": "Vrai (recommandation 9.21).",
+        "B": "Faux : association iDPP-4 + AR GLP-1 non recommandée (9.18).",
+        "C": "Faux : pas d'indication d'insuline d'emblée (HbA1c < 10 %, pas de catabolisme).",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "DIAB",
+      "items_residanat": [
+        "RES-MED-091"
+      ],
+      "theme": "Stratégie du DT2 — intensification",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Associer iDPP-4 et AR GLP-1 ; passer à l'insuline sans indication.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ADA. 9. Pharmacologic Approaches to Glycemic Treatment: Standards of Care in Diabetes—2026. Diabetes Care 2026;49(Suppl 1):S183-S215",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DIAB-0008",
+      "format": "QCS (réponse unique)",
+      "enonce": "Un adulte de 60 kg, DT1 nouvellement diagnostiqué et métaboliquement stabilisé, débute un schéma basal-bolus. Quelle répartition initiale est la plus conforme aux repères de l'ADA 2026 ?",
+      "propositions": {
+        "A": "Dose totale 30 U/j, dont environ 15 U de basale",
+        "B": "Dose totale 60 U/j, dont 45 U de basale",
+        "C": "Dose totale 12 U/j uniquement en basale",
+        "D": "Dose totale 30 U/j uniquement en bolus prandiaux",
+        "E": "Dose totale 90 U/j répartie en trois prémélanges"
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "Repère ADA : ~0,5 U/kg/j chez l'adulte DT1 stable, dont environ la moitié en basale, le reste en bolus prandiaux, puis titration (ratio insuline/glucides, facteur de correction).",
+      "explications_par_proposition": {
+        "A": "Vrai : 0,5 × 60 = 30 U/j, ~50 % en basale.",
+        "B": "Faux : 1 U/kg/j est excessif au départ et la part basale de 75 % expose à la sur-basalisation.",
+        "C": "Faux : sous-dosage et absence de couverture prandiale.",
+        "D": "Faux : la basale est indispensable dans le DT1 (risque d'acidocétose).",
+        "E": "Faux : dose excessive et schéma inadapté au DT1."
+      },
+      "specialite": "DIAB",
+      "items_residanat": [
+        "RES-MED-091"
+      ],
+      "theme": "Insulinothérapie du DT1",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ADA. 9. Pharmacologic Approaches to Glycemic Treatment: Standards of Care in Diabetes—2026. Diabetes Care 2026;49(Suppl 1):S183-S215",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DIAB-0009",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la rétinopathie diabétique, quelle(s) proposition(s) est(sont) exacte(s) selon l'ADA 2026 ?",
+      "propositions": {
+        "A": "Dans le DT2, le premier examen ophtalmologique se fait au diagnostic",
+        "B": "Dans le DT1 de l'adulte, le premier examen se fait 5 ans après le début",
+        "C": "Les anti-VEGF intravitréens sont le traitement de première intention de l'œdème maculaire central avec baisse d'acuité",
+        "D": "La rétinopathie contre-indique l'aspirine à visée cardioprotectrice",
+        "E": "Une rétinopathie non proliférante modérée justifie un adressage rapide à l'ophtalmologiste"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Dépistage au diagnostic du DT2 et 5 ans après le début du DT1 ; anti-VEGF en 1re intention de l'œdème maculaire central ; la RD ne contre-indique pas l'aspirine ; adressage dès la RD non proliférante modérée.",
+      "explications_par_proposition": {
+        "A": "Vrai (12.4).",
+        "B": "Vrai (12.3).",
+        "C": "Vrai (12.12).",
+        "D": "Faux : l'aspirine n'augmente pas le risque d'hémorragie rétinienne (12.14).",
+        "E": "Vrai (12.9)."
+      },
+      "specialite": "DIAB",
+      "items_residanat": [
+        "RES-MED-091"
+      ],
+      "theme": "Complications — rétinopathie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Contre-indiquer l'aspirine à cause d'une rétinopathie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ADA. 12. Retinopathy, Neuropathy, and Foot Care: Standards of Care in Diabetes—2026. Diabetes Care 2026;49(Suppl 1):S261-S276",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DIAB-0010",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un DT2 hypertendu a un DFGe à 48 mL/min/1,73 m² et un RAC à 420 mg/g. Quelle(s) mesure(s) est(sont) recommandée(s) ?",
+      "propositions": {
+        "A": "IEC ou ARA2 à la dose maximale tolérée",
+        "B": "Association IEC + ARA2 pour une double protection",
+        "C": "iSGLT2 à bénéfice rénal démontré",
+        "D": "Arrêt de l'IEC si la créatinine augmente de 15 % après l'initiation, sans hypovolémie",
+        "E": "Antagoniste non stéroïdien du récepteur minéralocorticoïde (finérénone) si l'albuminurie persiste, avec contrôle de la kaliémie à 1 mois"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "MRD G3a A3 : IEC/ARA2 titrés, iSGLT2 (DFGe ≥ 20), finérénone si albuminurie persistante (DFGe ≥ 25) ; ne pas associer IEC + ARA2 ; tolérer une hausse de créatinine ≤ 30 %.",
+      "explications_par_proposition": {
+        "A": "Vrai (11.6a).",
+        "B": "Faux : double blocage du SRAA à éviter (10.9).",
+        "C": "Vrai (11.7a).",
+        "D": "Faux : poursuivre si la hausse est ≤ 30 % sans déplétion volémique (11.6d).",
+        "E": "Vrai (11.8)."
+      },
+      "specialite": "DIAB",
+      "items_residanat": [
+        "RES-MED-091"
+      ],
+      "theme": "Complications — maladie rénale diabétique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Arrêter le bloqueur du SRAA pour une hausse modérée et attendue de la créatinine.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ADA. 11. Chronic Kidney Disease and Risk Management: Standards of Care in Diabetes—2026. Diabetes Care 2026;49(Suppl 1):S246-S260",
+          "date": "2026"
+        },
+        {
+          "reference": "ADA. 10. Cardiovascular Disease and Risk Management: Standards of Care in Diabetes—2026. Diabetes Care 2026;49(Suppl 1):S216-S245",
+          "date": "2026"
+        },
+        {
+          "reference": "KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of CKD. Kidney Int 2024;105(4S):S117-S314",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DIAB-0011",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un diabétique de 58 ans, neuropathe, présente depuis 10 jours un pied droit chaud, rouge, œdématié, peu douloureux, sans plaie ; la radiographie est normale. Quelle(s) proposition(s) est(sont) exacte(s) ?",
+      "propositions": {
+        "A": "Une neuro-ostéoarthropathie de Charcot en phase aiguë doit être évoquée",
+        "B": "Une radiographie normale élimine le diagnostic",
+        "C": "La décharge stricte du pied est une mesure thérapeutique essentielle",
+        "D": "Une antibiothérapie probabiliste est systématique",
+        "E": "L'examen des pieds doit ensuite être réalisé à chaque consultation"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Pied chaud, rouge, œdématié, peu douloureux chez un neuropathe : Charcot aigu jusqu'à preuve du contraire ; la radiographie peut être normale au début (IRM) ; décharge stricte ; antibiotiques seulement si infection ; pied à risque très élevé → examen à chaque visite.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : les lésions radiographiques peuvent manquer à la phase initiale ; l'IRM est plus sensible.",
+        "C": "Vrai.",
+        "D": "Faux : pas d'infection documentée (pas de plaie) ; l'antibiothérapie n'est pas systématique.",
+        "E": "Vrai : perte de sensibilité protectrice → inspection à chaque visite (12.25)."
+      },
+      "specialite": "DIAB",
+      "items_residanat": [
+        "RES-MED-091"
+      ],
+      "theme": "Complications — pied diabétique",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Traiter un Charcot aigu comme une cellulite ou une thrombose veineuse.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ADA. 12. Retinopathy, Neuropathy, and Foot Care: Standards of Care in Diabetes—2026. Diabetes Care 2026;49(Suppl 1):S261-S276",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DIAB-0012",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la prise en charge du diabète pendant le Ramadan (IDF-DAR 2021), quelle(s) proposition(s) est(sont) exacte(s) ?",
+      "propositions": {
+        "A": "Une stratification individuelle du risque doit précéder la décision de jeûner",
+        "B": "Le jeûne doit être rompu si la glycémie est inférieure à 70 mg/dL (3,9 mmol/L)",
+        "C": "Le jeûne doit être rompu si la glycémie dépasse 300 mg/dL (16,7 mmol/L)",
+        "D": "L'autosurveillance glycémique capillaire rompt le jeûne et doit être évitée",
+        "E": "Les sulfamides hypoglycémiants ne nécessitent aucune adaptation"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "IDF-DAR 2021 : score de risque et conseil individualisé, éducation pré-Ramadan, adaptation des traitements (sulfamides et insulines), autosurveillance renforcée qui ne rompt pas le jeûne, rupture si < 70 ou > 300 mg/dL ou symptômes.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : l'autosurveillance ne rompt pas le jeûne et doit être renforcée.",
+        "E": "Faux : risque d'hypoglycémie ; adaptation (réduction de dose, choix des molécules à moindre risque)."
+      },
+      "specialite": "DIAB",
+      "items_residanat": [
+        "RES-MED-091"
+      ],
+      "theme": "Particularités — Ramadan",
+      "difficulte": 1,
+      "niveau": "generaliste",
+      "piege_classique": "Déconseiller l'autosurveillance pendant le jeûne.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Hassanein M et al. Diabetes and Ramadan: Practical guidelines 2021 (IDF-DAR). Diabetes Res Clin Pract 2022;185:109185",
+          "date": "2021"
+        },
+        {
+          "reference": "Belhadj M et al. Perspectives of type 2 diabetes mellitus management in Algeria. Front Clin Diabetes Healthc 2025;6:1495849",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DIAB-0013",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon le consensus international de 2024 sur les crises hyperglycémiques de l'adulte, quelle(s) proposition(s) définit(ssent) correctement l'acidocétose diabétique ?",
+      "propositions": {
+        "A": "Un diabète connu suffit pour le critère « D », quelle que soit la glycémie",
+        "B": "Le seuil glycémique retenu est > 250 mg/dL (13,9 mmol/L)",
+        "C": "Le critère cétose est un β-hydroxybutyrate ≥ 3,0 mmol/L",
+        "D": "Le critère acidose est un pH < 7,30 et/ou des bicarbonates < 18 mmol/L",
+        "E": "Deux des trois critères suffisent au diagnostic"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Critères 2024 : D = glycémie ≥ 200 mg/dL ou diabète connu ; K = β-OHB ≥ 3,0 mmol/L (ou cétonurie ≥ 2+) ; A = pH < 7,30 et/ou HCO₃ < 18 mmol/L. Les trois composantes sont nécessaires.",
+      "explications_par_proposition": {
+        "A": "Vrai : intègre l'ACD euglycémique.",
+        "B": "Faux : seuil abaissé à ≥ 200 mg/dL en 2024 (> 250 mg/dL était le seuil de 2009).",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : les trois critères sont requis."
+      },
+      "specialite": "DIAB",
+      "items_residanat": [
+        "RES-MED-092"
+      ],
+      "theme": "ACD — critères diagnostiques 2024",
+      "difficulte": 1,
+      "niveau": "residanat",
+      "piege_classique": "Utiliser encore le seuil de 250 mg/dL et méconnaître l'ACD euglycémique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Umpierrez GE et al. Hyperglycemic Crises in Adults With Diabetes: A Consensus Report. Diabetes Care 2024;47(8):1257-1275",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DIAB-0014",
+      "format": "QCS (réponse unique)",
+      "enonce": "Un patient a : glycémie 3,80 g/L, β-OHB 4,2 mmol/L, pH 7,18, bicarbonates 12 mmol/L, conscience normale à somnolente. Quelle classe de sévérité (consensus 2024) ?",
+      "propositions": {
+        "A": "ACD légère",
+        "B": "ACD modérée",
+        "C": "ACD sévère",
+        "D": "État hyperosmolaire pur",
+        "E": "Cétose simple sans acidocétose"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "ACD modérée : pH 7,00–7,25, HCO₃ 10 à < 15 mmol/L, β-OHB 3–6 mmol/L, patient alerte ou somnolent → unité de soins intermédiaires.",
+      "explications_par_proposition": {
+        "A": "Faux : la forme légère a un pH > 7,25 et des HCO₃ 15–18.",
+        "B": "Vrai.",
+        "C": "Faux : sévère si pH < 7,00, HCO₃ < 10, β-OHB > 6 ou stupeur/coma.",
+        "D": "Faux : cétose et acidose significatives.",
+        "E": "Faux : acidose présente."
+      },
+      "specialite": "DIAB",
+      "items_residanat": [
+        "RES-MED-092"
+      ],
+      "theme": "ACD — classification de sévérité",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Umpierrez GE et al. Hyperglycemic Crises in Adults With Diabetes: A Consensus Report. Diabetes Care 2024;47(8):1257-1275",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DIAB-0015",
+      "format": "QCS (réponse unique)",
+      "enonce": "Une ACD est diagnostiquée chez un adulte ; la kaliémie initiale est à 3,1 mmol/L. Quelle est la conduite immédiate la plus appropriée ?",
+      "propositions": {
+        "A": "Débuter l'insuline IV à 0,1 U/kg/h sans potassium",
+        "B": "Différer l'insuline et administrer du KCl IV (environ 10 mmol/h) jusqu'à une kaliémie > 3,5 mmol/L, tout en remplissant",
+        "C": "Administrer un bolus d'insuline de 0,1 U/kg puis du KCl",
+        "D": "Prescrire du bicarbonate de sodium pour faire remonter la kaliémie",
+        "E": "Attendre la normalisation spontanée de la kaliémie sous remplissage seul sans apport"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Kaliémie < 3,5 mmol/L (5–10 % des ACD) : différer l'insuline (risque d'arythmie et de paralysie respiratoire) et supplémenter en potassium (≈ 10 mmol/h selon le consensus) jusqu'à K > 3,5 mmol/L ; le remplissage commence sans attendre.",
+      "explications_par_proposition": {
+        "A": "Faux : l'insuline ferait chuter davantage la kaliémie.",
+        "B": "Vrai.",
+        "C": "Faux : aucune insuline tant que K < 3,5.",
+        "D": "Faux : les bicarbonates aggravent l'hypokaliémie et ne sont indiqués que si pH < 7,0.",
+        "E": "Faux : déficit potassique total important (3–6 mmol/kg)."
+      },
+      "specialite": "DIAB",
+      "items_residanat": [
+        "RES-MED-092"
+      ],
+      "theme": "ACD — potassium",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Débuter l'insuline sans regarder la kaliémie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Umpierrez GE et al. Hyperglycemic Crises in Adults With Diabetes: A Consensus Report. Diabetes Care 2024;47(8):1257-1275",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DIAB-0016",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'insulinothérapie IV de l'ACD de l'adulte (consensus 2024), quelle(s) proposition(s) est(sont) exacte(s) ?",
+      "propositions": {
+        "A": "Le débit fixe initial recommandé est de 0,1 U/kg/h",
+        "B": "Un bolus de 0,1 U/kg est systématique avant la perfusion",
+        "C": "Quand la glycémie passe sous 250 mg/dL, on ajoute du glucose 5–10 % et on réduit l'insuline à 0,05 U/kg/h",
+        "D": "L'insuline IV est arrêtée dès que la glycémie atteint 200 mg/dL",
+        "E": "Les analogues rapides SC toutes les 1–2 h sont une alternative pour les ACD légères à modérées non compliquées"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Insuline IV 0,1 U/kg/h ; bolus seulement si l'accès veineux est retardé ; glucose + 0,05 U/kg/h dès glycémie < 250 mg/dL, cible ≈ 200 mg/dL jusqu'à résolution de la cétose ; SC possible dans les formes légères/modérées non compliquées.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : bolus réservé au retard prévisible d'accès veineux.",
+        "C": "Vrai.",
+        "D": "Faux : poursuivre jusqu'à résolution de la cétose, en ajoutant du glucose.",
+        "E": "Vrai."
+      },
+      "specialite": "DIAB",
+      "items_residanat": [
+        "RES-MED-092"
+      ],
+      "theme": "ACD — insulinothérapie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Arrêter l'insuline sur la normalisation glycémique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Umpierrez GE et al. Hyperglycemic Crises in Adults With Diabetes: A Consensus Report. Diabetes Care 2024;47(8):1257-1275",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DIAB-0017",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quels sont les critères de résolution de l'ACD retenus par le consensus 2024 ?",
+      "propositions": {
+        "A": "Cétonémie < 0,6 mmol/L",
+        "B": "pH veineux ≥ 7,3 ou bicarbonates ≥ 18 mmol/L",
+        "C": "Normalisation du trou anionique",
+        "D": "Négativation de la cétonurie",
+        "E": "Glycémie idéalement < 200 mg/dL"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "Résolution = β-OHB < 0,6 mmol/L ET (pH ≥ 7,3 ou HCO₃ ≥ 18), glycémie idéalement < 200 mg/dL. Le trou anionique (acidose hyperchlorémique) et la cétonurie (conversion du β-OHB en acéto-acétate) sont trompeurs.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : faussé par l'acidose hyperchlorémique liée au NaCl 0,9 %.",
+        "D": "Faux : la cétonurie peut persister alors que la cétonémie est corrigée.",
+        "E": "Vrai."
+      },
+      "specialite": "DIAB",
+      "items_residanat": [
+        "RES-MED-092"
+      ],
+      "theme": "ACD — critères de résolution",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prolonger l'insuline IV pour une cétonurie persistante.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Umpierrez GE et al. Hyperglycemic Crises in Adults With Diabetes: A Consensus Report. Diabetes Care 2024;47(8):1257-1275",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DIAB-0018",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une femme de 47 ans, DT2 sous metformine + dapagliflozine, consulte au 3e jour d'un jeûne prolongé pour nausées, douleurs abdominales et polypnée. Glycémie 1,85 g/L, pH 7,16, HCO₃ 9 mmol/L, β-OHB 5,1 mmol/L. Quelle(s) proposition(s) est(sont) exacte(s) ?",
+      "propositions": {
+        "A": "Le diagnostic d'ACD est exclu car la glycémie est < 2,00 g/L",
+        "B": "Il s'agit d'une ACD euglycémique favorisée par l'iSGLT2 et le jeûne",
+        "C": "Du glucose 5–10 % doit être associé d'emblée au sérum salé pour permettre l'insulinothérapie",
+        "D": "L'iSGLT2 doit être arrêté à l'admission",
+        "E": "La reprise systématique de l'iSGLT2 dès la sortie est recommandée"
+      },
+      "reponses_correctes": [
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "ACD euglycémique (glycémie < 200 mg/dL) : cause majoritaire actuelle = iSGLT2, favorisée par le jeûne. Traitement standard avec glucose d'emblée ; arrêt de l'iSGLT2 ; reprise non recommandée de façon systématique après une ACD dans le DT2.",
+      "explications_par_proposition": {
+        "A": "Faux : diabète connu + cétose + acidose suffisent.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : la reprise après résolution n'est pas recommandée de façon systématique (manque de données de sécurité)."
+      },
+      "specialite": "DIAB",
+      "items_residanat": [
+        "RES-MED-092"
+      ],
+      "theme": "ACD euglycémique — iSGLT2",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Écarter une ACD sur une glycémie « presque normale ».",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Umpierrez GE et al. Hyperglycemic Crises in Adults With Diabetes: A Consensus Report. Diabetes Care 2024;47(8):1257-1275",
+          "date": "2024"
+        },
+        {
+          "reference": "ADA. 9. Pharmacologic Approaches to Glycemic Treatment: Standards of Care in Diabetes—2026. Diabetes Care 2026;49(Suppl 1):S183-S215",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DIAB-0019",
+      "format": "QCS (réponse unique)",
+      "enonce": "Un homme de 82 ans, confus, a : Na 148 mmol/L, glucose 45 mmol/L (8,1 g/L), urée 22 mmol/L, β-OHB 0,8 mmol/L, pH 7,36. Quelle est son osmolalité efficace calculée ?",
+      "propositions": {
+        "A": "296 mOsm/kg",
+        "B": "341 mOsm/kg",
+        "C": "363 mOsm/kg",
+        "D": "318 mOsm/kg",
+        "E": "386 mOsm/kg"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Osmolalité efficace = 2 × Na + glucose = 296 + 45 = 341 mOsm/kg (> 300 : critère d'EHH). L'osmolalité totale (avec l'urée) serait de 363 mOsm/kg. Glycémie > 600 mg/dL, absence de cétose et d'acidose : EHH.",
+      "explications_par_proposition": {
+        "A": "Faux : 2 × Na seul, sans le glucose.",
+        "B": "Vrai.",
+        "C": "Faux : osmolalité totale (incluant l'urée), non efficace.",
+        "D": "Faux : erreur de calcul.",
+        "E": "Faux : erreur de calcul."
+      },
+      "specialite": "DIAB",
+      "items_residanat": [
+        "RES-MED-092"
+      ],
+      "theme": "EHH — calcul de l'osmolalité",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Inclure l'urée (osmole inefficace) dans l'osmolalité efficace.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Umpierrez GE et al. Hyperglycemic Crises in Adults With Diabetes: A Consensus Report. Diabetes Care 2024;47(8):1257-1275",
+          "date": "2024"
+        },
+        {
+          "reference": "Mustafa OG et al. Management of HHS in adults: JBDS updated guideline. Diabet Med 2023;40(3):e15005",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DIAB-0020",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le traitement de l'état hyperosmolaire hyperglycémique, quelle(s) proposition(s) est(sont) exacte(s) ?",
+      "propositions": {
+        "A": "La baisse de l'osmolalité doit être de l'ordre de 3 à 8 mOsm/kg/h",
+        "B": "Une hausse initiale de la natrémie impose le passage immédiat à un soluté hypotonique",
+        "C": "Le JBDS recommande de ne débuter l'insuline qu'une fois que la glycémie ne baisse plus sous remplissage seul, en l'absence de cétonémie > 3 mmol/L",
+        "D": "Une HBPM à dose préventive est recommandée pendant l'hospitalisation sauf contre-indication",
+        "E": "La baisse de la natrémie ne doit pas dépasser 10 mmol/L par 24 h"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "EHH : remplissage d'abord (NaCl 0,9 %), correction lente (osmolalité 3–8 mOsm/kg/h, glycémie ≤ 5 mmol/L/h selon JBDS, natrémie ≤ 10 mmol/L/24 h), insuline à faible débit, HBPM préventive, protection des pieds ; le NaCl 0,45 % n'est indiqué que si l'osmolalité ne baisse plus malgré un bilan positif.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : la hausse initiale de la natrémie est attendue (baisse de la glycémie) ; hypotonique seulement si l'osmolalité stagne.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "DIAB",
+      "items_residanat": [
+        "RES-MED-092"
+      ],
+      "theme": "EHH — traitement",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Interpréter la remontée de la natrémie comme une indication aux solutés hypotoniques.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Umpierrez GE et al. Hyperglycemic Crises in Adults With Diabetes: A Consensus Report. Diabetes Care 2024;47(8):1257-1275",
+          "date": "2024"
+        },
+        {
+          "reference": "Mustafa OG et al. Management of HHS in adults: JBDS updated guideline. Diabet Med 2023;40(3):e15005",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DIAB-0021",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la classification des hypoglycémies (ADA 2026), quelle(s) proposition(s) est(sont) exacte(s) ?",
+      "propositions": {
+        "A": "Le niveau 1 correspond à une glycémie < 70 mg/dL et ≥ 54 mg/dL",
+        "B": "Le niveau 2 correspond à une glycémie < 54 mg/dL",
+        "C": "Le niveau 3 est défini par une glycémie < 40 mg/dL",
+        "D": "Le niveau 3 est un événement sévère nécessitant l'aide d'un tiers, quelle que soit la glycémie",
+        "E": "Une glycémie < 54 mg/dL sans symptôme doit faire évoquer une non-perception des hypoglycémies"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Niveau 1 : 54–69 mg/dL ; niveau 2 : < 54 mg/dL (neuroglucopénie, action immédiate) ; niveau 3 : événement sévère nécessitant l'aide d'un tiers, défini cliniquement. Un niveau 2 asymptomatique évoque une non-perception.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : le niveau 3 est défini cliniquement, pas par un seuil glycémique.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "DIAB",
+      "items_residanat": [
+        "RES-MED-092"
+      ],
+      "theme": "Hypoglycémie — classification",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ADA. 6. Glycemic Goals, Hypoglycemia, and Hyperglycemic Crises: Standards of Care in Diabetes—2026. Diabetes Care 2026;49(Suppl 1):S132-S149",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DIAB-0022",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un patient DT1 est retrouvé inconscient à domicile par sa famille, glycémie capillaire à 38 mg/dL. Quelle(s) mesure(s) est(sont) appropriée(s) ?",
+      "propositions": {
+        "A": "Administrer du glucagon 1 mg IM/SC (ou 3 mg en poudre nasale) par l'entourage",
+        "B": "Faire boire une boisson sucrée",
+        "C": "Appeler les secours",
+        "D": "Injecter une dose d'insuline rapide pour « relancer » le métabolisme",
+        "E": "Après réveil, prendre des glucides par voie orale pour éviter la récidive"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Hypoglycémie de niveau 3 chez un inconscient : glucagon par l'entourage (formes prêtes à l'emploi préférées), appel des secours, puis resucrage oral dès que possible. Rien par la bouche chez un patient inconscient ; jamais d'insuline.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : risque de fausse route chez un patient inconscient.",
+        "C": "Vrai.",
+        "D": "Faux : contre-indiqué et dangereux.",
+        "E": "Vrai."
+      },
+      "specialite": "DIAB",
+      "items_residanat": [
+        "RES-MED-092"
+      ],
+      "theme": "Hypoglycémie sévère — traitement",
+      "difficulte": 1,
+      "niveau": "generaliste",
+      "piege_classique": "Tenter un resucrage oral chez un patient inconscient.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ADA. 6. Glycemic Goals, Hypoglycemia, and Hyperglycemic Crises: Standards of Care in Diabetes—2026. Diabetes Care 2026;49(Suppl 1):S132-S149",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DIAB-0023",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une femme de 79 ans, DT2 sous glibenclamide, avec un DFGe à 28 mL/min/1,73 m², est admise pour coma hypoglycémique. Après 15 g de glucose IV, elle se réveille. Quelle(s) attitude(s) est(sont) appropriée(s) ?",
+      "propositions": {
+        "A": "Retour à domicile après une collation",
+        "B": "Hospitalisation avec perfusion de glucose et surveillance glycémique prolongée",
+        "C": "Le glucagon est le traitement de choix pour prévenir la récidive",
+        "D": "Le risque de récidive est lié à la durée d'action du sulfamide, majorée par l'insuffisance rénale",
+        "E": "Le traitement antidiabétique devra être réévalué (désescalade ou changement de classe)"
+      },
+      "reponses_correctes": [
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Hypoglycémie aux sulfamides chez une insuffisante rénale âgée : récidives fréquentes pendant 24–72 h → hospitalisation, perfusion glucosée, surveillance ; réévaluer le traitement (épisode de niveau 3).",
+      "explications_par_proposition": {
+        "A": "Faux : risque de récidive grave.",
+        "B": "Vrai.",
+        "C": "Faux : le glucagon stimule l'insulinosécrétion sous sulfamide et n'est pas le traitement de fond.",
+        "D": "Vrai.",
+        "E": "Vrai : tout épisode de niveau 2–3 impose de réévaluer le plan thérapeutique."
+      },
+      "specialite": "DIAB",
+      "items_residanat": [
+        "RES-MED-092"
+      ],
+      "theme": "Hypoglycémie aux sulfamides",
+      "difficulte": 2,
+      "niveau": "generaliste",
+      "piege_classique": "Renvoyer à domicile un patient en hypoglycémie aux sulfamides après simple resucrage.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "ADA. 6. Glycemic Goals, Hypoglycemia, and Hyperglycemic Crises: Standards of Care in Diabetes—2026. Diabetes Care 2026;49(Suppl 1):S132-S149",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-DIAB-0024",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les bicarbonates et les phosphates dans l'ACD de l'adulte (consensus 2024), quelle(s) proposition(s) est(sont) exacte(s) ?",
+      "propositions": {
+        "A": "Les bicarbonates sont envisagés si le pH est < 7,0",
+        "B": "Les bicarbonates accélèrent la résolution de la cétose et sont recommandés dès pH < 7,20",
+        "C": "Les bicarbonates exposent à l'hypokaliémie",
+        "D": "La supplémentation en phosphate est systématique",
+        "E": "Une phosphorémie < 1,0 mmol/L avec faiblesse respiratoire ou cardiaque peut justifier 20–30 mmol de phosphate de potassium"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Bicarbonates : seulement si pH < 7,0 (ex. 100 mmol dans 400 mL d'eau stérile toutes les 2 h jusqu'à pH > 7,0) ; risques : hypokaliémie, acidose paradoxale du LCR, œdème cérébral. Phosphate : seulement si < 1,0 mmol/L avec retentissement.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : aucun bénéfice démontré sur la récupération ; indication restreinte au pH < 7,0.",
+        "C": "Vrai.",
+        "D": "Faux : pas de bénéfice clinique démontré ; risque d'hypocalcémie.",
+        "E": "Vrai."
+      },
+      "specialite": "DIAB",
+      "items_residanat": [
+        "RES-MED-092"
+      ],
+      "theme": "ACD — bicarbonates et phosphates",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prescrire des bicarbonates pour une acidose modérée.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Umpierrez GE et al. Hyperglycemic Crises in Adults With Diabetes: A Consensus Report. Diabetes Care 2024;47(8):1257-1275",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ENDO-0001",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Parmi les causes suivantes de thyrotoxicose, lesquelles s'accompagnent typiquement d'une fixation scintigraphique basse ou nulle ?",
+      "propositions": {
+        "A": "Thyroïdite subaiguë de De Quervain",
+        "B": "Maladie de Basedow",
+        "C": "Thyroïdite du post-partum",
+        "D": "Thyrotoxicose factice par prise de lévothyroxine",
+        "E": "Adénome toxique"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les thyroïdites (destruction folliculaire) et la prise exogène d'hormones donnent une thyrotoxicose sans hypersynthèse : fixation basse ou nulle. Le Basedow et les nodules autonomes sont des hyperthyroïdies vraies (fixation élevée).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : fixation élevée et homogène.",
+        "C": "Vrai.",
+        "D": "Vrai : avec thyroglobuline basse.",
+        "E": "Faux : nodule hyperfixant, parenchyme éteint."
+      },
+      "specialite": "ENDO",
+      "items_residanat": [
+        "RES-MED-084"
+      ],
+      "theme": "Thyrotoxicose vs hyperthyroïdie",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Traiter par ATS une thyrotoxicose à fixation nulle.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Ross DS et al. 2016 ATA Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis. Thyroid 2016;26(10):1343-1421",
+          "date": "2016"
+        },
+        {
+          "reference": "Lee SY, Pearce EN. Hyperthyroidism: A Review. JAMA 2023;330(15):1472-1483",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ENDO-0002",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le diagnostic étiologique d'une thyrotoxicose selon l'ETA 2018, quelle(s) proposition(s) est(sont) exacte(s) ?",
+      "propositions": {
+        "A": "Les TRAb mesurés par dosages de liaison de 2e–3e génération ont une sensibilité et une spécificité d'environ 97–98 % pour la maladie de Basedow",
+        "B": "L'échographie avec Doppler est l'imagerie recommandée pour étayer le diagnostic de Basedow",
+        "C": "La scintigraphie est indispensable chez tout patient basedowien",
+        "D": "La scintigraphie est suggérée en cas de nodules associés et avant iode radioactif",
+        "E": "Le scanner thyroïdien est utile en routine pour distinguer Basedow et thyroïdite"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "TRAb (Se ≈ 97 %, Sp ≈ 98 %) + échographie-Doppler typique dispensent le plus souvent de scintigraphie ; celle-ci est réservée aux nodules associés et au bilan pré-iode 131 ; pas de scanner/IRM/TEP en routine.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai (recommandation 3).",
+        "C": "Faux : souvent inutile si TRAb + et échographie typique.",
+        "D": "Vrai (recommandation 4).",
+        "E": "Faux : pas d'indication au scanner, à l'IRM ou au TEP."
+      },
+      "specialite": "ENDO",
+      "items_residanat": [
+        "RES-MED-084"
+      ],
+      "theme": "Basedow — diagnostic",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kahaly GJ et al. 2018 European Thyroid Association Guideline for the Management of Graves' Hyperthyroidism. Eur Thyroid J 2018;7(4):167-186",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ENDO-0003",
+      "format": "QCS (réponse unique)",
+      "enonce": "Une patiente basedowienne traitée par MMI 20 mg/j depuis 4 semaines a : T4L normale, T3L normale, TSH < 0,01 mUI/L, aucun symptôme. Quelle est la conduite la plus adaptée ?",
+      "propositions": {
+        "A": "Augmenter le MMI à 30 mg/j car la TSH reste effondrée",
+        "B": "Réduire progressivement le MMI vers une dose d'entretien, en se guidant sur T4L/T3L",
+        "C": "Ajouter de la lévothyroxine d'emblée",
+        "D": "Arrêter le MMI et proposer de l'iode 131",
+        "E": "Doser les TRAb pour décider de l'arrêt immédiat"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Sous ATS, la TSH reste freinée plusieurs mois et n'est pas un bon indicateur précoce : la titration se fait sur T4L/T3L. T4L normale → réduction vers l'entretien (MMI 2,5–10 mg/j).",
+      "explications_par_proposition": {
+        "A": "Faux : risque d'hypothyroïdie iatrogène.",
+        "B": "Vrai.",
+        "C": "Faux : le schéma « block and replace » n'est pas supérieur ; la titration est préférée.",
+        "D": "Faux : pas d'indication.",
+        "E": "Faux : l'arrêt se discute à 12–18 mois."
+      },
+      "specialite": "ENDO",
+      "items_residanat": [
+        "RES-MED-084"
+      ],
+      "theme": "ATS — surveillance",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Augmenter l'ATS sur une TSH encore effondrée.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kahaly GJ et al. 2018 European Thyroid Association Guideline for the Management of Graves' Hyperthyroidism. Eur Thyroid J 2018;7(4):167-186",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ENDO-0004",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le traitement médical de la maladie de Basedow selon l'ETA 2018, quelle(s) proposition(s) est(sont) exacte(s) ?",
+      "propositions": {
+        "A": "Le MMI (ou le carbimazole) doit être utilisé chez toute patiente non enceinte choisissant les ATS",
+        "B": "La dose initiale usuelle de MMI est de 10 à 30 mg/j en une prise",
+        "C": "La durée optimale du schéma de titration est de 12 à 18 mois",
+        "D": "Le schéma « block and replace » donne un taux de rémission nettement supérieur",
+        "E": "Un traitement au long cours par faibles doses de MMI est une option chez les patients non en rémission qui la préfèrent"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "ETA 2018 : MMI/CBZ de première intention hors grossesse ; MMI 10–30 mg/j (CBZ 15–40 mg/j), PTU 100 mg × 3/j ; 12–18 mois ; block-and-replace non supérieur ; MMI faible dose au long cours possible.",
+      "explications_par_proposition": {
+        "A": "Vrai (recommandation 6).",
+        "B": "Vrai.",
+        "C": "Vrai (recommandation 7).",
+        "D": "Faux : les résultats initialement favorables n'ont pas été reproduits.",
+        "E": "Vrai (recommandation 13)."
+      },
+      "specialite": "ENDO",
+      "items_residanat": [
+        "RES-MED-084"
+      ],
+      "theme": "ATS — modalités",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kahaly GJ et al. 2018 European Thyroid Association Guideline for the Management of Graves' Hyperthyroidism. Eur Thyroid J 2018;7(4):167-186",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ENDO-0005",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un patient sous carbimazole depuis 6 semaines consulte pour fièvre à 39 °C et odynophagie. Quelle(s) attitude(s) est(sont) appropriée(s) ?",
+      "propositions": {
+        "A": "Arrêt immédiat du carbimazole et NFS en urgence",
+        "B": "Poursuite du carbimazole et antibiothérapie orale sans bilan",
+        "C": "Si PNN < 500/mm³ : hospitalisation, hémocultures et antibiothérapie à large spectre",
+        "D": "En cas d'agranulocytose confirmée, relais par le PTU",
+        "E": "En cas d'agranulocytose confirmée, un traitement radical (iode 131 ou chirurgie) sera nécessaire"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Fièvre ou angine sous ATS = agranulocytose jusqu'à preuve du contraire : arrêt, NFS urgente. Agranulocytose (PNN < 500/mm³) : hospitalisation, prise en charge de la neutropénie fébrile ; tous les ATS sont ensuite contre-indiqués → traitement radical.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : retard diagnostique potentiellement mortel.",
+        "C": "Vrai.",
+        "D": "Faux : effet majeur → ne pas prescrire l'autre ATS.",
+        "E": "Vrai."
+      },
+      "specialite": "ENDO",
+      "items_residanat": [
+        "RES-MED-084"
+      ],
+      "theme": "ATS — agranulocytose",
+      "difficulte": 2,
+      "niveau": "generaliste",
+      "piege_classique": "Traiter une angine sous ATS sans NFS.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kahaly GJ et al. 2018 European Thyroid Association Guideline for the Management of Graves' Hyperthyroidism. Eur Thyroid J 2018;7(4):167-186",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ENDO-0006",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'iode radioactif (iode 131) dans la maladie de Basedow, quelle(s) proposition(s) est(sont) exacte(s) selon l'ETA 2018 ?",
+      "propositions": {
+        "A": "La grossesse et l'allaitement sont des contre-indications absolues",
+        "B": "Une conception doit être différée d'au moins 6 mois, chez la femme comme chez l'homme",
+        "C": "Les ATS doivent être interrompus environ une semaine avant et après le traitement",
+        "D": "Une activité fixe est acceptable",
+        "E": "L'iode 131 améliore habituellement une orbitopathie active"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Iode 131 : contre-indiqué pendant la grossesse et l'allaitement ; délai de 6 mois avant conception (femme et homme) ; ATS suspendus ~1 semaine avant/après ; activité fixe acceptable ; risque d'aggravation de l'orbitopathie (15–33 %) → corticoprophylaxie si risque.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : il peut l'aggraver ou la déclencher, surtout chez les fumeurs."
+      },
+      "specialite": "ENDO",
+      "items_residanat": [
+        "RES-MED-084"
+      ],
+      "theme": "Iode radioactif",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Proposer l'iode 131 dans une orbitopathie active sans corticoprophylaxie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kahaly GJ et al. 2018 European Thyroid Association Guideline for the Management of Graves' Hyperthyroidism. Eur Thyroid J 2018;7(4):167-186",
+          "date": "2018"
+        },
+        {
+          "reference": "Bartalena L et al. The 2021 EUGOGO clinical practice guidelines for the medical management of Graves' orbitopathy. Eur J Endocrinol 2021;185(4):G43-G67",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ENDO-0007",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une thyroïdectomie totale est programmée pour une maladie de Basedow avec goitre volumineux. Quelle(s) mesure(s) préopératoire(s) est(sont) recommandée(s) par l'ETA 2018 ?",
+      "propositions": {
+        "A": "Restaurer l'euthyroïdie par ATS avant l'intervention",
+        "B": "Administrer une solution d'iodure de potassium pendant environ 10 jours avant l'intervention",
+        "C": "Corriger une carence en vitamine D",
+        "D": "Arrêter les ATS 3 mois avant l'intervention",
+        "E": "Préférer une thyroïdectomie subtotale pour réduire les complications"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Euthyroïdie préalable (prévention de la crise thyrotoxique), iodure 10 jours (vascularisation), correction de la carence en vitamine D (hypocalcémie postopératoire) ; thyroïdectomie totale (même morbidité que la subtotale, moins de récidive).",
+      "explications_par_proposition": {
+        "A": "Vrai (recommandation 25).",
+        "B": "Vrai (recommandation 27, suggestion).",
+        "C": "Vrai (recommandation 26).",
+        "D": "Faux : risque de crise thyrotoxique.",
+        "E": "Faux : la totale est la procédure de choix."
+      },
+      "specialite": "ENDO",
+      "items_residanat": [
+        "RES-MED-084"
+      ],
+      "theme": "Chirurgie thyroïdienne",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kahaly GJ et al. 2018 European Thyroid Association Guideline for the Management of Graves' Hyperthyroidism. Eur Thyroid J 2018;7(4):167-186",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ENDO-0008",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la crise aiguë thyrotoxique, quelle(s) proposition(s) est(sont) exacte(s) ?",
+      "propositions": {
+        "A": "Un score de Burch-Wartofsky ≥ 45 est compatible avec une crise thyrotoxique",
+        "B": "L'iode stable doit être administré au moins une heure après la première dose d'ATS",
+        "C": "L'aspirine est l'antipyrétique de choix",
+        "D": "Les glucocorticoïdes font partie du traitement multimodal",
+        "E": "La mortalité est estimée à environ 10 %"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Crise thyrotoxique : diagnostic clinique (Burch-Wartofsky ≥ 45 ; 25–44 = imminente), traitement multimodal en réanimation : ATS, puis iode ≥ 1 h après, bêtabloquant, glucocorticoïdes, refroidissement, réanimation, traitement du déclencheur. L'aspirine déplace la T4 de sa protéine de liaison.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : préférer le paracétamol.",
+        "D": "Vrai.",
+        "E": "Vrai (ETA 2018)."
+      },
+      "specialite": "ENDO",
+      "items_residanat": [
+        "RES-MED-084"
+      ],
+      "theme": "Crise aiguë thyrotoxique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Donner l'iode avant l'ATS ; utiliser l'aspirine.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kahaly GJ et al. 2018 European Thyroid Association Guideline for the Management of Graves' Hyperthyroidism. Eur Thyroid J 2018;7(4):167-186",
+          "date": "2018"
+        },
+        {
+          "reference": "Burch HB, Wartofsky L. Life-threatening thyrotoxicosis. Thyroid storm. Endocrinol Metab Clin North Am 1993;22(2):263-277",
+          "date": "1993"
+        },
+        {
+          "reference": "Ross DS et al. 2016 ATA Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis. Thyroid 2016;26(10):1343-1421",
+          "date": "2016"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ENDO-0009",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la maladie de Basedow et la grossesse (ETA 2018), quelle(s) proposition(s) est(sont) exacte(s) ?",
+      "propositions": {
+        "A": "Le PTU est préféré en préconception et au 1er trimestre",
+        "B": "Le passage du PTU au MMI peut être envisagé au-delà de 16 SA",
+        "C": "Le schéma « block and replace » est recommandé pendant la grossesse",
+        "D": "Les TRAb doivent être dosés en début de grossesse puis à 18–22 SA s'ils sont élevés",
+        "E": "La T4L maternelle est maintenue à la limite supérieure des normes spécifiques de la grossesse"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "PTU en préconception/T1 (embryopathie du MMI entre 6 et 10 SA), MMI envisageable après 16 SA (ETA), dose minimale, pas de block-and-replace, T4L à la limite supérieure, TRAb au début et à 18–22 SA (surveillance fœtale si > 3 fois le seuil).",
+      "explications_par_proposition": {
+        "A": "Vrai (recommandation 35).",
+        "B": "Vrai (recommandation 40).",
+        "C": "Faux : déconseillé (recommandation 38).",
+        "D": "Vrai (recommandation 36).",
+        "E": "Vrai."
+      },
+      "specialite": "ENDO",
+      "items_residanat": [
+        "RES-MED-084"
+      ],
+      "theme": "Grossesse et hyperthyroïdie",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Maintenir le MMI pendant l'organogenèse sans discussion.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kahaly GJ et al. 2018 European Thyroid Association Guideline for the Management of Graves' Hyperthyroidism. Eur Thyroid J 2018;7(4):167-186",
+          "date": "2018"
+        },
+        {
+          "reference": "Alexander EK et al. 2017 ATA Guidelines for the Diagnosis and Management of Thyroid Disease During Pregnancy and the Postpartum. Thyroid 2017;27(3):315-389",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ENDO-0010",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 66 ans traité par amiodarone présente une thyrotoxicose ; thyroïde de volume normal, vascularisation Doppler absente, fixation scintigraphique nulle, TRAb négatifs. Quelle(s) proposition(s) est(sont) exacte(s) ?",
+      "propositions": {
+        "A": "Le tableau évoque une hyperthyroïdie à l'amiodarone de type 2 (thyroïdite destructrice)",
+        "B": "Le traitement repose principalement sur les glucocorticoïdes oraux",
+        "C": "Les ATS seuls sont le traitement de référence",
+        "D": "La poursuite ou l'arrêt de l'amiodarone se discute avec le cardiologue",
+        "E": "Une thyroïdectomie peut être discutée en cas d'échec ou d'urgence cardiaque"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "AIT de type 2 : thyroïdite destructrice sur thyroïde saine (Doppler pauvre, fixation nulle) → glucocorticoïdes ; type 1 : hyperthyroïdie iodo-induite sur thyroïde pathologique → ATS ± perchlorate. Décision cardiologique sur l'amiodarone ; chirurgie si échec.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : ATS pour le type 1 ; pas d'hypersynthèse dans le type 2.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "ENDO",
+      "items_residanat": [
+        "RES-MED-084"
+      ],
+      "theme": "Amiodarone et thyroïde",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Bartalena L et al. 2018 ETA Guidelines for the Management of Amiodarone-Associated Thyroid Dysfunction. Eur Thyroid J 2018;7(2):55-66",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ENDO-0011",
+      "format": "QCS (réponse unique)",
+      "enonce": "Une femme de 72 ans a une TSH à 0,05 mUI/L à deux reprises à 3 mois d'intervalle, T4L et T3L normales, TRAb positifs. Selon l'ETA 2018, quelle est l'attitude recommandée ?",
+      "propositions": {
+        "A": "Simple surveillance annuelle",
+        "B": "Traitement recommandé, les ATS étant le premier choix",
+        "C": "Iode 131 obligatoire en première intention",
+        "D": "Thyroïdectomie totale en première intention",
+        "E": "Lévothyroxine à faible dose"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Hyperthyroïdie infraclinique basedowienne chez un sujet > 65 ans avec TSH persistante < 0,1 mUI/L : traitement recommandé (risque de fibrillation atriale, fractures, mortalité) ; ATS en premier choix.",
+      "explications_par_proposition": {
+        "A": "Faux : traitement recommandé au-delà de 65 ans si TSH < 0,1.",
+        "B": "Vrai (recommandations 14–15).",
+        "C": "Faux : les ATS sont le premier choix.",
+        "D": "Faux : pas en première intention.",
+        "E": "Faux : contresens."
+      },
+      "specialite": "ENDO",
+      "items_residanat": [
+        "RES-MED-084"
+      ],
+      "theme": "Hyperthyroïdie infraclinique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kahaly GJ et al. 2018 European Thyroid Association Guideline for the Management of Graves' Hyperthyroidism. Eur Thyroid J 2018;7(4):167-186",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-ENDO-0012",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'orbitopathie basedowienne, quelle(s) proposition(s) est(sont) exacte(s) ?",
+      "propositions": {
+        "A": "Le score d'activité clinique (CAS) EUGOGO est coté sur 7 à la première évaluation ; un score ≥ 3 définit une forme active",
+        "B": "Le sevrage tabagique est recommandé",
+        "C": "Le sélénium pendant 6 mois est proposé dans les formes légères et actives",
+        "D": "Une baisse de la vision des couleurs doit faire évoquer une neuropathie optique et constitue une urgence",
+        "E": "Une forme active modérée à sévère se traite en première intention par chirurgie de décompression"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "CAS ≥ 3/7 = actif ; tabac à arrêter ; sélénium 6 mois si léger et actif ; forme modérée à sévère active : méthylprednisolone IV (± mycophénolate) et alternatives (téprotumumab…) ; neuropathie optique = urgence (corticoïdes IV forte dose puis décompression si échec).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : la décompression est réservée à la neuropathie optique résistante aux corticoïdes ou à la phase inactive (réhabilitation)."
+      },
+      "specialite": "ENDO",
+      "items_residanat": [
+        "RES-MED-084"
+      ],
+      "theme": "Orbitopathie basedowienne",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Opérer une orbitopathie en phase active hors neuropathie optique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Bartalena L et al. The 2021 EUGOGO clinical practice guidelines for the medical management of Graves' orbitopathy. Eur J Endocrinol 2021;185(4):G43-G67",
+          "date": "2021"
+        },
+        {
+          "reference": "Kahaly GJ et al. 2018 European Thyroid Association Guideline for the Management of Graves' Hyperthyroidism. Eur Thyroid J 2018;7(4):167-186",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEPH-0001",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon KDIGO 2012, quel(s) critère(s) suffit(sent) à définir une insuffisance rénale aiguë ?",
+      "propositions": {
+        "A": "Augmentation de la créatininémie ≥ 0,3 mg/dL (26,5 µmol/L) en 48 heures",
+        "B": "Augmentation de la créatininémie ≥ 1,5 fois la valeur de base survenue dans les 7 jours",
+        "C": "Diurèse < 0,5 mL/kg/h pendant 6 heures",
+        "D": "DFG estimé par CKD-EPI < 60 mL/min/1,73 m² sur un prélèvement isolé",
+        "E": "Urée plasmatique > 0,50 g/L"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Définition KDIGO : un seul des trois critères (créatinine +0,3 mg/dL en 48 h ; ×1,5 en 7 jours ; diurèse < 0,5 mL/kg/h pendant 6 h). Le DFGe n'est pas valide en situation aiguë et un DFG < 60 isolé ne distingue pas IRA et MRC.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : formule non valide en situation instable ; ne renseigne pas sur la cinétique.",
+        "E": "Faux : l'urée dépend du catabolisme et de l'hydratation ; elle ne définit pas l'IRA."
+      },
+      "specialite": "NEPH",
+      "items_residanat": [
+        "RES-MED-122"
+      ],
+      "theme": "IRA — définition KDIGO",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kellum JA, Lameire N. Diagnosis, evaluation, and management of AKI: a KDIGO summary (Part 1). Crit Care 2013;17(1):204",
+          "date": "2013"
+        },
+        {
+          "reference": "KDIGO Clinical Practice Guideline for Acute Kidney Injury. Kidney Int Suppl 2012;2(1):1-138",
+          "date": "2012"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEPH-0002",
+      "format": "QCS (réponse unique)",
+      "enonce": "Un patient a une créatininémie de base à 1,0 mg/dL ; elle est à 2,4 mg/dL 4 jours plus tard, avec une diurèse de 0,4 mL/kg/h depuis 8 heures. Quel est le stade KDIGO ?",
+      "propositions": {
+        "A": "Stade 1",
+        "B": "Stade 2",
+        "C": "Stade 3",
+        "D": "Pas d'IRA selon KDIGO",
+        "E": "Maladie rénale chronique stade G3"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Créatinine × 2,4 (2,0–2,9 × base = stade 2) ; diurèse < 0,5 mL/kg/h pendant 6–12 h = stade 1. On retient le critère le plus sévère : stade 2.",
+      "explications_par_proposition": {
+        "A": "Faux : le critère créatinine classe en stade 2.",
+        "B": "Vrai.",
+        "C": "Faux : il faudrait × 3, créatinine ≥ 4 mg/dL, EER, ou diurèse < 0,3 mL/kg/h ≥ 24 h ou anurie ≥ 12 h.",
+        "D": "Faux.",
+        "E": "Faux : la MRC suppose une durée > 3 mois."
+      },
+      "specialite": "NEPH",
+      "items_residanat": [
+        "RES-MED-122"
+      ],
+      "theme": "IRA — stadification",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kellum JA, Lameire N. Diagnosis, evaluation, and management of AKI: a KDIGO summary (Part 1). Crit Care 2013;17(1):204",
+          "date": "2013"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEPH-0003",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quels éléments orientent vers une insuffisance rénale chronique plutôt qu'aiguë ?",
+      "propositions": {
+        "A": "Reins de petite taille et dédifférenciés à l'échographie chez un patient non diabétique",
+        "B": "Créatinine élevée documentée depuis plus de 3 mois",
+        "C": "Anémie normocytaire arégénérative sans saignement ni hémolyse",
+        "D": "Reins de taille normale chez un diabétique",
+        "E": "Hypocalcémie avec CPK très élevées après une chute prolongée"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "MRC : durée > 3 mois, petits reins (sauf diabète, amylose, polykystose, VIH), anémie arégénérative, troubles phosphocalciques. L'hypocalcémie avec CPK élevées évoque une rhabdomyolyse (IRA).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai (définition).",
+        "C": "Vrai (argument, non absolu).",
+        "D": "Faux : chez le diabétique, les reins peuvent rester de taille normale même en MRC — l'argument n'est pas discriminant.",
+        "E": "Faux : contexte de rhabdomyolyse → IRA."
+      },
+      "specialite": "NEPH",
+      "items_residanat": [
+        "RES-MED-122"
+      ],
+      "theme": "IRA vs MRC",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Conclure à une IRA sur des reins de taille normale chez un diabétique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kellum JA, Lameire N. Diagnosis, evaluation, and management of AKI: a KDIGO summary (Part 1). Crit Care 2013;17(1):204",
+          "date": "2013"
+        },
+        {
+          "reference": "Lameire NH et al. Harmonizing acute and chronic kidney disease definition and classification (KDIGO). Kidney Int 2021;100(3):516-526",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEPH-0004",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Chez un patient traité par furosémide, présentant une IRA, quels indices orientent vers une origine fonctionnelle ?",
+      "propositions": {
+        "A": "Fraction d'excrétion de l'urée < 35 %",
+        "B": "Osmolalité urinaire > 500 mOsm/kg",
+        "C": "Fraction d'excrétion du sodium > 2 %, interprétée comme une NTA certaine",
+        "D": "Rapport urée urinaire/plasmatique > 10",
+        "E": "Cylindres granuleux « boueux » abondants au sédiment"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Sous diurétique, la FeNa est ininterprétable (natriurèse induite) : on utilise la FeUrée (< 35 % = fonctionnelle). Urines concentrées et U/P urée élevé orientent vers une IRA fonctionnelle ; les cylindres granuleux orientent vers une NTA.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : la FeNa est faussement élevée sous diurétique.",
+        "D": "Vrai.",
+        "E": "Faux : en faveur d'une NTA."
+      },
+      "specialite": "NEPH",
+      "items_residanat": [
+        "RES-MED-122"
+      ],
+      "theme": "Indices urinaires",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Interpréter la FeNa sous diurétique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kellum JA, Lameire N. Diagnosis, evaluation, and management of AKI: a KDIGO summary (Part 1). Crit Care 2013;17(1):204",
+          "date": "2013"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEPH-0005",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'IRA obstructive, quelle(s) proposition(s) est(sont) exacte(s) ?",
+      "propositions": {
+        "A": "L'échographie rénale et vésicale doit être réalisée rapidement devant toute IRA",
+        "B": "Une anurie brutale complète doit faire évoquer en premier lieu un obstacle",
+        "C": "L'absence de dilatation à l'échographie élimine formellement un obstacle",
+        "D": "Une polyurie peut suivre la levée de l'obstacle et nécessite une surveillance hydroélectrolytique",
+        "E": "Un obstacle unilatéral sur rein unique fonctionnel peut entraîner une IRA"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Échographie systématique et précoce ; anurie complète → obstacle (ou cause vasculaire bilatérale) ; la dilatation peut manquer (obstacle très récent, déshydratation, fibrose rétropéritonéale) ; polyurie de levée d'obstacle ; rein unique.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : faux négatifs possibles.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "NEPH",
+      "items_residanat": [
+        "RES-MED-122"
+      ],
+      "theme": "IRA obstructive",
+      "difficulte": 1,
+      "niveau": "generaliste",
+      "piege_classique": "Éliminer un obstacle sur une échographie trop précoce.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kellum JA, Lameire N. Diagnosis, evaluation, and management of AKI: a KDIGO summary (Part 1). Crit Care 2013;17(1):204",
+          "date": "2013"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEPH-0006",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Parmi les situations suivantes, lesquelles peuvent élever la créatininémie sans baisse réelle du DFG (« fausse IRA ») ?",
+      "propositions": {
+        "A": "Traitement par triméthoprime (cotrimoxazole)",
+        "B": "Acidocétose avec dosage de la créatinine par méthode de Jaffé",
+        "C": "Supplémentation en créatine",
+        "D": "Rhabdomyolyse avec myoglobinurie et oligurie",
+        "E": "Traitement par cimétidine"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Inhibition de la sécrétion tubulaire de créatinine (triméthoprime, cimétidine, certains antirétroviraux), interférence analytique (acéto-acétate et Jaffé), apport exogène de créatine. La rhabdomyolyse avec oligurie est une vraie IRA.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : NTA pigmentaire vraie.",
+        "E": "Vrai."
+      },
+      "specialite": "NEPH",
+      "items_residanat": [
+        "RES-MED-122"
+      ],
+      "theme": "Fausses IRA",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Arrêter un traitement indispensable devant une hausse modérée de créatinine sous triméthoprime.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Notion pharmacologique et analytique classique (sécrétion tubulaire de la créatinine, interférence de Jaffé) — source dédiée À VÉRIFIER",
+          "date": ""
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEPH-0007",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles mesures sont conformes aux recommandations KDIGO 2012 dans la prévention et le traitement de l'IRA ?",
+      "propositions": {
+        "A": "Cristalloïdes isotoniques plutôt que colloïdes pour l'expansion volémique en l'absence de choc hémorragique",
+        "B": "Dopamine à faible dose pour protéger le rein",
+        "C": "Diurétiques pour prévenir l'IRA",
+        "D": "Diurétiques uniquement en cas de surcharge volémique",
+        "E": "Restriction protéique pour retarder l'épuration extrarénale"
+      },
+      "reponses_correctes": [
+        "A",
+        "D"
+      ],
+      "explication_generale": "KDIGO : cristalloïdes isotoniques (2B), vasopresseurs + remplissage dans le choc vasoplégique (1C), pas de diurétique pour prévenir (1B) ni pour traiter (2C) sauf surcharge, pas de dopamine (1A), pas de restriction protéique pour retarder l'EER (2D).",
+      "explications_par_proposition": {
+        "A": "Vrai (D1).",
+        "B": "Faux (D11, grade 1A).",
+        "C": "Faux (D9).",
+        "D": "Vrai (D10).",
+        "E": "Faux (D6)."
+      },
+      "specialite": "NEPH",
+      "items_residanat": [
+        "RES-MED-122"
+      ],
+      "theme": "IRA — mesures générales",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "« Relancer la diurèse » par furosémide chez un hypovolémique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kellum JA, Lameire N. Diagnosis, evaluation, and management of AKI: a KDIGO summary (Part 1). Crit Care 2013;17(1):204",
+          "date": "2013"
+        },
+        {
+          "reference": "Semler MW et al. Balanced Crystalloids versus Saline in Critically Ill Adults. N Engl J Med 2018;378(9):829-839",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEPH-0008",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la prévention de l'IRA associée aux produits de contraste iodés, quelle(s) proposition(s) est(sont) exacte(s) ?",
+      "propositions": {
+        "A": "L'expansion volémique IV par cristalloïdes isotoniques est recommandée chez les patients à risque",
+        "B": "L'hydratation orale seule suffit chez les patients à risque",
+        "C": "L'essai PRESERVE (2018) n'a pas montré de bénéfice de l'acétylcystéine ni du bicarbonate par rapport au sérum salé",
+        "D": "Une hémodialyse prophylactique après l'injection est recommandée",
+        "E": "Il faut utiliser la dose minimale d'un produit iso- ou basse-osmolaire"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "KDIGO 2012 : produits iso/basse-osmolaires (1B), dose minimale, expansion IV isotonique (1A), pas d'hydratation orale seule (1C), pas d'EER prophylactique (2C) ; l'acétylcystéine suggérée en 2012 (2D) n'a pas montré de bénéfice dans PRESERVE.",
+      "explications_par_proposition": {
+        "A": "Vrai (E6).",
+        "B": "Faux (E7).",
+        "C": "Vrai.",
+        "D": "Faux (E11).",
+        "E": "Vrai (E4–E5)."
+      },
+      "specialite": "NEPH",
+      "items_residanat": [
+        "RES-MED-122"
+      ],
+      "theme": "Produits de contraste",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lameire N, Kellum JA. Contrast-induced AKI and renal support for AKI: a KDIGO summary (Part 2). Crit Care 2013;17(1):205",
+          "date": "2013"
+        },
+        {
+          "reference": "Weisbord SD et al. Outcomes after Angiography with Sodium Bicarbonate and Acetylcysteine (PRESERVE). N Engl J Med 2018;378(7):603-614",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEPH-0009",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Parmi les situations suivantes au cours d'une IRA, lesquelles constituent des indications d'épuration extrarénale en urgence ?",
+      "propositions": {
+        "A": "Hyperkaliémie menaçante réfractaire au traitement médical",
+        "B": "Œdème pulmonaire résistant aux diurétiques chez un patient oligurique",
+        "C": "Péricardite urémique",
+        "D": "Intoxication grave au lithium",
+        "E": "Créatininémie à 30 mg/L isolée chez un patient stable sans complication"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "EER urgente devant des anomalies menaçantes (K⁺, acidose, surcharge, urémie compliquée, intoxication dialysable). Un seuil isolé de créatinine n'est pas une indication (contexte global et cinétique).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux (F2 : pas de seuil isolé d'urée ou de créatinine)."
+      },
+      "specialite": "NEPH",
+      "items_residanat": [
+        "RES-MED-122"
+      ],
+      "theme": "Épuration extrarénale — indications",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lameire N, Kellum JA. Contrast-induced AKI and renal support for AKI: a KDIGO summary (Part 2). Crit Care 2013;17(1):205",
+          "date": "2013"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEPH-0010",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le moment d'initiation de l'épuration extrarénale en réanimation (IRA sévère sans complication urgente), quelle(s) proposition(s) est(sont) exacte(s) ?",
+      "propositions": {
+        "A": "Dans AKIKI (2016), une stratégie retardée n'a pas modifié la mortalité et a évité l'EER chez une partie importante des patients",
+        "B": "Dans STARRT-AKI (2020), l'initiation accélérée a réduit la mortalité à 90 jours",
+        "C": "Dans STARRT-AKI, l'initiation accélérée était associée à une dépendance plus fréquente à l'EER à 90 jours",
+        "D": "AKIKI 2 (2021) suggère qu'un report supplémentaire au-delà des critères de la stratégie retardée n'apporte pas de bénéfice",
+        "E": "L'EER doit être débutée dès le stade KDIGO 1"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Les grands essais n'ont pas montré de bénéfice à l'initiation précoce systématique ; STARRT-AKI : plus d'effets indésirables et de dépendance à l'EER avec la stratégie accélérée ; AKIKI 2 : retarder davantage n'est pas bénéfique.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : pas de différence de mortalité.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "NEPH",
+      "items_residanat": [
+        "RES-MED-122"
+      ],
+      "theme": "Épuration extrarénale — délai",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Gaudry S et al. Initiation Strategies for Renal-Replacement Therapy in the ICU (AKIKI). N Engl J Med 2016;375(2):122-133",
+          "date": "2016"
+        },
+        {
+          "reference": "STARRT-AKI Investigators. Timing of Initiation of RRT in AKI. N Engl J Med 2020;383(3):240-251",
+          "date": "2020"
+        },
+        {
+          "reference": "Gaudry S et al. AKIKI 2. Lancet 2021;397(10281):1293-1300",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEPH-0011",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les modalités de l'épuration extrarénale dans l'IRA (KDIGO 2012), quelle(s) proposition(s) est(sont) exacte(s) ?",
+      "propositions": {
+        "A": "Les techniques continues sont suggérées chez les patients hémodynamiquement instables",
+        "B": "La dose recommandée en technique continue est un volume d'effluent de 20–25 mL/kg/h",
+        "C": "Le citrate régional est suggéré pour l'anticoagulation en technique continue en l'absence de contre-indication",
+        "D": "La veine sous-clavière est l'abord de premier choix",
+        "E": "La pose du cathéter doit être échoguidée"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "KDIGO : techniques continues si instabilité ou œdème cérébral (2B) ; effluent 20–25 mL/kg/h (1A) ; Kt/V 3,9/semaine en intermittent (1A) ; citrate en continu (2B) ; abord jugulaire interne droit > fémoral > jugulaire gauche > sous-clavier ; échoguidage (1A).",
+      "explications_par_proposition": {
+        "A": "Vrai (F17).",
+        "B": "Vrai (F26).",
+        "C": "Vrai (F6.2).",
+        "D": "Faux : dernier choix (F10).",
+        "E": "Vrai (F11)."
+      },
+      "specialite": "NEPH",
+      "items_residanat": [
+        "RES-MED-122"
+      ],
+      "theme": "Épuration extrarénale — modalités",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lameire N, Kellum JA. Contrast-induced AKI and renal support for AKI: a KDIGO summary (Part 2). Crit Care 2013;17(1):205",
+          "date": "2013"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEPH-0012",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 58 ans présente une IRA rapidement progressive (créatinine 1,1 → 4,8 mg/dL en 3 semaines), une hématurie avec cylindres hématiques, une protéinurie à 2 g/g, une sinusite et des hémoptysies. Quelle(s) proposition(s) est(sont) exacte(s) ?",
+      "propositions": {
+        "A": "Le tableau évoque une glomérulonéphrite rapidement progressive dans le cadre d'un syndrome pneumo-rénal",
+        "B": "Les ANCA et les anticorps anti-MBG doivent être dosés en urgence",
+        "C": "Une ponction-biopsie rénale est indiquée rapidement",
+        "D": "Il s'agit probablement d'une IRA fonctionnelle à réhydrater",
+        "E": "Un traitement immunosuppresseur (corticoïdes IV ± cyclophosphamide ou rituximab) et des échanges plasmatiques selon l'étiologie relèvent d'un avis néphrologique urgent"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Hématurie avec cylindres hématiques + protéinurie + IRA rapidement progressive + atteinte ORL/pulmonaire : GNRP (vascularite à ANCA, anti-MBG) → urgence diagnostique (ANCA, anti-MBG, biopsie) et thérapeutique.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : sédiment actif → atteinte glomérulaire.",
+        "E": "Vrai."
+      },
+      "specialite": "NEPH",
+      "items_residanat": [
+        "RES-MED-122"
+      ],
+      "theme": "GNRP",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Retarder la biopsie et l'immunosuppression d'une GNRP.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kellum JA, Lameire N. Diagnosis, evaluation, and management of AKI: a KDIGO summary (Part 1). Crit Care 2013;17(1):204",
+          "date": "2013"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEPH-0013",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles situations peuvent être responsables d'une fausse hyperkaliémie (pseudohyperkaliémie) ?",
+      "propositions": {
+        "A": "Hémolyse lors du prélèvement",
+        "B": "Thrombocytose majeure avec dosage sur sérum",
+        "C": "Contraction répétée du poing pendant le prélèvement",
+        "D": "Contamination du tube par l'EDTA",
+        "E": "Traitement par spironolactone"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Pseudohyperkaliémies : hémolyse, poing serré/garrot prolongé, thrombocytose ou hyperleucocytose (libération lors de la coagulation, plasma normal), contamination EDTA, retard d'analyse. La spironolactone cause une vraie hyperkaliémie (défaut d'excrétion).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : contrôler sur plasma hépariné.",
+        "C": "Vrai.",
+        "D": "Vrai : souvent avec hypocalcémie majeure.",
+        "E": "Faux : vraie hyperkaliémie par antagonisme de l'aldostérone."
+      },
+      "specialite": "NEPH",
+      "items_residanat": [
+        "RES-MED-125"
+      ],
+      "theme": "Pseudohyperkaliémie",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Traiter une hyperkaliémie d'hémolyse.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Clase CM et al. Potassium homeostasis and management of dyskalemia in kidney diseases: KDIGO Controversies Conference. Kidney Int 2020;97(1):42-61",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEPH-0014",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles anomalies ECG sont évocatrices d'une hyperkaliémie ?",
+      "propositions": {
+        "A": "Ondes T amples, pointues et symétriques",
+        "B": "Élargissement des QRS",
+        "C": "Ondes U proéminentes",
+        "D": "Disparition des ondes P",
+        "E": "Aspect sinusoïdal pré-terminal"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Hyperkaliémie : T amples et pointues, allongement de PR, aplatissement/disparition des P, QRS larges, aspect sinusoïdal, FV/asystolie. Les ondes U sont un signe d'hypokaliémie. La sensibilité de l'ECG est faible.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : hypokaliémie.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "NEPH",
+      "items_residanat": [
+        "RES-MED-125"
+      ],
+      "theme": "Hyperkaliémie — ECG",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Se rassurer sur un ECG normal.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Lott C et al. European Resuscitation Council Guidelines 2021: Cardiac arrest in special circumstances. Resuscitation 2021;161:152-219",
+          "date": "2021"
+        },
+        {
+          "reference": "UK Kidney Association. Clinical Practice Guideline: Management of Hyperkalaemia in Adults (version 2023, mise à jour juillet 2026)",
+          "date": "2023/2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEPH-0015",
+      "format": "QCS (réponse unique)",
+      "enonce": "Un patient a une kaliémie à 7,0 mmol/L avec QRS élargis. Quelle est la première mesure thérapeutique à administrer ?",
+      "propositions": {
+        "A": "Résine échangeuse d'ions par voie orale",
+        "B": "Gluconate de calcium 10 % IV",
+        "C": "Furosémide IV",
+        "D": "Bicarbonate de sodium IV systématique",
+        "E": "Kayexalate par lavement"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "En présence d'anomalies ECG, la priorité est la protection myocardique par les sels de calcium (effet en quelques minutes), avant le transfert (insuline-glucose ± salbutamol) puis l'élimination.",
+      "explications_par_proposition": {
+        "A": "Faux : lent et imprévisible.",
+        "B": "Vrai.",
+        "C": "Faux : délai d'action et efficacité insuffisants en urgence.",
+        "D": "Faux : non systématique.",
+        "E": "Faux : lent."
+      },
+      "specialite": "NEPH",
+      "items_residanat": [
+        "RES-MED-125"
+      ],
+      "theme": "Hyperkaliémie — première étape",
+      "difficulte": 1,
+      "niveau": "generaliste",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "UK Kidney Association. Clinical Practice Guideline: Management of Hyperkalaemia in Adults (version 2023, mise à jour juillet 2026)",
+          "date": "2023/2026"
+        },
+        {
+          "reference": "Lott C et al. European Resuscitation Council Guidelines 2021: Cardiac arrest in special circumstances. Resuscitation 2021;161:152-219",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEPH-0016",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les sels de calcium dans l'hyperkaliémie, quelle(s) proposition(s) est(sont) exacte(s) ?",
+      "propositions": {
+        "A": "Ils abaissent rapidement la kaliémie",
+        "B": "La recommandation UKKA 2023 préconise 30 mL de gluconate de calcium 10 % en 10 minutes",
+        "C": "L'injection peut être répétée si l'ECG reste anormal",
+        "D": "Ils ne doivent pas être administrés dans la même voie que le bicarbonate de sodium",
+        "E": "Leur effet dure plusieurs jours"
+      },
+      "reponses_correctes": [
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le calcium stabilise la membrane myocardique sans modifier la kaliémie ; effet rapide mais transitoire (30–60 min) ; UKKA 2023 : 30 mL de gluconate 10 % en 10 min ; répétition possible ; précipitation avec le bicarbonate.",
+      "explications_par_proposition": {
+        "A": "Faux : il ne modifie pas la kaliémie.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : 30–60 minutes."
+      },
+      "specialite": "NEPH",
+      "items_residanat": [
+        "RES-MED-125"
+      ],
+      "theme": "Hyperkaliémie — calcium",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que le calcium traite l'hyperkaliémie.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "UK Kidney Association. Clinical Practice Guideline: Management of Hyperkalaemia in Adults (version 2023, mise à jour juillet 2026)",
+          "date": "2023/2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEPH-0017",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'insuline-glucose dans l'hyperkaliémie, quelle(s) proposition(s) est(sont) exacte(s) ?",
+      "propositions": {
+        "A": "Le schéma de référence associe 10 UI d'insuline rapide et 25 g de glucose IV",
+        "B": "L'hypoglycémie est une complication fréquente, majorée en cas d'insuffisance rénale",
+        "C": "Une surveillance glycémique de 30 minutes suffit",
+        "D": "L'effet hypokaliémiant est un transfert intracellulaire, sans élimination du potassium",
+        "E": "Un relais par glucose 10 % est préconisé si la glycémie initiale est basse"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Insuline 10 UI + glucose 25 g en 15 min ; transfert intracellulaire transitoire (4–6 h) ; hypoglycémie fréquente (MRC, faible poids, glycémie initiale basse) → surveillance ≥ 6 h et relais glucosé si glycémie initiale < 7 mmol/L (UKKA).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : hypoglycémies tardives possibles ; surveillance prolongée.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "NEPH",
+      "items_residanat": [
+        "RES-MED-125"
+      ],
+      "theme": "Hyperkaliémie — insuline-glucose",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Négliger l'hypoglycémie retardée.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "UK Kidney Association. Clinical Practice Guideline: Management of Hyperkalaemia in Adults (version 2023, mise à jour juillet 2026)",
+          "date": "2023/2026"
+        },
+        {
+          "reference": "Lott C et al. European Resuscitation Council Guidelines 2021: Cardiac arrest in special circumstances. Resuscitation 2021;161:152-219",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEPH-0018",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les chélateurs du potassium, quelle(s) proposition(s) est(sont) exacte(s) ?",
+      "propositions": {
+        "A": "Le cyclosilicate de zirconium sodique s'utilise en correction à 10 g trois fois par jour (jusqu'à 72 h)",
+        "B": "Le patiromer a un délai d'action plus long et convient surtout au traitement d'entretien",
+        "C": "Selon l'UKKA 2023, la résine calcique (Calcium Resonium) n'a plus de place dans le traitement aigu",
+        "D": "Les chélateurs permettent de maintenir les bloqueurs du SRAA chez certains patients hyperkaliémiques",
+        "E": "Les chélateurs remplacent la protection myocardique par le calcium"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "SZC (HARMONIZE) : 10 g × 3/j en correction ; patiromer (OPAL-HK) : entretien ; UKKA 2023 : plus de résine calcique en aigu (et plus en chronique depuis 2026) ; objectif chronique : préserver les bloqueurs du SRAA. Ils ne remplacent jamais le calcium ni le transfert en urgence.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "NEPH",
+      "items_residanat": [
+        "RES-MED-125"
+      ],
+      "theme": "Chélateurs du potassium",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "UK Kidney Association. Clinical Practice Guideline: Management of Hyperkalaemia in Adults (version 2023, mise à jour juillet 2026)",
+          "date": "2023/2026"
+        },
+        {
+          "reference": "Kosiborod M et al. HARMONIZE. JAMA 2014;312(21):2223-2233",
+          "date": "2014"
+        },
+        {
+          "reference": "Weir MR et al. Patiromer in patients with kidney disease and hyperkalemia receiving RAAS inhibitors. N Engl J Med 2015;372(3):211-221",
+          "date": "2015"
+        },
+        {
+          "reference": "Clase CM et al. Potassium homeostasis and management of dyskalemia in kidney diseases: KDIGO Controversies Conference. Kidney Int 2020;97(1):42-61",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEPH-0019",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un patient diabétique en MRC G3b, traité par IEC à dose maximale, a une kaliémie stable à 5,6 mmol/L. Quelle(s) attitude(s) est(sont) appropriée(s) ?",
+      "propositions": {
+        "A": "Arrêt définitif de l'IEC",
+        "B": "Recherche et éviction des facteurs aggravants (AINS, triméthoprime, sels de régime à base de KCl)",
+        "C": "Correction d'une acidose métabolique éventuelle",
+        "D": "Discussion d'un diurétique kaliurétique ou d'un chélateur pour poursuivre le bloqueur du SRAA",
+        "E": "Conseils diététiques individualisés plutôt qu'une restriction drastique en végétaux"
+      },
+      "reponses_correctes": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Hyperkaliémie chronique modérée sous SRAA : mesures hypokaliémiantes (médicaments, acidose, diurétiques, chélateurs, diététique) pour maintenir le traitement cardio-néphroprotecteur, plutôt que l'arrêter.",
+      "explications_par_proposition": {
+        "A": "Faux : perte du bénéfice néphroprotecteur ; à réserver aux hyperkaliémies non contrôlables.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "NEPH",
+      "items_residanat": [
+        "RES-MED-125"
+      ],
+      "theme": "Hyperkaliémie chronique et SRAA",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Arrêter l'IEC pour une kaliémie à 5,6.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Clase CM et al. Potassium homeostasis and management of dyskalemia in kidney diseases: KDIGO Controversies Conference. Kidney Int 2020;97(1):42-61",
+          "date": "2020"
+        },
+        {
+          "reference": "KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of CKD. Kidney Int 2024;105(4S):S117-S314",
+          "date": "2024"
+        },
+        {
+          "reference": "ADA. 11. Chronic Kidney Disease and Risk Management: Standards of Care in Diabetes—2026. Diabetes Care 2026;49(Suppl 1):S246-S260",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEPH-0020",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une femme de 34 ans a une kaliémie à 2,9 mmol/L, des bicarbonates à 18 mmol/L (acidose), une kaliurèse à 8 mmol/24 h et une PA normale. Quelle(s) cause(s) est(sont) compatible(s) ?",
+      "propositions": {
+        "A": "Diarrhées chroniques",
+        "B": "Abus de laxatifs",
+        "C": "Hyperaldostéronisme primaire",
+        "D": "Syndrome de Gitelman",
+        "E": "Adénome villeux"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "Hypokaliémie + acidose + kaliurèse basse (< 15 mmol/j) = pertes digestives basses (diarrhées, laxatifs, adénome villeux). L'hyperaldostéronisme et le Gitelman donnent une perte rénale avec alcalose.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : perte rénale, alcalose, HTA.",
+        "D": "Faux : perte rénale, alcalose, hypomagnésémie.",
+        "E": "Vrai."
+      },
+      "specialite": "NEPH",
+      "items_residanat": [
+        "RES-MED-125"
+      ],
+      "theme": "Hypokaliémie — démarche étiologique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kardalas E et al. Hypokalemia: a clinical update. Endocr Connect 2018;7(4):R135-R146",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEPH-0021",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 48 ans a une HTA résistante et une hypokaliémie à 3,1 mmol/L avec kaliurèse élevée et alcalose. Quelle(s) proposition(s) est(sont) exacte(s) ?",
+      "propositions": {
+        "A": "Un hyperaldostéronisme primaire doit être recherché par le rapport aldostérone/rénine",
+        "B": "Une rénine basse avec aldostérone élevée oriente vers un hyperaldostéronisme primaire",
+        "C": "Une rénine et une aldostérone toutes deux basses peuvent évoquer une prise de réglisse ou un syndrome de Liddle",
+        "D": "Le traitement peut reposer sur un antagoniste minéralocorticoïde ou une surrénalectomie selon la latéralisation",
+        "E": "L'hypokaliémie élimine le diagnostic d'HTA essentielle compliquée par un diurétique"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "HTA + hypokaliémie avec perte rénale : excès minéralocorticoïde. Rénine ↓ aldostérone ↑ = hyperaldostéronisme primaire ; rénine ↓ aldostérone ↓ = réglisse, Liddle, excès apparent ; rénine ↑ aldostérone ↑ = secondaire. L'Endocrine Society 2025 suggère le dépistage chez tous les hypertendus. Une hypokaliémie sous diurétique reste possible.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : un diurétique peut suffire à l'expliquer, mais n'exclut pas un hyperaldostéronisme."
+      },
+      "specialite": "NEPH",
+      "items_residanat": [
+        "RES-MED-125"
+      ],
+      "theme": "Hypokaliémie avec HTA",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Adler GK et al. Primary Aldosteronism: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab 2025;110(9):2453-2495",
+          "date": "2025"
+        },
+        {
+          "reference": "Kardalas E et al. Hypokalemia: a clinical update. Endocr Connect 2018;7(4):R135-R146",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEPH-0022",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les syndromes de Gitelman et de Bartter, quelle(s) proposition(s) est(sont) exacte(s) ?",
+      "propositions": {
+        "A": "Ils associent hypokaliémie et alcalose métabolique avec PA normale ou basse",
+        "B": "Le syndrome de Gitelman s'accompagne typiquement d'une hypocalciurie et d'une hypomagnésémie",
+        "C": "Le syndrome de Bartter s'accompagne typiquement d'une hypocalciurie marquée",
+        "D": "La chlorurie y est élevée",
+        "E": "Le traitement du Gitelman associe supplémentation en potassium et en magnésium"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Tubulopathies avec perte de sel : hypokaliémie, alcalose, PA basse/normale, chlorurie élevée. Gitelman (cotransporteur NaCl distal) : hypocalciurie, hypomagnésémie, révélation chez l'adolescent/adulte ; Bartter (anse) : calciurie normale ou élevée, révélation précoce.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : calciurie normale ou élevée.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "NEPH",
+      "items_residanat": [
+        "RES-MED-125"
+      ],
+      "theme": "Tubulopathies héréditaires",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Blanchard A et al. Gitelman syndrome: KDIGO Controversies Conference. Kidney Int 2017;91(1):24-33",
+          "date": "2017"
+        },
+        {
+          "reference": "Kardalas E et al. Hypokalemia: a clinical update. Endocr Connect 2018;7(4):R135-R146",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEPH-0023",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la supplémentation potassique IV d'une hypokaliémie sévère chez l'adulte (repères de la revue Kardalas 2018), quelle(s) proposition(s) est(sont) exacte(s) ?",
+      "propositions": {
+        "A": "Le KCl peut être injecté en bolus IV direct en cas d'arythmie",
+        "B": "Un schéma usuel est 40 mmol de KCl dans 1 L de NaCl 0,9 %",
+        "C": "Le débit standard est de 10 mmol/h, avec un maximum de 20 mmol/h",
+        "D": "Le glucose 5 % est le soluté de dilution à privilégier",
+        "E": "Un monitorage ECG et des contrôles répétés de la kaliémie sont nécessaires"
+      },
+      "reponses_correctes": [
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "KCl IV : jamais en bolus ; dilution dans le NaCl 0,9 % (le glucose stimule l'insuline et aggrave le transfert) ; 10 mmol/h standard, 20 mmol/h maximum ; scope et kaliémies répétées ; magnésémie.",
+      "explications_par_proposition": {
+        "A": "Faux : risque d'arrêt cardiaque.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : NaCl 0,9 % préféré.",
+        "E": "Vrai."
+      },
+      "specialite": "NEPH",
+      "items_residanat": [
+        "RES-MED-125"
+      ],
+      "theme": "Hypokaliémie — KCl IV",
+      "difficulte": 1,
+      "niveau": "generaliste",
+      "piege_classique": "Bolus de KCl ou dilution dans du glucosé.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kardalas E et al. Hypokalemia: a clinical update. Endocr Connect 2018;7(4):R135-R146",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-NEPH-0024",
+      "format": "QCS (réponse unique)",
+      "enonce": "Une hypokaliémie à 2,7 mmol/L persiste malgré 3 jours de supplémentation potassique bien conduite chez un patient alcoolique sous diurétique. Quel examen est le plus utile en priorité ?",
+      "propositions": {
+        "A": "Magnésémie",
+        "B": "Scanner surrénalien",
+        "C": "Échographie thyroïdienne",
+        "D": "Dosage de la vitamine B12",
+        "E": "Électromyogramme"
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "L'hypomagnésémie (alcool, diurétiques) entretient la kaliurèse (levée de l'inhibition de ROMK) et rend l'hypokaliémie réfractaire : la corriger (ex. MgSO4 8 mmol en 20 min puis recharge) avant/avec le potassium.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : pas en première intention sans HTA ni argument d'hyperaldostéronisme.",
+        "C": "Faux.",
+        "D": "Faux.",
+        "E": "Faux."
+      },
+      "specialite": "NEPH",
+      "items_residanat": [
+        "RES-MED-125"
+      ],
+      "theme": "Hypokaliémie réfractaire — magnésium",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Augmenter le KCl sans doser le magnésium.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Kardalas E et al. Hypokalemia: a clinical update. Endocr Connect 2018;7(4):R135-R146",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-03",
+      "date_creation": "2026-11-19"
+    }
+  ]
+}

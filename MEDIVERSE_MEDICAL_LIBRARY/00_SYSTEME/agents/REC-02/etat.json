@@ -1,9 +1,22 @@
 {
   "id": "REC-02",
-  "statut": "en_attente",
-  "derniere_execution": null,
-  "taches_terminees": [],
-  "taches_suivantes": [],
+  "statut": "termine_session",
+  "derniere_execution": "2026-11-19T01:43:20+00:00",
+  "taches_terminees": [
+    "catalogue REC-INT (332 recommandations, REC-0200…REC-0531)"
+  ],
+  "taches_suivantes": [
+    "lever les [À VÉRIFIER] des recommandations 2025-2026 (lecture du texte intégral)",
+    "compléter dermatologie, ORL, ophtalmologie, traumatologie, médecine légale/travail",
+    "ajouter les RPC SPILF/CNGOF/SFAR récentes"
+  ],
   "objectifs": {},
-  "compteurs": {}
+  "compteurs": {
+    "recommandations": 332,
+    "actuelles": 298,
+    "remplacees": 27,
+    "partiellement_mises_a_jour": 7,
+    "verif_partielle": 48,
+    "liees_document": 60
+  }
 }

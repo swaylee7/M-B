@@ -1,9 +1,17 @@
 {
   "id": "ACQ-06",
-  "statut": "en_attente",
-  "derniere_execution": null,
-  "taches_terminees": [],
-  "taches_suivantes": [],
+  "statut": "termine_session",
+  "derniere_execution": "2026-11-19T01:43:20+00:00",
+  "taches_terminees": [
+    "30 entrées HAS cataloguées",
+    "2 PDF HAS en local"
+  ],
+  "taches_suivantes": [
+    "acquérir en local les PDF des autres recommandations HAS cataloguées"
+  ],
   "objectifs": {},
-  "compteurs": {}
+  "compteurs": {
+    "has_catalogues": 30,
+    "pdf_local": 2
+  }
 }
