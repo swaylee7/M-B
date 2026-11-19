@@ -515,3 +515,66 @@ Hyperkaliémie confirmée (prélèvement non hémolysé)
 │           rénine ↑ aldostérone ↑ → résistance tubulaire (pseudo-hypoaldostéronisme, amiloride, triméthoprime)
 └─ Toujours : apports (sels de régime, suppléments), hypovolémie associée
 ```
+
+---
+
+## 17. Cas clinique commenté
+
+*Scénario fictif à visée pédagogique.*
+
+### 17.1 Cas principal — hyperkaliémie sévère iatrogène
+**Présentation.** Mme R., 74 ans, Constantine. DT2, **MRC G3b A3** (DFGe de base 34 mL/min/1,73 m², créatinine 16 mg/L), insuffisance cardiaque à FE réduite. Traitement : **ramipril 10 mg, spironolactone 25 mg**, furosémide 40 mg, bisoprolol 5 mg, insuline basale. Il y a 4 jours : **cotrimoxazole** pour une cystite et **ibuprofène** pour des lombalgies. Consulte pour faiblesse des jambes et malaise.
+**Examen** : PA 105/60, **FC 46/min**, conscience normale, pas de signe de surcharge, déficit moteur proximal des membres inférieurs.
+**Biologie** : **K 7,2 mmol/L** (prélèvement non hémolysé), créatinine 28 mg/L, HCO₃ 16 mmol/L, **glycémie 1,05 g/L (5,8 mmol/L)**, Na 134.
+**ECG** : bradycardie à 46/min, **ondes P absentes**, **QRS à 140 ms**, ondes T amples.
+
+**Q1 — Analyse ?** Hyperkaliémie **sévère** (≥ 6,5) avec **signes ECG menaçants** (QRS large, perte des P, bradycardie) → **urgence vitale**, scope, réanimation/soins intensifs [S1, S2]. Mécanismes : **cumul médicamenteux** (IEC + antagoniste minéralocorticoïde + **triméthoprime** (effet type amiloride) + **AINS**), aggravation de la MRC (IRA fonctionnelle sur AINS), acidose, β-bloquant [S4].
+
+**Q2 — Traitement immédiat ?**
+1. **Gluconate de calcium 10 % 30 mL IV en 10 min**, répété si l'ECG ne s'améliore pas après 5–10 min [S1].
+2. **Insuline rapide 10 UI + 25 g de glucose IV en 15 min** [S1, S2] ; **glycémie initiale < 7 mmol/L** → relais par glucose 10 % et surveillance glycémique rapprochée pendant au moins 6 h (risque majoré d'hypoglycémie : MRC, insuline basale) [S1 — modalités à vérifier].
+3. **Salbutamol 10–20 mg nébulisé** en complément (pas de contre-indication majeure ; bradycardie) [S1].
+4. **Arrêt** du ramipril, de la spironolactone, du cotrimoxazole (relais par un antibiotique adapté), de l'ibuprofène.
+5. **Élimination** : **SZC 10 g × 3/j** si disponible [S6] ; furosémide IV (volémie conservée, diurèse présente) ; **avis néphrologique** pour une hémodialyse si persistance des signes ECG ou absence de baisse de la kaliémie.
+6. Correction de l'acidose : bicarbonate à discuter au cas par cas (pas de bénéfice systématique en dehors d'une acidose sévère) [S1].
+7. **Surveillance** : scope, kaliémie à 1–2 h puis régulière, glycémie horaire.
+
+**Évolution.** QRS 100 ms après la 2ᵉ dose de calcium ; K 6,1 à H1, 5,6 à H4, 5,0 à J1 ; créatinine 19 mg/L à J3.
+
+**Q3 — Ordonnance de sortie ?** Ne pas « condamner » les traitements cardio-néphroprotecteurs : reprise **progressive** du ramipril (dose réduite) une fois la fonction rénale stabilisée, réévaluation de la spironolactone (bénéfice dans l'insuffisance cardiaque) avec **chélateur au long cours** si nécessaire pour la maintenir [S4, S11] ; contrôle de la kaliémie à 1 semaine ; **éviction définitive des AINS** ; éviter le triméthoprime ; conseils diététiques ; plan d'action « jours de maladie ».
+
+### 17.2 Vignette complémentaire — hypokaliémie avec HTA
+M. T., 45 ans, HTA sous 3 antihypertenseurs dont un thiazidique, crampes : **K 2,8 mmol/L**, HCO₃ 31, kaliurèse 52 mmol/24 h. **Analyse** : hypokaliémie modérée par **perte rénale** avec **alcalose** et **HTA résistante** → rechercher un **hyperaldostéronisme primaire** (rapport aldostérone/rénine, en tenant compte des interférences médicamenteuses ; l'Endocrine Society 2025 suggère même un dépistage chez tous les hypertendus) [S12]. Correction orale (KCl), magnésémie, remplacement du thiazidique ; si confirmé : antagoniste minéralocorticoïde ou surrénalectomie selon la latéralisation [S12].
+
+**Message pédagogique** : l'hyperkaliémie menaçante se traite **dans l'ordre** — protéger (calcium), transférer (insuline-glucose ± salbutamol), éliminer (chélateur, diurétique, dialyse), surveiller (kaliémie, glycémie) — puis prévenir sans supprimer inutilement les bloqueurs du SRAA ; l'hypokaliémie s'explore par la kaliurèse, le pH et la PA.
+
+---
+
+## 18. Points clés à retenir
+
+1. 98 % du potassium est intracellulaire : la kaliémie reflète aussi les **transferts** (insuline, β2, acidose, osmolalité, lyse).
+2. **Éliminer une pseudohyperkaliémie** (hémolyse, thrombocytose, EDTA) — sans retarder le traitement si l'ECG est anormal.
+3. Hyperkaliémie **sévère ≥ 6,5 mmol/L** ; l'**ECG normal ne rassure pas** ; scope [S1, S2].
+4. Séquence d'urgence : **calcium** (gluconate 10 % 30 mL en 10 min si ECG anormal) → **insuline 10 UI + glucose 25 g** ± **salbutamol 10–20 mg** → **élimination** (SZC, diurétique, dialyse) → **surveillance** kaliémie/glycémie [S1, S2].
+5. **Hypoglycémie** = complication fréquente de l'insuline-glucose : surveillance ≥ 6 h [S1].
+6. Résine calcique : plus de place en aigu (UKKA 2023), ni en chronique (UKKA 2026) [S1].
+7. Hyperkaliémie chronique sous SRAA : mesures hypokaliémiantes et chélateurs **pour maintenir** les traitements protecteurs [S4, S11].
+8. Hypokaliémie : kaliurèse (> 15 mmol/j ou K/créat > 13 mmol/g = perte rénale), pH, PA, magnésémie, rénine/aldostérone [S5].
+9. KCl IV : **jamais en bolus**, dilué (40 mmol/L de NaCl 0,9 %), **10 mmol/h** (max 20 mmol/h), ECG ; corriger le **magnésium** [S5].
+10. HTA + hypokaliémie → **hyperaldostéronisme primaire** à rechercher (rapport aldostérone/rénine) [S12].
+
+---
+
+## 19. Pièges classiques à l'examen
+
+- Traiter une **hyperkaliémie d'hémolyse** (ou au contraire attendre un contrôle alors que l'ECG est pathologique).
+- Croire que le **calcium fait baisser la kaliémie** (il protège seulement la membrane, effet transitoire).
+- Oublier la **surveillance glycémique** après insuline-glucose.
+- Mélanger **calcium et bicarbonate** dans la même voie (précipitation).
+- Compter sur une **résine** pour une hyperkaliémie menaçante au lieu de transférer et de dialyser.
+- Arrêter définitivement un IEC/ARA2 pour une hyperkaliémie modérée gérable (perte de néphro- et cardioprotection).
+- Administrer du **KCl en bolus** ou à débit excessif par voie périphérique.
+- Diluer le KCl dans du **glucose 5 %** dans une hypokaliémie sévère.
+- Ne pas corriger une **hypomagnésémie** (hypokaliémie réfractaire).
+- Supplémenter massivement une **paralysie périodique thyrotoxique** (hyperkaliémie de rebond).
+- Oublier que la kaliémie normale ou haute d'une **acidocétose** masque un **déficit total** important.
