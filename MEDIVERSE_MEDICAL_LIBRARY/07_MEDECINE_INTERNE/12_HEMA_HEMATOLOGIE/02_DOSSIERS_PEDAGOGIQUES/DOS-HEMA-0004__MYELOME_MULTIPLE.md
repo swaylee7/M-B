@@ -534,3 +534,60 @@ MYÉLOME SYMPTOMATIQUE
 └─ Non éligible → Dara-Rd ou Isa-VRd (ou VRd) ; schémas allégés si fragilité
       + traitements de support pour tous : os, infections, thromboses, douleur, rein
 ```
+
+---
+
+## 17. Cas clinique commenté
+
+**Scénario fictif.** M. H., 66 ans, retraité de l'enseignement à Blida, consulte pour des **lombalgies** apparues il y a 3 mois, d'aggravation progressive, réveillant la nuit, résistant au paracétamol ; son médecin lui a prescrit du diclofénac il y a 10 jours. Depuis une semaine : soif intense, constipation, somnolence. Il a eu deux pneumopathies cet hiver. Examen : patient déshydraté, douleur à la percussion de L2, pas de déficit neurologique, pas d'adénopathie ni d'hépatosplénomégalie.
+
+**Biologie** : Hb 88 g/L, VGM 92 fL, rouleaux au frottis, leucocytes 4,9 G/L, plaquettes 168 G/L ; **calcémie 3,21 mmol/L** (albumine 32 g/L) ; **créatinine 342 µmol/L** ; protides 72 g/L ; EPP : **hypogammaglobulinémie** sans pic net ; protéinurie 3,8 g/24 h avec bandelette « traces » d'albumine ; β2-microglobuline 9,6 mg/L ; LDH normales.
+
+**Question 1 — Quel diagnostic évoquer et quels examens le confirment ?**
+Association de **douleurs osseuses, anémie, hypercalcémie, insuffisance rénale et infections** chez un sujet de plus de 60 ans : **myélome multiple**, ici probablement **à chaînes légères** (hypogammaglobulinémie, protéinurie abondante non albuminique). Confirmation par **immunofixation sérique et urinaire**, **dosage des chaînes légères libres** (rapport très anormal attendu), **myélogramme** (plasmocytose clonale) et **scanner corps entier faible dose** (sans injection) [S1, S4].
+
+**Question 2 — Quelles urgences traiter immédiatement ?**
+- **Hypercalcémie** symptomatique : réhydratation par sérum salé isotonique, **arrêt du diclofénac**, bisphosphonate IV adapté à la fonction rénale (ou dénosumab), corticoïdes [S4].
+- **Insuffisance rénale aiguë** probablement par **néphropathie à cylindres myélomateux** favorisée par la déshydratation, l'hypercalcémie et l'AINS : hydratation, éviction des néphrotoxiques et **traitement antimyélomateux sans délai** à base de **bortezomib + dexaméthasone** [S4].
+
+**Question 3 — Résultats** : immunofixation : chaînes légères **κ** libres, chaînes κ sériques 4 850 mg/L, rapport κ/λ 520 ; plasmocytose médullaire 38 % ; FISH : t(4;14) ; scanner : lésions lytiques L2, bassin et côtes. **Quels critères IMWG sont remplis et quel est le stade ?**
+Plasmocytose ≥ 10 % + **C, R, A, B** + **Li** (rapport ≥ 100) : myélome multiple à chaînes légères κ [S1]. **ISS III** (β2m ≥ 5,5 mg/L) ; R-ISS **III** (ISS III + t(4;14)) [S2] ; R2-ISS : ISS III (1,5) + t(4;14) (1) = 2,5 → **groupe III** [S3].
+
+**Question 4 — Stratégie thérapeutique ?**
+Patient de 66 ans sans comorbidité majeure : éligibilité à l'autogreffe à discuter en RCP après récupération rénale. Induction par **quadruplet à base de bortezomib** (par exemple Dara-VRd, en adaptant le lénalidomide à la fonction rénale) [S5, S7] ; traitements de support : acide zolédronique adapté ou dénosumab, bilan dentaire, prophylaxie antivirale, vaccinations, thromboprophylaxie sous IMiD, radiothérapie antalgique si besoin.
+
+**Évolution.** Calcémie normalisée en 72 h ; créatinine 148 µmol/L à 3 semaines ; très bonne réponse partielle après 4 cycles ; autogreffe réalisée.
+
+**Commentaire pédagogique.**
+- Un **AINS** chez un patient lombalgique et déshydraté a probablement précipité l'insuffisance rénale : ne jamais prescrire d'AINS sans avoir éliminé un myélome chez un sujet âgé avec douleurs osseuses inexpliquées et anémie.
+- Une **EPP « sans pic » avec hypogammaglobulinémie** n'élimine pas un myélome : penser aux chaînes légères.
+- L'insuffisance rénale du myélome est une **urgence hématologique** autant que néphrologique.
+
+---
+
+## 18. Points clés à retenir
+
+1. Myélome = **plasmocytose médullaire clonale ≥ 10 %** (ou plasmocytome) + **≥ 1 événement SLiM-CRAB** (IMWG 2014) [S1].
+2. **CRAB** : calcium > 2,75 mmol/L, créatinine > 177 µmol/L (ou clairance < 40 mL/min), Hb < 100 g/L, ≥ 1 lésion lytique ; **SLiM** : plasmocytes ≥ 60 %, rapport des chaînes libres ≥ 100, > 1 lésion focale en IRM.
+3. **MGUS** : pic < 30 g/L, plasmocytes < 10 %, aucun événement ; **indolent** : pic ≥ 30 g/L ou plasmocytes 10–60 %, aucun événement.
+4. Bilan protéique complet : **EPP + immunofixation + chaînes légères libres + protéinurie/immunofixation urinaire**.
+5. Imagerie de première intention : **scanner corps entier faible dose** ; IRM pour la compression et le myélome indolent ; pas de scintigraphie osseuse.
+6. Pronostic : **ISS → R-ISS → R2-ISS**, cytogénétique FISH (del(17p), t(4;14), t(14;16), 1q) [S2, S3].
+7. Urgences : **hypercalcémie, insuffisance rénale aiguë, compression médullaire, hyperviscosité, infections**.
+8. Ne jamais prescrire d'**AINS** ni injecter de **produit de contraste iodé** sans précaution chez un myélomateux.
+9. Première ligne : **quadruplets à base d'anti-CD38** (PERSEUS, IMROZ) ± autogreffe, puis **entretien par lénalidomide** [S5, S7, S8].
+10. Supports systématiques : **bisphosphonate ou dénosumab** (bilan dentaire), vaccinations, prophylaxie antivirale, thromboprophylaxie sous IMiD.
+
+---
+
+## 19. Pièges classiques à l'examen
+
+- Éliminer un myélome sur une **EPP sans pic** (myélome à chaînes légères : hypogammaglobulinémie).
+- Utiliser la **bandelette urinaire** pour chercher une protéinurie de Bence Jones (elle détecte mal les chaînes légères).
+- Demander une **scintigraphie osseuse** pour le bilan des lésions (faux négatif).
+- Confondre **MGUS** et **myélome indolent** (seuils de 30 g/L et 10 %).
+- Retenir une **anémie ferriprive** ou une insuffisance rénale diabétique comme critère CRAB (non attribuable).
+- Oublier la **thromboprophylaxie** sous lénalidomide/thalidomide, le **bilan dentaire** avant bisphosphonates, la **prophylaxie antivirale** sous bortezomib.
+- Oublier que les **anti-CD38** perturbent les **tests de compatibilité transfusionnelle** (prévenir l'établissement de transfusion, phénotype avant traitement).
+- Classer un **pic IgM** comme myélome sans éliminer une maladie de Waldenström.
+- Interpréter une **β2-microglobuline** élevée sans tenir compte de l'insuffisance rénale (elle s'élève aussi par défaut d'élimination).
