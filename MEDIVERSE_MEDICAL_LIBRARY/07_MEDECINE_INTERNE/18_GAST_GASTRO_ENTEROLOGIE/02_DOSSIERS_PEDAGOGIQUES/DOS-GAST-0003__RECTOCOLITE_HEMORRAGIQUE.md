@@ -6,11 +6,17 @@ sous_specialite: "Maladies inflammatoires chroniques de l'intestin (MICI)"
 items_residanat: [RES-MED-024]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-04 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01/AUD-02/AUD-04 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 15
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-GAST-0003.md
 sources:
   - id: S1
     reference: "Raine T, Bonovas S, Burisch J, Kucharzik T, Adamina M, Annese V, et al. ECCO Guidelines on Therapeutics in Ulcerative Colitis: Medical Treatment. J Crohns Colitis. 2022;16(1):2-17."
@@ -21,7 +27,7 @@ sources:
     url: ""
     verifiee: true
   - id: S2
-    reference: "Gisbert JP, Chaparro M, Verstockt B, Kienle P, Minozzi S, Allocca M, et al. ECCO Guidelines on Therapeutics in Ulcerative Colitis: Medical Treatment. J Crohns Colitis. 2026;20(7):jjag066. (Remplace S1 ; contenu non lu pendant la session.)"
+    reference: "Gisbert JP, Chaparro M, Verstockt B, Kienle P, Minozzi S, Allocca M, et al. ECCO Guidelines on Therapeutics in Ulcerative Colitis: Medical Treatment. J Crohns Colitis. 2026;20(7):jjag066. (Remplace S1 ; métadonnées PubMed 42413123 vérifiées par l'audit ; texte intégral non lu, hôte inaccessible.)"
     organisme: ECCO
     annee: 2026
     type: recommandation
@@ -204,14 +210,38 @@ sources:
     doi: "10.1136/gut.38.6.905"
     url: ""
     verifiee: true
+  - id: S25
+    reference: "World Health Organization. The WHO AWaRe (Access, Watch, Reserve) antibiotic book. Geneva: WHO; 2022 — chapitre 33 (infection à Clostridioides difficile). Document acquis DOC-00039 — texte lu par l'audit."
+    organisme: OMS
+    annee: 2022
+    type: recommandation
+    doi: ""
+    url: "https://iris.who.int/server/api/core/bitstreams/61517f8b-3a34-413c-ae36-67a059ebe485/content"
+    verifiee: true
+  - id: S26
+    reference: "Haute Autorité de santé, Commission de la transparence. Avis SALAZOPYRINE 500 mg (sulfasalazine), 23 juillet 2014 (rubrique « Posologie » reprenant le RCP). Texte téléchargé sur has-sante.fr et lu par l'audit."
+    organisme: HAS
+    annee: 2014
+    type: texte_officiel
+    doi: ""
+    url: "https://www.has-sante.fr/upload/docs/evamed/CT-12975_SALAZOPYRINE_Avis%201_RI_CT12975.pdf"
+    verifiee: true
+  - id: S27
+    reference: "Résumés des caractéristiques du produit (RCP) : Remicade (infliximab), Simponi (golimumab), Stelara (ustékinumab), budésonide MMX, Rinvoq (upadacitinib), Skyrizi (risankizumab). Posologies confirmées par recherche web sur les RCP britanniques (medicines.org.uk) et européens ; textes intégraux non téléchargés (ema.europa.eu inaccessible)."
+    organisme: "EMA / MHRA"
+    annee: 2026
+    type: texte_officiel
+    doi: ""
+    url: ""
+    verifiee: true
 mots_cles: [rectocolite hémorragique, MICI, score de Mayo, Truelove-Witts, colite aiguë grave, mésalazine, 5-ASA, corticoïdes, thiopurines, infliximab, ciclosporine, védolizumab, tofacitinib, colectomie, cholangite sclérosante primitive, cancer colorectal, tuberculose latente]
 ---
 
 # Rectocolite hémorragique : étiologies, diagnostic, formes cliniques, évolution, traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
-> **Actualité des recommandations** : la recommandation ECCO 2022 sur le traitement médical [S1], qui sert de base à ce dossier, a été **remplacée en 2026** [S2] ; la BSG 2019 [S5], dont les posologies ont été relues dans son texte intégral, a été **remplacée en 2025** [S6] ; l'ACG a publié une mise à jour en **2025** [S3]. Les textes 2025–2026 n'ont pas pu être lus pendant la rédaction : les positions qui leur sont propres sont signalées [À VÉRIFIER].
+> Statut : audité (AUD-01/02/04, 19/11/2026, v1.1) — corrections requises (voir rapport `00_SYSTEME/agents/AUD-01/rapports/DOS-GAST-0003.md`). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> **Actualité des recommandations** (vérifiée par l'audit le 19/11/2026) : la recommandation ECCO 2022 sur le traitement médical [S1], qui sert de base à ce dossier, a été **remplacée** par l'ECCO 2026 (*J Crohns Colitis*, juillet 2026) [S2], accompagnée d'une recommandation chirurgicale ECCO 2026 [S20] et d'une recommandation ECCO 2026 sur les infections [S17] ; la BSG 2019 [S5], dont les posologies ont été relues dans son texte intégral, a été **remplacée** par la BSG 2025 (*Gut*, juin 2025) [S6] ; l'ACG a publié une mise à jour en **2025** [S3]. Le texte intégral de ces documents n'a pu être lu ni par le rédacteur ni par l'auditeur (hôtes inaccessibles) : seules leurs positions vérifiées dans des extraits publiés sont reprises (§ 13.2.7, § 21) ; le reste est signalé [À VÉRIFIER].
 
 **Items du programme couverts** : RES-MED-024 — « Recto-colite ulcéro-hémorragique : Etiologies - diagnostic - formes cliniques - évolution - traitement. »
 
@@ -352,7 +382,7 @@ L'extension conditionne la **voie d'administration** (rectale/orale), le **risqu
 | Hémoglobine | < 10,5 g/dL |
 | VS (ou CRP dans la version modifiée) | VS > 30 mm/h (CRP > 30 mg/L) |
 
-**Colite aiguë grave (CAG)** = **> 6 selles sanglantes par jour ET au moins un signe de toxicité systémique** (température, pouls, hémoglobine, CRP/VS). C'est la définition (« Truelove-Witts modifiés ») retenue par la BSG 2019 pour l'hospitalisation [S5]. Les seuils exacts de la publication de 1955 (notamment la température) sont à confronter à l'article princeps [À VÉRIFIER].
+**Colite aiguë grave (CAG)** = **selles sanglantes ≥ 6 par jour ET au moins un signe de toxicité systémique** (température, pouls, hémoglobine, CRP/VS). Attention au libellé du seuil : la classification de Montréal (S3) retient « **au moins 6** » selles sanglantes [S9], comme le tableau ci-dessus, alors que la BSG 2019 écrit « **plus de 6** » dans sa définition des critères de Truelove et Witts modifiés (température > 37,8 °C, pouls > 90/min, Hb < 10,5 g/dL ou CRP > 30 mg/L) [S5] ; en pratique, un malade à 6 selles sanglantes avec un signe systémique doit être traité comme une CAG. Les seuils exacts de la publication de 1955 (notamment la température) sont à confronter à l'article princeps [À VÉRIFIER].
 Une poussée **légère** associe < 4 selles/jour, peu de sang, ni fièvre ni tachycardie ; une poussée **modérée** est intermédiaire.
 
 ### 7.4 Autres outils
@@ -476,7 +506,7 @@ Colectasie (mégacôlon toxique), perforation, hémorragie massive, thrombose, c
 - La mortalité globale est proche de celle de la population générale, mais la morbidité (hospitalisations, colectomie, qualité de vie) est importante [À VÉRIFIER — chiffres de colectomie à 10 ans selon les cohortes].
 
 ### 12.2 Colite aiguë grave (CAG)
-- **Définition** : > 6 selles sanglantes/jour + au moins un signe de toxicité (T > 37,8 °C, pouls > 90/min, Hb < 10,5 g/dL, CRP > 30 mg/L) [S5].
+- **Définition** : ≥ 6 selles sanglantes/jour (« > 6 » dans le libellé de la BSG 2019, voir § 7.3) + au moins un signe de toxicité (T > 37,8 °C, pouls > 90/min, Hb < 10,5 g/dL, CRP > 30 mg/L) [S5, S9].
 - **Urgence médico-chirurgicale** : hospitalisation, prise en charge **conjointe** gastro-entérologue et chirurgien dès l'admission.
 - **Facteurs prédictifs d'échec des corticoïdes au 3ᵉ jour** (index cités par la BSG 2019) [S5] :
   - **critères d'Oxford (Travis)** [S24] : > 8 selles/jour, ou 3 à 8 selles/jour avec **CRP > 45 mg/L** → environ **85 %** d'échec ou de colectomie ;
@@ -517,12 +547,12 @@ L'initiative STRIDE-II de l'IOIBD (2021) a défini les cibles thérapeutiques : 
 - **Voie rectale** : **suppositoire de 1 g/j** pour la rectite légère à modérée (première intention) [S1, S5] ; lavements (mousse ou liquide) pour la colite gauche.
 - **Entretien** : 5-ASA oral = traitement d'entretien standard [S5] ; ≥ 2 g/j recommandés chez les patients à colite gauche ou étendue, aussi pour la chimioprévention du cancer colorectal [S5].
 - **Surveillance** : **fonction rénale** (néphrite interstitielle) **avant traitement, à 2–3 mois puis annuellement** [S5].
-- **Sulfasalazine** : efficace, mais effets indésirables plus fréquents (digestifs, cutanés, hématologiques, oligospermie réversible) ; intérêt en cas d'arthrite associée [posologie : RCP — POSOLOGIE À VÉRIFIER].
+- **Sulfasalazine** : efficace, mais effets indésirables plus fréquents (digestifs, cutanés, hématologiques, oligospermie réversible) ; intérêt en cas d'arthrite associée. Posologie de l'adulte (RCP de la Salazopyrine) : **traitement d'attaque 4 à 6 g/j en 3 à 6 prises** (dose atteinte en 2–3 jours chez l'acétyleur lent), **entretien 2 g/j en 2 prises** [S26].
 - **Le 5-ASA n'a pas de place dans la maladie de Crohn** (voir DOS-GAST-0004), mais il est le pilier de la RCH légère à modérée.
 
 #### 13.2.2 Corticoïdes
 - **Prednisolone (ou prednisone) orale 40 mg/j**, avec **décroissance sur 6 à 8 semaines**, pour les poussées modérées à sévères ou en échec du 5-ASA ; pas de bénéfice démontré au-delà de 40–60 mg/j ; une prise unique matinale [S5].
-- **Budésonide à libération colique (MMX)** : alternative pour les poussées légères à modérées (suggérée par l'ECCO 2022 [S1]) [posologie : RCP — POSOLOGIE À VÉRIFIER].
+- **Budésonide à libération colique (MMX)** : **9 mg/j**, évalué pendant **8 semaines** dans les essais CORE ; alternative pour les poussées légères à modérées en échec ou en intolérance du 5-ASA chez les patients qui veulent éviter les corticoïdes systémiques (recommandation forte de la BSG 2019 ; option de l'ECCO 2022) ; bénéfice net surtout dans les colites gauches ; la dose de 6 mg n'est pas supérieure au placebo [S1, S5, S27].
 - **Corticoïdes IV dans la CAG** : **méthylprednisolone 60 mg/24 h** ou **hydrocortisone 100 mg toutes les 6 heures** ; pas d'avantage à des doses plus élevées [S5].
 - **Corticoïdes locaux** (suppositoires, lavements) : rectites résistantes au 5-ASA [S5].
 - **Jamais en entretien** : la corticothérapie prolongée est délétère ; une **corticodépendance** (deux cures ou plus dans l'année, rechute à la décroissance) impose une **escalade thérapeutique** [S5].
@@ -547,13 +577,13 @@ Non recommandé dans la RCH : les essais n'ont pas montré de bénéfice sur la 
 
 | Molécule (classe) | Schéma d'induction et d'entretien | Source |
 |---|---|---|
-| **Infliximab** (anti-TNF IV) | **5 mg/kg aux semaines 0, 2 et 6**, puis entretien toutes les 8 semaines | Essais ACT [S12] ; BSG 2019 [S5] ; rythme d'entretien : RCP [POSOLOGIE À VÉRIFIER — RCP] |
+| **Infliximab** (anti-TNF IV) | **5 mg/kg aux semaines 0, 2 et 6**, puis entretien **toutes les 8 semaines** | Essais ACT (5 mg/kg aux semaines 0, 2, 6 puis toutes les 8 semaines) [S12] ; BSG 2019 [S5] ; RCP [S27] |
 | **Adalimumab** (anti-TNF SC) | **160 mg à la semaine 0, 80 mg à la semaine 2, puis 40 mg toutes les 2 semaines** | BSG 2019 [S5] |
-| **Golimumab** (anti-TNF SC) | Selon le RCP | [POSOLOGIE À VÉRIFIER — RCP] |
+| **Golimumab** (anti-TNF SC) | **200 mg à la semaine 0, 100 mg à la semaine 2**, puis **50 mg toutes les 4 semaines si poids < 80 kg** ou **100 mg toutes les 4 semaines si poids ≥ 80 kg** (schéma 200/100 évalué dans PURSUIT) | RCP Simponi (version britannique) [S27] ; PURSUIT cité par la BSG 2019 [S5] ; d'autres AMM prévoient 100 mg toutes les 4 semaines quel que soit le poids |
 | **Védolizumab** (anti-intégrine α4β7, IV) | **300 mg aux semaines 0, 2 et 6, puis toutes les 8 semaines** | BSG 2019 (essai VARSITY) [S5] |
-| **Ustékinumab** (anti-IL-12/23) | Induction IV unique d'environ **6 mg/kg** (paliers de poids : 260 mg ≤ 55 kg ; 390 mg de 55 à 85 kg ; 520 mg > 85 kg), puis entretien SC selon le RCP | BSG 2019 (essai UNIFI) [S5] ; entretien [POSOLOGIE À VÉRIFIER — RCP] |
+| **Ustékinumab** (anti-IL-12/23) | Induction IV unique d'environ **6 mg/kg** (paliers de poids : 260 mg ≤ 55 kg ; 390 mg de 55 à 85 kg ; 520 mg > 85 kg), puis **90 mg SC à la semaine 8**, ensuite **toutes les 12 semaines** ; passage **toutes les 8 semaines** en cas de perte de réponse | BSG 2019 (essai UNIFI) [S5] ; RCP Stelara [S27] |
 | **Tofacitinib** (inhibiteur de JAK, oral) | **10 mg × 2/j pendant 8 semaines** en induction, puis entretien à 5 mg (ou 10 mg) × 2/j | BSG 2019 (essais OCTAVE) [S5] ; restrictions de l'EMA pour les inhibiteurs de JAK (âge ≥ 65 ans, risque cardiovasculaire, cancer, thrombose) : voir DOS-RHUM-0001 |
-| **Molécules plus récentes** (filgotinib, upadacitinib, modulateurs de S1P — ozanimod, étrasimod —, anti-IL-23 — mirikizumab, guselkumab, risankizumab) | Selon RCP | Intégrées aux recommandations 2025–2026 [S2, S3, S6] [contenu non relu — À VÉRIFIER] ; disponibilité en Algérie [À VÉRIFIER] |
+| **Molécules plus récentes** (filgotinib, upadacitinib, modulateurs de S1P — ozanimod, étrasimod —, anti-IL-23 — mirikizumab, guselkumab, risankizumab) | **Upadacitinib** : 45 mg/j pendant 8 semaines (prolongation possible), puis **15 ou 30 mg/j** (30 mg réservé aux formes à forte charge inflammatoire, 15 mg au maximum après 65 ans). **Risankizumab** : 1 200 mg IV aux semaines 0, 4 et 8, puis 180 mg SC (360 mg si amélioration insuffisante) toutes les 8 semaines à partir de la semaine 12. Autres molécules : selon leur RCP | RCP Rinvoq et Skyrizi [S27] ; restrictions de l'EMA pour les inhibiteurs de JAK (voir DOS-RHUM-0001) ; place dans la stratégie selon l'ECCO 2026, l'ACG 2025 et la BSG 2025 [S2, S3, S6] [contenu non relu — À VÉRIFIER] ; disponibilité en Algérie [À VÉRIFIER] |
 
 - **Association infliximab + thiopurine** : plus efficace que l'infliximab seul chez les patients en échec des corticoïdes (essai UC SUCCESS, rémission à la semaine 16 : 40 % contre 22 %) [S5].
 - **Mesures thérapeutiques** : dosages résiduels et anticorps anti-médicament pour guider l'optimisation en cas de perte de réponse [S5].
@@ -564,9 +594,10 @@ Ce bilan est **obligatoire** et doit être fait **dès le diagnostic** chez les 
 2. **Infection tuberculeuse latente (ITL)** : traitement préventif **avant** l'anti-TNF ; schémas de l'OMS 2024 (isoniazide 6 ou 9 mois ; 3HP ; 3HR ; alternatives 1HP et 4R) [S18] ; posologies et délai avant la biothérapie selon le **programme national** et l'**instruction ministérielle algérienne de 2024** sur l'ITL [S19 — non relue, contenu À VÉRIFIER] ; attention aux **interactions des rifamycines** (corticoïdes, ciclosporine, tofacitinib, contraception hormonale). Cohérence avec DOS-RHUM-0001 (bilan pré-biothérapie, même contexte algérien).
 3. **Hépatites virales** : AgHBs, anti-HBc, anti-HBs ; anti-VHC ; **VIH** ; **VZV** si pas d'antécédent de varicelle, de zona ou de vaccination [S5].
 4. **Strongyloïdose** (sérologie, éosinophilie) chez les patients ayant longtemps vécu en zone d'endémie [S5].
-5. **Vaccinations** : mise à jour **avant** l'immunosuppression ; grippe chaque automne et pneumocoque ; **vaccins vivants** au moins **4 semaines avant** le début et au moins **3 mois après** l'arrêt, jamais pendant l'immunosuppression [S5].
+5. **Vaccinations** : mise à jour **avant** l'immunosuppression ; grippe chaque automne et pneumocoque (avec **rappel après 5 ans** selon la BSG 2025 chez les patients sous immunomodulateur ou thérapie avancée) [S5, S6] ; **vaccins vivants** au moins **4 semaines avant** le début et au moins **3 mois après** l'arrêt, jamais pendant l'immunosuppression [S5].
 6. **Autres** : foyers infectieux, antécédent de cancer, insuffisance cardiaque et maladie démyélinisante (anti-TNF), frottis cervical, risque cardiovasculaire et thromboembolique (inhibiteurs de JAK).
-7. L'ECCO a publié en **2026** une nouvelle recommandation sur les infections au cours des MICI [S17] (contenu non relu — À VÉRIFIER) qui remplace celle de 2021.
+7. L'ECCO a publié en **2026** une nouvelle recommandation sur les infections au cours des MICI [S17], qui remplace celle de 2021 : elle est organisée en quatre groupes (infections virales ; tuberculose, infections bactériennes, parasitaires et fongiques ; facteurs de risque et degré d'immunosuppression ; vaccination) et ajoute des algorithmes de vaccination selon le traitement (informations du communiqué de l'ECCO ; recommandations détaillées non relues — À VÉRIFIER, notamment le schéma de l'ITL et le délai avant la biothérapie).
+8. **BSG 2025** (extraits vérifiés du résumé exécutif) [S6] : prophylaxie thromboembolique **médicamenteuse chez tout patient atteint de MICI hospitalisé**, quel qu'en soit le motif, sauf contre-indication ; **coprocultures** à la recherche d'une infection bactérienne entéro-invasive devant des symptômes nouveaux ou aggravés ; arrêt ou réduction des **corticoïdes avant une chirurgie programmée**.
 
 #### 13.2.8 Chirurgie
 - **Coloproctectomie totale avec anastomose iléo-anale sur réservoir (AIA)** : intervention de référence en chirurgie programmée ; guérit la maladie colique ; à réaliser dans des **centres experts à fort volume** [S5] ; risque de **pochite** (traitement de première intention : **ciprofloxacine ou métronidazole pendant 2 semaines**) [S5].
@@ -600,7 +631,7 @@ Ce bilan est **obligatoire** et doit être fait **dès le diagnostic** chez les 
 3. **Corticoïdes IV** : méthylprednisolone 60 mg/24 h ou hydrocortisone 100 mg toutes les 6 h [S5].
 4. **HBPM prophylactique** [S5], réhydratation, correction de l'**hypokaliémie** et de l'**hypomagnésémie**, transfusion si besoin, nutrition (pas de mise à jeun systématique en l'absence de complication [À VÉRIFIER]).
 5. **Arrêt** des anticholinergiques, opiacés, antidiarrhéiques et AINS.
-6. ***C. difficile*** associé : **vancomycine orale** [S5] [posologie : POSOLOGIE À VÉRIFIER — RCP / protocole local] ; **CMV** tissulaire : **ganciclovir IV 5 mg/kg × 2/j** en poursuivant le traitement de la colite [S5].
+6. ***C. difficile*** associé : **vancomycine orale** (BSG 2019, sans interrompre les corticoïdes) [S5] : **125 mg × 4/j pendant 10 jours**, dose pouvant être portée à **500 mg × 4/j** dans les formes graves (OMS, AWaRe 2022) [S25] ; **CMV** tissulaire : **ganciclovir IV 5 mg/kg × 2/j** en poursuivant le traitement de la colite [S5].
 7. **Évaluation au 3ᵉ jour** (critères d'Oxford : > 8 selles/j, ou 3–8 selles/j avec CRP > 45 mg/L) [S5] : en cas de réponse insuffisante, **traitement de secours** :
    - **infliximab 5 mg/kg** (accélération du schéma en cas de réponse insuffisante 3–5 jours après la première perfusion, après avis chirurgical) [S5] ;
    - ou **ciclosporine IV 2 mg/kg/j** (chez un patient sans échec antérieur des thiopurines) [S5] ;
@@ -719,7 +750,7 @@ RCH **colite gauche (E2)** — l'atteinte ne dépasse pas l'angle gauche — de 
 **Évolution.** Amélioration partielle. Huit mois plus tard, elle est hospitalisée pour **9 selles sanglantes par jour**, T 38,3 °C, pouls 112/min, Hb 9,8 g/dL, CRP 96 mg/L, albumine 28 g/L, K⁺ 3,1 mmol/L.
 
 **Question 4 — Diagnostic et conduite initiale ?**
-**Colite aiguë grave** (> 6 selles sanglantes + fièvre, tachycardie, anémie, CRP). Hospitalisation, avis chirurgical, coprocultures et *C. difficile*, **rectosigmoïdoscopie prudente** avec biopsies (CMV), ASP (colectasie ?), **HBPM**, correction du potassium et du magnésium, **méthylprednisolone 60 mg/j IV** [S5]. Lancer **sans attendre** le bilan d'un éventuel traitement de secours : radiographie thoracique, **IGRA**, AgHBs/anti-HBc/anti-HBs, VHC, VIH.
+**Colite aiguë grave** (9 selles sanglantes, soit au-delà du seuil de 6, + fièvre, tachycardie, anémie, CRP). Hospitalisation, avis chirurgical, coprocultures et *C. difficile*, **rectosigmoïdoscopie prudente** avec biopsies (CMV), ASP (colectasie ?), **HBPM**, correction du potassium et du magnésium, **méthylprednisolone 60 mg/j IV** [S5]. Lancer **sans attendre** le bilan d'un éventuel traitement de secours : radiographie thoracique, **IGRA**, AgHBs/anti-HBc/anti-HBs, VHC, VIH.
 
 **Question 5 — Au 3ᵉ jour, 7 selles sanglantes, CRP 62 mg/L. Que faire ?**
 Critères d'Oxford positifs (3–8 selles + CRP > 45 mg/L : environ 85 % de risque d'échec) [S5]. Traitement de secours : **infliximab 5 mg/kg** ou **ciclosporine 2 mg/kg/j IV**, d'efficacité comparable (CYSIF) [S11]. L'IGRA revient **positif** avec une radiographie thoracique normale : ITL. Discussion pluridisciplinaire **en urgence** (gastro-entérologue, chirurgien, pneumo-phtisiologue) : traitement préventif de l'ITL selon l'OMS et le protocole national [S18, S19 — À VÉRIFIER], choix entre infliximab et ciclosporine en tenant compte du risque de réactivation tuberculeuse sous immunosuppresseur, et délai acceptable avant l'immunosuppression (non fixé par les sources relues [À VÉRIFIER]). L'option chirurgicale reste ouverte et ne doit pas être retardée.
@@ -737,7 +768,7 @@ Critères d'Oxford positifs (3–8 selles + CRP > 45 mg/L : environ 85 % de risq
 2. Le **tabac protège** contre la RCH (mais pas contre le reste) ; l'arrêt du tabac peut déclencher une poussée.
 3. Diagnostic = faisceau clinique + endoscopique + histologique + **exclusion des infections** (coprocultures, *C. difficile*, **amibes**).
 4. **Montréal** : E1 rectite, E2 jusqu'à l'angle gauche, E3 au-delà ; **Mayo** 0–12.
-5. **Truelove et Witts** : CAG = > 6 selles sanglantes + au moins un signe de toxicité (T > 37,8 °C, pouls > 90, Hb < 10,5 g/dL, CRP > 30 mg/L).
+5. **Truelove et Witts** : CAG = ≥ 6 selles sanglantes (« > 6 » dans le libellé de la BSG 2019) + au moins un signe de toxicité (T > 37,8 °C, pouls > 90, Hb < 10,5 g/dL, CRP > 30 mg/L).
 6. 5-ASA = pilier des formes légères à modérées : **suppositoire 1 g/j** (rectite), **2–3 g/j oral** (jusqu'à 4,8 g/j) + lavements (colite gauche) ; surveillance rénale.
 7. Corticoïdes : **prednisolone 40 mg/j** décroissance 6–8 semaines ; **jamais en entretien**.
 8. CAG : **méthylprednisolone 60 mg/j** ou **hydrocortisone 100 mg × 4/j** ; **HBPM** ; évaluation **J3** (Oxford) ; secours par **infliximab 5 mg/kg** ou **ciclosporine 2 mg/kg/j** ; colectomie si échec à **J7** ou complication.
@@ -785,13 +816,13 @@ E. Elle s'applique aussi à l'âge au diagnostic dans la RCH
 > **Réponses : A, C, D** [S9]. B faux (E2 ne dépasse pas l'angle gauche). E faux (l'âge « A » concerne la maladie de Crohn).
 
 **QCM 3.** Critères d'une colite aiguë grave selon Truelove et Witts (version modifiée de la BSG 2019) :
-A. Plus de 6 selles sanglantes par jour
+A. Plus de 6 selles sanglantes par jour (libellé de la BSG 2019)
 B. Pouls > 90/min
 C. Hémoglobine < 10,5 g/dL
 D. CRP > 30 mg/L
 E. Calprotectine > 250 µg/g
 
-> **Réponses : A, B, C, D** [S5, S7]. E : non inclus.
+> **Réponses : A, B, C, D** [S5, S7]. E : non inclus. Remarque : la classification de Montréal (S3) retient « au moins 6 selles sanglantes » [S9].
 
 **QCM 4.** Traitement d'une CAG à J0 :
 A. Méthylprednisolone 60 mg/24 h IV
@@ -862,20 +893,21 @@ E. Justifie une coloscopie de dépistage dès la première année chez tous les 
 
 | Question | Position A (organisme, date) | Position B (organisme, date) | Commentaire |
 |---|---|---|---|
-| **Version de référence** | ECCO 2022 (traitement médical) [S1] | ECCO **2026** (remplace 2022) [S2] ; ACG **2025** [S3] ; BSG **2025** (remplace 2019) [S6] | Les textes 2025–2026 intègrent de nouvelles classes ; ce dossier doit être mis à jour après leur lecture [À VÉRIFIER] |
+| **Version de référence** | ECCO 2022 (traitement médical) [S1] ; BSG 2019 [S5] | ECCO **2026** (*J Crohns Colitis* 2026;20(7):jjag066, remplace 2022) [S2] ; ACG **2025** [S3] ; BSG **2025** (*Gut* 2025;74 Suppl 2:s1-s101, remplace 2019) [S6] | Publications vérifiées par l'audit ; textes intégraux non lus (hôtes inaccessibles) : la stratégie médicale de ce dossier reste celle de l'ECCO 2022 et de la BSG 2019 et doit être confrontée aux versions 2025–2026 [À VÉRIFIER] |
 | **Méthotrexate** | Non recommandé dans la RCH (ECCO 2022 [S1] ; BSG 2019 [S5]) | — | Concordance |
 | **Thiopurines en première ligne d'escalade** | Proposées en cas de corticodépendance (BSG 2019) [S5] | Passage plus direct à une biothérapie selon la sévérité, le coût et l'accès (BSG 2019, discussion) [S5] | Choix fortement dépendant des ressources ; en Algérie, accès aux biothérapies à vérifier |
 | **Secours de la CAG** | Infliximab ou ciclosporine, équivalents (CYSIF 2012 [S11] ; BSG 2019 [S5]) | — | Choix selon l'expérience du centre, l'exposition antérieure aux thiopurines, l'ITL |
-| **Définition de la colite grave** | Truelove-Witts (1955), VS > 30 mm/h [S7] | Truelove-Witts **modifiés** avec CRP > 30 mg/L (BSG 2019) [S5] ; Montréal S3 (VS ≥ 30, T ≥ 37,5 °C) [S9] | Seuils de température légèrement différents selon les versions |
+| **Définition de la colite grave** | Truelove-Witts (1955), VS > 30 mm/h [S7] ; Montréal S3 : **≥ 6** selles sanglantes, VS ≥ 30, T ≥ 37,5 °C [S9] | Truelove-Witts **modifiés** : « **> 6** » selles sanglantes, CRP > 30 mg/L (BSG 2019) [S5] | Seuils de selles (≥ 6 ou > 6) et de température légèrement différents selon les versions |
 | **Cible thérapeutique** | Rémission symptomatique + cicatrisation muqueuse (BSG 2019) [S5] | Cicatrisation endoscopique à long terme, normalisation de la calprotectine (STRIDE-II 2021) [S22] | Objectifs proches ; l'histologie n'est pas une cible formelle dans STRIDE-II [À VÉRIFIER] |
-| **Infections et dépistage** | ECCO 2021 (Kucharzik) [S23] | ECCO **2026** (Yanai) [S17] | Mise à jour non relue [À VÉRIFIER] |
+| **Infections et dépistage** | ECCO 2021 (Kucharzik) [S23] | ECCO **2026** (Yanai ; *J Crohns Colitis* 2026;20(7):jjag071) [S17] | Existence et structure vérifiées ; recommandations détaillées non relues [À VÉRIFIER] |
+| **Vaccin antipneumococcique sous immunosuppression** | Pneumocoque avant l'immunosuppression (BSG 2019) [S5] | Pneumocoque **avec rappel après 5 ans** (BSG 2025) [S6] | Précision apportée par la BSG 2025 |
 
 ---
 
 ## 22. Références
 
 1. **[S1]** Raine T, et al. ECCO Guidelines on Therapeutics in Ulcerative Colitis: Medical Treatment. *J Crohns Colitis*. 2022;16(1):2-17. doi:10.1093/ecco-jcc/jjab178 (PMID 34635919). — *vérifiée (métadonnées ; catalogue REC-0351, statut « remplacée »).*
-2. **[S2]** Gisbert JP, et al. ECCO Guidelines on Therapeutics in Ulcerative Colitis: Medical Treatment. *J Crohns Colitis*. 2026;20(7):jjag066. doi:10.1093/ecco-jcc/jjag066 (PMID 42413123). — *existence vérifiée ; contenu non lu.*
+2. **[S2]** Gisbert JP, et al. ECCO Guidelines on Therapeutics in Ulcerative Colitis: Medical Treatment. *J Crohns Colitis*. 2026;20(7):jjag066. doi:10.1093/ecco-jcc/jjag066 (PMID 42413123). — *existence et métadonnées vérifiées par l'audit (PubMed) ; contenu non lu (texte intégral hébergé hors des hôtes accessibles).*
 3. **[S3]** Rubin DT, et al. ACG Clinical Guideline Update: Ulcerative Colitis in Adults. *Am J Gastroenterol*. 2025;120(6):1187-1224. doi:10.14309/ajg.0000000000003463 (PMID 40701556). — *existence vérifiée ; contenu non lu.*
 4. **[S4]** Magro F, et al. Third European Evidence-based Consensus on Diagnosis and Management of Ulcerative Colitis. Part 1. *J Crohns Colitis*. 2017;11(6):649-670. doi:10.1093/ecco-jcc/jjx008 (PMID 28158501). — *vérifiée (métadonnées).*
 5. **[S5]** Lamb CA, et al. BSG consensus guidelines on the management of IBD in adults. *Gut*. 2019;68(Suppl 3):s1-s106. doi:10.1136/gutjnl-2019-318484 (PMID 31562236, PMC6872448). — *vérifiée (texte intégral lu ; posologies relevées dans le texte).*
@@ -898,3 +930,6 @@ E. Justifie une coloscopie de dépistage dès la première année chez tous les 
 22. **[S22]** Turner D, et al. STRIDE-II. *Gastroenterology*. 2021;160(5):1570-1583. doi:10.1053/j.gastro.2020.12.031 (PMID 33359090). — *vérifiée (métadonnées).*
 23. **[S23]** Kucharzik T, et al. ECCO Guidelines on Infections in IBD. *J Crohns Colitis*. 2021;15(6):879-913. doi:10.1093/ecco-jcc/jjab052 (PMID 33730753). — *vérifiée (métadonnées) ; remplacée par S17.*
 24. **[S24]** Travis SP, et al. Predicting outcome in severe ulcerative colitis. *Gut*. 1996;38(6):905-910. doi:10.1136/gut.38.6.905 (PMID 8984031). — *vérifiée (métadonnées) ; critères repris du tableau 5 de la BSG 2019.*
+25. **[S25]** OMS. The WHO AWaRe antibiotic book, 2022, chapitre 33 (DOC-00039). — *texte lu par l'audit (vancomycine orale 125 mg toutes les 6 h, 10 jours ; 500 mg toutes les 6 h dans les formes graves).*
+26. **[S26]** HAS, Commission de la transparence. Avis SALAZOPYRINE, 23 juillet 2014. — *texte lu par l'audit (posologie de l'AMM).*
+27. **[S27]** RCP de l'infliximab, du golimumab, de l'ustékinumab, du budésonide MMX, de l'upadacitinib et du risankizumab. — *posologies confirmées par recherche web (RCP britanniques et européens) ; textes intégraux non téléchargés.*

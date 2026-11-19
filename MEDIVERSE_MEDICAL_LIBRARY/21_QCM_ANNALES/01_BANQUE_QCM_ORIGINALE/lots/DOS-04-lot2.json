@@ -50,7 +50,7 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -100,7 +100,7 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -161,7 +161,7 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -210,7 +210,7 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -259,7 +259,7 @@
           "date": "2017"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -307,7 +307,7 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -356,7 +356,7 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -402,7 +402,7 @@
           "date": "2017"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -423,13 +423,13 @@
         "C",
         "E"
       ],
-      "explication_generale": "Tout ulcère gastrique est un cancer jusqu'à preuve du contraire : biopsies multiples, contrôle de cicatrisation avec nouvelles biopsies ; IPP prolongé jusqu'à cicatrisation (durées selon RCP).",
+      "explication_generale": "Tout ulcère gastrique est un cancer jusqu'à preuve du contraire : biopsies multiples, contrôle de cicatrisation avec nouvelles biopsies ; IPP à pleine dose 4 à 8 semaines, prolongé jusqu'à cicatrisation (HAS, Commission de la transparence, 2020).",
       "explications_par_proposition": {
         "A": "Vrai.",
         "B": "Vrai.",
         "C": "Vrai.",
         "D": "Faux.",
-        "E": "Vrai (durées selon RCP, 4 semaines pour l'UD, jusqu'à 8 semaines pour l'UG)."
+        "E": "Vrai : IPP à pleine dose 4 semaines pour l'UD, 4 à 8 semaines pour l'UG, prolongeables selon la taille (durées de l'AMM rappelées par la HAS en 2020)."
       },
       "specialite": "GAST",
       "items_residanat": [
@@ -453,9 +453,13 @@
         {
           "reference": "Malfertheiner P et al. Management of Helicobacter pylori infection: the Maastricht VI/Florence consensus report. Gut 2022;71(9):1724-1762. doi:10.1136/gutjnl-2022-327745",
           "date": "2022"
+        },
+        {
+          "reference": "HAS, Commission de la transparence. Rapport d'évaluation des inhibiteurs de la pompe à protons (réévaluation), avis définitif, 2020",
+          "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -503,7 +507,7 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -556,7 +560,7 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -568,7 +572,7 @@
         "A": "La résistance à la clarithromycine multiplie le risque d'échec des schémas qui la contiennent",
         "B": "Le seuil de 15 % de résistance à la clarithromycine sert à décider de l'usage empirique de la trithérapie",
         "C": "Les résistances primaires étaient ≥ 15 % dans la plupart des régions de l'OMS",
-        "D": "L'OMS a classé H. pylori résistant à la clarithromycine parmi les pathogènes prioritaires",
+        "D": "En 2017, l'OMS a classé H. pylori résistant à la clarithromycine parmi les pathogènes prioritaires",
         "E": "La surveillance locale de la résistance est inutile"
       },
       "reponses_correctes": [
@@ -577,12 +581,12 @@
         "C",
         "D"
       ],
-      "explication_generale": "Savoldi : OR d'échec ≈ 7 en cas de résistance à la clarithromycine ; résistances ≥ 15 % dans la plupart des régions ; l'OMS a fait de H. pylori résistant à la clarithromycine une priorité en 2017 ; les auteurs appellent à des réseaux de surveillance locaux.",
+      "explication_generale": "Savoldi : OR d'échec ≈ 7 en cas de résistance à la clarithromycine ; résistances ≥ 15 % dans la plupart des régions ; l'OMS a fait de H. pylori résistant à la clarithromycine une priorité en 2017 (retiré de la liste actualisée de 2024, retrait contesté) ; les auteurs appellent à des réseaux de surveillance locaux.",
       "explications_par_proposition": {
         "A": "Vrai (OR 6,97).",
         "B": "Vrai.",
         "C": "Vrai, à quelques exceptions.",
-        "D": "Vrai (2017).",
+        "D": "Vrai pour la liste de 2017 ; H. pylori n'a pas été repris dans la liste actualisée de 2024.",
         "E": "Faux."
       },
       "specialite": "GAST",
@@ -607,9 +611,13 @@
         {
           "reference": "Malfertheiner P et al. Management of Helicobacter pylori infection: the Maastricht VI/Florence consensus report. Gut 2022;71(9):1724-1762. doi:10.1136/gutjnl-2022-327745",
           "date": "2022"
+        },
+        {
+          "reference": "OMS. WHO bacterial priority pathogens list, 2024 (ISBN 9789240093461) ; retrait de H. pylori : Microbial Genomics 2025;11:001475 (PMC12452171)",
+          "date": "2024"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -657,7 +665,7 @@
           "date": "2005"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -710,7 +718,7 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -731,7 +739,7 @@
         "C",
         "D"
       ],
-      "explication_generale": "Il s'agit d'une colite aiguë grave (> 6 selles sanglantes + signes systémiques). Mesures associées à la corticothérapie IV : correction du potassium et du magnésium, HBPM, imagerie de la colectasie, surveillance médico-chirurgicale. Le score de Lichtiger (0–21) est utilisé dans les essais de traitement de secours.",
+      "explication_generale": "Il s'agit d'une colite aiguë grave (au moins 6 selles sanglantes — « plus de 6 » dans le libellé de la BSG 2019 — + signes systémiques). Mesures associées à la corticothérapie IV : correction du potassium et du magnésium, HBPM, imagerie de la colectasie, surveillance médico-chirurgicale. Le score de Lichtiger (0–21) est utilisé dans les essais de traitement de secours.",
       "explications_par_proposition": {
         "A": "Vrai : facteurs favorisants de la colectasie.",
         "B": "Vrai (BSG 2019, recommandation forte).",
@@ -763,7 +771,7 @@
           "date": "2012"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -809,7 +817,7 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -862,7 +870,7 @@
           "date": "2012"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -914,7 +922,7 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -963,7 +971,7 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -1016,7 +1024,7 @@
           "date": "2024"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -1065,7 +1073,7 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -1118,7 +1126,7 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -1167,7 +1175,7 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -1216,7 +1224,7 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -1264,7 +1272,7 @@
           "date": "2005"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -1313,7 +1321,7 @@
           "date": "1976"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -1359,7 +1367,7 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -1408,7 +1416,7 @@
           "date": "2010"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -1456,7 +1464,7 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -1505,7 +1513,7 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -1531,7 +1539,7 @@
         "A": "Vrai.",
         "B": "Vrai.",
         "C": "Vrai.",
-        "D": "Vrai.",
+        "D": "Vrai : chez la femme (BSG 2019, recommandation forte) ; chez l'homme, l'arrêt n'est probablement pas nécessaire (recommandation faible).",
         "E": "Faux : hebdomadaire."
       },
       "specialite": "GAST",
@@ -1558,7 +1566,7 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -1611,7 +1619,7 @@
           "date": "1990"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -1659,7 +1667,7 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -1708,7 +1716,7 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -1757,7 +1765,7 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -1806,7 +1814,7 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -1852,7 +1860,7 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -1901,7 +1909,7 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -1950,7 +1958,7 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -2003,7 +2011,7 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -2052,7 +2060,7 @@
           "date": "1999"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -2105,7 +2113,7 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -2154,7 +2162,7 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -2203,7 +2211,7 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -2252,7 +2260,7 @@
           "date": "2024"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -2301,7 +2309,7 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -2322,7 +2330,7 @@
         "C",
         "D"
       ],
-      "explication_generale": "BRAF V600E est un facteur de mauvais pronostic des tumeurs MSS métastatiques ; il existe des options ciblées (encorafénib + cétuximab).",
+      "explication_generale": "BRAF V600E est un facteur de mauvais pronostic des tumeurs MSS métastatiques ; il existe des options ciblées (encorafénib + cétuximab). L'ESMO 2023 a été remplacée par l'ESMO 2026 (avril 2026), qui fait de l'association encorafénib + cétuximab + mFOLFOX6 une option de première ligne des tumeurs BRAF V600E ; les propositions A à D restent exactes.",
       "explications_par_proposition": {
         "A": "Vrai.",
         "B": "Vrai.",
@@ -2352,9 +2360,13 @@
         {
           "reference": "André T et al. Pembrolizumab in MSI-H advanced colorectal cancer (KEYNOTE-177). N Engl J Med 2020;383(23):2207-2218",
           "date": "2020"
+        },
+        {
+          "reference": "Cremolini C, et al. Metastatic colorectal cancer: ESMO Clinical Practice Guideline. Ann Oncol. 2026;37(6):759-776. doi:10.1016/j.annonc.2026.03.005",
+          "date": "2026"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -2403,7 +2415,7 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -2452,7 +2464,7 @@
           "date": "1986"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -2501,7 +2513,7 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -2550,7 +2562,7 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -2599,7 +2611,7 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -2653,7 +2665,7 @@
           "date": "2021"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -2706,7 +2718,7 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -2759,7 +2771,7 @@
           "date": "2015"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -2812,7 +2824,7 @@
           "date": "2014"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -2861,7 +2873,7 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -2910,7 +2922,7 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -2963,7 +2975,7 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     },
@@ -3012,9 +3024,28 @@
           "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
       "date_creation": "2026-11-19"
     }
-  ]
+  ],
+  "audit": {
+    "date": "2026-11-19",
+    "auditeur": "AUD-01/AUD-02/AUD-04 (IA)",
+    "qcm_corriges": [
+      "QCM-GAST-0459",
+      "QCM-GAST-0462",
+      "QCM-GAST-0465",
+      "QCM-GAST-0481",
+      "QCM-CDIG-0461"
+    ],
+    "resultat": "60 QCM relus : toutes les réponses marquées sont exactes ; 5 explications ou énoncés précisés (durées des IPP selon la HAS 2020, liste OMS 2024, seuil de la colite aiguë grave, méthotrexate chez l'homme, ESMO 2026).",
+    "rapports": [
+      "00_SYSTEME/agents/AUD-01/rapports/DOS-GAST-0002.md",
+      "00_SYSTEME/agents/AUD-01/rapports/DOS-GAST-0003.md",
+      "00_SYSTEME/agents/AUD-01/rapports/DOS-GAST-0004.md",
+      "00_SYSTEME/agents/AUD-01/rapports/DOS-CDIG-0003.md",
+      "00_SYSTEME/agents/AUD-01/rapports/DOS-CDIG-0004.md"
+    ]
+  }
 }

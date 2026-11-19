@@ -1316,3 +1316,14 @@
 {"date": "2026-11-19T04:56:34+00:00", "agent": "indexeur", "action": "indexation", "cible": "25_INDEX_GENERAL", "details": {"entrees": 7509, "dossiers": 95}}
 {"date": "2026-11-19T04:56:34+00:00", "agent": "tableau_de_bord", "action": "ecriture_json", "cible": "25_INDEX_GENERAL/tableau_de_bord.json"}
 {"date": "2026-11-19T04:56:34+00:00", "agent": "tableau_de_bord", "action": "generation", "cible": "25_INDEX_GENERAL/TABLEAU_DE_BORD.md"}
+{"date": "2026-11-19T05:09:21+00:00", "agent": "AUD-01", "action": "ecriture_json", "cible": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-04-lot2.json"}
+{"date": "2026-11-19T05:09:41+00:00", "agent": "AUD-01", "action": "ecriture_json", "cible": "20_CAS_CLINIQUES/lots/DOS-04-lot2.json"}
+{"date": "2026-11-19T05:09:56+00:00", "agent": "AUD-01", "action": "ecriture_json", "cible": "20_CAS_CLINIQUES/lots/DOS-04-lot2.json"}
+{"date": "2026-11-19T05:09:57+00:00", "agent": "validateur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/rapport_validation.json"}
+{"date": "2026-11-19T05:10:01+00:00", "agent": "validateur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/rapport_validation.json"}
+{"date": "2026-11-19T05:13:02+00:00", "agent": "AUD-01", "action": "audit_dossier", "cible": "DOS-GAST-0002", "details": {"verdict": "audite_valide", "version": "1.1", "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-GAST-0002.md"}}
+{"date": "2026-11-19T05:13:02+00:00", "agent": "AUD-01", "action": "audit_dossier", "cible": "DOS-GAST-0003", "details": {"verdict": "audite_corrections_requises", "version": "1.1", "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-GAST-0003.md"}}
+{"date": "2026-11-19T05:13:02+00:00", "agent": "AUD-01", "action": "audit_dossier", "cible": "DOS-GAST-0004", "details": {"verdict": "audite_corrections_requises", "version": "1.1", "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-GAST-0004.md"}}
+{"date": "2026-11-19T05:13:02+00:00", "agent": "AUD-01", "action": "audit_dossier", "cible": "DOS-CDIG-0003", "details": {"verdict": "audite_corrections_requises", "version": "1.1", "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-CDIG-0003.md"}}
+{"date": "2026-11-19T05:13:02+00:00", "agent": "AUD-01", "action": "audit_dossier", "cible": "DOS-CDIG-0004", "details": {"verdict": "audite_valide", "version": "1.1", "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-CDIG-0004.md"}}
+{"date": "2026-11-19T05:13:02+00:00", "agent": "AUD-01", "action": "audit_lot", "cible": "DOS-04-lot2", "details": {"qcm": "60/60 audite_valide", "cas": "9 audite_valide, 1 corrections requises"}}

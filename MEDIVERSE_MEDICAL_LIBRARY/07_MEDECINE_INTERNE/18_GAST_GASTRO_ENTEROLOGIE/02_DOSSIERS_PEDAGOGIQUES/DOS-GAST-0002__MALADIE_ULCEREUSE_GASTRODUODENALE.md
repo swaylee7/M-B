@@ -6,11 +6,17 @@ sous_specialite: "Pathologie gastroduodénale — Helicobacter pylori"
 items_residanat: [RES-MED-018]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-04 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_valide
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01/AUD-02/AUD-04 (IA)"
+    verdict: audite_valide
+    corrections: 11
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-GAST-0002.md
 sources:
   - id: S1
     reference: "Malfertheiner P, Megraud F, Rokkas T, Gisbert JP, Liou JM, Schulz C, et al. Management of Helicobacter pylori infection: the Maastricht VI/Florence consensus report. Gut. 2022;71(9):1724-1762."
@@ -140,13 +146,29 @@ sources:
     doi: "10.1055/a-1369-5274"
     url: ""
     verifiee: true
+  - id: S17
+    reference: "Haute Autorité de santé, Commission de la transparence. Rapport d'évaluation des inhibiteurs de la pompe à protons (spécialités et génériques) — réévaluation, avis définitif (CTEVAL493). Saint-Denis : HAS ; 2020."
+    organisme: HAS
+    annee: 2020
+    type: recommandation
+    doi: ""
+    url: "https://www.has-sante.fr/upload/docs/application/pdf/2020-11/rapport_reevaluation_ipp_avisdef_cteval493.pdf"
+    verifiee: true
+  - id: S18
+    reference: "World Health Organization. WHO bacterial priority pathogens list, 2024. Geneva: WHO; 2024. ISBN 9789240093461. (Retrait de H. pylori résistant à la clarithromycine confirmé par : Microbial Genomics 2025;11:001475, doi:10.1099/mgen.0.001475, PMC12452171.)"
+    organisme: OMS
+    annee: 2024
+    type: recommandation
+    doi: ""
+    url: "https://www.who.int/publications/i/item/9789240093461"
+    verifiee: true
 mots_cles: [ulcère gastrique, ulcère duodénal, Helicobacter pylori, Maastricht VI, clarithromycine, résistance, quadrithérapie bismuthée, quadrithérapie concomitante, AINS, aspirine, perforation, sténose, inhibiteurs de la pompe à protons, Algérie]
 ---
 
 # Maladie ulcéreuse gastroduodénale : diagnostic, complications et traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : audité (AUD-01/02/04, 19/11/2026, v1.1 — rapport `00_SYSTEME/agents/AUD-01/rapports/DOS-GAST-0002.md`). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 > **Renvoi** : l'**hémorragie ulcéreuse** (réanimation, scores, classification de Forrest, endoscopie, IPP IV, gestion des antithrombotiques) est traitée en détail dans **DOS-GAST-0001** (*Hémorragies digestives*, audité). Ce dossier n'en reprend que l'articulation avec la maladie ulcéreuse et ne la contredit pas.
 
 **Items du programme couverts** : RES-MED-018 — « Maladie ulcéreuse gastroduodénale : diagnostic - complications et traitement. »
@@ -196,7 +218,7 @@ Deux principes structurent toute la prise en charge :
 
 - La prévalence de la maladie ulcéreuse a **nettement diminué** en deux décennies, en raison de la baisse de la prévalence de *H. pylori* et de la large diffusion des antisécrétoires ; à l'inverse, la part des ulcères liés aux **AINS et à l'aspirine** et celle des ulcères **ni *H. pylori* ni AINS** augmentent, en particulier chez le sujet âgé polymédiqué [S5].
 - L'infection à *H. pylori* concernait environ **4,4 milliards** de personnes dans le monde en 2015 ; l'**Afrique** avait la prévalence regroupée la plus élevée (**70,1 %**) et l'Océanie la plus faible (24,4 %) [S7].
-- La **résistance de *H. pylori* aux antibiotiques** progresse : dans la méta-analyse de Savoldi (178 études, 65 pays), les résistances primaire et secondaire à la clarithromycine, au métronidazole et à la lévofloxacine étaient **≥ 15 % dans toutes les régions de l'OMS**, à quelques exceptions près ; la résistance à la clarithromycine multipliait par environ 7 le risque d'échec des schémas qui la contiennent (OR 6,97) [S8]. En 2017, l'OMS a inscrit *H. pylori* résistant à la clarithromycine parmi les pathogènes **prioritaires** pour la recherche [S8].
+- La **résistance de *H. pylori* aux antibiotiques** progresse : dans la méta-analyse de Savoldi (178 études, 65 pays), les résistances primaire et secondaire à la clarithromycine, au métronidazole et à la lévofloxacine étaient **≥ 15 % dans toutes les régions de l'OMS**, à quelques exceptions près ; la résistance à la clarithromycine multipliait par environ 7 le risque d'échec des schémas qui la contiennent (OR 6,97) [S8]. En 2017, l'OMS a inscrit *H. pylori* résistant à la clarithromycine parmi les pathogènes **prioritaires** pour la recherche [S8] ; il **n'a pas été repris** dans la liste actualisée de 2024, retrait contesté par une partie de la communauté scientifique [S18].
 - L'**hémorragie** est la complication la plus fréquente ; selon les données citées par les recommandations de la WSES, l'ulcère hémorragique représente environ **75 %** des admissions aux urgences pour maladie ulcéreuse [S15].
 
 ### 3.2 Algérie / Maghreb (données sourcées)
@@ -462,7 +484,7 @@ L'ulcère creuse un organe de voisinage (pancréas surtout, foie, voies biliaire
 ### 13.2 Moyens
 
 #### 13.2.1 Antisécrétoires
-- **Inhibiteurs de la pompe à protons (IPP)** : oméprazole, ésoméprazole, lansoprazole, pantoprazole, rabéprazole. À prendre **avant le repas**. Dans l'éradication, **une dose matin et soir** : ésoméprazole 20 mg, lansoprazole 30 mg, oméprazole 20 mg, pantoprazole 40 mg ou rabéprazole 20 mg [S3, S4]. Pour la **cicatrisation** hors éradication : une dose standard par jour pendant **4 semaines (ulcère duodénal) à 8 semaines (ulcère gastrique)** selon les RCP [POSOLOGIE À VÉRIFIER — RCP / protocole local].
+- **Inhibiteurs de la pompe à protons (IPP)** : oméprazole, ésoméprazole, lansoprazole, pantoprazole, rabéprazole. À prendre **avant le repas** (en règle générale, selon le RCP). Dans l'éradication, **une dose matin et soir**, pendant le repas selon la fiche de la HAS : ésoméprazole 20 mg, lansoprazole 30 mg, oméprazole 20 mg, pantoprazole 40 mg ou rabéprazole 20 mg [S3, S4]. Pour la **cicatrisation** d'un ulcère sans *H. pylori* : IPP à **pleine dose** pendant **4 semaines (ulcère duodénal)** et **4 à 8 semaines (ulcère gastrique)**, durée prolongeable en présence de facteurs retardant la cicatrisation (taille de l'ulcère) ; ce sont les durées de l'AMM rappelées par la HAS (Commission de la transparence, 2020) [S17].
 - **Effets indésirables des IPP** (surtout au long cours) : céphalées, troubles digestifs, hypomagnésémie, carence en vitamine B12, infections digestives (*C. difficile*), interactions (clopidogrel pour certains IPP). La prescription au long cours doit être **justifiée** et réévaluée.
 - **Anti-H2** (famotidine…), **antiacides**, **sucralfate**, **misoprostol** (analogue de la PGE1, efficace dans la prévention des ulcères aux AINS mais mal toléré — diarrhée — et **contre-indiqué pendant la grossesse**) : places devenues marginales.
 - **Inhibiteurs compétitifs de la pompe potassique (P-CAB : vonoprazan…)** : utilisés dans certains schémas d'éradication (bithérapie vonoprazan-amoxicilline citée par l'ACG 2024 comme alternative empirique) [S2] ; **disponibilité en Algérie non vérifiée** [À VÉRIFIER].
@@ -476,7 +498,7 @@ L'ulcère creuse un organe de voisinage (pancréas surtout, foie, voies biliaire
 | **Trithérapie guidée — souche sensible à la clarithromycine** | IPP 1 dose × 2/j + amoxicilline 50 mg/kg/j en 3–4 prises + clarithromycine 500 mg × 2/j | 10 jours | HAS 2021 (traitement guidé) [S4] |
 | **Trithérapie guidée — souche résistante à la clarithromycine, sensible à la lévofloxacine** | IPP 1 dose × 2/j + amoxicilline 50 mg/kg/j en 3–4 prises + **lévofloxacine 500 mg × 1/j** | 10 jours | HAS 2021 [S4] |
 | **Souche résistante à la clarithromycine et à la lévofloxacine** | Quadrithérapie bismuthée (oméprazole 20 mg × 2/j + 3 gélules × 4/j) | 10 jours | HAS 2021 [S4] |
-| **Bithérapie P-CAB + amoxicilline ; trithérapie à la rifabutine** | Alternatives empiriques de 14 jours chez le patient non allergique à la pénicilline | 14 jours | ACG 2024 [S2] — posologies non reprises ici [POSOLOGIE À VÉRIFIER — RCP / protocole local] |
+| **Bithérapie P-CAB + amoxicilline ; trithérapie à la rifabutine** | Alternatives empiriques de 14 jours chez le patient non allergique à la pénicilline | 14 jours | ACG 2024 [S2] : **vonoprazan 20 mg × 2/j + amoxicilline 1 g × 3/j** ; **oméprazole 40 mg × 3/j + amoxicilline 1 g × 3/j + rifabutine 50 mg × 3/j** (association fixe aux États-Unis) — schémas relevés dans la synthèse officielle de l'ACG ; disponibilité en Algérie [À VÉRIFIER] |
 
 **Points pratiques** :
 - **Interroger sur les macrolides reçus antérieurement** (pour n'importe quelle indication) : toute prise antérieure de clarithromycine ou d'un autre macrolide fait **préférer la quadrithérapie bismuthée** [S3].
@@ -507,11 +529,11 @@ Aujourd'hui réservée aux **complications** : perforation (suture ± patch omen
 #### 13.3.2 Ulcère gastrique
 1. Biopsies multiples (cancer) + biopsies pour *H. pylori*.
 2. Éradication si *H. pylori* positif ; arrêt des AINS.
-3. **IPP prolongé** jusqu'à cicatrisation (durée classiquement de plusieurs semaines) [POSOLOGIE À VÉRIFIER — RCP / protocole local].
+3. **IPP à pleine dose** jusqu'à cicatrisation : **4 à 8 semaines** (durées de l'AMM), prolongées si l'ulcère est volumineux ou lent à cicatriser [S17].
 4. **EOGD de contrôle** avec biopsies (cicatrisation, absence de cancer) ; elle peut être couplée au contrôle de l'éradication par biopsies.
 
 #### 13.3.3 Ulcère lié aux AINS
-1. **Arrêt de l'AINS** ; IPP à dose standard jusqu'à cicatrisation (4–8 semaines) [POSOLOGIE À VÉRIFIER — RCP / protocole local].
+1. **Arrêt de l'AINS** ; IPP à **pleine dose pendant 4 à 8 semaines** (ésoméprazole à demi-dose selon son AMM) ; si l'AINS doit être poursuivi, même schéma [S17].
 2. Recherche et éradication de *H. pylori* (facteur de risque additif) [S1].
 3. Si l'AINS est **indispensable** : IPP associé pendant toute la durée du traitement ; discuter un coxib à la plus faible dose efficace en tenant compte du risque cardiovasculaire [S5].
 
@@ -554,7 +576,7 @@ Aujourd'hui réservée aux **complications** : perforation (suture ± patch omen
 
 ### 15.1 Prévention de l'ulcère et de ses complications sous AINS/aspirine
 - **Indication de l'AINS** : la plus courte durée et la plus faible dose efficace ; éviter l'association AINS + aspirine + anticoagulant + corticoïde lorsque c'est possible.
-- **Facteurs de risque** justifiant une gastroprotection par IPP : âge avancé (souvent > 65 ans), **antécédent d'ulcère** (surtout compliqué), association à l'aspirine, à un anticoagulant, à un antiagrégant ou à un corticoïde, comorbidités sévères, fortes doses d'AINS [S5].
+- **Facteurs de risque** justifiant une gastroprotection par IPP : âge avancé (**≥ 65 ans** pour la HAS), **antécédent d'ulcère** (surtout compliqué ; rechercher et traiter *H. pylori*), association à l'aspirine, à un anticoagulant, à un antiagrégant ou à un corticoïde, comorbidités sévères, fortes doses d'AINS [S5, S17]. La prévention se fait à **demi-dose** (sauf oméprazole, à pleine dose) et s'arrête avec l'AINS [S17].
 - **Recherche et éradication de *H. pylori*** chez les patients ayant un antécédent ulcéreux avant un traitement prolongé par AINS ou aspirine [S1].
 
 ### 15.2 Prévention de la récidive
@@ -814,4 +836,7 @@ E. Prise de paracétamol
 15. **[S15]** Tarasconi A, Coccolini F, Biffl WL, et al. Perforated and bleeding peptic ulcer: WSES guidelines. *World J Emerg Surg*. 2020;15:3. doi:10.1186/s13017-019-0283-9 (PMID 31921329, PMC6947898). — *vérifiée (texte intégral lu via Europe PMC).*
 16. **[S16]** Gralnek IM, Stanley AJ, Morris AJ, et al. ESGE Guideline – Update 2021 (NVUGIH). *Endoscopy*. 2021;53(3):300-332. doi:10.1055/a-1369-5274. — *vérifiée (audit de DOS-GAST-0001).*
 
-*Éléments restant à vérifier* : chiffres d'usage (risque d'ulcère chez l'infecté, nombre de biopsies), classification de Johnson et score de Boey (publications princeps), durées des IPP de cicatrisation (RCP), disponibilité en Algérie de la quadrithérapie bismuthée, des P-CAB et des tests de résistance, existence d'une recommandation algérienne.
+17. **[S17]** HAS, Commission de la transparence. Rapport d'évaluation des IPP (réévaluation), avis définitif, 2020 (CTEVAL493). — *vérifiée (PDF téléchargé sur has-sante.fr et lu par l'audit : durées de cicatrisation, AINS, prévention).*
+18. **[S18]** OMS. WHO bacterial priority pathogens list, 2024 (ISBN 9789240093461). — *existence vérifiée ; retrait de H. pylori vérifié dans Microbial Genomics 2025 (PMC12452171).*
+
+*Éléments restant à vérifier* : chiffres d'usage (risque d'ulcère chez l'infecté, nombre de biopsies), classification de Johnson et score de Boey (publications princeps), poursuite de l'IPP après éradication dans l'ulcère duodénal non compliqué (texte de recommandation), disponibilité en Algérie de la quadrithérapie bismuthée, des P-CAB, de la rifabutine et des tests de résistance, existence d'une recommandation algérienne.

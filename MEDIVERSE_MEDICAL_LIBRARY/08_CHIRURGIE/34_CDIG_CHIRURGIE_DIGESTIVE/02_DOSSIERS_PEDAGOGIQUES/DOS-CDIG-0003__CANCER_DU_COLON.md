@@ -6,11 +6,17 @@ sous_specialite: "Oncologie digestive — chirurgie colorectale"
 items_residanat: [RES-CHI-003]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-04 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01/AUD-02/AUD-04 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 10
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-CDIG-0003.md
 sources:
   - id: S1
     reference: "Argilés G, Tabernero J, Labianca R, Hochhauser D, Salazar R, Iveson T, et al. Localised colon cancer: ESMO Clinical Practice Guidelines for diagnosis, treatment and follow-up. Ann Oncol. 2020;31(10):1291-1305."
@@ -45,13 +51,13 @@ sources:
     url: ""
     verifiee: true
   - id: S5
-    reference: "Brierley JD, Gospodarowicz MK, Wittekind C (eds). TNM Classification of Malignant Tumours. 8th ed. Oxford: Wiley-Blackwell (UICC); 2017. (Ouvrage non consulté ; métadonnées non revérifiées.)"
+    reference: "Brierley JD, Gospodarowicz MK, Wittekind C (eds). TNM Classification of Malignant Tumours. 8th ed. Oxford: Wiley-Blackwell (UICC); 2017. ISBN 978-1-119-26357-9. (Ouvrage non consulté ; existence et métadonnées vérifiées par l'audit : page UICC et catalogues de bibliothèques.)"
     organisme: UICC
     annee: 2017
     type: ouvrage
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S6
     reference: "André T, Boni C, Mounedji-Boudiaf L, et al. Oxaliplatin, fluorouracil, and leucovorin as adjuvant treatment for colon cancer (MOSAIC). N Engl J Med. 2004;350(23):2343-2351."
     organisme: "NEJM"
@@ -212,14 +218,30 @@ sources:
     doi: "10.1200/JCO.2018.36.15_suppl.e15697"
     url: ""
     verifiee: false
+  - id: S26
+    reference: "Twelves C, Wong A, Nowacki MP, et al. Capecitabine as adjuvant treatment for stage III colon cancer (X-ACT). N Engl J Med. 2005;352(26):2696-2704 ; et RCP Xeloda (capécitabine), rubrique 4.2 (posologie confirmée par recherche web, EPAR non téléchargé)."
+    organisme: "NEJM / EMA"
+    annee: 2005
+    type: article
+    doi: "10.1056/NEJMoa043116"
+    url: ""
+    verifiee: true
+  - id: S27
+    reference: "European Medicines Agency. EMA recommendations on DPD testing prior to treatment with fluorouracil, capecitabine, tegafur and flucytosine (recommandation du PRAC, mars 2020 ; décision de la Commission européenne)."
+    organisme: EMA
+    annee: 2020
+    type: recommandation
+    doi: ""
+    url: "https://www.ema.europa.eu/en/news/ema-recommendations-dpd-testing-prior-treatment-fluorouracil-capecitabine-tegafur-flucytosine"
+    verifiee: true
 mots_cles: [cancer du côlon, adénocarcinome colorectal, TNM 8, coloscopie, dépistage, test immunologique fécal, syndrome de Lynch, instabilité microsatellitaire, dMMR, colectomie, chimiothérapie adjuvante, FOLFOX, CAPOX, IDEA, occlusion, métastases hépatiques, Algérie, Plan cancer]
 ---
 
 # Cancer du côlon : diagnostic et traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies et les protocoles de chimiothérapie doivent être confrontés aux RCP, aux protocoles de la réunion de concertation pluridisciplinaire (RCP oncologique) et aux protocoles locaux avant tout usage clinique.
-> **Actualité** : la recommandation ESMO sur le cancer du côlon **localisé** date de 2020 [S1] ; la recommandation ESMO sur le cancer colorectal **métastatique** de 2023 [S2] a été **remplacée en 2026** [S3] (non relue). Le **cancer du rectum** relève d'une prise en charge spécifique (radiothérapie, chirurgie du mésorectum) qui n'est pas traitée ici.
+> Statut : audité (AUD-01/02/04, 19/11/2026, v1.1) — corrections requises (voir rapport `00_SYSTEME/agents/AUD-01/rapports/DOS-CDIG-0003.md`). Les posologies et les protocoles de chimiothérapie doivent être confrontés aux RCP, aux protocoles de la réunion de concertation pluridisciplinaire (RCP oncologique) et aux protocoles locaux avant tout usage clinique.
+> **Actualité** (vérifiée par l'audit le 19/11/2026) : la recommandation ESMO sur le cancer du côlon **localisé** date de 2020 [S1] ; la recommandation ESMO sur le cancer colorectal **métastatique** de 2023 [S2] a été **remplacée** par l'ESMO 2026 (*Ann Oncol* 2026;37(6):759-776, mise en ligne en avril 2026) [S3], dont le texte intégral n'a pas été lu (points clés au § 13.2.3). Le **cancer du rectum** relève d'une prise en charge spécifique (radiothérapie, chirurgie du mésorectum) qui n'est pas traitée ici.
 
 **Items du programme couverts** : RES-CHI-003 — « Cancer du colon : Diagnostic et traitement. »
 
@@ -329,7 +351,7 @@ Le dépistage organisé par **test immunologique fécal tous les 2 ans de 50 à 
   5. diagnostics confirmés par l'histologie.
 - **Critères de Bethesda révisés** (2004) [S11] : ils indiquent la recherche d'instabilité microsatellitaire dans la tumeur, par exemple en cas de cancer colorectal **avant 50 ans**, de cancers synchrones ou métachrones du spectre Lynch, d'histologie évocatrice de MSI avant 60 ans, ou d'apparentés atteints (au 1ᵉʳ degré avec un cancer avant 50 ans, ou deux apparentés ou plus quel que soit l'âge) [formulations détaillées À VÉRIFIER dans l'article].
 - **Approche actuelle** : **recherche systématique du déficit MMR (immunohistochimie des 4 protéines) ou de la MSI sur toutes les tumeurs colorectales** (« dépistage universel »), plutôt que de se limiter aux critères cliniques, qui manquent une partie des familles [S1, S12, S13]. Un déficit de MLH1 impose de rechercher une hyperméthylation de son promoteur ou une mutation BRAF V600E (en faveur d'un cancer sporadique) avant de conclure à un probable Lynch [S12, S13].
-- **Conduite** : consultation d'**oncogénétique** (avec consentement), test constitutionnel, dépistage des apparentés ; **coloscopie tous les 2 ans** à partir de 25 ans pour *MLH1*/*MSH2* et à partir de 35 ans pour *MSH6*/*PMS2* selon la BSG/ACPGBI/UKCGG 2020 [S12] [âges exacts À VÉRIFIER dans le texte intégral] ; surveillance gynécologique et discussion d'une chirurgie prophylactique gynécologique après le projet parental ; aspirine à discuter [S12].
+- **Conduite** : consultation d'**oncogénétique** (avec consentement), test constitutionnel, dépistage des apparentés ; **coloscopie tous les 2 ans**, à partir de **25 ans** pour *MLH1*/*MSH2* et de **35 ans** pour *MSH6*/*PMS2*, **jusqu'à 75 ans**, selon la BSG/ACPGBI/UKCGG 2020 (recommandation forte ; âges vérifiés dans le texte intégral) [S12] ; surveillance gynécologique et discussion d'une chirurgie prophylactique gynécologique après le projet parental ; **aspirine quotidienne** : la BSG recommande d'informer les patients qu'elle réduit le risque de cancer colorectal, la dose restant à discuter [S12].
 
 ### 6.4 Polypose adénomateuse familiale (PAF)
 Mutation constitutionnelle d'*APC* ; des centaines à milliers d'adénomes dès l'adolescence ; risque de cancer quasi certain sans **colectomie (ou coloproctectomie) prophylactique** ; manifestations extracoliques (adénomes duodénaux, tumeurs desmoïdes, hypertrophie de l'épithélium pigmentaire de la rétine) [S13]. Polypose associée à *MUTYH* : transmission **récessive** [S12, S13].
@@ -410,7 +432,7 @@ Palpation abdominale (masse, hépatomégalie, ascite), **toucher rectal** (tumeu
 - **Biologie** : NFS (anémie), bilan hépatique, fonction rénale, albumine.
 
 ### 9.3 Bilan d'opérabilité
-Âge physiologique, comorbidités cardiorespiratoires, état nutritionnel, évaluation oncogériatrique ; **avant fluoropyrimidines** : recherche d'un **déficit en dihydropyrimidine déshydrogénase (DPD)** (phénotypage par uracilémie et/ou génotypage *DPYD*) pour prévenir les toxicités graves [recommandation européenne et française — source à citer, À VÉRIFIER].
+Âge physiologique, comorbidités cardiorespiratoires, état nutritionnel, évaluation oncogériatrique ; **avant fluoropyrimidines** : recherche d'un **déficit en dihydropyrimidine déshydrogénase (DPD)** (phénotypage par uracilémie et/ou génotypage *DPYD*) pour prévenir les toxicités graves, recommandée par l'EMA depuis 2020 : contre-indication en cas de déficit complet, dose initiale réduite en cas de déficit partiel [S27].
 
 ### 9.4 Réunion de concertation pluridisciplinaire (RCP)
 Tout dossier est discuté en RCP (chirurgien, oncologue, gastro-entérologue, radiologue, pathologiste) **avant** le traitement (sauf urgence) et **après** la chirurgie, sur la base du compte rendu anatomopathologique standardisé (pTNM, nombre de ganglions, emboles, marges, MMR).
@@ -501,15 +523,15 @@ Posologies relevées dans le protocole de l'essai **SCOT** (Lancet Oncol 2018) [
 |---|---|---|---|
 | **FOLFOX** (mFOLFOX6 dans SCOT) | J1 : **oxaliplatine 85 mg/m²** IV sur 2 h + **acide folinique 350 mg** (ou acide L-folinique 175 mg) ; puis **5-fluoro-uracile (5-FU) 400 mg/m²** en bolus IV, puis **5-FU 2 400 mg/m²** en perfusion continue de **46 h** | Toutes les **2 semaines** | 12 cycles (6 mois) ou 6 cycles (3 mois) |
 | **CAPOX** (XELOX) | J1 : **oxaliplatine 130 mg/m²** IV sur 2 h ; **capécitabine 1 000 mg/m² × 2/j** de J1 à J14 | Toutes les **3 semaines** | 8 cycles (6 mois) ou 4 cycles (3 mois) |
-| **Fluoropyrimidine seule** (LV5FU2/5-FU-acide folinique ou capécitabine) | Selon RCP et protocoles locaux | — | 6 mois [POSOLOGIE À VÉRIFIER — RCP / protocole local] |
+| **Fluoropyrimidine seule** : **capécitabine** ; ou **LV5FU2** (5-FU-acide folinique) | Capécitabine **1 250 mg/m² × 2/j de J1 à J14** ; LV5FU2 : schéma du protocole de l'établissement | Toutes les **3 semaines** (capécitabine) | **6 mois** (8 cycles de capécitabine, essai X-ACT et RCP) [S26] |
 
-- **Adaptations** citées dans SCOT : réduction de la capécitabine à **75 %** si clairance de la créatinine 30–50 mL/min ; possibilité de débuter le 5-FU à 75 % de la dose après 70 ans [S8]. Les autres adaptations (hématologiques, neurologiques, DPD) relèvent des RCP et du protocole local [POSOLOGIE À VÉRIFIER — RCP / protocole local].
-- **Toxicités** : **oxaliplatine** → **neuropathie sensitive cumulative** (dysesthésies au froid aiguës, neuropathie chronique, argument principal en faveur des schémas courts) [S7] ; **5-FU/capécitabine** → mucite, diarrhée, neutropénie, **syndrome main-pied** (capécitabine), toxicité cardiaque (spasme coronaire) ; toxicités **graves voire mortelles en cas de déficit en DPD** → dépistage avant traitement [À VÉRIFIER — source].
+- **Adaptations** citées dans SCOT : réduction de la capécitabine à **75 %** si clairance de la créatinine 30–50 mL/min ; possibilité de débuter le 5-FU à 75 % de la dose après 70 ans [S8]. **Déficit en DPD** : contre-indication des fluoropyrimidines en cas de déficit complet, dose initiale réduite en cas de déficit partiel [S27]. Les autres adaptations (hématologiques, neurologiques) relèvent des RCP et du protocole de l'établissement.
+- **Toxicités** : **oxaliplatine** → **neuropathie sensitive cumulative** (dysesthésies au froid aiguës, neuropathie chronique, argument principal en faveur des schémas courts) [S7] ; **5-FU/capécitabine** → mucite, diarrhée, neutropénie, **syndrome main-pied** (capécitabine), toxicité cardiaque (spasme coronaire) ; toxicités **graves voire mortelles en cas de déficit en DPD** → dépistage avant traitement [S27].
 - **Délai** : débuter la chimiothérapie adjuvante idéalement dans les **6 à 8 semaines** après la chirurgie [S1] [À VÉRIFIER — formulation ESMO].
 
 #### 13.2.2 bis Conduite pratique devant les toxicités de la chimiothérapie adjuvante
 - **Neuropathie à l'oxaliplatine** : dysesthésies aiguës déclenchées par le **froid** (éviter les boissons et contacts froids les jours suivant la perfusion) ; neuropathie **cumulative** chronique, dose-dépendante, parfois persistante des années : c'est la principale raison d'arrêter l'oxaliplatine avant la fin prévue et l'argument majeur des schémas de **3 mois** (IDEA, SCOT) [S7, S8]. L'interruption de l'oxaliplatine en cas de neuropathie gênante, en poursuivant la fluoropyrimidine, est une pratique courante [À VÉRIFIER — RCP / protocole].
-- **Fluoropyrimidines** (5-FU, capécitabine) : **neutropénie** (NFS avant chaque cycle), **mucite**, **diarrhée** (réhydratation, lopéramide, hospitalisation si sévère ou fébrile), **syndrome main-pied** (capécitabine : émollients, adaptation de dose), **cardiotoxicité** (douleur thoracique sous perfusion : arrêt et avis cardiologique). Le **déficit en DPD** expose à des toxicités précoces graves, d'où son dépistage préalable [À VÉRIFIER — source].
+- **Fluoropyrimidines** (5-FU, capécitabine) : **neutropénie** (NFS avant chaque cycle), **mucite**, **diarrhée** (réhydratation, lopéramide, hospitalisation si sévère ou fébrile), **syndrome main-pied** (capécitabine : émollients, adaptation de dose), **cardiotoxicité** (douleur thoracique sous perfusion : arrêt et avis cardiologique). Le **déficit en DPD** expose à des toxicités précoces graves, d'où son dépistage préalable [S27].
 - **Interactions** : capécitabine et **anticoagulants AVK** (potentialisation : surveillance de l'INR renforcée ou changement d'anticoagulant) [RCP — À VÉRIFIER].
 - **Neutropénie fébrile** : urgence (hospitalisation, antibiothérapie probabiliste selon le protocole local).
 - **Accès veineux** : chambre implantable pour le FOLFOX (perfusion de 46 h par diffuseur portable) ; le CAPOX évite la perfusion continue mais exige une bonne observance orale et une fonction rénale correcte [S8].
@@ -522,7 +544,7 @@ Posologies relevées dans le protocole de l'essai **SCOT** (Lancet Oncol 2018) [
 #### 13.2.3 Traitements de la maladie métastatique (principes)
 - **Décision en RCP** selon la **résécabilité** (foie, poumon), l'état général, les **biomarqueurs** (RAS, BRAF, MMR, HER2) et la latéralité [S2, S3].
 - **Métastases résécables** : chirurgie (± chimiothérapie périopératoire), destruction locale (radiofréquence, micro-ondes) [S2].
-- **Maladie non résécable** : chimiothérapie (doublets FOLFOX, CAPOX, FOLFIRI ; triplet FOLFOXIRI chez des patients sélectionnés) associée à une **thérapie ciblée** : **anti-EGFR** (cétuximab, panitumumab) si **RAS et BRAF sauvages** et tumeur **gauche** ; **bévacizumab** (anti-VEGF) sinon [S2] ; options ultérieures (trifluridine-tipiracil ± bévacizumab, régorafénib, encorafénib + cétuximab si **BRAF V600E**, anti-HER2 si HER2 amplifié) [S2] ; la recommandation 2026 [S3] n'a pas été relue [À VÉRIFIER].
+- **Maladie non résécable** : chimiothérapie (doublets FOLFOX, CAPOX, FOLFIRI ; triplet FOLFOXIRI chez des patients sélectionnés) associée à une **thérapie ciblée** : **anti-EGFR** (cétuximab, panitumumab) si **RAS et BRAF sauvages** et tumeur **gauche** ; **bévacizumab** (anti-VEGF) sinon [S2] ; options ultérieures (trifluridine-tipiracil ± bévacizumab, régorafénib, encorafénib + cétuximab si **BRAF V600E**, anti-HER2 si HER2 amplifié) [S2]. **ESMO 2026** [S3] (points clés vérifiés dans des synthèses publiées ; texte intégral non lu) : le choix de la première ligne dépend **d'abord du statut MMR/MSI**, puis du profil moléculaire, de la latéralité et de l'état du patient ; **encorafénib + cétuximab + mFOLFOX6** devient une option de **première ligne** des tumeurs **BRAF V600E** (essai BREAKWATER) ; les autres modifications (réintroduction des anti-EGFR guidée par l'ADN tumoral circulant, transplantation hépatique très sélective) sont [À VÉRIFIER] sur le texte.
 - **MSI-H/dMMR métastatique** : **pembrolizumab** en première ligne, supérieur à la chimiothérapie sur la survie sans progression dans KEYNOTE-177 [S16].
 - **Carcinose péritonéale limitée** : chirurgie de cytoréduction complète en centre expert, selon l'indice de carcinose ; la place de la chimiothérapie intrapéritonéale hyperthermique (CHIP) est discutée [À VÉRIFIER].
 - **Soins de support** : douleur, nutrition, prévention thromboembolique, soutien psychologique.
@@ -555,7 +577,7 @@ Posologies relevées dans le protocole de l'essai **SCOT** (Lancet Oncol 2018) [
 2. **Occlusion du côlon gauche** — options à adapter au terrain et à l'expertise :
    - **résection d'emblée** avec anastomose (± stomie de protection) ou **intervention de Hartmann** (colostomie terminale, rétablissement secondaire) chez le patient instable ;
    - **colostomie de décharge** première puis résection secondaire ;
-   - **prothèse colique métallique auto-expansible** (« pont vers la chirurgie »), selon l'ESGE 2020, à discuter en RCP chez des patients sélectionnés et dans des centres experts [S15] [formulation exacte À VÉRIFIER] ;
+   - **prothèse colique métallique auto-expansible** (« pont vers la chirurgie ») : l'ESGE 2020 recommande de la **discuter, dans une décision partagée**, comme alternative à la résection en urgence chez les patients atteints d'un cancer du côlon gauche occlusif potentiellement curable (recommandation forte), par un opérateur expérimenté, avec un délai d'**environ 2 semaines** avant la résection (suggestion) ; la **colostomie de décharge** est une alternative valable si la prothèse n'est pas possible [S15] ;
    - **colectomie subtotale** si le cæcum est ischémique ou perforé.
 3. **Perforation** : laparotomie, toilette, résection de la tumeur si possible, stomie ; antibiothérapie (voir DOS-CDIG-0004 et les recommandations WSES sur les infections intra-abdominales).
 4. **Hémorragie** : réanimation, coloscopie, chirurgie si persistance (voir DOS-GAST-0001).
@@ -656,7 +678,7 @@ Scanner abdominal : siège, diamètre cæcal, perforation, métastases
 Anémie ferriprive + masse de la FID chez une femme jeune avec une histoire familiale évocatrice : **coloscopie totale** (et EOGD pour l'anémie). Coloscopie : tumeur ulcéro-bourgeonnante du **cæcum** ; biopsies : adénocarcinome moyennement différencié.
 
 **Question 2 — Quel examen anatomopathologique complémentaire et pourquoi ?**
-**Immunohistochimie MMR** (systématique) [S1, S13] : **perte d'expression de MSH2 et MSH6**. Histoire familiale : 2 générations, cancer avant 50 ans, cancers du spectre (côlon, endomètre) — les critères d'Amsterdam II exigent au moins 3 apparentés atteints [S10], mais les critères de Bethesda révisés sont remplis [S11]. La perte de MSH2/MSH6 (et non de MLH1) n'est pas expliquée par une méthylation sporadique : **forte suspicion de syndrome de Lynch** → **consultation d'oncogénétique** [S12, S13].
+**Immunohistochimie MMR** (systématique) [S1, S13] : **perte d'expression de MSH2 et MSH6**. Histoire familiale : la patiente elle-même (côlon, 44 ans), son père (côlon, 48 ans) et sa tante paternelle (endomètre, 51 ans) font **3 apparentés atteints de cancers du spectre**, le père étant apparenté au 1ᵉʳ degré des deux autres, sur **2 générations successives**, avec **au moins un cancer avant 50 ans** : les **critères d'Amsterdam II sont remplis** [S10], sous réserve de la confirmation histologique des diagnostics familiaux et de l'exclusion d'une polypose ; les critères de Bethesda révisés le sont aussi (cancer colorectal avant 50 ans) [S11]. La perte de MSH2/MSH6 (et non de MLH1) n'est pas expliquée par une méthylation sporadique : **forte suspicion de syndrome de Lynch** → **consultation d'oncogénétique** [S12, S13].
 
 **Question 3 — Bilan d'extension ?**
 **Scanner thoraco-abdomino-pelvien injecté** : épaississement cæcal, adénopathies régionales, pas de métastase. **ACE** 6 ng/mL.
@@ -667,10 +689,10 @@ RCP : **hémicolectomie droite carcinologique** (cœlioscopique) avec ligature d
 **Résultat** : **pT3 N1b** (3 ganglions envahis sur 19), M0, emboles veineux présents, marges saines. **Stade IIIB**.
 
 **Question 5 — Chimiothérapie adjuvante ?**
-Stade III, T3 N1 = « faible risque » selon IDEA [S7] : **CAPOX 3 mois** (oxaliplatine 130 mg/m² J1 + capécitabine 1 000 mg/m² × 2/j J1–J14, toutes les 3 semaines, 4 cycles) [S8] ou FOLFOX 6 mois, **après recherche d'un déficit en DPD** [À VÉRIFIER — source]. Le statut dMMR **n'empêche pas** l'adjuvant à base d'oxaliplatine au stade III (la non-indication concerne la fluoropyrimidine seule au stade II [S9]).
+Stade III, T3 N1 = « faible risque » selon IDEA [S7] : **CAPOX 3 mois** (oxaliplatine 130 mg/m² J1 + capécitabine 1 000 mg/m² × 2/j J1–J14, toutes les 3 semaines, 4 cycles) [S8] ou FOLFOX 6 mois, **après recherche d'un déficit en DPD** [S27]. Le statut dMMR **n'empêche pas** l'adjuvant à base d'oxaliplatine au stade III (la non-indication concerne la fluoropyrimidine seule au stade II [S9]).
 
 **Question 6 — Surveillance et famille ?**
-Surveillance clinique, ACE, scanner, coloscopie à 1 an [S1] ; après confirmation génétique, **dépistage des apparentés au 1ᵉʳ degré** (test ciblé), coloscopies tous les 2 ans pour les porteurs de *MSH2* à partir de 25 ans [S12] [À VÉRIFIER], surveillance gynécologique.
+Surveillance clinique, ACE, scanner, coloscopie à 1 an [S1] ; après confirmation génétique, **dépistage des apparentés au 1ᵉʳ degré** (test ciblé), coloscopies tous les 2 ans pour les porteurs de *MSH2* à partir de 25 ans (jusqu'à 75 ans) [S12], surveillance gynécologique.
 
 **Commentaire pédagogique** : (1) anémie ferriprive = côlon droit jusqu'à preuve du contraire ; (2) **MMR systématique** sur toute tumeur colorectale ; (3) la perte de MSH2/MSH6 oriente vers Lynch ; (4) **IDEA** : la durée dépend du risque (T, N) et du protocole ; (5) le diagnostic de Lynch a des conséquences familiales.
 
@@ -813,7 +835,8 @@ E. Une colectomie complémentaire est toujours obligatoire après résection end
 | **Chimiothérapie néoadjuvante** | Option pour les T4 radiologiques (FOxTROT 2023) [S17] | Chirurgie première standard (ESMO 2020, antérieure à FOxTROT mature) [S1] | Évolution des pratiques ; pas de recommandation algérienne |
 | **Immunothérapie néoadjuvante dMMR** | Résultats remarquables (NICHE-2 2024) [S18] | Non encore standard partout (autorisations) | À suivre |
 | **Prothèse colique en occlusion gauche** | Option de « pont vers la chirurgie » chez des patients sélectionnés (ESGE 2020) [S15] | Chirurgie d'urgence d'emblée dans de nombreux centres | Expertise endoscopique et risque de perforation |
-| **Recommandation métastatique** | ESMO 2023 [S2] | ESMO **2026** [S3] | Version 2026 non relue [À VÉRIFIER] |
+| **Recommandation métastatique** | ESMO 2023 [S2] | ESMO **2026** (avril 2026) [S3] : algorithme guidé d'abord par MMR/MSI ; encorafénib + cétuximab + mFOLFOX6 en 1ʳᵉ ligne si BRAF V600E | Points clés vérifiés dans des synthèses ; texte intégral non lu [À VÉRIFIER] |
+| **Surveillance du syndrome de Lynch** | Coloscopie tous les 2 ans : 25 ans (*MLH1*, *MSH2*), 35 ans (*MSH6*, *PMS2*), jusqu'à 75 ans (BSG/ACPGBI/UKCGG 2020) [S12] | Âges et intervalles d'autres sociétés (ESMO 2019 [S13], recommandations françaises) [À VÉRIFIER] | Stratification par gène désormais admise |
 
 ---
 
@@ -821,19 +844,19 @@ E. Une colectomie complémentaire est toujours obligatoire après résection end
 
 1. **[S1]** Argilés G, et al. Localised colon cancer: ESMO Clinical Practice Guidelines. *Ann Oncol*. 2020;31(10):1291-1305. doi:10.1016/j.annonc.2020.06.022 (PMID 32702383). — *vérifiée (métadonnées ; synthèse du catalogue REC-0372) ; texte intégral non relu.*
 2. **[S2]** Cervantes A, et al. Metastatic colorectal cancer: ESMO Clinical Practice Guideline. *Ann Oncol*. 2023;34(1):10-32. doi:10.1016/j.annonc.2022.10.003 (PMID 36307056). — *vérifiée (métadonnées) ; remplacée par S3.*
-3. **[S3]** Cremolini C, et al. Metastatic colorectal cancer: ESMO Clinical Practice Guideline. *Ann Oncol*. 2026;37(6):759-776. doi:10.1016/j.annonc.2026.03.005 (PMID 41990853). — *existence vérifiée ; contenu non lu.*
+3. **[S3]** Cremolini C, et al. Metastatic colorectal cancer: ESMO Clinical Practice Guideline. *Ann Oncol*. 2026;37(6):759-776. doi:10.1016/j.annonc.2026.03.005 (PMID 41990853). — *existence et métadonnées vérifiées (PubMed) ; contenu non lu ; points clés connus par des synthèses publiées (2026).*
 4. **[S4]** Weiser MR. AJCC 8th Edition: Colorectal Cancer. *Ann Surg Oncol*. 2018;25(6):1454-1455. doi:10.1245/s10434-018-6462-1 (PMID 29616422). — *vérifiée (métadonnées).*
-5. **[S5]** Brierley JD, et al. TNM Classification of Malignant Tumours, 8th ed. UICC/Wiley-Blackwell; 2017. — *non vérifiée.*
+5. **[S5]** Brierley JD, et al. TNM Classification of Malignant Tumours, 8th ed. UICC/Wiley-Blackwell; 2017. ISBN 978-1-119-26357-9. — *existence vérifiée (UICC, catalogues) ; ouvrage non consulté : les catégories T, N, M et les stades du dossier ont été contrôlés par l'audit et concordent avec la synthèse AJCC 8 [S4].*
 6. **[S6]** André T, et al. MOSAIC. *N Engl J Med*. 2004;350(23):2343-2351 (PMID 15175436). — *vérifiée (métadonnées).*
 7. **[S7]** Grothey A, et al. IDEA. *N Engl J Med*. 2018;378(13):1177-1188. doi:10.1056/NEJMoa1713709 (PMID 29590544, PMC6426127). — *vérifiée (texte intégral lu).*
 8. **[S8]** Iveson TJ, et al. SCOT. *Lancet Oncol*. 2018;19(4):562-578. doi:10.1016/S1470-2045(18)30093-7 (PMID 29611518, PMC5883334). — *vérifiée (texte intégral lu ; posologies FOLFOX/CAPOX relevées dans les méthodes).*
 9. **[S9]** Sargent DJ, et al. *J Clin Oncol*. 2010;28(20):3219-3226 (PMID 20498393). — *vérifiée (métadonnées).*
 10. **[S10]** Vasen HF, et al. Amsterdam II. *Gastroenterology*. 1999;116(6):1453-1456 (PMID 10348829). — *vérifiée (métadonnées).*
 11. **[S11]** Umar A, et al. Bethesda révisés. *J Natl Cancer Inst*. 2004;96(4):261-268 (PMID 14970275). — *vérifiée (métadonnées).*
-12. **[S12]** Monahan KJ, et al. BSG/ACPGBI/UKCGG. *Gut*. 2020;69(3):411-444 (PMID 31780574, PMC7034349). — *vérifiée (métadonnées) ; âges de surveillance À VÉRIFIER dans le texte.*
+12. **[S12]** Monahan KJ, et al. BSG/ACPGBI/UKCGG. *Gut*. 2020;69(3):411-444 (PMID 31780574, PMC7034349). — *vérifiée (texte intégral lu par l'audit : coloscopie tous les 2 ans, 25 ans pour MLH1/MSH2, 35 ans pour MSH6/PMS2, jusqu'à 75 ans ; aspirine).*
 13. **[S13]** Stjepanovic N, et al. ESMO hereditary GI cancers. *Ann Oncol*. 2019;30(10):1558-1571 (PMID 31378807). — *vérifiée (métadonnées).*
 14. **[S14]** USPSTF. *JAMA*. 2021;325(19):1965-1977 (PMID 34003218). — *vérifiée (métadonnées).*
-15. **[S15]** van Hooft JE, et al. ESGE SEMS Update 2020. *Endoscopy*. 2020;52(5):389-407 (PMID 32259849). — *vérifiée (métadonnées).*
+15. **[S15]** van Hooft JE, et al. ESGE SEMS Update 2020. *Endoscopy*. 2020;52(5):389-407. doi:10.1055/a-1140-3017 (PMID 32259849). — *vérifiée (résumé lu par l'audit : recommandations 1 à 7).*
 16. **[S16]** André T, et al. KEYNOTE-177. *N Engl J Med*. 2020;383(23):2207-2218 (PMID 33264544). — *vérifiée (métadonnées).*
 17. **[S17]** Morton D, et al. FOxTROT. *J Clin Oncol*. 2023;41(8):1541-1552 (PMID 36657089). — *vérifiée (métadonnées).*
 18. **[S18]** Chalabi M, et al. NICHE-2. *N Engl J Med*. 2024;390(21):1949-1958 (PMID 38838311). — *vérifiée (métadonnées).*
@@ -844,3 +867,5 @@ E. Une colectomie complémentaire est toujours obligatoire après résection end
 23. **[S23]** Dahmani B, et al. *Afr Health Sci*. 2023;23(2):353-359 (PMID 38223596). — *vérifiée (résumé lu).*
 24. **[S24]** MSPRH (Algérie). Plan national cancer 2015-2019. — *non vérifiée (document inaccessible depuis la session).*
 25. **[S25]** Kamel B, Chahira M. *J Clin Oncol*. 2018;36(15_suppl):e15697. — *non vérifiée (citée par S22).*
+26. **[S26]** Twelves C, et al. X-ACT. *N Engl J Med*. 2005;352(26):2696-2704. doi:10.1056/NEJMoa043116 (PMID 15987918) ; RCP Xeloda. — *résumé lu (24 semaines de capécitabine) ; dose de 1 250 mg/m² × 2/j J1–J14 confirmée par recherche web sur le RCP.*
+27. **[S27]** EMA. Recommandations sur le dépistage du déficit en DPD avant fluoro-uracile, capécitabine et tégafur, 2020. — *vérifiée (recherche web : page EMA et synthèse ESMO).*

@@ -6,11 +6,17 @@ sous_specialite: "Maladies inflammatoires chroniques de l'intestin (MICI)"
 items_residanat: [RES-MED-025]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-04 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01/AUD-02/AUD-04 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 12
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-GAST-0004.md
 sources:
   - id: S1
     reference: "Gordon H, Minozzi S, Kopylov U, Verstockt B, Chaparro M, Buskens C, et al. ECCO Guidelines on Therapeutics in Crohn's Disease: Medical Treatment. J Crohns Colitis. 2024;18(10):1531-1555."
@@ -212,14 +218,30 @@ sources:
     doi: "10.1093/ecco-jcc/jjag071"
     url: ""
     verifiee: true
+  - id: S26
+    reference: "Résumés des caractéristiques du produit (RCP) : Humira (adalimumab), Stelara (ustékinumab), Skyrizi (risankizumab), Rinvoq (upadacitinib). Posologies confirmées par recherche web sur les RCP britanniques et européens (et la notice néo-zélandaise du risankizumab) ; textes intégraux non téléchargés (ema.europa.eu inaccessible)."
+    organisme: "EMA / MHRA"
+    annee: 2026
+    type: texte_officiel
+    doi: ""
+    url: ""
+    verifiee: true
+  - id: S27
+    reference: "Hanauer SB, Sandborn WJ, Rutgeerts P, et al. Human anti-tumor necrosis factor monoclonal antibody (adalimumab) in Crohn's disease: the CLASSIC-I trial. Gastroenterology. 2006;130(2):323-333."
+    organisme: "Gastroenterology"
+    annee: 2006
+    type: article
+    doi: "10.1053/j.gastro.2005.11.030"
+    url: ""
+    verifiee: true
 mots_cles: [maladie de Crohn, MICI, classification de Montréal, CDAI, Harvey-Bradshaw, SES-CD, score de Rutgeerts, sténose, fistule, abcès, lésions anopérinéales, budésonide, thiopurines, méthotrexate, anti-TNF, ustékinumab, védolizumab, résection iléo-cæcale, tuberculose intestinale, tuberculose latente]
 ---
 
 # Maladie de Crohn : diagnostic, évolution, traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
-> **Actualité** : les recommandations de référence sont l'ECCO 2024 (traitement médical [S1] et chirurgical [S2]) et l'ACG 2025 [S3] ; la BSG 2019 [S5], dont le texte intégral a été relu pour les posologies, a été remplacée par la BSG 2025 [S6] (non relue). Le texte intégral de l'ECCO 2024 n'a pas pu être relu : les recommandations qui lui sont attribuées reprennent la synthèse vérifiée du catalogue (REC-0353) ; les formulations précises restent [À VÉRIFIER].
+> Statut : audité (AUD-01/02/04, 19/11/2026, v1.1) — corrections requises (voir rapport `00_SYSTEME/agents/AUD-01/rapports/DOS-GAST-0004.md`). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> **Actualité** (vérifiée par l'audit le 19/11/2026) : les recommandations de référence sont l'ECCO 2024 (traitement médical [S1] et chirurgical [S2]) et l'ACG 2025 [S3] ; la BSG 2019 [S5], dont le texte intégral a été relu pour les posologies, a été remplacée par la BSG 2025 [S6] (texte intégral non lu ; extraits vérifiés au § 13.2.6 et au § 21). Le texte intégral de l'ECCO 2024 n'a pas pu être relu : les recommandations qui lui sont attribuées reprennent la synthèse vérifiée du catalogue (REC-0353) ; les formulations précises restent [À VÉRIFIER].
 > **Complément** : les généralités communes aux MICI (manifestations extra-intestinales, bilan avant immunosuppression, vaccinations) sont développées dans **DOS-GAST-0003** (rectocolite hémorragique) et rappelées ici de façon synthétique.
 
 **Items du programme couverts** : RES-MED-025 — « Maladie de CROHN : Diagnostic - évolution - traitement. »
@@ -351,7 +373,7 @@ Calculé sur **7 jours** de journal du patient et sur des éléments cliniques e
 Calculé sur la **veille** : bien-être général (0–4), douleur abdominale (0–3), nombre de selles liquides, masse abdominale (0–3), complications (1 point chacune). **< 5 = rémission** ; 5–7 légère ; 8–16 modérée ; > 16 sévère [seuils d'usage — À VÉRIFIER]. Utilisable en consultation.
 
 ### 7.4 Scores endoscopiques
-- **SES-CD** (Simple Endoscopic Score for Crohn's Disease) [S12] : pour chacun des 5 segments (iléon, côlon droit, transverse, gauche, rectum), cotation de **4 items** de 0 à 3 : taille des ulcérations, surface ulcérée, surface atteinte, sténose. Score total de 0 à 56 (cotation complète et seuils d'activité [À VÉRIFIER]).
+- **SES-CD** (Simple Endoscopic Score for Crohn's Disease) [S12] : pour chacun des 5 segments (iléon, côlon droit, transverse, gauche, rectum), cotation de **4 items** de 0 à 3 : taille des ulcérations, surface ulcérée, surface atteinte, sténose (rétrécissement luminal) ; le score est la **somme** de ces cotations ; il est fortement corrélé au CDEIS (r = 0,92) [S12]. Score total de 0 à 56 (définitions de chaque cotation et seuils d'activité [À VÉRIFIER]).
 - **Score de Rutgeerts** (récidive postopératoire sur l'iléon néoterminal) [S11] :
 
 | Grade | Description |
@@ -538,7 +560,7 @@ Mortalité légèrement supérieure à la population générale dans certaines s
 
 #### 13.2.4 Immunosuppresseurs
 - **Thiopurines** : entretien de la rémission (après une induction par corticoïdes chez les patients modérés à sévères, ou en monothérapie d'entretien) [S1, S5] ; azathioprine **2–2,5 mg/kg/j**, mercaptopurine **1–1,25 mg/kg/j** si TPMT normale ; 50 % de la dose si TPMT intermédiaire ; éviter si TPMT nulle ; surveillance NFS, fonction rénale, bilan hépatique aux semaines 2, 4, 8, 12 puis au moins tous les 3 mois [S5].
-- **Méthotrexate** : induction de la MC corticodépendante par **25 mg/semaine en intramusculaire** (essai de Feagan 1995 [S14]) ; **entretien à au moins 15 mg/semaine**, de préférence par voie sous-cutanée [S5] ; **acide folique** associé [posologie — POSOLOGIE À VÉRIFIER — RCP / protocole local] ; **tératogène** (arrêt 6 mois avant la conception) [S5] ; surveillance NFS et bilan hépatique.
+- **Méthotrexate** : induction de la MC corticodépendante par **25 mg/semaine en intramusculaire** (essai de Feagan 1995 [S14]) ; **entretien à au moins 15 mg/semaine**, de préférence par voie sous-cutanée [S5] ; **acide folique** associé, **5 mg une fois par semaine** (classiquement 1 à 2 jours après le méthotrexate) **ou 1 mg/j** [S5] ; **tératogène** (arrêt 6 mois avant la conception) [S5] ; surveillance NFS et bilan hépatique.
 
 #### 13.2.5 Biothérapies et petites molécules
 
@@ -546,10 +568,10 @@ Mortalité légèrement supérieure à la population générale dans certaines s
 |---|---|---|
 | **Infliximab** (anti-TNF IV) | **5 mg/kg aux semaines 0, 2, 6, puis toutes les 8 semaines** | SONIC [S13] |
 | **Infliximab + azathioprine (2,5 mg/kg/j)** | Association plus efficace que chacune des monothérapies : rémission sans corticoïdes à la semaine 26 **56,8 %** contre 44,4 % (infliximab seul) et 30,0 % (azathioprine seule) | SONIC [S13] ; BSG 2019 [S5] |
-| **Adalimumab** (anti-TNF SC) | 160 mg à la semaine 0, 80 mg à la semaine 2, puis 40 mg toutes les 2 semaines | Schéma décrit par la BSG 2019 (RCH) [S5] ; MC : RCP [POSOLOGIE À VÉRIFIER — RCP] |
-| **Ustékinumab** (anti-IL-12/23) | Induction IV unique ~6 mg/kg (260 mg ≤ 55 kg ; 390 mg 55–85 kg ; 520 mg > 85 kg), puis entretien SC | BSG 2019 (essais UNITI) [S5] ; entretien : RCP [POSOLOGIE À VÉRIFIER — RCP] |
+| **Adalimumab** (anti-TNF SC) | **160 mg à la semaine 0, 80 mg à la semaine 2, puis 40 mg toutes les 2 semaines** (schéma 80 mg/40 mg possible selon le RCP européen, moins efficace à la semaine 4 dans CLASSIC-I) | CLASSIC-I : rémission à la semaine 4 de 36 % avec 160/80 mg contre 12 % sous placebo (24 % avec 80/40 mg, non significatif) [S27] ; RCP Humira [S26] |
+| **Ustékinumab** (anti-IL-12/23) | Induction IV unique ~6 mg/kg (260 mg ≤ 55 kg ; 390 mg 55–85 kg ; 520 mg > 85 kg), puis **90 mg SC à la semaine 8**, ensuite **toutes les 12 semaines**, ou **toutes les 8 semaines** en cas de perte de réponse | BSG 2019 (essais UNITI ; IM-UNITI : rémission à la semaine 44 de 53,1 % avec 90 mg/8 semaines et 48,8 % avec 90 mg/12 semaines contre 35,9 %) [S5] ; RCP Stelara [S26] |
 | **Védolizumab** (anti-α4β7) | 300 mg IV aux semaines 0, 2, 6, puis toutes les 8 semaines | BSG 2019 [S5] |
-| **Risankizumab** (anti-IL-23), **upadacitinib** (anti-JAK) | Selon RCP | Recommandés par l'ECCO 2024 selon la synthèse du catalogue [S1] ; [POSOLOGIE À VÉRIFIER — RCP] ; disponibilité en Algérie [À VÉRIFIER] |
+| **Risankizumab** (anti-IL-23), **upadacitinib** (anti-JAK) | **Risankizumab** : 600 mg IV aux semaines 0, 4 et 8, puis **360 mg SC à la semaine 12 et toutes les 8 semaines**. **Upadacitinib** : **45 mg/j pendant 12 semaines** (prolongation possible à 30 mg/j), puis **15 ou 30 mg/j** (15 mg au maximum après 65 ans ; restrictions de l'EMA pour les inhibiteurs de JAK, voir DOS-RHUM-0001) | RCP Skyrizi et Rinvoq [S26] ; recommandés par l'ECCO 2024 selon la synthèse du catalogue [S1] ; disponibilité en Algérie [À VÉRIFIER] |
 
 - Choix entre anti-TNF, ustékinumab et védolizumab : **individualisé** (préférence du patient, coût, observance, profil de sécurité, rapidité d'action) [S5].
 - **Infliximab** = biothérapie de **première ligne des fistules anopérinéales complexes**, débutée dès que le drainage du sepsis est obtenu [S5, S17].
@@ -562,10 +584,11 @@ Identique à celui détaillé dans **DOS-GAST-0003 § 13.2.7**, avec une insista
 2. **VHB** (AgHBs, anti-HBc, anti-HBs), **VHC**, **VIH**, **VZV** [S5] ; **strongyloïdose** si séjour prolongé en zone d'endémie [S5].
 3. **Vaccinations** (grippe, pneumocoque ; vaccins vivants ≥ 4 semaines avant, jamais pendant, ≥ 3 mois après l'arrêt) [S5].
 4. **Abcès** : drainé et traité **avant** l'anti-TNF [S5].
-5. Recommandation ECCO 2026 sur les infections [S25] (non relue — À VÉRIFIER).
+5. Recommandation ECCO 2026 sur les infections [S25] : quatre groupes de travail (infections virales ; tuberculose et infections bactériennes, parasitaires et fongiques ; facteurs de risque et degré d'immunosuppression ; vaccination), algorithmes de vaccination selon le traitement (communiqué de l'ECCO) ; recommandations détaillées non relues [À VÉRIFIER].
+6. **BSG 2025** (extraits vérifiés du résumé exécutif) [S6] : pneumocoque avec **rappel après 5 ans** et grippe chaque automne sous immunomodulateur ou thérapie avancée ; **prophylaxie thromboembolique médicamenteuse** chez tout patient atteint de MICI hospitalisé, sauf contre-indication ; coprocultures devant des symptômes nouveaux ou aggravés ; arrêt ou réduction des corticoïdes avant une chirurgie programmée.
 
 #### 13.2.7 Antibiotiques
-Abcès (IV, puis relais), complications périanales (métronidazole, ciprofloxacine en complément du drainage) [schémas : POSOLOGIE À VÉRIFIER — RCP / protocole local] ; pullulation bactérienne.
+Abcès (IV, puis relais), complications périanales (métronidazole, ciprofloxacine en complément du drainage) [schémas : POSOLOGIE À VÉRIFIER — RCP / protocole local] ; dans un essai cité par la BSG 2019, l'ajout de **ciprofloxacine 500 mg × 2/j pendant 12 semaines** à l'adalimumab a accéléré la réponse des fistules (71 % contre 47 % à la semaine 12), sans différence persistante à la semaine 24 [S5] ; pullulation bactérienne.
 
 #### 13.2.8 Endoscopie interventionnelle
 **Dilatation au ballonnet** des sténoses **anastomotiques iléo-coliques courtes (< 4 cm)**, sans angulation ni composante pénétrante ; plusieurs séances souvent nécessaires ; possible pour certaines sténoses iléales accessibles, avec plus de complications [S5].
@@ -867,13 +890,15 @@ E. Hypersécrétion de bicarbonates protectrice
 
 | Question | Position A (organisme, date) | Position B (organisme, date) | Commentaire |
 |---|---|---|---|
-| **Référentiel** | ECCO 2024 (médical [S1] et chirurgical [S2]) | ACG 2025 [S3] ; BSG 2025 [S6] | Textes 2025 non relus : divergences fines [À VÉRIFIER] |
+| **Référentiel** | ECCO 2024 (médical [S1] et chirurgical [S2]) | ACG 2025 (*Am J Gastroenterol* 2025;120(6):1225-1264) [S3] ; BSG 2025 (*Gut* 2025;74 Suppl 2) [S6] | Publications vérifiées par l'audit ; textes intégraux non lus : divergences fines [À VÉRIFIER] |
+| **Positions de l'ACG 2025 rapportées par les synthèses de l'ACG** (texte intégral non lu) | — | Recommandation **contre la mésalazine** dans la MC ; **contre le budésonide en entretien** ; pas d'obligation de stratégie « step-up » : thérapie avancée d'emblée possible dans les formes modérées à sévères ; upadacitinib et mirikizumab parmi les options ; surveillance endoscopique postopératoire à 6–12 mois [S3] | Concordant avec ce dossier (pas de 5-ASA, pas de corticoïde en entretien, biothérapie précoce si mauvais pronostic) ; à confirmer sur le texte [À VÉRIFIER] |
 | **Place de la chirurgie précoce** | Résection iléo-cæcale cœlioscopique comme alternative en atteinte localisée (BSG 2019 [S5] ; LIR!C [S18]) | Approche plus médicale d'emblée dans d'autres pratiques [À VÉRIFIER] | Décision partagée, réunion pluridisciplinaire |
 | **Méthotrexate** | Entretien ≥ 15 mg/semaine, voie SC préférée (BSG 2019) [S5] | Induction 25 mg/semaine IM (Feagan 1995) [S14] | Complémentaires (induction vs entretien) |
 | **Thiopurines en monothérapie d'induction** | Non efficaces pour l'induction (délai d'action) [S1, S5] | — | Concordance |
 | **Choix de la première biothérapie** | Individualisé (BSG 2019) [S5] | Liste des molécules recommandées (ECCO 2024 : anti-TNF, ustékinumab, védolizumab, risankizumab, upadacitinib) [S1] | Accès et coût déterminants en Algérie |
 | **Prévention de la récidive postopératoire** | Thiopurine chez les patients à risque ; iléocoloscopie à 6 mois (BSG 2019) [S5] | Biothérapie précoce chez les patients à haut risque (pratiques et recommandations plus récentes [À VÉRIFIER]) | — |
-| **Infections** | ECCO 2021 → **ECCO 2026** [S25] | — | Texte 2026 non relu [À VÉRIFIER] |
+| **Infections** | ECCO 2021 → **ECCO 2026** (*J Crohns Colitis* 2026;20(7):jjag071) [S25] | — | Existence et structure vérifiées ; recommandations détaillées non relues [À VÉRIFIER] |
+| **Vaccin antipneumococcique** | Pneumocoque avant l'immunosuppression (BSG 2019) [S5] | Avec **rappel après 5 ans** (BSG 2025) [S6] | Précision de la BSG 2025 |
 
 ---
 
@@ -881,7 +906,7 @@ E. Hypersécrétion de bicarbonates protectrice
 
 1. **[S1]** Gordon H, et al. ECCO Guidelines on Therapeutics in Crohn's Disease: Medical Treatment. *J Crohns Colitis*. 2024;18(10):1531-1555. doi:10.1093/ecco-jcc/jjae091 (PMID 38877997). — *vérifiée (métadonnées ; synthèse du catalogue REC-0353) ; texte intégral non relu.*
 2. **[S2]** Adamina M, et al. ECCO Guidelines on Therapeutics in Crohn's Disease: Surgical Treatment. *J Crohns Colitis*. 2024;18(10):1556-1582. doi:10.1093/ecco-jcc/jjae089 (PMID 38878002). — *vérifiée (métadonnées).*
-3. **[S3]** Lichtenstein GR, et al. ACG Clinical Guideline: Management of Crohn's Disease in Adults. *Am J Gastroenterol*. 2025;120(6):1225-1264. doi:10.14309/ajg.0000000000003465 (PMID 40701562). — *existence vérifiée ; contenu non lu.*
+3. **[S3]** Lichtenstein GR, et al. ACG Clinical Guideline: Management of Crohn's Disease in Adults. *Am J Gastroenterol*. 2025;120(6):1225-1264. doi:10.14309/ajg.0000000000003465 (PMID 40701562). — *existence vérifiée (PubMed) ; contenu non lu ; principales positions connues par les synthèses publiées par l'ACG (2025).*
 4. **[S4]** Gomollón F, et al. 3rd European Evidence-based Consensus on Crohn's Disease 2016, Part 1. *J Crohns Colitis*. 2017;11(1):3-25. doi:10.1093/ecco-jcc/jjw168 (PMID 27660341). — *vérifiée (métadonnées).*
 5. **[S5]** Lamb CA, et al. BSG consensus guidelines on IBD in adults. *Gut*. 2019;68(Suppl 3):s1-s106. doi:10.1136/gutjnl-2019-318484 (PMID 31562236, PMC6872448). — *vérifiée (texte intégral lu).*
 6. **[S6]** Moran GW, et al. BSG guidelines on IBD in adults: 2025. *Gut*. 2025;74(Suppl 2):s1-s101. doi:10.1136/gutjnl-2024-334395 (PMID 40550582). — *existence vérifiée ; contenu non lu.*
@@ -903,4 +928,6 @@ E. Hypersécrétion de bicarbonates protectrice
 22. **[S22]** Boukercha A, et al. *World J Gastroenterol*. 2015;21(25):7786-7794 (PMID 26167078). — *vérifiée (résumé lu).*
 23. **[S23]** Ng SC, et al. *Lancet*. 2017;390(10114):2769-2778 (PMID 29050646). — *vérifiée (résumé lu).*
 24. **[S24]** Turner D, et al. STRIDE-II. *Gastroenterology*. 2021;160(5):1570-1583 (PMID 33359090). — *vérifiée (métadonnées).*
-25. **[S25]** Yanai H, et al. ECCO Guidelines on Infections in IBD. *J Crohns Colitis*. 2026;20(7):jjag071 (PMID 42417116). — *existence vérifiée ; contenu non lu.*
+25. **[S25]** Yanai H, et al. ECCO Guidelines on Infections in IBD. *J Crohns Colitis*. 2026;20(7):jjag071 (PMID 42417116). — *existence et métadonnées vérifiées (PubMed) ; contenu non lu.*
+26. **[S26]** RCP de l'adalimumab, de l'ustékinumab, du risankizumab et de l'upadacitinib. — *posologies confirmées par recherche web (RCP britanniques et européens) ; textes intégraux non téléchargés.*
+27. **[S27]** Hanauer SB, et al. CLASSIC-I. *Gastroenterology*. 2006;130(2):323-333. doi:10.1053/j.gastro.2005.11.030 (PMID 16472588). — *vérifiée (résumé lu par l'audit).*

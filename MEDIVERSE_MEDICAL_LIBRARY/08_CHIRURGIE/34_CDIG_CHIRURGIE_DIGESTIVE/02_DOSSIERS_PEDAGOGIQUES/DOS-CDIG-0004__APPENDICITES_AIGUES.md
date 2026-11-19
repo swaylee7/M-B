@@ -6,11 +6,17 @@ sous_specialite: "Urgences chirurgicales digestives"
 items_residanat: [RES-CHI-014]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-04 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_valide
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01/AUD-02/AUD-04 (IA)"
+    verdict: audite_valide
+    corrections: 10
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-CDIG-0004.md
 sources:
   - id: S1
     reference: "Di Saverio S, Podda M, De Simone B, Ceresoli M, Augustin G, Gori A, et al. Diagnosis and treatment of acute appendicitis: 2020 update of the WSES Jerusalem guidelines. World J Emerg Surg. 2020;15(1):27. (Texte intégral lu : document acquis DOC-00082, CC BY 4.0.)"
@@ -148,13 +154,37 @@ sources:
     doi: "10.1056/NEJMoa1411162"
     url: ""
     verifiee: true
+  - id: S18
+    reference: "World Health Organization. The WHO AWaRe (Access, Watch, Reserve) antibiotic book. Geneva: WHO; 2022 — chapitre 31 (appendicite aiguë) et chapitre 40 (antibioprophylaxie chirurgicale). Document acquis DOC-00039 — texte lu par l'audit."
+    organisme: OMS
+    annee: 2022
+    type: recommandation
+    doi: ""
+    url: "https://iris.who.int/server/api/core/bitstreams/61517f8b-3a34-413c-ae36-67a059ebe485/content"
+    verifiee: true
+  - id: S19
+    reference: "de Castro SMM, Ünlü Ç, Steller EPh, van Wagensveld BA, Vrouenraets BC. Evaluation of the Appendicitis Inflammatory Response Score for patients with acute appendicitis. World J Surg. 2012;36(7):1540-1545 ; erratum : World J Surg. 2012;36:2271 (tableau des scores d'Alvarado et AIR)."
+    organisme: "World J Surg"
+    annee: 2012
+    type: article
+    doi: "10.1007/s00268-012-1678-x"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4714027/"
+    verifiee: true
+  - id: S20
+    reference: "Goulder F, Simpson T. Pediatric appendicitis score: a retrospective analysis. J Indian Assoc Pediatr Surg. 2008;13(4):125-127 (tableau du PAS de Samuel)."
+    organisme: "J Indian Assoc Pediatr Surg"
+    annee: 2008
+    type: article
+    doi: "10.4103/0971-9261.44761"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC2788473/"
+    verifiee: true
 mots_cles: [appendicite aiguë, score d'Alvarado, score AIR, Adult Appendicitis Score, Pediatric Appendicitis Score, échographie, scanner low-dose, IRM, appendicectomie cœlioscopique, antibiothérapie seule, CODA, APPAC, stercolithe, plastron, abcès appendiculaire, péritonite, grossesse, enfant, sujet âgé]
 ---
 
 # Appendicites aiguës : diagnostic, complications, traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP, à l'écologie bactérienne locale et aux protocoles locaux avant usage clinique.
+> Statut : audité (AUD-01/02/04, 19/11/2026, v1.1 — rapport `00_SYSTEME/agents/AUD-01/rapports/DOS-CDIG-0004.md`). Les posologies doivent être confrontées au RCP, à l'écologie bactérienne locale et aux protocoles locaux avant usage clinique.
 > **Source principale** : recommandations WSES de Jérusalem, mise à jour 2020 [S1], dont le **texte intégral a été lu** (document acquis DOC-00082) ; les recommandations sont citées avec leur numéro et leur grade.
 
 **Items du programme couverts** : RES-CHI-014 — « Appendicites aiguës : Diagnostic - complications - traitement. »
@@ -194,7 +224,7 @@ mots_cles: [appendicite aiguë, score d'Alvarado, score AIR, Adult Appendicitis 
 
 ## 3. Épidémiologie
 
-- Pathologie fréquente ; le risque d'appendicite au cours de la vie est classiquement estimé à environ **7–8 %** [ordre de grandeur classique — À VÉRIFIER dans S4] ; pic entre **10 et 30 ans** ; légère prédominance masculine.
+- Pathologie fréquente ; le risque d'appendicite au cours de la vie est d'environ **8,6 % chez l'homme et 6,7 % chez la femme** (données américaines d'Addiss et al., 1990, citées par Sammalkorpi et al. [S8]) ; pic entre **10 et 30 ans** ; légère prédominance masculine.
 - L'appendicite est l'urgence chirurgicale abdominale la plus fréquente de l'enfant [S1].
 - **Grossesse** : dans une cohorte américaine de plus de 7 millions de naissances, l'incidence était de **101,1 cas pour 100 000 naissances** ; une **péritonite** compliquait **20,3 %** des appendicites de la femme enceinte, avec un risque environ doublé de sepsis, de transfusion, de pneumonie, d'occlusion et d'infection postopératoire par rapport aux femmes non enceintes [S16].
 - **Taux d'appendicectomies « blanches »** (appendice sain) : variable selon les pays et l'utilisation des scores et de l'imagerie ; les scores AIR et AAS le diminuent [S1].
@@ -260,15 +290,28 @@ mots_cles: [appendicite aiguë, score d'Alvarado, score AIR, Adult Appendicitis 
 - Seuils indicatifs : un score de **9–10** fait partie des critères de **haut risque** retenus par la WSES (recommandation 1.9) [S1].
 
 ### 7.2 Score AIR (Appendicitis Inflammatory Response) [S7]
-Il combine **vomissements**, **douleur de la FID**, **défense** (graduée légère, modérée, forte), **température ≥ 38,5 °C**, **polynucléose**, **leucocytose** et **CRP** (graduées), pour un total de **0 à 12** points [barème détaillé : publication princeps — À VÉRIFIER] :
-- **0–4 : risque faible** ; **5–8 : risque intermédiaire** ; **9–12 : risque élevé** (seuils d'usage ; « AIR 9–12 » repris par la WSES comme haut risque) [S1, S7].
+Il combine **vomissements** (1), **douleur de la FID** (1), **défense ou douleur à la décompression** (légère 1, modérée 2, forte 3), **température > 38,5 °C** (1), **polynucléose** (70–84 % : 1 ; ≥ 85 % : 2), **leucocytose** (10,0–14,9 G/L : 1 ; ≥ 15,0 G/L : 2) et **CRP** (10–49 mg/L : 1 ; ≥ 50 mg/L : 2), pour un total de **0 à 12** points (barème vérifié sur le tableau publié par de Castro et al. [S19] ; publication princeps [S7] non relue) :
+- **0–4 : probabilité faible** ; **5–8 : zone indéterminée** ; **9–12 : probabilité élevée** [S19] (« AIR 9–12 » repris par la WSES comme haut risque [S1]).
 - La WSES recommande l'AIR et l'AAS comme **les scores les plus performants** chez l'adulte (recommandation 1.4, forte, 1A) ; l'AIR a la meilleure combinaison sensibilité (92 %) / spécificité (63 %) dans la revue citée [S1].
 
 ### 7.3 Adult Appendicitis Score (AAS) [S8]
-Score finlandais intégrant la douleur de la FID, sa migration, la sensibilité (pondérée selon le sexe et l'âge chez la femme), la défense, la leucocytose, la polynucléose et la **CRP interprétée selon la durée des symptômes** ; **0–10 : risque faible ; 11–15 : intermédiaire ; ≥ 16 : élevé** [S1, S8] [barème détaillé À VÉRIFIER dans la publication]. Dans une étude britannique de 5 345 patients citée par la WSES, l'AAS était le meilleur score chez la **femme** et l'AIR chez l'**homme** [S1].
+Score finlandais intégrant la douleur de la FID, sa migration, la sensibilité (pondérée selon le sexe et l'âge chez la femme), la défense, la leucocytose, la polynucléose et la **CRP interprétée selon la durée des symptômes** ; **0–10 : risque faible ; 11–15 : intermédiaire ; ≥ 16 : élevé** [S1, S8]. Barème (publication originale, texte intégral lu par l'audit) [S8] :
+
+| Élément | Points |
+|---|---|
+| Douleur de la FID | 2 |
+| Migration de la douleur | 2 |
+| Sensibilité de la FID | 3 (homme, femme ≥ 50 ans) ; 1 (femme de 16 à 49 ans) |
+| Défense | légère 2 ; modérée ou forte 4 |
+| Leucocytes (G/L) | ≥ 7,2 et < 10,9 : 1 ; ≥ 10,9 et < 14,0 : 2 ; ≥ 14,0 : 3 |
+| Polynucléaires neutrophiles (%) | ≥ 62 et < 75 : 2 ; ≥ 75 et < 83 : 3 ; ≥ 83 : 4 |
+| CRP (mg/L), symptômes < 24 h | ≥ 4 et < 11 : 2 ; ≥ 11 et < 25 : 3 ; ≥ 25 et < 83 : 5 ; ≥ 83 : 1 |
+| CRP (mg/L), symptômes > 24 h | ≥ 12 et < 53 : 2 ; ≥ 53 et < 152 : 2 ; ≥ 152 : 1 |
+
+Dans l'étude de validation, un score ≥ 16 avait une spécificité de 92,7 % ; aucun cas d'appendicite compliquée n'était classé à faible risque [S8]. Dans une étude britannique de 5 345 patients citée par la WSES, l'AAS était le meilleur score chez la **femme** et l'AIR chez l'**homme** [S1].
 
 ### 7.4 Pediatric Appendicitis Score (PAS) [S9]
-Toux, sautillement ou percussion douloureux de la FID (2), anorexie (1), fièvre (1), nausées/vomissements (1), douleur de la FID (2), leucocytose (1), polynucléose (1), migration (1) — total 10 [barème À VÉRIFIER dans la publication]. La WSES estime que l'Alvarado et le PAS sont utiles pour **exclure** l'appendicite chez l'enfant, mais **déconseille de poser le diagnostic sur un score seul** (recommandation 1.5) [S1].
+Toux, sautillement ou percussion douloureux de la FID (2), anorexie (1), fièvre (1), nausées/vomissements (1), douleur de la FID (2), leucocytose (1), polynucléose (1), migration (1) — total 10 ; un score **≤ 5** rend l'appendicite peu probable, un score **≥ 6** la rend probable (barème et seuils vérifiés sur le tableau reproduit par Goulder et Simpson [S20] ; publication princeps [S9] non relue ; seuils exacts de fièvre, de leucocytose et de polynucléose [À VÉRIFIER]). La WSES estime que l'Alvarado et le PAS sont utiles pour **exclure** l'appendicite chez l'enfant, mais **déconseille de poser le diagnostic sur un score seul** (recommandation 1.5) [S1].
 
 ### 7.5 Classification de la gravité
 - **Non compliquée / compliquée** (§ 1).
@@ -437,7 +480,7 @@ Hospitalisation, voie veineuse, **à jeun** si une chirurgie est envisagée, ré
 
 #### 13.2.4 Antibiothérapie — schémas sourcés
 
-**a) Antibioprophylaxie de l'appendicectomie** : **une dose unique préopératoire** d'un antibiotique à large spectre ; **pas d'antibiotique postopératoire** dans les formes non compliquées, chez l'adulte (7.1, forte, 1A) comme chez l'enfant (7.4, faible) [S1]. Molécule et dose selon le protocole local d'antibioprophylaxie [POSOLOGIE À VÉRIFIER — RCP / protocole local].
+**a) Antibioprophylaxie de l'appendicectomie** : **une dose unique préopératoire** d'un antibiotique à large spectre ; **pas d'antibiotique postopératoire** dans les formes non compliquées, chez l'adulte (7.1, forte, 1A) comme chez l'enfant (7.4, faible) [S1]. La WSES ne précise pas la molécule ; l'OMS (livre AWaRe 2022) propose pour la chirurgie intestinale, appendicectomie comprise : **céfazoline 2 g IV + métronidazole 500 mg IV en dose unique**, ou en second choix **amoxicilline-acide clavulanique 2 g/200 mg IV en dose unique** ; chez l'enfant, **céfazoline 50 mg/kg + métronidazole 7,5 mg/kg** en dose unique [S18]. Le protocole d'antibioprophylaxie de l'établissement s'applique s'il existe.
 
 **b) Appendicite compliquée opérée** : antibiothérapie **ne dépassant pas 3 à 5 jours** après un contrôle adéquat de la source (7.2, forte, 1A) [S1] — cohérent avec l'essai **STOP-IT** (infections intra-abdominales avec contrôle de la source : environ 4 jours aussi efficaces qu'environ 8 jours) [S17] ; chez l'**enfant**, relais oral **précoce (après 48 h)** et durée totale **< 7 jours** (7.3, forte) [S1].
 
@@ -449,7 +492,7 @@ Hospitalisation, voie veineuse, **à jeun** si une chirurgie est envisagée, ré
 | Allergie aux β-lactamines | **Ciprofloxacine 400 mg/8 h + métronidazole 500 mg/6 h**, ou **moxifloxacine 400 mg/24 h** |
 | Risque d'entérobactéries BLSE communautaires | **Ertapénem 1 g/24 h** (ou tigécycline 100 mg puis 50 mg/12 h) |
 
-Ces doses sont celles du texte WSES ; elles doivent être **confrontées aux RCP disponibles en Algérie, à l'écologie bactérienne locale (résistances des entérobactéries) et aux protocoles du service** [POSOLOGIE À VÉRIFIER — RCP / protocole local pour l'adaptation algérienne].
+Ces doses sont celles du texte WSES (vérifiées dans DOC-00082) ; l'OMS (AWaRe 2022) propose pour les formes non graves des rythmes différents : **amoxicilline-acide clavulanique 1 g/200 mg toutes les 8 h IV** (ou 875/125 mg toutes les 8 h per os), ou **céfotaxime 2 g/8 h** ou **ceftriaxone 2 g/24 h** associés au **métronidazole 500 mg toutes les 8 h** ; durée totale de 5 jours pour les formes compliquées opérées et de 7 jours pour le traitement antibiotique seul [S18]. Le choix doit tenir compte des molécules disponibles en Algérie, de l'écologie bactérienne locale (entérobactéries productrices de BLSE) et du protocole du service.
 
 **d) Traitement antibiotique seul (non opératoire) de l'appendicite non compliquée** — schémas des essais :
 - **APPAC** : **ertapénem 1 g/j IV pendant 3 jours**, puis **lévofloxacine 500 mg/j + métronidazole 500 mg × 3/j per os pendant 7 jours** [S10] ;
@@ -575,7 +618,7 @@ APPENDICITE COMPLIQUÉE
 **Scénario fictif.** M. S., 24 ans, étudiant à Tizi Ouzou, consulte aux urgences pour une douleur **péri-ombilicale** apparue il y a 20 heures, **migrée** vers la FID, avec **anorexie** et un vomissement. T 37,9 °C, FC 92/min. Douleur et **défense légère** de la FID, Blumberg positif. Leucocytes 13 400/mm³ (82 % de polynucléaires), CRP 38 mg/L. Bandelette urinaire négative.
 
 **Question 1 — Scores ?**
-**Alvarado** : migration 1 + anorexie 1 + nausées/vomissements 1 + douleur FID 2 + décompression 1 + température ≥ 37,3 °C 1 + leucocytose 2 + polynucléose 1 = **10/10**. **AIR** : vomissement 1 + douleur FID 1 + défense légère 1 + température < 38,5 °C 0 + polynucléose 70–84 % 1 + leucocytes 10–14,9 G/L 1 + CRP 10–49 mg/L 1 = **6/12 (intermédiaire)** [barème AIR À VÉRIFIER dans S7]. Les deux scores n'ont pas la même calibration : la WSES privilégie l'AIR (et l'AAS) chez l'adulte et déconseille d'utiliser l'Alvarado pour **confirmer** le diagnostic [S1].
+**Alvarado** : migration 1 + anorexie 1 + nausées/vomissements 1 + douleur FID 2 + décompression 1 + température ≥ 37,3 °C 1 + leucocytose 2 + polynucléose 1 = **10/10**. **AIR** : vomissement 1 + douleur FID 1 + défense légère 1 + température < 38,5 °C 0 + polynucléose 70–84 % 1 + leucocytes 10–14,9 G/L 1 + CRP 10–49 mg/L 1 = **6/12 (zone indéterminée)** [S19]. Les deux scores n'ont pas la même calibration : la WSES privilégie l'AIR (et l'AAS) chez l'adulte et déconseille d'utiliser l'Alvarado pour **confirmer** le diagnostic [S1].
 
 **Question 2 — Imagerie ?**
 Risque intermédiaire selon l'AIR → **échographie** en première intention [S1] : appendice de 9 mm non compressible, infiltration de la graisse, **pas d'appendicolithe visible**, pas de collection. (Un scanner à faible dose serait indiqué si l'échographie n'était pas concluante.)
@@ -732,6 +775,8 @@ E. Doute diagnostique avec une forme compliquée
 | **Plastron/abcès** | Cœlioscopie première si expertise (WSES 2020) [S1] | Traitement non opératoire + drainage là où l'expertise manque (WSES 2020) [S1] | La recommandation dépend des ressources |
 | **Enfant : traitement non opératoire** | Option faible (WSES 2020, 2B) [S1] ; succès 67,1 % à 1 an (Minneci 2020) [S15] | Appendicectomie restant la référence dans la plupart des centres | Décision familiale éclairée |
 | **Score de choix** | AIR (homme) et AAS (femme) (WSES 2020) [S1] | Alvarado encore très utilisé en pratique | L'Alvarado sert à exclure, pas à confirmer |
+| **Schémas antibiotiques probabilistes** | Amoxicilline-acide clavulanique 1,2–2,2 g/6 h ; C3G + métronidazole 500 mg/**6 h** (WSES 2017, repris en 2020) [S1, S2] | Amoxicilline-acide clavulanique 1 g/200 mg/**8 h** ; C3G + métronidazole 500 mg/**8 h** ; 5 jours (forme compliquée opérée), 7 jours (antibiotiques seuls) (OMS, AWaRe 2022) [S18] | Rythmes différents selon le référentiel ; suivre le RCP et le protocole local |
+| **Antibioprophylaxie** | Dose unique d'un antibiotique à large spectre, molécule non précisée (WSES 2020, 7.1) [S1] | Céfazoline 2 g + métronidazole 500 mg en dose unique (OMS, AWaRe 2022) [S18] | Concordant sur la dose unique |
 
 ---
 
@@ -743,9 +788,9 @@ E. Doute diagnostique avec une forme compliquée
 4. **[S4]** Bhangu A, et al. *Lancet*. 2015;386(10000):1278-1287. doi:10.1016/S0140-6736(15)00275-5 (PMID 26460662). — *vérifiée (métadonnées).*
 5. **[S5]** Moris D, Paulson EK, Pappas TN. *JAMA*. 2021;326(22):2299-2311. doi:10.1001/jama.2021.20502 (PMID 34905026). — *vérifiée (métadonnées).*
 6. **[S6]** Alvarado A. *Ann Emerg Med*. 1986;15(5):557-564 (PMID 3963537). — *vérifiée (métadonnées).*
-7. **[S7]** Andersson M, Andersson RE. *World J Surg*. 2008;32(8):1843-1849 (PMID 18553045). — *vérifiée (métadonnées) ; barème détaillé À VÉRIFIER.*
-8. **[S8]** Sammalkorpi HE, Mentula P, Leppäniemi A. *BMC Gastroenterol*. 2014;14:114 (PMID 24970111). — *vérifiée (métadonnées).*
-9. **[S9]** Samuel M. *J Pediatr Surg*. 2002;37(6):877-881 (PMID 12037754). — *vérifiée (métadonnées).*
+7. **[S7]** Andersson M, Andersson RE. *World J Surg*. 2008;32(8):1843-1849 (PMID 18553045). — *vérifiée (métadonnées) ; barème contrôlé sur le tableau publié par [S19].*
+8. **[S8]** Sammalkorpi HE, Mentula P, Leppäniemi A. *BMC Gastroenterol*. 2014;14:114 (PMID 24970111, PMC4087125). — *vérifiée (texte intégral lu par l'audit : barème, seuils, risque de la vie entière cité).*
+9. **[S9]** Samuel M. *J Pediatr Surg*. 2002;37(6):877-881 (PMID 12037754). — *vérifiée (métadonnées) ; barème contrôlé sur le tableau reproduit par [S20].*
 10. **[S10]** Salminen P, et al. APPAC. *JAMA*. 2015;313(23):2340-2348 (PMID 26080338). — *vérifiée (résumé lu).*
 11. **[S11]** Salminen P, et al. APPAC 5 ans. *JAMA*. 2018;320(12):1259-1265 (PMID 30264120). — *vérifiée (métadonnées ; résultats repris de S1).*
 12. **[S12]** CODA Collaborative. *N Engl J Med*. 2020;383(20):1907-1919 (PMID 33017106). — *vérifiée (résumé lu).*
@@ -754,3 +799,6 @@ E. Doute diagnostique avec une forme compliquée
 15. **[S15]** Minneci PC, et al. *JAMA*. 2020;324(6):581-593 (PMID 32730561). — *vérifiée (résumé lu).*
 16. **[S16]** Abbasi N, Patenaude V, Abenhaim HA. *BJOG*. 2014;121(12):1509-1514 (PMID 24674238). — *vérifiée (résumé lu).*
 17. **[S17]** Sawyer RG, et al. STOP-IT. *N Engl J Med*. 2015;372(21):1996-2005 (PMID 25992746). — *vérifiée (résumé lu).*
+18. **[S18]** OMS. The WHO AWaRe antibiotic book, 2022, chapitres 31 et 40 (DOC-00039). — *texte lu par l'audit.*
+19. **[S19]** de Castro SMM, et al. *World J Surg*. 2012;36(7):1540-1545 ; erratum 2012;36:2271 (PMC4714027). — *vérifiée (tableau des scores lu).*
+20. **[S20]** Goulder F, Simpson T. *J Indian Assoc Pediatr Surg*. 2008;13(4):125-127 (PMC2788473). — *vérifiée (tableau du PAS lu).*

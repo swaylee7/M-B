@@ -36,7 +36,7 @@
         "ECG si douleur atypique"
       ],
       "diagnostic_final": "Ulcère gastrique de l'antre de 12 mm, bénin à l'histologie (biopsies multiples négatives pour la malignité), H. pylori positif (souche résistante à la clarithromycine en PCR), favorisé par le diclofénac associé à l'aspirine ; anémie ferriprive modérée.",
-      "traitement": "Arrêt du diclofénac (paracétamol ; avis rhumatologique) ; maintien de l'aspirine de prévention secondaire sous IPP (avis neurologique) ; IPP à dose standard jusqu'à cicatrisation [durée selon RCP] ; éradication par quadrithérapie bismuthée (oméprazole 20 mg × 2/j + gélules bismuth-métronidazole-tétracycline 3 × 4/j, 10 jours selon la HAS 2021 ; 14 jours selon Maastricht VI) — la prise antérieure de clarithromycine et la résistance documentée excluent les schémas à la clarithromycine ; fer oral.",
+      "traitement": "Arrêt du diclofénac (paracétamol ; avis rhumatologique) ; maintien de l'aspirine de prévention secondaire sous IPP (avis neurologique) ; IPP à pleine dose pendant 4 à 8 semaines (ulcère gastrique ; durées de l'AMM rappelées par la HAS en 2020), puis à demi-dose tant que l'aspirine est associée ; éradication par quadrithérapie bismuthée (oméprazole 20 mg × 2/j + gélules bismuth-métronidazole-tétracycline 3 × 4/j, 10 jours selon la HAS 2021 ; 14 jours selon Maastricht VI) — la prise antérieure de clarithromycine et la résistance documentée excluent les schémas à la clarithromycine ; fer oral.",
       "surveillance": "TRU au moins 4 semaines après les antibiotiques et 2 semaines après l'arrêt de l'IPP (ou biopsies lors de l'EOGD de contrôle) ; EOGD de contrôle de la cicatrisation de l'ulcère gastrique avec biopsies ; hémogramme et ferritine.",
       "evolution": "Cicatrisation complète à l'EOGD de contrôle ; biopsies négatives pour H. pylori et pour la malignité ; IPP poursuivi tant que l'aspirine est maintenue.",
       "explication_pedagogique": "Ce cas illustre le cumul des facteurs ulcérogènes (AINS + aspirine + H. pylori), l'importance de l'interrogatoire sur les macrolides antérieurs, la gestion de l'aspirine de prévention secondaire (ne pas l'arrêter sans avis, IPP associé) et l'exigence de biopsies et de contrôle pour tout ulcère gastrique.",
@@ -82,11 +82,21 @@
         {
           "reference": "Djennane-Hadibi F et al. High-Level Primary Clarithromycin Resistance of Helicobacter pylori in Algiers, Algeria. Microb Drug Resist 2016;22(3):223-226. doi:10.1089/mdr.2015.0209",
           "date": "2016"
+        },
+        {
+          "reference": "HAS, Commission de la transparence. Rapport d'évaluation des inhibiteurs de la pompe à protons (réévaluation), avis définitif, 2020",
+          "date": "2020"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02/AUD-04 (IA)",
+        "resultat": "durée de l'IPP de cicatrisation sourcée (HAS 2020) ; schéma d'éradication conforme à la HAS 2021",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-GAST-0002.md"
+      }
     },
     {
       "id": "CAS-GAST-0452",
@@ -157,9 +167,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02/AUD-04 (IA)",
+        "resultat": "relu : conforme (aucune modification)",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-GAST-0002.md"
+      }
     },
     {
       "id": "CAS-GAST-0453",
@@ -230,9 +246,15 @@
           "date": "2005"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02/AUD-04 (IA)",
+        "resultat": "relu : conforme (aucune modification)",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-GAST-0003.md"
+      }
     },
     {
       "id": "CAS-GAST-0454",
@@ -279,7 +301,7 @@
         },
         {
           "question": "Quelles vaccinations ?",
-          "reponse": "Grippe annuelle, pneumocoque ; vaccins vivants au moins 4 semaines avant, jamais pendant l'immunosuppression."
+          "reponse": "Grippe chaque automne, pneumocoque (avec rappel après 5 ans selon la BSG 2025) ; vaccins vivants au moins 4 semaines avant, jamais pendant l'immunosuppression."
         },
         {
           "question": "Quand faire la coloscopie de dépistage du cancer ?",
@@ -298,11 +320,21 @@
         {
           "reference": "Raine T et al. ECCO Guidelines on Therapeutics in Ulcerative Colitis: Medical Treatment. J Crohns Colitis 2022;16(1):2-17. doi:10.1093/ecco-jcc/jjab178 (remplacée en 2026 : doi:10.1093/ecco-jcc/jjag066)",
           "date": "2022"
+        },
+        {
+          "reference": "Moran GW, et al. British Society of Gastroenterology guidelines on inflammatory bowel disease in adults: 2025. Gut. 2025;74(Suppl 2):s1-s101",
+          "date": "2025"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02/AUD-04 (IA)",
+        "resultat": "vaccination antipneumococcique actualisée (BSG 2025) ; posologie de l'infliximab conforme aux essais ACT ; ITL : instruction algérienne 2024 toujours à confirmer — statut maintenu à « corrections requises » tant que le schéma et le délai de l'ITL ne sont pas confirmés par le texte national",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-GAST-0003.md"
+      }
     },
     {
       "id": "CAS-GAST-0455",
@@ -316,10 +348,10 @@
       "identite": "Scénario fictif : homme, 27 ans, chauffeur, Biskra ; fumeur (10 cigarettes/j).",
       "motif_consultation": "Douleurs de la fosse iliaque droite et diarrhée depuis 4 mois.",
       "antecedents": "Pas de contage tuberculeux connu ; vacciné par le BCG ; appendicectomie à 12 ans.",
-      "symptomes": "3 à 4 selles non sanglantes par jour, douleurs post-prandiales de la FID cédant après des gargouillements, amaigrissement de 4 kg ; pas de sueurs nocturnes ; pas de toux.",
+      "symptomes": "3 à 4 selles non sanglantes par jour, douleurs de la FID, amaigrissement de 4 kg ; pas de syndrome de Koenig ni de vomissements ; pas de sueurs nocturnes ; pas de toux.",
       "examen_clinique": "T 37,4 °C ; empâtement de la FID ; marge anale normale ; pas d'adénopathie périphérique.",
       "biologie": "Hb 12,3 g/dL (N 13–17) ; CRP 31 mg/L (N < 5) ; albumine 34 g/L (N 35–50) ; vitamine B12 140 pmol/L (N > 150) ; calprotectine fécale 610 µg/g (N < 50) ; coprocultures (dont Yersinia) négatives ; IGRA négatif ; VIH négatif.",
-      "imagerie": "Entéro-IRM : épaississement iléal terminal de 12 cm, ulcérations, discrète sténose sans dilatation majeure, pas d'abcès ni de fistule ; pas d'adénopathie nécrotique ; radiographie thoracique normale.",
+      "imagerie": "Entéro-IRM : épaississement iléal terminal de 12 cm, ulcérations, sans rétrécissement luminal ni dilatation d'amont, pas d'abcès ni de fistule ; pas d'adénopathie nécrotique ; radiographie thoracique normale.",
       "hypotheses_diagnostiques": [
         "Maladie de Crohn iléale",
         "Tuberculose iléo-cæcale"
@@ -335,7 +367,7 @@
         "Bilan nutritionnel",
         "TPMT et bilan pré-immunosuppression"
       ],
-      "diagnostic_final": "Maladie de Crohn iléale (Montréal A2 L1 B1 — sténose inflammatoire sans dilatation), forme légère à modérée : ulcérations longitudinales, granulome non caséeux, culture et PCR mycobactériennes négatives.",
+      "diagnostic_final": "Maladie de Crohn iléale (Montréal A2 L1 B1 — ni sténose ni pénétration), forme légère à modérée : ulcérations longitudinales, granulome non caséeux, culture et PCR mycobactériennes négatives.",
       "traitement": "Arrêt du tabac (mesure majeure) ; budésonide à libération iléale 9 mg/j pendant 8 semaines ; vitamine B12 ; supplémentation nutritionnelle ; discussion d'un traitement d'entretien selon l'évolution (thiopurine, ou biothérapie en cas de facteurs de mauvais pronostic) ; la résection iléo-cæcale cœlioscopique est une alternative en cas d'échec pour une atteinte localisée.",
       "surveillance": "Clinique (HBI), CRP, calprotectine ; entéro-IRM ou échographie à distance ; poids ; B12.",
       "evolution": "Rémission clinique à 8 semaines ; rechute à 5 mois lors de la reprise du tabac → thiopurine après dosage de la TPMT ; sevrage tabagique accompagné.",
@@ -343,7 +375,7 @@
       "questions": [
         {
           "question": "Classification de Montréal ?",
-          "reponse": "A2 (27 ans), L1 (iléale), B1 (pas de sténose fibreuse ni de fistule)."
+          "reponse": "A2 (27 ans), L1 (iléale), B1 (comportement inflammatoire : ni sténose ni fistule)."
         },
         {
           "question": "Comment éliminer une tuberculose ?",
@@ -372,9 +404,15 @@
           "date": "2024"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02/AUD-04 (IA)",
+        "resultat": "cohérence de la classification de Montréal : signes obstructifs et sténose retirés du scénario pour que le phénotype B1 soit exact",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-GAST-0004.md"
+      }
     },
     {
       "id": "CAS-GAST-0456",
@@ -439,9 +477,15 @@
           "date": "2024"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02/AUD-04 (IA)",
+        "resultat": "relu : conforme (aucune modification)",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-GAST-0004.md"
+      }
     },
     {
       "id": "CAS-CDIG-0451",
@@ -516,9 +560,15 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02/AUD-04 (IA)",
+        "resultat": "relu : conforme (aucune modification)",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-CDIG-0003.md"
+      }
     },
     {
       "id": "CAS-CDIG-0452",
@@ -592,9 +642,15 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02/AUD-04 (IA)",
+        "resultat": "relu : conforme (aucune modification)",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-CDIG-0003.md"
+      }
     },
     {
       "id": "CAS-CDIG-0453",
@@ -609,7 +665,7 @@
       "motif_consultation": "Douleur abdominale depuis 18 heures.",
       "antecedents": "Aucun ; vaccinations à jour.",
       "symptomes": "Douleur péri-ombilicale ayant migré vers la FID, anorexie, un vomissement ; pas de diarrhée ; pas de signe urinaire ; pas de toux.",
-      "examen_clinique": "T 38,0 °C ; FC 104/min ; douleur provoquée de la FID avec défense ; douleur au sautillement et à la toux ; examen des bourses normal ; auscultation pulmonaire normale.",
+      "examen_clinique": "T 38,4 °C ; FC 104/min ; douleur provoquée de la FID avec défense ; douleur au sautillement et à la toux ; examen des bourses normal ; auscultation pulmonaire normale.",
       "biologie": "Leucocytes 15,1 G/L (N 4,5–13,5) dont 81 % de polynucléaires ; CRP 42 mg/L (N < 5) ; bandelette urinaire négative.",
       "imagerie": "Échographie abdominale : appendice de 8 mm non compressible, infiltration de la graisse péri-appendiculaire, pas d'appendicolithe, pas de collection.",
       "hypotheses_diagnostiques": [
@@ -627,7 +683,7 @@
         "Échographie (faite)",
         "Bilan préopératoire"
       ],
-      "diagnostic_final": "Appendicite aiguë non compliquée (PAS : toux/sautillement 2 + anorexie 1 + fièvre 1 + vomissement 1 + douleur FID 2 + leucocytose 1 + polynucléose 1 + migration 1 = 10/10 [barème PAS à vérifier]).",
+      "diagnostic_final": "Appendicite aiguë non compliquée (PAS : toux/sautillement 2 + anorexie 1 + fièvre 1 + vomissement 1 + douleur FID 2 + leucocytose 1 + polynucléose 1 + migration 1 = 10/10 ; probabilité élevée au-delà de 5).",
       "traitement": "Appendicectomie cœlioscopique dans les 24 heures avec une dose unique d'antibioprophylaxie, sans antibiotique postopératoire ; analgésie ; information de la famille sur l'option non opératoire (WSES 2.2, recommandation faible) — la famille choisit la chirurgie.",
       "surveillance": "Douleur, température, alimentation ; résultat histologique.",
       "evolution": "Sortie à J1 ; histologie : appendicite phlegmoneuse sans tumeur.",
@@ -658,11 +714,21 @@
         {
           "reference": "Minneci PC et al. Nonoperative management vs laparoscopic appendectomy in children with uncomplicated appendicitis. JAMA 2020;324(6):581-593. doi:10.1001/jama.2020.10888",
           "date": "2020"
+        },
+        {
+          "reference": "Goulder F, Simpson T. Pediatric appendicitis score: a retrospective analysis. J Indian Assoc Pediatr Surg. 2008;13(4):125-127 (tableau du PAS de Samuel)",
+          "date": "2008"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02/AUD-04 (IA)",
+        "resultat": "barème du PAS vérifié ; température portée à 38,4 °C pour lever l'ambiguïté du seuil de fièvre",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-CDIG-0004.md"
+      }
     },
     {
       "id": "CAS-CDIG-0454",
@@ -732,9 +798,26 @@
           "date": "2017"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-04",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02/AUD-04 (IA)",
+        "resultat": "relu : conforme (aucune modification)",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-CDIG-0004.md"
+      }
     }
-  ]
+  ],
+  "audit": {
+    "date": "2026-11-19",
+    "auditeur": "AUD-01/AUD-02/AUD-04 (IA)",
+    "cas_corriges": [
+      "CAS-GAST-0451",
+      "CAS-GAST-0454",
+      "CAS-GAST-0455",
+      "CAS-CDIG-0453"
+    ],
+    "resultat": "10 cas relus : 4 modifiés ; 9 audite_valide, 1 audite_corrections_requises (CAS-GAST-0454 : ITL)."
+  }
 }

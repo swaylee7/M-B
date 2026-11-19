@@ -303,3 +303,46 @@ Mission : Audit scientifique des dossiers (exactitude, cohérence, actualité)
 - 2026-11-19T04:55:49+00:00 — Lots (écrits avec `ecrire_json`, JSON validés avec python3 : 5 propositions, explications A–E, cohérence Vrai/Faux, QCS à réponse unique ; concordance dossiers/lot vérifiée par script ; `valider.py` : 0 erreur) : 60/60 QCM audite_valide (6 explications mises à jour, aucune réponse erronée) ; 10 cas : 7 audite_valide, 3 audite_corrections_requises (CAS-PEDI-0506, CAS-PEDI-0507, CAS-NEON-0502) ; 3 cas modifiés (0501, 0504, 0505). Bloc `audit` ajouté au lot QCM et à chaque cas.
 - 2026-11-19T04:55:49+00:00 — Cohérence : DOS-PEDI-0001 (plan B 75 mL/kg, classification de la déshydratation), DOS-NEON-0002 (gentamicine, aciclovir néonatal), DOS-PHAR-0001 (amikacine 15 mg/kg), DOS-INFE-0001 (ceftriaxone, dexaméthasone) : aucune divergence nouvelle ; divergence céfixime AWaRe/étiquetage présentée dans DOS-PEDI-0004 et 0007. Livrets générés à régénérer (exporter.py).
 - 2026-11-19T04:55:49+00:00 — Rapports : `00_SYSTEME/agents/AUD-01/rapports/DOS-PEDI-0004.md` à `DOS-PEDI-0007.md` et `DOS-NEON-0003.md`. État : `00_SYSTEME/agents/AUD-01/etat_DOS-05-lot2.json` (etat.json non réécrit). Aucune commande git.
+- 2026-11-19T05:13:02+00:00 — **Session d'audit scientifique, posologique et des références (AUD-01, AUD-02, AUD-04)** du lot 2 du rédacteur DOS-04 :
+  - dossiers DOS-GAST-0002 (ulcère), 0003 (RCH), 0004 (Crohn), DOS-CDIG-0003 (cancer du côlon), 0004 (appendicites) ;
+  - lots `21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-04-lot2.json` (60 QCM) et `20_CAS_CLINIQUES/lots/DOS-04-lot2.json` (10 cas).
+  Lecture préalable de PROTOCOLE_AUDIT.md, CONVENTIONS.md, des rapports DOS-GAST-0001, DOS-CDIG-0001/0002 et DOS-RHUM-0001, puis lecture intégrale des 5 dossiers et des 2 lots.
+- Sauvegardes avant modification : `00_SYSTEME/sauvegardes/20261119/` (5 dossiers `*.avant_audit.md`, lots `DOS-04-lot2.avant_audit.json`).
+- Sources lues :
+  - textes intégraux :
+    - BSG 2019 sur les MICI (PMC6872448) : toutes les posologies attribuées confirmées ;
+    - BSG/ACPGBI/UKCGG 2020 (PMC7034349) : surveillance du Lynch ;
+    - Sammalkorpi 2014 (AAS) ;
+    - tableaux AIR (de Castro 2012) et PAS (Goulder 2008) ;
+    - WSES 2020 (DOC-00082) ;
+    - livre AWaRe de l'OMS 2022 (DOC-00039) ;
+    - fiches HAS 2021 sur *H. pylori* ;
+    - réévaluation des IPP par la HAS (2020) ;
+    - avis de la HAS sur la Salazopyrine (2014) ;
+  - résumés PubMed : ACT, X-ACT, CLASSIC-I, SES-CD, ESGE 2020 ;
+  - recherches web : RCP (Simponi, Stelara, Humira, Skyrizi, Rinvoq, Xeloda), EMA DPD 2020, ACG 2024, liste OMS 2024 des pathogènes prioritaires, synthèses ESMO 2026, ACG 2025, BSG 2025.
+- Hôtes inaccessibles : orbi.uliege.be, res.cloudinary.com, ueaeprints, whiterose, ema.europa.eu, dailymed, accessdata.fda.gov. Les PDF des ECCO 2026 et de la BSG 2025 n'ont donc pas pu être lus.
+- Actualité vérifiée (métadonnées PubMed) :
+  - ECCO 2026 RCH médical (jjag066), chirurgical (jjag072) et infections (jjag071) ;
+  - BSG 2025 ;
+  - ACG 2025 RCH et Crohn ;
+  - ESMO 2026 sur le cancer colorectal métastatique.
+  Seules les positions vérifiables dans des extraits ont été intégrées ; le reste est marqué `[À VÉRIFIER]`.
+- **Aucune erreur critique.** Deux erreurs majeures corrigées :
+  - (1) DOS-CDIG-0003 § 17 : critères d'Amsterdam II déclarés non remplis alors que la patiente, son père et sa tante paternelle les remplissent ;
+  - (2) CAS-GAST-0455 : phénotype de Montréal B1 malgré un syndrome de Koenig et une sténose.
+- Divergence explicitée : la colite aiguë grave est définie par « ≥ 6 » selles sanglantes (Montréal) et par « > 6 » (BSG 2019, Statement 15).
+- Marqueurs `[POSOLOGIE À VÉRIFIER]` : 19 → 1. Reste : DOS-GAST-0004, antibiotiques des lésions anopérinéales.
+- Verdicts (tous en v1.1) :
+  - DOS-GAST-0002 : audite_valide (11 : 0/0/11) ;
+  - DOS-GAST-0003 : audite_corrections_requises (15 : 0/0/15) ;
+  - DOS-GAST-0004 : audite_corrections_requises (12 : 0/1/11) ;
+  - DOS-CDIG-0003 : audite_corrections_requises (10 : 0/1/9) ;
+  - DOS-CDIG-0004 : audite_valide (10 : 0/0/10).
+- Lots écrits avec `ecrire_json` :
+  - JSON validés avec python3 (A–E, cohérence Vrai/Faux, QCS à réponse unique) ; `valider.py` : 0 erreur ;
+  - QCM : 60/60 audite_valide, 5 explications précisées, aucune réponse erronée ;
+  - cas : 4 modifiés ; 9 audite_valide, 1 audite_corrections_requises (CAS-GAST-0454 : ITL, comme DOS-RHUM-0001).
+- Cohérence avec DOS-GAST-0001, DOS-PHAR-0001 et DOS-RHUM-0001/0002 : aucune nouvelle divergence (ITL selon l'OMS 2024, instruction algérienne 2024 « à confirmer », restrictions EMA des inhibiteurs de JAK).
+- Rapports : `00_SYSTEME/agents/AUD-01/rapports/DOS-GAST-0002.md` à `DOS-GAST-0004.md`, `DOS-CDIG-0003.md`, `DOS-CDIG-0004.md`. État : `00_SYSTEME/agents/AUD-01/etat_DOS-04-lot2.json` (etat.json non réécrit).
+- Incident : une commande `git status` (lecture seule) a été lancée par erreur ; aucune autre commande git, aucune modification du dépôt par git.

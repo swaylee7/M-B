@@ -1,10 +1,153 @@
 {
   "id": "AUD-01",
-  "postes": ["AUD-01", "AUD-02", "AUD-04"],
+  "postes": [
+    "AUD-01",
+    "AUD-02",
+    "AUD-04"
+  ],
   "lot": "DOS-04-lot2",
-  "statut": "en_cours",
-  "derniere_execution": "2026-11-19T04:48:00+00:00",
-  "sauvegardes": "00_SYSTEME/sauvegardes/20261119/",
-  "dossiers": {},
-  "taches_suivantes": ["DOS-GAST-0002", "DOS-GAST-0003", "DOS-GAST-0004", "DOS-CDIG-0003", "DOS-CDIG-0004", "lot QCM", "lot cas"]
+  "statut": "lot_audite",
+  "derniere_execution": "2026-11-19T05:13:02+00:00",
+  "sauvegardes": "00_SYSTEME/sauvegardes/20261119/ (5 dossiers *.avant_audit.md ; lots DOS-04-lot2.avant_audit.json)",
+  "dossiers": {
+    "DOS-GAST-0002": {
+      "verdict": "audite_valide",
+      "version": "1.1",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 0,
+        "mineures": 11
+      },
+      "marqueurs_posologie_restants": 0,
+      "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-GAST-0002.md"
+    },
+    "DOS-GAST-0003": {
+      "verdict": "audite_corrections_requises",
+      "version": "1.1",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 0,
+        "mineures": 15
+      },
+      "marqueurs_posologie_restants": 0,
+      "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-GAST-0003.md",
+      "motif": "ECCO 2026 / BSG 2025 / ACG 2025 non lues (stratégie fondée sur ECCO 2022 et BSG 2019) ; instruction ITL 2024 non relue"
+    },
+    "DOS-GAST-0004": {
+      "verdict": "audite_corrections_requises",
+      "version": "1.1",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 1,
+        "mineures": 11
+      },
+      "marqueurs_posologie_restants": 1,
+      "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-GAST-0004.md",
+      "motif": "antibiotiques des lésions anopérinéales ; ECCO 2024, ACG 2025 et BSG 2025 non lues ; ITL 2024"
+    },
+    "DOS-CDIG-0003": {
+      "verdict": "audite_corrections_requises",
+      "version": "1.1",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 1,
+        "mineures": 9
+      },
+      "marqueurs_posologie_restants": 0,
+      "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-CDIG-0003.md",
+      "motif": "ESMO 2020 et ESMO 2026 non lues en texte intégral ; Plan cancer algérien (S24) et S25 non vérifiés"
+    },
+    "DOS-CDIG-0004": {
+      "verdict": "audite_valide",
+      "version": "1.1",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 0,
+        "mineures": 10
+      },
+      "marqueurs_posologie_restants": 0,
+      "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-CDIG-0004.md"
+    }
+  },
+  "lots": {
+    "qcm": {
+      "fichier": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-04-lot2.json",
+      "total": 60,
+      "corriges": [
+        "QCM-GAST-0459",
+        "QCM-GAST-0462",
+        "QCM-GAST-0465",
+        "QCM-GAST-0481",
+        "QCM-CDIG-0461"
+      ],
+      "audite_valide": 60,
+      "reponses_erronees": 0
+    },
+    "cas": {
+      "fichier": "20_CAS_CLINIQUES/lots/DOS-04-lot2.json",
+      "total": 10,
+      "corriges": [
+        "CAS-GAST-0451",
+        "CAS-GAST-0454",
+        "CAS-GAST-0455",
+        "CAS-CDIG-0453"
+      ],
+      "audite_valide": 9,
+      "audite_corrections_requises": [
+        "CAS-GAST-0454"
+      ]
+    }
+  },
+  "erreurs_critiques": [],
+  "erreurs_majeures": [
+    "DOS-CDIG-0003 § 17 : critères d'Amsterdam II déclarés non remplis alors que la patiente, son père et sa tante paternelle les remplissent",
+    "CAS-GAST-0455 : phénotype de Montréal B1 malgré un syndrome de Koenig et une sténose (scénario rendu cohérent)"
+  ],
+  "marqueurs": {
+    "avant": 19,
+    "leves": 18,
+    "restants": [
+      "DOS-GAST-0004 § 13.2.7 : antibiotiques des lésions anopérinéales et des abcès (métronidazole, durée)"
+    ],
+    "sources_des_levees": "HAS CT 2020 (IPP) ; ACG 2024 (P-CAB, rifabutine) ; RCP/HAS CT 2014 (sulfasalazine) ; BSG 2019 (budésonide MMX, acide folique, IM-UNITI) ; ACT (infliximab) ; RCP Simponi, Stelara, Humira, Skyrizi, Rinvoq ; CLASSIC-I ; AWaRe 2022 (vancomycine, antibioprophylaxie, appendicite) ; X-ACT + RCP Xeloda ; EMA 2020 (DPD) ; WSES 2020/2017 (DOC-00082)"
+  },
+  "actualite_verifiee": {
+    "ECCO RCH médical 2026": "J Crohns Colitis 2026;20(7):jjag066, PMID 42413123 — remplace ECCO 2022 ; texte non lu",
+    "ECCO RCH chirurgical 2026": "jjag072, PMID 42381162 — résumé lu",
+    "ECCO infections 2026": "jjag071, PMID 42417116 — remplace ECCO 2021 ; structure connue par le communiqué ECCO",
+    "BSG IBD 2025": "Gut 2025;74(Suppl 2):s1-s101, PMID 40550582 — remplace BSG 2019 ; extraits du résumé exécutif",
+    "ACG RCH 2025": "Am J Gastroenterol 2025;120(6):1187-1224, PMID 40701556 — texte non lu",
+    "ACG Crohn 2025": "Am J Gastroenterol 2025;120(6):1225-1264, PMID 40701562 — positions connues par les synthèses de l'ACG",
+    "ESMO CCR métastatique 2026": "Ann Oncol 2026;37(6):759-776, PMID 41990853 — remplace ESMO 2023 ; points clés par synthèses"
+  },
+  "documents_lus": [
+    "BSG 2019 IBD (PMC6872448, texte intégral)",
+    "BSG/ACPGBI/UKCGG 2020 cancer héréditaire (PMC7034349)",
+    "Sammalkorpi 2014 AAS (PMC4087125)",
+    "de Castro 2012 AIR (PMC4714027)",
+    "Goulder 2008 PAS (PMC2788473)",
+    "HAS fiches H. pylori 2021 (pages has-sante.fr)",
+    "HAS CT 2020 réévaluation des IPP (PDF)",
+    "HAS CT 2014 Salazopyrine (PDF)",
+    "WSES 2020 appendicite (DOC-00082)",
+    "AWaRe OMS 2022 (DOC-00039)",
+    "résumés PubMed : ACT, X-ACT, CLASSIC-I, SES-CD, ESGE 2020, ECCO 2026, ACG 2025, BSG 2025, ESMO 2026"
+  ],
+  "hotes_inaccessibles": [
+    "orbi.uliege.be",
+    "res.cloudinary.com",
+    "ueaeprints.uea.ac.uk",
+    "eprints.whiterose.ac.uk",
+    "ema.europa.eu",
+    "dailymed.nlm.nih.gov",
+    "accessdata.fda.gov",
+    "Europe PMC (premier essai)"
+  ],
+  "taches_suivantes": [
+    "Lire ECCO 2026 RCH (jjag066), ECCO 2026 infections (jjag071), BSG 2025, ACG 2025 (RCH, Crohn), ECCO 2024 Crohn, ESMO 2020 et ESMO 2026 en texte intégral (autoriser les hôtes ou acquérir les PDF)",
+    "Lever le dernier marqueur (DOS-GAST-0004 : antibiotiques périanaux)",
+    "Instruction algérienne ITL 2024 (S19/S21 ; cohérence DOS-RHUM-0001)",
+    "Plan national cancer 2015-2019 ; données algériennes (MICI, appendicite, CCR)",
+    "Relecture enseignant (valide_enseignant)"
+  ]
 }
