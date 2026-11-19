@@ -297,3 +297,132 @@ n par groupe = (Z₁₋α/₂ + Z₁₋β)² × [p₁(1 − p₁) + p₂(1 − p
 - La **p-value** est la probabilité, sous l'hypothèse nulle, d'observer un résultat au moins aussi extrême ; elle **ne mesure ni** la probabilité que l'hypothèse soit vraie, **ni** l'importance de l'effet (déclaration de l'American Statistical Association, 2016) [S11].
 - L'**intervalle de confiance à 95 %** renseigne à la fois sur la **précision** et sur la **compatibilité** des données avec l'absence d'effet (IC d'un RR ou d'un OR contenant 1 → non significatif au seuil de 5 %).
 - Une étude « négative » de faible puissance n'est **pas** une preuve d'absence d'effet.
+
+---
+
+## 5. L'enquête transversale (de prévalence)
+
+### 5.1 Principe
+
+On observe, **à un moment donné** (ou sur une courte période), un échantillon représentatif d'une population, et l'on mesure **simultanément** la présence de la maladie et celle de l'exposition. C'est une « photographie » de la population.
+
+```text
+           Population source
+                  │  échantillonnage (aléatoire, stratifié, en grappes)
+                  ▼
+     Échantillon examiné à l'instant t
+     ┌────────────┬────────────┐
+     │ Exposés M+ │ Exposés M− │
+     │ Non exp M+ │ Non exp M− │
+     └────────────┴────────────┘
+   → prévalences, rapport de prévalences, OR de prévalence
+```
+
+### 5.2 Mesures
+
+- **Prévalence** de la maladie (et des expositions), avec intervalle de confiance : IC 95 % ≈ p ± 1,96 √[p(1 − p)/n] (approximation valable si n × p et n × (1 − p) sont suffisants).
+- **Rapport de prévalences (RP)** = prévalence chez les exposés / prévalence chez les non-exposés.
+- **OR de prévalence** (issu des régressions logistiques) : il s'éloigne du RP quand la maladie est fréquente.
+
+**Exemple 3 (fictif)** : enquête chez 3 000 adultes ; 300 hypertendus parmi 600 obèses, 600 hypertendus parmi 2 400 non-obèses.
+- Prévalence de l'HTA chez les obèses = 300/600 = **50 %** ; chez les non-obèses = 600/2 400 = **25 %**.
+- **RP = 50/25 = 2,0** ; **OR de prévalence** = (300 × 1 800)/(300 × 600) = 540 000/180 000 = **3,0**.
+- Lecture : la maladie étant fréquente, l'OR (3,0) **surestime** le rapport de prévalences (2,0) ; pour communiquer, préférer le RP.
+
+### 5.3 Avantages et limites
+
+| Avantages | Limites |
+|---|---|
+| Rapide, relativement peu coûteuse | Pas de **séquence temporelle** : on ne sait pas si l'exposition a précédé la maladie (ex. sédentarité cause ou conséquence d'une maladie ?) |
+| Mesure le **fardeau** (prévalence) : utile à la planification | Mesure la prévalence, pas l'incidence |
+| Étudie simultanément plusieurs expositions et maladies | **Biais de prévalence-incidence (Neyman)** : les cas recensés sont des « survivants » ; les formes rapidement mortelles ou rapidement guéries sont sous-représentées |
+| Génère des hypothèses ; évalue des couvertures (vaccination, dépistage) | Inadaptée aux maladies **rares** ou de **courte durée** |
+| Répétée, elle permet de suivre des tendances (enquêtes successives) | Biais de non-réponse, de déclaration (consommations, revenus) |
+
+### 5.4 Exemples algériens
+
+- **Enquête STEPS 2016-2017** : enquête transversale nationale en population générale (7 450 personnes de 18 à 69 ans) mesurant les facteurs de risque comportementaux (tabac, alimentation, activité physique), physiques (poids, taille, pression artérielle) et biologiques (glycémie, lipides) des maladies non transmissibles [S13]. Son exploitation analytique (ex. facteurs associés à l'HTA) illustre l'usage de l'OR de prévalence en régression logistique — et la limite de temporalité de ces associations [S17].
+- **MICS6 (2019)** : enquête transversale par sondage en grappes auprès des ménages, produisant des indicateurs de santé de l'enfant et de la femme [S14].
+
+---
+
+## 6. L'enquête cas-témoins
+
+### 6.1 Principe
+
+On part de la **maladie** : on constitue un groupe de **cas** (sujets atteints) et un groupe de **témoins** (sujets non atteints) issus de la **même population source**, puis on compare **la fréquence de l'exposition passée** dans les deux groupes. Si l'exposition est plus fréquente chez les cas, elle est associée à la maladie.
+
+```text
+                 Exposés dans le passé ?
+                 ┌──── oui (a) ────┐
+   CAS ──────────┤                 │   comparaison de la proportion d'exposés
+                 └──── non (b) ────┘   (ou de l'odds d'exposition)
+                 ┌──── oui (c) ────┐
+   TÉMOINS ──────┤                 │
+                 └──── non (d) ────┘
+   ◄──────────── sens de l'enquête : de la maladie vers l'exposition
+```
+
+### 6.2 Choix des cas
+
+- Définition **précise et standardisée** (critères diagnostiques, confirmation histologique ou biologique).
+- Préférer les cas **incidents** (nouvellement diagnostiqués) aux cas prévalents : ces derniers mélangent facteurs de survenue et facteurs de survie, et leur exposition a pu changer du fait de la maladie.
+- Source : un registre de population (idéal) ou un ou plusieurs services hospitaliers (plus simple, mais la population source devient floue).
+
+### 6.3 Choix des témoins — l'étape critique
+
+Principe fondamental : les témoins doivent représenter **la distribution de l'exposition dans la population source des cas** ; ils doivent être des sujets qui, s'ils avaient développé la maladie, auraient été recrutés comme cas.
+
+| Type de témoins | Avantages | Inconvénients |
+|---|---|---|
+| Population générale (tirage dans la population source) | Meilleure représentativité | Coût, taux de participation faible, mémoire moins « motivée » que celle des cas |
+| Hospitaliers (autres pathologies) | Disponibles, motivés, recueil comparable | **Biais de Berkson** ; risque que leur pathologie soit liée à l'exposition (ex. témoins bronchitiques dans une étude sur le tabac) |
+| Voisinage, famille, amis | Contrôlent les facteurs socio-environnementaux | Sur-appariement possible (exposition trop similaire) |
+
+On peut recruter **plusieurs témoins par cas** (jusqu'à 3-4) pour gagner en puissance quand les cas sont rares ; au-delà, le gain est faible.
+
+### 6.4 Appariement
+
+L'**appariement** consiste à choisir, pour chaque cas, un ou plusieurs témoins semblables pour certaines caractéristiques (âge, sexe, lieu) qui sont des facteurs de confusion connus. Règles :
+- on ne peut plus étudier l'effet des variables d'appariement ;
+- l'analyse doit **tenir compte** de l'appariement (OR apparié, régression logistique conditionnelle) ;
+- **sur-appariement** : apparier sur une variable liée à l'exposition mais qui n'est pas un facteur de confusion fait perdre de l'efficacité, voire biaise.
+
+**OR apparié (paires 1:1)** : seules les **paires discordantes** sont informatives. Si f = nombre de paires où le cas est exposé et le témoin non, g = nombre de paires où le témoin est exposé et le cas non : **OR = f / g**.
+
+**Exemple 4 (fictif)** : 300 paires ; 60 paires « cas exposé / témoin non exposé », 20 paires « cas non exposé / témoin exposé » → **OR apparié = 60/20 = 3,0**.
+
+### 6.5 Mesure d'association : l'odds ratio
+
+On ne peut pas calculer d'incidence ni de RR (le rapport cas/témoins est fixé par l'investigateur). On calcule l'**odds ratio** = odds d'exposition chez les cas / odds d'exposition chez les témoins = (a/b)/(c/d) = **ad/bc**. Propriété fondamentale : il est **égal** à l'odds ratio de maladie (exposés vs non-exposés), qui **approche le RR** quand la maladie est **rare** (incidence < 5-10 % dans la population source, « hypothèse de maladie rare » de Cornfield [S16]). Avec un échantillonnage des témoins par densité d'incidence (étude cas-témoins nichée, témoins tirés parmi les sujets à risque au moment de chaque cas), l'OR estime directement le **rapport des taux d'incidence**, sans hypothèse de rareté [S1].
+
+**Exemple 5 (fictif) — calcul complet** : 200 cas et 400 témoins ; 120 cas et 120 témoins ont été exposés.
+
+| | Cas | Témoins | Total |
+|---|---|---|---|
+| Exposés | a = 120 | c = 120 | 240 |
+| Non exposés | b = 80 | d = 280 | 360 |
+| Total | 200 | 400 | 600 |
+
+- Proportion d'exposés : 60 % chez les cas (120/200), 30 % chez les témoins (120/400).
+- **OR** = (120 × 280)/(80 × 120) = 33 600/9 600 = **3,5**.
+- **IC 95 % (méthode de Woolf)** : ln OR = 1,2528 ; ES = √(1/120 + 1/80 + 1/120 + 1/280) = √0,03274 = 0,1809 ; bornes = e^(1,2528 ± 1,96 × 0,1809) = e^(0,8981) et e^(1,6074) = **2,46 à 4,99**.
+- **χ² de Pearson** (sans correction) = N(ad − bc)²/[(a + b)(c + d)(a + c)(b + d)] avec les totaux de lignes 240 et 360 et de colonnes 200 et 400 : ad − bc = 33 600 − 9 600 = 24 000 ; χ² = 600 × 24 000² / (240 × 360 × 200 × 400) = 345 600 000 000 / 6 912 000 000 = **50,0** (1 ddl ; seuil 3,84 à 5 %) → p < 0,001.
+- **FAP de Miettinen** (si maladie rare et relation causale) = pc × (OR − 1)/OR = 0,6 × 2,5/3,5 = **42,9 %**.
+
+### 6.6 Variantes
+
+- **Cas-témoins nichée dans une cohorte** : cas et témoins tirés d'une cohorte déjà constituée (expositions recueillies avant la maladie, par exemple sérums congelés) : réduit le biais de mémorisation et le coût des dosages.
+- **Cas-cohorte** : témoins = sous-échantillon aléatoire de toute la cohorte, utilisable pour plusieurs maladies.
+- **Cas-croisés (case-crossover)** : chaque cas est son propre témoin, en comparant l'exposition juste avant l'événement à une période antérieure (expositions transitoires, effets aigus : effort et infarctus, médicament et chute).
+- **Enquête cas-témoins en investigation d'épidémie** (TIAC) : comparaison des aliments consommés par les malades et les non-malades d'un même repas.
+
+### 6.7 Avantages et limites
+
+| Avantages | Limites |
+|---|---|
+| Idéale pour les maladies **rares** et à **longue latence** (cancers, malformations) | Mauvaise pour les **expositions rares** (sauf si fortement concentrées chez les cas) |
+| Rapide, peu coûteuse, effectifs réduits | Ne fournit ni incidence ni RR (seulement l'OR) |
+| Permet d'étudier **plusieurs expositions** pour une même maladie | **Biais de sélection** (choix des témoins) fréquents |
+| Utile en investigation d'épidémie | **Biais de mémorisation** (cas plus enclins à se souvenir) et biais de l'enquêteur |
+| | Temporalité parfois incertaine (exposition modifiée par la maladie débutante : « causalité inverse ») |

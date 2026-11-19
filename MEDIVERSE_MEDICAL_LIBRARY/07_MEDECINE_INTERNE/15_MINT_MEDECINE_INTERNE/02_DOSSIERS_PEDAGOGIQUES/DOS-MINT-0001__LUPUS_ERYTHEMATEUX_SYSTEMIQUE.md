@@ -6,11 +6,24 @@ sous_specialite: "Maladies auto-immunes systémiques"
 items_residanat: [RES-MED-101, RES-MED-154]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-09 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 7
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-MINT-0001.md
+    remarque: "Critères EULAR/ACR 2019 (AAN ≥ 1/80, ≥ 10 points), SLICC 2012 et classes ISN/RPS conformes. Définitions DORIS 2021 et LLDAS 2016 précisées et sourcées ; révision ISN/RPS 2018 sourcée ; critères de réponse rénale et seuil de biopsie sourcés ; divergence PNDS 2024 / EULAR sur la dose d'HCQ ajoutée ; prévention de la tuberculose (OMS 2024) complétée. PNDS 2024 relu (texte intégral HAS)."
+  - date: 2026-11-19
+    auditeur: "AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 6
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-MINT-0001.md
+    remarque: "Marqueurs levés (EULAR 2023, EULAR/ERA-EDTA 2019, PNDS 2024) : HCQ (schéma avec comprimés à 200 mg), bolus de méthylprednisolone, mycophénolate, cyclophosphamide (Euro-Lupus et NIH), azathioprine (TPMT), biothérapies. Reste 1 marqueur : posologie et cibles des inhibiteurs de la calcineurine."
 sources:
   - id: S1
     reference: "Aringer M, Costenbader K, Daikh D, et al. 2019 European League Against Rheumatism/American College of Rheumatology classification criteria for systemic lupus erythematosus. Ann Rheum Dis. 2019;78(9):1151-1159."
@@ -148,13 +161,53 @@ sources:
     doi: "10.1136/annrheumdis-2019-215882"
     url: ""
     verifiee: true
+  - id: S18
+    reference: "Bajema IM, Wilhelmus S, Alpers CE, et al. Revision of the International Society of Nephrology/Renal Pathology Society classification for lupus nephritis: clarification of definitions, and modified National Institutes of Health activity and chronicity indices. Kidney Int. 2018;93(4):789-796."
+    organisme: "ISN / RPS"
+    annee: 2018
+    type: article
+    doi: "10.1016/j.kint.2017.11.023"
+    url: ""
+    verifiee: true
+  - id: S19
+    reference: "van Vollenhoven RF, Bertsias G, Doria A, et al. 2021 DORIS definition of remission in SLE: final recommendations from an international task force. Lupus Sci Med. 2021;8(1):e000538."
+    organisme: "DORIS (task force internationale)"
+    annee: 2021
+    type: recommandation
+    doi: "10.1136/lupus-2021-000538"
+    url: ""
+    verifiee: true
+  - id: S20
+    reference: "Franklyn K, Lau CS, Navarra SV, et al. Definition and initial validation of a Lupus Low Disease Activity State (LLDAS). Ann Rheum Dis. 2016;75(9):1615-1621."
+    organisme: "Asia-Pacific Lupus Collaboration"
+    annee: 2016
+    type: article
+    doi: "10.1136/annrheumdis-2015-207726"
+    url: ""
+    verifiee: true
+  - id: S21
+    reference: "World Health Organization. WHO consolidated guidelines on tuberculosis. Module 1: prevention — tuberculosis preventive treatment. 2nd ed. Geneva: WHO; 2024. ISBN 9789240096196."
+    organisme: "OMS"
+    annee: 2024
+    type: recommandation
+    doi: ""
+    url: "https://iris.who.int/handle/10665/378536"
+    verifiee: true
+  - id: S22
+    reference: "Nast A, Altenburg A, Augustin M, et al. S3 Guideline for the Treatment of Psoriasis vulgaris, adapted from EuroGuiDerm - part 2: Specific clinical and comorbid situations. J Dtsch Dermatol Ges. 2026;24(2):270-282."
+    organisme: "DDG / BVDD (avec la DGP pour le chapitre tuberculose)"
+    annee: 2026
+    type: recommandation
+    doi: "10.1111/ddg.16001"
+    url: ""
+    verifiee: true
 mots_cles: [lupus érythémateux systémique, anticorps antinucléaires, anti-ADN natif, anti-Sm, complément, critères EULAR/ACR 2019, néphropathie lupique, hydroxychloroquine, corticothérapie, mycophénolate, cyclophosphamide, bélimumab, anifrolumab, syndrome des antiphospholipides, grossesse, Algérie]
 ---
 
 # Lupus érythémateux systémique : physiopathologie, diagnostic, pronostic, évolution et traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : **audité (AUD-01/AUD-02, 2026-11-19) — corrections requises** (voir le rapport d'audit). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 
 **Items du programme couverts** : RES-MED-101 — « Maladie lupique : Physiopathologie - diagnostic - pronostic - évolution - traitement » (module Rhumatologie) ; RES-MED-154 — « Lupus érythémateux systémique » (module Maladies systémiques).
 
@@ -333,12 +386,12 @@ Onze critères cliniques et six immunologiques ; classification si **≥ 4 crit�
 | V | Extramembraneuse (membraneuse) | Immunosuppression si protéinurie importante ; associée parfois à III/IV |
 | VI | Sclérose avancée (≥ 90 % des glomérules scléreux) | Préparation à la suppléance rénale |
 
-La biopsie précise aussi des indices d'**activité** (lésions réversibles) et de **chronicité** (fibrose, atrophie). La classification a été révisée en 2018 (définitions et indices) **[référence de la révision à vérifier]**.
+La biopsie précise aussi des indices d'**activité** (lésions réversibles) et de **chronicité** (fibrose, atrophie). La classification a été révisée en 2018 (clarification des définitions, indices d'activité et de chronicité du NIH modifiés) [S18].
 
 ### 7.4 Activité, dommage, cibles thérapeutiques
 - **Activité** : SLEDAI-2K (score pondéré de 24 items), BILAG (par organe), appréciation globale du médecin.
 - **Dommage** : indice SLICC/ACR (SDI), qui recense les lésions irréversibles présentes depuis ≥ 6 mois.
-- **Cibles** : **rémission** (définition DORIS : SLEDAI clinique nul, appréciation globale faible, prednisone ≤ 5 mg/j, antipaludéens, immunosuppresseurs et biothérapies stables autorisés) ou, à défaut, **faible activité** (LLDAS : SLEDAI-2K ≤ 4 sans activité d'organe majeur, prednisone ≤ 7,5 mg/j). L'EULAR 2023 fixe la rémission ou la faible activité comme objectifs [S2] **[seuils exacts des définitions DORIS/LLDAS À VÉRIFIER dans les publications originales]**.
+- **Cibles** : **rémission** (définition DORIS 2021 : SLEDAI-2K clinique = 0, appréciation globale du médecin < 0,5 sur une échelle de 0 à 3, prednisone ≤ 5 mg/j ; antipaludéens, immunosuppresseurs et biothérapies à doses stables autorisés ; une activité sérologique isolée est admise) [S19] ou, à défaut, **faible activité** (LLDAS : SLEDAI-2K ≤ 4 sans activité dans un système d'organe majeur — rein, système nerveux central, cœur-poumon, vascularite, fièvre — ni anémie hémolytique ou atteinte digestive active ; aucune nouvelle manifestation depuis l'évaluation précédente ; appréciation globale ≤ 1 sur 3 ; prednisone ≤ 7,5 mg/j ; immunosuppresseurs et biothérapies à doses d'entretien standard) [S20]. L'EULAR 2023 fixe la rémission ou la faible activité comme objectifs [S2] ; le PNDS 2024 reprend ces deux définitions [S6].
 
 
 ## 8. Diagnostic positif — clinique
@@ -372,7 +425,7 @@ Pleurésie (souvent bilatérale, exsudative), péricardite (rarement tamponnade)
 ### 8.6 Néphropathie lupique — l'atteinte qui conditionne le pronostic
 - **Fréquente** et souvent **silencieuse** : d'où la **bandelette urinaire et le rapport protéinurie/créatininurie systématiques** à chaque consultation.
 - Présentations : protéinurie isolée, hématurie glomérulaire, cylindres hématiques, **syndrome néphrotique**, HTA, insuffisance rénale aiguë ou rapidement progressive.
-- **Biopsie rénale** indiquée devant toute atteinte rénale évocatrice, en particulier une **protéinurie persistante ≥ 0,5 g/24 h** (ou équivalent en rapport protéinurie/créatininurie), surtout avec hématurie glomérulaire et/ou cylindres cellulaires, ou une baisse inexpliquée du débit de filtration glomérulaire [S3, S4] **[seuils exacts à confronter aux textes]**. Elle précise la classe, l'activité et la chronicité, et oriente le traitement.
+- **Biopsie rénale** indiquée devant toute atteinte rénale évocatrice, en particulier une **protéinurie persistante ≥ 0,5 g/24 h** (ou équivalent en rapport protéinurie/créatininurie), surtout avec hématurie glomérulaire et/ou cylindres cellulaires, ou une baisse inexpliquée du débit de filtration glomérulaire (EULAR/ERA-EDTA 2019) [S3, S4]. Elle précise la classe, l'activité et la chronicité, et oriente le traitement.
 - Diagnostics différentiels : microangiopathie thrombotique (SAPL, purpura thrombotique), néphrotoxicité médicamenteuse (AINS), néphropathie à IgA.
 
 ### 8.7 Atteintes neuropsychiatriques
@@ -494,14 +547,14 @@ Selon l'EULAR 2023 [S2], le PNDS 2024 [S6] et l'ACR 2025 [S7] :
 
 #### 13.2.2 Hydroxychloroquine (HCQ) — traitement de base de tout lupus
 - **Recommandée chez tous les patients** sauf contre-indication [S2, S3, S7].
-- Dose cible : **5 mg/kg de poids réel par jour**, en tenant compte du risque individuel de poussée et de toxicité rétinienne [S2] ; ne pas dépasser 5 mg/kg/j de poids réel pour limiter le risque rétinien [S9]. Exemple : patiente de 60 kg → 300 mg/j **[schéma d'administration selon les formes disponibles : POSOLOGIE À VÉRIFIER — RCP]**.
+- Dose cible : **5 mg/kg de poids réel par jour**, en tenant compte du risque individuel de poussée et de toxicité rétinienne [S2] ; ne pas dépasser 5 mg/kg/j de poids réel pour limiter le risque rétinien [S9]. Exemple : patiente de 60 kg → 300 mg/j en moyenne ; l'HCQ n'existant qu'en comprimés non sécables à 200 mg [S6], on alterne 400 mg et 200 mg un jour sur deux (environ 2 100 mg/semaine). Le PNDS français 2024 retient une autre approche (cf. § 21) [S6].
 - Bénéfices : réduction des poussées, des atteintes rénales, des thromboses, du dommage, amélioration de la survie [S2, S14].
 - **Surveillance ophtalmologique** : examen de référence (dans la première année), puis dépistage **annuel après 5 ans** de traitement en l'absence de facteur de risque, par OCT et champ visuel automatisé [S9] ; plus tôt en cas de facteurs de risque (insuffisance rénale, dose élevée, tamoxifène, maculopathie).
 - Compatible avec la grossesse et l'allaitement : **ne pas l'interrompre** [S11].
 
 #### 13.2.3 Glucocorticoïdes
 - **Traitement « d'attente »** (bridging) des poussées, à la dose minimale efficace et pour la durée la plus courte [S2].
-- **Bolus intraveineux de méthylprednisolone** dans les atteintes sévères (néphropathie proliférative, atteinte neurologique, cytopénie profonde) ; ils permettent ensuite une **dose orale initiale plus faible** et une décroissance plus rapide. Schéma usuel rapporté par l'EULAR : de l'ordre de 125 à 1 000 mg/j pendant 1 à 3 jours **[POSOLOGIE À VÉRIFIER — texte EULAR 2023 / protocole local]** [S2].
+- **Bolus intraveineux de méthylprednisolone** dans les atteintes sévères (néphropathie proliférative, atteinte neurologique, cytopénie profonde) ; ils permettent ensuite une **dose orale initiale plus faible** et une décroissance plus rapide. Schéma de l'EULAR 2023 : 125 à 1 000 mg/j de méthylprednisolone pendant 1 à 3 jours [S2]. Dans la néphropathie lupique : bolus puis prednisone orale à 0,3–0,5 mg/kg/j (EULAR/ERA-EDTA 2019) [S4] ; le PNDS 2024 propose 500 à 1 000 mg/j pendant 3 jours, puis environ 0,5 mg/kg/j (1 mg/kg/j dans les formes sévères), avec une décroissance jusqu'à 7,5 mg/j vers le 6e mois et 5 mg/j du 7e au 12e mois [S6].
 - **Entretien** : ≤ 5 mg/j d'équivalent prednisone, puis arrêt si possible [S2].
 - Mesures associées : prévention de l'ostéoporose, surveillance tensionnelle et glycémique, dépistage infectieux ; prophylaxie de la pneumocystose à discuter en cas de forte dose prolongée (au-delà de 15 à 30 mg/j pendant plus de 2 à 4 semaines selon l'EULAR) [S15].
 
@@ -514,7 +567,11 @@ Selon l'EULAR 2023 [S2], le PNDS 2024 [S6] et l'ACR 2025 [S7] :
 | **Cyclophosphamide** IV | Atteintes **menaçant le pronostic vital ou d'organe** (néphropathie proliférative, neurolupus sévère) ; schéma « faible dose » de type Euro-Lupus pour la néphropathie [S2, S3] | Toxicité gonadique (préservation de la fertilité), cystite hémorragique, cytopénies, infections, cancers ; tératogène |
 | **Inhibiteurs de la calcineurine** (tacrolimus, ciclosporine, **voclosporine**) | Néphropathie lupique, en association (notamment classe V ou forme proliférative) [S2, S3] | Néphrotoxicité, HTA, interactions médicamenteuses ; surveillance du DFG |
 
-Posologies : **[POSOLOGIE À VÉRIFIER — RCP / protocole local]** (doses de mycophénolate, schémas de cyclophosphamide, cibles des inhibiteurs de la calcineurine).
+Posologies (néphropathie lupique ; EULAR/ERA-EDTA 2019 [S4], PNDS 2024 [S6]) :
+- **mycophénolate mofétil** : induction 2 à 3 g/j en 2 prises pendant 6 mois (acide mycophénolique à dose équivalente : 360 mg pour 500 mg de MMF) ; entretien 1 à 2 g/j (1 g × 2/j, puis réduction possible à 500 mg × 2/j) ;
+- **cyclophosphamide IV** : schéma Euro-Lupus, 500 mg toutes les 2 semaines, 6 perfusions (3 g au total), à préférer en l'absence de gravité ; schéma NIH court, 0,5 à 0,7 g/m² toutes les 4 semaines pendant 6 mois (à adapter au nadir leucocytaire, à la fonction rénale et à l'âge) dans les formes graves ; préservation de la fertilité à proposer ;
+- **azathioprine** : 2 mg/kg/j en une prise, réductible à 1 mg/kg/j en entretien ; mesure de l'activité TPMT avant traitement (non systématique selon le PNDS), qui ne dispense pas d'une surveillance rapprochée de la NFS [S6] ;
+- **inhibiteurs de la calcineurine** (voclosporine, tacrolimus) : posologie et cibles résiduelles **[POSOLOGIE À VÉRIFIER — RCP / protocole local]**.
 
 #### 13.2.5 Biothérapies
 | Molécule | Cible | Indications et données |
@@ -522,6 +579,8 @@ Posologies : **[POSOLOGIE À VÉRIFIER — RCP / protocole local]** (doses de my
 | **Bélimumab** | BLyS/BAFF (survie des lymphocytes B) | Lupus actif malgré le traitement standard (épargne cortisonique, réduction des poussées) ; **néphropathie lupique** en association (essai BLISS-LN : meilleure réponse rénale à 2 ans) [S13, S2, S3] |
 | **Anifrolumab** | Récepteur de l'interféron de type I (IFNAR1) | Lupus extra-rénal actif malgré le traitement standard (essai TULIP-2) [S12, S2] |
 | **Rituximab** | CD20 (lymphocytes B) | Formes **réfractaires** (rénales, hématologiques, neurologiques) [S2] |
+
+Posologies [S6] : bélimumab 10 mg/kg IV à J0, J14, J28 puis toutes les 4 semaines, ou 200 mg SC par semaine (400 mg par semaine le premier mois dans la néphropathie) ; anifrolumab 300 mg IV toutes les 4 semaines ; rituximab (hors AMM) 1 g à J1 et J15, ou 375 mg/m² par semaine pendant 4 semaines.
 
 Avant toute biothérapie ou immunosuppression intensive : **dépistage tuberculeux** (radiographie thoracique, IGRA ou IDR ; traitement de l'ITL selon l'instruction nationale), sérologies **VHB** (risque de réactivation sous rituximab), VHC, VIH, mise à jour vaccinale [S15, S16, S17].
 
@@ -563,11 +622,11 @@ OBJECTIF : rémission (ou faible activité) ; GC ≤ 5 mg/j puis arrêt
    - **Ajout** à envisager de **bélimumab** ou d'un **inhibiteur de la calcineurine** (voclosporine ou tacrolimus) [S2, S3] ; l'ACR 2024 propose par défaut une **trithérapie** (corticoïdes + deux immunosuppresseurs) [S8].
 2. **Classe V pure** avec protéinurie significative : glucocorticoïdes + mycophénolate ± inhibiteur de la calcineurine ; traitement antiprotéinurique [S3].
 3. **Entretien** : poursuivre l'immunosuppression (mycophénolate ou azathioprine) avec des corticoïdes à faible dose, pendant **au moins 3 ans** au total [S3] ; l'ACR 2024 envisage 3 à 5 ans en cas de réponse rénale complète [S8].
-4. **Objectifs** : réponse rénale (baisse de la protéinurie, stabilisation du DFG) dans des délais définis par les recommandations **[seuils et délais À VÉRIFIER dans les textes]** ; en cas d'échec : vérifier l'observance, rebiopsier, changer de stratégie (cyclophosphamide ↔ mycophénolate, ajout d'une biothérapie, rituximab).
+4. **Objectifs** : réponse rénale complète = protéinurie < 0,5–0,7 g/24 h avec un DFG (quasi) normal à 12 mois, délai prolongeable si la protéinurie initiale était néphrotique [S4] ; réduction de la protéinurie d'au moins 25 % à 3 mois et de 50 % à 6 mois [S6] ; en cas d'échec : vérifier l'observance, rebiopsier, changer de stratégie (cyclophosphamide ↔ mycophénolate, ajout d'une biothérapie, rituximab).
 5. **Tous** : HCQ, IEC/ARA2, contrôle tensionnel, statine si besoin, vaccination, prévention des infections.
 
 ### 13.5 Particularités algériennes
-- **Tuberculose** : dépistage de l'ITL avant les immunosuppresseurs, les biothérapies et les corticothérapies prolongées à forte dose, selon les directives nationales [S15, S16] ; penser à l'isoniazide comme cause possible de lupus induit.
+- **Tuberculose** : dépistage de l'ITL avant les immunosuppresseurs, les biothérapies et les corticothérapies prolongées à forte dose, selon les directives nationales [S15, S16]. Schémas préventifs de l'OMS 2024 : 6 ou 9 mois d'isoniazide (6H, 9H), 3HP, 3HR, alternatives 1HP et 4R [S21]. Les rifamycines diminuent l'exposition aux corticoïdes, au mycophénolate et aux inhibiteurs de la calcineurine (adapter les doses) ; l'isoniazide est une cause possible de lupus induit. Le délai entre le début du traitement préventif et l'immunosuppression n'est pas fixé par l'OMS (4 semaines suggérées par la recommandation S3 allemande 2026 [S22]) ; schémas et délai de l'instruction nationale 2024 **à confirmer** [S16].
 - **Exposition solaire** importante : photoprotection systématique.
 - **Infections** : premières causes de décès dans la région MENA [S14] — vigilance devant toute fièvre sous immunosuppresseurs.
 - **Accès aux traitements** : disponibilité de l'HCQ, du mycophénolate, du bélimumab et de l'anifrolumab, et organisation des centres experts **[À VÉRIFIER — nomenclature nationale et filières hospitalières]**.
@@ -640,9 +699,9 @@ ou baisse inexpliquée du DFG
 1. *Classification* : AAN ≥ 1/80 (entrée) ; néphropathie classe IV (10) ; anti-ADN/anti-Sm (6) ; C3 et C4 bas (4) ; lupus cutané aigu (6) ; articulaire (6) ; leucopénie (3) ; le score dépasse très largement le seuil de 10 [S1].
 2. *Gravité* : néphropathie proliférative avec syndrome néphrotique, HTA, hématurie : **atteinte menaçant l'organe**.
 3. *Traitement* :
-   - **HCQ** à 5 mg/kg de poids réel/j (patiente de 56 kg ≈ 280 mg/j ; arrondi selon les comprimés disponibles **[POSOLOGIE À VÉRIFIER — RCP]**) et examen ophtalmologique de référence [S2, S9] ;
-   - **bolus de méthylprednisolone** puis prednisone orale à dose réduite, décroissance rapide vers ≤ 5 mg/j [S2] **[POSOLOGIE À VÉRIFIER]** ;
-   - **mycophénolate** (ou cyclophosphamide IV faible dose) [S2, S3], avec discussion d'un **ajout de bélimumab** (ou d'un inhibiteur de la calcineurine) [S2, S3, S13] ; contraception efficace (mycophénolate tératogène) ;
+   - **HCQ** à 5 mg/kg de poids réel/j (patiente de 56 kg : ≤ 280 mg/j ; avec des comprimés à 200 mg, par exemple 400 mg deux jours et 200 mg cinq jours par semaine, soit 1 800 mg/semaine ≈ 4,6 mg/kg/j) [S6] et examen ophtalmologique de référence [S2, S9] ;
+   - **bolus de méthylprednisolone** (500 à 1 000 mg/j pendant 3 jours) puis prednisone orale à dose modérée (0,3 à 0,5 mg/kg/j, soit environ 20 à 30 mg/j), décroissance jusqu'à 7,5 mg/j vers le 6e mois puis ≤ 5 mg/j [S2, S4, S6] ;
+   - **mycophénolate** 2 à 3 g/j (ou cyclophosphamide IV faible dose, 500 mg toutes les 2 semaines × 6) [S2, S3, S4], avec discussion d'un **ajout de bélimumab** (ou d'un inhibiteur de la calcineurine) [S2, S3, S13] ; contraception efficace (mycophénolate tératogène) ;
    - **IEC**, objectif tensionnel strict, statine si dyslipidémie persistante, photoprotection, calcium-vitamine D, vaccinations (grippe, pneumocoque, VHB) [S17].
 4. *Prévention infectieuse* : IGRA négatif (pas de traitement de l'ITL), mais vigilance clinique ; prophylaxie de la pneumocystose à discuter selon la dose cortisonique [S15].
 
@@ -898,7 +957,7 @@ ou baisse inexpliquée du DFG
 |---|---|---|---|
 | Traitement d'induction de la néphropathie proliférative | **EULAR 2023** : GC + mycophénolate ou cyclophosphamide faible dose comme médicaments d'ancrage ; ajout de bélimumab ou d'un inhibiteur de la calcineurine « à envisager » [S2] ; **KDIGO 2024** : plusieurs options équivalentes (bithérapie ou trithérapie) [S3] | **ACR 2024** : trithérapie par défaut (bolus de GC puis décroissance orale + **deux** immunosuppresseurs), traitement conçu comme continu plutôt qu'en phases induction/entretien [S8] | Le coût et la disponibilité (bélimumab, voclosporine) pèsent fortement dans le contexte algérien |
 | Durée du traitement de la néphropathie | **KDIGO 2024** : entretien d'au moins 3 ans au total [S3] | **ACR 2024** : 3 à 5 ans chez les répondeurs complets [S8] | Convergence sur une durée longue ; arrêt progressif et surveillé |
-| Dose d'hydroxychloroquine | **EULAR 2023** : dose **cible** de 5 mg/kg de poids réel/j, à moduler selon le risque de poussée et de toxicité [S2] | **AAO 2016** : **ne pas dépasser** 5 mg/kg/j de poids réel (approche centrée sur le risque rétinien) [S9] | Formulations compatibles, accent différent ; adapter en cas d'insuffisance rénale |
+| Dose d'hydroxychloroquine | **EULAR 2023** : dose **cible** de 5 mg/kg de poids réel/j, à moduler selon le risque de poussée et de toxicité [S2] ; **AAO 2016** : **ne pas dépasser** 5 mg/kg/j de poids réel [S9] | **PNDS HAS 2024** : efficacité démontrée à 6,5 mg/kg/j ; 400 mg/j habituellement prescrits si la fonction rénale est normale ; le risque rétinien augmente au-delà de 5 mg/kg/j au long cours (> 5 ans) ; ajustement possible sur l'hydroxychloroquinémie (risque de poussée si < 750 ng/mL) [S6] | Divergence réelle entre le PNDS français et EULAR/AAO ; dans tous les cas, réduire la dose en cas d'insuffisance rénale et dépister la rétinopathie |
 | Corticothérapie | **EULAR 2023** : entretien ≤ 5 mg/j d'équivalent prednisone puis arrêt si possible [S2] | **ACR 2025** : insiste sur la limitation de la **durée** d'exposition et l'introduction précoce des immunosuppresseurs et biothérapies [S7] | Objectif commun d'épargne cortisonique ; seuils précis à lire dans chaque texte |
 | Critères de classification | **EULAR/ACR 2019** : AAN obligatoires, critères pondérés, meilleure spécificité [S1] | **SLICC 2012** : plus sensibles, permettent la classification sur une néphropathie lupique biopsique isolée avec AAN ou anti-ADN [S5] | Critères de classification, non diagnostiques ; les deux restent utilisés |
 | SAPL et anticoagulants oraux directs | **EULAR 2019 (SAPL)** : éviter le rivaroxaban chez les patients triple positifs ; AVK préférés [S10] | Pratiques hétérogènes hors recommandations (préférence pour les AOD par commodité) | Suivre la recommandation EULAR dans les profils à haut risque |
@@ -911,7 +970,7 @@ ou baisse inexpliquée du DFG
 3. **[S3]** KDIGO Lupus Nephritis Work Group. KDIGO 2024 Clinical Practice Guideline for the management of lupus nephritis. *Kidney Int.* 2024;105(1S):S1-S69. doi:10.1016/j.kint.2023.09.002 — vérifiée (REC-0305).
 4. **[S4]** Fanouriakis A, Kostopoulou M, Cheema K, et al. 2019 Update of the joint EULAR/ERA-EDTA recommendations for the management of lupus nephritis. *Ann Rheum Dis.* 2020;79(6):713-723. doi:10.1136/annrheumdis-2020-216924 — vérifiée (PMID 32220834).
 5. **[S5]** Petri M, Orbai AM, Alarcón GS, et al. Derivation and validation of the SLICC classification criteria for systemic lupus erythematosus. *Arthritis Rheum.* 2012;64(8):2677-2686. doi:10.1002/art.34473 — vérifiée (PMID 22553077).
-6. **[S6]** HAS ; Centre de référence RAISE ; filière FAI²R. PNDS « Lupus systémique de l'adulte et de l'enfant ». Mis en ligne le 9 février 2024. https://has-sante.fr/jcms/p_3493410/fr/lupus-systemique-de-l-adulte-et-de-l-enfant — existence vérifiée (WebSearch) ; texte intégral non relu.
+6. **[S6]** HAS ; Centre de référence RAISE ; filière FAI²R. PNDS « Lupus systémique de l'adulte et de l'enfant ». Mis en ligne le 9 février 2024. https://has-sante.fr/jcms/p_3493410/fr/lupus-systemique-de-l-adulte-et-de-l-enfant — vérifiée ; texte intégral (pnds_ls.pdf, janvier 2024) relu par AUD-01 le 2026-11-19 (hydroxychloroquine, tableau 12 DORIS/LLDAS, néphropathie lupique).
 7. **[S7]** Sammaritano LR, Askanase A, Bermas BL, et al. 2025 ACR Guideline for the Treatment of Systemic Lupus Erythematosus. *Arthritis Rheumatol.* 2026;78(7):1361-1386. doi:10.1002/art.43452 — vérifiée (PMID 41187097 ; résumé relu).
 8. **[S8]** Sammaritano LR, Askanase A, Bermas BL, et al. 2024 ACR Guideline for the Screening, Treatment, and Management of Lupus Nephritis. *Arthritis Rheumatol.* 2025;77(9):1115-1135. doi:10.1002/art.43212 — vérifiée (PMID 40331662 ; résumé relu).
 9. **[S9]** Marmor MF, Kellner U, Lai TY, et al. Recommendations on screening for chloroquine and hydroxychloroquine retinopathy (2016 revision). *Ophthalmology.* 2016;123(6):1386-1394. doi:10.1016/j.ophtha.2016.01.058 — vérifiée (PMID 26992838).
@@ -923,3 +982,8 @@ ou baisse inexpliquée du DFG
 15. **[S15]** Fragoulis GE, Nikiphorou E, Dey M, et al. 2022 EULAR recommendations for screening and prophylaxis of chronic and opportunistic infections in adults with AIIRD. *Ann Rheum Dis.* 2023;82(6):742-753. doi:10.1136/ard-2022-223335 — vérifiée (PMID 36328476).
 16. **[S16]** Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente, 2024 (numéro et date à vérifier) — existence signalée par DOS-02 le 2026-11-19, non reconfirmée par DOS-09 ; contenu non relu **[À VÉRIFIER]**.
 17. **[S17]** Furer V, Rondaan C, Heijstek MW, et al. 2019 update of EULAR recommendations for vaccination in adult patients with AIIRD. *Ann Rheum Dis.* 2020;79(1):39-52. doi:10.1136/annrheumdis-2019-215882 — vérifiée (PMID 31413005).
+18. **[S18]** Bajema IM, Wilhelmus S, Alpers CE, et al. Revision of the ISN/RPS classification for lupus nephritis: clarification of definitions, and modified NIH activity and chronicity indices. *Kidney Int.* 2018;93(4):789-796. doi:10.1016/j.kint.2017.11.023 — vérifiée (PMID 29459092).
+19. **[S19]** van Vollenhoven RF, Bertsias G, Doria A, et al. 2021 DORIS definition of remission in SLE: final recommendations from an international task force. *Lupus Sci Med.* 2021;8(1):e000538. doi:10.1136/lupus-2021-000538 — vérifiée (PMID 34819388 ; définition recoupée avec le tableau 12 du PNDS 2024).
+20. **[S20]** Franklyn K, Lau CS, Navarra SV, et al. Definition and initial validation of a Lupus Low Disease Activity State (LLDAS). *Ann Rheum Dis.* 2016;75(9):1615-1621. doi:10.1136/annrheumdis-2015-207726 — vérifiée (PMID 26458737 ; définition recoupée avec le tableau 12 du PNDS 2024).
+21. **[S21]** OMS. WHO consolidated guidelines on tuberculosis. Module 1: prevention — tuberculosis preventive treatment, 2e éd. Genève : OMS ; 2024 — vérifiée (catalogue REC-0263, document DOC-00027 relu par AUD-01).
+22. **[S22]** Nast A, Altenburg A, Augustin M, et al. S3 Guideline for the Treatment of Psoriasis vulgaris, adapted from EuroGuiDerm – part 2: Specific clinical and comorbid situations. *J Dtsch Dermatol Ges.* 2026;24(2):270-282. doi:10.1111/ddg.16001 — vérifiée (PMID 41641952 ; texte intégral en accès libre relu, chapitre tuberculose).
