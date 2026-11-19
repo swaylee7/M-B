@@ -36,14 +36,31 @@
 
 Les points 14 à 18 correspondent aux points 3 à 8 du journal du lot 4 de RES-06, regroupés dans la file sous « Les 5 autres points ».
 
+## Points complémentaires du lot 6 (RES-06), transmis par le coordinateur en cours de mission
+
+Ces fiches étaient exclues par la consigne initiale (« en cours de création »). Le coordinateur a ensuite autorisé leur modification, mais le contrôle des permissions de la session a **refusé** l'écriture dans ces fiches. Seuls les dossiers ont donc été corrigés (sauvegardes faites pour les dossiers et pour les fiches). Les modifications de fiche à appliquer après autorisation sont indiquées dans la dernière colonne.
+
+| # | Point | Décision | Source | Fichiers modifiés | Fiche restant à aligner |
+|---|---|---|---|---|---|
+| 22 | Loi 18-11 : « art. 88-90 » (GERI-0001) vs « art. 89-90 » (SPUB-0001) | **Harmonisé sur le texte.** Art. 88 : définition des personnes en difficulté, dont certaines personnes âgées. Art. 89 : protection sanitaire à la charge de l'État. Art. 90 : couverture sanitaire gratuite. Libellé commun : « définition art. 88 ; protection et gratuité art. 89-90 ». | Loi 18-11, JORADP n° 46/2018 (DOC-00074, relu par `pdftotext -raw`) | DOS-GERI-0001 v1.2 ; DOS-SPUB-0001 v1.2 | FIC-GERI-0001 § 4 : remplacer « gratuité pour les personnes en difficulté (art. 88-90) » par « personnes en difficulté (définition, art. 88 ; protection à la charge de l'État et gratuité, art. 89-90) » |
+| 23 | Tableau 2 × 2 : b et c inversés entre EPID-0001 et EPID-0002 | **Convention unique** : a = exposés malades, b = exposés non malades, c = non exposés malades, d = non exposés non malades. Elle est explicitée dans les deux dossiers. EPID-0002 est corrigé : exemple 5 (b = 120, c = 80), odds d'exposition (a/c)/(b/d) = ad/bc, notation de Mantel-Haenszel, tableau récapitulatif, ordre des termes de Woolf. **Calculs refaits par script, résultats inchangés** : OR 3,5 ; IC 95 % 2,46-4,99 ; χ² 50,0 ; FAP 42,9 % ; OR_MH 1,0 ; OR brut 2,79 ; QCM 2 : 2,25 ; RR 6 de l'exemple 10 d'EPID-0001. Les QCM des lots (DOS-15, RES-03-c) ne calculent qu'avec des nombres, sans lettres ; ils sont exacts et n'ont pas été modifiés. | Convention demandée ; calculs | DOS-EPID-0001 v1.2 ; DOS-EPID-0002 v1.2 | FIC-EPID-0002 : ligne 148, « OR = (a/b)/(c/d) = ad/bc » → « OR = (a/c)/(b/d) = ad/bc (a = cas exposés, b = témoins exposés, c = cas non exposés, d = témoins non exposés) » ; ligne 204, « a = 120, b = 80, c = 120, d = 280 » → « a = 120, b = 120, c = 80, d = 280 ». FIC-EPID-0001 : déjà conforme |
+| 24 | GERI-0002 : CIM-11 « vérifié » puis `[À VÉRIFIER]` | **Harmonisé** : 6D70 et ses sous-codes 6D70.0 à 6D70.2, vérifiés sur des sources secondaires concordantes (navigateur OMS non consulté). Le marqueur du § 21 est levé. | CISMeF ; recherche web du 2026-11-19 | DOS-GERI-0002 v1.2 | Aucune (code absent de la fiche) |
+| 25 | INFE-0006 : lactate « > 4 » vs « ≥ 4 » mmol/L | **Aligné sur la SSC.** « ≥ 4 mmol/L » est le seuil du paquet de la première heure (bundle 2018) qui déclenche le remplissage de 30 mL/kg, même sans hypotension. Sepsis-3 ne définit que le seuil > 2 mmol/L (choc). [S11] est ajoutée et le marqueur du § 9 levé. QCM-MINT_REA-0001 et QCM-INFE-3010 : « > 4 » n'y apparaît que dans des distracteurs faux ; ils n'ont pas été modifiés. | Levy MM, Evans LE, Rhodes A, *Intensive Care Med* 2018;44(6):925-928 (DOI confirmé par recherche) ; Singer, Sepsis-3, 2016 [S1] | DOS-INFE-0006 v1.2 | FIC-INFE-0006 § 3 : « > 4 mmol/L = gravité marquée [À VÉRIFIER] » → « ≥ 4 mmol/L = hypoperfusion marquée déclenchant le remplissage de 30 mL/kg (paquet de la première heure, SSC 2018) ; Sepsis-3 : > 2 mmol/L (choc) » |
+| 26 | GERI-0001 : « plus de 65 ans » vs « ≥ 65 ans » | **Aligné sur chaque source.** HAS 2009 : « > 65 ans » (libellé vérifié) ; le § 21 est corrigé. « ≥ 65 ans » est conservé pour l'USPSTF 2024 (son libellé) et pour les données épidémiologiques. | HAS/SFGG 2009 [S3] ; USPSTF 2024 [S5] | DOS-GERI-0001 v1.2 | Aucune (fiche déjà conforme) |
+
+Pour toutes ces fiches (FIC-GERI-0001, FIC-GERI-0002, FIC-SPUB-0001, FIC-EPID-0001, FIC-EPID-0002, FIC-INFE-0006), il faut aussi porter `version_dossier_source` à « 1.2 » et ajouter un bloc `revisions` une fois l'autorisation donnée.
+
 ## Contrôles
 
 - En-têtes YAML des 38 fichiers modifiés (19 dossiers, 19 fiches) : `yaml.safe_load` sans erreur. Chaque [Sx] cité dans le corps des dossiers existe dans `sources`.
+- Dossiers du lot 6 (GERI-0001, GERI-0002, SPUB-0001, EPID-0001, EPID-0002, INFE-0006) : en-têtes YAML valides, versions 1.1 → 1.2, bloc `audit` AUD-05, citations [Sx] toutes présentes dans `sources`.
 - Lots JSON modifiés (QCM : DOS-09, DOS-10, DOS-11, RES-04-b ; cas : DOS-10, DOS-11, DOS-12, DOS-13) : `json.loads` sans erreur. Chaque élément corrigé porte un champ `audit_coherence` (AUD-05). Aucune clé de réponse n'a été modifiée.
 - `importer_programme_residanat.py` : 314 items, sortie 0. `indexer.py` : « anomalies 0 » (95 dossiers, 80 fiches, 2 025 QCM, 181 cas). Comparaison du programme avant/après : seule la spécialité de RES-MED-101 change. Les autres écarts sont des ajouts d'autres agents : fiches INFE et compteurs de QCM.
 - Aucune commande git.
 
-## Restent à vérifier (aucun point de la file n'est resté ouvert)
+## Restent à vérifier
+
+0. **Points 22, 23 et 25 (lot 6), partie fiche** : FIC-GERI-0001, FIC-EPID-0002 et FIC-INFE-0006 sont à aligner, ainsi que les en-têtes de FIC-GERI-0002, FIC-SPUB-0001 et FIC-EPID-0001. Écriture refusée par le contrôle des permissions : ces fiches étaient exclues par la consigne initiale. Ces trois points restent non cochés dans la file.
 
 1. **CLAFU 2022** : délai d'imagerie de la CN simple. **Actualisation SFMU 2008** : texte intégral (délai de 12 à 48 h lu via des sources secondaires) (DOS-UROL-0001).
 2. **RCUK 2021** : texte intégral de la recommandation (barème de l'adrénaline par âge, volumes de remplissage lus par extraits) (DOS-MINT_REA-0001, marqueur maintenu).

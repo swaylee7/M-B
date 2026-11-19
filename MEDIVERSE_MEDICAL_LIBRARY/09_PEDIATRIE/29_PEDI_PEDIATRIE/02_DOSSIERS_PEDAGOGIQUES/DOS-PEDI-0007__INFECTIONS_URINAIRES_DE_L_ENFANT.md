@@ -6,14 +6,20 @@ sous_specialite: "Néphrologie et infectiologie pédiatriques"
 items_residanat: [RES-MED-065]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-05 (IA) — dossier pédagogique original (lot 2)"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01/AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 16
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-PEDI-0007.md
 sources:
   - id: S1
-    reference: "Subcommittee on Urinary Tract Infection, Steering Committee on Quality Improvement and Management; Roberts KB. Urinary tract infection: clinical practice guideline for the diagnosis and management of the initial UTI in febrile infants and children 2 to 24 months. Pediatrics. 2011;128(3):595-610. PMID 21873693 (résumé lu via PubMed)."
+    reference: "Subcommittee on Urinary Tract Infection, Steering Committee on Quality Improvement and Management; Roberts KB. Urinary tract infection: clinical practice guideline for the diagnosis and management of the initial UTI in febrile infants and children 2 to 24 months. Pediatrics. 2011;128(3):595-610. PMID 21873693 (résumé lu via PubMed). Recommandation retirée par l'AAP en 2021 (usage de la race dans l'estimation du risque) et remplacée par la recommandation de 2026 [S13] — présentée ici comme position historique."
     organisme: AAP
     annee: 2011
     type: recommandation
@@ -108,13 +114,54 @@ sources:
     doi: "10.1097/INF.0b013e31815e4122"
     url: "https://pubmed.ncbi.nlm.nih.gov/18316994/"
     verifiee: true
+  - id: S13
+    reference: "Alverson BK, Hains DS, Downs SM, et al. Clinical practice guideline for the diagnosis and treatment of urinary tract infection in children from 8 days to 5 years of age. Pediatrics. 2026;158(4):e2026078565. PMID 42803578 (résumé lu par l'audit ; remplace la recommandation AAP de 2011 ; texte intégral non relu — hôte inaccessible ; éléments complémentaires issus du communiqué de l'AAP et de synthèses de presse médicale retrouvés par recherche web)."
+    organisme: AAP
+    annee: 2026
+    type: recommandation
+    doi: "10.1542/peds.2026-078565"
+    url: "https://pubmed.ncbi.nlm.nih.gov/42803578/"
+    verifiee: true
+  - id: S14
+    reference: "Forster CS, Nelson C, El Feghaly R, et al.; AAP Guideline Panel on Diagnosis and Management of UTI. Urinary tract infection diagnosis — a companion to the American Academy of Pediatrics' 2026 clinical practice guideline: technical report. Pediatrics. 2026;158(4):e2026078566. PMID 42803592 (résumé lu)."
+    organisme: AAP
+    annee: 2026
+    type: recommandation
+    doi: "10.1542/peds.2026-078566"
+    url: "https://pubmed.ncbi.nlm.nih.gov/42803592/"
+    verifiee: true
+  - id: S15
+    reference: "AlShenaiber L, Senerth E, Babatunde I, et al. A systematic review and meta-analysis of the prevention and management of pediatric urinary tract infection and suspected urinary tract infection: technical report. Pediatrics. 2026;158(4):e2026078568. PMID 42803594 (résumé lu)."
+    organisme: AAP
+    annee: 2026
+    type: article
+    doi: "10.1542/peds.2026-078568"
+    url: "https://pubmed.ncbi.nlm.nih.gov/42803594/"
+    verifiee: true
+  - id: S16
+    reference: "Azzam M, Choaib A, Nazzal J, et al. A systematic review and meta-analysis of the role of ultrasonography for the diagnosis of vesicoureteral reflux in pediatric patients following urinary tract infections: technical report. Pediatrics. 2026;158(4):e2026078567. PMID 42803590 (résumé lu)."
+    organisme: AAP
+    annee: 2026
+    type: article
+    doi: "10.1542/peds.2026-078567"
+    url: "https://pubmed.ncbi.nlm.nih.gov/42803590/"
+    verifiee: true
+  - id: S17
+    reference: "Suprax (céfixime), prescribing information (FDA) : 8 mg/kg/j en 1 prise ou 4 mg/kg toutes les 12 h chez l'enfant de 6 mois et plus ; sécurité et efficacité non établies avant 6 mois. Contenu confirmé par recherche web (étiquetages FDA, documents non téléchargés) ; RCP algérien et français non consultés."
+    organisme: "FDA (RCP américain)"
+    annee: 2019
+    type: texte_officiel
+    doi: ""
+    url: ""
+    verifiee: true
 mots_cles: [infection urinaire, pyélonéphrite aiguë, cystite, bandelette urinaire, ECBU, leucocyturie, nitrites, Escherichia coli, BLSE, ceftriaxone, amikacine, céfixime, cotrimoxazole, échographie rénale, cystographie rétrograde, reflux vésico-urétéral, DMSA, antibioprophylaxie, NICE NG224]
 ---
 
 # Infections urinaires de l'enfant : diagnostic, traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : audité (AUD-01/AUD-02, 19/11/2026, v1.1) — corrections requises : posologie française de l'amikacine non sourcée ; contenu détaillé de la recommandation AAP 2026 non relu. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> **Actualité (audit du 19/11/2026)** : la recommandation de l'AAP de 2011 (réaffirmée en 2016) a été **retirée en 2021** et **remplacée en octobre 2026** par une nouvelle recommandation couvrant les enfants de **8 jours à 5 ans** [S13–S16]. Les positions « AAP 2011 » citées dans ce dossier sont **historiques** ; le contenu détaillé de la version 2026 n'a pu être lu qu'à travers ses résumés.
 > **Vérification des sources (19/11/2026)** : recommandations NICE NG224 (2022), NG111 et NG109 (2018) lues sur le site du NICE ; chapitres « infection urinaire » de l'AWaRe 2022 (DOC-00039) et du Mémento/Pocket book OMS (DOC-00062/00063) lus ; résumés de l'AAP 2011, du guide GPIP-SFP 2023 et des recommandations GPIP/SPILF 2015, de l'essai RIVUR et de la méta-analyse de Shaikh lus via PubMed. **Le texte intégral du guide GPIP 2023 n'a pas été consulté** : les posologies françaises détaillées sont signalées par un marqueur lorsqu'elles n'ont pu être confrontées à la source.
 > Les infections urinaires du **nouveau-né** s'intègrent dans la prise en charge des infections néonatales (**DOS-NEON-0002**).
 
@@ -139,7 +186,7 @@ mots_cles: [infection urinaire, pyélonéphrite aiguë, cystite, bandelette urin
 - **Infection urinaire haute = pyélonéphrite aiguë (PNA)** : atteinte du parenchyme rénal. Le NICE retient le diagnostic d'IU haute chez l'enfant qui présente une **bactériurie avec une fièvre ≥ 38 °C**, ou une bactériurie avec une fièvre < 38 °C **et une douleur ou une sensibilité lombaire** [S3].
 - **Infection urinaire basse = cystite** : bactériurie **sans signe systémique** (pas de fièvre), avec signes mictionnels [S3].
 - **Bactériurie asymptomatique** : bactéries dans les urines **sans** symptôme ; elle **ne doit pas être traitée** ni surveillée chez l'enfant [S3, S8].
-- **Diagnostic de l'IU fébrile du nourrisson (AAP 2011)** : présence **à la fois** d'une **leucocyturie** (pyurie) et d'**au moins 50 000 colonies/mL d'un seul uropathogène** dans des urines **recueillies de façon appropriée** (sondage ou ponction sus-pubienne chez l'enfant non continent) [S1].
+- **Diagnostic de l'IU fébrile du nourrisson (AAP 2011, position remplacée)** : présence **à la fois** d'une **leucocyturie** (pyurie) et d'**au moins 50 000 colonies/mL d'un seul uropathogène** dans des urines **recueillies de façon appropriée** (sondage ou ponction sus-pubienne chez l'enfant non continent) [S1]. **AAP 2026** : la définition repose sur trois domaines (symptômes, inflammation, culture) ; la **pyurie reste un critère**, avec des seuils selon l'âge et selon que la culture est disponible ou en attente, et le seuil de culture positive est **modulé selon l'âge et le mode de recueil** [S14] — valeurs exactes **[À VÉRIFIER — texte intégral non relu]**.
 - **IU atypique (NICE)** : enfant gravement malade, faible jet urinaire, masse abdominale ou vésicale, créatinine élevée, septicémie, **absence de réponse en 48 h** à un antibiotique adapté, germe **autre qu'*E. coli*** [S3].
 - **IU récidivante (NICE)** : **deux épisodes ou plus d'IU haute**, ou **un épisode haut et au moins un épisode bas**, ou **trois épisodes bas ou plus** [S3].
 - **IU compliquée** : sur uropathie (reflux vésico-urétéral, obstacle, vessie neurologique), chez l'immunodéprimé — l'AWaRe la décrit comme plus fréquente chez la fille, le nourrisson et l'enfant porteur de malformation [S8].
@@ -152,7 +199,8 @@ Pendant des décennies, toute première IU fébrile du jeune enfant conduisait �
 
 1. la démonstration que le **traitement oral** (céfixime) est aussi efficace que le traitement initialement intraveineux chez le jeune enfant fébrile (Hoberman, 1999) [S11] ;
 2. la remise en cause de l'**antibioprophylaxie** systématique : l'AAP (2011) constate que les données ne soutiennent pas la prophylaxie pour prévenir les récidives fébriles chez le nourrisson sans reflux ou avec un reflux de grade I à IV, et cesse de recommander la cystographie systématique après une première IU fébrile [S1] ; l'essai **RIVUR** (2014) montre ensuite une réduction de moitié des récidives sous prophylaxie, **sans effet sur les cicatrices rénales** [S10] ;
-3. l'**imagerie ciblée** selon l'âge, la réponse au traitement et le caractère atypique ou récidivant (NICE 2007, repris en 2022) [S3].
+3. l'**imagerie ciblée** selon l'âge, la réponse au traitement et le caractère atypique ou récidivant (NICE 2007, repris en 2022) [S3] ;
+4. la **recommandation AAP 2026** (8 jours–5 ans), qui remplace celle de 2011 (retirée en 2021) : définition révisée, évaluation dans les 72 heures d'une fièvre inexpliquée, voie orale et **durées plus courtes** privilégiées, place limitée de l'antibioprophylaxie ; l'échographie s'y révèle peu performante pour dépister le reflux [S13–S16].
 
 En France, les recommandations du GPIP et de la SPILF (2015), actualisées par le guide du GPIP-SFP (2023), ont intégré l'émergence des **entérobactéries productrices de BLSE** en privilégiant l'**amikacine** pour épargner les carbapénèmes [S6, S7].
 
@@ -272,7 +320,9 @@ L'OMS propose d'**évoquer** l'IU chez tout nourrisson ou enfant présentant une
 - **Interprétation de la microscopie (NICE)** : pyurie + bactériurie → IU ; pyurie sans bactériurie → traiter si signes cliniques ; bactériurie sans pyurie → IU ; ni l'une ni l'autre → pas d'IU [S3].
 - **Culture** : identification et **antibiogramme** (BLSE, sensibilité aux céphalosporines de 3ᵉ génération, au cotrimoxazole, à l'amoxicilline-acide clavulanique, aux aminosides).
 - **Seuils** :
-  - **AAP 2011** (2–24 mois, urines de sondage ou de ponction) : **leucocyturie + ≥ 50 000 UFC/mL d'un seul uropathogène** [S1] ;
+  - **AAP 2011** (2–24 mois, urines de sondage ou de ponction ; position **remplacée**) : **leucocyturie + ≥ 50 000 UFC/mL d'un seul uropathogène** [S1] ;
+  - **AAP 2026** (8 jours–5 ans) : seuils de culture **selon l'âge et le mode de recueil**, pyurie exigée avec des seuils selon l'âge [S14] ; d'après des synthèses secondaires, en l'absence de culture, ≥ 5 leucocytes/champ (ou estérase en traces) avant 2 mois et ≥ 10/champ (ou estérase ++) de 2 mois à 5 ans, et retrait des nitrites de l'algorithme diagnostique **[À VÉRIFIER — texte intégral non relu]** ;
+  - **NICE NG224** : **aucun seuil de colonies** n'est fixé ; l'interprétation repose sur la bandelette (selon l'âge) et la microscopie (pyurie/bactériurie, tableau 3) [S3] ; l'AWaRe rappelle que le seuil de positivité varie selon les laboratoires [S8] ;
   - **Recommandations françaises** : seuils de leucocyturie et de bactériurie selon le mode de recueil et le germe **[seuils exacts À VÉRIFIER — texte intégral GPIP 2023]** ;
   - toute ponction sus-pubienne positive est significative ; une culture **polymicrobienne** évoque une contamination.
 - **Ne pas recontrôler** l'ECBU d'un enfant devenu asymptomatique après traitement [S3].
@@ -289,7 +339,7 @@ L'OMS propose d'**évoquer** l'IU chez tout nourrisson ou enfant présentant une
 
 | Examen | AAP 2011 (2–24 mois, 1ʳᵉ IU fébrile) [S1] | NICE 2022 [S3] | France [S7] |
 |---|---|---|---|
-| **Échographie rénale et vésicale** | **Recommandée** après une première IU fébrile | **< 6 mois** : dans les 6 semaines si bonne réponse ; **pendant l'épisode** si IU atypique ; **≥ 6 mois** : seulement si IU atypique (pendant l'épisode) ou récidivante (dans les 6 semaines) | Échographie après une PNA **[modalités À VÉRIFIER]** |
+| **Échographie rénale et vésicale** | **Recommandée** après une première IU fébrile (position 2011 remplacée ; AAP 2026 : échographie peu fiable pour dépister le reflux, sensibilité ≈ 50 % après une 1ʳᵉ IU [S16] — recommandation finale **[À VÉRIFIER]**) | **< 6 mois** : dans les 6 semaines si bonne réponse ; **pendant l'épisode** si IU atypique ou récidivante ; **≥ 6 mois** : seulement si IU atypique (pendant l'épisode) ou récidivante (dans les 6 semaines) | Échographie après une PNA **[modalités À VÉRIFIER]** |
 | **Cystographie rétrograde (cystourétrographie mictionnelle)** | **Non systématique** ; indiquée si l'échographie montre une hydronéphrose, des cicatrices ou d'autres anomalies évoquant un reflux de haut grade ou une uropathie obstructive, en cas de situation atypique ou complexe, et **en cas de récidive** d'IU fébrile | **< 6 mois** : si IU atypique ou récidivante ; **6 mois–3 ans** : non systématique, à **envisager** si dilatation à l'échographie, faible jet, germe non *E. coli*, antécédent familial de reflux ; **≥ 3 ans** : non ; sous antibioprophylaxie de 3 jours (examen le 2ᵉ jour) | **Pas de cystographie** systématique après une première IU fébrile, sauf circonstances particulières |
 | **Scintigraphie au DMSA** | Non abordée en routine dans le résumé | **4 à 6 mois** après l'épisode : < 6 mois (IU atypique ou récidivante) ; 6 mois–3 ans (atypique ou récidivante) ; ≥ 3 ans (récidivante) | **[À VÉRIFIER]** |
 
@@ -301,11 +351,11 @@ L'OMS propose d'**évoquer** l'IU chez tout nourrisson ou enfant présentant une
 
 ### 10.1 IU du nouveau-né et du nourrisson de moins de 3 mois
 
-Tableau souvent **septique** ou non spécifique, possible **bactériémie** (voie hématogène), association à une méningite à rechercher selon le contexte. **Orientation immédiate vers un pédiatre et antibiothérapie parentérale** (NICE) [S3] ; l'OMS traite le nourrisson de moins de 2 mois par **ampicilline (50 mg/kg IV/IM toutes les 6 h) et gentamicine (7,5 mg/kg IV/IM une fois par jour)** jusqu'à l'apyrexie, puis relais oral en l'absence de signe systémique [S9] — prise en charge de l'infection néonatale : **DOS-NEON-0002**.
+Tableau souvent **septique** ou non spécifique, possible **bactériémie** (voie hématogène), association à une méningite à rechercher selon le contexte. **Orientation immédiate vers un pédiatre et antibiothérapie parentérale** (NICE) [S3] ; le Pocket book OMS 2013 traite le nourrisson de moins de 2 mois par **gentamicine (7,5 mg/kg IM/IV une fois par jour)** jusqu'à l'apyrexie, puis relais oral en l'absence de signe systémique, l'**ampicilline (50 mg/kg toutes les 6 h)** étant associée en cas de mauvaise réponse ou de complication [S9] ; **la première semaine de vie, la dose néonatale de gentamicine est de 5 mg/kg/24 h** (DOS-NEON-0002) ; en pratique, un nourrisson de moins de 2 mois fébrile relève de la prise en charge d'une **infection bactérienne grave possible** (ampicilline + gentamicine, OMS 2024 ; **DOS-NEON-0002**).
 
 ### 10.2 Pyélonéphrite aiguë du nourrisson et du jeune enfant
 
-Fièvre élevée isolée ou avec vomissements, irritabilité, parfois diarrhée ; CRP élevée ; c'est la forme où l'enjeu des **cicatrices** est maximal. Évolution habituellement favorable sous traitement : dans l'essai de Hoberman, la défervescence moyenne était d'environ **24–25 heures**, que le traitement soit oral (céfixime) ou initialement intraveineux, avec un taux de cicatrices à 6 mois d'environ **10 %** dans les deux groupes [S11].
+Fièvre élevée isolée ou avec vomissements, irritabilité, parfois diarrhée ; CRP élevée ; c'est la forme où l'enjeu des **cicatrices** est maximal. Évolution habituellement favorable sous traitement : dans l'essai de Hoberman (306 enfants de 1 à 24 mois), la défervescence moyenne était d'environ **24–25 heures**, que le traitement soit oral (céfixime) ou initialement intraveineux ; des cicatrices à 6 mois étaient observées chez **9,8 %** (oral) et **7,2 %** (IV) des enfants, avec une étendue moyenne d'environ 8 % dans les deux groupes [S11].
 
 ### 10.3 Pyélonéphrite de l'enfant plus grand
 
@@ -348,7 +398,7 @@ Mictions retenues, impériosités, fuites, **constipation** : facteur majeur de 
 - **Absence d'amélioration à 48–72 h** : vérifier la sensibilité du germe, rechercher une **complication** (abcès rénal, pyonéphrose, obstacle) par l'échographie [S8] — c'est un critère d'**IU atypique** pour le NICE [S3].
 - **Complications aiguës** : sepsis, choc, insuffisance rénale aiguë (uropathie, déshydratation), abcès.
 - **Récidives** : fréquentes en cas d'uropathie et de dysfonctionnement vésical et intestinal.
-- **Cicatrices rénales** : environ 10 % à 6 mois après une IU fébrile dans l'essai de Hoberman [S11] et 10 à 12 % dans RIVUR (enfants avec reflux, quel que soit le bras) [S10] ; conséquences possibles à long terme : **HTA**, protéinurie, **maladie rénale chronique** (surtout lésions bilatérales) [S3].
+- **Cicatrices rénales** : 7 à 10 % à 6 mois après une IU fébrile dans l'essai de Hoberman [S11] et 10 à 12 % dans RIVUR (enfants avec reflux, quel que soit le bras) [S10] ; conséquences possibles à long terme : **HTA**, protéinurie, **maladie rénale chronique** (surtout lésions bilatérales) [S3].
 - **Suivi des cicatrices** (NICE) : taille, poids, PA et recherche de protéinurie ; pas de suivi prolongé pour une cicatrice mineure unilatérale sans récidive ni facteur de risque d'HTA ; suivi néphropédiatrique en cas d'anomalies bilatérales, d'altération de la fonction rénale, d'HTA ou de protéinurie [S3].
 
 ## 13. Traitement
@@ -366,7 +416,7 @@ Mictions retenues, impériosités, fuites, **constipation** : facteur majeur de 
 
 | Molécule | Posologie (source) | Remarques |
 |---|---|---|
-| **Ceftriaxone** IV/IM | **80 mg/kg une fois par jour** (AWaRe, IU haute grave) [S8] ; **50 à 80 mg/kg une fois par jour**, maximum 4 g/j, de 3 mois à 11 ans (NICE NG111) [S4] ; **50 mg/kg/j** dans les recommandations françaises **[maximum journalier À VÉRIFIER — texte intégral GPIP]** [S7] | Traitement probabiliste de référence de la PNA (en France, aux urgences ou en ambulatoire) [S7] ; inactive sur les BLSE ; contre-indiquée chez le nouveau-né ictérique et avec les perfusions calciques |
+| **Ceftriaxone** IV/IM | **80 mg/kg une fois par jour** (AWaRe, IU haute grave) [S8] ; **50 à 80 mg/kg une fois par jour**, maximum 4 g/j, de 3 mois à 11 ans (NICE NG111) [S4] ; **50 mg/kg/j** dans les recommandations françaises **[maximum journalier À VÉRIFIER — texte intégral GPIP]** [S7] | Traitement probabiliste de référence de la PNA (en France, aux urgences ou en ambulatoire) [S7] ; inactive sur les BLSE ; contre-indiquée chez le nouveau-né ictérique ou recevant du calcium IV |
 | **Céfotaxime** IV/IM | **50 mg/kg toutes les 8 h** (AWaRe) [S8] | Alternative hospitalière |
 | **Céfuroxime** IV | **20 mg/kg trois fois par jour** (max 750 mg/dose), jusqu'à 50–60 mg/kg 3–4 fois/j dans les formes sévères (NICE, ≥ 3 mois) [S4] | Céphalosporine de 2ᵉ génération |
 | **Amoxicilline-acide clavulanique** IV | **30 mg/kg trois fois par jour** (max 1,2 g/dose), seulement en association ou si germe sensible (NICE) [S4] | — |
@@ -378,10 +428,10 @@ Mictions retenues, impériosités, fuites, **constipation** : facteur majeur de 
 
 | Molécule | Posologie (source) | Remarques |
 |---|---|---|
-| **Céfixime** | Traitement oral d'emblée des IU fébriles **à bas risque** de l'enfant de plus de 3 mois (France) [S7] ; efficacité équivalente au traitement initial IV dans l'essai de Hoberman [S11] ; posologie usuelle **8 mg/kg/j en 2 prises** **[POSOLOGIE À VÉRIFIER — RCP national, âge minimal d'utilisation]** | Céphalosporine orale de 3ᵉ génération : usage à limiter (sélection de résistances) [S7] |
+| **Céfixime** | Traitement oral d'emblée des IU fébriles **à bas risque** de l'enfant de plus de 3 mois (France) [S7] ; efficacité équivalente au traitement initial IV dans l'essai de Hoberman (14 jours, **double dose le 1ᵉʳ jour**) [S11] ; posologie : **8 mg/kg/j en 1 prise ou en 2 prises de 4 mg/kg** (RCP, étiquetage FDA, **à partir de 6 mois** ; sécurité non établie avant 6 mois) [S17] — l'utilisation dès 3 mois par les recommandations françaises est donc hors de cet étiquetage (RCP national non consulté **[À VÉRIFIER]**). **Divergence** : l'AWaRe ne propose pas le céfixime dans l'IU et le dose à **10 mg/kg une fois par jour** dans la dysenterie (DOS-PEDI-0004) | Céphalosporine orale de 3ᵉ génération : usage à limiter (sélection de résistances) [S7] |
 | **Céfalexine** | **12,5 mg/kg deux fois par jour** (ou dose fixe selon l'âge), jusqu'à **25 mg/kg 2 à 4 fois par jour** dans les formes sévères, **7 à 10 jours** pour une PNA (NICE NG111) ; **3 jours** pour une cystite (NICE NG109) [S4, S5] | Premier choix oral du NICE pour la PNA de l'enfant de ≥ 3 mois |
 | **Amoxicilline-acide clavulanique** | **80–90 mg/kg/j** d'amoxicilline (AWaRe, IU basse, 3–5 jours) [S8] ; NICE : seulement si l'antibiogramme est disponible et favorable [S4] | Active sur certaines souches BLSE selon l'AWaRe [S8] |
-| **Cotrimoxazole** (sulfaméthoxazole + triméthoprime) | **20 mg/kg + 4 mg/kg toutes les 12 h** (AWaRe ; annexe du Pocket book OMS) [S8, S9] ; 3 jours pour une IU basse (AWaRe) [S8] | **Résistance élevée** dans de nombreux contextes ; inactif sur la plupart des BLSE [S8] ; le chapitre 6.8 du Pocket book indique une dose (10 + 40 mg/kg) et une durée discordantes avec son propre annexe — **discordance à signaler** ; contre-indiqué avant 1 mois |
+| **Cotrimoxazole** (sulfaméthoxazole + triméthoprime) | **20 mg/kg + 4 mg/kg toutes les 12 h** (AWaRe ; annexe du Pocket book OMS) [S8, S9] ; 3 jours pour une IU basse (AWaRe) [S8] | **Résistance élevée** dans de nombreux contextes ; inactif sur la plupart des BLSE [S8] ; **écart interne du Pocket book/Mémento** : le chapitre 6.8 indique **10 mg/kg de triméthoprime + 40 mg/kg de sulfaméthoxazole toutes les 12 h pendant 5 jours**, alors que l'annexe 2 donne **4 + 20 mg/kg toutes les 12 h** et que le même paragraphe annonce 7 à 10 jours de traitement — la dose standard retenue est celle de l'annexe et de l'AWaRe 2022 (4 + 20 mg/kg/12 h) [S8, S9] ; à éviter chez le nouveau-né, surtout prématuré ou ictérique (OMS) [S9] |
 | **Nitrofurantoïne** | **2 mg/kg toutes les 12 h** ou **1 mg/kg toutes les 6 h**, 5 jours (AWaRe) [S8] ; **750 µg/kg quatre fois par jour, 3 jours** de 3 mois à 11 ans (NICE, si DFG ≥ 45 mL/min) [S5] | **Cystite uniquement** (pas de diffusion parenchymateuse) ; option préférée de l'AWaRe pour la cystite, active sur la plupart des BLSE [S8] |
 | **Triméthoprime** | **4 mg/kg deux fois par jour** (max 200 mg/dose), 3 jours (NICE ; AWaRe) [S5, S8] | Si faible risque de résistance |
 | **Ciprofloxacine** | **15 mg/kg toutes les 12 h** (AWaRe, IU haute non grave) [S8] | Réservée aux situations sans alternative (résistances) selon les protocoles locaux |
@@ -390,8 +440,10 @@ Mictions retenues, impériosités, fuites, **constipation** : facteur majeur de 
 
 | Situation | AAP 2011 | NICE 2018–2022 | France (2015) | OMS AWaRe 2022 |
 |---|---|---|---|---|
-| **IU fébrile / PNA** | **7 à 14 jours** [S1] | **7 à 10 jours** (≥ 3 mois) [S4] | **10 jours** au total en général [S7] | **7 jours** [S8] |
+| **IU fébrile / PNA** | **7 à 14 jours** [S1] (2011, remplacé) | **7 à 10 jours** (≥ 3 mois) [S4] | **10 jours** au total en général [S7] | **7 jours** [S8] |
 | **Cystite** | — | **3 jours** [S5] | **5 jours** [S7] | **3 à 5 jours** selon la molécule [S8] |
+
+*AAP 2026* : un traitement de **7 jours ou moins** ne semble pas augmenter le risque de récidive et réduit les effets indésirables (revue systématique de l'AAP [S15]) ; d'après des synthèses secondaires, la recommandation propose 3–5 jours pour la cystite à partir de 2 ans, 5–7 jours pour la plupart des IU fébriles et 7–14 jours chez le nourrisson de 8 jours à 2 mois à haut risque **[À VÉRIFIER — texte intégral non relu]** [S13].
 
 #### 13.2.4 Mesures associées
 
@@ -403,7 +455,7 @@ Mictions retenues, impériosités, fuites, **constipation** : facteur majeur de 
 
 #### 13.3.1 Nourrisson de moins de 3 mois
 
-**Hospitalisation** et **antibiothérapie parentérale** après prélèvements (ECBU par sondage ou ponction, hémocultures ; PL selon le contexte, surtout avant 1 mois) [S3, S9] ; schéma OMS : ampicilline + gentamicine [S9] ; en pratique hospitalière, céphalosporine de 3ᵉ génération ± aminoside selon l'âge et l'écologie (DOS-NEON-0002) ; relais oral selon l'antibiogramme après l'apyrexie et l'amélioration [S9].
+**Hospitalisation** et **antibiothérapie parentérale** après prélèvements (ECBU par sondage ou ponction, hémocultures ; PL selon le contexte, surtout avant 1 mois) [S3, S9] ; schéma OMS : gentamicine (± ampicilline en cas de mauvaise réponse) selon le Pocket book 2013 [S9], ampicilline + gentamicine pour l'infection bactérienne grave possible selon l'OMS 2024 (doses néonatales : DOS-NEON-0002) ; en pratique hospitalière, céphalosporine de 3ᵉ génération ± aminoside selon l'âge et l'écologie (DOS-NEON-0002) ; relais oral selon l'antibiogramme après l'apyrexie et l'amélioration [S9].
 
 #### 13.3.2 IU fébrile (PNA) de l'enfant de 3 mois et plus
 
@@ -413,8 +465,8 @@ Mictions retenues, impériosités, fuites, **constipation** : facteur majeur de 
    ├─ Sepsis, aspect toxique, vomissements empêchant la voie orale, déshydratation,
    │  uropathie connue, immunodépression → HOSPITALISATION, voie parentérale :
    │     ceftriaxone (ou céfotaxime) ± aminoside ; AMIKACINE si BLSE suspectée [S6, S8]
-   └─ Forme non grave → traitement ORAL possible d'emblée (AAP : efficacité équivalente
-      à la voie parentérale [S1, S11]) :
+   └─ Forme non grave → traitement ORAL possible d'emblée (efficacité équivalente
+      à la voie parentérale [S1, S11, S15]) :
          • France : céfixime chez l'enfant « à bas risque » (> 3 mois, état général
            conservé, fièvre < 4 j, sans comorbidité, sans antécédent d'IU/uropathie/
            antibiotique < 3 mois) [S7] ; sinon ceftriaxone IV/IM pendant 2–4 j puis relais
@@ -459,7 +511,7 @@ Le NICE recommande de **ne pas suivre** systématiquement les enfants qui n'ont 
 
 ## 15. Prévention
 
-- **Pas d'antibioprophylaxie** systématique après une **première IU** (NICE, AAP) [S1, S3], ni en cas de bactériurie asymptomatique [S3].
+- **Pas d'antibioprophylaxie** systématique après une **première IU** (NICE, AAP) [S1, S3], ni en cas de bactériurie asymptomatique [S3] ; la revue de l'AAP 2026 suggère que la prophylaxie continue ne réduit ni les récidives intercurrentes ni les cicatrices de façon nette, mais augmente les IU à germes résistants (certitude faible) [S15].
 - **Essai RIVUR** (607 enfants avec reflux après une 1ʳᵉ ou 2ᵉ IU) : la prophylaxie par cotrimoxazole a **réduit de moitié** le risque de récidive (HR 0,50), surtout lorsque l'IU initiale était fébrile ou en cas de dysfonctionnement vésical et intestinal, **sans réduire les cicatrices rénales** (11,9 % *vs* 10,2 %), au prix de **résistances** plus fréquentes des *E. coli* de récidive [S10]. La prophylaxie se discute donc **au cas par cas** (reflux de haut grade, récidives fébriles), en avis spécialisé.
 - **Traitement du dysfonctionnement vésical et intestinal** et de la **constipation** [S3].
 - **Boissons suffisantes** ; **accès à des toilettes propres** et mictions non retardées (école) [S3].
@@ -485,7 +537,7 @@ FIÈVRE SANS FOYER CHEZ UN NOURRISSON, ou SIGNES MICTIONNELS
 │            │                           céfalexine selon NICE) ou ceftriaxone puis relais
 │            │     → réévaluation à 48–72 h → adaptation à l'antibiogramme
 │            │     → durée 7–10 j (10 j en France)
-│            │     → imagerie : échographie (AAP : systématique 2–24 mois ;
+│            │     → imagerie : échographie (AAP 2011 : systématique 2–24 mois ;
 │            │       NICE : < 6 mois, atypique, récidivante) ; cystographie si
 │            │       échographie anormale ou récidive fébrile
 │            └─ Pas de fièvre, signes mictionnels → CYSTITE
@@ -511,7 +563,7 @@ FIÈVRE SANS FOYER CHEZ UN NOURRISSON, ou SIGNES MICTIONNELS
 *Réponse* : désescalade vers la molécule orale **active la plus étroite**, par exemple le **cotrimoxazole** (20 mg/kg de sulfaméthoxazole + 4 mg/kg de triméthoprime toutes les 12 h [S8]) pour compléter **10 jours** au total (France) [S7] — ou 7 à 10 jours selon le NICE/OMS [S4, S8].
 
 **Question 4 — Quelle imagerie ?**
-*Réponse* : **échographie rénale et vésicale** (AAP : recommandée après une première IU fébrile de 2 à 24 mois [S1] ; NICE : non systématique après 6 mois si la réponse est bonne et l'IU non atypique [S3] — divergence à connaître). **Pas de cystographie** systématique ; elle serait indiquée si l'échographie montrait une dilatation ou en cas de **récidive fébrile** [S1, S7].
+*Réponse* : **échographie rénale et vésicale** (AAP 2011 : recommandée après une première IU fébrile de 2 à 24 mois [S1] — position remplacée en 2026, recommandation actuelle **[À VÉRIFIER]** [S13] ; NICE : non systématique après 6 mois si la réponse est bonne et l'IU non atypique [S3] — divergence à connaître). **Pas de cystographie** systématique ; elle serait indiquée si l'échographie montrait une dilatation ou en cas de **récidive fébrile** [S1, S7].
 
 **Évolution** : apyrexie en 30 heures ; échographie normale ; parents informés de la nécessité de faire une bandelette à chaque fièvre inexpliquée ; pas d'antibioprophylaxie [S3].
 
@@ -521,13 +573,13 @@ FIÈVRE SANS FOYER CHEZ UN NOURRISSON, ou SIGNES MICTIONNELS
 2. **PNA** = bactériurie + fièvre ≥ 38 °C (ou + douleur lombaire) ; **cystite** = bactériurie sans signe systémique [S3].
 3. **Bactériurie asymptomatique : ne pas traiter** [S3].
 4. **Bandelette** en première ligne (bonne valeur prédictive négative) ; **ECBU sur un prélèvement fiable** (jet, sondage, ponction), **jamais** de culture interprétée sur poche seule [S3, S7, S8].
-5. AAP : diagnostic = **leucocyturie + ≥ 50 000 UFC/mL d'un seul uropathogène** sur sondage/ponction [S1].
+5. AAP 2011 (position historique) : diagnostic = **leucocyturie + ≥ 50 000 UFC/mL d'un seul uropathogène** sur sondage/ponction [S1] ; l'**AAP 2026** (8 jours–5 ans) module les seuils selon l'âge et le mode de recueil [S13, S14].
 6. **< 3 mois** : hospitalisation et antibiothérapie parentérale [S3, S9].
 7. La voie **orale** est aussi efficace que la voie parentérale initiale dans les PNA non graves de l'enfant [S1, S11].
 8. **BLSE** : amikacine en traitement initial, épargne des carbapénèmes (GPIP 2023) [S6].
 9. Durée : PNA **7 à 10 jours** (NICE, OMS) ou **10 jours** (France) ; cystite **3 à 5 jours** [S4, S5, S7, S8].
 10. Réévaluer à **48–72 h** ; l'absence d'amélioration impose échographie et vérification de l'antibiogramme [S3, S8].
-11. **Imagerie ciblée** : échographie (AAP : après toute 1ʳᵉ IU fébrile de 2–24 mois ; NICE : < 6 mois, atypique, récidivante) ; **pas de cystographie systématique** après une première IU [S1, S3, S7].
+11. **Imagerie ciblée** : échographie (AAP 2011 : après toute 1ʳᵉ IU fébrile de 2–24 mois ; NICE : < 6 mois, atypique, récidivante) ; **pas de cystographie systématique** après une première IU [S1, S3, S7].
 12. **Pas d'antibioprophylaxie** après une première IU ; RIVUR : prophylaxie efficace sur les récidives mais **pas sur les cicatrices** [S3, S10].
 
 ## 19. Pièges classiques à l'examen
@@ -623,34 +675,34 @@ FIÈVRE SANS FOYER CHEZ UN NOURRISSON, ou SIGNES MICTIONNELS
 
 **QCM 3 (QCM-PEDI-0539) — Réponse(s) : A, B, C.** Pour les 3 mois–3 ans, le NICE recommande la bandelette : négative (leucocytes et nitrites) → pas d'antibiotique ni de culture (sauf critères particuliers : IU haute suspectée, risque élevé, < 3 mois, récidive, échec, discordance) ; positive → culture et antibiotique. La CRP seule ne doit pas servir à distinguer IU haute et basse.
 
-**QCM 4 (QCM-PEDI-0540) — Réponse(s) : C.** L'AAP exige à la fois une pyurie et ≥ 50 000 UFC/mL d'un seul uropathogène dans des urines recueillies de façon appropriée (sondage ou ponction chez l'enfant non continent).
+**QCM 4 (QCM-PEDI-0540) — Réponse(s) : C.** L'AAP 2011 exigeait à la fois une pyurie et ≥ 50 000 UFC/mL d'un seul uropathogène dans des urines recueillies de façon appropriée (sondage ou ponction chez l'enfant non continent). Cette recommandation a été retirée en 2021 et remplacée en 2026 (8 jours–5 ans), qui module les seuils selon l'âge et le mode de recueil.
 
-**QCM 5 (QCM-PEDI-0541) — Réponse(s) : A, B, C, E.** Avant 3 mois, le NICE recommande l'orientation immédiate vers un pédiatre et une antibiothérapie parentérale ; l'OMS propose ampicilline (50 mg/kg/6 h) + gentamicine (7,5 mg/kg/j) jusqu'à l'apyrexie chez le nourrisson de moins de 2 mois. Le traitement oral d'emblée (céfixime) est réservé à l'enfant de plus de 3 mois à bas risque.
+**QCM 5 (QCM-PEDI-0541) — Réponse(s) : A, B, C, E.** Avant 3 mois, le NICE recommande l'orientation immédiate vers un pédiatre et une antibiothérapie parentérale ; l'OMS (2024) traite l'infection bactérienne grave possible du nourrisson de 0 à 59 jours par ampicilline + gentamicine ; le Pocket book 2013 propose, dans l'IU du nourrisson de moins de 2 mois, la gentamicine (7,5 mg/kg/j ; 5 mg/kg/j la première semaine de vie, DOS-NEON-0002) jusqu'à l'apyrexie, avec l'ampicilline (50 mg/kg/6 h) en cas de mauvaise réponse. Le traitement oral d'emblée (céfixime) est réservé à l'enfant de plus de 3 mois à bas risque.
 *Piège* : Traiter un nourrisson de 6 semaines en ambulatoire.
 
-**QCM 6 (QCM-PEDI-0542) — Réponse(s) : A, B, C, E.** Hoberman 1999 : efficacité comparable (apyrexie ~25 h vs 24 h, cicatrices ~10 %). France 2015 : céfixime oral d'emblée si > 3 mois, bon état général, fièvre < 4 jours, pas de comorbidité, pas d'antécédent d'IU, d'uropathie ou d'antibiothérapie dans les 3 mois.
+**QCM 6 (QCM-PEDI-0542) — Réponse(s) : A, B, C, E.** Hoberman 1999 : efficacité comparable (apyrexie ~25 h vs 24 h ; cicatrices à 6 mois 9,8 % vs 7,2 %, étendue moyenne ≈ 8 %). France 2015 : céfixime oral d'emblée si > 3 mois, bon état général, fièvre < 4 jours, pas de comorbidité, pas d'antécédent d'IU, d'uropathie ou d'antibiothérapie dans les 3 mois.
 
 **QCM 7 (QCM-PEDI-0543) — Réponse(s) : A, B, C, E.** Le guide GPIP 2023 vise à éviter les pénèmes et à favoriser la prise en charge ambulatoire : amikacine en traitement initial des IU fébriles à BLSE suspectée ou prouvée, utilisable en monothérapie aux urgences ou à l'hôpital ; E. coli BLSE stables entre 7 et 10 % en pédiatrie.
 *Piège* : Prescrire un carbapénème en première intention.
 
-**QCM 8 (QCM-PEDI-0544) — Réponse(s) : A, B, C, E.** AAP 7–14 j ; NICE 7–10 j (PNA) et 3 j (cystite) ; France 10 j (IU fébrile) et 5 j (cystite) ; AWaRe 7 j (IU haute), 3–5 j selon la molécule (IU basse).
+**QCM 8 (QCM-PEDI-0544) — Réponse(s) : A, B, C, E.** AAP 2011 7–14 j (recommandation remplacée en 2026, qui privilégie des durées plus courtes) ; NICE 7–10 j (PNA) et 3 j (cystite) ; France 10 j (IU fébrile) et 5 j (cystite) ; AWaRe 7 j (IU haute), 3–5 j selon la molécule (IU basse).
 
 *Les QCM 9 à 12 de la série (QCM-PEDI-0545 à QCM-PEDI-0548) figurent uniquement dans le lot JSON `21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-05-lot2.json`.*
 ## 21. Divergences entre recommandations
 
-| Question | AAP 2011 (réaffirmée 2016) [S1, S2] | NICE NG224 (2022) et NG109/NG111 (2018) [S3–S5] | France GPIP/SPILF 2015, GPIP 2023 [S6, S7] | OMS (AWaRe 2022, Mémento 2015) [S8, S9] |
+| Question | AAP 2011 (réaffirmée 2016, **retirée en 2021**, remplacée par l'AAP 2026 [S13]) [S1, S2] | NICE NG224 (2022) et NG109/NG111 (2018) [S3–S5] | France GPIP/SPILF 2015, GPIP 2023 [S6, S7] | OMS (AWaRe 2022, Mémento 2015) [S8, S9] |
 |---|---|---|---|---|
-| **Champ d'âge** | 2–24 mois, première IU fébrile | < 16 ans | Enfant (nouveau-né à part) | Enfant |
+| **Champ d'âge** | 2–24 mois, première IU fébrile (AAP 2026 : 8 jours–5 ans) | < 16 ans | Enfant (nouveau-né à part) | Enfant |
 | **Recueil pour culture** | Sondage ou ponction (non continent) | Recueil propre (clean catch) d'abord, puis tampons collecteurs (selon le fabricant), sondage ou ponction | Jet, sondage, ponction ; **pas de poche** pour la culture | Milieu de jet ; sondage ou ponction chez le nourrisson malade |
-| **Critère diagnostique** | Pyurie + ≥ 50 000 UFC/mL | Interprétation combinée bandelette/microscopie/culture selon l'âge | Bandelette positive avant tout ECBU ; seuils **[À VÉRIFIER]** | Microscopie (> 5 leucocytes/champ) ou bandelette ; culture si possible |
+| **Critère diagnostique** | Pyurie + ≥ 50 000 UFC/mL (AAP 2026 : seuils selon l'âge et le recueil **[À VÉRIFIER]**) | Interprétation combinée bandelette/microscopie/culture selon l'âge ; pas de seuil de colonies | Bandelette positive avant tout ECBU ; seuils **[À VÉRIFIER]** | Microscopie (> 5 leucocytes/champ) ou bandelette ; culture si possible |
 | **Antibiotique probabiliste de la PNA** | Oral ou parentéral selon la clinique, guidé par l'écologie locale | Oral : céfalexine (co-amoxiclav si sensible) ; IV : co-amoxiclav, céfuroxime, ceftriaxone, gentamicine, amikacine | Ceftriaxone (urgences/ambulatoire), **amikacine** (hôpital, BLSE), **céfixime** oral si bas risque | Formes sévères : céfotaxime ou ceftriaxone ± amikacine/gentamicine ; formes légères : ciprofloxacine ou options de l'IU basse |
-| **Durée (PNA)** | 7–14 j | 7–10 j | 10 j | 7 j |
+| **Durée (PNA)** | 7–14 j (AAP 2026 : durées plus courtes **[À VÉRIFIER]**) | 7–10 j | 10 j | 7 j |
 | **Échographie** | **Systématique** après une 1ʳᵉ IU fébrile | **Ciblée** : < 6 mois, atypique, récidivante | Recommandée après PNA **[modalités À VÉRIFIER]** | Utile si disponible ; bilan après plus d'un épisode |
 | **Cystographie** | Non systématique ; si échographie anormale ou récidive fébrile | < 6 mois si atypique/récidivante ; à envisager entre 6 mois et 3 ans selon des critères | Pas systématique après une 1ʳᵉ IU fébrile | — |
 | **DMSA** | — | 4–6 mois après une IU atypique/récidivante (selon l'âge) | **[À VÉRIFIER]** | — |
 | **Antibioprophylaxie** | Non après une 1ʳᵉ IU (grade I–IV) | Non systématique après une 1ʳᵉ IU | Non après une 1ʳᵉ IU fébrile, sauf cas particuliers | — |
 
-**Commentaire** : la principale divergence porte sur l'**échographie après une première IU fébrile** (systématique pour l'AAP, ciblée pour le NICE). Dans un contexte où l'échographie est accessible et peu coûteuse, la position de l'AAP est souvent retenue ; la cystographie et le DMSA, plus invasifs ou moins disponibles, gardent des indications ciblées dans toutes les recommandations. Pour l'antibiothérapie, l'**écologie locale** prime (proportion de BLSE, résistance au cotrimoxazole) ; le **cotrimoxazole** n'est utilisable qu'en relais sur antibiogramme dans les contextes de forte résistance [S8].
+**Commentaire** : la principale divergence porte sur l'**échographie après une première IU fébrile** (systématique pour l'AAP 2011, ciblée pour le NICE ; la position de l'AAP 2026 reste à lire en texte intégral, sa revue technique montrant la faible sensibilité de l'échographie pour le reflux [S16]). Dans un contexte où l'échographie est accessible et peu coûteuse, la position de l'AAP est souvent retenue ; la cystographie et le DMSA, plus invasifs ou moins disponibles, gardent des indications ciblées dans toutes les recommandations. Pour l'antibiothérapie, l'**écologie locale** prime (proportion de BLSE, résistance au cotrimoxazole) ; le **cotrimoxazole** n'est utilisable qu'en relais sur antibiogramme dans les contextes de forte résistance [S8].
 
 ## 22. Références
 
@@ -666,5 +718,10 @@ FIÈVRE SANS FOYER CHEZ UN NOURRISSON, ou SIGNES MICTIONNELS
 10. **[S10]** RIVUR Trial Investigators; Hoberman A, Greenfield SP, Mattoo TK, et al. Antimicrobial prophylaxis for children with vesicoureteral reflux. *N Engl J Med*. 2014;370(25):2367-2376. doi:10.1056/NEJMoa1401811. PMID 24795142.
 11. **[S11]** Hoberman A, Wald ER, Hickey RW, et al. Oral versus initial intravenous therapy for urinary tract infections in young febrile children. *Pediatrics*. 1999;104(1 Pt 1):79-86. doi:10.1542/peds.104.1.79. PMID 10390264.
 12. **[S12]** Shaikh N, Morone NE, Bost JE, Farrell MH. Prevalence of urinary tract infection in childhood: a meta-analysis. *Pediatr Infect Dis J*. 2008;27(4):302-308. doi:10.1097/INF.0b013e31815e4122. PMID 18316994.
+13. **[S13]** Alverson BK, Hains DS, Downs SM, et al. Clinical practice guideline for the diagnosis and treatment of urinary tract infection in children from 8 days to 5 years of age. *Pediatrics*. 2026;158(4):e2026078565. doi:10.1542/peds.2026-078565. PMID 42803578.
+14. **[S14]** Forster CS, Nelson C, El Feghaly R, et al. Urinary tract infection diagnosis — a companion to the AAP 2026 clinical practice guideline: technical report. *Pediatrics*. 2026;158(4):e2026078566. PMID 42803592.
+15. **[S15]** AlShenaiber L, Senerth E, Babatunde I, et al. Prevention and management of pediatric UTI: technical report. *Pediatrics*. 2026;158(4):e2026078568. PMID 42803594.
+16. **[S16]** Azzam M, Choaib A, Nazzal J, et al. Ultrasonography for the diagnosis of vesicoureteral reflux after UTI: technical report. *Pediatrics*. 2026;158(4):e2026078567. PMID 42803590.
+17. **[S17]** Suprax (céfixime), *Prescribing information*, FDA (étiquetage pédiatrique : 8 mg/kg/j, à partir de 6 mois).
 
 *Dossiers Mediverse liés : DOS-NEON-0002 (infections néonatales), DOS-PEDI-0004 (diarrhées : infection urinaire associée), DOS-PEDI-0001 (déshydratation).*

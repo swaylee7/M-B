@@ -8,7 +8,7 @@
 
 - Items du résidanat rattachés : **1** — couverture brute 0 %, auditée 0 %
 - Dossiers pédagogiques : 0 (audités : 0)
-- QCM : 0 — cas cliniques : 0 — pathologies référencées : 0
+- QCM : 4 — cas cliniques : 0 — pathologies référencées : 0
 - Ouvrages catalogués : 8 — recommandations : 0
 - **Statut : en construction** (aucune spécialité n'est déclarée terminée sans audit complet).
 
@@ -16,4 +16,4 @@
 
 | Item | Intitulé | Dossier | QCM | Cas |
 |---|---|---|---|---|
-| RES-SF-001 | Développement embryonnaire et devenir des feuillets embryonnaires : endoblaste - épiblaste et chordomésoblaste | — | 0 | 0 |
+| RES-SF-001 | Développement embryonnaire et devenir des feuillets embryonnaires : endoblaste - épiblaste et chordomésoblaste | — | 4 | 0 |

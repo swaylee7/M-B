@@ -571,7 +571,7 @@ Transfert en **réanimation pédiatrique**, intubation, ventilation, perfusion c
 |---|---|---|
 | **Méningite suspectée** (> 2 mois) | **Ceftriaxone 50 mg/kg toutes les 12 h ou 100 mg/kg une fois par jour** IV/IM (ou céfotaxime 50 mg/kg toutes les 6 h), sans attendre la PL si elle doit être différée | [S10] |
 | Corticothérapie adjuvante | OMS 2025 : corticoïdes IV (dexaméthasone, hydrocortisone ou méthylprednisolone) **avec la première dose d'antibiotique** en contexte non épidémique lorsque la PL est réalisable, arrêtés si le LCR n'est pas en faveur d'une méningite bactérienne [S11] ; Mémento OMS : dexaméthasone **0,15 mg/kg toutes les 6 h pendant 2 à 4 jours**, à éviter chez le nouveau-né, en cas de neuropaludisme ou d'encéphalite virale suspectés [S10] | [S10, S11] |
-| **Encéphalite herpétique** suspectée | Aciclovir IV **[POSOLOGIE À VÉRIFIER — RCP / protocole local]** | — |
+| **Encéphalite herpétique** suspectée | Aciclovir IV : chez le nouveau-né, 20 mg/kg toutes les 8 h (DOS-NEON-0002) ; chez le nourrisson et l'enfant **[POSOLOGIE À VÉRIFIER — RCP / protocole local]** | DOS-NEON-0002 |
 | **Hypoglycémie** | Glucosé 10 % 5 mL/kg IV, contrôle à 30 min [S10] | [S10] |
 | **Hypocalcémie** | Gluconate de calcium 10 % IV lente sous scope ECG : nourrisson et enfant **0,5 mL/kg (0,11 mmol/kg), maximum 20 mL, en 5 à 10 minutes** (BNFc [S21]) ; nouveau-né **2 mL/kg** (OMS [S10] ; BNFc [S21]) ; voie veineuse sûre (nécrose en cas d'extravasation) ; relais continu ou oral selon la calcémie et le protocole local ; puis calcium oral et vitamine D (DOS-PEDI-0006) | [S10, S21] |
 | **Hyponatrémie symptomatique** | NaCl hypertonique selon protocole (DOS-PEDI-0001 — marqueur maintenu) | — |

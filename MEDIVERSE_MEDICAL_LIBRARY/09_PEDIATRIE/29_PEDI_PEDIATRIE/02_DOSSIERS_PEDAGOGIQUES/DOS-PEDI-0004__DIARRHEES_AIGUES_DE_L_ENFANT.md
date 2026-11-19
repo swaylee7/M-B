@@ -6,11 +6,17 @@ sous_specialite: "Gastro-entérologie et infectiologie pédiatriques"
 items_residanat: [RES-MED-072]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-05 (IA) — dossier pédagogique original (lot 2)"
-statut: brouillon_a_auditer
+statut: audite_valide
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01/AUD-02 (IA)"
+    verdict: audite_valide
+    corrections: 6
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-PEDI-0004.md
 sources:
   - id: S1
     reference: "Organisation mondiale de la Santé. Mémento de soins hospitaliers pédiatriques : prise en charge des affections courantes de l'enfance. 2e éd. Genève : OMS ; 2015 (traduction française du Pocket book 2013), chapitre 5 « Diarrhée » et annexe 2. Document acquis DOC-00062 (stockage local, non redistribuable) — texte lu (pdftotext) pendant la rédaction."
@@ -53,13 +59,13 @@ sources:
     url: "https://apps.who.int/iris/handle/10665/43209"
     verifiee: true
   - id: S6
-    reference: "OMS/UNICEF. Déclaration commune : prise en charge clinique de la diarrhée aiguë (SRO à osmolarité réduite et zinc). 2004."
+    reference: "WHO/UNICEF. Clinical management of acute diarrhoea: WHO/UNICEF joint statement. Genève/New York : OMS/UNICEF ; 2004 (SRO à osmolarité réduite et zinc). Notice IRIS consultée par l'audit (10665/68627)."
     organisme: OMS/UNICEF
     annee: 2004
     type: recommandation
     doi: ""
-    url: ""
-    verifiee: false
+    url: "https://iris.who.int/handle/10665/68627"
+    verifiee: true
   - id: S7
     reference: "World Health Organization. Rotavirus vaccines: WHO position paper – July 2021. Wkly Epidemiol Rec. 2021;96(28):301-319. (Référence confirmée par la bibliographie de DOC-00039, réf. 149 ; texte intégral non relu pendant la session.)"
     organisme: OMS
@@ -124,13 +130,29 @@ sources:
     doi: ""
     url: "https://iris.who.int/handle/10665/329450"
     verifiee: true
+  - id: S15
+    reference: "McDonald LC, Gerding DN, Johnson S, et al. Clinical practice guidelines for Clostridium difficile infection in adults and children: 2017 update by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America (SHEA). Clin Infect Dis. 2018;66(7):e1-e48. PMID 29462280 (référence confirmée par PubMed ; recommandations pédiatriques sur le dépistage confirmées par recherche web — synthèse du J Hosp Med 2020 —, texte intégral non relu)."
+    organisme: IDSA/SHEA
+    annee: 2018
+    type: recommandation
+    doi: "10.1093/cid/cix1085"
+    url: "https://pubmed.ncbi.nlm.nih.gov/29462280/"
+    verifiee: true
+  - id: S16
+    reference: "Suprax (céfixime), prescribing information (FDA) : 8 mg/kg/j en 1 prise ou 4 mg/kg toutes les 12 h chez l'enfant de 6 mois et plus ; sécurité et efficacité non établies avant 6 mois. Contenu confirmé par recherche web (étiquetages FDA de Suprax, accessdata.fda.gov — documents non téléchargés) ; RCP algérien et français non consultés."
+    organisme: "FDA (RCP américain)"
+    annee: 2019
+    type: texte_officiel
+    doi: ""
+    url: ""
+    verifiee: true
 mots_cles: [diarrhée aiguë, gastro-entérite, rotavirus, norovirus, dysenterie, shigellose, choléra, salmonellose, syndrome hémolytique et urémique, diarrhée persistante, SRO, zinc, ciprofloxacine, azithromycine, vaccin antirotavirus, PCIME]
 ---
 
 # Diarrhées aiguës de l'enfant : diagnostic, traitement, prévention
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : audité (AUD-01/AUD-02, 19/11/2026, v1.1) — validé sous réserve des données algériennes signalées [À VÉRIFIER]. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 > **Articulation avec le lot 1** : l'évaluation de la déshydratation, les plans A, B et C de l'OMS, la composition des SRO, la réhydratation intraveineuse et les dysnatrémies sont traités en détail dans **DOS-PEDI-0001** (« Déshydratations aiguës du nourrisson »). Le présent dossier ne les reprend qu'en résumé et **renvoie** à ce dossier ; il se concentre sur la démarche étiologique, les formes cliniques (dysenterie, choléra, diarrhée persistante, syndrome hémolytique et urémique), l'antibiothérapie et la prévention. La malnutrition aiguë sévère est traitée dans **DOS-PEDI-0003**, le calendrier vaccinal algérien dans **DOS-PEDI-0002**.
 > **Vérification des sources (19/11/2026)** : chapitres « diarrhée » du Mémento OMS 2015 (DOC-00062), chapitre 14 de l'AWaRe antibiotic book 2022 (DOC-00039), tableau PCIME 0–2 mois (DOC-00060), liste des MDO (DOC-00072) et liste OMS des médicaments essentiels de l'enfant 2025 (DOC-00037) lus avec `pdftotext` ; références d'articles confirmées par PubMed (E-utilities).
 
@@ -242,7 +264,7 @@ Ces mécanismes s'associent souvent. Le cas particulier des ***E. coli* producte
 | | ***E. coli*** : ETEC (diarrhée « du voyageur », sécrétoire), EPEC (nourrisson), EIEC (dysentérique), **STEC/EHEC** (diarrhée sanglante → SHU), EAEC (diarrhée persistante) | Pathotypes identifiés par biologie moléculaire, rarement en pratique courante |
 | | ***Vibrio cholerae*** O1/O139 | Contexte épidémique, diarrhée aqueuse profuse, déshydratation sévère ; à suspecter chez l'enfant de plus de 2 ans en zone touchée [S1] |
 | | *Yersinia enterocolitica* | Syndrome pseudo-appendiculaire |
-| | ***Clostridioides difficile*** | Antibiothérapie récente ; portage asymptomatique fréquent chez le nourrisson **[À VÉRIFIER — seuil d'âge pour la recherche selon les recommandations]** |
+| | ***Clostridioides difficile*** | Antibiothérapie récente ; portage asymptomatique fréquent chez le nourrisson : l'IDSA/SHEA (2017) déconseille la recherche de routine **avant 12 mois** et, **entre 1 et 2 ans**, ne la propose qu'après exclusion des autres causes [S15] |
 | **Parasites** (surtout diarrhées persistantes ou chroniques) | ***Entamoeba histolytica*** | Dysenterie amibienne : trophozoïtes hématophages à l'examen de selles fraîches [S1, S3] |
 | | ***Giardia intestinalis*** | Diarrhée prolongée, malabsorption |
 | | *Cryptosporidium*, *Isospora* (*Cystoisospora*) | Diarrhée persistante de l'immunodéprimé (VIH) [S1] |
@@ -356,7 +378,7 @@ Dans la gastro-entérite aqueuse aiguë d'un enfant sans signe de gravité, **au
 | **Déficit immunitaire** | Coproculture + **examen parasitologique** (*Cryptosporidium*, *Isospora*) | Germes opportunistes [S1, S3] |
 | **Diarrhée persistante** | Examen parasitologique de selles fraîches (*Giardia*, *E. histolytica*) | Traitement spécifique (métronidazole) [S1] |
 | **Cas groupés / TIAC** | Coprocultures, déclaration | Enquête épidémiologique (MDO) [S9] |
-| **Diarrhée après antibiotiques** | Recherche de *C. difficile* et de ses toxines | Selon l'âge et le contexte **[À VÉRIFIER — seuil d'âge]** |
+| **Diarrhée après antibiotiques** | Recherche de *C. difficile* et de ses toxines | Pas de recherche de routine avant 12 mois ; entre 1 et 2 ans seulement si les autres causes sont exclues ; après 2 ans en cas de diarrhée prolongée ou qui s'aggrave avec facteurs de risque (IDSA/SHEA 2017) [S15] |
 | Voyage, nourrisson < 3 mois fébrile, aspect toxique | Coproculture ± **hémocultures** | Risque de bactériémie (salmonelles) |
 
 Les **tests rapides** (rotavirus, norovirus) ont surtout un intérêt épidémiologique ; un **panel moléculaire** positif ne prouve pas toujours la causalité (portage).
@@ -411,7 +433,7 @@ Gastro-entérite fébrile, parfois sanglante, liée à l'alimentation (œufs, vo
 ### 10.7 Amibiase et giardiase
 
 - **Amibiase intestinale** : dysenterie avec trophozoïtes hématophages d'*E. histolytica* à l'examen de **selles fraîches** ; métronidazole 10 mg/kg trois fois par jour pendant 5 jours [S1] (un amœbicide de contact est classiquement associé pour éradiquer les kystes **[À VÉRIFIER — molécule disponible et schéma]**).
-- **Giardiase** : diarrhée prolongée, ballonnements, malabsorption ; métronidazole (même posologie, 5 jours) [S1].
+- **Giardiase** : diarrhée prolongée, ballonnements, malabsorption ; métronidazole (même posologie, 5 jours) [S1] — le Pocket book indique ailleurs 7,5 mg/kg toutes les 8 h pendant 7 jours (chapitre de la malnutrition et annexe 2) : écart interne de la source [S2].
 - Ces parasites sont rarement responsables d'une diarrhée **aiguë** ; ils doivent être recherchés devant une diarrhée **persistante** ou une dysenterie **résistante** à deux antibiotiques actifs sur *Shigella* [S1, S3].
 
 ### 10.8 Diarrhée persistante
@@ -513,7 +535,7 @@ Jeune âge, malnutrition, déshydratation sévère ou choc, dysnatrémie sévèr
 |---|---|---|---|
 | **Dysenterie — 1ʳᵉ intention** | **Ciprofloxacine** PO **15 mg/kg/dose toutes les 12 h** (tranches de poids AWaRe : 3–< 6 kg 50 mg ; 6–< 10 kg 100 mg ; 10–< 15 kg 150 mg ; 15–< 20 kg 200 mg ; 20–< 30 kg 300 mg ; ≥ 30 kg 500 mg, toutes les 12 h) | 3 jours | [S1, S3] |
 | Dysenterie — résistance à la ciprofloxacine suspectée | **Azithromycine** PO **10 mg/kg/dose une fois par jour** | 4 jours | [S3] |
-| Dysenterie — alternative orale | **Céfixime** PO **10 mg/kg/dose une fois par jour** (posologie de l'AWaRe, à confronter au RCP national) | 5 jours | [S3] |
+| Dysenterie — alternative orale | **Céfixime** PO **10 mg/kg/dose une fois par jour** (AWaRe) ; **divergence** avec le RCP (étiquetage FDA : **8 mg/kg/j** en 1 prise ou 4 mg/kg toutes les 12 h, à partir de 6 mois [S16]) — voir DOS-PEDI-0007 | 5 jours | [S3, S16] |
 | Dysenterie — si sensibilité locale documentée | **Cotrimoxazole** PO 20 mg/kg de sulfaméthoxazole + 4 mg/kg de triméthoprime toutes les 12 h | 5 jours | [S3] |
 | **Dysenterie grave** ou 2ᵉ intention | **Ceftriaxone** IV/IM **50 à 80 mg/kg une fois par jour** (OMS 2013/2015) ; **80 mg/kg/j** (AWaRe 2022) | 3 jours | [S1, S3] |
 | Diarrhée sanglante du **jeune nourrisson** avec suspicion de **sepsis** | **Ceftriaxone** IV/IM **100 mg/kg une fois par jour** | 5 jours | [S1] |
@@ -854,7 +876,7 @@ Diarrhée aiguë de l'enfant
 3. **[S3]** World Health Organization. *The WHO AWaRe (Access, Watch, Reserve) antibiotic book*. Geneva: WHO; 2022 — chapitre 14 (DOC-00039, lu).
 4. **[S4]** Guarino A, Ashkenazi S, Gendrel D, et al. ESPGHAN/ESPID evidence-based guidelines for the management of acute gastroenteritis in children in Europe: update 2014. *J Pediatr Gastroenterol Nutr*. 2014;59(1):132-152. doi:10.1097/MPG.0000000000000375. PMID 24739189.
 5. **[S5]** Organisation mondiale de la Santé. *The treatment of diarrhoea: a manual for physicians and other senior health workers*. 4e révision. Genève : OMS ; 2005.
-6. **[S6]** OMS/UNICEF. Déclaration commune sur la prise en charge clinique de la diarrhée aiguë (SRO à osmolarité réduite et zinc). 2004 **[référence non vérifiée]**.
+6. **[S6]** WHO/UNICEF. *Clinical management of acute diarrhoea: WHO/UNICEF joint statement*. 2004 (IRIS 10665/68627).
 7. **[S7]** World Health Organization. Rotavirus vaccines: WHO position paper – July 2021. *Wkly Epidemiol Rec*. 2021;96(28):301-319.
 8. **[S8]** Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire (JORADP n° 49 du 8/08/2018, DOC-00070), complété par l'arrêté du 28 avril 2026 (JORADP n° 36 du 17/05/2026, DOC-00071).
 9. **[S9]** Décret exécutif n° 22-250 du 30 juin 2022 fixant la liste des maladies transmissibles soumises à déclaration obligatoire. JORADP n° 47 du 11/07/2022 (DOC-00072, lu).
@@ -863,5 +885,7 @@ Diarrhée aiguë de l'enfant
 12. **[S12]** Khoury H, Ogilvie I, El Khoury AC, Duan Y, Goetghebeur MM. Burden of rotavirus gastroenteritis in the Middle Eastern and North African pediatric population. *BMC Infect Dis*. 2011;11:9. doi:10.1186/1471-2334-11-9. PMID 21214934.
 13. **[S13]** World Health Organization. *WHO guideline on the prevention and management of wasting and nutritional oedema (acute malnutrition) in infants and children under 5 years*. Geneva: WHO; 2023 (DOC-00033).
 14. **[S14]** Organisation mondiale de la Santé. *PCIME — prise en charge du nourrisson malade âgé de 0 à 2 mois : recueil des tableaux*. Genève : OMS ; 2019 (DOC-00060, lu).
+15. **[S15]** McDonald LC, Gerding DN, Johnson S, et al. Clinical practice guidelines for *Clostridium difficile* infection in adults and children: 2017 update by IDSA and SHEA. *Clin Infect Dis*. 2018;66(7):e1-e48. doi:10.1093/cid/cix1085. PMID 29462280.
+16. **[S16]** Suprax (céfixime), *Prescribing information*, FDA (étiquetage pédiatrique : 8 mg/kg/j, à partir de 6 mois).
 
 *Dossiers Mediverse liés : DOS-PEDI-0001 (déshydratations aiguës), DOS-PEDI-0002 (vaccinations, calendrier algérien), DOS-PEDI-0003 (malnutrition), DOS-NEON-0002 (infections néonatales), DOS-PEDI-0005 (convulsions du nourrisson).*

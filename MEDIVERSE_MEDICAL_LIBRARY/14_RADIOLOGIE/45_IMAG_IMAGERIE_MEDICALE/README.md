@@ -8,14 +8,14 @@
 
 - Items du résidanat rattachés : **3** — couverture brute 0 %, auditée 0 %
 - Dossiers pédagogiques : 0 (audités : 0)
-- QCM : 0 — cas cliniques : 0 — pathologies référencées : 0
-- Ouvrages catalogués : 18 — recommandations : 0
+- QCM : 12 — cas cliniques : 0 — pathologies référencées : 0
+- Ouvrages catalogués : 18 — recommandations : 2
 - **Statut : en construction** (aucune spécialité n'est déclarée terminée sans audit complet).
 
 ## Items du programme du résidanat
 
 | Item | Intitulé | Dossier | QCM | Cas |
 |---|---|---|---|---|
-| RES-SF-062 | Echographie et Doppler : Principes, indications. | — | 0 | 0 |
-| RES-SF-063 | Tomodensitométrie : Principe, indications. | — | 0 | 0 |
-| RES-SF-064 | IRM : Principes, indications. | — | 0 | 0 |
+| RES-SF-062 | Echographie et Doppler : Principes, indications. | — | 4 | 0 |
+| RES-SF-063 | Tomodensitométrie : Principe, indications. | — | 4 | 0 |
+| RES-SF-064 | IRM : Principes, indications. | — | 4 | 0 |

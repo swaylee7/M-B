@@ -6,11 +6,17 @@ sous_specialite: "Pathologie respiratoire néonatale"
 items_residanat: [RES-MED-075]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-05 (IA) — dossier pédagogique original (lot 2)"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01/AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 8
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-NEON-0003.md
 sources:
   - id: S1
     reference: "Sweet DG, Carnielli VP, Greisen G, et al. European consensus guidelines on the management of respiratory distress syndrome: 2022 update. Neonatology. 2023;120(1):3-23. PMID 36863329 ; texte intégral lu (PubMed Central PMC10064400, licence CC BY 4.0)."
@@ -116,13 +122,29 @@ sources:
     doi: "10.1007/s13149-009-0001-z"
     url: "https://pubmed.ncbi.nlm.nih.gov/20084486/"
     verifiee: true
+  - id: S14
+    reference: "World Health Organization. WHO recommendations on antenatal corticosteroids for improving preterm birth outcomes. Geneva: WHO; 2022 (ISBN 9789240057296). Recommandations 1.0 à 1.10 lues par l'audit (PDF téléchargé depuis IRIS, pdftotext) : dexaméthasone IM ou bétaméthasone IM, 24 mg au total en doses fractionnées (4 × 6 mg de dexaméthasone toutes les 12 h ou 2 × 12 mg de bétaméthasone à 24 h d'intervalle), de 24 à 34 SA ; une seule cure de rattrapage."
+    organisme: OMS
+    annee: 2022
+    type: recommandation
+    doi: ""
+    url: "https://iris.who.int/handle/10665/363131"
+    verifiee: true
+  - id: S15
+    reference: "Hedstrom AB, Gove NE, Mayock DE, Batra M. Performance of the Silverman Andersen Respiratory Severity Score in predicting PCO2 and respiratory support in newborns: a prospective cohort study. J Perinatol. 2018;38(5):505-511. PMID 29426853 (résumé lu)."
+    organisme: ""
+    annee: 2018
+    type: article
+    doi: "10.1038/s41372-018-0049-3"
+    url: "https://pubmed.ncbi.nlm.nih.gov/29426853/"
+    verifiee: true
 mots_cles: [détresse respiratoire néonatale, score de Silverman, maladie des membranes hyalines, syndrome de détresse respiratoire du prématuré, surfactant, LISA, PPC, CPAP, caféine, corticothérapie anténatale, tachypnée transitoire, retard de résorption, inhalation méconiale, pneumopathie néonatale, hernie diaphragmatique congénitale, pneumothorax, hypertension artérielle pulmonaire persistante]
 ---
 
 # Détresses respiratoires du nouveau-né : étiologies, diagnostic, traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : audité (AUD-01/AUD-02, 19/11/2026, v1.1) — corrections requises : posologies de la prostaglandine E1, de la fermeture du canal artériel et des inotropes non sourcées. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 > **Vérification des sources (19/11/2026)** : recommandations européennes 2022 sur le syndrome de détresse respiratoire (texte intégral, PMC10064400), recommandations OMS 2022 sur le prématuré (DOC-00051), Mémento OMS 2015 (DOC-00062), PCIME 0–2 mois (DOC-00060) et recommandations ERC 2021 sur la réanimation néonatale (version allemande officielle en accès libre) lues ; autres références confirmées par PubMed.
 > **Articulation avec le lot 1** : l'**infection néonatale** (facteurs de risque, bilan, antibiothérapie, posologies) est traitée dans **DOS-NEON-0002** ; ce dossier y renvoie pour la pneumopathie et le sepsis néonatal. L'ictère du prématuré est traité dans **DOS-NEON-0001**.
 
@@ -249,7 +271,7 @@ Le score de Silverman cote **cinq signes de lutte**, chacun de **0 à 2** [S6] :
 *(Tableau reformulé ; libellés adaptés de la littérature francophone.)*
 
 - **Lecture** : contrairement au score d'Apgar, **plus le score est élevé, plus la détresse est grave** (0 = pas de signe de lutte ; 10 = détresse maximale).
-- **Seuils d'interprétation** : un score supérieur ou égal à 5 est classiquement considéré comme une détresse **sévère** dans l'enseignement francophone ; ces seuils sont pédagogiques et variables selon les auteurs **[À VÉRIFIER]**.
+- **Seuils d'interprétation** : ils **ne sont pas standardisés** et l'article princeps ne les fixe pas comme règle de décision. L'enseignement francophone retient habituellement une détresse **sévère à partir de 5** ; d'autres sources graduent 1–3 (légère), 4–6 (modérée), ≥ 7 (sévère). Dans une cohorte prospective, un score **≥ 5** dans la première heure était associé à une escalade du support respiratoire dans les 24 h (79 % contre 28 % si < 5) [S15]. Le score décrit et suit la détresse ; il ne décide pas seul du traitement (§7.3).
 - **Limites** : le score n'intègre ni la **fréquence respiratoire**, ni la **cyanose**, ni les **apnées** ; il peut **diminuer** chez un nouveau-né qui **s'épuise** (fausse amélioration) ; il est moins pertinent chez le grand prématuré sous PPC.
 
 ### 7.2 Score de Downes
@@ -463,7 +485,8 @@ Cyanose peu améliorée par l'oxygène, souffle, pouls fémoraux faibles, hépat
 #### 13.2.5 Caféine
 
 - **OMS 2022** : la caféine est **recommandée** pour le traitement des **apnées** du prématuré (forte) et pour faciliter l'**extubation** des prématurés nés avant 34 SA (forte) ; elle **peut être envisagée** pour la prévention des apnées avant 34 SA (conditionnelle) [S2].
-- **Consensus européen 2022** : caféine **20 mg/kg en dose de charge, puis 5–10 mg/kg/j** pour faciliter le sevrage de la ventilation (A1) ; caféine précoce envisageable chez les prématurés à haut risque de ventilation, par exemple sous ventilation non invasive (C1) [S1].
+- **Consensus européen 2022** : caféine **20 mg/kg en dose de charge, puis 5–10 mg/kg/j** pour faciliter le sevrage de la ventilation (A1) ; caféine précoce envisageable chez les prématurés à haut risque de ventilation, par exemple sous ventilation non invasive (C1) [S1]. **Ces doses s'expriment en citrate de caféine** (forme utilisée par l'OMS [S2, S3] ; 20 mg de citrate de caféine ≈ 10 mg de caféine base) : vérifier la forme (citrate ou base) de la spécialité avant toute prescription.
+- **OMS 2022** : sur la base du plus grand essai, dose de charge de **20 mg/kg** puis entretien de **5 mg/kg/j** ; durée selon le jugement clinique ; à défaut de caféine, aminophylline ou théophylline [S2].
 - **Mémento OMS 2015** : citrate de caféine **20 mg/kg** (PO ou IV lente en 30 min), puis **5 mg/kg/j** 24 h plus tard, augmentable de 5 mg/kg/j jusqu'à 20 mg/kg/j ; poursuivre 4 à 5 jours après l'arrêt des apnées ; à défaut, aminophylline (charge 6 mg/kg IV en 20 min, puis 2,5 mg/kg toutes les 12 h) [S3].
 
 #### 13.2.6 Ventilation mécanique
@@ -557,7 +580,7 @@ NAISSANCE (anticiper : équipe formée, table chauffante, mélangeur O2, PPC/T-p
 ### 15.2 Corticothérapie anténatale
 
 - **Consensus européen 2022** : **une cure unique** de corticoïdes anténatals à toutes les femmes à haut risque d'accouchement prématuré, **dès la viabilité et jusqu'à 34 SA révolues**, idéalement **au moins 24 h avant la naissance** (A1) ; **une seule cure de rattrapage** possible avant 32 SA si la première remonte à au moins 1–2 semaines (A2) ; entre 34 et 37 SA, bénéfice respiratoire à court terme mais pas sur la mortalité, avec risque d'hypoglycémie néonatale ; corticothérapie déconseillée en cas de travail spontané après 34 SA [S1].
-- **Posologie** : le Mémento OMS cite **deux doses de 12 mg de dexaméthasone à 24 heures d'intervalle** chez la femme à risque d'accouchement prématuré [S3] ; les schémas par bétaméthasone relèvent des protocoles obstétricaux **[POSOLOGIE À VÉRIFIER — protocole obstétrical / RCP]**.
+- **Posologie (OMS 2022)** : **dexaméthasone IM ou bétaméthasone IM, 24 mg au total en doses fractionnées** — le plus souvent **4 doses de 6 mg de dexaméthasone toutes les 12 h** ou **2 doses de 12 mg de bétaméthasone à 24 h d'intervalle** ; indication de **24 à 34 SA** si une naissance est probable dans les 7 jours (âge gestationnel fiable, pas d'infection maternelle, soins de l'accouchement et du prématuré adéquats) ; non recommandée en cas de chorioamniotite ni de césarienne programmée entre 34 et 36 SA + 6 j ; **une seule cure de rattrapage** si la première date d'au moins 7 jours et qu'une naissance reste probable dans les 7 jours [S14]. Le Mémento OMS de 2015 mentionne « deux doses de 12 mg de **dexaméthasone** à 24 heures d'intervalle » [S3] : ce schéma, qui correspond à celui de la bétaméthasone, n'est **pas** celui retenu pour la dexaméthasone par l'OMS 2022 [S14].
 
 ### 15.3 Autres mesures
 
@@ -609,7 +632,7 @@ Naissance < 30–32 SA, respire spontanément
 En salle de naissance, il est placé dans un **sac en plastique** sous table radiante et stabilisé sous **PPC à 6 cmH₂O** avec une FiO₂ initiale de 0,21–0,30. À **H2**, il présente une **polypnée à 80/min**, un **geignement audible à l'oreille**, un **tirage intercostal marqué**, un **entonnoir xiphoïdien discret** et un **battement des ailes du nez** discret, sans balancement thoraco-abdominal ; la SpO₂ est à 89 % sous **FiO₂ 0,40** et PPC à 7 cmH₂O. Température 36,7 °C, glycémie 2,9 mmol/L, TRC 3 s.
 
 **Question 1 — Calculez le score de Silverman et interprétez la situation.**
-*Réponse* : balancement 0 + tirage intercostal 2 + entonnoir xiphoïdien 1 + battement des ailes du nez 1 + geignement audible à l'oreille 2 = **6/10** : détresse respiratoire **sévère** [S6] chez un grand prématuré, d'apparition précoce, avec un **besoin en FiO₂ > 0,30 sous PPC ≥ 6 cmH₂O** : tableau évocateur de **maladie des membranes hyalines** (déficit en surfactant, corticothérapie anténatale incomplète) [S1, S3].
+*Réponse* : balancement 0 + tirage intercostal 2 + entonnoir xiphoïdien 1 + battement des ailes du nez 1 + geignement audible à l'oreille 2 = **6/10** : détresse respiratoire **sévère** selon le seuil usuel (≥ 5), associée à un besoin d'escalade du support respiratoire [S6, S15] chez un grand prématuré, d'apparition précoce, avec un **besoin en FiO₂ > 0,30 sous PPC ≥ 6 cmH₂O** : tableau évocateur de **maladie des membranes hyalines** (déficit en surfactant, corticothérapie anténatale incomplète) [S1, S3].
 
 **Question 2 — Quels examens demandez-vous ?**
 *Réponse* : **radiographie thoracique** (poumons de petit volume, granité diffus, bronchogramme aérique attendus) ± **échographie pulmonaire** ; **gaz du sang** ; **hémoculture** et **CRP** (prématurité, statut SGB inconnu) ; contrôle de la **glycémie** ; surveillance de la PA.
@@ -618,7 +641,7 @@ En salle de naissance, il est placé dans un **sac en plastique** sous table rad
 *Réponse* :
 1. **Surfactant d'origine animale**, **poractant alfa 200 mg/kg** soit **290 mg**, de préférence par **LISA** sous PPC [S1].
 2. **Poursuite de la PPC** (6–8 cmH₂O) avec possibilité d'escalade en NIPPV [S1].
-3. **Caféine** : charge **20 mg/kg** (29 mg de citrate de caféine), puis 5–10 mg/kg/j [S1, S3].
+3. **Citrate de caféine** : charge **20 mg/kg** (29 mg), puis 5–10 mg/kg/j de citrate [S1, S3].
 4. **Cibles de SpO₂ 90–94 %** [S1].
 5. **Antibiothérapie probabiliste** (amoxicilline + gentamicine selon DOS-NEON-0002), **à arrêter à 36 h** si l'hémoculture est négative et la clinique rassurante [S1].
 6. **Perfusion** de glucosé (70–80 mL/kg/j), nutrition parentérale débutée, **lait maternel** dès le premier jour si stable [S1] ; correction de la glycémie limite.
@@ -637,7 +660,7 @@ En salle de naissance, il est placé dans un **sac en plastique** sous table rad
 6. **Toute DRN peut être infectieuse** : bilan et antibiotiques selon les facteurs de risque ; **arrêt à 36 h** si l'infection est écartée [S1] (DOS-NEON-0002).
 7. **PPC dès la naissance** chez le prématuré à risque ; **PPC à bulles** recommandée par l'OMS dans les contextes à ressources limitées [S1, S2].
 8. **Surfactant d'origine animale**, **poractant 200 mg/kg**, **LISA**, si **FiO₂ > 0,30 sous PPC ≥ 6 cmH₂O** [S1].
-9. **Caféine** : charge 20 mg/kg, entretien 5–10 mg/kg/j ; recommandée par l'OMS pour les apnées et l'extubation [S1, S2].
+9. **Caféine** (doses de **citrate**) : charge 20 mg/kg, entretien 5–10 mg/kg/j ; recommandée par l'OMS pour les apnées et l'extubation [S1, S2].
 10. **SpO₂ cible 90–94 %** chez le prématuré sous oxygène ; FiO₂ initiale selon l'âge gestationnel en salle de naissance [S1, S8].
 11. **Hernie diaphragmatique** : SpO₂ pré-ductale 80–95 % et post-ductale > 70 %, PaCO₂ 50–70 mmHg, ventilation conventionnelle initiale, pas de curare initial [S9] ; pas de surfactant de routine [S1] ; éviter la ventilation prolongée au masque (§10.5).
 12. **Prévention** : transfert in utero, **corticothérapie anténatale** (une cure jusqu'à 34 SA, ≥ 24 h avant la naissance), sulfate de magnésium < 32 SA, clampage retardé ≥ 60 s [S1].
@@ -744,7 +767,7 @@ En salle de naissance, il est placé dans un **sac en plastique** sous table rad
 
 **QCM 7 (QCM-NEON-0507) — Réponse(s) : A, B, C, E.** OMS 2022 : B.1 PPC pour le SDR (forte) ; B.2 PPC immédiate < 32 SA (conditionnelle) ; B.3 PPC à bulles (conditionnelle) ; mise en œuvre par un personnel qualifié avec un matériel de qualité ; B.4 caféine pour les apnées (forte), B.5 pour l'extubation avant 34 SA (forte), B.6 en prévention (conditionnelle).
 
-**QCM 8 (QCM-NEON-0508) — Réponse(s) : A, B, C, D.** Caféine : charge 20 mg/kg, entretien 5–10 mg/kg/j (consensus européen, A1) ; recommandée par l'OMS pour les apnées et l'extubation avant 34 SA ; le Mémento OMS propose l'aminophylline à défaut (charge 6 mg/kg IV, puis 2,5 mg/kg toutes les 12 h). Les apnées du prématuré en sont l'indication principale.
+**QCM 8 (QCM-NEON-0508) — Réponse(s) : A, B, C, D.** Caféine : charge 20 mg/kg, entretien 5–10 mg/kg/j, doses exprimées en citrate de caféine (consensus européen, A1 ; OMS) ; recommandée par l'OMS pour les apnées et l'extubation avant 34 SA ; le Mémento OMS propose l'aminophylline à défaut (charge 6 mg/kg IV, puis 2,5 mg/kg toutes les 12 h). Les apnées du prématuré en sont l'indication principale.
 
 *Les QCM 9 à 12 de la série (QCM-NEON-0509 à QCM-NEON-0512) figurent uniquement dans le lot JSON `21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-05-lot2.json`.*
 ## 21. Divergences entre recommandations
@@ -756,7 +779,7 @@ En salle de naissance, il est placé dans un **sac en plastique** sous table rad
 | **Antibiotiques et détresse du prématuré** | OMS 2015 : antibiotiques car une pneumonie est difficile à exclure [S3] | Consensus européen 2022 : usage **raisonné**, abstention possible si bas risque, **arrêt à 36 h** si infection écartée [S1] | Le contexte (accès aux hémocultures et à la CRP) explique la divergence ; voir DOS-NEON-0002 |
 | **Technique d'administration du surfactant** | Consensus européen 2022 : **LISA** préférée (A1) [S1] | Synthèses plus anciennes : **INSURE** (intubation, surfactant, extubation rapide vers la PPC) [S12] | La LISA suppose une formation ; l'INSURE reste une alternative |
 | **Liquide méconial chez le non-vigoureux** | ERC 2021 : **ni laryngoscopie ni aspiration trachéale systématiques** ; ventiler sans délai [S8] | Mémento OMS 2015 : aspirer bouche, nez et oropharynx sous vision directe si l'enfant ne pleure pas et ne bouge pas [S3] | Les deux s'accordent pour ne pas aspirer en routine l'enfant vigoureux ; l'aspiration ne doit pas retarder la ventilation |
-| **Corticothérapie anténatale** | Consensus européen 2022 : cure unique jusqu'à 34 SA ; rattrapage avant 32 SA ; déconseillée après 34 SA en travail spontané [S1] | Mémento OMS 2015 : dexaméthasone 2 × 12 mg à 24 h d'intervalle chez la femme à risque d'accouchement prématuré [S3] | Les schémas (bétaméthasone/dexaméthasone) relèvent des protocoles obstétricaux nationaux **[À VÉRIFIER]** |
+| **Corticothérapie anténatale** | Consensus européen 2022 : cure unique jusqu'à 34 SA ; rattrapage avant 32 SA si la première date de 1–2 semaines ; déconseillée après 34 SA en travail spontané [S1] | OMS 2022 : 24–34 SA ; dexaméthasone 4 × 6 mg/12 h ou bétaméthasone 2 × 12 mg/24 h IM ; un rattrapage si la première cure date d'au moins 7 jours [S14] (le Mémento 2015 indiquait pour la dexaméthasone 2 × 12 mg à 24 h d'intervalle [S3], schéma remplacé) | Divergence sur le délai et l'âge gestationnel du rattrapage ; protocole obstétrical national **[À VÉRIFIER]** |
 | **Score de gravité** | Score de Silverman (enseignement francophone) [S6] ; score de Downes [S7] | Consensus européen 2022 : gravité appréciée par le **travail respiratoire et la FiO₂** ; définitions radiologiques et gazométriques jugées dépassées [S1] | Les scores restent utiles pour décrire et surveiller, pas pour décider seuls du surfactant |
 
 ## 22. Références
@@ -774,5 +797,7 @@ En salle de naissance, il est placé dans un **sac en plastique** sous table rad
 11. **[S11]** Vain NE, Szyld EG, Prudent LM, et al. Oropharyngeal and nasopharyngeal suctioning of meconium-stained neonates before delivery of their shoulders: multicentre, randomised controlled trial. *Lancet*. 2004;364(9434):597-602. doi:10.1016/S0140-6736(04)16852-9. PMID 15313360.
 12. **[S12]** Hermansen CL, Mahajan A. Newborn respiratory distress. *Am Fam Physician*. 2015;92(11):994-1002. PMID 26760414.
 13. **[S13]** Bezzaoucha A, El Kebboub A, Aliche A. Évolution de la mortalité néonatale au CHU de Blida (Algérie) entre 1999 et 2006. *Bull Soc Pathol Exot*. 2010;103(1):29-36. doi:10.1007/s13149-009-0001-z. PMID 20084486.
+14. **[S14]** World Health Organization. *WHO recommendations on antenatal corticosteroids for improving preterm birth outcomes*. Geneva: WHO; 2022 (IRIS 10665/363131, lu).
+15. **[S15]** Hedstrom AB, Gove NE, Mayock DE, Batra M. Performance of the Silverman Andersen Respiratory Severity Score in predicting PCO2 and respiratory support in newborns. *J Perinatol*. 2018;38(5):505-511. doi:10.1038/s41372-018-0049-3. PMID 29426853.
 
 *Dossiers Mediverse liés : DOS-NEON-0001 (ictère néonatal), DOS-NEON-0002 (infections néonatales), DOS-PEDI-0006 (vitamine D du prématuré).*

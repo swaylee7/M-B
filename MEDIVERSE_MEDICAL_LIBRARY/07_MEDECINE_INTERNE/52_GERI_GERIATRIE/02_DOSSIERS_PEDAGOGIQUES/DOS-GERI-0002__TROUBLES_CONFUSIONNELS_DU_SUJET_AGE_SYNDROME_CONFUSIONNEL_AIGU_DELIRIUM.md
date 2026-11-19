@@ -6,7 +6,7 @@ sous_specialite: "Syndromes gériatriques — confusion aiguë"
 items_residanat: [RES-MED-165]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-15 (IA) — dossier pédagogique original"
@@ -30,6 +30,12 @@ audit:
     corrections: 5
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-GERI-0002.md
     remarque: "S3-S5, S7-S9, S13, S14, S16 vérifiées par PubMed ; S17 (NICE CG100) et S18 (EFNS 2010) ajoutées. Non revérifiées : DSM-5-TR (S2), SIGN 157 (S12, hôte inaccessible) ; formulation exacte de PADIS sur la prévention médicamenteuse non relue."
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 1
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
+    remarque: "Audit de cohérence (lot 6) : code CIM-11 du delirium (6D70, sous-codes 6D70.0 à 6D70.2) harmonisé — vérifié sur des sources secondaires concordantes (CISMeF, recherche du 2026-11-19), navigateur OMS non consulté ; marqueur contradictoire du § 21 levé. Restent ouverts les points des audits précédents."
 sources:
   - id: S1
     reference: "National Institute for Health and Care Excellence. Delirium: prevention, diagnosis and management in hospital and long-term care. Clinical guideline CG103. Londres : NICE ; 2010, mise à jour janvier 2023."
@@ -229,7 +235,7 @@ Le **syndrome confusionnel aigu** (ou **confusion aiguë**, ou **état confusion
 | D | Les troubles A et C ne s'expliquent pas mieux par un trouble neurocognitif préexistant et ne surviennent pas dans un contexte de vigilance très abaissée (coma) |
 | E | Arguments (anamnèse, examen, examens complémentaires) indiquant qu'ils sont la **conséquence physiologique directe** d'une affection médicale, d'une intoxication ou d'un sevrage, d'une exposition toxique, ou de causes multiples |
 
-Spécifications : **aigu** (heures à jours) ou **persistant** (semaines à mois) ; selon l'activité psychomotrice : **hyperactif**, **hypoactif**, **mixte**. La CIM-11 classe le delirium parmi les troubles neurocognitifs (code 6D70, avec des sous-codes selon la cause : 6D70.0 affection classée ailleurs, 6D70.1 substance ou médicament, 6D70.2 causes multiples) ; code vérifié sur une source secondaire (portail CISMeF), le navigateur CIM-11 de l'OMS étant inaccessible pendant l'audit.
+Spécifications : **aigu** (heures à jours) ou **persistant** (semaines à mois) ; selon l'activité psychomotrice : **hyperactif**, **hypoactif**, **mixte**. La CIM-11 classe le delirium parmi les troubles neurocognitifs (code 6D70, avec des sous-codes selon la cause : 6D70.0 affection classée ailleurs, 6D70.1 substance ou médicament, 6D70.2 causes multiples) ; code vérifié sur des sources secondaires concordantes (portail CISMeF ; vérification renouvelée par AUD-05 le 2026-11-19), le navigateur CIM-11 de l'OMS étant inaccessible pendant l'audit.
 
 ### 1.3 Notions associées
 
@@ -757,7 +763,7 @@ E. Les médicaments responsables doivent être signalés au médecin référent
 | Psychotropes en cas d'agitation | NICE CG103 : halopéridol à court terme (≤ 1 semaine) si détresse ou danger, après échec de la désescalade [S1] ; Beers 2023 : benzodiazépines à éviter en cas de confusion, sauf sevrage [S10] | HAS 2009 : monothérapie de 24 à 48 h au maximum, à 1/4-1/2 de la dose adulte ; benzodiazépine orale de courte durée d'action (alprazolam, lorazépam, oxazépam) quand l'anxiété prédomine, neuroleptique quand les troubles productifs prédominent [S6] | Accord sur le principe « le moins possible, le plus court possible » ; désaccord sur la place des benzodiazépines hors sevrage |
 | Prévention médicamenteuse | NICE CG103 : prévention par intervention multicomposante non médicamenteuse, sans prévention médicamenteuse recommandée [S1] ; SIGN 157 : position non relue `[À VÉRIFIER]` [S12] | Réanimation (PADIS 2018) : suggestion de ne pas utiliser halopéridol ni antipsychotique atypique en prévention chez tous les patients [S16] | Priorité aux interventions multicomposantes non médicamenteuses [S8] |
 | Champ des recommandations | HAS 2009 : exclut la confusion postopératoire [S6] | NICE : hôpital (y compris chirurgie) et établissements de long séjour [S1] | Pour la chirurgie, se référer aux recommandations spécifiques (orthogériatrie, anesthésie) |
-| Classification | DSM-5-TR : delirium dans les troubles neurocognitifs ; sous-types hyper/hypo/mixte [S2] | CIM-11 : delirium (6D70) `[À VÉRIFIER]` | Terminologie française : « syndrome confusionnel aigu » ≈ delirium |
+| Classification | DSM-5-TR : delirium dans les troubles neurocognitifs ; sous-types hyper/hypo/mixte [S2] | CIM-11 : delirium (6D70 ; code vérifié sur des sources secondaires, voir § 1.2) | Terminologie française : « syndrome confusionnel aigu » ≈ delirium |
 
 ---
 

@@ -8,6 +8,6 @@
 
 - Items du résidanat rattachés : **0** — couverture brute —, auditée —
 - Dossiers pédagogiques : 0 (audités : 0)
-- QCM : 0 — cas cliniques : 0 — pathologies référencées : 0
+- QCM : 0 — cas cliniques : 0 — pathologies référencées : 21
 - Ouvrages catalogués : 13 — recommandations : 0
 - **Statut : en construction** (aucune spécialité n'est déclarée terminée sans audit complet).

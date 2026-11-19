@@ -6,7 +6,7 @@ sous_specialite: "Épidémiologie descriptive — indicateurs de santé, mesures
 items_residanat: [RES-MED-128]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-15 (IA) — dossier pédagogique original"
@@ -24,6 +24,12 @@ audit:
     corrections: 8
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-EPID-0001.md
     remarque: "Références vérifiées par PubMed (eutils) : S6, S8, S13, S14, S15 ; Gordis 6e éd. confirmée (WorldCat). S11, S12, S16, S17 non revérifiées."
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 1
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
+    remarque: "Audit de cohérence avec DOS-EPID-0002 (lot 6) : convention unique du tableau 2 × 2 explicitée (a = exposés malades, b = exposés non malades, c = non exposés malades, d = non exposés non malades) ; calculs de l'exemple 10 recontrôlés par script (inchangés). Restent ouverts les points des audits précédents."
 sources:
   - id: S1
     reference: "Loi n° 18-11 du 2 juillet 2018 relative à la santé. JORADP n° 46 du 29 juillet 2018 (art. 11, 36, 38-39, 47, 204, 293-294, 319-323, 338)."
@@ -601,6 +607,8 @@ L'OMS propose une liste de référence de 100 indicateurs de base, organisée en
 | Exposés | a | b | a + b | Ie = a / (a + b) |
 | Non exposés | c | d | c + d | I₀ = c / (c + d) |
 | Total | a + c | b + d | N | It = (a + c) / N |
+
+Convention commune à DOS-EPID-0002 : **a** = exposés malades, **b** = exposés non malades, **c** = non exposés malades, **d** = non exposés non malades (dans une enquête cas-témoins : a = cas exposés, b = témoins exposés, c = cas non exposés, d = témoins non exposés).
 
 ### 10.2 Mesures d'association (force du lien)
 

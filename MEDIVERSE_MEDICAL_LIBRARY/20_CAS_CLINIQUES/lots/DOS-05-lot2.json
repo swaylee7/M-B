@@ -34,7 +34,7 @@
         "Bandelette urinaire si la fièvre persiste ou si l'évolution est inhabituelle",
         "Coproculture uniquement si sang dans les selles ou contexte épidémique particulier"
       ],
-      "diagnostic_final": "Gastro-entérite aiguë aqueuse, probablement à rotavirus, avec déshydratation modérée (perte de poids d'environ 4 %, deux signes OMS).",
+      "diagnostic_final": "Gastro-entérite aiguë aqueuse, probablement à rotavirus, avec déshydratation modérée (« signes évidents » : au moins deux signes OMS ; la perte de poids calculée sur une pesée vieille de trois semaines, ≈ 4 %, sous-estime probablement le déficit, classiquement de 5 à 10 % dans cette catégorie — DOS-PEDI-0001).",
       "traitement": "Plan B de l'OMS au centre de santé : SRO à osmolarité réduite 75 mL/kg en 4 heures, soit environ 675 mL, par petites quantités fréquentes (attendre 10 min puis reprendre plus lentement en cas de vomissement) ; réévaluation à 4 heures (DOS-PEDI-0001). Zinc 20 mg/j pendant 10 à 14 jours. Reprise du lait habituel non dilué à la fin de la phase de réhydratation. Pas d'antibiotique, pas d'antidiarrhéique, pas d'antiémétique selon l'OMS. Paracétamol si fièvre mal tolérée. Éducation : plan A à domicile (50–100 mL de SRO après chaque selle liquide), deux sachets remis, signes d'alerte, lavage des mains, retour en collectivité selon les règles locales.",
       "surveillance": "Réévaluation à 4 heures (signes de déshydratation, poids, capacité à boire) ; puis retour immédiat si l'enfant ne peut plus boire, s'aggrave, présente du sang dans les selles ou une fièvre persistante ; revoir à 5 jours si pas d'amélioration.",
       "evolution": "À 4 heures : enfant éveillé, plus de soif excessive, yeux normaux, poids 9,3 kg : passage au plan A. Diarrhée résolutive en 5 jours.",
@@ -75,9 +75,15 @@
           "date": "2011"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-05",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "Plan B 75 mL/kg (675 mL), zinc 20 mg/j vérifiés (OMS) ; cohérence de la perte de poids avec DOS-PEDI-0001 précisée",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-PEDI-0004.md"
+      }
     },
     {
       "id": "CAS-PEDI-0502",
@@ -149,9 +155,15 @@
           "date": "2022"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-05",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "SHU à STEC : triade, abstention antibiotique et ralentisseurs, déclaration — exact",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-PEDI-0004.md"
+      }
     },
     {
       "id": "CAS-PEDI-0503",
@@ -229,9 +241,15 @@
           "date": "2015"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-05",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "Critères de CF simple (AAP 2011) et indications de PL exacts ; paracétamol 15 mg/kg/6 h conforme à l'OMS",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-PEDI-0005.md"
+      }
     },
     {
       "id": "CAS-PEDI-0504",
@@ -269,7 +287,7 @@
       "diagnostic_final": "État de mal épileptique fébrile (convulsion fébrile complexe par sa durée), sans infection du système nerveux central, au cours d'une virose.",
       "traitement": "Crise ≥ 5 minutes = état de mal. Une dose de benzodiazépine ayant déjà été reçue, une seconde et dernière dose est donnée à l'arrivée : diazépam IV 0,25 mg/kg = 2,5 mg (Mémento OMS). Persistance 5 minutes plus tard = état de mal établi → antiépileptique IV de 2e ligne : lévétiracétam 40 mg/kg = 400 mg en 5 minutes (schéma EcLiPSE ; ESETT : 60 mg/kg, maximum 4 500 mg, en 10 minutes) ; alternatives : fosphénytoïne 20 mg EP/kg, phénytoïne, phénobarbital ou valproate selon la disponibilité (mhGAP 2023). Arrêt de la crise 4 minutes après la fin de la perfusion. Oxygène, monitorage, paracétamol après la crise, appel de la réanimation pédiatrique en cas de persistance. Antibiotiques (ceftriaxone) en attendant le LCR si la PL avait dû être différée.",
       "surveillance": "Surveillance continue SpO2, FR, FC, PA ; conscience toutes les 15 minutes ; récidive (chronométrer) ; glycémie ; température.",
-      "evolution": "Conscience normalisée en 3 heures ; LCR normal ; sortie à J2 avec information des parents et prescription d'un traitement de secours (midazolam buccal) selon le protocole local ; consultation neuropédiatrique (deuxième crise fébrile avant 18 mois, dont une prolongée).",
+      "evolution": "Conscience normalisée en 3 heures ; LCR normal ; sortie à J2 avec information des parents et prescription d'un traitement de secours (midazolam buccal : 5 mg de 1 à < 5 ans selon le RCP de Buccolam, dont l'usage par les parents suppose un diagnostic d'épilepsie — prescription hors RCP après des crises fébriles, à décider avec le neuropédiatre) ; consultation neuropédiatrique (deuxième crise fébrile avant 18 mois, dont une prolongée).",
       "explication_pedagogique": "Toute crise de plus de 5 minutes est un état de mal à traiter sans attendre (ILAE 2015). Il ne faut pas dépasser deux doses de benzodiazépine, préhospitalières comprises, avant la 2e ligne. Lévétiracétam, (fos)phénytoïne et valproate ont une efficacité comparable (ESETT : environ un patient sur deux contrôlé) ; le lévétiracétam est bien toléré. Une crise fébrile prolongée impose d'éliminer une infection du SNC ; des crises fébriles prolongées récidivantes avant 1 an doivent faire évoquer un syndrome de Dravet.",
       "questions": [
         {
@@ -315,9 +333,15 @@
           "date": "2025"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-05",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "Diazépam IV 0,25 mg/kg, lévétiracétam 40 mg/kg (EcLiPSE) exacts ; posologie du midazolam buccal ajoutée (RCP Buccolam, HAS 2012) avec la réserve de l'AMM",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-PEDI-0005.md"
+      }
     },
     {
       "id": "CAS-PEDI-0505",
@@ -352,7 +376,7 @@
         "Hémogramme (anémie associée)"
       ],
       "diagnostic_final": "Rachitisme carentiel nutritionnel (carence profonde en vitamine D, apports calciques faibles) au stade d'hyperparathyroïdie secondaire, avec anémie associée.",
-      "traitement": "Selon le consensus mondial de 2016 : vitamine D3 au moins 2 000 UI/j pendant au moins 3 mois (ou dose unique orale adaptée à l'âge [POSOLOGIE À VÉRIFIER — tableau du consensus]) + calcium élémentaire 500 mg/j systématiquement (alimentation ou supplément). Puis entretien à 600 UI/j après 12 mois. Conseils alimentaires (produits laitiers), exposition solaire raisonnable ; bilan et supplémentation de la mère ; kinésithérapie motrice ; correction de l'anémie selon le bilan martial.",
+      "traitement": "Selon le consensus mondial de 2016 : vitamine D3 3 000 à 6 000 UI/j pendant 90 jours (au minimum 2 000 UI/j pendant 3 mois), ou dose unique orale de 150 000 UI (tranche de 12 mois à 12 ans du tableau du consensus) + calcium élémentaire 500 mg/j systématiquement (alimentation ou supplément). Puis entretien à 600 UI/j après 12 mois. Conseils alimentaires (produits laitiers), exposition solaire raisonnable ; bilan et supplémentation de la mère ; kinésithérapie motrice ; correction de l'anémie selon le bilan martial.",
       "surveillance": "Clinique (marche, déformations, croissance) ; à 3 mois : calcémie, phosphatémie, PAL, PTH, 25-OHD, calciurie et radiographie du poignet ; recherche de signes de surdosage (anorexie, vomissements, polyurie, hypercalcémie, hypercalciurie).",
       "evolution": "Marche acquise à 21 mois ; à 3 mois de traitement, PAL et PTH normalisées, bande de minéralisation métaphysaire ; incurvation tibiale en voie de correction.",
       "explication_pedagogique": "Le rachitisme carentiel associe hyperparathyroïdie secondaire, hypophosphatémie et PAL élevées ; la radiographie confirme le diagnostic. Le traitement associe toujours vitamine D et calcium. La carence en vitamine D est fréquente en Algérie malgré l'ensoleillement (saison froide, faible exposition, peau foncée, apports faibles).",
@@ -367,7 +391,7 @@
         },
         {
           "question": "Quel traitement selon le consensus de 2016 ?",
-          "reponse": "Vitamine D ≥ 2 000 UI/j au moins 3 mois (ou dose unique selon l'âge) et calcium 500 mg/j."
+          "reponse": "Vitamine D 3 000 à 6 000 UI/j pendant 90 jours (au minimum 2 000 UI/j pendant 3 mois) ou dose unique de 150 000 UI à cet âge, et calcium 500 mg/j ; réévaluation à 3 mois ; entretien 600 UI/j."
         },
         {
           "question": "Quelle prévention aurait dû être appliquée ?",
@@ -386,11 +410,22 @@
         {
           "reference": "Thacher TD et al. Bone 2019;122:76-81",
           "date": "2019"
+        },
+        {
+          "reference": "Thandrayen K, Pettifor JM. The roles of vitamin D and dietary calcium in nutritional rickets. Bone Rep 2018;8:81-89 (tableau 4 reproduisant les doses du consensus 2016)",
+          "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-05",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "Doses du consensus 2016 confirmées (tableau 4 de Thandrayen et Pettifor 2018) ; marqueur levé",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-PEDI-0006.md",
+        "reserve": "schéma national algérien (200 000 UI à 1 et 6 mois) toujours [À VÉRIFIER] sur le texte officiel"
+      }
     },
     {
       "id": "CAS-PEDI-0506",
@@ -463,9 +498,16 @@
           "date": "2019"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-05",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "Démarche XLH exacte",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-PEDI-0006.md",
+        "reserve": "posologies du phosphate, du calcitriol et du burosumab non sourcées (protocole du centre de référence)"
+      }
     },
     {
       "id": "CAS-PEDI-0507",
@@ -541,9 +583,16 @@
           "date": "2014"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-05",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "Ceftriaxone (NICE NG111), amikacine 15 mg/kg/j (AWaRe, NICE) et cotrimoxazole 20/4 mg/kg/12 h (AWaRe) vérifiés ; imagerie NICE (< 6 mois, IU atypique) exacte",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-PEDI-0007.md",
+        "reserve": "dose française de l'amikacine (20–30 mg/kg/j) non confirmée sur le texte du GPIP 2023"
+      }
     },
     {
       "id": "CAS-PEDI-0508",
@@ -613,9 +662,15 @@
           "date": "2015"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-05",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "Nitrofurantoïne (NICE NG109, AWaRe), triméthoprime 4 mg/kg/12 h, durées et absence d'imagerie (NICE) vérifiées",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-PEDI-0007.md"
+      }
     },
     {
       "id": "CAS-NEON-0501",
@@ -690,9 +745,15 @@
           "date": "2015"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-05",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "Score de Silverman (3) et diagnostic de tachypnée transitoire exacts",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-NEON-0003.md"
+      }
     },
     {
       "id": "CAS-NEON-0502",
@@ -769,9 +830,16 @@
           "date": "2015"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-05",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02 (IA)",
+        "resultat": "Conduite ERC 2021, surfactant (B2) et NO inhalé exacts",
+        "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-NEON-0003.md",
+        "reserve": "posologie des inotropes non sourcée (protocole local)"
+      }
     }
   ]
 }

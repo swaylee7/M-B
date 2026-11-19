@@ -6,7 +6,7 @@ sous_specialite: "Épidémiologie analytique — méthodologie des enquêtes, bi
 items_residanat: [RES-MED-132]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-15 (IA) — dossier pédagogique original"
@@ -24,6 +24,12 @@ audit:
     corrections: 4
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-EPID-0002.md
     remarque: "Références S3-S10, S16 et S17 vérifiées par PubMed (eutils) ; pagination de Dawber 1951 corrigée (279-281) ; Gordis 6e éd. confirmée (WorldCat). S11 et S15 non revérifiées (hors PubMed)."
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_valide
+    corrections: 1
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
+    remarque: "Audit de cohérence avec DOS-EPID-0001 (lot 6) : lettres b et c du tableau cas-témoins inversées par rapport à la convention commune — corrigées dans l'exemple 5, la formule de l'OR (odds d'exposition (a/c)/(b/d) = ad/bc), l'OR de Mantel-Haenszel et le tableau récapitulatif ; calculs refaits par script : OR 3,5 (IC 95 % 2,46-4,99), χ² 50,0, FAP 42,9 %, OR_MH 1,0 (inchangés). Aucun marqueur ajouté."
 sources:
   - id: S1
     reference: "Lash TL, VanderWeele TJ, Haneuse S, Rothman KJ. Modern Epidemiology. 4th ed. Philadelphia: Wolters Kluwer; 2021."
@@ -415,19 +421,19 @@ L'**appariement** consiste à choisir, pour chaque cas, un ou plusieurs témoins
 
 ### 6.5 Mesure d'association : l'odds ratio
 
-On ne peut pas calculer d'incidence ni de RR (le rapport cas/témoins est fixé par l'investigateur). On calcule l'**odds ratio** = odds d'exposition chez les cas / odds d'exposition chez les témoins = (a/b)/(c/d) = **ad/bc**. Propriété fondamentale : il est **égal** à l'odds ratio de maladie (exposés vs non-exposés), qui **approche le RR** quand la maladie est **rare** (incidence < 5-10 % dans la population source, « hypothèse de maladie rare » de Cornfield [S16]). Avec un échantillonnage des témoins par densité d'incidence (étude cas-témoins nichée, témoins tirés parmi les sujets à risque au moment de chaque cas), l'OR estime directement le **rapport des taux d'incidence**, sans hypothèse de rareté [S1].
+On ne peut pas calculer d'incidence ni de RR (le rapport cas/témoins est fixé par l'investigateur). On calcule l'**odds ratio** = odds d'exposition chez les cas / odds d'exposition chez les témoins = (a/c)/(b/d) = **ad/bc**, avec la convention commune à DOS-EPID-0001 (§ 10.1) : **a** = exposés malades (cas exposés), **b** = exposés non malades (témoins exposés), **c** = non exposés malades (cas non exposés), **d** = non exposés non malades (témoins non exposés). Propriété fondamentale : il est **égal** à l'odds ratio de maladie (exposés vs non-exposés), (a/b)/(c/d) = ad/bc, qui **approche le RR** quand la maladie est **rare** (incidence < 5-10 % dans la population source, « hypothèse de maladie rare » de Cornfield [S16]). Avec un échantillonnage des témoins par densité d'incidence (étude cas-témoins nichée, témoins tirés parmi les sujets à risque au moment de chaque cas), l'OR estime directement le **rapport des taux d'incidence**, sans hypothèse de rareté [S1].
 
 **Exemple 5 (fictif) — calcul complet** : 200 cas et 400 témoins ; 120 cas et 120 témoins ont été exposés.
 
 | | Cas | Témoins | Total |
 |---|---|---|---|
-| Exposés | a = 120 | c = 120 | 240 |
-| Non exposés | b = 80 | d = 280 | 360 |
+| Exposés | a = 120 | b = 120 | 240 |
+| Non exposés | c = 80 | d = 280 | 360 |
 | Total | 200 | 400 | 600 |
 
 - Proportion d'exposés : 60 % chez les cas (120/200), 30 % chez les témoins (120/400).
-- **OR** = (120 × 280)/(80 × 120) = 33 600/9 600 = **3,5**.
-- **IC 95 % (méthode de Woolf)** : ln OR = 1,2528 ; ES = √(1/120 + 1/80 + 1/120 + 1/280) = √0,03274 = 0,1809 ; bornes = e^(1,2528 ± 1,96 × 0,1809) = e^(0,8981) et e^(1,6074) = **2,46 à 4,99**.
+- **OR** = (a × d)/(b × c) = (120 × 280)/(120 × 80) = 33 600/9 600 = **3,5**.
+- **IC 95 % (méthode de Woolf)** : ln OR = 1,2528 ; ES = √(1/a + 1/b + 1/c + 1/d) = √(1/120 + 1/120 + 1/80 + 1/280) = √0,03274 = 0,1809 ; bornes = e^(1,2528 ± 1,96 × 0,1809) = e^(0,8981) et e^(1,6074) = **2,46 à 4,99**.
 - **χ² de Pearson** (sans correction) = N(ad − bc)²/[(a + b)(c + d)(a + c)(b + d)] avec les totaux de lignes 240 et 360 et de colonnes 200 et 400 : ad − bc = 33 600 − 9 600 = 24 000 ; χ² = 600 × 24 000² / (240 × 360 × 200 × 400) = 345 600 000 000 / 6 912 000 000 = **50,0** (1 ddl ; seuil 3,84 à 5 %) → p < 0,001.
 - **FAP de Miettinen** (si maladie rare et relation causale) = pc × (OR − 1)/OR = 0,6 × 2,5/3,5 = **42,9 %**.
 
@@ -574,7 +580,7 @@ Exemple classique : l'association entre consommation de café et infarctus peut 
 
 - Le tabac est lié à l'exposition : chez les témoins, 80 % des fumeurs (40/50) contre 20 % des non-fumeurs (30/150) boivent du café.
 - Le tabac est lié à la maladie : 67 % des cas (100/150) contre 25 % des témoins (50/200) fument.
-- **OR de Mantel-Haenszel** = Σ(aᵢdᵢ/nᵢ)/Σ(bᵢcᵢ/nᵢ) [S7], avec aᵢ = cas exposés, dᵢ = témoins non exposés, bᵢ = cas non exposés, cᵢ = témoins exposés : strate fumeurs (n = 150) : 800/150 = 5,333 et 800/150 = 5,333 ; strate non-fumeurs (n = 200) : 1 200/200 = 6 et 1 200/200 = 6 → OR_MH = 11,333/11,333 = **1,0**.
+- **OR de Mantel-Haenszel** = Σ(aᵢdᵢ/nᵢ)/Σ(bᵢcᵢ/nᵢ) [S7], avec aᵢ = cas exposés, bᵢ = témoins exposés, cᵢ = cas non exposés, dᵢ = témoins non exposés (même convention qu'au § 6.5) : strate fumeurs (n = 150) : 800/150 = 5,333 et 800/150 = 5,333 ; strate non-fumeurs (n = 200) : 1 200/200 = 6 et 1 200/200 = 6 → OR_MH = 11,333/11,333 = **1,0**.
 - Conclusion : l'association brute (OR = 2,79) est **entièrement due à la confusion** par le tabac ; à tabagisme égal, le café n'est pas associé à l'infarctus. Règle pratique : si l'OR ajusté diffère de l'OR brut de plus de 10 à 20 % environ, le facteur est considéré comme confondant (critère de changement d'estimation, à interpréter avec jugement).
 
 ### 10.3 Interaction (modification de l'effet)
@@ -677,7 +683,7 @@ Les **postulats de Koch** (agent présent dans tous les cas, isolé, reproduisan
 | Taille d'échantillon (prévalence) | p = 15 %, d = ± 2 %, 95 %, deff 2, non-réponse 10 % | 1 225 → 2 450 → 2 723 |
 | Taille d'échantillon (2 proportions) | 30 % vs 20 %, α 5 %, puissance 80 % | 291 par groupe |
 | Transversale | HTA 50 % vs 25 % | RP = 2,0 ; OR de prévalence = 3,0 |
-| Cas-témoins | a = 120, b = 80, c = 120, d = 280 | OR = 3,5 (IC 95 % 2,46-4,99) ; χ² = 50,0 |
+| Cas-témoins | a = 120, b = 120, c = 80, d = 280 | OR = 3,5 (IC 95 % 2,46-4,99) ; χ² = 50,0 |
 | Cas-témoins appariée | 60 paires (cas+/témoin−), 20 paires (cas−/témoin+) | OR = 3,0 |
 | Cohorte (personnes-temps) | 30/12 000 PA vs 20/20 000 PA | Rapport des taux 2,5 ; différence 1,5 ‰ PA |
 | OR vs RR | 40 % vs 20 % | RR 2,0 ; OR 2,67 |

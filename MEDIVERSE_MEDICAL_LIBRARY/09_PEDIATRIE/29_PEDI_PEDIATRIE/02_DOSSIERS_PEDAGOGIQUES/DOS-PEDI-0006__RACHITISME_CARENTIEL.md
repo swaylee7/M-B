@@ -6,11 +6,17 @@ sous_specialite: "Nutrition et métabolisme phosphocalcique de l'enfant"
 items_residanat: [RES-MED-068]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-05 (IA) — dossier pédagogique original (lot 2)"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01/AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 12
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-PEDI-0006.md
 sources:
   - id: S1
     reference: "Munns CF, Shaw N, Kiely M, et al. Global consensus recommendations on prevention and management of nutritional rickets. J Clin Endocrinol Metab. 2016;101(2):394-415. PMID 26745253 (référence confirmée par PubMed ; résumé lu ; posologies de traitement et de prévention confirmées par recherche web — texte intégral non relu)."
@@ -93,7 +99,7 @@ sources:
     url: "https://pubmed.ncbi.nlm.nih.gov/2677969/"
     verifiee: true
   - id: S11
-    reference: "Schéma national algérien de prévention du rachitisme carentiel (vitamine D 200 000 UI par voie orale à 1 mois et à 6 mois), rapporté par des supports d'enseignement universitaires algériens et une étude sur des enfants algériens de 1 à 23 mois retrouvés par recherche web ; texte réglementaire (circulaire/instruction du ministère de la Santé) NON retrouvé."
+    reference: "Schéma national algérien de prévention du rachitisme carentiel (vitamine D 200 000 UI par voie orale à 1 mois et à 6 mois), rapporté par des supports d'enseignement universitaires algériens (Annaba) et une étude sur des enfants algériens de 1 à 23 mois retrouvés par recherche web. Base réglementaire probable : instruction n° 84/MSP/DP du 21 décembre 1988 portant nouveau schéma prophylactique du rachitisme carentiel (référencée par une base juridique en ligne ; seul le préambule est visible, dispositif NON lu, vigueur actuelle non confirmée)."
     organisme: MSPRH
     annee: ""
     type: texte_officiel
@@ -124,14 +130,30 @@ sources:
     doi: "10.1016/j.bone.2019.02.010"
     url: "https://pubmed.ncbi.nlm.nih.gov/30772600/"
     verifiee: true
+  - id: S15
+    reference: "Thandrayen K, Pettifor JM. The roles of vitamin D and dietary calcium in nutritional rickets. Bone Rep. 2018;8:81-89. PMID 29955625, PMC6019962 — texte intégral lu par l'audit (tableau 4 reproduisant les doses de traitement du consensus mondial 2016 ; seuils du statut vitaminique D et des apports calciques)."
+    organisme: ""
+    annee: 2018
+    type: article
+    doi: "10.1016/j.bonr.2018.01.005"
+    url: "https://pubmed.ncbi.nlm.nih.gov/29955625/"
+    verifiee: true
+  - id: S16
+    reference: "BNF for Children — gluconate de calcium, hypocalcémie aiguë de l'enfant : 0,11 mmol/kg (0,5 mL/kg de gluconate de calcium à 10 %, maximum 4,5 mmol = 20 mL) en injection IV lente (5–10 min) sous surveillance ECG ; nouveau-né : 0,46 mmol/kg (2 mL/kg). Texte primaire non consulté ; posologie confirmée par recherche web (protocole NHS Tayside reproduisant le BNFc ; monographie du Perth Children's Hospital)."
+    organisme: "BNFc (Royaume-Uni)"
+    annee: 2026
+    type: ouvrage
+    doi: ""
+    url: ""
+    verifiee: true
 mots_cles: [rachitisme carentiel, rachitisme nutritionnel, vitamine D, cholécalciférol, 25-hydroxyvitamine D, hypocalcémie, phosphatases alcalines, parathormone, hyperparathyroïdie secondaire, chapelet costal, bourrelets épiphysaires, craniotabès, convulsions hypocalcémiques, cardiomyopathie, supplémentation, prévention, Algérie]
 ---
 
 # Rachitisme carentiel : diagnostic, prévention, traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
-> **Vérification des sources (19/11/2026)** : la référence centrale est le **consensus mondial de 2016 sur le rachitisme nutritionnel** [S1, S2], dont le texte intégral n'a pas pu être téléchargé (hôtes hors réseau) : son résumé a été lu et ses posologies quotidiennes de traitement et de prévention ont été confirmées par recherche web ; les **doses uniques (« stoss »)** par tranche d'âge et certains seuils sont signalés **[À VÉRIFIER]**. Recommandation OMS 2022 sur le prématuré (DOC-00051), Mémento OMS 2015 (DOC-00062) et liste OMS des médicaments essentiels de l'enfant 2025 (DOC-00037) lus ; études algériennes confirmées par PubMed. **Le texte officiel du schéma national algérien de supplémentation n'a pas été retrouvé** [S11].
+> Statut : audité (AUD-01/AUD-02, 19/11/2026, v1.1) — corrections requises : magnésium et schémas intermittents français non sourcés, schéma national algérien non vérifié sur le texte officiel. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> **Vérification des sources (19/11/2026)** : la référence centrale est le **consensus mondial de 2016 sur le rachitisme nutritionnel** [S1, S2], dont le texte intégral n'a pas pu être téléchargé (hôtes hors réseau) : son résumé a été lu ; l'audit a confirmé le tableau des doses de traitement (quotidiennes et uniques) et les seuils du statut vitaminique et des apports calciques dans une revue qui les reproduit en texte intégral [S15]. Recommandation OMS 2022 sur le prématuré (DOC-00051), Mémento OMS 2015 (DOC-00062) et liste OMS des médicaments essentiels de l'enfant 2025 (DOC-00037) lus ; études algériennes confirmées par PubMed. **Le texte officiel du schéma national algérien de supplémentation n'a pas été retrouvé** [S11].
 
 **Item du programme couvert** : RES-MED-068 — « Rachitisme carentiel : Diagnostic - prévention - traitement ».
 
@@ -165,13 +187,13 @@ Le statut en vitamine D s'apprécie sur la **25-hydroxyvitamine D (25-OHD)** sé
 | **Suffisance** | **> 50 nmol/L** (> 20 ng/mL) |
 | **Insuffisance** | **30–50 nmol/L** (12–20 ng/mL) |
 | **Carence** | **< 30 nmol/L** (< 12 ng/mL) |
-| **Toxicité** | > 250 nmol/L **avec** hypercalcémie, hypercalciurie et PTH freinée |
+| **Toxicité** | > 250 nmol/L **avec** hypercalcémie, hypercalciurie et PTH freinée **[À VÉRIFIER — texte intégral du consensus]** |
 
-*(Seuils couramment attribués au consensus ; à confronter au texte intégral [À VÉRIFIER].)* Conversion : **1 ng/mL = 2,5 nmol/L**.
+*(Seuils de carence, d'insuffisance et de suffisance du consensus, confirmés par l'audit [S15].)* Conversion : **1 ng/mL = 2,5 nmol/L**.
 
 ### 1.2 Apports calciques
 
-Le consensus distingue aussi des apports calciques **suffisants (> 500 mg/j)**, **insuffisants (300–500 mg/j)** et **carencés (< 300 mg/j)** chez l'enfant de plus de 12 mois **[seuils À VÉRIFIER — texte intégral non relu]** [S1]. Une carence calcique isolée, avec une 25-OHD normale, peut provoquer un rachitisme dans les populations à faible consommation de produits laitiers.
+Le consensus distingue aussi des apports calciques **suffisants (> 500 mg/j)**, **insuffisants (300–500 mg/j)** et **carencés (< 300 mg/j)** chez l'enfant de plus de 12 mois [S1, S15]. Une carence calcique isolée, avec une 25-OHD normale, peut provoquer un rachitisme dans les populations à faible consommation de produits laitiers.
 
 ### 1.3 Le diagnostic repose sur un faisceau
 
@@ -458,7 +480,7 @@ Excellent si le diagnostic est précoce et le traitement bien conduit ; la morta
 |---|---|---|---|
 | **Vitamine D3 (cholécalciférol)** ou D2 (ergocalciférol) | Solution buvable 400 UI/mL ; formes orales solides 400 et 1 000 UI (liste OMS 2025) ; ampoules à forte dose (100 000–200 000 UI, selon les spécialités disponibles) | [S7] | **Voie orale préférée** (la 25-OHD remonte plus vite qu'avec la voie IM) ; pour les fortes doses uniques, la **D3 est préférée** à la D2 (demi-vie plus longue) [S1] |
 | **Calcium élémentaire oral** | **500 mg/j** en association avec la vitamine D, **quel que soit l'âge ou le poids**, par l'alimentation ou un supplément [S1] | [S1] | Indispensable : prévient l'hypocalcémie de reminéralisation (« os affamé ») |
-| **Gluconate de calcium 10 % IV** | Nouveau-né : **2 mL/kg** en perfusion IV lente (OMS) [S6] ; nourrisson et enfant : **[POSOLOGIE À VÉRIFIER — RCP / protocole local]** | [S6] | **Sous scope ECG**, voie veineuse sûre (nécrose en cas d'extravasation), jamais en même temps que des bicarbonates |
+| **Gluconate de calcium 10 % IV** | Nouveau-né : **2 mL/kg** en perfusion IV lente (OMS [S6] ; BNFc [S16]) ; nourrisson et enfant : **0,5 mL/kg (0,11 mmol/kg), maximum 20 mL, en IV lente sur 5 à 10 minutes** (BNFc [S16]), relais par perfusion continue ou calcium oral selon la calcémie (débits selon le protocole local) | [S6, S16] | **Sous scope ECG**, voie veineuse sûre (nécrose en cas d'extravasation), jamais en même temps que des bicarbonates |
 | **Magnésium** | Si hypomagnésémie associée **[POSOLOGIE À VÉRIFIER — RCP / protocole local]** | — | Une hypomagnésémie empêche la correction de la calcémie |
 | **Calcitriol ou alfacalcidol** | **Non indiqués** dans le rachitisme carentiel (réservés aux rachitismes pseudo-carentiels, à l'hypoparathyroïdie, à l'insuffisance rénale, ou transitoirement dans certaines hypocalcémies sévères selon avis spécialisé) | — | Ne corrigent pas la carence en réserves (25-OHD) |
 | **Orthopédie** | Surveillance ; chirurgie seulement pour les déformations persistantes après guérison | — | La plupart des déformations du jeune enfant se corrigent |
@@ -470,9 +492,9 @@ Excellent si le diagnostic est précoce et le traitement bien conduit ; la morta
 ```text
 1. Convulsion en cours → protocole de l'état de mal (DOS-PEDI-0005) + glycémie.
 2. Hospitalisation, scope ECG (QT), voie veineuse sûre.
-3. Gluconate de calcium 10 % IV LENTE (posologie selon le protocole local ;
-   2 mL/kg chez le nouveau-né selon l'OMS [S6]), puis relais IV continu ou oral
-   selon la calcémie.
+3. Gluconate de calcium 10 % IV LENTE : 0,5 mL/kg (max 20 mL) en 5–10 min chez
+   le nourrisson et l'enfant (BNFc [S16]) ; 2 mL/kg chez le nouveau-né (OMS [S6]) ;
+   puis relais IV continu ou oral selon la calcémie.
 4. Magnésémie : corriger une hypomagnésémie.
 5. Calcium oral (≥ 500 mg/j d'élément) dès que possible [S1].
 6. Vitamine D (traitement curatif, §13.3.2) une fois la calcémie sécurisée,
@@ -484,7 +506,16 @@ Excellent si le diagnostic est précoce et le traitement bien conduit ; la morta
 
 **Consensus mondial 2016** [S1] :
 
-- **Vitamine D** : au minimum **2 000 UI/j (50 µg/j) pendant au moins 3 mois** ; des doses quotidiennes plus élevées selon l'âge, ou une **dose unique (« stoss »)** orale, sont des alternatives proposées dans le tableau du consensus : de l'ordre de **50 000 UI entre 3 et 12 mois**, **150 000 UI de 12 mois à 12 ans** et **300 000 UI après 12 ans**, la dose unique n'étant **pas** proposée avant 3 mois, et des doses quotidiennes de **3 000 à 6 000 UI** de 1 à 12 ans et de **6 000 UI** après 12 ans **[POSOLOGIE À VÉRIFIER — tableau du consensus 2016, texte intégral non relu ; seules la dose minimale de 2 000 UI/j pendant 3 mois et l'apport calcique de 500 mg/j ont été confirmés]**.
+- **Vitamine D** : au minimum **2 000 UI/j (50 µg/j) pendant au moins 3 mois** ; tableau du consensus (doses quotidiennes pendant 90 jours ou dose unique orale « stoss », puis entretien) [S1, S15] :
+
+| Âge | Dose quotidienne pendant 90 jours | Dose unique | Entretien quotidien |
+|---|---|---|---|
+| < 3 mois | 2 000 UI | Non proposée | 400 UI |
+| 3–12 mois | 2 000 UI | 50 000 UI | 400 UI |
+| > 12 mois à 12 ans | 3 000–6 000 UI | 150 000 UI | 600 UI |
+| > 12 ans | 6 000 UI | 300 000 UI | 600 UI |
+
+  La réponse est réévaluée à 3 mois (un traitement supplémentaire peut être nécessaire) et l'apport calcique d'au moins 500 mg/j est assuré [S15].
 - **Calcium** : **500 mg/j**, systématiquement, en association avec la vitamine D [S1].
 - **Entretien** après le traitement : **400 UI/j avant 12 mois** et **600 UI/j après 12 mois** (doses de prévention) [S1].
 
@@ -510,7 +541,7 @@ Supplément **calcique** (500 mg/j ou davantage selon l'avis spécialisé) **et*
 
 ### 13.4 Particularités algériennes
 
-- **Schéma national de prévention** : selon des supports d'enseignement universitaires algériens et une étude sur des enfants de 1 à 23 mois, la prévention repose sur **200 000 UI de vitamine D par voie orale à 1 mois et à 6 mois** ; le **texte réglementaire** (circulaire ou instruction du ministère de la Santé, date) **n'a pas été retrouvé** pendant la session [S11] **[À VÉRIFIER — MSPRH/INSP]**.
+- **Schéma national de prévention** : selon des supports d'enseignement universitaires algériens et une étude sur des enfants de 1 à 23 mois, la prévention repose sur **200 000 UI de vitamine D par voie orale à 1 mois et à 6 mois** ; la base réglementaire paraît être l'**instruction n° 84/MSP/DP du 21 décembre 1988** « portant nouveau schéma prophylactique du rachitisme carentiel », dont le dispositif n'a pas pu être lu ni sa vigueur actuelle confirmée [S11] **[À VÉRIFIER — MSPRH/INSP]**.
 - Ce schéma intermittent diffère des recommandations internationales (dose **quotidienne** de 400 UI la première année [S1]) ; une étude algéroise conclut à la nécessité d'**actualiser** le calendrier de supplémentation, au vu de la fréquence de la carence chez l'enfant d'âge préscolaire [S8].
 - La vitamine D ne fait pas partie du calendrier vaccinal fixé par les arrêtés de 2018 et 2026 (DOS-PEDI-0002) : elle est administrée dans le cadre du suivi de l'enfant **[modalités pratiques À VÉRIFIER]**.
 - Disponibilité des formes quotidiennes à 400 UI et des ampoules à forte dose dans les structures publiques : **[À VÉRIFIER]**.
@@ -520,8 +551,8 @@ Supplément **calcique** (500 mg/j ou davantage selon l'avis spécialisé) **et*
 | Moment | Éléments | But |
 |---|---|---|
 | **Phase aiguë** (hypocalcémie) | Calcémie (ionisée), phosphatémie, magnésémie, ECG/scope, glycémie, conscience | Sécurité de la correction |
-| **1 mois** (repère) | Calcémie, phosphatémie, PAL ; calciurie (rapport Ca/créatinine) si forte dose | Réponse initiale ; dépistage de l'hypercalciurie **[rythme À VÉRIFIER — protocole local]** |
-| **3 mois** | Calcémie, phosphatémie, **PAL**, **PTH**, **25-OHD** ; **radiographie** du poignet ou du genou | Guérison biologique et radiologique (le consensus prévoit une réévaluation à l'issue des 3 mois de traitement) **[modalités exactes À VÉRIFIER]** [S1] |
+| **1 mois** (repère) | Calcémie, phosphatémie, PAL ; calciurie (rapport Ca/créatinine) si forte dose | Réponse initiale ; dépistage de l'hypercalciurie (contrôle intermédiaire de pratique courante, non tiré du consensus) **[rythme À VÉRIFIER — protocole local]** |
+| **3 mois** | Calcémie, phosphatémie, **PAL**, **PTH**, **25-OHD** ; **radiographie** du poignet ou du genou | Guérison biologique et radiologique : le consensus prévoit une réévaluation de la réponse à 3 mois, un traitement supplémentaire pouvant être nécessaire [S1, S15] ; liste exacte des examens **[À VÉRIFIER — texte intégral]** |
 | **Suivi prolongé** | Croissance, déformations, développement moteur, observance de la dose d'entretien | Prévention de la récidive |
 
 **Signes de surdosage** à expliquer aux parents : anorexie, vomissements, constipation, polyurie-polydipsie, cassure pondérale ; biologie : **hypercalcémie, hypercalciurie**, PTH freinée ; échographie rénale si suspicion de néphrocalcinose.
@@ -533,7 +564,7 @@ Supplément **calcique** (500 mg/j ou davantage selon l'avis spécialisé) **et*
 ### 15.1 Nourrisson (0–12 mois)
 
 - **Consensus mondial 2016** : **400 UI/j** de vitamine D pour **tous les nourrissons de la naissance à 12 mois, quel que soit le mode d'alimentation** [S1].
-- **AAP 2008** : 400 UI/j dès les premiers jours de vie chez le nourrisson allaité ou partiellement allaité, et chez le nourrisson nourri au lait infantile qui en consomme moins d'un litre par jour [S4] *(position citée sans relecture du texte intégral)*.
+- **AAP 2008** : apport minimal de **400 UI/j** dès les premiers jours de vie pour **tous** les nourrissons, enfants et adolescents (résumé relu par l'audit) ; en pratique, supplémentation du nourrisson allaité ou partiellement allaité et de celui qui consomme moins d'un litre par jour de lait infantile enrichi [S4] *(modalités détaillées citées sans relecture du texte intégral)*.
 - **France (2022)** : **400 à 800 UI/j de 0 à 2 ans**, quel que soit le mode d'alimentation [S3].
 - **Algérie** : schéma national rapporté de **200 000 UI à 1 et 6 mois** [S11] **[À VÉRIFIER]**.
 
@@ -608,10 +639,10 @@ Biologie : **calcémie 1,55 mmol/L** (N 2,2–2,6), phosphatémie 1,4 mmol/L (no
 *Réponse* : **convulsions hypocalcémiques** révélant un **rachitisme carentiel** (carence profonde en vitamine D : 25-OHD < 30 nmol/L [S1], hyperparathyroïdie secondaire, PAL élevées), favorisé par l'allaitement exclusif **sans supplémentation**, la naissance en hiver et une **carence maternelle** probable (vêtements couvrants, grossesses rapprochées).
 
 **Question 2 — Quelle est la prise en charge immédiate ?**
-*Réponse* : hospitalisation, **scope** (QT long) ; **gluconate de calcium 10 % IV lente** selon le protocole du service [POSOLOGIE À VÉRIFIER — RCP / protocole local], relais IV puis **calcium oral** (≥ 500 mg/j d'élément) [S1] ; contrôle répété de la calcémie ; la vitamine D est débutée une fois la calcémie sécurisée, **sous couvert de l'apport calcique** ; échocardiographie (faite, normale) [S13].
+*Réponse* : hospitalisation, **scope** (QT long) ; **gluconate de calcium 10 % IV lente** : 0,5 mL/kg, soit **3,2 mL** en 5 à 10 minutes (BNFc [S16]), relais IV continu selon le protocole du service puis **calcium oral** (≥ 500 mg/j d'élément) [S1] ; contrôle répété de la calcémie ; la vitamine D est débutée une fois la calcémie sécurisée, **sous couvert de l'apport calcique** ; échocardiographie (faite, normale) [S13].
 
 **Question 3 — Quel traitement de fond proposez-vous et comment le surveillez-vous ?**
-*Réponse* : **vitamine D3 ≥ 2 000 UI/j pendant au moins 3 mois** (ou une dose unique orale adaptée à l'âge, non recommandée avant 3 mois — ici possible à 4,5 mois selon le tableau du consensus [POSOLOGIE À VÉRIFIER]) **+ calcium 500 mg/j** [S1] ; réévaluation clinique, biologique (Ca, P, PAL, PTH, 25-OHD, calciurie) et **radiographique** à 3 mois ; puis **400 UI/j** jusqu'à 12 mois et 600 UI/j ensuite [S1].
+*Réponse* : **vitamine D3 ≥ 2 000 UI/j pendant au moins 3 mois** (ou une **dose unique orale de 50 000 UI**, proposée de 3 à 12 mois par le tableau du consensus [S15] — à éviter tant que la calcémie n'est pas corrigée) **+ calcium 500 mg/j** [S1] ; réévaluation clinique, biologique (Ca, P, PAL, PTH, 25-OHD, calciurie) et **radiographique** à 3 mois ; puis **400 UI/j** jusqu'à 12 mois et 600 UI/j ensuite [S1].
 
 **Question 4 — Quelles mesures pour la famille ?**
 *Réponse* : bilan et supplémentation de la **mère** (allaitante) ; vérification de la supplémentation des frères et sœurs ; éducation (supplémentation régulière, exposition solaire raisonnable, diversification avec produits laitiers à partir de 6 mois) ; rappel du schéma national de prévention [S11].
@@ -746,7 +777,7 @@ Biologie : **calcémie 1,55 mmol/L** (N 2,2–2,6), phosphatémie 1,4 mmol/L (no
 | Question | Consensus mondial 2016 [S1] | France 2022 [S3] | AAP 2008 [S4] | OMS [S5, S6] | Algérie (schéma rapporté) [S11] |
 |---|---|---|---|---|---|
 | **Prévention 0–12 mois** | **400 UI/j** pour tous, quel que soit l'allaitement | **400–800 UI/j** (0–2 ans) | 400 UI/j (allaité ou < 1 L/j de lait infantile) | Prématuré nourri au lait humain : 400–800 UI/j (conditionnelle, 2022) ; faible poids : 400 UI/j + Ca + P (2015) | **200 000 UI à 1 mois et à 6 mois** (doses intermittentes) **[À VÉRIFIER]** |
-| **Prévention après 12 mois** | **≥ 600 UI/j** (alimentation et/ou supplément) | **400–800 UI/j** jusqu'à 18 ans ; **800–1 600 UI/j** si facteurs de risque | **[non relu — À VÉRIFIER]** | — | Non précisé dans les sources retrouvées |
+| **Prévention après 12 mois** | **≥ 600 UI/j** (alimentation et/ou supplément) | **400–800 UI/j** jusqu'à 18 ans ; **800–1 600 UI/j** si facteurs de risque | **≥ 400 UI/j** (enfants et adolescents) | — | Non précisé dans les sources retrouvées |
 | **Mode d'administration** | Quotidien privilégié ; doses uniques réservées au traitement | Quotidien ; intermittent si observance douteuse **[schémas À VÉRIFIER]** | Quotidien | Quotidien | Intermittent à forte dose |
 | **Traitement curatif** | ≥ 2 000 UI/j ≥ 3 mois (ou dose unique selon l'âge) **+ calcium 500 mg/j** | Hors champ du consensus de prévention | — | — | Schéma curatif national **[À VÉRIFIER]** |
 | **Grossesse** | 600 UI/j | Supplémentation recommandée par d'autres textes français **[À VÉRIFIER]** | — | — | **[À VÉRIFIER]** |
@@ -769,5 +800,7 @@ Biologie : **calcémie 1,55 mmol/L** (N 2,2–2,6), phosphatémie 1,4 mmol/L (no
 12. **[S12]** Haffner D, Emma F, Eastwood DM, et al. Clinical practice recommendations for the diagnosis and management of X-linked hypophosphataemia. *Nat Rev Nephrol*. 2019;15(7):435-455. doi:10.1038/s41581-019-0152-5. PMID 31068690.
 13. **[S13]** Uday S, Fratzl-Zelman N, Roschger P, et al. Cardiac, bone and growth plate manifestations in hypocalcemic infants: revealing the hidden body of the vitamin D deficiency iceberg. *BMC Pediatr*. 2018;18(1):183. doi:10.1186/s12887-018-1159-y. PMID 29940979.
 14. **[S14]** Thacher TD, Pettifor JM, Tebben PJ, et al. Rickets severity predicts clinical outcomes in children with X-linked hypophosphatemia: utility of the radiographic Rickets Severity Score. *Bone*. 2019;122:76-81. doi:10.1016/j.bone.2019.02.010. PMID 30772600.
+15. **[S15]** Thandrayen K, Pettifor JM. The roles of vitamin D and dietary calcium in nutritional rickets. *Bone Rep*. 2018;8:81-89. doi:10.1016/j.bonr.2018.01.005. PMID 29955625 (texte intégral lu).
+16. **[S16]** *BNF for Children* — gluconate de calcium (hypocalcémie aiguë) ; posologie confirmée par recherche web (texte primaire non consulté).
 
 *Dossiers Mediverse liés : DOS-PEDI-0002 (calendrier vaccinal), DOS-PEDI-0003 (malnutrition), DOS-PEDI-0005 (convulsions du nourrisson), DOS-NEON-0003 (prématuré).*

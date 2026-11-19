@@ -6,7 +6,7 @@ sous_specialite: "Chutes — syndromes gériatriques"
 items_residanat: [RES-MED-159]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-15 (IA) — dossier pédagogique original"
@@ -30,6 +30,12 @@ audit:
     corrections: 5
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-GERI-0001.md
     remarque: "S1, S5, S7-S13, S17, S18 vérifiées par PubMed (eutils) ; S6 actualisée (OMS, 21 octobre 2026)."
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_valide
+    corrections: 2
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
+    remarque: "Audit de cohérence (lot 6 RES-06) : articles de la loi 18-11 précisés d'après le texte (DOC-00074 relu) — personnes en difficulté : définition art. 88 (dont certaines personnes âgées), protection à la charge de l'État et gratuité art. 89-90 ; population cible de la HAS 2009 corrigée en « plus de 65 ans » (> 65 ans, libellé HAS vérifié par recherche), l'USPSTF retenant « ≥ 65 ans ». Aucun marqueur ajouté."
 sources:
   - id: S1
     reference: "Montero-Odasso M, van der Velde N, Martin FC, et al.; Task Force on Global Guidelines for Falls in Older Adults. World guidelines for falls prevention and management for older adults: a global initiative. Age Ageing. 2022;51(9):afac205."
@@ -559,7 +565,7 @@ Station au sol prolongée, incapacité à se relever, chutes répétées, fractu
 
 ### 13.4 Particularités algériennes
 
-- Cadre légal : programmes de protection de la santé des personnes âgées et prise en charge à domicile (loi 18-11, art. 86-87) ; gratuité de la couverture sanitaire pour les personnes en difficulté, dont certaines personnes âgées (art. 88-90) ; soins palliatifs, soins et hospitalisation à domicile (art. 281, 286-287) ; obligation de **signaler les violences** subies notamment par les personnes âgées (art. 198) [S14] ; loi 10-12 relative à la protection des personnes âgées [S15].
+- Cadre légal : programmes de protection de la santé des personnes âgées et prise en charge à domicile (loi 18-11, art. 86-87) ; personnes en difficulté, dont certaines personnes âgées (définition, art. 88), qui ont droit à une protection sanitaire à la charge de l'État et à une couverture sanitaire gratuite (art. 89-90) ; soins palliatifs, soins et hospitalisation à domicile (art. 281, 286-287) ; obligation de **signaler les violences** subies notamment par les personnes âgées (art. 198) [S14] ; loi 10-12 relative à la protection des personnes âgées [S15].
 - Aucune recommandation nationale algérienne spécifique aux chutes du sujet âgé, ni programme national dédié, n'a été identifié pendant la rédaction `[À VÉRIFIER]` ; en pratique, la prise en charge mobilise le médecin généraliste (médecin référent), les services de médecine interne ou de gériatrie lorsqu'ils existent, la rééducation fonctionnelle et la kinésithérapie, et l'entourage familial, souvent central dans l'aide aux personnes âgées.
 - La disponibilité des aides techniques, de la téléassistance, de l'ergothérapie et des programmes d'exercices supervisés varie selon les wilayas `[À VÉRIFIER]` ; des programmes d'exercices à domicile simples, enseignés au patient et à l'aidant, sont une option réaliste.
 
@@ -769,7 +775,7 @@ E. La HAS (2009) recommande une imagerie cérébrale systématique après toute 
 |---|---|---|---|
 | Vitamine D | HAS 2009 : correction d'une carence par au moins 800 UI/j chez toute personne faisant des chutes répétées (R18) [S3] ; recommandations mondiales 2022 : supplémentation réservée aux sujets à risque de carence (800 à 1 000 UI/j), recommandée en établissement d'hébergement dans une intervention multidomaine (1B), pas de supplémentation universelle [S1] | USPSTF 2018 : recommandation **contre** la vitamine D pour prévenir les chutes chez les sujets autonomes à domicile ; USPSTF 2024 : sujet retiré de la recommandation et renvoyé à une revue séparée [S5] ; NICE NG249 (2025) : preuves insuffisantes pour prendre de la vitamine D dans le seul but de réduire les chutes, suivre les conseils nationaux pour la santé osseuse et musculaire (1.3.4) [S2] | Corriger une carence et traiter l'ostéoporose restent légitimes ; la vitamine D n'est pas un substitut à l'exercice |
 | Interventions multifactorielles | Recommandations mondiales 2022 et NICE 2025 : recommandées chez les sujets à risque élevé [S1, S2] | USPSTF 2024 : grade C (bénéfice net faible, décision individualisée) [S5] | L'efficacité dépend de la mise en œuvre effective des interventions |
-| Population cible | Recommandations mondiales 2022, HAS 2009 : personnes âgées (≥ 65 ans selon HAS) [S1, S3] | NICE NG249 (2025) : étend la démarche aux personnes de **50 ans et plus** à risque plus élevé [S2] | Approche fondée sur le risque plutôt que sur l'âge seul |
+| Population cible | Recommandations mondiales 2022, HAS 2009 : personnes âgées (plus de 65 ans, « > 65 ans », selon la HAS) [S1, S3] | NICE NG249 (2025) : étend la démarche aux personnes de **50 ans et plus** à risque plus élevé [S2] | Approche fondée sur le risque plutôt que sur l'âge seul |
 | Seuil du TUG | Algorithme mondial 2022 : > 15 s, en alternative à la vitesse de marche < 0,8 m/s, critère préféré [S1] | HAS 2009 : risque de récidive élevé si TUG ≥ 20 s avec station unipodale ≤ 5 s (R4) [S3] ; autres sources : 12 à 20 s | Toujours préciser le seuil et la source |
 | Outils de prédiction du risque | Recommandations mondiales 2022 : stratification par un algorithme (antécédent de chute, critères de sévérité, marche) [S1] | NICE NG249 (2025) : ne pas utiliser d'outil de prédiction du risque de chute ; questionner sur les chutes et évaluer selon des critères cliniques (1.1.1-1.1.3) [S2] | Les deux approches convergent en pratique sur les mêmes critères cliniques |
 | Hospitalisés et résidents d'établissements | NICE 2025 : évaluation complète sans autre critère d'entrée [S2] | Recommandations plus anciennes centrées sur le domicile | Prévention institutionnelle à organiser |

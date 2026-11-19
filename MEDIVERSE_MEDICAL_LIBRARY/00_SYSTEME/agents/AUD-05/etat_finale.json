@@ -1,11 +1,11 @@
 {
   "id": "AUD-05",
   "passe": "coherence_finale",
-  "statut": "termine",
+  "statut": "termine_avec_points_ouverts",
   "derniere_execution": "2026-11-19",
   "file_traitee": "00_SYSTEME/files_attente/coherence_a_traiter.md",
-  "points_traites": 17,
-  "points_ouverts": 0,
+  "points_traites": 22,
+  "points_ouverts": 3,
   "decisions": {
     "harmonisations": [
       "RHUM-0001 (MTX 3E, libellé DAS28)",
@@ -36,7 +36,7 @@
     "index": "RES-MED-101 -> MINT,RHUM (importer_programme_residanat.py + indexer.py, anomalies 0)"
   },
   "compteurs": {
-    "dossiers_modifies": 19,
+    "dossiers_modifies": 25,
     "fiches_modifiees": 19,
     "qcm_modifies": 4,
     "cas_modifies": 7,
@@ -48,6 +48,7 @@
   },
   "sauvegardes": "00_SYSTEME/sauvegardes/20261119/<chemin>.avant_AUD-05b.<ext> (49 fichiers)",
   "taches_suivantes": [
+    "Après autorisation : aligner FIC-GERI-0001, FIC-EPID-0002, FIC-INFE-0006 (texte exact dans le rapport) et mettre à jour les en-têtes de FIC-GERI-0001/0002, FIC-SPUB-0001, FIC-EPID-0001/0002, FIC-INFE-0006",
     "Relire CLAFU 2022 et actualisation SFMU 2008 (délai d'imagerie de la CN simple)",
     "Relire RCUK 2021 (barème adrénaline, volumes de remplissage)",
     "Relire RFE SFAR 2018 TC grave (seuil SpO2/PaO2)",
@@ -56,5 +57,17 @@
     "Fiche HAS OMA enfant (PDF) et RCP pédiatrique du cotrimoxazole",
     "Facultatif : renvoi DOS-CARD-0002 -> divergence HTA sévère gravidique de DOS-OBST-0001"
   ],
-  "rapport": "00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md"
+  "rapport": "00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md",
+  "lot6": {
+    "resolus": [
+      "GERI-0002 : CIM-11 6D70 harmonisé (marqueur levé)",
+      "GERI-0001 : HAS 2009 « > 65 ans »"
+    ],
+    "dossiers_resolus_fiches_en_attente": [
+      "Loi 18-11 art. 88 / 89-90 : DOS-GERI-0001, DOS-SPUB-0001 v1.2 ; FIC-GERI-0001 à aligner",
+      "Convention 2x2 : DOS-EPID-0001, DOS-EPID-0002 v1.2 (calculs inchangés) ; FIC-EPID-0002 à aligner",
+      "Lactate ≥ 4 mmol/L (SSC 2018, S11) : DOS-INFE-0006 v1.2 ; FIC-INFE-0006 à aligner"
+    ],
+    "blocage": "Écriture dans les fiches FIC-GERI-*, FIC-EPID-*, FIC-SPUB-*, FIC-INFE-0006 refusée par le contrôle des permissions (fiches exclues par la consigne initiale du propriétaire) ; autorisation du propriétaire nécessaire."
+  }
 }

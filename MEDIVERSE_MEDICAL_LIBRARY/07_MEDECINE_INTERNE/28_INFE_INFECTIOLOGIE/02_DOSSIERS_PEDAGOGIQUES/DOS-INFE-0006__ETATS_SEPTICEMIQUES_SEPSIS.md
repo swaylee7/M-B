@@ -6,7 +6,7 @@ sous_specialite: "Infections systémiques — sepsis, bactériémies et choc sep
 items_residanat: [RES-MED-004]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-02 (IA) — dossier pédagogique original"
@@ -17,6 +17,12 @@ audit:
     verdict: audite_corrections_requises
     corrections: 14
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-INFE-0006.md
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 1
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
+    remarque: "Audit de cohérence (lot 6) : seuil de lactate harmonisé à « ≥ 4 mmol/L », seuil du paquet de la première heure de la SSC (Levy 2018, [S11] ajoutée, existence et DOI confirmés par recherche) déclenchant le remplissage de 30 mL/kg ; la définition Sepsis-3 [S1] ne retient que > 2 mmol/L (choc). Marqueur du § 9 levé. Restent ouverts les points des audits précédents."
 sources:
   - id: S1
     reference: "Singer M, Deutschman CS, Seymour CW, et al. The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3). JAMA. 2016;315(8):801-810."
@@ -108,6 +114,15 @@ sources:
     url: ""
     verifiee: true
     remarque: "Audit 2026-11-19 : existence et métadonnées vérifiées par l'API PubMed (PMID 41869844 ; ICM : PMID 41870559, doi 10.1007/s00134-026-08360-2). Remplace la SSC enfant 2020 [S7]. Contenu non lu [À VÉRIFIER]."
+  - id: S11
+    reference: "Levy MM, Evans LE, Rhodes A. The Surviving Sepsis Campaign Bundle: 2018 update. Intensive Care Med. 2018;44(6):925-928 (copublication : Crit Care Med. 2018;46(6):997-1000)."
+    organisme: "Surviving Sepsis Campaign (SCCM / ESICM)"
+    annee: 2018
+    type: recommandation
+    doi: "10.1007/s00134-018-5085-0"
+    url: ""
+    verifiee: true
+    remarque: "Ajoutée par AUD-05 (2026-11-19) : existence et DOI confirmés par recherche web ; élément du paquet de la première heure « 30 mL/kg de cristalloïdes en cas d'hypotension ou de lactate ≥ 4 mmol/L » lu dans les extraits ; texte intégral non lu."
 mots_cles: [sepsis, choc septique, Sepsis-3, SOFA, qSOFA, NEWS2, bactériémie, lactate, hémocultures, antibiothérapie probabiliste, contrôle de la source, noradrénaline, hydrocortisone, Surviving Sepsis Campaign, Phoenix, Algérie]
 ---
 
@@ -269,7 +284,7 @@ Examen complet « de la tête aux pieds » : peau (plaies, escarres, cellulite, 
 - Interprétation : **staphylocoque doré** dans une seule hémoculture = toujours significatif ; staphylocoque à coagulase négative dans une seule paire = contamination probable (sauf matériel) ; **streptocoques, entérocoques, *S. aureus*** → rechercher une **endocardite** (échocardiographie).
 
 ### 9.2 Évaluation de la gravité
-- **Lactate** artériel ou veineux : **mesure suggérée** par la SSC [S2] ; > 2 mmol/L = hypoperfusion (critère du choc avec le vasopresseur) ; à recontrôler pour guider la réanimation [S2] ; **> 4 mmol/L** = gravité marquée `[À VÉRIFIER]`.
+- **Lactate** artériel ou veineux : **mesure suggérée** par la SSC [S2] ; > 2 mmol/L = hypoperfusion (critère du choc avec le vasopresseur) ; à recontrôler pour guider la réanimation [S2] ; **≥ 4 mmol/L** = hypoperfusion marquée, qui déclenche à elle seule, même sans hypotension, le remplissage de 30 mL/kg dans le « paquet de la première heure » de la SSC [S11] ; la définition Sepsis-3 ne retient que le seuil > 2 mmol/L (choc septique) [S1].
 - **Gaz du sang** (acidose, hypoxémie, PaO₂/FiO₂), **NFS** (hyperleucocytose ou **leucopénie**, thrombopénie), **hémostase** (TP, fibrinogène, D-dimères → CIVD), **créatinine**, **urée**, ionogramme, **bilirubine**, transaminases, **glycémie**, troponine si besoin.
 - **CRP** et **procalcitonine** (PCT) : marqueurs d'inflammation et d'infection bactérienne, non spécifiques ; la SSC 2021 **suggère de ne pas utiliser** la PCT associée à l'évaluation clinique pour **décider de débuter** les antibiotiques, mais **suggère** de l'utiliser avec la clinique pour décider de leur **arrêt** [S2].
 
@@ -378,7 +393,7 @@ lactate > 2, PAS ≤ 100, confusion, marbrures, oligurie)
 ├─ ≤ 60 min : ANTIBIOTHÉRAPIE IV probabiliste selon :
 │            foyer présumé + lieu d'acquisition (communautaire / soins)
 │            + terrain (neutropénie, immunodépression) + risque BMR/SARM
-├─ Hypotension ou lactate ≥ 4 : cristalloïdes 30 mL/kg (≤ 3 h), réévaluer
+├─ Hypotension ou lactate ≥ 4 mmol/L [S11] : cristalloïdes 30 mL/kg (≤ 3 h), réévaluer
 ├─ PAM < 65 malgré remplissage : NORADRÉNALINE (voie périphérique possible)
 │     → choc septique (si lactate > 2) → réanimation
 ├─ CONTRÔLE DE LA SOURCE : imagerie ciblée, geste dès que possible
@@ -386,7 +401,7 @@ lactate > 2, PAS ≤ 100, confusion, marbrures, oligurie)
       → J2–J3 : résultats microbiologiques → DÉSESCALADE, durée courte,
         relais oral si possible, PCT pour décider de l'arrêt
 ```
-Sources : [S2] (délais, réanimation, désescalade) ; [S4] (choix des molécules) ; délais en minutes indicatifs `[À VÉRIFIER]`.
+Sources : [S2] (délais, réanimation, désescalade) ; [S11] (seuil de lactate ≥ 4 mmol/L du paquet de la première heure) ; [S4] (choix des molécules) ; délais en minutes indicatifs `[À VÉRIFIER]`.
 
 ### 13.4 Particularités algériennes
 - **Écologie bactérienne** : les entérobactéries productrices de **BLSE** et la diffusion de **carbapénémases** dans les hôpitaux du Maghreb imposent de connaître les **données locales** avant de choisir une C3G seule `[À VÉRIFIER — données du réseau national de surveillance de la résistance]`.
@@ -771,5 +786,6 @@ Détail complet (statut de vérification) dans l'en-tête YAML.
 8. [S8] Décret exécutif n°22-250 du 30 juin 2022 (MDO). JORADP n°47/2022. (DOC-00072, lu.)
 9. [S9] Seymour CW, et al. Assessment of clinical criteria for sepsis. *JAMA*. 2016;315(8):762-774. doi:10.1001/jama.2016.0288.
 10. [S10] Weiss SL, et al. Surviving Sepsis Campaign International Guidelines for the Management of Sepsis and Septic Shock in Children 2026. *Pediatr Crit Care Med*. 2026;27(4):379-434. (Texte non lu.)
+11. [S11] Levy MM, Evans LE, Rhodes A. The Surviving Sepsis Campaign Bundle: 2018 update. *Intensive Care Med*. 2018;44(6):925-928. doi:10.1007/s00134-018-5085-0. (Élément « 30 mL/kg de cristalloïdes si hypotension ou lactate ≥ 4 mmol/L » vérifié par recherche ; texte intégral non lu.)
 
 > **Points à auditer en priorité** (audit du 2026-11-19 : SSC 2021, tableau SOFA et méropénem traités ; SSC 2026 et noradrénaline en suspens, voir le rapport) : (1) lecture du texte intégral de la SSC 2026 (remplissage, corticoïdes, délais, dépistage, bithérapie) et de la SSC 2021 pour les formulations exactes ; (2) bornes du tableau SOFA ; (3) dose et unité de la noradrénaline selon le protocole local (marqueur) ; (4) méropénem 2 g/8 h proposé par l'OMS pour les infections intra-abdominales à BLSE (dose « méningée » : vérifier la dose usuelle selon le RCP) ; (5) données algériennes de résistance (BLSE, carbapénémases, SARM) et protocoles nationaux d'antibiothérapie.

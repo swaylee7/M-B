@@ -8,7 +8,7 @@
 
 - Items du résidanat rattachés : **1** — couverture brute 0 %, auditée 0 %
 - Dossiers pédagogiques : 0 (audités : 0)
-- QCM : 0 — cas cliniques : 0 — pathologies référencées : 0
+- QCM : 1 — cas cliniques : 0 — pathologies référencées : 0
 - Ouvrages catalogués : 11 — recommandations : 0
 - **Statut : en construction** (aucune spécialité n'est déclarée terminée sans audit complet).
 
@@ -16,4 +16,4 @@
 
 | Item | Intitulé | Dossier | QCM | Cas |
 |---|---|---|---|---|
-| RES-SF-032 | Prélèvements et diagnostic en microbiologie. | — | 0 | 0 |
+| RES-SF-032 | Prélèvements et diagnostic en microbiologie. | — | 4 | 0 |

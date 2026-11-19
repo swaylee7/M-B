@@ -6,7 +6,7 @@ sous_specialite: "Organisation du système de santé"
 items_residanat: [RES-MED-135]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.1"
+version: "1.2"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-15 (IA) — dossier pédagogique original"
@@ -24,6 +24,12 @@ audit:
     corrections: 9
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-SPUB-0001.md
     remarque: "Sources S6-S9 rattachées aux documents acquis ; S24 (ordonnance 20-02) et S25 (décret 92-07) ajoutées ; S20 et S21 non revérifiées."
+  - date: 2026-11-19
+    auditeur: "AUD-05 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 1
+    rapport: 00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md
+    remarque: "Audit de cohérence avec DOS-GERI-0001 (lot 6) : personnes en difficulté — définition (art. 88), protection et gratuité (art. 89-90) de la loi 18-11, d'après le texte relu (DOC-00074). Restent ouverts les points des audits précédents."
 sources:
   - id: S1
     reference: "Loi n° 18-11 du 2 juillet 2018 relative à la santé. JORADP n° 46 du 29 juillet 2018 (450 articles), modifiée et complétée."
@@ -540,7 +546,7 @@ La loi définit les **programmes de santé** comme l'ensemble des actions et des
 | Maladies non transmissibles | Art. 45-48 | Plans nationaux multisectoriels ; dépistage gratuit de certaines MNT (liste ministérielle) ; **registres** ; comité national multisectoriel |
 | Facteurs de risque | Art. 49 et suivants | Lutte contre le tabagisme (interdiction de la publicité, avertissements sanitaires), promotion des modes de vie sains |
 | Santé de la mère et de l'enfant | Art. 69 et suivants | Protection maternelle et infantile, périnatalité |
-| Adolescents, personnes âgées, personnes en difficulté | Art. 84-91 ; loi 10-12 [S13] | Programmes spécifiques ; soins et hospitalisation à domicile des personnes âgées (art. 86-87) ; gratuité pour les personnes en difficulté (art. 89-90) |
+| Adolescents, personnes âgées, personnes en difficulté | Art. 84-91 ; loi 10-12 [S13] | Programmes spécifiques ; soins et hospitalisation à domicile des personnes âgées (art. 86-87) ; personnes en difficulté : définition (art. 88), protection sanitaire à la charge de l'État et couverture sanitaire gratuite (art. 89-90) |
 | Victimes de violences, milieu éducatif, santé au travail, milieu pénitentiaire, santé mentale | Art. 92 (victimes de violences), 94-96 (milieu éducatif, universitaire et de formation), 97-100 (milieu du travail), 101 (milieu pénitentiaire), 103 (santé mentale) | Programmes dédiés |
 | Environnement, éducation pour la santé | Art. 106 et suivants, 120 et suivants | Hygiène du milieu ; éducation sanitaire |
 

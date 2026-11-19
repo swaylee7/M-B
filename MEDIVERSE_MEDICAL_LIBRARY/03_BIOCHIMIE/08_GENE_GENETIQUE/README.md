@@ -8,7 +8,7 @@
 
 - Items du résidanat rattachés : **5** — couverture brute 0 %, auditée 0 %
 - Dossiers pédagogiques : 0 (audités : 0)
-- QCM : 0 — cas cliniques : 0 — pathologies référencées : 0
+- QCM : 20 — cas cliniques : 0 — pathologies référencées : 39
 - Ouvrages catalogués : 7 — recommandations : 1
 - **Statut : en construction** (aucune spécialité n'est déclarée terminée sans audit complet).
 
@@ -16,8 +16,8 @@
 
 | Item | Intitulé | Dossier | QCM | Cas |
 |---|---|---|---|---|
-| RES-SF-021 | Le gène : Organisation, expression, méthode d'exploration, anomalies d'expression des gènes. | — | 0 | 0 |
-| RES-SF-022 | Cytogénétique. | — | 0 | 0 |
-| RES-SF-023 | Génétique Mendélienne : Transmission mono factorielle des caractères ; caractères liés au sexe. | — | 0 | 0 |
-| RES-SF-024 | Génétique humaine : Les modes de transmission des caractères (ou maladies) chez l’homme. | — | 0 | 0 |
-| RES-SF-025 | Génétique moléculaire : Bases moléculaires de l’hérédité, transcription de l’information génétique de sa forme | — | 0 | 0 |
+| RES-SF-021 | Le gène : Organisation, expression, méthode d'exploration, anomalies d'expression des gènes. | — | 4 | 0 |
+| RES-SF-022 | Cytogénétique. | — | 4 | 0 |
+| RES-SF-023 | Génétique Mendélienne : Transmission mono factorielle des caractères ; caractères liés au sexe. | — | 4 | 0 |
+| RES-SF-024 | Génétique humaine : Les modes de transmission des caractères (ou maladies) chez l’homme. | — | 4 | 0 |
+| RES-SF-025 | Génétique moléculaire : Bases moléculaires de l’hérédité, transcription de l’information génétique de sa forme | — | 4 | 0 |

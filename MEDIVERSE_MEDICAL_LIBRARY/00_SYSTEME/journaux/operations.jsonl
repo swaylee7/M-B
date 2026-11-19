@@ -1221,3 +1221,43 @@
 {"date": "2026-11-19T04:46:13+00:00", "agent": "DOS-04", "action": "creation_dossier", "cible": "08_CHIRURGIE/34_CDIG_CHIRURGIE_DIGESTIVE/02_DOSSIERS_PEDAGOGIQUES/DOS-CDIG-0004__APPENDICITES_AIGUES.md", "details": {"id": "DOS-CDIG-0004", "item": "RES-CHI-014", "mots_corps": 7101, "statut": "brouillon_a_auditer", "lot": 2}}
 {"date": "2026-11-19T04:46:13+00:00", "agent": "DOS-04", "action": "creation_lot_qcm", "cible": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-04-lot2.json", "details": {"qcm": 60, "plages": "QCM-GAST-0451..0486, QCM-CDIG-0451..0474"}}
 {"date": "2026-11-19T04:46:13+00:00", "agent": "DOS-04", "action": "creation_lot_cas", "cible": "20_CAS_CLINIQUES/lots/DOS-04-lot2.json", "details": {"cas": 10, "plages": "CAS-GAST-0451..0456, CAS-CDIG-0451..0454"}}
+{"date": "2026-11-19T04:51:04+00:00", "agent": "AUD-05", "action": "ecriture_json", "cible": "00_SYSTEME/agents/AUD-05/etat_finale.json"}
+{"date": "2026-11-19T04:51:04+00:00", "agent": "AUD-05", "action": "audit_coherence_lot6", "cible": "00_SYSTEME/files_attente/coherence_a_traiter.md", "details": {"dossiers": ["DOS-GERI-0001", "DOS-SPUB-0001", "DOS-GERI-0002", "DOS-INFE-0006", "DOS-EPID-0001", "DOS-EPID-0002"], "fiches_en_attente": ["FIC-GERI-0001", "FIC-EPID-0002", "FIC-INFE-0006"], "motif": "écriture des fiches refusée par le contrôle des permissions"}}
+{"date": "2026-11-19T04:51:09+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "24_BIBLIOGRAPHIE/00_CATALOGUE_OUVRAGES/catalogue_ouvrages.json"}
+{"date": "2026-11-19T04:51:09+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "18_RECOMMANDATIONS/00_CATALOGUE/catalogue_recommandations.json"}
+{"date": "2026-11-19T04:51:09+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"}
+{"date": "2026-11-19T04:51:09+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "20_CAS_CLINIQUES/banque_cas_cliniques.json"}
+{"date": "2026-11-19T04:51:09+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "22_ENCYCLOPEDIE_PATHOLOGIES/00_REFERENTIEL/referentiel_pathologies.json"}
+{"date": "2026-11-19T04:51:09+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "23_GLOSSAIRES/FR_EN_AR/glossaire_fr_en_ar.json"}
+{"date": "2026-11-19T04:51:10+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "16_RESIDANAT_ALGERIE/01_PROGRAMME_ITEMS/programme_residanat.json"}
+{"date": "2026-11-19T04:51:10+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "25_INDEX_GENERAL/index_general.json"}
+{"date": "2026-11-19T04:51:10+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/inventaire_dossiers.json"}
+{"date": "2026-11-19T04:51:10+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/rapport_indexation.json"}
+{"date": "2026-11-19T04:51:10+00:00", "agent": "indexeur", "action": "indexation", "cible": "25_INDEX_GENERAL", "details": {"entrees": 7509, "dossiers": 95}}
+{"date": "2026-11-19T04:51:14+00:00", "agent": "AUD-01", "action": "ecriture_json", "cible": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-05-lot2.json"}
+{"date": "2026-11-19T04:51:14+00:00", "agent": "AUD-01", "action": "ecriture_json", "cible": "20_CAS_CLINIQUES/lots/DOS-05-lot2.json"}
+{"date": "2026-11-19T04:51:14+00:00", "agent": "AUD-01", "action": "audit_lots", "cible": "DOS-05-lot2", "details": {"qcm_corriges": 6, "qcm_audite_valide": 60, "cas_modifies": ["CAS-PEDI-0501", "CAS-PEDI-0504", "CAS-PEDI-0505"], "cas_corrections_requises": ["CAS-PEDI-0506", "CAS-PEDI-0507", "CAS-NEON-0502"]}}
+{"date": "2026-11-19T04:51:22+00:00", "agent": "validateur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/rapport_validation.json"}
+{"date": "2026-11-19T04:51:26+00:00", "agent": "validateur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/rapport_validation.json"}
+{"date": "2026-11-19T04:51:31+00:00", "agent": "validateur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/rapport_validation.json"}
+{"date": "2026-11-19T04:51:41+00:00", "agent": "architecte", "action": "construire_architecture", "cible": "MEDIVERSE_MEDICAL_LIBRARY", "details": {"dossiers_crees": 0}}
+{"date": "2026-11-19T04:51:41+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "24_BIBLIOGRAPHIE/00_CATALOGUE_OUVRAGES/catalogue_ouvrages.json"}
+{"date": "2026-11-19T04:51:41+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "18_RECOMMANDATIONS/00_CATALOGUE/catalogue_recommandations.json"}
+{"date": "2026-11-19T04:51:41+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"}
+{"date": "2026-11-19T04:51:41+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "20_CAS_CLINIQUES/banque_cas_cliniques.json"}
+{"date": "2026-11-19T04:51:41+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "22_ENCYCLOPEDIE_PATHOLOGIES/00_REFERENTIEL/referentiel_pathologies.json"}
+{"date": "2026-11-19T04:51:41+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "23_GLOSSAIRES/FR_EN_AR/glossaire_fr_en_ar.json"}
+{"date": "2026-11-19T04:51:42+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "16_RESIDANAT_ALGERIE/01_PROGRAMME_ITEMS/programme_residanat.json"}
+{"date": "2026-11-19T04:51:43+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "25_INDEX_GENERAL/index_general.json"}
+{"date": "2026-11-19T04:51:43+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/inventaire_dossiers.json"}
+{"date": "2026-11-19T04:51:43+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/rapport_indexation.json"}
+{"date": "2026-11-19T04:51:43+00:00", "agent": "indexeur", "action": "indexation", "cible": "25_INDEX_GENERAL", "details": {"entrees": 7509, "dossiers": 95}}
+{"date": "2026-11-19T04:51:44+00:00", "agent": "validateur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/rapport_validation.json"}
+{"date": "2026-11-19T04:51:44+00:00", "agent": "orchestrateur", "action": "ecriture_json", "cible": "00_SYSTEME/files_attente/dossiers_residanat.json"}
+{"date": "2026-11-19T04:51:44+00:00", "agent": "orchestrateur", "action": "ecriture_json", "cible": "00_SYSTEME/files_attente/qcm_residanat.json"}
+{"date": "2026-11-19T04:51:44+00:00", "agent": "orchestrateur", "action": "ecriture_json", "cible": "00_SYSTEME/files_attente/audits.json"}
+{"date": "2026-11-19T04:51:44+00:00", "agent": "orchestrateur", "action": "ecriture_json", "cible": "00_SYSTEME/files_attente/acquisitions.json"}
+{"date": "2026-11-19T04:51:44+00:00", "agent": "tableau_de_bord", "action": "ecriture_json", "cible": "25_INDEX_GENERAL/tableau_de_bord.json"}
+{"date": "2026-11-19T04:51:44+00:00", "agent": "tableau_de_bord", "action": "generation", "cible": "25_INDEX_GENERAL/TABLEAU_DE_BORD.md"}
+{"date": "2026-11-19T04:51:51+00:00", "agent": "exporteur", "action": "echec_export_odt", "cible": "07_MEDECINE_INTERNE/18_GAST_GASTRO_ENTEROLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-GAST-0001__HEMORRAGIES_DIGESTIVES.md", "details": {"erreur": "YAML parse exception at line 5, column 3,\nwhile scanning an alias:\ndid not find expected alphabetic or numeric character\n"}}
+{"date": "2026-11-19T04:51:53+00:00", "agent": "exporteur", "action": "echec_export_odt", "cible": "07_MEDECINE_INTERNE/19_HEPA_HEPATOLOGIE/02_DOSSIERS_PEDAGOGIQUES/DOS-HEPA-0002__CIRRHOSES.md", "details": {"erreur": "YAML parse exception at line 5, column 3,\nwhile scanning an alias:\ndid not find expected alphabetic or numeric character\n"}}
