@@ -1282,3 +1282,37 @@
 {"date": "2026-11-19T04:55:21+00:00", "agent": "exporteur", "action": "exports", "cible": "bibliotheque", "details": {"odt": 5, "pdf": 5, "ods": 9}}
 {"date": "2026-11-19T04:55:32+00:00", "agent": "tableau_de_bord", "action": "ecriture_json", "cible": "25_INDEX_GENERAL/tableau_de_bord.json"}
 {"date": "2026-11-19T04:55:32+00:00", "agent": "tableau_de_bord", "action": "generation", "cible": "25_INDEX_GENERAL/TABLEAU_DE_BORD.md"}
+{"date": "2026-11-19T04:55:49+00:00", "agent": "AUD-01", "action": "ecriture_json", "cible": "00_SYSTEME/agents/AUD-01/etat_DOS-05-lot2.json"}
+{"date": "2026-11-19T04:55:49+00:00", "agent": "AUD-01", "action": "audit_dossier", "cible": "DOS-PEDI-0004", "details": {"verdict": "audite_valide", "version": "1.1", "corrections": {"critiques": 0, "majeures": 0, "mineures": 6}, "marqueurs_posologie_restants": 0, "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-PEDI-0004.md"}}
+{"date": "2026-11-19T04:55:49+00:00", "agent": "AUD-01", "action": "audit_dossier", "cible": "DOS-PEDI-0005", "details": {"verdict": "audite_corrections_requises", "version": "1.1", "corrections": {"critiques": 0, "majeures": 0, "mineures": 9}, "marqueurs_posologie_restants": 4, "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-PEDI-0005.md"}}
+{"date": "2026-11-19T04:55:49+00:00", "agent": "AUD-01", "action": "audit_dossier", "cible": "DOS-PEDI-0006", "details": {"verdict": "audite_corrections_requises", "version": "1.1", "corrections": {"critiques": 0, "majeures": 0, "mineures": 12}, "marqueurs_posologie_restants": 2, "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-PEDI-0006.md"}}
+{"date": "2026-11-19T04:55:49+00:00", "agent": "AUD-01", "action": "audit_dossier", "cible": "DOS-PEDI-0007", "details": {"verdict": "audite_corrections_requises", "version": "1.1", "corrections": {"critiques": 0, "majeures": 2, "mineures": 14}, "marqueurs_posologie_restants": 1, "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-PEDI-0007.md"}}
+{"date": "2026-11-19T04:55:49+00:00", "agent": "AUD-01", "action": "audit_dossier", "cible": "DOS-NEON-0003", "details": {"verdict": "audite_corrections_requises", "version": "1.1", "corrections": {"critiques": 0, "majeures": 2, "mineures": 6}, "marqueurs_posologie_restants": 3, "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-NEON-0003.md"}}
+{"date": "2026-11-19T04:56:10+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "24_BIBLIOGRAPHIE/00_CATALOGUE_OUVRAGES/catalogue_ouvrages.json"}
+{"date": "2026-11-19T04:56:10+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "18_RECOMMANDATIONS/00_CATALOGUE/catalogue_recommandations.json"}
+{"date": "2026-11-19T04:56:11+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"}
+{"date": "2026-11-19T04:56:11+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "20_CAS_CLINIQUES/banque_cas_cliniques.json"}
+{"date": "2026-11-19T04:56:11+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "22_ENCYCLOPEDIE_PATHOLOGIES/00_REFERENTIEL/referentiel_pathologies.json"}
+{"date": "2026-11-19T04:56:11+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "23_GLOSSAIRES/FR_EN_AR/glossaire_fr_en_ar.json"}
+{"date": "2026-11-19T04:56:12+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "16_RESIDANAT_ALGERIE/01_PROGRAMME_ITEMS/programme_residanat.json"}
+{"date": "2026-11-19T04:56:12+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "22_ENCYCLOPEDIE_PATHOLOGIES/00_REFERENTIEL/referentiel_pathologies.json"}
+{"date": "2026-11-19T04:56:12+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "25_INDEX_GENERAL/index_general.json"}
+{"date": "2026-11-19T04:56:12+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/inventaire_dossiers.json"}
+{"date": "2026-11-19T04:56:12+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/rapport_indexation.json"}
+{"date": "2026-11-19T04:56:12+00:00", "agent": "indexeur", "action": "indexation", "cible": "25_INDEX_GENERAL", "details": {"entrees": 7509, "dossiers": 95}}
+{"date": "2026-11-19T04:56:12+00:00", "agent": "tableau_de_bord", "action": "ecriture_json", "cible": "25_INDEX_GENERAL/tableau_de_bord.json"}
+{"date": "2026-11-19T04:56:12+00:00", "agent": "tableau_de_bord", "action": "generation", "cible": "25_INDEX_GENERAL/TABLEAU_DE_BORD.md"}
+{"date": "2026-11-19T04:56:32+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "24_BIBLIOGRAPHIE/00_CATALOGUE_OUVRAGES/catalogue_ouvrages.json"}
+{"date": "2026-11-19T04:56:32+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "18_RECOMMANDATIONS/00_CATALOGUE/catalogue_recommandations.json"}
+{"date": "2026-11-19T04:56:32+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/banque_qcm.json"}
+{"date": "2026-11-19T04:56:32+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "20_CAS_CLINIQUES/banque_cas_cliniques.json"}
+{"date": "2026-11-19T04:56:32+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "22_ENCYCLOPEDIE_PATHOLOGIES/00_REFERENTIEL/referentiel_pathologies.json"}
+{"date": "2026-11-19T04:56:32+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "23_GLOSSAIRES/FR_EN_AR/glossaire_fr_en_ar.json"}
+{"date": "2026-11-19T04:56:33+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "16_RESIDANAT_ALGERIE/01_PROGRAMME_ITEMS/programme_residanat.json"}
+{"date": "2026-11-19T04:56:33+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "22_ENCYCLOPEDIE_PATHOLOGIES/00_REFERENTIEL/referentiel_pathologies.json"}
+{"date": "2026-11-19T04:56:33+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "25_INDEX_GENERAL/index_general.json"}
+{"date": "2026-11-19T04:56:34+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/inventaire_dossiers.json"}
+{"date": "2026-11-19T04:56:34+00:00", "agent": "indexeur", "action": "ecriture_json", "cible": "00_SYSTEME/journaux/rapport_indexation.json"}
+{"date": "2026-11-19T04:56:34+00:00", "agent": "indexeur", "action": "indexation", "cible": "25_INDEX_GENERAL", "details": {"entrees": 7509, "dossiers": 95}}
+{"date": "2026-11-19T04:56:34+00:00", "agent": "tableau_de_bord", "action": "ecriture_json", "cible": "25_INDEX_GENERAL/tableau_de_bord.json"}
+{"date": "2026-11-19T04:56:34+00:00", "agent": "tableau_de_bord", "action": "generation", "cible": "25_INDEX_GENERAL/TABLEAU_DE_BORD.md"}

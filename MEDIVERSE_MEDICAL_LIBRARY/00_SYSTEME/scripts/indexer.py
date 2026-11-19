@@ -129,6 +129,15 @@ def main() -> int:
                     par_item[it]["cas_cliniques"] += 1
         prog["indexe_le"] = maintenant()
         ecrire_json(prog_path, prog, agent="indexeur")
+        # liens pathologies -> dossiers (via les items du résidanat partagés)
+        for p in donnees["pathologies"]:
+            ds = sorted({d["id"] for it in (p.get("items_residanat") or []) if it in par_item
+                         for d in par_item[it]["dossiers"]})
+            p["dossier"] = ds or None
+        _, cle_p, sortie_p = CATALOGUES["pathologies"]
+        if donnees["pathologies"]:
+            ecrire_json(RACINE / sortie_p, {"genere_le": maintenant(), "total": len(donnees["pathologies"]),
+                                            cle_p: donnees["pathologies"]}, agent="indexeur", sauvegarde=False)
 
     # index général (métadonnées) + SQLite FTS5 (texte intégral)
     spe = specialite_par_code()

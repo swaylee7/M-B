@@ -1,6 +1,6 @@
 # Tableau de bord — Bibliothèque médicale Mediverse
 
-_Généré le 2026-11-19T04:55:32+00:00 par `00_SYSTEME/scripts/tableau_de_bord.py`. Chiffres calculés à partir des fichiers réellement présents._
+_Généré le 2026-11-19T04:56:34+00:00 par `00_SYSTEME/scripts/tableau_de_bord.py`. Chiffres calculés à partir des fichiers réellement présents._
 
 ## Indicateurs globaux
 
@@ -13,8 +13,8 @@ _Généré le 2026-11-19T04:55:32+00:00 par `00_SYSTEME/scripts/tableau_de_bord.
 | Documents OCRisés | 0 |
 | Traductions | 0 |
 | Recommandations cataloguées | 340 (actuelles : 312, remplacées : 28) |
-| Pathologies référencées | 1569 (avec dossier : 0) |
-| Dossiers pédagogiques | 95 (audités : 26) — 926 930 mots |
+| Pathologies référencées | 1569 (avec dossier : 363) |
+| Dossiers pédagogiques | 95 (audit effectué : 90 ; validés : 26) — 926 930 mots |
 | Fiches de révision | 80 |
 | Cas cliniques | 191 |
 | QCM | 2025 |

@@ -1,0 +1,152 @@
+{
+  "id": "AUD-01",
+  "postes": [
+    "AUD-01",
+    "AUD-02"
+  ],
+  "lot": "DOS-05-lot2",
+  "statut": "lot_audite",
+  "derniere_execution": "2026-11-19T04:55:49+00:00",
+  "dossiers": {
+    "DOS-PEDI-0004": {
+      "verdict": "audite_valide",
+      "version": "1.1",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 0,
+        "mineures": 6
+      },
+      "marqueurs_posologie_restants": 0,
+      "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-PEDI-0004.md"
+    },
+    "DOS-PEDI-0005": {
+      "verdict": "audite_corrections_requises",
+      "version": "1.1",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 0,
+        "mineures": 9
+      },
+      "marqueurs_posologie_restants": 4,
+      "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-PEDI-0005.md"
+    },
+    "DOS-PEDI-0006": {
+      "verdict": "audite_corrections_requises",
+      "version": "1.1",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 0,
+        "mineures": 12
+      },
+      "marqueurs_posologie_restants": 2,
+      "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-PEDI-0006.md"
+    },
+    "DOS-PEDI-0007": {
+      "verdict": "audite_corrections_requises",
+      "version": "1.1",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 2,
+        "mineures": 14
+      },
+      "marqueurs_posologie_restants": 1,
+      "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-PEDI-0007.md"
+    },
+    "DOS-NEON-0003": {
+      "verdict": "audite_corrections_requises",
+      "version": "1.1",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 2,
+        "mineures": 6
+      },
+      "marqueurs_posologie_restants": 3,
+      "rapport": "00_SYSTEME/agents/AUD-01/rapports/DOS-NEON-0003.md"
+    }
+  },
+  "lots": {
+    "qcm": {
+      "fichier": "21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-05-lot2.json",
+      "total": 60,
+      "corriges": [
+        "QCM-PEDI-0517",
+        "QCM-PEDI-0540",
+        "QCM-PEDI-0541",
+        "QCM-PEDI-0542",
+        "QCM-PEDI-0544",
+        "QCM-NEON-0508"
+      ],
+      "audite_valide": 60,
+      "reponses_erronees": 0
+    },
+    "cas": {
+      "fichier": "20_CAS_CLINIQUES/lots/DOS-05-lot2.json",
+      "total": 10,
+      "corriges": [
+        "CAS-PEDI-0501",
+        "CAS-PEDI-0504",
+        "CAS-PEDI-0505"
+      ],
+      "audite_valide": 7,
+      "audite_corrections_requises": [
+        "CAS-PEDI-0506",
+        "CAS-PEDI-0507",
+        "CAS-NEON-0502"
+      ]
+    }
+  },
+  "erreurs_critiques": [],
+  "erreurs_majeures": [
+    "DOS-PEDI-0007 : recommandation AAP 2011 (réaffirmée 2016) présentée comme actuelle — retirée en 2021, remplacée par l'AAP 2026 (8 jours–5 ans, Pediatrics 2026;158(4):e2026078565)",
+    "DOS-PEDI-0007 : schéma OMS du nourrisson < 2 mois inexact (gentamicine ± ampicilline) et gentamicine 7,5 mg/kg/j incohérente avec DOS-NEON-0002 la première semaine (5 mg/kg/24 h)",
+    "DOS-NEON-0003 : corticothérapie anténatale « dexaméthasone 2 × 12 mg/24 h » (Mémento 2015) non conforme à l'OMS 2022 (dexaméthasone 4 × 6 mg/12 h ou bétaméthasone 2 × 12 mg/24 h)",
+    "DOS-NEON-0003 : doses de caféine sans préciser la forme (citrate de caféine ; 20 mg de citrate ≈ 10 mg de base)"
+  ],
+  "marqueurs": {
+    "leves": 7,
+    "restants": [
+      "DOS-PEDI-0005 : clonazépam IV ; aciclovir de l'enfant (2) ; anesthésiques de l'état de mal réfractaire",
+      "DOS-PEDI-0006 : magnésium ; schémas intermittents français 2022",
+      "DOS-PEDI-0007 et CAS-PEDI-0507 : amikacine (dose française 20–30 mg/kg/j)",
+      "DOS-NEON-0003 : prostaglandine E1 (2) ; fermeture du canal artériel ; CAS-NEON-0502 : inotropes",
+      "CAS-PEDI-0506 : phosphate, calcitriol, burosumab (XLH)"
+    ],
+    "methode": "occurrences de « POSOLOGIE … À VÉRIFIER » : 22 avant l'audit (18 dans les dossiers, 4 dans les lots), 13 après (10 dans les dossiers, 3 dans les lots) ; levés : midazolam buccal, gluconate de calcium du nourrisson (×3), doses de vitamine D du consensus (×2 + cas), céfixime, corticothérapie anténatale"
+  },
+  "documents_lus_hors_registre": [
+    "OMS. WHO recommendations on antenatal corticosteroids for improving preterm birth outcomes, 2022 (IRIS 10665/363131, PDF lu)",
+    "HAS, Commission de la transparence. Avis BUCCOLAM, 18/07/2012 (CT-12074, PDF lu)",
+    "Thandrayen K, Pettifor JM. Bone Rep 2018;8:81-89 (PMC6019962, texte intégral)",
+    "Sweet DG et al. European consensus guidelines on RDS 2022 (PMC10064400, texte intégral)",
+    "NICE NG224, NG111, NG109 (pages de recommandations, nice.org.uk)",
+    "AAP 2026 UTI CPG et rapports techniques (résumés PubMed 42803578, 42803592, 42803594, 42803590)"
+  ],
+  "hotes_inaccessibles": [
+    "pmc.ncbi.nlm.nih.gov (pages HTML)",
+    "europepmc (délai)",
+    "publications.aap.org",
+    "karger.com",
+    "academic.oup.com",
+    "medicines.org.uk",
+    "bnfc.nice.org.uk",
+    "rch.org.au",
+    "afpa.org",
+    "vidal.fr",
+    "sfpediatrie.com",
+    "base-donnees-publique.medicaments.gouv.fr"
+  ],
+  "signalements_coherence": [
+    "Céfixime : AWaRe 10 mg/kg/j (dysenterie, DOS-PEDI-0004) vs étiquetage 8 mg/kg/j ≥ 6 mois (DOS-PEDI-0007) — divergence présentée dans les deux dossiers",
+    "Gentamicine néonatale : DOS-PEDI-0007 aligné sur DOS-NEON-0002 (5 mg/kg/24 h la première semaine)",
+    "Plan B 75 mL/kg (DOS-PEDI-0001) et classification de la déshydratation : DOS-PEDI-0004 et CAS-PEDI-0501 cohérents",
+    "Antibiothérapie des méningites (DOS-INFE-0001), aminosides et C3G (DOS-PHAR-0001) : aucune divergence nouvelle",
+    "Les livrets générés (LIVRET_QCM_PEDI.md, LIVRET_CAS_PEDI.md, LIVRET_CAS_NEON.md) doivent être régénérés par exporter.py"
+  ],
+  "taches_suivantes": [
+    "Lire le texte intégral de l'AAP 2026 (IU) et actualiser DOS-PEDI-0007 §9.3, §13.2.3, §21 et les QCM",
+    "Lever les marqueurs restants : clonazépam (RCP Rivotril / RFE SRLF-SFMU), aciclovir de l'enfant, magnésium, amikacine (GPIP 2023/2024), PGE1, fermeture du canal artériel, inotropes",
+    "Lire l'instruction n° 84/MSP/DP du 21/12/1988 (prophylaxie du rachitisme) et tout texte ultérieur du MSPRH",
+    "Acquérir au registre (acquerir.py) l'OMS 2022 sur la corticothérapie anténatale et l'avis HAS Buccolam",
+    "Relecture humaine qualifiée (statut valide_enseignant)"
+  ]
+}
