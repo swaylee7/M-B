@@ -15,13 +15,13 @@ audit:
   - date: 2026-11-19
     auditeur: "AUD-01 (IA)"
     verdict: audite_corrections_requises
-    corrections: 16
+    corrections: 21
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-SPUB-0001.md
     remarque: "Textes acquis et lus par l'audit : décret 07-140 (DOC-00114), décrets 97-465/97-466/97-467 (DOC-00115, OCR), ordonnance 20-02 (DOC-00116), ordonnance 73-65 (DOC-00117, OCR), décret 92-07 (DOC-00118, OCR). Conformité à la loi 18-11 vérifiée article par article. Restent : INSP, SEMEP, décret 11-379, modifications postérieures des décrets 07-140/97-465/97-467 et du décret 92-07, carte Chifa et taux de remboursement, chiffres ONS/STEPS de source secondaire."
   - date: 2026-11-19
     auditeur: "AUD-04 (IA)"
     verdict: audite_corrections_requises
-    corrections: 7
+    corrections: 9
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-SPUB-0001.md
     remarque: "Sources S6-S9 rattachées aux documents acquis ; S24 (ordonnance 20-02) et S25 (décret 92-07) ajoutées ; S20 et S21 non revérifiées."
 sources:

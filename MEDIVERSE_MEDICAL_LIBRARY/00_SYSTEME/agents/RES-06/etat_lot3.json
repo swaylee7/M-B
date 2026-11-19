@@ -1,0 +1,144 @@
+{
+  "id": "RES-06",
+  "lot": 3,
+  "statut": "termine",
+  "derniere_execution": "2026-11-19T04:05:54+00:00",
+  "perimetre": "Fiches de révision dérivées des dossiers v1.1 audités — rhumatologie, maladies systémiques (médecine interne), dermatologie, psychiatrie, médecine légale, médecine du travail",
+  "taches_terminees": [
+    "FIC-RHUM-0001",
+    "FIC-RHUM-0002",
+    "FIC-MINT-0001",
+    "FIC-MINT-0002",
+    "FIC-DERM-0001",
+    "FIC-PSYC-0001",
+    "FIC-PSYC-0002",
+    "FIC-MLEG-0001",
+    "FIC-MLEG-0002",
+    "FIC-MTRA-0001",
+    "PIEGES_CLASSIQUES_LOT3"
+  ],
+  "taches_suivantes": [
+    "Audit des 10 fiches FIC lot 3 par AUD (statut brouillon_a_auditer)",
+    "Transmission des incohérences des dossiers sources à l'agent d'audit (correction des dossiers hors périmètre RES-06)",
+    "Indexation (indexer.py) et exports (exporter.py) par l'orchestrateur ; renseigner le champ « fiches » des items du programme"
+  ],
+  "fiches": [
+    {
+      "id": "FIC-RHUM-0001",
+      "fichier": "07_MEDECINE_INTERNE/24_RHUM_RHUMATOLOGIE/03_FICHES_REVISION/FIC-RHUM-0001__POLYARTHRITE_RHUMATOIDE_DE_L_ADULTE.md",
+      "dossier_source": "DOS-RHUM-0001",
+      "item": "RES-MED-099",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-RHUM-0002",
+      "fichier": "07_MEDECINE_INTERNE/24_RHUM_RHUMATOLOGIE/03_FICHES_REVISION/FIC-RHUM-0002__PELVISPONDYLITE_RHUMATISMALE_SPONDYLOARTHRITE_AXIALE.md",
+      "dossier_source": "DOS-RHUM-0002",
+      "item": "RES-MED-100",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-MINT-0001",
+      "fichier": "07_MEDECINE_INTERNE/15_MINT_MEDECINE_INTERNE/03_FICHES_REVISION/FIC-MINT-0001__LUPUS_ERYTHEMATEUX_SYSTEMIQUE.md",
+      "dossier_source": "DOS-MINT-0001",
+      "item": "RES-MED-101, RES-MED-154",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-MINT-0002",
+      "fichier": "07_MEDECINE_INTERNE/15_MINT_MEDECINE_INTERNE/03_FICHES_REVISION/FIC-MINT-0002__MALADIE_DE_BEHCET.md",
+      "dossier_source": "DOS-MINT-0002",
+      "item": "RES-MED-158",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-DERM-0001",
+      "fichier": "07_MEDECINE_INTERNE/23_DERM_DERMATOLOGIE/03_FICHES_REVISION/FIC-DERM-0001__PSORIASIS.md",
+      "dossier_source": "DOS-DERM-0001",
+      "item": "RES-MED-011",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-PSYC-0001",
+      "fichier": "15_AUTRES_SPECIALITES/22_PSYC_PSYCHIATRIE/03_FICHES_REVISION/FIC-PSYC-0001__SCHIZOPHRENIES.md",
+      "dossier_source": "DOS-PSYC-0001",
+      "item": "RES-MED-149",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-PSYC-0002",
+      "fichier": "15_AUTRES_SPECIALITES/22_PSYC_PSYCHIATRIE/03_FICHES_REVISION/FIC-PSYC-0002__TROUBLES_DE_L_HUMEUR.md",
+      "dossier_source": "DOS-PSYC-0002",
+      "item": "RES-MED-153",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-MLEG-0001",
+      "fichier": "15_AUTRES_SPECIALITES/47_MLEG_MEDECINE_LEGALE/03_FICHES_REVISION/FIC-MLEG-0001__LE_MEDECIN_ET_LES_BLESSURES.md",
+      "dossier_source": "DOS-MLEG-0001",
+      "item": "RES-MED-139",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-MLEG-0002",
+      "fichier": "15_AUTRES_SPECIALITES/47_MLEG_MEDECINE_LEGALE/03_FICHES_REVISION/FIC-MLEG-0002__RESPONSABILITE_MEDICALE.md",
+      "dossier_source": "DOS-MLEG-0002",
+      "item": "RES-MED-140",
+      "statut": "brouillon_a_auditer"
+    },
+    {
+      "id": "FIC-MTRA-0001",
+      "fichier": "15_AUTRES_SPECIALITES/48_MTRA_MEDECINE_DU_TRAVAIL/03_FICHES_REVISION/FIC-MTRA-0001__ACCIDENTS_DU_TRAVAIL_ET_MALADIES_PROFESSIONNELLES.md",
+      "dossier_source": "DOS-MTRA-0001",
+      "item": "RES-MED-142",
+      "statut": "brouillon_a_auditer"
+    }
+  ],
+  "compilation_pieges": {
+    "fichier": "16_RESIDANAT_ALGERIE/07_PIEGES_CLASSIQUES/PIEGES_CLASSIQUES_LOT3.md",
+    "nombre_pieges": 100,
+    "par_module": {
+      "Dermatologie": 10,
+      "Rhumatologie": 20,
+      "Médecine légale": 20,
+      "Médecine du travail": 10,
+      "Psychiatrie": 20,
+      "Maladies systémiques": 20
+    },
+    "remarque": "RES-MED-101 (module Rhumatologie) renvoie aux 10 pièges de FIC-MINT-0001 listés sous RES-MED-154 (non recomptés)."
+  },
+  "controles": {
+    "yaml_et_sections": "10/10 en-têtes YAML valides ; sections 1 à 9 ; 10 pièges et 10 points « 5 minutes » par fiche ; items, spécialité et version identiques au dossier",
+    "sources_yaml": "blocs sources copiés à l'identique de l'en-tête du dossier (seules les sources citées dans la fiche)",
+    "nombres_et_doses": "0 nombre absent du dossier et 0 couple nombre+unité de dose absent tel quel du dossier (10/10 fiches)",
+    "articles_juridiques": "0 numéro d'article absent du dossier (FIC-MLEG-0001/0002, FIC-MTRA-0001, FIC-PSYC-0001/0002)",
+    "mots": {
+      "FIC-RHUM-0001": 1809,
+      "FIC-RHUM-0002": 1647,
+      "FIC-MINT-0001": 1729,
+      "FIC-MINT-0002": 1429,
+      "FIC-DERM-0001": 1686,
+      "FIC-PSYC-0001": 1735,
+      "FIC-PSYC-0002": 1740,
+      "FIC-MLEG-0001": 1910,
+      "FIC-MLEG-0002": 1839,
+      "FIC-MTRA-0001": 1906
+    },
+    "journal_global": "13 entrées RES-06 lot 3 dans 00_SYSTEME/journaux/operations.jsonl"
+  },
+  "incoherences_dossiers_signalees": [
+    "1. DOS-RHUM-0001 — escalade du méthotrexate « jusqu'à 20 à 30 mg/semaine » (§13.2.2, 3E) vs « vers 20–25 mg/semaine » dans le cas clinique (§17) ; seuil de rémission DAS28 « < 2,6 » (§7.3, §21, qui attribue ce seuil à la série algérienne) vs « DAS28 ≤ 2,6 » dans le tableau de la série algérienne (§3).",
+    "2. DOS-MINT-0001 §17 — prednisone « 0,3 à 0,5 mg/kg/j, soit environ 20 à 30 mg/j » pour une patiente de 56 kg : le calcul donne ≈ 17 à 28 mg/j (arrondi à expliciter).",
+    "3. DOS-MINT-0002 §13.2/§13.3 — tableau des moyens et algorithme ne présentent que la position EULAR 2018 (anticoagulant « pouvant être ajouté » aux immunosuppresseurs dans les TVP ; anticoagulation « de courte durée » des thromboses veineuses cérébrales), alors que le §21 rapporte la position divergente du PNDS 2019 (anticoagulation curative recommandée 3 à 6 mois ; 12 à 18 mois pour les thromboses veineuses cérébrales) : renvoi croisé à ajouter.",
+    "4. DOS-PSYC-0001 — mortalité par suicide « environ 5 à 6 % » (§3, DSM-5-TR) vs « ≈ 5 % » (§18, point 9).",
+    "5. DOS-PSYC-0002 — fluoxétine : fourchette CANMAT 2023 « 20–60 mg » (§13.2.2) vs « maximum 80 mg/j » (mhGAP-IG, même section), écart non signalé au §21 ; unités de lithiémie non harmonisées (mEq/L pour CANMAT-ISBD et mhGAP-IG, mmol/L pour NICE et CANMAT 2023 — équivalentes pour le lithium, à préciser).",
+    "6. DOS-MLEG-0001 vs DOS-MTRA-0001 — immunoglobulines antitétaniques humaines « 250 UI IM (500 UI au-delà de 24 heures) » (MLEG-0001 §10.8) vs « 250 UI IM » sans la précision des 24 heures (MTRA-0001 §17) ; mêmes sources [S17]/[S12].",
+    "7. Indexation (hors dossier) — dans programme_residanat.json, l'item RES-MED-101 « Maladie lupique » est rattaché à la spécialité RHUM alors que le dossier qui le couvre est DOS-MINT-0001 (MINT) ; le champ « fiches » des items est vide pour tous les items (à remplir par indexer.py)."
+  ],
+  "compteurs": {
+    "fiches_creees": 10,
+    "pieges": 100,
+    "incoherences_signalees": 7
+  },
+  "remarque": "Fichiers des autres lots RES-06 (journal.md, etat.json, journal_lot2.md, etat_lot2.json, journal_lot4.md, journal_lot5.md, fiches existantes, PIEGES_CLASSIQUES_LOT1/LOT2) non modifiés ; dossiers sources non modifiés ; aucune opération Git."
+}

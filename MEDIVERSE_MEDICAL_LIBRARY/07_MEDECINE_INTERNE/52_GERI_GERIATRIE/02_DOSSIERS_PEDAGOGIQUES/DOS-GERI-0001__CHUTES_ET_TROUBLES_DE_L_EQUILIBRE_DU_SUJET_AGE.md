@@ -15,7 +15,7 @@ audit:
   - date: 2026-11-19
     auditeur: "AUD-01 (IA)"
     verdict: audite_valide
-    corrections: 9
+    corrections: 11
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-GERI-0001.md
     remarque: "Textes intégraux relus : World Falls Guidelines 2022 (PMC9523684), NICE NG249 (recommandations en ligne), HAS 2009 chutes répétées (PDF), Beers 2023 (PMC). Correction majeure : chiffres OMS de 2021 remplacés par l'aide-mémoire du 21 octobre 2026 (≈ 842 000 décès par chute en 2023)."
   - date: 2026-11-19
@@ -27,7 +27,7 @@ audit:
   - date: 2026-11-19
     auditeur: "AUD-04 (IA)"
     verdict: audite_valide
-    corrections: 4
+    corrections: 5
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-GERI-0001.md
     remarque: "S1, S5, S7-S13, S17, S18 vérifiées par PubMed (eutils) ; S6 actualisée (OMS, 21 octobre 2026)."
 sources:

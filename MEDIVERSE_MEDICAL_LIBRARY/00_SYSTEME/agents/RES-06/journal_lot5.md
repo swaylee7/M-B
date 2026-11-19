@@ -1,0 +1,12 @@
+# Journal — RES-06 (lot 5)
+
+Mission : fiches de révision (mémo, tableaux, pièges classiques) dérivées des dossiers v1.1 audités — lot 5 :
+sciences fondamentales (physiologie, hémostase, immunologie) et thérapeutique (transfusion, pharmacologie) — 10 fiches
++ compilation `16_RESIDANAT_ALGERIE/07_PIEGES_CLASSIQUES/PIEGES_CLASSIQUES_LOT5.md`.
+Les fichiers des lots 1 à 4 (`journal.md`, `etat.json`, `journal_lot2.md`, `etat_lot2.json`, `journal_lot3.md`, `journal_lot4.md`,
+fiches existantes, PIEGES_CLASSIQUES_LOT1 à LOT4) ne sont pas modifiés. Pas d'opération Git (consigne).
+
+- 2026-11-19 — démarrage du lot 5. Lecture de `00_SYSTEME/CONVENTIONS.md`, de FIC-CARD-0001 et FIC-PEDI-0001 (format de référence : en-tête YAML, sections 1 à 9 ; section 6 = pièges classiques), de PIEGES_CLASSIQUES_LOT2 (format de renvoi item + fiche), du programme (`programme_residanat.json` : 5 items SCIENCES FONDAMENTALES, 5 items THERAPEUTIQUE) et des rapports AUD-01 des 10 dossiers sources (tous en **v1.1** ; `audite_valide` : DOS-PHYS-0001, DOS-PHYS-0002, DOS-HEMA-0007, DOS-IMMU-0001, DOS-IMMU-0002 ; `audite_corrections_requises` : DOS-HEMA-0006, DOS-PHAR-0001 à 0004).
+- 2026-11-19 — outils de contrôle (scratchpad de session, non versionnés) : `inject_sources.py` (copie à l'identique, depuis l'en-tête YAML du dossier, des blocs [Sx] cités dans la fiche) ; `check_numbers.py` (vérifie que chaque nombre du corps de la fiche figure dans le dossier, puis que chaque couple « nombre(s) + unité » y figure tel quel, après normalisation des espaces, tirets et gras ; testé sur un fichier témoin : détecte un nombre et une dose absents) ; `wc.py` (mots hors YAML, balises Markdown et section Sources). Sections adaptées aux sciences fondamentales : valeurs normales, formules, mécanismes, tableaux d'interprétation.
+- 2026-11-19 — FIC-PHYS-0001 (équilibre acido-basique ; item RES-SF-014) créée depuis DOS-PHYS-0001 v1.1 ; aucune posologie (dossier sans dose) ; contrôle chiffres/doses : 0 écart ; 1 779 mots.
+- 2026-11-19 — FIC-PHYS-0002 (électrophysiologie du cœur ; item RES-SF-007) créée depuis DOS-PHYS-0002 v1.1 ; aucune posologie (renvois DOS-CARD-0007, DOS-NEPH-0002 comme dans le dossier) ; seuils ESC 2022 repris avec la réserve du dossier (sources secondaires S15/S16) ; contrôle chiffres/doses : 2 écarts de forme corrigés (« 140 mmol/L » → unité en en-tête comme dans le tableau du dossier ; « 0,11 – 0,119 s » → « 0,11 à 0,119 s ») puis 0 écart ; 1 714 mots.

@@ -147,3 +147,12 @@ Mission : Audit des posologies et contre-indications
   - Autres marqueurs sans dose (dossiers et cas : hyperkaliémie, torsades, BAV, fomépizole, anticoagulation, CIVD, albendazole, dermocorticoïdes, conditionnement) remplacés par des renvois sourcés. Seuils transfusionnels de la CIVD précisés d'après BCSH 2009.
   - Marqueurs `[POSOLOGIE À VÉRIFIER]` restants : 0. Aucune erreur de dose (aucune erreur critique).
   - Détail : `00_SYSTEME/agents/AUD-01/rapports/` et `00_SYSTEME/agents/AUD-01/etat_DOS-13.json`. Aucune commande git.
+- 2026-11-19T04:05:26+00:00 — **Audit des posologies (AUD-02) des objets DOS-15**, conjointement avec AUD-01. Détail dans les rapports `00_SYSTEME/agents/AUD-01/rapports/DOS-GERI-0001.md` et `DOS-GERI-0002.md`.
+  - **Levés** (dose standard, source nommée) :
+    - calcium alimentaire 1 à 1,5 g/j et vitamine D ≥ 800 UI/j en cas de carence (HAS 2009, R18), 800 à 1 000 UI/j si risque de carence (WFG 2022) — DOS-GERI-0001 ;
+    - thiamine 200 mg × 3/j IV avant tout glucide (EFNS 2010), voie parentérale ≥ 5 jours (NICE CG100) — DOS-GERI-0002 et CAS-GERI-1504 ;
+    - vitamine A dans la rougeole : 200 000 UI à J1 et J2 entre 12 mois et 5 ans (100 000 UI entre 6 et 11 mois ; 50 000 UI avant 6 mois), selon l'OMS, Mémento 2015 (DOC-00062) — CAS-SPUB-1501 ; vitamine A ajoutée dans CAS-EPID-1502.
+  - **Maintenus** :
+    - halopéridol chez le sujet âgé confus : NICE CG103 et HAS 2009 ne donnent que des règles relatives (dose la plus faible ; 1/4-1/2 de la dose adulte ; 24-48 h) ; RCP inaccessible ;
+    - dose de la benzodiazépine du delirium tremens : lorazépam oral en 1re intention (NICE CG100), dose non fixée.
+  - Aucune erreur de dose (aucune erreur critique). Aucune commande git.

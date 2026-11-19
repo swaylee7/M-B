@@ -1,0 +1,98 @@
+{
+  "id": "AUD-01",
+  "perimetre": "Audit scientifique (AUD-01), posologique (AUD-02) et des références (AUD-04) des objets du rédacteur DOS-15",
+  "derniere_execution": "2026-11-19T04:05:26+00:00",
+  "taches_terminees": [
+    "audit DOS-EPID-0001 (lot DOS-15)",
+    "audit DOS-EPID-0002 (lot DOS-15)",
+    "audit DOS-SPUB-0001 (lot DOS-15)",
+    "audit DOS-GERI-0001 (lot DOS-15)",
+    "audit DOS-GERI-0002 (lot DOS-15)",
+    "audit lot QCM DOS-15 (65 QCM)",
+    "audit lot cas DOS-15 (10 cas)",
+    "acquisition JORADP : DOC-00114 à DOC-00118"
+  ],
+  "resultats": {
+    "DOS-EPID-0001": {
+      "version": "1.1",
+      "verdict": "audite_corrections_requises",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 0,
+        "mineures": 12
+      },
+      "marqueurs_posologie_restants": 0
+    },
+    "DOS-EPID-0002": {
+      "version": "1.1",
+      "verdict": "audite_valide",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 1,
+        "mineures": 8
+      },
+      "marqueurs_posologie_restants": 0
+    },
+    "DOS-SPUB-0001": {
+      "version": "1.1",
+      "verdict": "audite_corrections_requises",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 1,
+        "mineures": 29
+      },
+      "marqueurs_posologie_restants": 0
+    },
+    "DOS-GERI-0001": {
+      "version": "1.1",
+      "verdict": "audite_valide",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 1,
+        "mineures": 16
+      },
+      "marqueurs_posologie_restants": 0
+    },
+    "DOS-GERI-0002": {
+      "version": "1.1",
+      "verdict": "audite_corrections_requises",
+      "corrections": {
+        "critiques": 0,
+        "majeures": 0,
+        "mineures": 19
+      },
+      "marqueurs_posologie_restants": 3,
+      "posologies_restantes": [
+        "halopéridol (§ 12.5 et cas § 16)",
+        "benzodiazépine du delirium tremens (§ 9)"
+      ]
+    },
+    "lot_QCM_DOS-15": {
+      "qcm": 65,
+      "corriges": 9,
+      "audite_valide": 65
+    },
+    "lot_cas_DOS-15": {
+      "cas": 10,
+      "modifies": 4,
+      "audite_valide": 9,
+      "audite_corrections_requises": [
+        "CAS-GERI-1504"
+      ]
+    }
+  },
+  "documents_acquis": [
+    "DOC-00114",
+    "DOC-00115",
+    "DOC-00116",
+    "DOC-00117",
+    "DOC-00118"
+  ],
+  "taches_suivantes": [
+    "Confronter les chiffres ONS 2023 (publication n° 1030) et STEPS 2016-2017 (fiche OMS, cdn.who.int) aux sources primaires : hôtes inaccessibles pendant l'audit",
+    "DOS-SPUB-0001 : textes INSP, SEMEP, UDS, décret 11-379, directions de wilaya ; modifications ultérieures de 07-140, 97-465, 97-467, 92-07 ; loi 20-12 ; carte Chifa et taux de remboursement",
+    "DOS-GERI-0002 : doses de l'halopéridol (RCP harmonisé européen) et de la benzodiazépine du sevrage (protocole guidé par un score, SFA 2015) ; SIGN 157 ; PADIS (formulation) ; STOPP/START v3 (libellés)",
+    "DOS-EPID-0001/0002 : vérifier Porta 2014, liste OMS des 100 indicateurs (2018), A/RES/70/1, ASA 2016, HAS 2013",
+    "Relecture enseignant des 5 dossiers"
+  ]
+}

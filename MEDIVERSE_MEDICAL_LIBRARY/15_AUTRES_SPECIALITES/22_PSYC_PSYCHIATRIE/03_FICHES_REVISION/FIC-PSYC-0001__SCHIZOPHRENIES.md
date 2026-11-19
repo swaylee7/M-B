@@ -187,6 +187,7 @@ arrêt jamais brutal ; observance incertaine → injectable à action prolongée
 | Zuclopenthixol per os | 20–30 mg/j, entretien 20–50 mg/j, max 150 mg/j [S13] | — |
 | **Clozapine** | 12,5 mg une ou deux fois à J1, 25 mg une ou deux fois à J2, paliers de 25–50 mg/j → 300 mg/j en 2 à 3 semaines ; efficace 200–450 mg/j ; max 900 mg/j [S13] | **Agranulocytose**, myocardite, convulsions, **constipation (iléus)**, hypersialorrhée, poids |
 
+- **Disponibilité en Algérie** (formes orales et retard, clozapine) : nomenclature nationale `[À VÉRIFIER]`.
 - **Agitation** [S8] : désescalade verbale, cause somatique ; per os : rispéridone 2 mg (max 6 mg/24 h), olanzapine 5–10 mg (max 20 mg/24 h), halopéridol 5 mg (max 20 mg/24 h) ; IM : olanzapine 10 mg (max 30 mg/24 h), aripiprazole 9,75 mg (max 30 mg/24 h), halopéridol 5 mg, lorazépam 2 mg (max 12 mg/24 h). mhGAP-IG : halopéridol 2 mg toutes les heures jusqu'à 5 doses (max 10 mg) ; violence extrême 5 mg IM renouvelable après 15–30 minutes (max 15 mg) [S7]. **Ne pas associer olanzapine IM + benzodiazépine** ; ajouter plutôt une benzodiazépine qu'un 2e antipsychotique ; contention en dernier recours, prescrite et tracée.
 - **Correcteurs** (curatifs, jamais systématiques ; inefficaces sur l'akathisie) : bipéridène 1 mg × 2/j puis 3–12 mg/j ; trihexyphénidyle 1 mg/j puis 4–12 mg/j (max 20 mg/j) [S7].
 - **Précautions** : QT long, hypokaliémie (halopéridol, amisulpride, chlorpromazine) ; **pas d'halopéridol IV sans monitorage** ; démence (surmortalité) ; clozapine contre-indiquée si antécédent d'agranulocytose.

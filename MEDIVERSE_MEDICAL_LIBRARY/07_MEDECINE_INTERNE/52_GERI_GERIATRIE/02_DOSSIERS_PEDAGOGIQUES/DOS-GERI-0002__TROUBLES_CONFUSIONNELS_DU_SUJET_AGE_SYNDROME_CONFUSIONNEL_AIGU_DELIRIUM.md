@@ -15,7 +15,7 @@ audit:
   - date: 2026-11-19
     auditeur: "AUD-01 (IA)"
     verdict: audite_corrections_requises
-    corrections: 9
+    corrections: 11
     rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-GERI-0002.md
     remarque: "Textes relus : NICE CG103 (recommandations et contexte en ligne), HAS 2009 confusion aiguë (PDF), Beers 2023 (PMC), NICE CG100 (sevrage alcoolique). 4AT, CAM, critères NICE et HELP confirmés. Aucune erreur critique ou majeure."
   - date: 2026-11-19

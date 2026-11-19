@@ -228,3 +228,36 @@ Mission : Audit scientifique des dossiers (exactitude, cohérence, actualité)
   - 9 cas modifiés ; 10/10 `audite_valide`.
 - Rapports : `00_SYSTEME/agents/AUD-01/rapports/DOS-PHYS-0001.md`, `DOS-PHYS-0002.md`, `DOS-HEMA-0007.md`, `DOS-IMMU-0001.md`, `DOS-IMMU-0002.md`.
 - État : `00_SYSTEME/agents/AUD-01/etat_DOS-13.json` (etat.json non réécrit). Aucune commande git.
+- 2026-11-19T04:05:26+00:00 — **Session d'audit scientifique (AUD-01), tenue conjointement avec AUD-02 (posologies) et AUD-04 (références), des objets du rédacteur DOS-15** :
+  - dossiers DOS-EPID-0001 (indicateurs), DOS-EPID-0002 (enquêtes), DOS-SPUB-0001 (système de santé algérien), DOS-GERI-0001 (chutes), DOS-GERI-0002 (confusion) ;
+  - lots `21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-15.json` (65 QCM) et `20_CAS_CLINIQUES/lots/DOS-15.json` (10 cas).
+  J'ai d'abord lu PROTOCOLE_AUDIT.md et CONVENTIONS.md, puis les 5 dossiers et les 2 lots en entier.
+- 2026-11-19T04:05:26+00:00 — Sauvegardes avant modification : `00_SYSTEME/sauvegardes/20261119/` (5 dossiers ; lots `DOS-15.avant_audit_AUD-01.json`).
+- 2026-11-19T04:05:26+00:00 — Calculs : tous les exemples, QCM et cas d'épidémiologie recalculés par script Python ; aucune erreur de calcul.
+- 2026-11-19T04:05:26+00:00 — Textes algériens :
+  - loi 18-11 (DOC-00074) relue article par article pour SPUB et EPID ;
+  - décrets 22-178 et 22-250 relus ;
+  - **5 numéros du JORADP acquis** (ACQ-01, `acquerir.py`, 5,2 Mo) :
+    - DOC-00114 (décret 07-140) ;
+    - DOC-00115 (décrets 97-465, 97-466, 97-467, OCR) ;
+    - DOC-00116 (ordonnance 20-02) ;
+    - DOC-00117 (ordonnance 73-65, OCR) ;
+    - DOC-00118 (décret 92-07 : CNAS, CNR, CASNOS ; OCR).
+- 2026-11-19T04:05:26+00:00 — Constat majeur transversal : l'**ordonnance 20-02** (30/08/2020) a transféré au ministre chargé de l'industrie pharmaceutique l'autorisation des études cliniques (art. 381) et les compétences pharmaceutiques. Corrigé dans DOS-EPID-0002, DOS-SPUB-0001 et QCM-EPID-1526.
+- 2026-11-19T04:05:26+00:00 — Autres constats :
+  - chiffres OMS sur les chutes périmés (aide-mémoire mis à jour le 21/10/2026 : environ 842 000 décès en 2023), corrigés dans DOS-GERI-0001 ;
+  - secteurs sanitaires antérieurs à 1973, et non apparus dans les années 1980 ;
+  - ordonnance 73-65 sans date d'application ;
+  - EHS « de référence » non retrouvés dans le texte.
+- 2026-11-19T04:05:26+00:00 — Chiffres ONS 2023 et STEPS 2016-2017 : sources primaires inaccessibles (ons.dz, ambassade-algerie.ch, cdn.who.int, afro.who.int, extranet.who.int refusés par le proxy). Les chiffres sont conservés comme sources secondaires, avec le marqueur `[À VÉRIFIER — source primaire non consultée]`.
+- 2026-11-19T04:05:26+00:00 — Recommandations relues en texte intégral : World Falls Guidelines 2022 (PMC), NICE NG249, NICE CG103, NICE CG100, HAS 2009 (chutes ; confusion), Beers 2023 (PMC). Résumés PubMed (eutils) : environ 45 références vérifiées.
+- 2026-11-19T04:05:26+00:00 — Verdicts (tous en v1.1) :
+  - DOS-EPID-0001 : audite_corrections_requises (12 corrections : 0/0/12) ;
+  - DOS-EPID-0002 : audite_valide (9 : 0/1/8) ;
+  - DOS-SPUB-0001 : audite_corrections_requises (30 : 0/1/29) ;
+  - DOS-GERI-0001 : audite_valide (17 : 0/1/16) ;
+  - DOS-GERI-0002 : audite_corrections_requises (19 : 0/0/19 ; 2 posologies marquées : halopéridol, benzodiazépine du sevrage).
+- 2026-11-19T04:05:26+00:00 — Lots écrits avec `ecrire_json`, validés (python3 json, cohérence Vrai/Faux, `valider.py` : 0 erreur) :
+  - 9 QCM corrigés, dont QCM-EPID-1526 (majeure) ; 65/65 `audite_valide` ;
+  - 4 cas modifiés : 9 `audite_valide`, 1 `audite_corrections_requises` (CAS-GERI-1504).
+- 2026-11-19T04:05:26+00:00 — Rapports : `00_SYSTEME/agents/AUD-01/rapports/DOS-EPID-0001.md`, `DOS-EPID-0002.md`, `DOS-SPUB-0001.md`, `DOS-GERI-0001.md`, `DOS-GERI-0002.md`. État : `AUD-01/etat_DOS-15.json` (etat.json non réécrit). Aucune commande git.

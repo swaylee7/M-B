@@ -748,3 +748,128 @@ CRISE AFÉBRILE
 
 *Questions originales Mediverse (propositions A–E, réponses multiples possibles sauf QCS). Identifiants identiques à ceux du lot JSON.*
 
+**QCM 1 (QCM-PEDI-0513) — QCM.** Parmi les éléments suivants, lesquels font classer une convulsion fébrile comme « complexe » ?
+
+- A. Crise à début focal (clonies d'un hémicorps)
+- B. Durée de 20 minutes
+- C. Deuxième crise dans les mêmes 24 heures
+- D. Température à 40,5 °C au moment de la crise
+- E. Antécédent de convulsion fébrile chez le père
+
+**QCM 2 (QCM-PEDI-0514) — QCS.** Selon la définition opérationnelle de l'ILAE (2015), à partir de quelle durée une crise tonico-clonique généralisée doit-elle être considérée comme un état de mal justifiant un traitement immédiat (seuil t1) ?
+
+- A. 2 minutes
+- B. 5 minutes
+- C. 10 minutes
+- D. 15 minutes
+- E. 30 minutes
+
+**QCM 3 (QCM-PEDI-0515) — QCM.** Un nourrisson de 10 mois, en bon état général, a fait une convulsion fébrile simple de 2 minutes au cours d'une otite ; il a reçu les vaccins de la naissance et de 2 mois seulement ; il ne prend pas d'antibiotique ; l'examen neurologique est normal et il n'a pas de signe méningé. Selon la recommandation de l'AAP 2011, quelles propositions sont exactes ?
+
+- A. La ponction lombaire est une option à envisager en raison d'une vaccination Hib/pneumocoque incomplète
+- B. La ponction lombaire serait obligatoire s'il existait des signes méningés
+- C. Un EEG est recommandé avant la sortie
+- D. Un scanner cérébral est indiqué en urgence
+- E. La ponction lombaire serait aussi une option si l'enfant avait reçu des antibiotiques avant la crise
+
+**QCM 4 (QCM-PEDI-0516) — QCM.** Après une convulsion fébrile simple chez un enfant de 2 ans correctement vacciné, en bon état général, dont l'examen est normal et chez qui un foyer ORL explique la fièvre, quels examens ne sont PAS recommandés de façon systématique ?
+
+- A. Électroencéphalogramme
+- B. IRM cérébrale
+- C. Ionogramme sanguin, calcémie et magnésémie dans le seul but d'expliquer la crise
+- D. Ponction lombaire
+- E. Examen clinique à la recherche de la cause de la fièvre
+
+**QCM 5 (QCM-PEDI-0517) — QCM.** Concernant les benzodiazépines de première ligne d'une crise convulsive de plus de 5 minutes chez le nourrisson et le jeune enfant, quelles propositions sont exactes ?
+
+- A. Le diazépam intrarectal se donne à 0,5 mg/kg (0,1 mL/kg de la solution à 10 mg/2 mL) selon l'OMS
+- B. Le diazépam IV se donne à 0,25 mg/kg selon l'OMS
+- C. On peut administrer jusqu'à quatre doses successives de diazépam avant de passer à la 2e ligne
+- D. En l'absence d'accès veineux, le midazolam buccal ou le diazépam rectal sont des premières lignes acceptables selon la revue Cochrane 2018
+- E. Le lorazépam IV (0,1 mg/kg) est établi comme efficace chez l'enfant selon l'AES 2016
+
+**QCM 6 (QCM-PEDI-0518) — QCM.** Concernant le traitement de deuxième ligne de l'état de mal convulsif résistant aux benzodiazépines chez l'enfant, quelles propositions sont exactes ?
+
+- A. Dans ESETT, le lévétiracétam était dosé à 60 mg/kg (maximum 4 500 mg)
+- B. Dans ESETT, le lévétiracétam s'est montré nettement supérieur au valproate et à la fosphénytoïne
+- C. Environ la moitié des patients ont été contrôlés à 60 minutes, quelle que soit la molécule
+- D. Le mhGAP 2023 de l'OMS cite la fosphénytoïne, la phénytoïne, le lévétiracétam, le phénobarbital et le valproate comme options
+- E. Dans EcLiPSE, le lévétiracétam était administré à 40 mg/kg en 5 minutes
+
+**QCM 7 (QCM-PEDI-0519) — QCS.** Un nourrisson de 11 mois, porteur d'un retard psychomoteur inexpliqué avec hypotonie et hyperlactatémie antérieure, est en état de mal convulsif persistant après deux doses de benzodiazépine. Quel médicament de deuxième ligne faut-il éviter ?
+
+- A. Lévétiracétam
+- B. Phénobarbital
+- C. Phénytoïne
+- D. Valproate de sodium
+- E. Fosphénytoïne
+
+**QCM 8 (QCM-PEDI-0520) — QCM.** Les parents d'un enfant de 20 mois ayant fait une première convulsion fébrile simple demandent comment prévenir une récidive. Quelles réponses sont exactes ?
+
+- A. Un traitement antiépileptique continu n'est pas recommandé
+- B. Le paracétamol systématique dès le début de la fièvre ne diminue pas le risque de récidive
+- C. Le diazépam intermittent réduit les récidives mais avec des effets indésirables fréquents ; il n'est pas recommandé en routine
+- D. Les vaccinations du calendrier doivent être suspendues
+- E. Il faut appeler les secours si une nouvelle crise dure plus de 5 minutes
+
+### Corrigé commenté
+
+**QCM 1 (QCM-PEDI-0513) — Réponse(s) : A, B, C.** La CF complexe se définit par au moins un des critères suivants : début focal (ou déficit post-critique), durée ≥ 15 minutes, récidive dans les 24 heures. La hauteur de la fièvre et les antécédents familiaux n'interviennent pas dans la définition (ce sont des éléments pronostiques de récidive).
+*Piège* : Confondre facteurs de récidive et critères de complexité.
+
+**QCM 2 (QCM-PEDI-0514) — Réponse(s) : B.** L'ILAE définit deux seuils : t1 = 5 minutes (au-delà, la crise a peu de chances de s'arrêter seule et doit être traitée) et t2 = 30 minutes (risque de conséquences à long terme) pour l'état de mal tonico-clonique. Le glossaire du mhGAP 2023 reprend le seuil de 5 minutes.
+*Piège* : Confondre le seuil de 15 min (CF complexe) et celui de 5 min (état de mal).
+
+**QCM 3 (QCM-PEDI-0515) — Réponse(s) : A, B, E.** AAP 2011 : PL indiquée en présence de signes méningés ; option chez le nourrisson de 6 à 12 mois dont la vaccination contre Hib ou le pneumocoque est incomplète ou inconnue, et chez l'enfant prétraité par antibiotiques ; pas d'EEG ni d'imagerie après une CF simple chez un enfant neurologiquement normal.
+*Piège* : Oublier le statut vaccinal dans la décision de PL.
+
+**QCM 4 (QCM-PEDI-0516) — Réponse(s) : A, B, C, D.** Après une CF simple chez un enfant bien vacciné et en bon état, l'AAP déconseille l'EEG, l'imagerie, le bilan sanguin systématique et la PL systématique ; l'évaluation doit porter sur la cause de la fièvre.
+
+**QCM 5 (QCM-PEDI-0517) — Réponse(s) : A, B, D, E.** OMS : diazépam rectal 0,5 mg/kg (0,1 mL/kg), IV 0,25 mg/kg ; deuxième dose à 10 min si besoin, jamais plus de deux doses. AES 2016 : lorazépam et diazépam IV établis (niveau A) ; diazépam rectal, midazolam IM, intranasal ou buccal probablement efficaces (niveau B). Cochrane 2018 : sans voie veineuse, midazolam buccal ou diazépam rectal acceptables.
+*Piège* : Multiplier les doses de benzodiazépine.
+
+**QCM 6 (QCM-PEDI-0518) — Réponse(s) : A, C, D, E.** ESETT (lévétiracétam 60 mg/kg max 4 500 mg, fosphénytoïne 20 mg EP/kg max 1 500 mg, valproate 40 mg/kg max 3 000 mg, en 10 min) : succès d'environ 45–47 % sans différence significative, y compris chez l'enfant. Le mhGAP 2023 propose ces molécules selon les ressources. EcLiPSE et ConSEPT : lévétiracétam 40 mg/kg en 5 min vs phénytoïne 20 mg/kg, sans différence significative.
+*Piège* : Croire à la supériorité démontrée d'une molécule de 2e ligne.
+
+**QCM 7 (QCM-PEDI-0519) — Réponse(s) : D.** Le valproate est contre-indiqué en cas de maladie hépatique et de maladie métabolique héréditaire, notamment mitochondriale (risque d'hépatotoxicité grave) ; ce contexte (retard, hypotonie, hyperlactatémie) doit faire préférer une autre molécule, comme le souligne le mhGAP 2023.
+
+**QCM 8 (QCM-PEDI-0520) — Réponse(s) : A, B, C, E.** AAP 2008 : pas de traitement continu ni intermittent systématique après des CF simples (effets indésirables > bénéfices). Cochrane 2021 : réduction des récidives avec le diazépam intermittent et le phénobarbital continu au prix d'effets indésirables chez jusqu'à 30 % des enfants ; aucun bénéfice des antipyrétiques. Les vaccinations sont poursuivies ; un plan d'action (crise > 5 min) est expliqué.
+*Piège* : Promettre que l'antipyrétique préviendra la crise.
+
+*Les QCM 9 à 12 de la série (QCM-PEDI-0521 à QCM-PEDI-0524) figurent uniquement dans le lot JSON `21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-05-lot2.json`.*
+## 21. Divergences entre recommandations
+
+| Question | Position A | Position B | Commentaire |
+|---|---|---|---|
+| **Borne d'âge de la CF** | AAP 2011 : enfant de **6 à 60 mois** [S1] | D'autres définitions (revue Cochrane 2021 : « enfant de plus d'un mois ») [S13] | Avant 6 mois, la crise fébrile impose d'abord d'éliminer une infection du SNC |
+| **PL après CF simple** | AAP 2011 : **non systématique** ; obligatoire si signes méningés ; **option** si 6–12 mois mal vacciné (Hib/pneumocoque) ou prétraité par antibiotiques [S1] | Paramètre AAP **1996** (remplacé) : PL plus largement recommandée chez le nourrisson de moins de 12 mois — position **remplacée** **[détail À VÉRIFIER]** | La couverture vaccinale (calendrier algérien de 2018) [S15] rapproche la situation algérienne du cadre de l'AAP 2011 |
+| **Imagerie avant PL** | OMS 2025 : **pas d'imagerie systématique** ; une crise isolée récente de l'enfant n'en impose pas [S11] | Liste des critères de risque (Glasgow < 10, signes focaux, œdème papillaire…) imposant imagerie ou report de la PL [S11] | Ne jamais retarder les antibiotiques |
+| **1ʳᵉ ligne de l'état de mal** | AES 2016 : lorazépam ou diazépam IV (niveau A) ; midazolam IM/intranasal/buccal, diazépam rectal (niveau B) [S4] | OMS (Mémento) : **diazépam** rectal ou IV, deux doses au plus [S10] ; Cochrane 2018 : midazolam buccal ou diazépam rectal sans voie IV [S12] | Choix selon la disponibilité ; clonazépam IV d'usage courant dans les pays francophones (non évalué ici) |
+| **2ᵉ ligne** | OMS Mémento 2015 : **phénobarbital** 15 mg/kg ou **phénytoïne** 15–18 mg/kg en 60 min [S10] | mhGAP 2023 : fosphénytoïne, phénytoïne, **lévétiracétam**, phénobarbital ou **valproate**, selon les ressources [S9] ; ESETT/EcLiPSE/ConSEPT : efficacité comparable [S5–S8] | Le mhGAP 2023 est la position la plus récente de l'OMS ; le lévétiracétam est favorisé pour sa tolérance |
+| **Doses de lévétiracétam** | ESETT : **60 mg/kg** (max 4 500 mg) en 10 min [S5] | EcLiPSE/ConSEPT : **40 mg/kg** en 5 min [S7, S8] | Les protocoles nationaux fixent la dose retenue **[À VÉRIFIER — protocole local]** |
+| **Prophylaxie des récidives de CF** | AAP 2008 : **ni traitement continu ni intermittent** systématique [S2] | Cochrane 2021 : diazépam intermittent et phénobarbital continu réduisent les récidives, mais effets indésirables jusqu'à 30 % ; pas d'effet des antipyrétiques [S13] | Concordance sur la conclusion pratique : informer et soutenir les familles |
+| **Corticoïdes dans la méningite** | Mémento OMS 2015 : pas de données suffisantes pour un usage systématique dans les pays en développement (sauf tuberculose) [S10] | **OMS 2025** : corticoïdes IV **avec la première dose** d'antibiotique (contexte non épidémique, PL réalisable) [S11] | Position **actualisée** en 2025 ; la position de 2015 est remplacée |
+
+## 22. Références
+
+1. **[S1]** Subcommittee on Febrile Seizures, AAP. Neurodiagnostic evaluation of the child with a simple febrile seizure. *Pediatrics*. 2011;127(2):389-394. doi:10.1542/peds.2010-3318. PMID 21285335.
+2. **[S2]** AAP. Febrile seizures: clinical practice guideline for the long-term management of the child with simple febrile seizures. *Pediatrics*. 2008;121(6):1281-1286. doi:10.1542/peds.2008-0939. PMID 18519501.
+3. **[S3]** Trinka E, Cock H, Hesdorffer D, et al. A definition and classification of status epilepticus — Report of the ILAE Task Force on Classification of Status Epilepticus. *Epilepsia*. 2015;56(10):1515-1523. doi:10.1111/epi.13121. PMID 26336950.
+4. **[S4]** Glauser T, Shinnar S, Gloss D, et al. Evidence-based guideline: treatment of convulsive status epilepticus in children and adults. *Epilepsy Curr*. 2016;16(1):48-61. doi:10.5698/1535-7597-16.1.48. PMID 26900382.
+5. **[S5]** Kapur J, Elm J, Chamberlain JM, et al. Randomized trial of three anticonvulsant medications for status epilepticus. *N Engl J Med*. 2019;381(22):2103-2113. doi:10.1056/NEJMoa1905795. PMID 31774955.
+6. **[S6]** Chamberlain JM, Kapur J, Shinnar S, et al. Efficacy of levetiracetam, fosphenytoin, and valproate for established status epilepticus by age group (ESETT). *Lancet*. 2020;395(10231):1217-1224. doi:10.1016/S0140-6736(20)30611-5. PMID 32203691.
+7. **[S7]** Lyttle MD, Rainford NEA, Gamble C, et al. Levetiracetam versus phenytoin for second-line treatment of paediatric convulsive status epilepticus (EcLiPSE). *Lancet*. 2019;393(10186):2125-2134. doi:10.1016/S0140-6736(19)30724-X. PMID 31005385.
+8. **[S8]** Dalziel SR, Borland ML, Furyk J, et al. Levetiracetam versus phenytoin for second-line treatment of convulsive status epilepticus in children (ConSEPT). *Lancet*. 2019;393(10186):2135-2145. doi:10.1016/S0140-6736(19)30722-6. PMID 31005386.
+9. **[S9]** World Health Organization. *mhGAP guideline for mental, neurological and substance use disorders*. Geneva: WHO; 2023 — recommandation EPI2 (DOC-00049, lu).
+10. **[S10]** Organisation mondiale de la Santé. *Mémento de soins hospitaliers pédiatriques*. 2e éd. Genève : OMS ; 2015 (DOC-00062, lu).
+11. **[S11]** World Health Organization. *WHO guidelines on meningitis diagnosis, treatment and care*. Geneva: WHO; 2025 (DOC-00040, résumé d'orientation lu).
+12. **[S12]** McTague A, Martland T, Appleton R. Drug management for acute tonic-clonic convulsions including convulsive status epilepticus in children. *Cochrane Database Syst Rev*. 2018;1:CD001905. doi:10.1002/14651858.CD001905.pub3. PMID 29320603.
+13. **[S13]** Offringa M, Newton R, Nevitt SJ, Vraka K. Prophylactic drug management for febrile seizures in children. *Cochrane Database Syst Rev*. 2021;6:CD003031. doi:10.1002/14651858.CD003031.pub4. PMID 34131913.
+14. **[S14]** World Health Organization. *WHO Model List of Essential Medicines for Children, 10th list (2025)* (DOC-00037, lu).
+15. **[S15]** Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire (JORADP n° 49/2018, DOC-00070) ; arrêté du 28 avril 2026 (JORADP n° 36/2026, DOC-00071).
+16. **[S16]** Décret exécutif n° 22-250 du 30 juin 2022 fixant la liste des maladies à déclaration obligatoire (JORADP n° 47/2022, DOC-00072).
+17. **[S17]** Berg AT, Shinnar S, Darefsky AS, et al. Predictors of recurrent febrile seizures. A prospective cohort study. *Arch Pediatr Adolesc Med*. 1997;151(4):371-378. doi:10.1001/archpedi.1997.02170410045006. PMID 9111436.
+18. **[S18]** Chentouf A, Talhi R, Dahdouh A, et al. Consanguinity and epilepsy in Oran, Algeria: a case-control study. *Epilepsy Res*. 2015;111:10-17. doi:10.1016/j.eplepsyres.2014.12.014. PMID 25769368.
+19. **[S19]** World Health Organization. *Pocket book of hospital care for children*. 2nd ed. Geneva: WHO; 2013 (DOC-00063).
+
+*Dossiers Mediverse liés : DOS-PEDI-0001 (déshydratations, dysnatrémies), DOS-PEDI-0002 (vaccinations), DOS-PEDI-0004 (diarrhées, shigellose), DOS-PEDI-0006 (rachitisme, hypocalcémie), DOS-NEON-0002 (infections néonatales).*

@@ -212,7 +212,8 @@ MODÉRÉ À SÉVÈRE [(BSA > 10 ou PASI > 10) et DLQI > 10, ou surclassement]
   → biothérapie si échec, contre-indication, intolérance (d'emblée selon les textes)
 GRAVE (érythrodermie, pustuleux généralisé) → HOSPITALISATION
   → érythrodermie : soins généraux + ciclosporine ou biothérapie [choix À VÉRIFIER]
-  → pustuleux généralisé : spésolimab [S10], acitrétine, ciclosporine, biothérapie
+  → pustuleux généralisé : spésolimab [S10] ; acitrétine, ciclosporine, biothérapie
+    selon disponibilité [À VÉRIFIER — recommandations spécifiques]
 JAMAIS DE CORTICOÏDES GÉNÉRAUX (rebond érythrodermique ou pustuleux)
 ```
 

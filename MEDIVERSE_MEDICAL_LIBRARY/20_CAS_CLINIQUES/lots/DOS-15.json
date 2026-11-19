@@ -72,9 +72,15 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-15",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02/AUD-04 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Calculs, raisonnement, références réglementaires et conduite à tenir vérifiés ; aucune correction."
+      }
     },
     {
       "id": "CAS-EPID-1502",
@@ -107,7 +113,7 @@
         "Liste des contacts réceptifs (fratries, personnels)"
       ],
       "diagnostic_final": "Taux d'attaque : vaccinés 8/400 = 2 % ; non-vaccinés 40/100 = 40 % ; RR = 0,05 ; efficacité vaccinale = 1 − 0,05 = 95 %. Taux d'attaque global = 48/500 = 9,6 % ; fraction prévenue dans la population = (40 − 9,6)/40 = 76 % = couverture (0,8) × EV (0,95). Proportion de vaccinés parmi les cas = 8/48 = 16,7 % : la méthode de dépistage donne EV = 1 − (0,167/0,833) × (0,2/0,8) = 95 %, résultat concordant.",
-      "traitement": "Déclaration sans délai des cas suspects (rougeole, MDO de catégorie 1, décret 22-250 ; art. 39 de la loi 18-11) ; éviction des malades selon les règles locales ; vérification des statuts vaccinaux et rattrapage (vaccinations obligatoires gratuites, art. 40-41 ; calendrier fixé par arrêté) ; prise en charge symptomatique des cas et orientation des formes compliquées ; information des parents.",
+      "traitement": "Déclaration sans délai des cas suspects (rougeole, MDO de catégorie 1, décret 22-250 ; art. 39 de la loi 18-11) ; éviction des malades selon les règles locales ; vérification des statuts vaccinaux et rattrapage (vaccinations obligatoires gratuites, art. 40-41 ; calendrier fixé par arrêté) ; prise en charge symptomatique des cas, vitamine A pour tout enfant malade selon l'OMS (doses : voir CAS-SPUB-1501) et orientation des formes compliquées ; information des parents.",
       "surveillance": "Surveillance active de nouveaux cas pendant au moins deux périodes d'incubation après le dernier cas ; suivi de la couverture vaccinale.",
       "evolution": "Situation fictive : après la campagne de rattrapage, 3 nouveaux cas puis fin de l'épidémie.",
       "explication_pedagogique": "Le cas illustre le paradoxe apparent « des vaccinés tombent malades » : quand la couverture est élevée, une part non nulle des cas survient chez des vaccinés, sans remettre en cause l'efficacité vaccinale, qui se mesure par la comparaison des taux d'attaque. Il relie mesures d'impact (EV, fraction prévenue) et obligations réglementaires (MDO, vaccination).",
@@ -147,9 +153,15 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-15",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02/AUD-04 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Traitement : vitamine A ajoutée pour tout enfant atteint (OMS) ; calculs (EV 95 %, fraction prévenue 76 %, méthode de dépistage) vérifiés."
+      }
     },
     {
       "id": "CAS-EPID-1503",
@@ -218,9 +230,15 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-15",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02/AUD-04 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Calculs, raisonnement, références réglementaires et conduite à tenir vérifiés ; aucune correction."
+      }
     },
     {
       "id": "CAS-EPID-1504",
@@ -289,9 +307,15 @@
           "date": "2023"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-15",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02/AUD-04 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Calculs, raisonnement, références réglementaires et conduite à tenir vérifiés ; aucune correction."
+      }
     },
     {
       "id": "CAS-SPUB-1501",
@@ -325,7 +349,7 @@
         "Vérification des statuts vaccinaux des contacts"
       ],
       "diagnostic_final": "Rougeole (cas suspect puis confirmé) chez un enfant incomplètement vacciné.",
-      "traitement": "Traitement symptomatique (antipyrétique, hydratation) et surveillance des complications ; supplémentation en vitamine A selon les recommandations de l'OMS [POSOLOGIE À VÉRIFIER — RCP / protocole local] ; déclaration sans délai du cas suspect (rougeole, catégorie 1 du décret 22-250 ; art. 39 de la loi 18-11) ; signalement au service d'épidémiologie pour l'investigation autour du cas ; vaccination de rattrapage des contacts réceptifs selon le calendrier réglementaire (vaccinations obligatoires gratuites, art. 40-41) ; orientation vers le service de pédiatrie de l'EPH en cas de complication (pneumopathie, déshydratation, convulsions) ; soins gratuits dans le secteur public (art. 13).",
+      "traitement": "Traitement symptomatique (antipyrétique, hydratation) et surveillance des complications ; vitamine A par voie orale, 200 000 UI le jour du diagnostic et 200 000 UI le lendemain (enfant de 12 mois à 5 ans ; 100 000 UI entre 6 et 11 mois, 50 000 UI avant 6 mois ; 3e dose 2 à 4 semaines plus tard en cas de signes oculaires de carence) selon l'OMS (Mémento de soins hospitaliers pédiatriques, 2e éd. 2015 ; aide-mémoire Rougeole) ; déclaration sans délai du cas suspect (rougeole, catégorie 1 du décret 22-250 ; art. 39 de la loi 18-11) ; signalement au service d'épidémiologie pour l'investigation autour du cas ; vaccination de rattrapage des contacts réceptifs selon le calendrier réglementaire (vaccinations obligatoires gratuites, art. 40-41) ; orientation vers le service de pédiatrie de l'EPH en cas de complication (pneumopathie, déshydratation, convulsions) ; soins gratuits dans le secteur public (art. 13).",
       "surveillance": "Revoir l'enfant à 48 heures ; consignes de reconsultation (dyspnée, refus de boire, somnolence, convulsions) ; surveillance des contacts pendant la période d'incubation.",
       "evolution": "Évolution simple en 10 jours ; deux cas secondaires dans la famille ; campagne de rattrapage dans le quartier.",
       "explication_pedagogique": "Le cas relie clinique et organisation sanitaire : premier recours (médecin référent en structure de proximité), hiérarchisation (recours à l'EPH si complication), déclaration obligatoire (catégorie 1), rôle du service d'épidémiologie et intersectorialité (école, commune), gratuité et caractère obligatoire des vaccinations.",
@@ -359,11 +383,21 @@
         {
           "reference": "Arrêté du 3 juillet 2018 fixant le calendrier de vaccination obligatoire (DOC-00070), complété par l'arrêté du 28 avril 2026 (DOC-00071)",
           "date": "2018"
+        },
+        {
+          "reference": "OMS. Mémento de soins hospitaliers pédiatriques, 2e éd. 2015 (DOC-00062, acquis local) — rougeole, traitement par la vitamine A ; OMS, aide-mémoire Rougeole (who.int, consulté le 19/11/2026)",
+          "date": "2015"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-15",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02/AUD-04 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Marqueur posologique levé : vitamine A 200 000 UI à J1 et J2 entre 12 mois et 5 ans (OMS, Mémento 2015, DOC-00062)."
+      }
     },
     {
       "id": "CAS-SPUB-1502",
@@ -424,9 +458,15 @@
           "date": "2018"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-15",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02/AUD-04 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Articles 7, 196-197, 269-271, 306-312, 321, 325 de la loi 18-11 vérifiés (art. 307 et 311-312 non modifiés par l'ordonnance 20-02) ; 95/180 000 = 528 par million ; modalités financières des conventions laissées [À VÉRIFIER]."
+      }
     },
     {
       "id": "CAS-GERI-1501",
@@ -501,9 +541,15 @@
           "date": "2023"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-15",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02/AUD-04 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Calculs, raisonnement, références réglementaires et conduite à tenir vérifiés ; aucune correction."
+      }
     },
     {
       "id": "CAS-GERI-1502",
@@ -575,9 +621,15 @@
           "date": "2009"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-15",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02/AUD-04 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Calculs, raisonnement, références réglementaires et conduite à tenir vérifiés ; aucune correction."
+      }
     },
     {
       "id": "CAS-GERI-1503",
@@ -649,9 +701,15 @@
           "date": "2009"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_valide",
       "auteur": "DOS-15",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02/AUD-04 (IA)",
+        "verdict": "audite_valide",
+        "remarque": "Calculs, raisonnement, références réglementaires et conduite à tenir vérifiés ; aucune correction."
+      }
     },
     {
       "id": "CAS-GERI-1504",
@@ -688,7 +746,7 @@
         "Ponction lombaire si syndrome méningé ou fièvre inexpliquée"
       ],
       "diagnostic_final": "Delirium tremens (confusion hyperactive de sevrage alcoolique) avec suspicion d'encéphalopathie de Gayet-Wernicke, au décours d'une pneumopathie.",
-      "traitement": "Urgence : surveillance rapprochée (idéalement en unité de soins continus) ; benzodiazépine, traitement de choix du sevrage, selon un protocole guidé par les symptômes [POSOLOGIE À VÉRIFIER — RCP / protocole local] ; thiamine par voie parentérale avant tout apport glucosé [POSOLOGIE À VÉRIFIER — RCP / protocole local] ; correction de l'hypokaliémie et de l'hypomagnésémie, hydratation ; poursuite de l'antibiothérapie ; mesures non médicamenteuses (environnement calme et éclairé, présence rassurante) ; éviter la contention autant que possible ; ultérieurement, prise en charge addictologique.",
+      "traitement": "Urgence : surveillance rapprochée (idéalement en unité de soins continus) ; benzodiazépine, traitement de choix du sevrage (NICE CG100 : lorazépam oral en 1re intention ; lorazépam parentéral ou halopéridol si persistance ou refus de la voie orale), dose titrée selon un protocole guidé par les symptômes [POSOLOGIE À VÉRIFIER — RCP / protocole local] ; thiamine 200 mg trois fois par jour par voie IV, avant tout apport glucosé (EFNS 2010), pendant au moins 5 jours puis relais oral (NICE CG100) ; correction de l'hypokaliémie et de l'hypomagnésémie, hydratation ; poursuite de l'antibiothérapie ; mesures non médicamenteuses (environnement calme et éclairé, présence rassurante) ; éviter la contention autant que possible ; ultérieurement, prise en charge addictologique.",
       "surveillance": "Paramètres vitaux, score de sevrage, vigilance (risque de sédation excessive et de dépression respiratoire), ionogramme, glycémie, signes neurologiques (oculomotricité, ataxie).",
       "evolution": "Situation fictive : résolution de la confusion en 4 jours ; nystagmus régressif sous thiamine ; orientation vers une consultation d'addictologie.",
       "explication_pedagogique": "Le sevrage alcoolique est la principale situation où les benzodiazépines sont indiquées dans une confusion ; l'alcoolisme est souvent méconnu à l'admission (interroger systématiquement). La thiamine doit précéder le glucose chez tout patient à risque de carence.",
@@ -718,11 +776,25 @@
         {
           "reference": "HAS. Confusion aiguë chez la personne âgée : prise en charge initiale de l'agitation. Mai 2009",
           "date": "2009"
+        },
+        {
+          "reference": "NICE. Alcohol-use disorders: diagnosis and management of physical complications (CG100), 2010, mises à jour 2017 — rec. 1.1.4.1 et 1.2.1.4",
+          "date": "2017"
+        },
+        {
+          "reference": "Galvin R et al. EFNS guidelines for diagnosis, therapy and prevention of Wernicke encephalopathy. Eur J Neurol 2010;17(12):1408-1418 (PMID 20642790)",
+          "date": "2010"
         }
       ],
-      "statut": "brouillon_a_auditer",
+      "statut": "audite_corrections_requises",
       "auteur": "DOS-15",
-      "date_creation": "2026-11-19"
+      "date_creation": "2026-11-19",
+      "audit": {
+        "date": "2026-11-19",
+        "auditeur": "AUD-01/AUD-02/AUD-04 (IA)",
+        "verdict": "audite_corrections_requises",
+        "remarque": "Thiamine levée (200 mg × 3/j IV, EFNS 2010 ; ≥ 5 jours, NICE CG100) ; molécule de la benzodiazépine précisée (lorazépam, NICE CG100) ; dose de la benzodiazépine non standardisée : marqueur maintenu."
+      }
     }
   ]
 }
