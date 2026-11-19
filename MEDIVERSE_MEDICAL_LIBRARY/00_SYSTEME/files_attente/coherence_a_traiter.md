@@ -44,3 +44,10 @@ Détail dans `00_SYSTEME/agents/RES-06/journal_lot4.md` et `etat_lot4.json`.
    → résolu (AUD-05, 2026-11-19, rapport `00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md`) : harmonisé — tableau complété (≈ 1 attendu dans l'acidocétose, fuite urinaire des cétoanions ; Rastegar, JASN 2007 [S10]) et réponse 5 du cas reformulée. DOS-PHYS-0001 v1.2, FIC-PHYS-0001.
 - [x] DOS-PHAR-0002 : seuil d'INR pour le relais AVK→AOD, « ≤ 2 » (EHRA) et « < 2 » (RCP) côte à côte : présenter explicitement la divergence.
    → résolu (AUD-05, 2026-11-19, rapport `00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md`) : divergence présentée (§ 13.3.3 et ligne du § 21) — EHRA 2021 [S5] : ≤ 2,0 (2,0–2,5 le jour même ou le lendemain) ; RCP européens : dabigatran/apixaban < 2, édoxaban ≤ 2,5, rivaroxaban ≤ 3 (FA) / ≤ 2,5 (MTEV) ; le RCP prévaut. DOS-PHAR-0002 v1.2, FIC-PHAR-0002.
+
+## Signalées par RES-06 (lot 6), le 2026-11-19 (transmises par le coordinateur)
+- [ ] Loi 18-11 : articles cités « 88-90 » (DOS-GERI-0001) contre « 89-90 » (DOS-SPUB-0001) : vérifier sur le texte (DOC-00074) et harmoniser.
+- [ ] Tableau 2 × 2 : lettres b et c inversées entre DOS-EPID-0001 et DOS-EPID-0002 : convention unique (a = exposés malades, b = exposés non malades, c = non exposés malades, d = non exposés non malades), formules, exemples, fiches et QCM à corriger, calculs à refaire.
+- [ ] DOS-GERI-0002 : code CIM-11 donné « vérifié » puis `[À VÉRIFIER]` : harmoniser.
+- [ ] DOS-INFE-0006 : lactate « > 4 » contre « ≥ 4 » mmol/L : aligner sur la définition Sepsis-3 / SSC citée.
+- [ ] DOS-GERI-0001 : « plus de 65 ans » contre « ≥ 65 ans » : aligner sur la source.

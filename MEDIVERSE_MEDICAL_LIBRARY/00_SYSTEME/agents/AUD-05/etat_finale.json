@@ -1,0 +1,60 @@
+{
+  "id": "AUD-05",
+  "passe": "coherence_finale",
+  "statut": "termine",
+  "derniere_execution": "2026-11-19",
+  "file_traitee": "00_SYSTEME/files_attente/coherence_a_traiter.md",
+  "points_traites": 17,
+  "points_ouverts": 0,
+  "decisions": {
+    "harmonisations": [
+      "RHUM-0001 (MTX 3E, libellé DAS28)",
+      "MINT-0001 (prednisone ≈ 17-28 mg/j)",
+      "PSYC-0001 (suicide 5-6 %)",
+      "MTRA-0001 (HTIG 500 UI > 24 h)",
+      "UROL-0001 (imagerie 12e-48e h, SFMU 2008)",
+      "UROL-0002 (renvoi § 13.3.2)",
+      "TRAU-0001 (Pauwels ≤ 30 / ≥ 50°, AAOS 2021 publiée 2022)",
+      "TRAU-0002 (paracétamol < 50 kg)",
+      "ORL-0003 (tabac : formes différenciées)",
+      "NCHI-0001 (SpO2 ≥ 90 % = BTF 2007)",
+      "OPHT-0001 (CI bêtabloquants EGS ; éditions 2021/2025)",
+      "PHAR-0002 (demi-vies = HEMA-0007)",
+      "PHYS-0001 (delta ratio dans l'acidocétose)",
+      "PHYS-0002 + CAS-PHYS-1303/1304 (renvois DOS-CARD-0007 § 13.2.2)"
+    ],
+    "divergences_presentees": [
+      "MINT-0002 : anticoagulation Behçet EULAR 2018 vs PNDS HAS 2019",
+      "PSYC-0002 : fluoxétine max 60 mg (CANMAT 2023) vs 80 mg/j (mhGAP-IG OMS 2016)",
+      "MINT_REA-0001 / IMMU-0002 : remplissage anaphylaxie WAO 2020 20 mL/kg vs RCUK 2021 500-1 000 mL adulte / 10 mL/kg enfant",
+      "PHAR-0002 : INR relais AVK→AOD EHRA 2021 ≤ 2,0 vs RCP européens"
+    ],
+    "verifies_sans_modification_de_fond": [
+      "OBST-0001 / FIC-OBST-0001 (HTA sévère 160/110 vs 160/105 déjà présentée)",
+      "ORL-0001 (plafond cotrimoxazole = libellé HAS, précision ajoutée)"
+    ],
+    "index": "RES-MED-101 -> MINT,RHUM (importer_programme_residanat.py + indexer.py, anomalies 0)"
+  },
+  "compteurs": {
+    "dossiers_modifies": 19,
+    "fiches_modifiees": 19,
+    "qcm_modifies": 4,
+    "cas_modifies": 7,
+    "autres_fichiers": [
+      "00_SYSTEME/scripts/importer_programme_residanat.py",
+      "16_RESIDANAT_ALGERIE/07_PIEGES_CLASSIQUES/PIEGES_CLASSIQUES_LOT4.md",
+      "00_SYSTEME/files_attente/coherence_a_traiter.md"
+    ]
+  },
+  "sauvegardes": "00_SYSTEME/sauvegardes/20261119/<chemin>.avant_AUD-05b.<ext> (49 fichiers)",
+  "taches_suivantes": [
+    "Relire CLAFU 2022 et actualisation SFMU 2008 (délai d'imagerie de la CN simple)",
+    "Relire RCUK 2021 (barème adrénaline, volumes de remplissage)",
+    "Relire RFE SFAR 2018 TC grave (seuil SpO2/PaO2)",
+    "Relire la figure EHRA 2021 des relais AVK -> AOD",
+    "Slimani 2014 : libellé exact du seuil DAS28",
+    "Fiche HAS OMA enfant (PDF) et RCP pédiatrique du cotrimoxazole",
+    "Facultatif : renvoi DOS-CARD-0002 -> divergence HTA sévère gravidique de DOS-OBST-0001"
+  ],
+  "rapport": "00_SYSTEME/agents/AUD-05/rapports/COHERENCE_FINALE_2026-11-19.md"
+}
