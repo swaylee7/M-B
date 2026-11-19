@@ -428,7 +428,46 @@ Sources : [S1] (catégories, schémas, IGR, observation) ; [S6] (antibiotiques).
 
 ## 17. Cas clinique commenté
 
-<!--CAS17-->
+<!--CAS17:start-->
+> Cas repris de la banque `20_CAS_CLINIQUES/lots/DOS-02-lot2.json` (un second cas, `CAS-INFE-0210`, y figure également).
+
+**Morsure profonde de la main par un chien errant** — *scénario fictif* (`CAS-INFE-0209`, niveau residanat)
+
+**Présentation.** Scénario fictif : homme, 42 ans, agriculteur, 75 kg, wilaya des Hauts-Plateaux. Consulte 5 heures après avoir été mordu à la main droite par un chien errant au comportement agressif, qui s'est enfui.
+
+**Antécédents.** Aucun. Jamais vacciné contre la rage. Dernier rappel antitétanique il y a plus de 15 ans. Pas d'immunodépression.
+
+**Histoire et symptômes.** Douleur de la main ; saignement ayant cédé à la compression.
+
+**Examen clinique.** Deux plaies transfixiantes saignantes de la face dorsale de la main droite et une morsure punctiforme de l'index ; pas d'atteinte tendineuse apparente ; pas de signe infectieux ; constantes normales.
+
+**Biologie.** Aucun examen nécessaire pour décider de la prophylaxie.
+
+**Imagerie.** Radiographie de la main (recherche de fracture ou de corps étranger, fragment de dent) : normale.
+
+**Question 1 — Quelle catégorie d'exposition ?**
+> Catégorie III : morsures transdermiques saignantes ; l'animal errant enfui doit être considéré comme suspect.
+
+**Question 2 — Quelle quantité d'IGR et comment ?**
+> IGR humaines ≤ 20 UI/kg ou équines ≤ 40 UI/kg, infiltrées en totalité dans et autour de toutes les plaies (dilution possible), une seule fois, au plus tard à J7 de la vaccination.
+
+**Question 3 — Peut-on attendre de retrouver le chien ?**
+> Non : la PPE est une urgence ; elle n'est jamais différée dans l'attente d'une observation impossible.
+
+**Question 4 — Que faire pour la plaie ?**
+> Lavage 15 minutes, antiseptique, parage, pas de suture d'emblée des plaies punctiformes de la main ; tétanos ; antibiotiques selon le risque et en cas d'infection.
+
+**Diagnostic retenu.** Exposition rabique de catégorie III chez un sujet non vacciné ; animal non disponible pour l'observation, donc considéré comme suspect.
+
+**Traitement.** Lavage immédiat et prolongé (15 min) à l'eau et au savon, povidone iodée ; parage, pas de suture des plaies punctiformes de la main (avis chirurgical) ; IGR infiltrées en totalité dans et autour des 3 plaies — humaines 20 UI/kg (1 500 UI) ou équines 40 UI/kg (3 000 UI) selon le produit disponible, diluées si nécessaire, sans test cutané, dans des conditions permettant de traiter une anaphylaxie ; vaccination antirabique selon un schéma OMS (ID 2 sites J0-J3-J7, ou IM J0-J3-J7-J14/28, ou Zagreb) en respectant le protocole national [À VÉRIFIER — schéma algérien] ; vaccination antitétanique (± immunoglobulines selon le statut) ; antibioprophylaxie de 3 jours envisageable (plaie de la main à haut risque) [POSOLOGIE À VÉRIFIER] ; amoxicilline-acide clavulanique 500/125 mg × 3/j pendant 5 jours si la plaie s'infecte (OMS) ; signalement aux services vétérinaires.
+
+**Surveillance.** Calendrier vaccinal (relance), surveillance de 15–20 min après chaque injection, maladie sérique vers J7 si IGR équines, évolution de la plaie (infection, raideur), information sur l'absence de contre-indication et l'importance de terminer la PPE.
+
+**Évolution.** Plaie cicatrisée en 12 jours ; PPE complète ; pas de complication.
+
+**Commentaire pédagogique.** Le cas illustre la classification OMS (catégorie III : plaies transdermiques saignantes), la règle « animal non disponible = suspect », l'importance du lavage, l'infiltration de la totalité des IGR dans les plaies (sans test cutané) et le choix d'un schéma abrégé, ainsi que les volets tétanos et antibiotiques.
+
+<!--CAS17:end-->
 
 ---
 
@@ -462,7 +501,232 @@ Sources : [S1] (catégories, schémas, IGR, observation) ; [S6] (antibiotiques).
 
 ## 20. QCM d'auto-évaluation (corrigés commentés)
 
-<!--QCM20-->
+<!--QCM20:start-->
+> 10 QCM originaux Mediverse (cinq propositions A–E ; QCM = une ou plusieurs réponses exactes, QCS = une seule). La banque complète de l'item (13 questions : `QCM-INFE-0253` à `QCM-INFE-0265`) figure dans `21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-02-lot2.json`.
+
+### QCM 1 — Agent, réservoirs et transmission (QCM, difficulté 1/3)
+
+Concernant le virus de la rage et sa transmission, quelles propositions sont exactes ?
+
+- **A.** Le virus de la rage appartient au genre Lyssavirus de la famille des Rhabdoviridae.
+- **B.** Le chien est la principale source de rage humaine dans le monde.
+- **C.** Des cas de rage humaine après morsure de rongeur sont fréquemment rapportés.
+- **D.** Une transmission interhumaine a été documentée par greffe d'organes.
+- **E.** La consommation de lait d'une vache enragée est une cause documentée de rage humaine.
+
+**Réponse(s) exacte(s) : A, B, D**
+
+*Corrigé commenté.* Le RABV est un Lyssavirus (Rhabdoviridae) ; le chien est la source principale des cas humains. Aucun cas humain n'a été rapporté après morsure de rongeur, ni après consommation de lait ou de viande d'animal enragé. La transmission interhumaine n'est confirmée que par greffe (et un cas périnatal probable).
+
+- A — Vrai.
+- B — Vrai.
+- C — Faux : la rage est très rare chez les rongeurs, aucun cas humain rapporté.
+- D — Vrai : greffes d'organes et de cornée.
+- E — Faux : aucun cas documenté ; le lait pasteurisé est sans risque.
+
+*Banque : `QCM-INFE-0253`*
+
+### QCM 2 — Physiopathologie et incubation (QCM, difficulté 2/3)
+
+Concernant la physiopathologie et l'incubation de la rage, quelles propositions sont exactes ?
+
+- **A.** Le virus gagne le système nerveux central par transport axonal rétrograde.
+- **B.** L'incubation est le plus souvent de 2 à 3 mois.
+- **C.** Environ 2 à 3 % des cas ont une incubation supérieure à un an.
+- **D.** Les morsures de la face et du cou exposent à une incubation plus courte.
+- **E.** Les anticorps vaccinaux neutralisent efficacement le virus déjà présent dans les nerfs.
+
+**Réponse(s) exacte(s) : A, B, C, D**
+
+*Corrigé commenté.* Après inoculation, le virus chemine le long des nerfs vers le SNC (transport rétrograde), à l'abri du système immunitaire, puis diffuse de façon centrifuge (glandes salivaires, peau). L'incubation est en général de 2–3 mois (5 jours à plusieurs années ; > 1 an dans 2–3 % des cas), plus courte pour la tête et le cou et chez l'enfant. Une fois dans le nerf, le virus échappe aux anticorps : d'où l'urgence de la PPE et l'infiltration locale des IGR.
+
+- A — Vrai.
+- B — Vrai.
+- C — Vrai.
+- D — Vrai.
+- E — Faux : d'où l'intérêt de neutraliser le virus dans la plaie avant qu'il n'atteigne les nerfs.
+
+*Banque : `QCM-INFE-0254`*
+
+### QCM 3 — Formes cliniques (QCM, difficulté 2/3)
+
+Concernant les formes cliniques de la rage humaine, quelles propositions sont exactes ?
+
+- **A.** Des paresthésies ou une douleur au site de la morsure cicatrisée sont un signe prodromique évocateur.
+- **B.** Dans la forme furieuse, des spasmes sont déclenchés par des stimuli tactiles, auditifs, visuels ou olfactifs.
+- **C.** Dans la forme furieuse, l'agitation alterne avec des périodes de lucidité.
+- **D.** Dans la forme paralytique, les spasmes phobiques sont présents chez tous les patients.
+- **E.** Le myœdème à la percussion, la piloérection et les fasciculations sont des signes précoces de la forme paralytique.
+
+**Réponse(s) exacte(s) : A, B, C, E**
+
+*Corrigé commenté.* La forme furieuse associe spasmes réflexes (hydrophobie, aérophobie), agitation alternant avec lucidité et dysautonomie ; la forme paralytique, souvent méconnue, peut simuler un syndrome de Guillain-Barré ; les spasmes phobiques n'y sont présents que chez environ la moitié des patients ; myœdème, piloérection et fasciculations sont évocateurs au début.
+
+- A — Vrai.
+- B — Vrai.
+- C — Vrai.
+- D — Faux : environ 50 % seulement.
+- E — Vrai.
+
+*Banque : `QCM-INFE-0255`*
+
+### QCM 4 — Catégories d'exposition (QCM, difficulté 2/3)
+
+Selon l'OMS, quelles situations correspondent à une exposition de catégorie III ?
+
+- **A.** Morsure transdermique unique de la jambe par un chien errant.
+- **B.** Léchage par un chien suspect sur une peau intacte.
+- **C.** Léchage de la conjonctive ou de la bouche par un chien suspect.
+- **D.** Contact direct avec une chauve-souris.
+- **E.** Griffure superficielle sans saignement par un chat suspect.
+
+**Réponse(s) exacte(s) : A, C, D**
+
+*Corrigé commenté.* Catégorie III : morsures ou griffures transdermiques, contamination des muqueuses par la salive, léchage sur peau lésée, contact direct avec une chauve-souris → vaccin + IGR. Catégorie I : toucher, nourrir, léchage sur peau intacte → pas de PPE. Catégorie II : mordillement, griffure ou érosion sans saignement → vaccin.
+
+- A — Vrai.
+- B — Faux : catégorie I.
+- C — Vrai : contamination muqueuse.
+- D — Vrai : toute exposition aux chauves-souris est traitée en catégorie III.
+- E — Faux : catégorie II (vaccination seule).
+
+> Piège : Sous-classer une exposition muqueuse ou une plaie qui saigne.
+
+*Banque : `QCM-INFE-0256`*
+
+### QCM 5 — Soins locaux de la plaie (QCM, difficulté 1/3)
+
+Concernant les soins locaux d'une morsure exposant au risque rabique, quelles propositions sont exactes ?
+
+- **A.** Laver et rincer abondamment la plaie à l'eau et au savon pendant environ 15 minutes.
+- **B.** Appliquer ensuite un antiseptique virucide comme la povidone iodée.
+- **C.** Suturer immédiatement et hermétiquement toutes les plaies avant l'infiltration des immunoglobulines.
+- **D.** Une plaie infectée contre-indique l'infiltration d'immunoglobulines.
+- **E.** Évaluer la prophylaxie antitétanique.
+
+**Réponse(s) exacte(s) : A, B, E**
+
+*Corrigé commenté.* Le lavage prolongé et l'antiseptique virucide sont essentiels ; la suture est évitée si possible ou réalisée après infiltration des IGR, de façon différée et lâche ; une plaie infectée ne contre-indique pas les IGR ; tétanos et antibiothérapie sont évalués selon la plaie.
+
+- A — Vrai.
+- B — Vrai.
+- C — Faux : suture différée, après les IGR, points lâches.
+- D — Faux : pas de contre-indication.
+- E — Vrai.
+
+*Banque : `QCM-INFE-0257`*
+
+### QCM 6 — Schémas vaccinaux de PPE (QCM, difficulté 2/3)
+
+Quels schémas de vaccination post-exposition sont recommandés par l'OMS (2018) chez un sujet jamais vacciné ?
+
+- **A.** Voie intradermique, 2 sites à J0, J3 et J7.
+- **B.** Voie intramusculaire, 1 dose à J0, J3, J7 et entre J14 et J28.
+- **C.** Voie intramusculaire, 2 doses à J0, 1 dose à J7 et 1 dose à J21 (Zagreb).
+- **D.** Voie intramusculaire, 1 dose unique à J0.
+- **E.** Injection intramusculaire dans la région fessière chez l'adulte.
+
+**Réponse(s) exacte(s) : A, B, C**
+
+*Corrigé commenté.* Schémas OMS : ID « 1 semaine, 2 sites » (2-2-2-0-0) ; IM « 2 semaines » (1-1-1-1-0, 4e dose entre J14 et J28) ; IM « 3 semaines » Zagreb (2-0-1-0-1). Une dose ID = 0,1 mL par site ; une dose IM = un flacon entier ; deltoïde chez l'adulte, cuisse avant 2 ans ; jamais la fesse.
+
+- A — Vrai.
+- B — Vrai.
+- C — Vrai.
+- D — Faux : insuffisant chez le sujet non vacciné.
+- E — Faux : réponse moins fiable.
+
+*Banque : `QCM-INFE-0258`*
+
+### QCM 7 — Immunoglobulines antirabiques (QCM, difficulté 2/3)
+
+Concernant les immunoglobulines antirabiques (IGR) selon l'OMS, quelles propositions sont exactes ?
+
+- **A.** La dose maximale d'IGR humaines est de 20 UI/kg.
+- **B.** La dose maximale d'IGR équines est de 40 UI/kg.
+- **C.** La totalité de la dose doit être infiltrée dans et autour des plaies, autant que l'anatomie le permet.
+- **D.** Elles peuvent être administrées jusqu'au 21e jour après la première dose de vaccin.
+- **E.** Un test cutané préalable est recommandé avant les IGR équines.
+
+**Réponse(s) exacte(s) : A, B, C**
+
+*Corrigé commenté.* IGR humaines 20 UI/kg, équines (ou F(ab')2) 40 UI/kg, infiltrées en totalité dans et autour des plaies (dilution possible si plaies multiples), en une seule fois, au plus tard au 7e jour après la première dose de vaccin. Les tests cutanés ne sont pas recommandés ; l'injection se fait dans des conditions permettant de traiter une anaphylaxie.
+
+- A — Vrai.
+- B — Vrai.
+- C — Vrai.
+- D — Faux : inutiles au-delà de J7.
+- E — Faux : mauvaise valeur prédictive, non recommandé.
+
+*Banque : `QCM-INFE-0259`*
+
+### QCM 8 — Sujet déjà vacciné (QCS, difficulté 2/3)
+
+Une vétérinaire ayant reçu une PrEP complète documentée il y a 6 ans est mordue profondément à la main par un chien suspect. Quelle conduite est conforme à l'OMS ?
+
+- **A.** Schéma complet de 4 doses IM associé aux IGR.
+- **B.** Soins de plaie et vaccination à J0 et J3 (ID 1 site ou IM), sans IGR.
+- **C.** Aucune vaccination, la PrEP protégeant à vie.
+- **D.** IGR seules sans vaccin.
+- **E.** Sérologie préalable et vaccination seulement si le titre est inférieur à 0,5 UI/mL.
+
+**Réponse(s) exacte(s) : B**
+
+*Corrigé commenté.* Chez un sujet ayant une PrEP ou une PPE complète documentée (ou au moins 2 doses d'une PPE interrompue), l'OMS recommande soins de plaie + vaccination abrégée : ID 1 site J0 et J3, ou ID 4 sites J0, ou IM J0 et J3 ; pas d'IGR. La sérologie ne doit jamais retarder la PPE.
+
+- A — Faux : excessif.
+- B — Vrai.
+- C — Faux : une PPE abrégée reste nécessaire.
+- D — Faux.
+- E — Faux : la sérologie ne doit pas retarder la PPE.
+
+*Banque : `QCM-INFE-0260`*
+
+### QCM 9 — PPE chez l'immunodéprimé (QCM, difficulté 3/3)
+
+Un patient greffé rénal sous immunosuppresseurs est griffé superficiellement, sans saignement, par un chat errant suspect. Quelles propositions sont exactes (OMS) ?
+
+- **A.** Il s'agit d'une exposition de catégorie II.
+- **B.** Chez un sujet sévèrement immunodéprimé, des IGR sont indiquées même en catégorie II.
+- **C.** Le schéma vaccinal le plus immunogène disponible doit être utilisé.
+- **D.** Une sérologie 2 à 4 semaines après la vaccination permet de juger de la nécessité d'une dose supplémentaire.
+- **E.** L'immunodépression contre-indique la PPE.
+
+**Réponse(s) exacte(s) : A, B, C, D**
+
+*Corrigé commenté.* Chez l'immunodéprimé sévère, l'OMS recommande vaccin et IGR dès la catégorie II, le schéma le plus immunogène, un lavage méticuleux et une sérologie à 2–4 semaines. Il n'existe aucune contre-indication à la PPE.
+
+- A — Vrai.
+- B — Vrai.
+- C — Vrai.
+- D — Vrai.
+- E — Faux : aucune contre-indication.
+
+*Banque : `QCM-INFE-0261`*
+
+### QCM 10 — Observation de l'animal (QCM, difficulté 2/3)
+
+Un enfant de 6 ans est mordu au mollet (plaie saignante) par le chien d'un voisin, apparemment sain et vacciné selon le propriétaire, dans une commune sans surveillance vétérinaire organisée. Quelles propositions sont exactes (OMS) ?
+
+- **A.** La PPE (vaccin + IGR) doit être débutée immédiatement.
+- **B.** La PPE peut être arrêtée si un professionnel formé confirme que le chien est en bonne santé au 10e jour.
+- **C.** Il faut attendre la fin de l'observation de 10 jours avant toute vaccination.
+- **D.** Si le chien meurt ou présente des signes pendant l'observation, la PPE doit être poursuivie et le chien analysé.
+- **E.** Le statut vaccinal déclaré du chien suffit à dispenser de toute PPE.
+
+**Réponse(s) exacte(s) : A, B, D**
+
+*Corrigé commenté.* Sans surveillance vétérinaire fiable ni laboratoire, l'OMS recommande de débuter la PPE immédiatement et de ne l'arrêter que si un professionnel formé confirme que l'animal est sain à J10 (ou si le laboratoire est négatif). Les enfants doivent recevoir la PPE immédiatement en raison du risque d'exposition grave.
+
+- A — Vrai : catégorie III (plaie saignante).
+- B — Vrai.
+- C — Faux : la PPE ne doit pas attendre.
+- D — Vrai.
+- E — Faux : élément pris en compte, mais insuffisant en l'absence de surveillance fiable.
+
+*Banque : `QCM-INFE-0262`*
+
+<!--QCM20:end-->
 
 ---
 

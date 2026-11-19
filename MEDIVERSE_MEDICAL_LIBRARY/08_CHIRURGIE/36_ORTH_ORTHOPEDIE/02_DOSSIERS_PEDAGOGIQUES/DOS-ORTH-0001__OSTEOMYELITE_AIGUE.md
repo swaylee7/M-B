@@ -415,7 +415,7 @@ Le diagnostic d'OMA est **clinique, biologique et radiologique** ; la documentat
 |---|---|---|---|
 | **Enfant > 3 mois, IOA non compliquée** (GPIP 2023) | **Céfazoline IV 150 mg/kg/j** (forte dose) [S1], en 3 à 4 injections par jour (toutes les 6 à 8 heures ; la PIDS/IDSA donne une fourchette de 100 à 150 mg/kg/j toutes les 8 heures [S4]) [POSOLOGIE À VÉRIFIER — dose maximale journalière : protocole local] | **Amoxicilline-acide clavulanique 80 mg/kg/j** (dose exprimée en amoxicilline) en 3 prises, avec une forme pédiatrique de rapport 8/1 (100 mg/12,5 mg par mL) qui limite l'acide clavulanique à 10 mg/kg/j (RCP) ; **ou céfalexine 150 mg/kg/j** en 3 prises [S1, S11]. Ne pas dépasser la posologie maximale de l'adulte (céfalexine : 4 g/j selon le RCP) | **3 semaines** pour une ostéomyélite ; **14 jours** pour une arthrite septique [S1] |
 | Durée de la voie IV (forme non compliquée d'évolution favorable) | **≈ 3 jours** puis relais oral [S1, S2] | — | — |
-| **Formes sévères** (bassin, rachis, évolution lente, terrain particulier : nouveau-né, nourrisson < 3 mois, immunodéprimé) | Schémas spécifiques, avis spécialisé [S1] [POSOLOGIE À VÉRIFIER — protocole GPIP / local] | Selon l'évolution | **4 à 6 semaines** [S1] |
+| **Formes sévères** (bassin, rachis, évolution lente, terrain particulier : nouveau-né, nourrisson < 3 mois, immunodéprimé) | Schémas spécifiques, avis spécialisé [S1] (schémas et posologies : cf. § 13.2.7) | Selon l'évolution | **4 à 6 semaines** [S1] |
 | Version 2017 (rappel) | Amoxicilline-acide clavulanique, céfuroxime ou céfazoline **150 mg/kg/j IV** chez l'enfant > 3 mois [S2] | — | 10 jours (arthrite), 3 semaines (ostéomyélite) [S2] |
 
 **Commentaires** :

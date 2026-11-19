@@ -580,7 +580,7 @@ Fermeture de l'angle BILATÉRALE, sujet jeune, myopie aiguë, début récent d'u
 - B. Antidépresseur tricyclique
 - C. Collyre au tropicamide pour un examen du fond d'œil
 - D. Topiramate
-- E. Collyre à la pilocarpine 1 %
+- E. Collyre de timolol 0,5 %
 
 **QCM 4** (QCM-OPHT-1204 — réponses multiples possibles). Quels éléments orientent vers une crise aiguë de fermeture de l'angle plutôt que vers une uvéite antérieure aiguë ?
 
@@ -657,13 +657,13 @@ Fermeture de l'angle BILATÉRALE, sujet jeune, myopie aiguë, début récent d'u
 - D : Faux : le topiramate entraîne une effusion ciliochoroïdienne avec bascule antérieure du diaphragme irido-cristallinien ; l'iridotomie est inefficace.
 - E : Vrai : bloc pupillaire maximal et iris périphérique relâché en mydriase moyenne.
 
-**QCM 3 — réponse(s) : A, B, C, D.** Les anticholinergiques, sympathomimétiques, antidépresseurs et collyres mydriatiques favorisent la mydriase et le bloc pupillaire ; le topiramate et certains sulfamides provoquent une fermeture bilatérale par effusion ciliochoroïdienne. La pilocarpine est un myotique utilisé dans le traitement.
+**QCM 3 — réponse(s) : A, B, C, D.** Les anticholinergiques, sympathomimétiques, antidépresseurs et collyres mydriatiques favorisent la mydriase et le bloc pupillaire ; le topiramate et certains sulfamides provoquent une fermeture bilatérale par effusion ciliochoroïdienne. Le timolol, sans effet sur la pupille, fait partie du traitement.
 
 - A : Vrai : anticholinergique (surtout en association au salbutamol nébulisé, par diffusion oculaire).
 - B : Vrai : effet anticholinergique.
 - C : Vrai : collyre mydriatique.
 - D : Vrai : mécanisme non pupillaire (effusion).
-- E : Faux : myotique, il ouvre l'angle en cas de bloc pupillaire primitif.
+- E : Faux : le bêtabloquant diminue la sécrétion d'humeur aqueuse sans modifier la pupille ; il est utilisé dans le traitement (en l'absence de contre-indication respiratoire ou cardiaque). Remarque : la pilocarpine, bien qu'utilisée dans le traitement, peut paradoxalement aggraver un bloc pupillaire (bascule antérieure du diaphragme irido-cristallinien), ce qui en fait un mauvais distracteur [S9].
 
 **QCM 4 — réponse(s) : A, B, C, E.** La crise aiguë associe semi-mydriase aréactive, cornée œdémateuse, chambre antérieure étroite, PIO très élevée et un œil adelphe à angle étroit. L'uvéite antérieure donne plutôt un myosis, un Tyndall et des précipités, avec une chambre antérieure de profondeur normale.
 

@@ -407,3 +407,425 @@ Un RA serré expose à un risque élevé d'hypotension et de complications péri
 6. **Hémorragies digestives** (syndrome de Heyde).
 7. **Complications de l'aorte** (bicuspidie : dilatation, dissection).
 8. **Complications des traitements** (§ 13).
+
+---
+
+## 13. Traitement
+
+### 13.1 Objectifs
+
+1. **Supprimer l'obstacle** au bon moment : avant les lésions myocardiques irréversibles, et dès l'apparition des symptômes.
+2. **Choisir la technique** (chirurgie ou TAVI) et la **prothèse** adaptées au patient, dans une perspective de **prise en charge sur toute la vie** (réinterventions futures).
+3. **Traiter les complications** (insuffisance cardiaque, FA) et les **lésions associées** (coronaropathie, autres valves, aorte).
+4. **Prévenir** l'endocardite, les complications thromboemboliques et hémorragiques des prothèses.
+5. **Éviter les interventions futiles** chez les patients dont l'espérance de vie ou la qualité de vie ne serait pas améliorée.
+
+### 13.2 Moyens
+
+#### 13.2.1 Traitement médical
+
+- **Aucun médicament ne ralentit la progression** du RA : les essais de statines (SALTIRE, SEAS, ASTRONOMER) ont été négatifs ; les statines restent indiquées pour la **coronaropathie** et le risque cardiovasculaire, pas pour la valve [S2].
+- **HTA** : à traiter (elle majore la postcharge) avec une **titration prudente** pour éviter l'hypotension ; les IEC sont utilisables avec prudence.
+- **Insuffisance cardiaque** : **diurétiques** à faibles doses et avec prudence (risque de bas débit chez un VG hypertrophié dépendant de la précharge) ; le traitement médical n'est qu'un **pont** vers l'intervention.
+- **Vasodilatateurs** (dérivés nitrés notamment) : **à éviter** dans le RA serré (hypotension, syncope).
+- **FA** : restauration ou contrôle de la fréquence, anticoagulation selon les règles de la FA (AOD utilisables dans le RA sur valve native) [S1].
+- **Activité physique** : déconseiller les efforts intenses et le sport de compétition en cas de RA serré ; activités modérées selon la tolérance.
+- **Hygiène bucco-dentaire** et suivi dentaire (prévention de l'endocardite). L'**antibioprophylaxie** avant soins dentaires n'est **pas** indiquée pour une valve native, mais **l'est** pour les porteurs de **prothèse valvulaire, y compris après TAVI** (patients à haut risque) [S4].
+
+#### 13.2.2 Remplacement valvulaire aortique chirurgical (RVA)
+
+- Sous circulation extracorporelle, par sternotomie complète ou abord mini-invasif.
+- **Prothèses** :
+  - **mécaniques** : durabilité excellente, **anticoagulation par AVK à vie** (les **AOD sont contre-indiqués** avec les valves mécaniques) [S1, S2] ;
+  - **biologiques (bioprothèses)** : pas d'anticoagulation au long cours (en l'absence d'autre indication), mais **dégénérescence structurelle** progressive, plus rapide chez le sujet jeune.
+- **Intervention de Ross** (autogreffe pulmonaire) : option chez certains adultes jeunes dans des centres experts.
+- Gestes associés possibles : **pontages coronaires**, chirurgie mitrale, remplacement de l'aorte ascendante dilatée (bicuspidie).
+- **Complications** : mortalité opératoire (variable selon le terrain), FA postopératoire, saignement, AVC, infection, BAV nécessitant un stimulateur, **inadéquation patient-prothèse** (surface prothétique trop petite pour le patient).
+
+#### 13.2.3 Implantation percutanée d'une valve aortique (TAVI)
+
+- Bioprothèse montée sur une armature, implantée par cathéter, le plus souvent par **voie transfémorale** (anesthésie locale et sédation possibles) ; voies alternatives (sous-clavière, transcarotidienne, transcavale…) chez les patients sans accès fémoral et non opérables : l'ESC 2025 renforce leur place dans cette situation [S1].
+- **Bilan pré-TAVI** : angioscanner (anneau, ostia coronaires, axes vasculaires), bilan coronaire, évaluation gériatrique.
+- **Complications** : **troubles de conduction** (BAV, BBG) nécessitant un **stimulateur** (plus fréquents qu'après chirurgie, variables selon la prothèse), **fuite paravalvulaire**, complications **vasculaires** au point d'accès, AVC, obstruction coronaire, rupture de l'anneau (rares), thrombose de valve (souvent infraclinique), dégénérescence à long terme (données de durabilité au-delà de 10 ans encore limitées chez les sujets jeunes).
+
+#### 13.2.4 Valvuloplastie aortique au ballonnet
+
+Effet **transitoire** (resténose rapide) : **pont** vers un RVA ou un TAVI chez un patient instable (choc, insuffisance cardiaque réfractaire) ou avant une chirurgie non cardiaque urgente ; ce n'est pas un traitement définitif chez l'adulte [S2].
+
+#### 13.2.5 Traitement antithrombotique après intervention
+
+| Situation | Traitement | Source |
+|---|---|---|
+| **TAVI sans autre indication d'anticoagulation** | **Antiagrégant plaquettaire unique** (aspirine 75–100 mg/j ou clopidogrel) **à vie** ; **pas d'anticoagulation systématique** | ESC 2021 [S2] ; ESC 2025 [S1] **[À VÉRIFIER — reprise à l'identique]** |
+| **TAVI avec indication d'anticoagulation** (FA…) | **Anticoagulant oral seul** (sans antiagrégant associé en l'absence d'autre indication) | [S2] |
+| **Bioprothèse chirurgicale** | Aspirine faible dose ou AVK pendant **3 mois**, puis selon les autres indications | [S2] |
+| **Valve mécanique aortique** | **AVK à vie** ; **AOD contre-indiqués** ; INR cible selon la thrombogénicité de la prothèse et les facteurs de risque du patient | [S2] |
+
+**INR cibles des valves mécaniques (ESC 2021)** [S2] :
+
+| Thrombogénicité de la prothèse | Sans facteur de risque du patient | Avec ≥ 1 facteur de risque* |
+|---|---|---|
+| **Faible** (la plupart des valves à double ailette récentes) | **2,5** | **3,0** |
+| **Moyenne** | 3,0 | 3,5 |
+| **Élevée** (valves à bille, anciennes valves à disque basculant) | 3,5 | 4,0 |
+
+\* Facteurs de risque : remplacement mitral ou tricuspide, antécédent thromboembolique, FA, rétrécissement mitral, FEVG < 35 %.
+
+### 13.3 Indications et stratégie
+
+#### 13.3.1 Indications de l'intervention (ESC/EACTS 2025, complétées par 2021)
+
+| Situation | Recommandation | Source |
+|---|---|---|
+| **RA serré symptomatique à haut gradient** (GM ≥ 40 mmHg, Vmax ≥ 4 m/s) | Intervention **recommandée** (classe I) | [S1, S2] |
+| **RA serré symptomatique à bas débit-bas gradient, FEVG réduite**, RA vraiment serré (réserve de débit à l'échographie de stress) | Intervention recommandée | [S2] |
+| Même situation **sans réserve de débit**, sévérité confirmée par le score calcique | Intervention à envisager | [S2] |
+| **RA serré à bas gradient et FEVG conservée** (paradoxal), après confirmation soigneuse de la sévérité | Intervention à envisager | [S2] |
+| **RA serré asymptomatique avec FEVG < 50 %** sans autre cause | Intervention **recommandée** (classe I) | [S1] |
+| **RA serré asymptomatique** dont les symptômes sont démasqués par l'épreuve d'effort | Intervention recommandée | [S2] |
+| **RA serré asymptomatique à haut gradient, FEVG conservée (≥ 50 %), faible risque procédural** | Intervention **à envisager (classe IIa, niveau A)** — nouveauté 2025, fondée sur des essais randomisés d'intervention précoce et une méta-analyse | [S1] |
+| RA serré asymptomatique avec marqueurs de risque (Vmax ≥ 5 m/s, progression rapide, calcifications sévères, BNP > 3 fois la normale, chute de la PA à l'effort, FEVG < 55 %) | Intervention à envisager selon l'ESC 2021 ; place actuelle dans l'ESC 2025 **[À VÉRIFIER]** | [S2] |
+| **RA modéré** chez un patient opéré d'un pontage, de l'aorte ou d'une autre valve | RVA associé à envisager | [S2] |
+| Comorbidités sévères, espérance de vie limitée, intervention peu susceptible d'améliorer la qualité de vie ou la survie | **Intervention non recommandée** (futilité) | [S2] |
+
+#### 13.3.2 Chirurgie ou TAVI ? (décision de la « Heart Team »)
+
+**ESC/EACTS 2025** [S1] :
+
+- La décision est prise par une **équipe multidisciplinaire (« Heart Team »)** dans un **centre valvulaire** (« Heart Valve Centre »), en tenant compte de l'**âge et de l'espérance de vie**, des **comorbidités**, de la **préférence du patient** informé, de l'**accès vasculaire** et de l'**anatomie** valvulaire, et des **procédures futures** possibles (prise en charge sur toute la vie).
+- **Seuil d'âge abaissé à 70 ans** : chez un patient **de 70 ans ou plus**, porteur d'une valve **tricuspide** et d'une anatomie favorable (notamment pour la voie transfémorale), le **TAVI** peut être choisi **quel que soit le risque chirurgical estimé** [S1].
+- **Avant 70 ans** et à faible risque chirurgical : le **RVA chirurgical** reste en règle le traitement de référence (durabilité, bicuspidie fréquente, gestes associés) [S1] **[À VÉRIFIER — formulation et classe exactes]**.
+- **Bicuspidie** : le TAVI peut être **envisagé** chez des patients à risque chirurgical accru si l'anatomie s'y prête [S1].
+- **ESC 2021 (pour mémoire)** : seuil d'âge de **75 ans** ; TAVI recommandé si âge ≥ 75 ans, risque chirurgical élevé (STS-PROM ou EuroSCORE II > 8 %) ou contre-indication chirurgicale ; RVA si âge < 75 ans et faible risque [S2].
+
+| En faveur du **RVA chirurgical** | En faveur du **TAVI** |
+|---|---|
+| Sujet jeune (< 70 ans), espérance de vie longue | Âge ≥ 70 ans (ESC 2025), fragilité |
+| Bicuspidie (anatomie défavorable), valve unicuspide | Valve tricuspide, accès transfémoral favorable |
+| Nécessité d'un geste associé (pontages complexes, mitrale, aorte ascendante dilatée) | Antécédent de sternotomie (pontages perméables), aorte « porcelaine », radiothérapie thoracique, déformation thoracique |
+| Anneau trop grand ou trop petit pour les prothèses percutanées, ostia coronaires bas (risque d'obstruction) | Comorbidités augmentant le risque chirurgical |
+| Endocardite active, thrombus intracardiaque | Mobilité réduite, réhabilitation postopératoire difficile prévisible |
+
+#### 13.3.3 Choix de la prothèse en cas de chirurgie
+
+- Selon l'**ESC 2021** : une **prothèse mécanique** est à envisager **avant 60 ans** en position aortique (en l'absence de contre-indication à l'anticoagulation) et une **bioprothèse après 65 ans** ; entre 60 et 65 ans, la décision est individualisée [S2] ; seuils de l'ESC 2025 **[À VÉRIFIER]**.
+- **Bioprothèse** à privilégier chez la **femme envisageant une grossesse** (tératogénicité et risque des AVK), en cas de **contre-indication ou d'impossibilité de surveiller les AVK**, ou selon le **choix éclairé** du patient [S2].
+- **Prothèse mécanique** à privilégier en cas de risque de dégénérescence accélérée (sujet très jeune, hyperparathyroïdie) [S2].
+
+#### 13.3.4 Algorithme de décision
+
+```text
+RA suspecté (souffle, symptômes)
+ │
+ 1. ETT : sévérité (Vmax, GM, SAo), FEVG, débit, anatomie, lésions associées
+ │
+ ├─ RA léger ou modéré → surveillance (§ 14) ; intervention si chirurgie cardiaque associée (modéré)
+ │
+ └─ RA SERRÉ (ou discordance → échocardiographie de stress à la dobutamine / score calcique)
+       │
+       ├─ SYMPTOMATIQUE → intervention (si non futile)
+       │
+       └─ ASYMPTOMATIQUE
+             ├─ FEVG < 50 % → intervention
+             ├─ Épreuve d'effort : symptômes / chute de PA → intervention
+             ├─ Haut gradient, FEVG ≥ 50 %, faible risque procédural
+             │      → intervention précoce à envisager (ESC 2025)
+             └─ Sinon → surveillance rapprochée (au moins tous les 6 mois) et éducation
+       │
+ 2. Bilan pré-interventionnel : coronaires, angioscanner (si TAVI envisagé), bilan dentaire,
+    évaluation gériatrique
+ │
+ 3. HEART TEAM : âge (seuil 70 ans en 2025), anatomie (tricuspide/bicuspide), accès,
+    risque, gestes associés, préférence du patient, espérance de vie
+       ├─ TAVI (transfémoral de préférence)
+       └─ RVA chirurgical (prothèse mécanique ou biologique)
+ │
+ 4. Après l'intervention : antithrombotique adapté, prophylaxie de l'endocardite,
+    ETT de référence et suivi
+```
+
+### 13.4 Particularités algériennes
+
+- **Coexistence** d'un RA dégénératif du sujet âgé et de valvulopathies **rhumatismales** du sujet jeune : chez ce dernier, le choix de la prothèse doit tenir compte du **projet de grossesse**, de l'**accès à la surveillance de l'INR** et de l'observance.
+- **Offre de soins** : la chirurgie cardiaque et le TAVI sont réalisés dans un nombre limité de centres publics et privés ; les délais d'accès, le nombre de procédures et les modalités de prise en charge par la CNAS sont à documenter **[À VÉRIFIER]**.
+- **Prévention primaire et secondaire du RAA** (programme national) : elle conditionne à long terme la réduction des valvulopathies rhumatismales [S5] ; les modalités de la prophylaxie secondaire sont traitées dans DOS-CARD-0005 (point d'audit ouvert).
+- **AVK** : la surveillance de l'INR et l'éducation thérapeutique sont essentielles chez les porteurs de valve mécanique (les AOD sont contre-indiqués).
+
+---
+
+## 14. Surveillance
+
+### 14.1 RA non opéré (d'après l'ESC 2021 [S2])
+
+| Situation | Rythme de suivi clinique et échographique |
+|---|---|
+| **RA serré asymptomatique** | **Au moins tous les 6 mois** (symptômes, Vmax, FEVG, BNP) |
+| **RA léger à modéré** avec calcifications significatives | **Tous les ans** |
+| **RA léger** sans calcification importante (sujet jeune) | Tous les 2 à 3 ans |
+
+- **Éducation** du patient : signaler immédiatement toute dyspnée, douleur thoracique, lipothymie ou syncope, baisse de la tolérance à l'effort.
+- **Bicuspidie** : surveillance du diamètre de l'aorte ascendante.
+
+### 14.2 Après intervention
+
+- **ETT de référence** après l'implantation (gradients prothétiques de référence, fuite paravalvulaire), puis suivi régulier, notamment pour les **bioprothèses** (dégénérescence) [S2].
+- **AVK** : INR (valve mécanique), éducation, carnet.
+- **Stimulateur** après TAVI : contrôles.
+- **Prophylaxie de l'endocardite** et hygiène bucco-dentaire [S4].
+
+---
+
+## 15. Prévention
+
+- **Prévention du RAA** : traitement des angines streptococciques (prévention primaire) et prophylaxie secondaire chez les patients ayant eu un RAA, selon le programme national [S5].
+- **Prévention de l'endocardite** : hygiène bucco-dentaire, soins dentaires réguliers, antibioprophylaxie chez les porteurs de prothèse [S4].
+- **Facteurs de risque cardiovasculaire** : leur contrôle n'a pas démontré de ralentissement du RA calcifié, mais il réduit le risque coronaire associé.
+- **Dépistage** : auscultation systématique du sujet âgé ; ETT devant tout souffle systolique éjectionnel suspect.
+
+---
+
+## 16. Algorithmes décisionnels et arbres diagnostiques
+
+### 16.1 Discordance entre les paramètres de sévérité
+
+```text
+SAo < 1 cm² mais GM < 40 mmHg
+ │
+ 1. Vérifier les mesures (alignement Doppler, chambre de chasse, PA au moment de l'examen)
+ │
+ 2. Volume d'éjection indexé ?
+ │    ├─ > 35 mL/m² (débit normal) → souvent RA modéré ; surveillance
+ │    └─ ≤ 35 mL/m² (bas débit)
+ │          ├─ FEVG < 50 % → échocardiographie de stress à la dobutamine
+ │          │      ├─ SAo reste ≤ 1 cm² avec GM ≥ 40 mmHg → RA VRAIMENT SERRÉ → intervention
+ │          │      ├─ SAo > 1 cm² quand le débit se normalise → RA PSEUDO-SÉVÈRE → traiter l'IC
+ │          │      └─ Pas de réserve de débit → score calcique au scanner
+ │          └─ FEVG ≥ 50 % (paradoxal) → score calcique au scanner
+ │                 (≥ 3 000 UA homme / ≥ 1 600 UA femme : RA serré très probable)
+```
+
+### 16.2 Démarche globale
+
+Voir l'algorithme du § 13.3.4.
+
+---
+
+## 17. Cas clinique commenté
+
+**Scénario fictif.** Mme R., 78 ans, veuve, vivant seule à Blida, autonome, est amenée aux urgences après une **syncope survenue en montant un escalier**. Depuis 6 mois, elle limite ses sorties à cause d'un essoufflement à la marche. Antécédents : HTA traitée par périndopril, dyslipidémie sous statine. Pas de diabète. Clairance de la créatinine 52 mL/min.
+
+**Examen** : PA 132/80 mmHg, FC 76/min régulière. **Souffle mésosystolique 3/6** au foyer aortique, **irradiant aux carotides**, à maximum tardif ; **B2 aboli** ; pouls carotidien faible. Pas de signe d'insuffisance cardiaque.
+
+**ECG** : rythme sinusal, HVG avec troubles secondaires de la repolarisation. **ETT** : valve aortique **tricuspide** très calcifiée, **Vmax 4,6 m/s**, **GM 52 mmHg**, **SAo 0,7 cm²** (0,42 cm²/m²), **FEVG 60 %**, hypertrophie concentrique, pas d'autre valvulopathie significative.
+
+**Question 1 — Quel diagnostic ?**
+**RA serré à haut gradient, symptomatique** (syncope d'effort, dyspnée), d'origine **dégénérative calcifiée** sur valve tricuspide.
+
+**Question 2 — Quel est le pronostic sans intervention et l'indication ?**
+Le pronostic est sévère (historiquement, survie de l'ordre de 3 ans après une syncope et 2 ans après l'insuffisance cardiaque sans traitement) [S7] → **intervention recommandée** (classe I) [S1, S2]. L'**épreuve d'effort est contre-indiquée** (patiente symptomatique).
+
+**Question 3 — Quels examens avant l'intervention ?**
+Bilan **coronaire** (coronarographie ou coroscanner), **angioscanner** (anneau aortique, ostia coronaires, axes ilio-fémoraux), **bilan dentaire**, évaluation **gériatrique** (fragilité, cognition), biologie (créatinine, NFS, bilan d'hémostase).
+
+**Question 4 — Chirurgie ou TAVI ?**
+Patiente de **plus de 70 ans**, valve **tricuspide** : selon l'ESC/EACTS 2025, le **TAVI** peut être choisi **quel que soit le risque chirurgical** si l'anatomie et l'accès (transfémoral) s'y prêtent [S1]. Décision en **Heart Team**, avec la patiente.
+
+**Question 5 — Quel traitement après le TAVI ?**
+- **Aspirine 75–100 mg/j à vie** (pas d'indication d'anticoagulation : rythme sinusal) [S2] ;
+- surveillance des **troubles de conduction** (ECG, ± Holter) dans les jours suivants ;
+- **ETT de référence** ;
+- **antibioprophylaxie** avant les soins dentaires à risque (porteuse de prothèse = haut risque d'endocardite) et hygiène bucco-dentaire [S4] ;
+- poursuite du traitement de l'HTA et de la statine.
+
+**Commentaire pédagogique.** Ce cas rappelle que la **syncope d'effort** chez un patient porteur d'un souffle systolique impose une ETT ; que l'**apparition des symptômes** fait basculer l'indication ; que l'âge seuil du TAVI est passé de **75 à 70 ans** dans l'ESC 2025 ; et qu'un porteur de prothèse (même percutanée) relève de l'antibioprophylaxie de l'endocardite.
+
+---
+
+## 18. Points clés à retenir
+
+1. Étiologies : **dégénérative calcifiée** (sujet âgé), **bicuspidie** (50–70 ans, aortopathie), **rhumatismale** (sujet jeune, atteinte polyvalvulaire).
+2. Surcharge de pression → **hypertrophie concentrique** → dysfonction diastolique, ischémie sous-endocardique, fibrose, puis dysfonction systolique.
+3. Symptômes cardinaux : **dyspnée, angor, syncope d'effort** ; leur apparition assombrit le pronostic.
+4. Souffle **mésosystolique éjectionnel** au foyer aortique irradiant aux carotides ; **B2 aboli** et **maximum tardif** = sévérité ; l'intensité du souffle ne mesure pas la sévérité.
+5. **RA serré** : **Vmax ≥ 4 m/s, GM ≥ 40 mmHg, SAo < 1 cm²** (< 0,6 cm²/m²).
+6. **Bas débit-bas gradient** : FEVG réduite → **échocardiographie à la dobutamine** ; FEVG conservée → **score calcique** (≥ 3 000 UA homme, ≥ 1 600 UA femme : très probable).
+7. **Épreuve d'effort** utile chez l'**asymptomatique**, **contre-indiquée** chez le symptomatique.
+8. Aucun médicament ne ralentit le RA ; éviter les **vasodilatateurs** ; diurétiques avec prudence.
+9. Intervention : **RA serré symptomatique** (I) ; **asymptomatique avec FEVG < 50 %** (I) ; **asymptomatique à haut gradient, FEVG conservée, faible risque** (IIa, nouveauté ESC 2025).
+10. **Heart Team** ; ESC 2025 : **TAVI possible dès 70 ans** (valve tricuspide, anatomie favorable) quel que soit le risque chirurgical ; RVA privilégié chez le sujet plus jeune.
+11. Après TAVI : **antiagrégant unique à vie** (sans indication d'anticoagulation) ; **anticoagulant seul** si indication.
+12. Valve mécanique : **AVK à vie**, **AOD contre-indiqués** ; INR cible 2,5–3,0 pour les prothèses aortiques à faible thrombogénicité.
+13. Toute **prothèse** (y compris TAVI) = **haut risque d'endocardite** → antibioprophylaxie avant soins dentaires à risque.
+
+---
+
+## 19. Pièges classiques à l'examen
+
+1. Attribuer à l'âge une **dyspnée d'effort** chez un sujet âgé porteur d'un souffle.
+2. Juger la sévérité sur l'**intensité du souffle**.
+3. Réaliser une **épreuve d'effort** chez un patient **symptomatique**.
+4. Conclure à un RA modéré devant un **gradient bas** sans vérifier le **débit** et la **FEVG**.
+5. Prescrire des **dérivés nitrés** ou des vasodilatateurs puissants dans un RA serré.
+6. Croire que les **statines** ralentissent le RA.
+7. Prescrire un **AOD** chez un porteur de **valve mécanique**.
+8. Anticoaguler **systématiquement** après un TAVI sans autre indication.
+9. Considérer la **valvuloplastie au ballonnet** comme un traitement définitif chez l'adulte.
+10. Oublier l'**antibioprophylaxie** de l'endocardite après un TAVI.
+11. Retenir l'ancien seuil d'âge de **75 ans** (ESC 2021) au lieu de **70 ans** (ESC 2025) pour le TAVI.
+12. Oublier la **coronarographie** (ou le coroscanner) avant l'intervention.
+13. Confondre le souffle du RA avec celui de la **CMH obstructive** (majoré par la manœuvre de Valsalva).
+
+---
+
+## 20. QCM d'auto-évaluation
+
+> Ces QCM sont repris dans la banque structurée (lot DOS-01-lot2) avec les mêmes identifiants. Réponses multiples possibles sauf mention QCS.
+
+**QCM 1** (QCM-CARD-0149 — QCM) — Quels critères échocardiographiques définissent un rétrécissement aortique serré chez un adulte dont le débit cardiaque est normal ?
+
+- A. Vitesse maximale transvalvulaire ≥ 4,0 m/s.
+- B. Gradient moyen ≥ 40 mmHg.
+- C. Surface valvulaire < 1,0 cm² (ou < 0,6 cm²/m²).
+- D. Rapport des intégrales temps-vitesse sous-aortique/aortique < 0,25.
+- E. Gradient maximal de 30 mmHg.
+
+**QCM 2** (QCM-CARD-0150 — QCM) — Concernant la physiopathologie du rétrécissement aortique calcifié, quelles propositions sont exactes ?
+
+- A. La surcharge de pression entraîne une hypertrophie ventriculaire gauche concentrique.
+- B. La perte de la systole atriale lors d'une fibrillation atriale est habituellement bien tolérée.
+- C. Un angor peut survenir en l'absence de sténose coronaire.
+- D. La syncope d'effort s'explique notamment par un débit cardiaque qui ne peut pas augmenter alors que l'effort provoque une vasodilatation périphérique.
+- E. Des hémorragies digestives peuvent être liées à une maladie de Willebrand acquise.
+
+**QCM 3** (QCM-CARD-0152 — QCM) — Une femme de 74 ans a une surface aortique de 0,8 cm², un gradient moyen de 28 mmHg, une FEVG de 35 % et un volume d'éjection indexé de 28 mL/m². Quelles propositions sont exactes ?
+
+- A. Il s'agit d'une discordance de type bas débit-bas gradient à FEVG réduite.
+- B. Une échocardiographie de stress à la dobutamine est indiquée.
+- C. Si la surface reste ≤ 1 cm² avec un gradient moyen qui atteint 40 mmHg sous dobutamine, le RA est vraiment serré.
+- D. Si la surface dépasse nettement 1 cm² lorsque le débit se normalise, il s'agit d'un RA pseudo-sévère.
+- E. Le gradient moyen < 40 mmHg exclut toute indication d'intervention.
+
+**QCM 4** (QCM-CARD-0154 — QCM) — Concernant l'épreuve d'effort dans le rétrécissement aortique, quelles propositions sont exactes ?
+
+- A. Elle est utile chez un patient porteur d'un RA serré qui se dit asymptomatique.
+- B. Elle est contre-indiquée chez un patient porteur d'un RA serré symptomatique.
+- C. L'apparition de symptômes à l'effort chez un patient porteur d'un RA serré justifie une intervention.
+- D. Une chute de la pression artérielle à l'effort est un signe de mauvais pronostic.
+- E. Elle est l'examen de référence pour mesurer la surface valvulaire.
+
+**QCM 5** (QCM-CARD-0155 — QCM) — Selon les recommandations ESC/EACTS 2025 sur les valvulopathies, dans quelles situations une intervention valvulaire est-elle recommandée ou à envisager pour un rétrécissement aortique serré ?
+
+- A. RA serré symptomatique à haut gradient.
+- B. RA serré asymptomatique avec FEVG < 50 % sans autre cause.
+- C. RA serré asymptomatique à haut gradient avec FEVG conservée et faible risque procédural.
+- D. RA léger asymptomatique chez un sujet de 60 ans.
+- E. Patient très âgé dont les comorbidités rendent improbable une amélioration de la qualité de vie ou de la survie.
+
+**QCM 6** (QCM-CARD-0156 — QCM) — Concernant le choix entre remplacement valvulaire chirurgical et TAVI selon l'ESC/EACTS 2025, quelles propositions sont exactes ?
+
+- A. La décision est prise par une Heart Team, en tenant compte de l'âge, de l'espérance de vie, des comorbidités, de l'anatomie, de l'accès vasculaire et de la préférence du patient.
+- B. Chez un patient de 72 ans à valve tricuspide et à anatomie favorable, le TAVI peut être choisi quel que soit le risque chirurgical estimé.
+- C. Le seuil d'âge de 75 ans de la recommandation 2021 a été abaissé à 70 ans.
+- D. Le TAVI est contre-indiqué dans toute bicuspidie.
+- E. La nécessité d'un geste associé complexe (pontages multiples, chirurgie mitrale, aorte ascendante dilatée) oriente vers la chirurgie.
+
+**QCM 7** (QCM-CARD-0157 — QCM) — Concernant le traitement antithrombotique après une intervention pour rétrécissement aortique, quelles propositions sont exactes ?
+
+- A. Après un TAVI, en l'absence d'autre indication d'anticoagulation, un antiagrégant plaquettaire unique à vie est recommandé.
+- B. Après un TAVI, une anticoagulation orale systématique est recommandée même sans indication.
+- C. Une valve mécanique aortique impose un traitement par AVK à vie.
+- D. Le rivaroxaban est une alternative aux AVK chez un porteur de valve mécanique.
+- E. Pour une valve mécanique aortique à faible thrombogénicité sans facteur de risque du patient, l'INR cible est de 2,5.
+
+**QCM 8** (QCM-CARD-0158 — QCM) — Concernant le traitement médical d'un patient porteur d'un rétrécissement aortique serré en attente d'intervention, quelles propositions sont exactes ?
+
+- A. Les statines ralentissent la progression du RA calcifié.
+- B. Les vasodilatateurs puissants, dont les dérivés nitrés, exposent à une hypotension et sont à éviter.
+- C. Les diurétiques peuvent être utilisés avec prudence en cas de congestion.
+- D. Une valvuloplastie au ballonnet peut servir de pont vers l'intervention définitive chez un patient instable.
+- E. L'HTA associée doit être traitée avec une titration prudente.
+
+### Corrigé commenté
+
+**QCM 1 — réponse(s) : A, B, C, D.** Le RA serré associe Vmax ≥ 4 m/s, gradient moyen ≥ 40 mmHg, surface < 1 cm² (indexée < 0,6 cm²/m²) et rapport des vitesses < 0,25. Selon Bernoulli, 4 m/s correspond à un gradient maximal d'environ 64 mmHg.
+- A : Vrai.
+- B : Vrai.
+- C : Vrai.
+- D : Vrai.
+- E : Faux : correspond à une vitesse d'environ 2,7 m/s (RA léger).
+
+**QCM 2 — réponse(s) : A, C, D, E.** Le VG hypertrophié et rigide dépend de la systole atriale : la FA est mal tolérée. L'ischémie sous-endocardique (masse accrue, compression, réserve coronaire réduite) explique l'angor sans coronaropathie. Syndrome de Heyde : angiodysplasies + maladie de Willebrand acquise de type 2A.
+- A : Vrai.
+- B : Faux : souvent mal tolérée (œdème pulmonaire).
+- C : Vrai.
+- D : Vrai.
+- E : Vrai : syndrome de Heyde.
+
+**QCM 3 — réponse(s) : A, B, C, D.** Dans le bas débit-bas gradient classique (FEVG < 50 %, VEi ≤ 35 mL/m²), l'échocardiographie à la dobutamine distingue le RA vraiment serré (intervention indiquée) du RA pseudo-sévère (traitement de la cardiomyopathie) et évalue la réserve de débit ; sans réserve, le score calcique aide à trancher.
+- A : Vrai.
+- B : Vrai.
+- C : Vrai.
+- D : Vrai.
+- E : Faux : un RA vraiment serré à bas débit relève d'une intervention.
+
+**QCM 4 — réponse(s) : A, B, C, D.** L'épreuve d'effort démasque des symptômes chez les patients se disant asymptomatiques (souvent sédentaires), évalue la réponse tensionnelle et la capacité fonctionnelle. Elle est contre-indiquée chez le symptomatique (risque de syncope et de mort subite). La surface se mesure en échocardiographie.
+- A : Vrai.
+- B : Vrai.
+- C : Vrai : indication recommandée.
+- D : Vrai.
+- E : Faux : l'ETT (équation de continuité).
+
+**QCM 5 — réponse(s) : A, B, C.** Intervention recommandée (I) dans le RA serré symptomatique et dans le RA serré asymptomatique avec FEVG < 50 %. Nouveauté 2025 : intervention à envisager (IIa, niveau A) dans le RA serré asymptomatique à haut gradient, FEVG conservée, risque procédural faible (essais d'intervention précoce). L'intervention futile n'est pas recommandée.
+- A : Vrai.
+- B : Vrai : classe I.
+- C : Vrai : classe IIa, niveau A (nouveauté 2025).
+- D : Faux : surveillance.
+- E : Faux : futilité.
+
+**QCM 6 — réponse(s) : A, B, C, E.** L'ESC/EACTS 2025 abaisse à 70 ans l'âge à partir duquel le TAVI peut être choisi indépendamment du risque chirurgical (valve tricuspide, anatomie favorable, voie transfémorale). Dans certaines bicuspidies, le TAVI peut être envisagé chez des patients à risque chirurgical accru si l'anatomie s'y prête.
+- A : Vrai.
+- B : Vrai.
+- C : Vrai.
+- D : Faux : il peut être envisagé dans des cas sélectionnés.
+- E : Vrai.
+
+**QCM 7 — réponse(s) : A, C, E.** Après TAVI : antiagrégant unique à vie si pas d'indication d'anticoagulation ; anticoagulant seul si indication ; pas d'anticoagulation systématique. Valve mécanique : AVK à vie, AOD contre-indiqués ; INR cible 2,5 (faible thrombogénicité, pas de facteur de risque), 3,0 avec facteur de risque.
+- A : Vrai.
+- B : Faux : non recommandée.
+- C : Vrai.
+- D : Faux : AOD contre-indiqués avec les valves mécaniques.
+- E : Vrai.
+
+**QCM 8 — réponse(s) : B, C, D, E.** Aucun médicament ne ralentit la progression du RA (essais de statines négatifs). Le VG hypertrophié dépend de la précharge et le débit est fixe : vasodilatateurs et diurétiques à forte dose exposent au bas débit. La valvuloplastie est un pont, pas un traitement définitif.
+- A : Faux : essais négatifs (SALTIRE, SEAS, ASTRONOMER).
+- B : Vrai.
+- C : Vrai.
+- D : Vrai.
+- E : Vrai.
+
+---
+
+## 21. Divergences entre recommandations
+
+| Thème | Position 1 | Position 2 | Commentaire |
+|---|---|---|---|
+| **Âge seuil pour le TAVI** | **ESC/EACTS 2025** : **70 ans** (valve tricuspide, anatomie favorable), quel que soit le risque chirurgical [S1] | **ESC/EACTS 2021** : **75 ans** (ou risque chirurgical élevé) [S2] ; **ACC/AHA 2020** : décision fondée sur l'âge (seuils de 65 et 80 ans) et l'espérance de vie **[À VÉRIFIER]** [S3] | Évolution liée aux essais chez les patients à faible risque ; la durabilité à long terme des bioprothèses percutanées reste la principale inconnue chez les plus jeunes |
+| **RA serré asymptomatique à FEVG conservée** | ESC/EACTS 2025 : intervention précoce à envisager (IIa, niveau A) si faible risque procédural [S1] | ESC/EACTS 2021 : intervention à envisager seulement en présence de marqueurs de risque (Vmax ≥ 5 m/s, progression rapide, BNP élevé, calcifications sévères, FEVG < 55 %, chute tensionnelle à l'effort) [S2] | Changement majeur fondé sur des essais randomisés (dont EARLY TAVR) et une méta-analyse |
+| **Seuil de FEVG chez l'asymptomatique** | ESC 2025 : FEVG < 50 % = indication de classe I [S1] | Données récentes suggérant un risque accru dès une FEVG < 55–60 % ; ESC 2021 : < 55 % en IIa [S2] | Place exacte du seuil de 55 % dans la version 2025 **[À VÉRIFIER]** |
+| **Stadification** | ESC 2025 : stadification de l'atteinte cardiaque fondée sur l'imagerie [S1] | ACC/AHA 2020 : stades A–D de la valvulopathie [S3] ; classification de Généreux (stades 0–4) [S8] | Approches complémentaires (valve vs retentissement) |
+| **Choix de la prothèse chirurgicale** | ESC 2021 : mécanique < 60 ans, biologique > 65 ans en position aortique [S2] | ACC/AHA 2020 : mécanique < 50 ans, biologique > 65 ans, zone d'individualisation 50–65 ans **[À VÉRIFIER]** [S3] | Seuils de l'ESC 2025 à confirmer |
+
+---
+
+## 22. Références
+
+1. **[S1]** Praz F, Borger MA, Lanz J, et al. 2025 ESC/EACTS Guidelines for the management of valvular heart disease. *Eur Heart J.* 2025;46(44):4635-4736. doi:10.1093/eurheartj/ehaf194. — **vérifiée** (texte intégral non lu ; changements majeurs confirmés par des sources secondaires concordantes).
+2. **[S2]** Vahanian A, Beyersdorf F, Praz F, et al. 2021 ESC/EACTS Guidelines for the management of valvular heart disease. *Eur Heart J.* 2022;43(7):561-632. doi:10.1093/eurheartj/ehab395. — vérifiée (remplacée par S1).
+3. **[S3]** Otto CM, Nishimura RA, Bonow RO, et al. 2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease. *Circulation.* 2021;143(5):e72-e227. — **non vérifiée**.
+4. **[S4]** Delgado V, Ajmone Marsan N, de Waha S, et al. 2023 ESC Guidelines for the management of endocarditis. *Eur Heart J.* 2023;44(39):3948-4042. doi:10.1093/eurheartj/ehad193. — vérifiée.
+5. **[S5]** Ministère de la Santé et de la Population (Algérie). Programme national de lutte contre le rhumatisme articulaire aigu (révisé en 2000). — existence vérifiée.
+6. **[S6]** Baumgartner H, Hung J, Bermejo J, et al. Recommendations on the echocardiographic assessment of aortic valve stenosis: a focused update from the EACVI and the ASE. *Eur Heart J Cardiovasc Imaging.* 2017;18(3):254-275. — **non vérifiée**.
+7. **[S7]** Ross J Jr, Braunwald E. Aortic stenosis. *Circulation.* 1968;38(1 Suppl):61-67. — **non vérifiée** (référence historique).
+8. **[S8]** Généreux P, Pibarot P, Redfors B, et al. Staging classification of aortic stenosis based on the extent of cardiac damage. *Eur Heart J.* 2017;38(45):3351-3358. — **non vérifiée**.
+
+*Posologies et cibles : aspirine 75–100 mg/j et INR cibles des valves mécaniques d'après l'ESC/EACTS 2021 [S2] (reprise dans la version 2025 à confirmer) ; aucune autre posologie spécifique n'est proposée dans ce dossier.*

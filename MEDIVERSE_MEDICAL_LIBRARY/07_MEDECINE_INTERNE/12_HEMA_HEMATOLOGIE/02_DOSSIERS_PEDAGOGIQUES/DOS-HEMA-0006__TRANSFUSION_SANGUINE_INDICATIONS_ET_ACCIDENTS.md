@@ -6,11 +6,17 @@ sous_specialite: "Médecine transfusionnelle — hémovigilance"
 items_residanat: [RES-MED-171]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-14 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auteur: "AUD-01 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 11
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-HEMA-0006.md
 sources:
   - id: S1
     reference: "Carson JL, Stanworth SJ, Guyatt G, et al. Red Blood Cell Transfusion: 2023 AABB International Guidelines. JAMA. 2023;330(19):1892-1902."
@@ -148,13 +154,29 @@ sources:
     doi: "10.1111/bjh.17822"
     url: ""
     verifiee: true
+  - id: S18
+    reference: "Agence nationale de sécurité du médicament et des produits de santé (ANSM), Haute Autorité de santé (HAS). Transfusion de plasma thérapeutique : produits, indications. Actualisation, juin 2012 (recommandations et argumentaire)."
+    organisme: "ANSM / HAS"
+    annee: 2012
+    type: recommandation
+    doi: ""
+    url: "https://www.has-sante.fr/jcms/c_1264081/fr/transfusion-de-plasma-therapeutique-produits-indications"
+    verifiee: true
+  - id: S19
+    reference: "République algérienne. Décret exécutif n° 09-258 du 11 août 2009 relatif à l'Agence nationale du sang. Journal officiel de la République algérienne n° 47 du 16 août 2009."
+    organisme: "République algérienne"
+    annee: 2009
+    type: texte_officiel
+    doi: ""
+    url: ""
+    verifiee: false
 mots_cles: [transfusion, concentré de globules rouges, plaquettes, plasma, compatibilité ABO, RhD, RAI, seuils transfusionnels, TRALI, TACO, hémolyse, hémovigilance, Agence nationale du sang, Algérie]
 ---
 
 # Transfusion de sang et dérivés : indications et accidents
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les seuils et doses doivent être confrontés aux recommandations nationales et aux procédures de l'établissement et du centre de transfusion sanguine.
+> Statut : audité par AUD-01 (IA) le 2026-11-19, corrections requises (voir le rapport d'audit). Les seuils et doses doivent être confrontés aux recommandations nationales et aux procédures de l'établissement et du centre de transfusion sanguine.
 
 **Item du programme couvert** : RES-MED-171 — « Transfusion de sang et dérivés : Indications et accidents » (spécialités HEMA, ANES).
 
@@ -197,7 +219,7 @@ mots_cles: [transfusion, concentré de globules rouges, plaquettes, plasma, comp
 | 1980s | Contaminations par le VIH et le VHC via les produits sanguins : renforcement réglementaire, dépistages, inactivation virale des MDS |
 | 1990s | Création de l'hémovigilance (France, 1994), déleucocytation systématique des PSL dans plusieurs pays |
 | 2000s–2020s | Dépistage génomique viral, réduction des pathogènes, essais de seuils restrictifs, PBM [S1, S9] |
-| 2018 | Algérie : la loi n° 18-11 relative à la santé crée une **Agence nationale du sang** et fixe les principes de l'activité transfusionnelle [S11] |
+| 2018 | Algérie : la loi n° 18-11 relative à la santé consacre au niveau législatif l'**Agence nationale du sang** (art. 264 : « Il est créé une agence nationale du sang ») et fixe les principes de l'activité transfusionnelle [S11] ; une agence portant ce nom faisait déjà l'objet d'un décret exécutif en 2009 [S19] |
 
 ---
 
@@ -277,7 +299,7 @@ mots_cles: [transfusion, concentré de globules rouges, plaquettes, plasma, comp
 |---|---|---|
 | **CGR** | Anémie aiguë (hémorragie) ou chronique mal tolérée, anémie centrale (chimiothérapie, aplasie), hémoglobinopathies (programmes transfusionnels) | Seuils restrictifs : 7 g/dL chez la plupart des adultes hospitalisés stables ; 7,5 en chirurgie cardiaque ; 8 en chirurgie orthopédique ou en cas de maladie cardiovasculaire préexistante [S1] |
 | **Plaquettes** | Prophylaxie dans les thrombopénies centrales profondes ; avant un geste invasif ; saignement d'une thrombopénie ou thrombopathie | < 10 G/L (prophylaxie, chimiothérapie/allogreffe) ; < 20 G/L (ponction lombaire, radiologie interventionnelle à faible risque) ; < 50 G/L (chirurgie majeure non neuraxiale, radiologie interventionnelle à haut risque) [S2] |
-| **Plasma** | Hémorragie avec coagulopathie (transfusion massive), CIVD avec saignement, échanges plasmatiques du purpura thrombotique thrombocytopénique, déficits en facteurs sans concentré disponible | Pas de transfusion « préventive » pour corriger un TP isolé avant un geste à faible risque `[À VÉRIFIER — HAS/ANSM plasma]` |
+| **Plasma** | Hémorragie avec coagulopathie (transfusion massive), CIVD avec saignement, échanges plasmatiques du purpura thrombotique thrombocytopénique, déficits en facteurs sans concentré disponible | Pas de transfusion « préventive » pour corriger un trouble modéré de l'hémostase sans saignement, ni comme soluté de remplissage ; 10–15 mL/kg [S18] |
 | **Cryoprécipité / fibrinogène** | Hypofibrinogénémie avec saignement (hémorragie obstétricale, transfusion massive) | Fibrinogène < 1,5 g/L dans l'hémorragie traumatique selon le guide européen [S13] `[À VÉRIFIER]` |
 | **MDS** | Albumine (cirrhose : paracentèse évacuatrice de grand volume, infection du liquide d'ascite), immunoglobulines (déficits immunitaires, PTI, Kawasaki), anti-D (prévention de l'allo-immunisation fœto-maternelle), CCP (réversion des AVK — voir DOS-PHAR-0002), facteurs VIII/IX (hémophilie — voir DOS-HEMA-0003) | Selon les recommandations spécifiques [S12] |
 
@@ -289,7 +311,7 @@ mots_cles: [transfusion, concentré de globules rouges, plaquettes, plasma, comp
 
 | Produit | Préparation | Conservation (repères usuels) | Remarques |
 |---|---|---|---|
-| **CGR déleucocyté** | Centrifugation du sang total, solution de conservation, filtration des leucocytes | Réfrigéré (2–6 °C), plusieurs semaines selon la solution `[À VÉRIFIER — durée réglementaire nationale]` | Un CGR augmente l'hémoglobine d'environ 1 g/dL chez un adulte de 70 kg sans saignement (repère classique) `[À VÉRIFIER]` |
+| **CGR déleucocyté** | Centrifugation du sang total, solution de conservation, filtration des leucocytes | Réfrigéré (+2 à +6 °C) ; en France, 42 jours au maximum en solution SAG-mannitol [S3] ; durée réglementaire algérienne non vérifiée `[À VÉRIFIER]` | Un CGR augmente l'hémoglobine d'environ 1 g/dL chez un adulte de 70 kg sans saignement (repère classique) `[À VÉRIFIER]` |
 | **Concentré plaquettaire** : mélange de couches leuco-plaquettaires de plusieurs dons, ou plaquettes d'aphérèse (donneur unique) | — | **Température ambiante (20–24 °C) sous agitation**, quelques jours | Risque de contamination bactérienne plus élevé du fait de la conservation à température ambiante |
 | **PFC** | Plasma congelé rapidement après le prélèvement ; sécurisé par quarantaine ou par traitement de réduction des pathogènes | Congelé (≤ −25 °C), décongelé avant usage | Compatibilité ABO « inversée » (§ 8.4) |
 | **Cryoprécipité** | Fraction du plasma précipitant au froid | Congelé | Riche en fibrinogène, FVIII, Willebrand, FXIII ; l'OMS préfère la forme à réduction de pathogènes, la forme native étant réservée aux hémorragies menaçant la vie [S12] |
@@ -314,7 +336,7 @@ mots_cles: [transfusion, concentré de globules rouges, plaquettes, plasma, comp
 ### 8.1 Bilan immuno-hématologique prétransfusionnel [S15]
 
 - **Groupage ABO-RhD** (et phénotype RH-KEL selon le contexte) sur **deux déterminations** réalisées sur deux prélèvements distincts, avec identification rigoureuse du patient ; un groupe sanguin n'est **jamais** déterminé sur la base d'une carte ou d'une déclaration.
-- **RAI** (dépistage d'anticorps irréguliers) récente : durée de validité réduite (classiquement **72 heures**) chez un patient transfusé ou enceinte dans les mois précédents, car une allo-immunisation peut apparaître rapidement `[À VÉRIFIER — règle nationale]` ; si RAI positive : **identification** de l'anticorps et CGR **compatibilisés** dépourvus de l'antigène correspondant.
+- **RAI** (dépistage d'anticorps irréguliers) récente : en France, validité de **72 heures** au maximum en cas de transfusion, de grossesse ou de greffe dans les **6 mois précédents** (obligation réglementaire), prolongeable à **21 jours** si la RAI est négative en l'absence de ces antécédents [S3], car une allo-immunisation peut apparaître rapidement ; règle algérienne non vérifiée `[À VÉRIFIER]` ; si RAI positive : **identification** de l'anticorps et CGR **compatibilisés** dépourvus de l'antigène correspondant.
 - Avant la première transfusion : information du patient (bénéfices, risques, alternatives), recueil de son accord selon la réglementation, et selon les pays sérologies prétransfusionnelles (VIH, VHB, VHC) `[À VÉRIFIER — réglementation algérienne]`.
 
 ### 8.2 Prescription et délivrance
@@ -347,6 +369,7 @@ Principe : **ne pas apporter d'anticorps dirigés contre les antigènes du recev
 | AB | **AB uniquement** |
 
 - Le **plasma AB** est donc « donneur universel » pour le plasma.
+- La règle de base reste la transfusion de plasma **isogroupe ABO** ; la compatibilité « en miroir » s'applique à défaut, notamment en urgence ; le plasma O n'est compatible qu'avec un receveur O [S18].
 
 ### 8.5 Plaquettes
 
@@ -359,7 +382,7 @@ Principe : **ne pas apporter d'anticorps dirigés contre les antigènes du recev
 2. **Contrôle ultime de compatibilité ABO** au lit du patient pour les CGR (test sur carte avec le sang du patient et celui de la poche) dans les pays qui l'ont rendu obligatoire, dont la France ; en Algérie, se conformer à la procédure nationale `[À VÉRIFIER]`.
 3. **Unité de temps, de lieu et d'action** : un soignant, un patient, une poche, au lit du patient.
 4. **Surveillance** : constantes (pouls, PA, température, fréquence respiratoire, SpO₂) avant la transfusion, **dans les 15 premières minutes**, puis régulièrement et en fin de transfusion ; présence soignante au début ; débit lent initialement [S6].
-5. Durée de passage d'un CGR limitée (classiquement terminée dans les 4 heures suivant la sortie de l'enceinte de conservation) [S6] `[À VÉRIFIER — délai réglementaire]`.
+5. Délais limités : la BSH demande que la transfusion d'un CGR soit terminée dans les 4 heures suivant sa sortie de l'enceinte de conservation [S6] ; en France, la transfusion d'un CGR délivré doit débuter dans les 6 heures suivant son arrivée dans le service [S3] ; délai algérien non vérifié `[À VÉRIFIER]`.
 6. **Traçabilité** : enregistrement du produit transfusé dans le dossier du patient et retour d'information à la structure de transfusion.
 
 ---
@@ -549,8 +572,12 @@ Principe : **ne pas apporter d'anticorps dirigés contre les antigènes du recev
 
 - Ces seuils **ne s'appliquent pas** à l'hémorragie active non contrôlée, où l'on transfuse selon la perte sanguine et l'hémodynamique [S13].
 - L'AABB souligne qu'il est de bonne pratique de **considérer le contexte clinique global et les alternatives** pour chaque patient [S1].
-- La HAS (2014) propose des seuils et des stratégies ciblées par population (anesthésie-réanimation-chirurgie-urgence, hématologie-oncologie, néonatologie) et insiste sur les **alternatives** (fer, acide tranexamique) [S3] `[À VÉRIFIER — seuils détaillés du texte HAS]`.
-- **Dose** : transfuser **une unité à la fois** chez le patient stable, puis réévaluer cliniquement et biologiquement (principe de la « transfusion unitaire ») `[À VÉRIFIER — formulation des recommandations]`.
+- La **HAS (2014)** fixe des seuils par population et insiste sur les **alternatives** (fer, acide tranexamique) [S3] :
+  - **périopératoire** : 7 g/dL sans antécédent particulier ; **8–9 g/dL** en cas d'antécédents cardiovasculaires ; **10 g/dL** en cas de mauvaise tolérance clinique, d'insuffisance coronarienne aiguë, d'insuffisance cardiaque avérée ou de traitement bêtabloquant ;
+  - **réanimation** : 7 g/dL, y compris chez le cardiaque chronique équilibré ; **10 g/dL** en cas d'insuffisance coronarienne aiguë ; traumatisé (hors traumatisme crânien et transfusion massive) : 7 g/dL ;
+  - **hématologie** (leucémie aiguë, greffe de cellules souches, hémopathie maligne, myélodysplasie) : **8 g/dL**, jusqu'à 10 g/dL en cas de cardiopathie ou de mauvaise tolérance ;
+  - **sujet âgé** : 7 g/dL sans insuffisance cardiaque ou coronarienne ; 8 g/dL en cas d'insuffisance cardiaque ou coronarienne ; 10 g/dL en cas de mauvaise tolérance.
+- **Dose** : transfuser **une unité à la fois** chez le patient stable, puis réévaluer cliniquement et biologiquement (principe de la « transfusion unitaire », pilier « tolérer l'anémie » du PBM) [S9].
 
 ### 13.3 Plaquettes : seuils (AABB/ICTMG 2025) [S2]
 
@@ -569,11 +596,11 @@ Principe : **ne pas apporter d'anticorps dirigés contre les antigènes du recev
 | Hémorragie intracrânienne non opératoire de l'adulte, plaquettes > 100 G/L (même sous antiagrégants) | Pas de transfusion | Conditionnelle |
 
 - **Contre-indications relatives** : purpura thrombotique thrombocytopénique et thrombopénie induite par l'héparine (risque thrombotique), sauf hémorragie grave ; **PTI** : transfusion réservée aux hémorragies graves (voir DOS-HEMA-0002) [S5].
-- Dose plaquettaire et produits : selon les standards nationaux `[POSOLOGIE À VÉRIFIER — dose plaquettaire selon le poids, protocole local]` [S4].
+- **Dose plaquettaire** (HAS 2015, accord d'experts) : **0,5 à 0,7 × 10¹¹ plaquettes par 10 kg de poids** en transfusion prophylactique (partie basse de la fourchette chez l'obèse, partie haute chez le jeune enfant) ; en néonatologie, **0,1 à 0,2 × 10¹¹ plaquettes/kg** ; l'ordonnance mentionne le poids, la numération datée et la posologie souhaitée [S4]. Repère : un concentré de plaquettes d'aphérèse (CPA) contient au moins 2 × 10¹¹ plaquettes, soit à peu près la dose d'un adulte de 30 à 40 kg ; chez l'adulte de 60 à 70 kg, la dose recommandée correspond à environ 3 à 5 × 10¹¹ plaquettes [S4].
 
 ### 13.4 Plasma, cryoprécipité, fibrinogène
 
-- **Plasma** : hémorragie avec coagulopathie (transfusion massive, CIVD hémorragique), échanges plasmatiques du PTT, déficits isolés en facteurs sans concentré disponible ; **pas** pour corriger un TP modérément abaissé sans saignement ni pour un remplissage vasculaire ; **pas** en première intention pour la réversion des AVK (préférer le **CCP + vitamine K** — voir DOS-PHAR-0002). Dose usuelle de l'ordre de 10–15 mL/kg `[POSOLOGIE À VÉRIFIER — RCP / protocole local]`.
+- **Plasma** : hémorragie avec coagulopathie (transfusion massive, CIVD hémorragique), échanges plasmatiques du PTT, déficits isolés en facteurs sans concentré disponible ; **pas** pour corriger un TP modérément abaissé sans saignement ni pour un remplissage vasculaire ; **pas** en première intention pour la réversion des AVK (préférer le **CCP + vitamine K** — voir DOS-PHAR-0002). Volume initial usuel de **10 à 15 mL/kg** (accord professionnel ANSM/HAS 2012), à répéter selon la réévaluation clinique et biologique (en chirurgie cardiaque : 15 mL/kg, dose à augmenter en cas de saignement majeur) ; volumes plus importants (40 à 60 mL/kg, soit 1 à 1,5 masse plasmatique), de préférence par échange plasmatique, dans les microangiopathies thrombotiques (PTT) [S18].
 - **Fibrinogène** (concentré ou cryoprécipité) : hémorragie avec hypofibrinogénémie (trauma, obstétrique) [S13] `[POSOLOGIE À VÉRIFIER]`.
 
 ### 13.5 Gestion du sang du patient (PBM) — conférence de Francfort 2018 [S9]
@@ -620,7 +647,7 @@ La **loi n° 18-11 du 2 juillet 2018 relative à la santé** fixe les principes 
 - **art. 368-369** : le don est précédé d'un **entretien médical** et d'une information du donneur ; le donneur doit avoir **18 à 65 ans** (prélèvements à tout âge pour des raisons thérapeutiques ou diagnostiques) ;
 - **art. 428** : sanctions pénales en cas d'infraction aux dispositions de l'article 258.
 
-Points non vérifiés dans le cadre de ce dossier : texte réglementaire d'organisation de l'Agence nationale du sang et date de sa création initiale, organisation détaillée de l'hémovigilance nationale (déclaration, correspondants), liste réglementaire des tests de qualification biologique des dons, procédure nationale du contrôle ultime au lit `[À VÉRIFIER — JORADP et textes de l'Agence nationale du sang]`. Un reportage de Radio Algérie (2023) fait état d'environ **248 centres de transfusion sanguine** et d'un projet de **36 nouvelles structures** [S16].
+Un **décret exécutif n° 09-258 du 11 août 2009 relatif à l'Agence nationale du sang** (JORADP n° 47 du 16 août 2009) a été repéré dans le sommaire du Journal officiel [S19] ; son contenu n'a pas été lu. Points non vérifiés dans le cadre de ce dossier : contenu de ce décret et texte d'application de l'article 264 de la loi de 2018, date de la création initiale de l'Agence, organisation détaillée de l'hémovigilance nationale (déclaration, correspondants), liste réglementaire des tests de qualification biologique des dons, procédure nationale du contrôle ultime au lit `[À VÉRIFIER — JORADP et textes de l'Agence nationale du sang]`. Un reportage de Radio Algérie (2023) fait état d'environ **248 centres de transfusion sanguine** et d'un projet de **36 nouvelles structures** [S16].
 
 ---
 
@@ -898,6 +925,7 @@ Arrêt de la transfusion, position assise, oxygène (ventilation non invasive si
 
 | Thème | Position 1 (organisme, date) | Position 2 (organisme, date) | Commentaire |
 |---|---|---|---|
+| Seuils de CGR en hématologie et chez le coronarien aigu | AABB 2023 : < 7 g/dL chez l'adulte hospitalisé atteint d'hémopathie ou de cancer (conditionnelle, certitude faible) [S1] | HAS 2014 : **8 g/dL** dans les leucémies aiguës, greffes de CSH, hémopathies malignes et myélodysplasies ; **10 g/dL** en cas d'insuffisance coronarienne aiguë [S3] | Texte HAS antérieur à l'AABB 2023 ; appliquer le référentiel local en le justifiant |
 | Seuil transfusionnel dans l'infarctus du myocarde | AABB 2023 : seuil de 8 g/dL possible en cas de maladie cardiovasculaire préexistante ; données insuffisantes dans le SCA [S1] | Essai MINT (publié après la recommandation) : pas de différence significative, mais tendance défavorable à la stratégie restrictive ; effet délétère non exclu [S10] | Beaucoup d'équipes visent un seuil plus élevé (≈ 8–10 g/dL) dans l'infarctus aigu `[À VÉRIFIER — recommandations cardiologiques]` |
 | Seuils plaquettaires prophylactiques | AABB/ICTMG 2025 : < 10 G/L (chimiothérapie, allogreffe) ; pas de prophylaxie dans l'autogreffe et l'aplasie médullaire stables [S2] | BSH 2017 : seuil de 10 G/L ; nuances selon les populations et les gestes [S5] ; HAS 2015 : seuils et doses propres au contexte français [S4] | Convergence sur 10 G/L ; différences pour les gestes invasifs |
 | Contrôle ultime au lit du patient | France : contrôle ultime de compatibilité ABO obligatoire au lit (test sur carte) `[À VÉRIFIER — texte réglementaire]` | BSH 2018 : vérifications d'identité et de concordance au lit, sans test ABO systématique au lit [S6] | En Algérie, appliquer la procédure nationale `[À VÉRIFIER]` |
@@ -910,8 +938,8 @@ Arrêt de la transfusion, position assise, oxygène (ventilation non invasive si
 
 1. **[S1]** Carson JL, Stanworth SJ, Guyatt G, et al. Red Blood Cell Transfusion: 2023 AABB International Guidelines. *JAMA*. 2023;330(19):1892-1902. doi:10.1001/jama.2023.12914 — vérifiée (Europe PMC, PMID 37824153 ; résumé lu ; catalogue REC-0301).
 2. **[S2]** Metcalf RA, Nahirniak S, Guyatt G, et al. Platelet Transfusion: 2025 AABB and ICTMG International Clinical Practice Guidelines. *JAMA*. 2025;334(7):606-617. doi:10.1001/jama.2025.7529 — vérifiée (Europe PMC, PMID 40440268 ; résumé lu).
-3. **[S3]** HAS, ANSM. *Transfusions de globules rouges homologues : produits, indications, alternatives*. Novembre 2014 (mise en ligne février 2015). — vérifiée (recherche web : existence, date, domaines couverts ; seuils détaillés non lus).
-4. **[S4]** HAS. *Transfusions de plaquettes : produits, indications*. Argumentaire, 2015. — vérifiée (existence du document ; contenu non lu).
+3. **[S3]** HAS, ANSM. *Transfusions de globules rouges homologues : produits, indications, alternatives*. Novembre 2014 (mise en ligne février 2015). — vérifiée (recherche web ; texte des recommandations téléchargé et lu lors de l'audit AUD-01 : seuils par population, conservation, validité de la RAI).
+4. **[S4]** HAS. *Transfusions de plaquettes : produits, indications*. Argumentaire, 2015. — vérifiée (argumentaire téléchargé et lu lors de l'audit AUD-01 : contenu des concentrés, posologie de 0,5–0,7 × 10¹¹/10 kg).
 5. **[S5]** Estcourt LJ, Birchall J, Allard S, et al. Guidelines for the use of platelet transfusions. *Br J Haematol*. 2017;176(3):365-394. doi:10.1111/bjh.14423 — vérifiée (Europe PMC, PMID 28009056).
 6. **[S6]** Robinson S, Harris A, Atkinson S, et al. The administration of blood components: a British Society for Haematology Guideline. *Transfus Med*. 2018;28(1):3-21. doi:10.1111/tme.12481 — vérifiée (Europe PMC, PMID 29110357).
 7. **[S7]** Vlaar APJ, Toy P, Fung M, et al. A consensus redefinition of transfusion-related acute lung injury. *Transfusion*. 2019;59(7):2465-2476. doi:10.1111/trf.15311 — vérifiée (Europe PMC, PMID 30993745).
@@ -926,6 +954,7 @@ Arrêt de la transfusion, position assise, oxygène (ventilation non invasive si
 16. **[S16]** Radio Algérie. « Don du sang : vers la création de 36 nouveaux centres de transfusion sanguine à l'échelle nationale » (2023). https://news.radioalgerie.dz/fr/node/27880 — vérifiée (recherche web ; source journalistique publique, chiffre à confirmer par l'Agence nationale du sang).
 17. **[S17]** Wiersum-Osselton JC, Slomp J, Falkenburg JHF, et al. Guideline development for prevention of transfusion-associated graft-versus-host disease. *Br J Haematol*. 2021;195(5):681-688. doi:10.1111/bjh.17822 — vérifiée (Europe PMC, PMID 34490619).
 
-**Référence non vérifiée** : le décret de création ou d'organisation de l'Agence nationale du sang (souvent cité comme décret exécutif de 1995, réorganisation en 2009) n'a pas pu être confirmé pendant la session `[À VÉRIFIER — JORADP]`.
+18. **[S18]** ANSM, HAS. *Transfusion de plasma thérapeutique : produits, indications*. Actualisation juin 2012. https://www.has-sante.fr/jcms/c_1264081/ — vérifiée (recommandations et argumentaire téléchargés et lus lors de l'audit AUD-01 : volume initial de 10–15 mL/kg, compatibilité ABO).
+19. **[S19]** République algérienne. Décret exécutif n° 09-258 du 11 août 2009 relatif à l'Agence nationale du sang. *JORADP* n° 47 du 16 août 2009. — **non vérifiée sur le texte** (titre repéré dans le sommaire du Journal officiel par recherche web) `[À VÉRIFIER — JORADP]`. Un décret de 1995 est parfois cité comme texte de création : non confirmé.
 
-*Points à auditer en priorité* : seuils HAS 2014/2015 détaillés ; durées de conservation et délais réglementaires (RAI, durée de passage) ; dose de plasma et de plaquettes ; tests obligatoires de qualification des dons en Algérie ; organisation nationale de l'hémovigilance ; recommandations cardiologiques sur le seuil dans le SCA.
+*Points restant à vérifier après audit (AUD-01, 2026-11-19)* : textes réglementaires algériens (décret de 2009, texte d'application de l'art. 264, hémovigilance nationale, tests de qualification des dons, validité de la RAI, contrôle ultime au lit, durées de conservation) ; posologie du fibrinogène et cibles chiffrées du guide européen 2023 ; recommandations cardiologiques sur le seuil transfusionnel dans le SCA après MINT.

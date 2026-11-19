@@ -1,0 +1,40 @@
+{
+  "id": "DOS-02",
+  "lot": "lot2",
+  "statut": "termine_a_auditer",
+  "derniere_execution": "2026-11-19T03:49:00+00:00",
+  "taches_terminees": [
+    "DOS-INFE-0003 (RES-MED-001 fièvres typhoïde et paratyphoïdes)",
+    "DOS-INFE-0004 (RES-MED-002 paludisme)",
+    "DOS-INFE-0005 (RES-MED-006 infection à VIH)",
+    "DOS-INFE-0006 (RES-MED-004 états septicémiques / sepsis)",
+    "DOS-INFE-0007 (RES-MED-003 rage)",
+    "lot QCM DOS-02-lot2 (65 : QCM-INFE-0201…0265)",
+    "lot cas DOS-02-lot2 (10 : CAS-INFE-0201…0210)",
+    "validation JSON/YAML, sections 1–22, journal global"
+  ],
+  "taches_suivantes": [
+    "Audit (AUD-xx) des 5 dossiers, en priorité les marqueurs [POSOLOGIE À VÉRIFIER] : carbapénème (typhoïde XDR), dexaméthasone (typhoïde grave), schéma horaire de l'artésunate, atovaquone-proguanil curatif, chimioprophylaxie du voyageur, pneumocystose, toxoplasmose, cotrimoxazole, CAB+RPV, PrEP injectable, noradrénaline, antibioprophylaxie des morsures",
+    "Lire le texte intégral de la SSC 2026 (DOI 10.1007/s00134-026-08361-1) et de la SPILF 2017 paludisme ; lire la note OMS typhoïde 2018 (âges/schémas Vi-PS et Ty21a)",
+    "Rechercher les protocoles nationaux algériens : PPE antirabique (schéma, voie ID), TAR/PTME (allaitement), traitement du paludisme et prévention de la réintroduction, données INSP (typhoïde, paludisme), réseau de surveillance des résistances",
+    "Lire la communication de l'Institut Pasteur d'Algérie (WOAH 2025) et vérifier les chiffres VIH (ONUSIDA / ministère)",
+    "Vérifier les références non confirmées : Parry NEJM 2002, Hoffman NEJM 1984, E.Pilly, PARTNER (Lancet 2019), groupe d'experts VIH France, Seymour JAMA 2016, HCSP voyageurs, OMS International travel and health"
+  ],
+  "objectifs": {"dossiers": 5, "qcm_min": 60, "cas": 10},
+  "compteurs": {
+    "dossiers": 5,
+    "qcm": 65,
+    "cas": 10,
+    "mots": {
+      "DOS-INFE-0003": 8650,
+      "DOS-INFE-0004": 9487,
+      "DOS-INFE-0005": 9260,
+      "DOS-INFE-0006": 8359,
+      "DOS-INFE-0007": 8658
+    },
+    "sources_verifiees": 32,
+    "sources_non_verifiees": 11,
+    "websearch_requetes": 15,
+    "mots_methode": "wc -w (locale UTF-8), QCM (10 par dossier) et cas rendus inclus"
+  }
+}

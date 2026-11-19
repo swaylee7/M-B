@@ -128,7 +128,7 @@ mots_cles: [antalgiques, paliers OMS, paracétamol, AINS, opioïdes, morphine, c
 # Antalgiques : principes et règles d'utilisation
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : audité par AUD-01 (IA) le 2026-11-19, corrections requises (voir le rapport d'audit). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 
 **Item du programme couvert** : RES-MED-168 — « Antalgiques : principes et règles d'utilisation ».
 
@@ -433,7 +433,7 @@ mots_cles: [antalgiques, paliers OMS, paracétamol, AINS, opioïdes, morphine, c
 | **Morphine IV/SC** (patient naïf) | **2 mg toutes les 4 h** (douleur cancéreuse chronique) ; douleur aiguë : 2–10 mg toutes les 4 h si besoin | Dose orale ≈ **2 fois** la dose parentérale | [S1] |
 | **Morphine LP** | Dose journalière déterminée par la titration en LI, répartie toutes les 12 h | Ne pas écraser ; ne pas utiliser pour les accès paroxystiques | [S1] |
 | **Fentanyl transdermique** | 12 à 25 µg/h toutes les 72 h (en relais d'un opioïde, selon conversion) | Pas chez le patient cachectique, fébrile ou très sudoral ; pas de dose maximale | [S1] |
-| **Amitriptyline** (douleur neuropathique) | 10 à 25 mg le soir | Max 100 mg le soir (en l'absence de dosage plasmatique) ; effets anticholinergiques | [S1] |
+| **Amitriptyline** (douleur neuropathique) | 10 à 25 mg le soir | Max 100 mg le soir (en l'absence de dosage plasmatique) ; effets anticholinergiques ; à éviter chez le sujet âgé (critères de Beers) | [S1, S8] |
 | **Naloxone** (surdosage) | 0,08 à 0,12 mg IV toutes les 2 à 3 minutes jusqu'à ventilation adéquate ; réinjections toutes les 20–60 min ou perfusion | Courte durée d'action | [S1] |
 | **Oxycodone** (patient naïf) | LI : 2,5 à 5 mg toutes les 4 h si besoin ; LP : 10 mg toutes les 12 h + LI 2,5–5 mg en interdose | Insuffisance hépatique modérée à sévère : réduire de 50 % ou éviter ; insuffisance rénale : débuter à la dose la plus faible | [S1] |
 | **Hydromorphone** (patient naïf) | Orale : 1 à 4 mg toutes les 4 h si besoin ; SC/IV : 0,3 à 0,7 mg toutes les 3–4 h ; perfusion SC/IV 0,1–0,2 mg/h | Réduire en insuffisance rénale et hépatique | [S1] |
