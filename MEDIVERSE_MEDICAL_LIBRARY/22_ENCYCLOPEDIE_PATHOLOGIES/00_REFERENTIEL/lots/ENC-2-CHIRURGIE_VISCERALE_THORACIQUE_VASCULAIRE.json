@@ -1,0 +1,3728 @@
+{
+  "agent": "ENC-2",
+  "date": "2026-11-19",
+  "pathologies": [
+    {
+      "id": "PATH-CGEN-0001",
+      "nom_fr": "Hernie inguinale de l'adulte",
+      "nom_en": "Inguinal hernia",
+      "synonymes": [
+        "hernie de l'aine"
+      ],
+      "cim10": "K40",
+      "specialite": "CGEN",
+      "sous_specialite": "Paroi abdominale",
+      "categories": [
+        "chirurgicale",
+        "digestive"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-011"
+      ],
+      "symptomes": [
+        "tuméfaction de l'aine apparaissant à l'effort",
+        "gêne ou douleur inguinale"
+      ],
+      "signes_cliniques": [
+        "tuméfaction impulsive à la toux, réductible, au-dessus de la ligne de Malgaigne",
+        "hernie directe ou oblique externe"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "échographie si doute"
+      ],
+      "traitements_cles": [
+        "cure chirurgicale par voie ouverte (prothèse type Lichtenstein, raphies) ou cœlioscopique",
+        "abstention surveillée possible si peu symptomatique"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0014",
+        "PATH-CGEN-0006",
+        "PATH-CGEN-0002",
+        "PATH-UROL-0012"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CGEN-0002",
+      "nom_fr": "Hernie crurale",
+      "nom_en": "Femoral hernia",
+      "synonymes": [
+        "hernie fémorale"
+      ],
+      "cim10": "K41",
+      "specialite": "CGEN",
+      "sous_specialite": "Paroi abdominale",
+      "categories": [
+        "chirurgicale",
+        "digestive"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-011"
+      ],
+      "symptomes": [
+        "tuméfaction de la racine de la cuisse",
+        "douleur",
+        "occlusion révélatrice"
+      ],
+      "signes_cliniques": [
+        "tuméfaction sous la ligne de Malgaigne, en dedans des vaisseaux fémoraux",
+        "risque élevé d'étranglement (femme âgée)"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "échographie ou scanner si doute"
+      ],
+      "traitements_cles": [
+        "cure chirurgicale systématique (risque d'étranglement)"
+      ],
+      "pathologies_liees": [
+        "PATH-CGEN-0001",
+        "PATH-CGEN-0006",
+        "PATH-CGEN-0012"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CGEN-0003",
+      "nom_fr": "Hernie ombilicale de l'adulte",
+      "nom_en": "Umbilical hernia in adults",
+      "synonymes": [],
+      "cim10": "K42",
+      "specialite": "CGEN",
+      "sous_specialite": "Paroi abdominale",
+      "categories": [
+        "chirurgicale",
+        "digestive"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-011"
+      ],
+      "symptomes": [
+        "tuméfaction ombilicale",
+        "douleur"
+      ],
+      "signes_cliniques": [
+        "tuméfaction réductible",
+        "collet palpable",
+        "terrain favorisant (obésité, ascite, grossesses)"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "échographie"
+      ],
+      "traitements_cles": [
+        "cure chirurgicale (raphie ou prothèse selon la taille du collet)",
+        "prudence en cas de cirrhose avec ascite"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0015",
+        "PATH-CGEN-0004",
+        "PATH-CGEN-0006",
+        "PATH-CGEN-0005"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CGEN-0004",
+      "nom_fr": "Éventration (hernie incisionnelle)",
+      "nom_en": "Incisional hernia",
+      "synonymes": [
+        "hernie incisionnelle"
+      ],
+      "cim10": "K43",
+      "specialite": "CGEN",
+      "sous_specialite": "Paroi abdominale",
+      "categories": [
+        "chirurgicale",
+        "digestive"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-011"
+      ],
+      "symptomes": [
+        "tuméfaction sur une cicatrice de laparotomie",
+        "gêne",
+        "douleurs"
+      ],
+      "signes_cliniques": [
+        "orifice pariétal palpable sur une cicatrice",
+        "tuméfaction impulsive à la toux"
+      ],
+      "examens_cles": [
+        "scanner abdominal (taille du défect, perte de droit de domicile)"
+      ],
+      "traitements_cles": [
+        "réparation pariétale avec prothèse (voie ouverte ou cœlioscopique)",
+        "préparation (arrêt du tabac, perte de poids)"
+      ],
+      "pathologies_liees": [
+        "PATH-CGEN-0003",
+        "PATH-CGEN-0007",
+        "PATH-CGEN-0005",
+        "PATH-CGEN-0006",
+        "PATH-CDIG-0034"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CGEN-0005",
+      "nom_fr": "Hernie de la ligne blanche (hernie épigastrique)",
+      "nom_en": "Epigastric hernia",
+      "synonymes": [],
+      "cim10": "K43",
+      "specialite": "CGEN",
+      "sous_specialite": "Paroi abdominale",
+      "categories": [
+        "chirurgicale",
+        "digestive"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [
+        "RES-CHI-011"
+      ],
+      "symptomes": [
+        "tuméfaction ou douleur épigastrique"
+      ],
+      "signes_cliniques": [
+        "petite tuméfaction sus-ombilicale de la ligne médiane"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "échographie"
+      ],
+      "traitements_cles": [
+        "cure chirurgicale si symptomatique"
+      ],
+      "pathologies_liees": [
+        "PATH-CGEN-0004",
+        "PATH-CGEN-0003"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CGEN-0006",
+      "nom_fr": "Étranglement herniaire",
+      "nom_en": "Strangulated hernia",
+      "synonymes": [
+        "hernie étranglée"
+      ],
+      "cim10": null,
+      "specialite": "CGEN",
+      "sous_specialite": "Paroi abdominale",
+      "categories": [
+        "chirurgicale",
+        "digestive",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-011"
+      ],
+      "symptomes": [
+        "douleur brutale et intense au niveau d'une hernie",
+        "vomissements",
+        "arrêt des matières et des gaz"
+      ],
+      "signes_cliniques": [
+        "tuméfaction herniaire dure, douloureuse, irréductible et non impulsive",
+        "signes d'occlusion"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "bilan préopératoire",
+        "scanner si doute"
+      ],
+      "traitements_cles": [
+        "chirurgie en urgence (levée de l'étranglement, évaluation de la vitalité intestinale, résection si nécrose, réparation pariétale)"
+      ],
+      "pathologies_liees": [
+        "PATH-CGEN-0001",
+        "PATH-CGEN-0002",
+        "PATH-CGEN-0003",
+        "PATH-CGEN-0004",
+        "PATH-CGEN-0012"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CGEN-0007",
+      "nom_fr": "Éviscération postopératoire",
+      "nom_en": "Postoperative wound dehiscence (evisceration)",
+      "synonymes": [
+        "désunion pariétale"
+      ],
+      "cim10": "T81.3",
+      "specialite": "CGEN",
+      "sous_specialite": "Paroi abdominale",
+      "categories": [
+        "chirurgicale",
+        "iatrogène",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "écoulement séreux abondant par la cicatrice",
+        "issue d'anses intestinales"
+      ],
+      "signes_cliniques": [
+        "désunion de l'aponévrose",
+        "visibilité des viscères"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "recherche d'une cause (infection, dénutrition, hyperpression abdominale)"
+      ],
+      "traitements_cles": [
+        "protection des viscères par champs humides stériles",
+        "réintervention en urgence (fermeture pariétale)",
+        "correction des facteurs favorisants"
+      ],
+      "pathologies_liees": [
+        "PATH-CGEN-0004",
+        "PATH-EPID-0002"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CGEN-0008",
+      "nom_fr": "Appendicite aiguë",
+      "nom_en": "Acute appendicitis",
+      "synonymes": [],
+      "cim10": "K35",
+      "specialite": "CGEN",
+      "sous_specialite": "Urgences chirurgicales",
+      "categories": [
+        "chirurgicale",
+        "digestive",
+        "infectieuse",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-014"
+      ],
+      "symptomes": [
+        "douleur de la fosse iliaque droite d'abord épigastrique",
+        "nausées, vomissements",
+        "fébricule"
+      ],
+      "signes_cliniques": [
+        "défense de la fosse iliaque droite",
+        "douleur au point de McBurney",
+        "douleur au toucher rectal",
+        "formes atypiques (rétrocæcale, pelvienne, sous-hépatique)"
+      ],
+      "examens_cles": [
+        "NFS (hyperleucocytose), CRP",
+        "échographie (enfant, femme jeune)",
+        "scanner abdomino-pelvien",
+        "β-hCG chez la femme"
+      ],
+      "traitements_cles": [
+        "appendicectomie (cœlioscopique de préférence)",
+        "antibiothérapie",
+        "traitement antibiotique seul possible dans certaines formes non compliquées selon les recommandations"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0016",
+        "PATH-GYNE-0004",
+        "PATH-GYNE-0010",
+        "PATH-CGEN-0009",
+        "PATH-CGEN-0010",
+        "PATH-GYNE-0011",
+        "PATH-PEDI-0036",
+        "PATH-CDIG-0032",
+        "PATH-CDIG-0033"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CGEN-0009",
+      "nom_fr": "Plastron et abcès appendiculaires",
+      "nom_en": "Appendiceal mass and abscess",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "CGEN",
+      "sous_specialite": "Urgences chirurgicales",
+      "categories": [
+        "chirurgicale",
+        "digestive",
+        "infectieuse"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-014"
+      ],
+      "symptomes": [
+        "douleur de la fosse iliaque droite évoluant depuis plusieurs jours",
+        "fièvre"
+      ],
+      "signes_cliniques": [
+        "masse douloureuse mal limitée de la fosse iliaque droite"
+      ],
+      "examens_cles": [
+        "NFS, CRP",
+        "scanner abdomino-pelvien (abcès, phlegmon)"
+      ],
+      "traitements_cles": [
+        "antibiothérapie",
+        "drainage percutané d'un abcès",
+        "appendicectomie différée selon les cas"
+      ],
+      "pathologies_liees": [
+        "PATH-CGEN-0008",
+        "PATH-CGEN-0010"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CGEN-0010",
+      "nom_fr": "Péritonite aiguë généralisée",
+      "nom_en": "Acute generalized peritonitis",
+      "synonymes": [],
+      "cim10": "K65.0",
+      "specialite": "CGEN",
+      "sous_specialite": "Urgences chirurgicales",
+      "categories": [
+        "chirurgicale",
+        "digestive",
+        "infectieuse",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-015"
+      ],
+      "symptomes": [
+        "douleur abdominale intense et diffuse",
+        "vomissements",
+        "fièvre"
+      ],
+      "signes_cliniques": [
+        "contracture abdominale (ventre de bois)",
+        "douleur au cul-de-sac de Douglas",
+        "signes de sepsis ou de choc"
+      ],
+      "examens_cles": [
+        "NFS, CRP, lactates, bilan préopératoire",
+        "scanner abdominal (pneumopéritoine, épanchement, cause)"
+      ],
+      "traitements_cles": [
+        "réanimation préopératoire",
+        "antibiothérapie probabiliste",
+        "chirurgie en urgence (traitement de la cause, toilette péritonéale, drainage)"
+      ],
+      "pathologies_liees": [
+        "PATH-CGEN-0008",
+        "PATH-CGEN-0009",
+        "PATH-CDIG-0001",
+        "PATH-CDIG-0012",
+        "PATH-CGEN-0011",
+        "PATH-CGEN-0021",
+        "PATH-CDIG-0033"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CGEN-0011",
+      "nom_fr": "Péritonite postopératoire",
+      "nom_en": "Postoperative peritonitis",
+      "synonymes": [],
+      "cim10": "K65.0",
+      "specialite": "CGEN",
+      "sous_specialite": "Urgences chirurgicales",
+      "categories": [
+        "chirurgicale",
+        "digestive",
+        "infectieuse",
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "fièvre",
+        "douleurs abdominales",
+        "iléus prolongé (symptômes souvent trompeurs)"
+      ],
+      "signes_cliniques": [
+        "signes de défaillance d'organe inexpliqués après chirurgie digestive",
+        "écoulement anormal par les drains"
+      ],
+      "examens_cles": [
+        "scanner abdominal avec opacification",
+        "NFS, CRP, procalcitonine",
+        "prélèvements peropératoires"
+      ],
+      "traitements_cles": [
+        "réintervention chirurgicale (traitement de la fistule anastomotique, stomie)",
+        "antibiothérapie adaptée à l'écologie nosocomiale",
+        "réanimation"
+      ],
+      "pathologies_liees": [
+        "PATH-CGEN-0010",
+        "PATH-MINT_REA-0003",
+        "PATH-EPID-0001",
+        "PATH-CDIG-0028",
+        "PATH-CDIG-0033"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CGEN-0012",
+      "nom_fr": "Occlusion intestinale aiguë",
+      "nom_en": "Acute intestinal obstruction",
+      "synonymes": [
+        "syndrome occlusif"
+      ],
+      "cim10": "K56",
+      "specialite": "CGEN",
+      "sous_specialite": "Urgences chirurgicales",
+      "categories": [
+        "chirurgicale",
+        "digestive",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-016"
+      ],
+      "symptomes": [
+        "douleurs abdominales",
+        "vomissements",
+        "arrêt des matières et des gaz",
+        "météorisme"
+      ],
+      "signes_cliniques": [
+        "distension abdominale",
+        "tympanisme",
+        "cicatrices de laparotomie",
+        "orifices herniaires",
+        "toucher rectal"
+      ],
+      "examens_cles": [
+        "ionogramme, fonction rénale, lactates",
+        "scanner abdomino-pelvien (siège, mécanisme, signes de souffrance)"
+      ],
+      "traitements_cles": [
+        "réanimation hydroélectrolytique",
+        "aspiration digestive",
+        "traitement médical d'épreuve (occlusion sur bride sans signe de gravité)",
+        "chirurgie en urgence en cas de strangulation ou d'échec"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0016",
+        "PATH-CGEN-0002",
+        "PATH-CGEN-0006",
+        "PATH-CGEN-0013",
+        "PATH-CDIG-0010",
+        "PATH-CDIG-0008",
+        "PATH-CDIG-0011"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CGEN-0013",
+      "nom_fr": "Occlusion du grêle sur bride",
+      "nom_en": "Adhesive small bowel obstruction",
+      "synonymes": [],
+      "cim10": "K56.5",
+      "specialite": "CGEN",
+      "sous_specialite": "Urgences chirurgicales",
+      "categories": [
+        "chirurgicale",
+        "digestive",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-016"
+      ],
+      "symptomes": [
+        "douleurs abdominales",
+        "vomissements précoces",
+        "arrêt des matières et des gaz"
+      ],
+      "signes_cliniques": [
+        "antécédent de chirurgie abdominale",
+        "distension modérée"
+      ],
+      "examens_cles": [
+        "scanner (zone de transition, signes de souffrance pariétale)",
+        "test à la gastrografine selon les pratiques"
+      ],
+      "traitements_cles": [
+        "traitement médical (aspiration, réhydratation) en l'absence de signes de strangulation",
+        "adhésiolyse chirurgicale si échec ou souffrance intestinale"
+      ],
+      "pathologies_liees": [
+        "PATH-CGEN-0012",
+        "PATH-CDIG-0029"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CGEN-0014",
+      "nom_fr": "Goitre multinodulaire compressif ou plongeant (indication chirurgicale)",
+      "nom_en": "Compressive or retrosternal multinodular goitre",
+      "synonymes": [],
+      "cim10": "E04.2",
+      "specialite": "CGEN",
+      "sous_specialite": "Chirurgie endocrinienne",
+      "categories": [
+        "endocrinienne",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [
+        "RES-CHI-013"
+      ],
+      "symptomes": [
+        "augmentation du volume du cou",
+        "dysphagie, dyspnée (goitre compressif ou plongeant)"
+      ],
+      "signes_cliniques": [
+        "goitre bosselé",
+        "extension rétrosternale"
+      ],
+      "examens_cles": [
+        "TSH",
+        "échographie",
+        "cytoponction des nodules suspects",
+        "scanner cervico-thoracique (goitre plongeant)"
+      ],
+      "traitements_cles": [
+        "surveillance",
+        "thyroïdectomie totale si compressif, toxique ou suspect",
+        "iode radioactif dans certaines formes toxiques"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0027"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CGEN-0015",
+      "nom_fr": "Sinus pilonidal",
+      "nom_en": "Pilonidal sinus",
+      "synonymes": [
+        "kyste pilonidal"
+      ],
+      "cim10": "L05",
+      "specialite": "CGEN",
+      "sous_specialite": "Techniques chirurgicales de base",
+      "categories": [
+        "chirurgicale",
+        "infectieuse"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur et tuméfaction du sillon interfessier",
+        "écoulement purulent"
+      ],
+      "signes_cliniques": [
+        "orifices (pertuis) médians du sillon interfessier",
+        "abcès aigu"
+      ],
+      "examens_cles": [
+        "diagnostic clinique"
+      ],
+      "traitements_cles": [
+        "incision-drainage de l'abcès",
+        "exérèse chirurgicale (cicatrisation dirigée ou fermeture avec lambeau)",
+        "épilation"
+      ],
+      "pathologies_liees": [],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CGEN-0016",
+      "nom_fr": "Traumatisme de la rate",
+      "nom_en": "Splenic injury",
+      "synonymes": [
+        "rupture de rate"
+      ],
+      "cim10": "S36.0",
+      "specialite": "CGEN",
+      "sous_specialite": "Traumatologie viscérale",
+      "categories": [
+        "traumatique",
+        "chirurgicale",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur de l'hypocondre gauche irradiant à l'épaule gauche",
+        "malaise"
+      ],
+      "signes_cliniques": [
+        "défense de l'hypocondre gauche",
+        "signes de choc hémorragique",
+        "fractures des dernières côtes gauches"
+      ],
+      "examens_cles": [
+        "échographie FAST (hémopéritoine)",
+        "scanner abdominal avec injection (grade lésionnel, fuite de produit de contraste) si patient stable",
+        "NFS"
+      ],
+      "traitements_cles": [
+        "traitement non opératoire chez le patient stable",
+        "embolisation artérielle",
+        "splénectomie ou splénorraphie si instabilité",
+        "vaccinations après splénectomie"
+      ],
+      "pathologies_liees": [
+        "PATH-UROL-0022",
+        "PATH-TRAU-0038",
+        "PATH-CGEN-0017",
+        "PATH-CGEN-0019",
+        "PATH-CTHO-0004",
+        "PATH-TRAU-0039",
+        "PATH-CDIG-0023"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CGEN-0017",
+      "nom_fr": "Traumatisme du foie",
+      "nom_en": "Liver injury",
+      "synonymes": [],
+      "cim10": "S36.1",
+      "specialite": "CGEN",
+      "sous_specialite": "Traumatologie viscérale",
+      "categories": [
+        "traumatique",
+        "chirurgicale",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur de l'hypocondre droit",
+        "malaise"
+      ],
+      "signes_cliniques": [
+        "défense",
+        "signes de choc hémorragique"
+      ],
+      "examens_cles": [
+        "échographie FAST",
+        "scanner avec injection (grade AAST)",
+        "bilan hépatique"
+      ],
+      "traitements_cles": [
+        "traitement non opératoire si stable",
+        "embolisation",
+        "chirurgie de sauvetage (packing) si instabilité"
+      ],
+      "pathologies_liees": [
+        "PATH-CGEN-0016",
+        "PATH-CGEN-0019",
+        "PATH-TRAU-0038"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CGEN-0018",
+      "nom_fr": "Traumatisme du pancréas",
+      "nom_en": "Pancreatic injury",
+      "synonymes": [],
+      "cim10": "S36.2",
+      "specialite": "CGEN",
+      "sous_specialite": "Traumatologie viscérale",
+      "categories": [
+        "traumatique",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur épigastrique après traumatisme (guidon de vélo, volant)"
+      ],
+      "signes_cliniques": [
+        "tableau souvent fruste initialement"
+      ],
+      "examens_cles": [
+        "lipasémie (peu spécifique)",
+        "scanner avec injection",
+        "cholangio-pancréato-IRM (rupture du canal de Wirsung)"
+      ],
+      "traitements_cles": [
+        "traitement non opératoire si canal intact",
+        "drainage ou pancréatectomie gauche en cas de rupture canalaire",
+        "prise en charge des pseudokystes"
+      ],
+      "pathologies_liees": [
+        "PATH-CGEN-0019",
+        "PATH-CDIG-0007"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CGEN-0019",
+      "nom_fr": "Contusion abdominale (traumatisme fermé de l'abdomen)",
+      "nom_en": "Blunt abdominal trauma",
+      "synonymes": [
+        "traumatisme abdominal fermé"
+      ],
+      "cim10": null,
+      "specialite": "CGEN",
+      "sous_specialite": "Traumatologie viscérale",
+      "categories": [
+        "traumatique",
+        "chirurgicale",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-015"
+      ],
+      "symptomes": [
+        "douleur abdominale après traumatisme",
+        "malaise"
+      ],
+      "signes_cliniques": [
+        "ecchymoses (marque de ceinture)",
+        "défense",
+        "signes de choc",
+        "signes d'hémopéritoine ou de péritonite"
+      ],
+      "examens_cles": [
+        "échographie FAST",
+        "scanner corps entier si stable",
+        "NFS, lipasémie, bilan hépatique"
+      ],
+      "traitements_cles": [
+        "laparotomie en urgence si instabilité hémodynamique ou péritonite",
+        "traitement non opératoire surveillé des lésions d'organes pleins chez le patient stable"
+      ],
+      "pathologies_liees": [
+        "PATH-CGEN-0016",
+        "PATH-CGEN-0017",
+        "PATH-CGEN-0018",
+        "PATH-CGEN-0020",
+        "PATH-TRAU-0038",
+        "PATH-CTHO-0006",
+        "PATH-CGEN-0021"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CGEN-0020",
+      "nom_fr": "Plaie pénétrante de l'abdomen",
+      "nom_en": "Penetrating abdominal wound",
+      "synonymes": [
+        "plaie par arme blanche ou par arme à feu de l'abdomen"
+      ],
+      "cim10": null,
+      "specialite": "CGEN",
+      "sous_specialite": "Traumatologie viscérale",
+      "categories": [
+        "traumatique",
+        "chirurgicale",
+        "urgence",
+        "médico-légale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-015"
+      ],
+      "symptomes": [
+        "plaie abdominale",
+        "douleur",
+        "malaise"
+      ],
+      "signes_cliniques": [
+        "éviscération éventuelle",
+        "signes de choc ou de péritonite",
+        "orifices d'entrée et de sortie"
+      ],
+      "examens_cles": [
+        "scanner si stable",
+        "exploration locale ou cœlioscopie selon les cas",
+        "certificat descriptif médico-légal"
+      ],
+      "traitements_cles": [
+        "laparotomie en urgence si instabilité, péritonite ou éviscération",
+        "prise en charge sélective non opératoire dans certains cas",
+        "prophylaxie antitétanique"
+      ],
+      "pathologies_liees": [
+        "PATH-CGEN-0019",
+        "PATH-MLEG-0007",
+        "PATH-MLEG-0008",
+        "PATH-CGEN-0021"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0001",
+      "nom_fr": "Ulcère gastroduodénal perforé",
+      "nom_en": "Perforated peptic ulcer",
+      "synonymes": [
+        "perforation d'ulcère"
+      ],
+      "cim10": "K27",
+      "specialite": "CDIG",
+      "sous_specialite": "Chirurgie œso-gastrique",
+      "categories": [
+        "digestive",
+        "chirurgicale",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-015"
+      ],
+      "symptomes": [
+        "douleur épigastrique brutale « en coup de poignard »",
+        "antécédent ulcéreux ou prise d'AINS"
+      ],
+      "signes_cliniques": [
+        "contracture abdominale généralisée",
+        "disparition de la matité préhépatique"
+      ],
+      "examens_cles": [
+        "scanner abdominal (pneumopéritoine)",
+        "radiographie de l'abdomen debout (croissant gazeux sous-diaphragmatique)",
+        "NFS, lipasémie"
+      ],
+      "traitements_cles": [
+        "chirurgie (suture de la perforation, toilette péritonéale, souvent par cœlioscopie)",
+        "méthode de Taylor dans des cas sélectionnés",
+        "IPP",
+        "éradication d'Helicobacter pylori"
+      ],
+      "pathologies_liees": [
+        "PATH-CGEN-0010",
+        "PATH-CDIG-0002",
+        "PATH-MINT_REA-0014"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0002",
+      "nom_fr": "Sténose pyloro-bulbaire ulcéreuse ou tumorale",
+      "nom_en": "Gastric outlet obstruction",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "CDIG",
+      "sous_specialite": "Chirurgie œso-gastrique",
+      "categories": [
+        "digestive",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "vomissements alimentaires tardifs de repas antérieurs",
+        "amaigrissement"
+      ],
+      "signes_cliniques": [
+        "clapotage gastrique à jeun",
+        "ondulations péristaltiques",
+        "déshydratation"
+      ],
+      "examens_cles": [
+        "fibroscopie avec biopsies",
+        "ionogramme (alcalose hypochlorémique, hypokaliémie)",
+        "scanner"
+      ],
+      "traitements_cles": [
+        "aspiration gastrique et correction hydroélectrolytique",
+        "IPP",
+        "dilatation endoscopique ou chirurgie (gastro-entéro-anastomose, gastrectomie) selon la cause"
+      ],
+      "pathologies_liees": [
+        "PATH-CDIG-0001",
+        "PATH-CPED-0011"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0003",
+      "nom_fr": "Hernie hiatale",
+      "nom_en": "Hiatal hernia",
+      "synonymes": [
+        "hernie par glissement",
+        "hernie par roulement"
+      ],
+      "cim10": "K44",
+      "specialite": "CDIG",
+      "sous_specialite": "Chirurgie œso-gastrique",
+      "categories": [
+        "digestive",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "pyrosis",
+        "régurgitations acides",
+        "douleurs thoraciques",
+        "dysphagie (hernie para-œsophagienne)"
+      ],
+      "signes_cliniques": [
+        "souvent asymptomatique",
+        "anémie ferriprive (ulcérations de Cameron)"
+      ],
+      "examens_cles": [
+        "fibroscopie",
+        "transit œsogastroduodénal",
+        "scanner (hernie volumineuse ou para-œsophagienne)",
+        "pH-métrie"
+      ],
+      "traitements_cles": [
+        "IPP",
+        "chirurgie anti-reflux (fundoplicature de Nissen ou Toupet par cœlioscopie) ou cure de hernie para-œsophagienne symptomatique",
+        "urgence en cas de volvulus gastrique"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0024",
+        "PATH-CDIG-0005",
+        "PATH-CDIG-0026"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0004",
+      "nom_fr": "Perforation de l'œsophage (syndrome de Boerhaave et perforations iatrogènes)",
+      "nom_en": "Oesophageal perforation (Boerhaave syndrome and iatrogenic perforation)",
+      "synonymes": [
+        "rupture spontanée de l'œsophage",
+        "perforation œsophagienne instrumentale"
+      ],
+      "cim10": "K22.3",
+      "specialite": "CDIG",
+      "sous_specialite": "Chirurgie œso-gastrique",
+      "categories": [
+        "digestive",
+        "chirurgicale",
+        "urgence"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur thoracique violente après des vomissements",
+        "dyspnée"
+      ],
+      "signes_cliniques": [
+        "emphysème sous-cutané cervical",
+        "épanchement pleural (souvent gauche)",
+        "signes de choc septique"
+      ],
+      "examens_cles": [
+        "scanner thoracique avec opacification orale",
+        "radiographie thoracique (pneumomédiastin)"
+      ],
+      "traitements_cles": [
+        "réanimation",
+        "antibiothérapie et antifongique",
+        "traitement chirurgical ou endoscopique (prothèse couverte, suture) selon le délai",
+        "drainage"
+      ],
+      "pathologies_liees": [
+        "PATH-CTHO-0011",
+        "PATH-CDIG-0024"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0005",
+      "nom_fr": "Obésité morbide (indication de chirurgie bariatrique)",
+      "nom_en": "Severe obesity (bariatric surgery)",
+      "synonymes": [
+        "obésité sévère"
+      ],
+      "cim10": "E66",
+      "specialite": "CDIG",
+      "sous_specialite": "Chirurgie bariatrique",
+      "categories": [
+        "métabolique",
+        "nutritionnelle",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "dyspnée d'effort",
+        "douleurs articulaires",
+        "ronflements",
+        "retentissement psychosocial"
+      ],
+      "signes_cliniques": [
+        "IMC ≥ 40 kg/m² ou ≥ 35 kg/m² avec comorbidités",
+        "tour de taille"
+      ],
+      "examens_cles": [
+        "bilan préopératoire pluridisciplinaire (nutritionnel, psychologique, endocrinien, cardio-respiratoire, polysomnographie)",
+        "fibroscopie œsogastroduodénale"
+      ],
+      "traitements_cles": [
+        "prise en charge médicale préalable",
+        "sleeve gastrectomie",
+        "bypass gastrique",
+        "suivi nutritionnel à vie avec supplémentation vitaminique"
+      ],
+      "pathologies_liees": [
+        "PATH-CDIG-0003",
+        "PATH-CDIG-0006",
+        "PATH-CDIG-0027"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0006",
+      "nom_fr": "Syndrome de dumping (après chirurgie gastrique)",
+      "nom_en": "Dumping syndrome",
+      "synonymes": [
+        "syndrome de chasse"
+      ],
+      "cim10": "K91.1",
+      "specialite": "CDIG",
+      "sous_specialite": "Chirurgie bariatrique",
+      "categories": [
+        "digestive",
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "malaise, palpitations, sueurs, douleurs abdominales et diarrhée après les repas (précoce)",
+        "hypoglycémies réactionnelles (tardif)"
+      ],
+      "signes_cliniques": [
+        "antécédent de gastrectomie ou de bypass gastrique"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "glycémies postprandiales",
+        "HGPO modifiée selon les cas"
+      ],
+      "traitements_cles": [
+        "fractionnement des repas",
+        "éviction des sucres rapides",
+        "séparation solides-liquides",
+        "traitements médicamenteux dans les formes résistantes"
+      ],
+      "pathologies_liees": [
+        "PATH-CDIG-0005",
+        "PATH-CDIG-0027"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0007",
+      "nom_fr": "Pseudokyste du pancréas",
+      "nom_en": "Pancreatic pseudocyst",
+      "synonymes": [],
+      "cim10": "K86.3",
+      "specialite": "CDIG",
+      "sous_specialite": "Chirurgie hépato-bilio-pancréatique",
+      "categories": [
+        "digestive",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-010"
+      ],
+      "symptomes": [
+        "douleurs épigastriques persistantes",
+        "satiété précoce",
+        "vomissements"
+      ],
+      "signes_cliniques": [
+        "masse épigastrique",
+        "complications (infection, hémorragie, compression, rupture)"
+      ],
+      "examens_cles": [
+        "scanner",
+        "IRM",
+        "écho-endoscopie"
+      ],
+      "traitements_cles": [
+        "surveillance (régression spontanée possible)",
+        "drainage endoscopique (kystogastrostomie) ou chirurgical si symptomatique ou compliqué"
+      ],
+      "pathologies_liees": [
+        "PATH-CGEN-0018",
+        "PATH-CDIG-0019",
+        "PATH-CDIG-0020"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0008",
+      "nom_fr": "Iléus biliaire",
+      "nom_en": "Gallstone ileus",
+      "synonymes": [],
+      "cim10": "K56.3",
+      "specialite": "CDIG",
+      "sous_specialite": "Chirurgie hépato-bilio-pancréatique",
+      "categories": [
+        "digestive",
+        "chirurgicale",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "rare",
+      "items_residanat": [
+        "RES-CHI-016",
+        "RES-CHI-007"
+      ],
+      "symptomes": [
+        "syndrome occlusif chez un sujet âgé",
+        "antécédents de coliques hépatiques"
+      ],
+      "signes_cliniques": [
+        "signes d'occlusion du grêle"
+      ],
+      "examens_cles": [
+        "scanner (triade de Rigler : aérobilie, occlusion du grêle, calcul ectopique)"
+      ],
+      "traitements_cles": [
+        "entérotomie avec extraction du calcul",
+        "traitement différé de la fistule bilio-digestive selon le terrain"
+      ],
+      "pathologies_liees": [
+        "PATH-CGEN-0012",
+        "PATH-CDIG-0009"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0009",
+      "nom_fr": "Syndrome de Mirizzi",
+      "nom_en": "Mirizzi syndrome",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "CDIG",
+      "sous_specialite": "Chirurgie hépato-bilio-pancréatique",
+      "categories": [
+        "digestive",
+        "chirurgicale"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [
+        "RES-CHI-007"
+      ],
+      "symptomes": [
+        "ictère",
+        "douleurs de l'hypocondre droit",
+        "fièvre"
+      ],
+      "signes_cliniques": [
+        "ictère cholestatique sur lithiase vésiculaire"
+      ],
+      "examens_cles": [
+        "échographie",
+        "cholangio-IRM (compression extrinsèque de la voie biliaire principale par un calcul du canal cystique)"
+      ],
+      "traitements_cles": [
+        "chirurgie (cholécystectomie souvent par laparotomie, réparation d'une fistule cholécysto-cholédocienne)"
+      ],
+      "pathologies_liees": [
+        "PATH-CDIG-0008",
+        "PATH-CDIG-0017"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0010",
+      "nom_fr": "Volvulus du côlon sigmoïde",
+      "nom_en": "Sigmoid volvulus",
+      "synonymes": [],
+      "cim10": "K56.2",
+      "specialite": "CDIG",
+      "sous_specialite": "Chirurgie colorectale",
+      "categories": [
+        "digestive",
+        "chirurgicale",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-016"
+      ],
+      "symptomes": [
+        "arrêt des matières et des gaz",
+        "météorisme important",
+        "douleurs abdominales"
+      ],
+      "signes_cliniques": [
+        "distension abdominale asymétrique",
+        "tympanisme",
+        "sujet âgé ou constipé chronique (fréquent en Afrique du Nord et subsaharienne)"
+      ],
+      "examens_cles": [
+        "radiographie de l'abdomen (image en « grain de café »)",
+        "scanner (signe du tourbillon, souffrance colique)"
+      ],
+      "traitements_cles": [
+        "détorsion endoscopique avec sonde rectale en l'absence de nécrose",
+        "sigmoïdectomie secondaire",
+        "chirurgie en urgence si nécrose ou échec"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0006",
+        "PATH-CGEN-0012",
+        "PATH-CDIG-0011",
+        "PATH-PEDI-0025"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0011",
+      "nom_fr": "Volvulus du cæcum",
+      "nom_en": "Caecal volvulus",
+      "synonymes": [],
+      "cim10": "K56.2",
+      "specialite": "CDIG",
+      "sous_specialite": "Chirurgie colorectale",
+      "categories": [
+        "digestive",
+        "chirurgicale",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-016"
+      ],
+      "symptomes": [
+        "douleurs abdominales",
+        "vomissements",
+        "arrêt des matières et des gaz"
+      ],
+      "signes_cliniques": [
+        "distension abdominale",
+        "tympanisme péri-ombilical ou de l'hypocondre gauche"
+      ],
+      "examens_cles": [
+        "scanner abdominal (cæcum dilaté ectopique)"
+      ],
+      "traitements_cles": [
+        "colectomie droite en urgence"
+      ],
+      "pathologies_liees": [
+        "PATH-CDIG-0010",
+        "PATH-CGEN-0012",
+        "PATH-CDIG-0030"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0012",
+      "nom_fr": "Sigmoïdite diverticulaire compliquée",
+      "nom_en": "Complicated sigmoid diverticulitis",
+      "synonymes": [
+        "diverticulite compliquée"
+      ],
+      "cim10": "K57.2",
+      "specialite": "CDIG",
+      "sous_specialite": "Chirurgie colorectale",
+      "categories": [
+        "digestive",
+        "infectieuse",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur de la fosse iliaque gauche",
+        "fièvre",
+        "troubles du transit"
+      ],
+      "signes_cliniques": [
+        "défense de la fosse iliaque gauche",
+        "signes de péritonite (perforation)"
+      ],
+      "examens_cles": [
+        "scanner abdomino-pelvien avec injection (classification de Hinchey : abcès, péritonite purulente ou stercorale)"
+      ],
+      "traitements_cles": [
+        "antibiothérapie",
+        "drainage percutané des abcès",
+        "chirurgie (intervention de Hartmann ou résection-anastomose) des péritonites",
+        "sigmoïdectomie à froid selon les indications"
+      ],
+      "pathologies_liees": [
+        "PATH-CGEN-0010"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0013",
+      "nom_fr": "Thrombose hémorroïdaire externe",
+      "nom_en": "External haemorrhoidal thrombosis",
+      "synonymes": [],
+      "cim10": "K64.5",
+      "specialite": "CDIG",
+      "sous_specialite": "Proctologie chirurgicale",
+      "categories": [
+        "digestive"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur anale aiguë",
+        "tuméfaction anale"
+      ],
+      "signes_cliniques": [
+        "nodule bleuté, dur et douloureux de la marge anale"
+      ],
+      "examens_cles": [
+        "diagnostic clinique"
+      ],
+      "traitements_cles": [
+        "AINS, antalgiques, laxatifs",
+        "incision ou excision sous anesthésie locale si très douloureuse"
+      ],
+      "pathologies_liees": [
+        "PATH-CDIG-0035"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0014",
+      "nom_fr": "Prolapsus rectal",
+      "nom_en": "Rectal prolapse",
+      "synonymes": [],
+      "cim10": "K62.3",
+      "specialite": "CDIG",
+      "sous_specialite": "Proctologie chirurgicale",
+      "categories": [
+        "digestive",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "extériorisation du rectum à la défécation",
+        "incontinence anale",
+        "constipation"
+      ],
+      "signes_cliniques": [
+        "prolapsus muqueux ou total (plis circulaires concentriques)"
+      ],
+      "examens_cles": [
+        "examen en position accroupie",
+        "défécographie",
+        "coloscopie"
+      ],
+      "traitements_cles": [
+        "rectopexie (voie abdominale, cœlioscopique) ou intervention par voie périnéale (Delorme, Altemeier) chez les sujets fragiles"
+      ],
+      "pathologies_liees": [
+        "PATH-CDIG-0015",
+        "PATH-GYNE-0018",
+        "PATH-CDIG-0035"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0015",
+      "nom_fr": "Incontinence anale",
+      "nom_en": "Faecal incontinence",
+      "synonymes": [],
+      "cim10": "R15",
+      "specialite": "CDIG",
+      "sous_specialite": "Proctologie chirurgicale",
+      "categories": [
+        "digestive"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "pertes involontaires de gaz ou de selles",
+        "urgences défécatoires"
+      ],
+      "signes_cliniques": [
+        "hypotonie sphinctérienne au toucher rectal",
+        "antécédents obstétricaux ou chirurgicaux",
+        "prolapsus"
+      ],
+      "examens_cles": [
+        "échographie endoanale (lésions sphinctériennes)",
+        "manométrie anorectale"
+      ],
+      "traitements_cles": [
+        "régularisation du transit",
+        "rééducation (biofeedback)",
+        "neuromodulation sacrée",
+        "sphinctérorraphie selon les cas"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0038",
+        "PATH-CDIG-0014",
+        "PATH-NCHI-0019",
+        "PATH-CDIG-0036"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CTHO-0001",
+      "nom_fr": "Pneumothorax traumatique",
+      "nom_en": "Traumatic pneumothorax",
+      "synonymes": [],
+      "cim10": "S27.0",
+      "specialite": "CTHO",
+      "sous_specialite": "Traumatismes thoraciques",
+      "categories": [
+        "traumatique",
+        "respiratoire",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur thoracique",
+        "dyspnée après traumatisme"
+      ],
+      "signes_cliniques": [
+        "diminution du murmure vésiculaire",
+        "tympanisme",
+        "emphysème sous-cutané",
+        "signes de compression (pneumothorax suffocant : détresse respiratoire, collapsus)"
+      ],
+      "examens_cles": [
+        "radiographie thoracique",
+        "échographie pleurale (abolition du glissement)",
+        "scanner thoracique"
+      ],
+      "traitements_cles": [
+        "exsufflation à l'aiguille en urgence si compressif",
+        "drainage thoracique",
+        "surveillance des formes minimes"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0012",
+        "PATH-CTHO-0002",
+        "PATH-CTHO-0004",
+        "PATH-CTHO-0003",
+        "PATH-TRAU-0038",
+        "PATH-CTHO-0008",
+        "PATH-CTHO-0009",
+        "PATH-MINT_REA-0002",
+        "PATH-MINT_REA-0013"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CTHO-0002",
+      "nom_fr": "Hémothorax traumatique",
+      "nom_en": "Traumatic haemothorax",
+      "synonymes": [
+        "hémopneumothorax"
+      ],
+      "cim10": "S27.1",
+      "specialite": "CTHO",
+      "sous_specialite": "Traumatismes thoraciques",
+      "categories": [
+        "traumatique",
+        "respiratoire",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "dyspnée",
+        "douleur thoracique"
+      ],
+      "signes_cliniques": [
+        "matité",
+        "diminution du murmure vésiculaire",
+        "signes de choc hémorragique"
+      ],
+      "examens_cles": [
+        "radiographie et échographie pleurale",
+        "scanner thoracique"
+      ],
+      "traitements_cles": [
+        "drainage thoracique",
+        "thoracotomie d'hémostase si débit important ou persistant",
+        "transfusion"
+      ],
+      "pathologies_liees": [
+        "PATH-CTHO-0001",
+        "PATH-CTHO-0004",
+        "PATH-TRAU-0038",
+        "PATH-TRAU-0039",
+        "PATH-CTHO-0008",
+        "PATH-CTHO-0010"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CTHO-0003",
+      "nom_fr": "Volet costal",
+      "nom_en": "Flail chest",
+      "synonymes": [
+        "volet thoracique"
+      ],
+      "cim10": "S22.5",
+      "specialite": "CTHO",
+      "sous_specialite": "Traumatismes thoraciques",
+      "categories": [
+        "traumatique",
+        "respiratoire",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur thoracique intense",
+        "dyspnée"
+      ],
+      "signes_cliniques": [
+        "respiration paradoxale d'un segment de la paroi thoracique",
+        "contusion pulmonaire associée"
+      ],
+      "examens_cles": [
+        "radiographie et scanner thoraciques (fractures costales doubles étagées)",
+        "gaz du sang"
+      ],
+      "traitements_cles": [
+        "analgésie efficace (dont analgésie locorégionale)",
+        "kinésithérapie",
+        "ventilation non invasive ou mécanique",
+        "ostéosynthèse costale selon les indications"
+      ],
+      "pathologies_liees": [
+        "PATH-CTHO-0001",
+        "PATH-CTHO-0004",
+        "PATH-CTHO-0005",
+        "PATH-MLEG-0005"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CTHO-0004",
+      "nom_fr": "Fractures de côtes",
+      "nom_en": "Rib fractures",
+      "synonymes": [],
+      "cim10": "S22.3",
+      "specialite": "CTHO",
+      "sous_specialite": "Traumatismes thoraciques",
+      "categories": [
+        "traumatique",
+        "respiratoire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur thoracique majorée par la respiration et la toux"
+      ],
+      "signes_cliniques": [
+        "douleur exquise à la palpation",
+        "crépitation",
+        "recherche de complications (pneumothorax, hémothorax, lésions spléniques ou hépatiques)"
+      ],
+      "examens_cles": [
+        "radiographie thoracique",
+        "scanner si traumatisme à haute énergie"
+      ],
+      "traitements_cles": [
+        "analgésie adaptée",
+        "kinésithérapie respiratoire",
+        "surveillance des sujets âgés (risque de pneumopathie)"
+      ],
+      "pathologies_liees": [
+        "PATH-CGEN-0016",
+        "PATH-CTHO-0001",
+        "PATH-CTHO-0002",
+        "PATH-CTHO-0003"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CTHO-0005",
+      "nom_fr": "Contusion pulmonaire",
+      "nom_en": "Pulmonary contusion",
+      "synonymes": [],
+      "cim10": "S27.3",
+      "specialite": "CTHO",
+      "sous_specialite": "Traumatismes thoraciques",
+      "categories": [
+        "traumatique",
+        "respiratoire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "dyspnée",
+        "hémoptysie après traumatisme thoracique"
+      ],
+      "signes_cliniques": [
+        "hypoxémie",
+        "crépitants"
+      ],
+      "examens_cles": [
+        "scanner thoracique (opacités alvéolaires non systématisées)",
+        "gaz du sang"
+      ],
+      "traitements_cles": [
+        "oxygénothérapie",
+        "ventilation non invasive ou mécanique protectrice",
+        "restriction des apports hydriques excessifs",
+        "kinésithérapie"
+      ],
+      "pathologies_liees": [
+        "PATH-CTHO-0003",
+        "PATH-MINT_REA-0004"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CTHO-0006",
+      "nom_fr": "Rupture traumatique du diaphragme",
+      "nom_en": "Traumatic diaphragmatic rupture",
+      "synonymes": [
+        "hernie diaphragmatique traumatique"
+      ],
+      "cim10": "S27.8",
+      "specialite": "CTHO",
+      "sous_specialite": "Traumatismes thoraciques",
+      "categories": [
+        "traumatique",
+        "respiratoire",
+        "digestive",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "dyspnée",
+        "douleurs thoraco-abdominales",
+        "occlusion ou étranglement d'organe (forme tardive)"
+      ],
+      "signes_cliniques": [
+        "bruits hydroaériques intrathoraciques",
+        "diminution du murmure vésiculaire (plus souvent à gauche)"
+      ],
+      "examens_cles": [
+        "radiographie thoracique (sonde gastrique intrathoracique)",
+        "scanner thoraco-abdominal"
+      ],
+      "traitements_cles": [
+        "réparation chirurgicale (voie abdominale en phase aiguë, thoracique en phase tardive)"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0038",
+        "PATH-CGEN-0019"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CTHO-0007",
+      "nom_fr": "Plaie du cœur et hémopéricarde traumatique",
+      "nom_en": "Cardiac injury with traumatic haemopericardium",
+      "synonymes": [
+        "tamponnade traumatique"
+      ],
+      "cim10": "S26.0",
+      "specialite": "CTHO",
+      "sous_specialite": "Traumatismes thoraciques",
+      "categories": [
+        "traumatique",
+        "cardiovasculaire",
+        "urgence",
+        "médico-légale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "malaise",
+        "douleur thoracique",
+        "plaie précordiale"
+      ],
+      "signes_cliniques": [
+        "triade de Beck (hypotension, turgescence jugulaire, assourdissement des bruits du cœur)",
+        "pouls paradoxal",
+        "choc"
+      ],
+      "examens_cles": [
+        "échographie FAST (épanchement péricardique)",
+        "scanner si stable"
+      ],
+      "traitements_cles": [
+        "thoracotomie ou sternotomie en urgence (suture)",
+        "péricardiocentèse comme geste de sauvetage"
+      ],
+      "pathologies_liees": [
+        "PATH-CTHO-0008",
+        "PATH-MLEG-0007",
+        "PATH-URGE-0031",
+        "PATH-MINT_REA-0002"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CTHO-0008",
+      "nom_fr": "Plaie thoracique pénétrante",
+      "nom_en": "Penetrating chest wound",
+      "synonymes": [
+        "thorax soufflant"
+      ],
+      "cim10": null,
+      "specialite": "CTHO",
+      "sous_specialite": "Traumatismes thoraciques",
+      "categories": [
+        "traumatique",
+        "respiratoire",
+        "urgence",
+        "médico-légale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "plaie thoracique",
+        "dyspnée",
+        "douleur"
+      ],
+      "signes_cliniques": [
+        "plaie soufflante",
+        "emphysème sous-cutané",
+        "signes de pneumothorax ou d'hémothorax",
+        "recherche d'une atteinte abdominale (plaie thoraco-abdominale)"
+      ],
+      "examens_cles": [
+        "radiographie et échographie",
+        "scanner si stable"
+      ],
+      "traitements_cles": [
+        "pansement occlusif à trois côtés",
+        "drainage thoracique",
+        "thoracotomie si instabilité ou saignement important",
+        "prophylaxie antitétanique"
+      ],
+      "pathologies_liees": [
+        "PATH-CTHO-0007",
+        "PATH-CTHO-0001",
+        "PATH-CTHO-0002",
+        "PATH-MLEG-0007",
+        "PATH-MLEG-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CTHO-0009",
+      "nom_fr": "Rupture trachéo-bronchique traumatique",
+      "nom_en": "Traumatic tracheobronchial rupture",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "CTHO",
+      "sous_specialite": "Traumatismes thoraciques",
+      "categories": [
+        "traumatique",
+        "respiratoire",
+        "urgence"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "dyspnée",
+        "hémoptysie"
+      ],
+      "signes_cliniques": [
+        "emphysème sous-cutané et pneumomédiastin importants",
+        "pneumothorax avec bullage persistant malgré le drainage"
+      ],
+      "examens_cles": [
+        "scanner thoracique",
+        "fibroscopie bronchique"
+      ],
+      "traitements_cles": [
+        "contrôle des voies aériennes (intubation sélective)",
+        "réparation chirurgicale"
+      ],
+      "pathologies_liees": [
+        "PATH-CTHO-0001",
+        "PATH-CTHO-0013"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CTHO-0010",
+      "nom_fr": "Chylothorax",
+      "nom_en": "Chylothorax",
+      "synonymes": [
+        "épanchement chyleux"
+      ],
+      "cim10": "J94.0",
+      "specialite": "CTHO",
+      "sous_specialite": "Chirurgie pleurale",
+      "categories": [
+        "respiratoire",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "dyspnée",
+        "épanchement pleural récidivant"
+      ],
+      "signes_cliniques": [
+        "syndrome d'épanchement pleural",
+        "contexte postopératoire, traumatique ou tumoral (lymphome)"
+      ],
+      "examens_cles": [
+        "ponction pleurale (liquide lactescent, triglycérides élevés, chylomicrons)",
+        "lymphographie ou lymphoscintigraphie",
+        "scanner"
+      ],
+      "traitements_cles": [
+        "drainage",
+        "régime pauvre en graisses à chaîne longue (triglycérides à chaîne moyenne) ou nutrition parentérale",
+        "ligature chirurgicale ou embolisation du canal thoracique"
+      ],
+      "pathologies_liees": [
+        "PATH-CTHO-0002"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CTHO-0011",
+      "nom_fr": "Médiastinite aiguë",
+      "nom_en": "Acute mediastinitis",
+      "synonymes": [
+        "médiastinite descendante nécrosante",
+        "médiastinite post-sternotomie"
+      ],
+      "cim10": "J98.5",
+      "specialite": "CTHO",
+      "sous_specialite": "Médiastin",
+      "categories": [
+        "infectieuse",
+        "respiratoire",
+        "chirurgicale",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "fièvre",
+        "douleur thoracique",
+        "dysphagie",
+        "dyspnée"
+      ],
+      "signes_cliniques": [
+        "signes de sepsis",
+        "écoulement ou instabilité sternale (post-sternotomie)",
+        "cellulite cervicale (forme descendante)"
+      ],
+      "examens_cles": [
+        "scanner cervico-thoracique",
+        "hémocultures",
+        "prélèvements peropératoires"
+      ],
+      "traitements_cles": [
+        "antibiothérapie à large spectre",
+        "drainage chirurgical et débridement",
+        "réanimation"
+      ],
+      "pathologies_liees": [
+        "PATH-CDIG-0004",
+        "PATH-DENT-0005",
+        "PATH-ORL-0031"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CTHO-0012",
+      "nom_fr": "Kyste bronchogénique",
+      "nom_en": "Bronchogenic cyst",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "CTHO",
+      "sous_specialite": "Médiastin",
+      "categories": [
+        "congénitale",
+        "respiratoire",
+        "chirurgicale"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "souvent asymptomatique",
+        "toux",
+        "dyspnée",
+        "infections"
+      ],
+      "signes_cliniques": [
+        "masse médiastinale ou pulmonaire découverte fortuitement"
+      ],
+      "examens_cles": [
+        "scanner thoracique",
+        "IRM"
+      ],
+      "traitements_cles": [
+        "exérèse chirurgicale (thoracoscopie)"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0030",
+        "PATH-CPED-0031"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CTHO-0013",
+      "nom_fr": "Sténose trachéale post-intubation",
+      "nom_en": "Post-intubation tracheal stenosis",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "CTHO",
+      "sous_specialite": "Chirurgie trachéale",
+      "categories": [
+        "respiratoire",
+        "iatrogène",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "dyspnée d'effort puis de repos",
+        "stridor",
+        "antécédent d'intubation ou de trachéotomie"
+      ],
+      "signes_cliniques": [
+        "bruit inspiratoire et expiratoire",
+        "détresse respiratoire (forme serrée)"
+      ],
+      "examens_cles": [
+        "endoscopie trachéale",
+        "scanner avec reconstructions",
+        "EFR (courbe débit-volume aplatie)"
+      ],
+      "traitements_cles": [
+        "dilatation et traitements endoscopiques (laser, prothèse)",
+        "résection-anastomose trachéale"
+      ],
+      "pathologies_liees": [
+        "PATH-CTHO-0009",
+        "PATH-ORL-0033"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CCVA-0001",
+      "nom_fr": "Rupture d'anévrisme de l'aorte abdominale",
+      "nom_en": "Ruptured abdominal aortic aneurysm",
+      "synonymes": [],
+      "cim10": "I71.3",
+      "specialite": "CCVA",
+      "sous_specialite": "Chirurgie de l'aorte",
+      "categories": [
+        "cardiovasculaire",
+        "chirurgicale",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur abdominale ou lombaire brutale",
+        "malaise",
+        "syncope"
+      ],
+      "signes_cliniques": [
+        "masse abdominale battante",
+        "état de choc hémorragique",
+        "terrain d'homme âgé fumeur"
+      ],
+      "examens_cles": [
+        "angioscanner si l'état hémodynamique le permet",
+        "échographie au lit du patient"
+      ],
+      "traitements_cles": [
+        "réparation en urgence (endoprothèse ou chirurgie ouverte)",
+        "hypotension permissive avant le contrôle de l'hémorragie",
+        "transfusion massive"
+      ],
+      "pathologies_liees": [
+        "PATH-CCVA-0002",
+        "PATH-CCVA-0007",
+        "PATH-TRAU-0039"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CCVA-0002",
+      "nom_fr": "Anévrisme de l'aorte thoracique",
+      "nom_en": "Thoracic aortic aneurysm",
+      "synonymes": [],
+      "cim10": "I71.2",
+      "specialite": "CCVA",
+      "sous_specialite": "Chirurgie de l'aorte",
+      "categories": [
+        "cardiovasculaire",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "souvent asymptomatique",
+        "douleur thoracique ou dorsale",
+        "dysphonie, dysphagie (compression)"
+      ],
+      "signes_cliniques": [
+        "terrain athéromateux ou dystrophique (syndrome de Marfan, bicuspidie)"
+      ],
+      "examens_cles": [
+        "angioscanner thoracique",
+        "échocardiographie (aorte ascendante)",
+        "IRM"
+      ],
+      "traitements_cles": [
+        "contrôle tensionnel",
+        "surveillance du diamètre",
+        "remplacement chirurgical de l'aorte ou endoprothèse selon le diamètre et la localisation"
+      ],
+      "pathologies_liees": [
+        "PATH-CCVA-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CCVA-0003",
+      "nom_fr": "Rupture traumatique de l'isthme aortique",
+      "nom_en": "Traumatic aortic injury",
+      "synonymes": [
+        "lésion traumatique de l'aorte thoracique"
+      ],
+      "cim10": "S25.0",
+      "specialite": "CCVA",
+      "sous_specialite": "Chirurgie de l'aorte",
+      "categories": [
+        "cardiovasculaire",
+        "traumatique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur thoracique ou interscapulaire après décélération brutale (accident de la voie publique, chute)"
+      ],
+      "signes_cliniques": [
+        "asymétrie tensionnelle",
+        "souvent masquée par des lésions associées"
+      ],
+      "examens_cles": [
+        "angioscanner thoracique (scanner corps entier du polytraumatisé)",
+        "radiographie thoracique (élargissement médiastinal)"
+      ],
+      "traitements_cles": [
+        "contrôle tensionnel strict",
+        "endoprothèse aortique thoracique",
+        "chirurgie ouverte selon les cas"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0038",
+        "PATH-SPUB-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CCVA-0004",
+      "nom_fr": "Syndrome de Leriche (occlusion aorto-iliaque)",
+      "nom_en": "Leriche syndrome (aortoiliac occlusive disease)",
+      "synonymes": [],
+      "cim10": "I74.0",
+      "specialite": "CCVA",
+      "sous_specialite": "Chirurgie de l'aorte",
+      "categories": [
+        "cardiovasculaire",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "claudication des fesses et des cuisses",
+        "dysfonction érectile"
+      ],
+      "signes_cliniques": [
+        "abolition bilatérale des pouls fémoraux",
+        "amyotrophie"
+      ],
+      "examens_cles": [
+        "index de pression systolique",
+        "échographie-Doppler",
+        "angioscanner"
+      ],
+      "traitements_cles": [
+        "contrôle des facteurs de risque",
+        "antiagrégant plaquettaire et statine",
+        "revascularisation endovasculaire ou pontage aorto-bifémoral"
+      ],
+      "pathologies_liees": [
+        "PATH-UROL-0014",
+        "PATH-CCVA-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CCVA-0005",
+      "nom_fr": "Traumatismes artériels des membres",
+      "nom_en": "Arterial injuries of the limbs",
+      "synonymes": [
+        "plaie artérielle"
+      ],
+      "cim10": null,
+      "specialite": "CCVA",
+      "sous_specialite": "Chirurgie vasculaire périphérique",
+      "categories": [
+        "cardiovasculaire",
+        "traumatique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-018"
+      ],
+      "symptomes": [
+        "saignement",
+        "douleur",
+        "froideur du membre"
+      ],
+      "signes_cliniques": [
+        "hémorragie pulsatile",
+        "hématome expansif",
+        "abolition des pouls distaux",
+        "souffle ou thrill",
+        "signes d'ischémie"
+      ],
+      "examens_cles": [
+        "angioscanner si l'état le permet",
+        "index de pression",
+        "échographie-Doppler"
+      ],
+      "traitements_cles": [
+        "compression ou garrot en préhospitalier",
+        "exploration et réparation chirurgicale (suture, pontage) ou endovasculaire",
+        "aponévrotomie de décharge si ischémie prolongée"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0040",
+        "PATH-CPED-0025",
+        "PATH-CCVA-0006",
+        "PATH-MLEG-0008",
+        "PATH-MPR-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CCVA-0006",
+      "nom_fr": "Faux anévrisme artériel",
+      "nom_en": "Arterial pseudoaneurysm",
+      "synonymes": [
+        "pseudo-anévrisme post-ponction"
+      ],
+      "cim10": null,
+      "specialite": "CCVA",
+      "sous_specialite": "Chirurgie vasculaire périphérique",
+      "categories": [
+        "cardiovasculaire",
+        "iatrogène",
+        "traumatique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "tuméfaction douloureuse au point de ponction ou de plaie"
+      ],
+      "signes_cliniques": [
+        "masse battante et expansive",
+        "souffle systolique"
+      ],
+      "examens_cles": [
+        "échographie-Doppler",
+        "angioscanner"
+      ],
+      "traitements_cles": [
+        "compression écho-guidée",
+        "injection de thrombine écho-guidée",
+        "réparation chirurgicale ou endoprothèse"
+      ],
+      "pathologies_liees": [
+        "PATH-CCVA-0005",
+        "PATH-CCVA-0010"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CCVA-0007",
+      "nom_fr": "Anévrisme de l'artère poplitée",
+      "nom_en": "Popliteal artery aneurysm",
+      "synonymes": [],
+      "cim10": "I72.4",
+      "specialite": "CCVA",
+      "sous_specialite": "Chirurgie vasculaire périphérique",
+      "categories": [
+        "cardiovasculaire",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-018"
+      ],
+      "symptomes": [
+        "souvent asymptomatique",
+        "ischémie aiguë du membre révélatrice (thrombose ou embolie)"
+      ],
+      "signes_cliniques": [
+        "masse poplitée battante",
+        "association fréquente à un anévrisme controlatéral ou aortique"
+      ],
+      "examens_cles": [
+        "échographie-Doppler",
+        "angioscanner"
+      ],
+      "traitements_cles": [
+        "exclusion chirurgicale avec pontage ou endoprothèse selon le diamètre et la symptomatologie"
+      ],
+      "pathologies_liees": [
+        "PATH-CCVA-0001",
+        "PATH-ORTH-0031"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CCVA-0008",
+      "nom_fr": "Ischémie mésentérique chronique",
+      "nom_en": "Chronic mesenteric ischaemia",
+      "synonymes": [
+        "angor mésentérique"
+      ],
+      "cim10": "K55.1",
+      "specialite": "CCVA",
+      "sous_specialite": "Chirurgie vasculaire périphérique",
+      "categories": [
+        "cardiovasculaire",
+        "digestive"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleurs abdominales postprandiales",
+        "peur de manger",
+        "amaigrissement"
+      ],
+      "signes_cliniques": [
+        "souffle abdominal",
+        "terrain athéromateux"
+      ],
+      "examens_cles": [
+        "angioscanner abdominal (sténoses des artères digestives)",
+        "échographie-Doppler"
+      ],
+      "traitements_cles": [
+        "revascularisation endovasculaire (angioplastie-stent) ou chirurgicale",
+        "prise en charge des facteurs de risque"
+      ],
+      "pathologies_liees": [
+        "PATH-CCVA-0004"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CCVA-0009",
+      "nom_fr": "Syndrome du défilé thoracobrachial",
+      "nom_en": "Thoracic outlet syndrome",
+      "synonymes": [
+        "syndrome de la traversée thoracobrachiale"
+      ],
+      "cim10": "G54.0",
+      "specialite": "CCVA",
+      "sous_specialite": "Chirurgie vasculaire périphérique",
+      "categories": [
+        "cardiovasculaire",
+        "neurologique",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "paresthésies du membre supérieur",
+        "douleurs",
+        "fatigabilité",
+        "œdème ou froideur selon la forme"
+      ],
+      "signes_cliniques": [
+        "manœuvres de provocation positives",
+        "côte cervicale",
+        "amyotrophie (forme neurologique)"
+      ],
+      "examens_cles": [
+        "radiographie (côte cervicale)",
+        "échographie-Doppler dynamique",
+        "angioscanner",
+        "EMG"
+      ],
+      "traitements_cles": [
+        "rééducation",
+        "décompression chirurgicale (résection de la première côte ou d'une côte cervicale) selon la forme"
+      ],
+      "pathologies_liees": [],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CCVA-0010",
+      "nom_fr": "Infection de prothèse vasculaire",
+      "nom_en": "Vascular graft infection",
+      "synonymes": [],
+      "cim10": "T82.7",
+      "specialite": "CCVA",
+      "sous_specialite": "Chirurgie vasculaire périphérique",
+      "categories": [
+        "cardiovasculaire",
+        "infectieuse",
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "fièvre",
+        "écoulement au niveau d'une cicatrice",
+        "hémorragie"
+      ],
+      "signes_cliniques": [
+        "fistule cutanée",
+        "faux anévrisme anastomotique",
+        "fistule aorto-digestive (hémorragie digestive)"
+      ],
+      "examens_cles": [
+        "angioscanner (collection périprothétique, gaz)",
+        "TEP-scanner",
+        "hémocultures",
+        "prélèvements peropératoires"
+      ],
+      "traitements_cles": [
+        "antibiothérapie prolongée",
+        "explantation de la prothèse avec revascularisation (in situ ou extra-anatomique)"
+      ],
+      "pathologies_liees": [
+        "PATH-CCVA-0006"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CCVA-0011",
+      "nom_fr": "Canal atrioventriculaire",
+      "nom_en": "Atrioventricular septal defect",
+      "synonymes": [
+        "défaut septal atrioventriculaire"
+      ],
+      "cim10": "Q21.2",
+      "specialite": "CCVA",
+      "sous_specialite": "Chirurgie des cardiopathies congénitales",
+      "categories": [
+        "congénitale",
+        "cardiovasculaire"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "dyspnée",
+        "difficultés alimentaires",
+        "infections respiratoires répétées",
+        "stagnation pondérale"
+      ],
+      "signes_cliniques": [
+        "souffle cardiaque",
+        "signes d'insuffisance cardiaque",
+        "association fréquente à la trisomie 21"
+      ],
+      "examens_cles": [
+        "échocardiographie",
+        "ECG (axe gauche)",
+        "radiographie thoracique"
+      ],
+      "traitements_cles": [
+        "traitement de l'insuffisance cardiaque",
+        "réparation chirurgicale précoce (avant l'installation d'une HTAP fixée)"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0013",
+        "PATH-CCVA-0014"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CCVA-0012",
+      "nom_fr": "Hypoplasie du cœur gauche",
+      "nom_en": "Hypoplastic left heart syndrome",
+      "synonymes": [],
+      "cim10": "Q23.4",
+      "specialite": "CCVA",
+      "sous_specialite": "Chirurgie des cardiopathies congénitales",
+      "categories": [
+        "congénitale",
+        "cardiovasculaire"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "cyanose et collapsus à la fermeture du canal artériel dans les premiers jours de vie"
+      ],
+      "signes_cliniques": [
+        "choc cardiogénique",
+        "pouls faibles",
+        "défaillance multiviscérale"
+      ],
+      "examens_cles": [
+        "diagnostic anténatal (échocardiographie fœtale)",
+        "échocardiographie néonatale"
+      ],
+      "traitements_cles": [
+        "prostaglandine E1 pour maintenir le canal artériel ouvert",
+        "chirurgie palliative en plusieurs temps (Norwood, Glenn, Fontan) ou transplantation",
+        "accompagnement"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0013",
+        "PATH-CCVA-0016"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CCVA-0013",
+      "nom_fr": "Retour veineux pulmonaire anormal total",
+      "nom_en": "Total anomalous pulmonary venous connection",
+      "synonymes": [],
+      "cim10": "Q26.2",
+      "specialite": "CCVA",
+      "sous_specialite": "Chirurgie des cardiopathies congénitales",
+      "categories": [
+        "congénitale",
+        "cardiovasculaire"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "cyanose",
+        "détresse respiratoire néonatale"
+      ],
+      "signes_cliniques": [
+        "forme bloquée : détresse respiratoire sévère et œdème pulmonaire",
+        "forme non bloquée : insuffisance cardiaque progressive"
+      ],
+      "examens_cles": [
+        "échocardiographie",
+        "angioscanner"
+      ],
+      "traitements_cles": [
+        "correction chirurgicale (urgente dans la forme bloquée)"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0004"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CCVA-0014",
+      "nom_fr": "Tronc artériel commun",
+      "nom_en": "Common arterial trunk (truncus arteriosus)",
+      "synonymes": [],
+      "cim10": "Q20.0",
+      "specialite": "CCVA",
+      "sous_specialite": "Chirurgie des cardiopathies congénitales",
+      "categories": [
+        "congénitale",
+        "cardiovasculaire"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "insuffisance cardiaque néonatale",
+        "cyanose modérée"
+      ],
+      "signes_cliniques": [
+        "souffle",
+        "pouls bondissants",
+        "association à une microdélétion 22q11"
+      ],
+      "examens_cles": [
+        "échocardiographie",
+        "recherche de microdélétion 22q11"
+      ],
+      "traitements_cles": [
+        "correction chirurgicale précoce (fermeture de la CIV et conduit ventricule droit-artère pulmonaire)"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0013",
+        "PATH-CCVA-0011",
+        "PATH-CCVA-0015"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CCVA-0015",
+      "nom_fr": "Atrésie pulmonaire",
+      "nom_en": "Pulmonary atresia",
+      "synonymes": [],
+      "cim10": "Q22.0",
+      "specialite": "CCVA",
+      "sous_specialite": "Chirurgie des cardiopathies congénitales",
+      "categories": [
+        "congénitale",
+        "cardiovasculaire"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "cyanose néonatale"
+      ],
+      "signes_cliniques": [
+        "cyanose profonde aggravée à la fermeture du canal artériel"
+      ],
+      "examens_cles": [
+        "échocardiographie",
+        "cathétérisme ou angioscanner (vascularisation pulmonaire)"
+      ],
+      "traitements_cles": [
+        "prostaglandine E1",
+        "perforation-dilatation percutanée ou chirurgie (anastomose systémico-pulmonaire, réparation)"
+      ],
+      "pathologies_liees": [
+        "PATH-CCVA-0016",
+        "PATH-CCVA-0014"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CCVA-0016",
+      "nom_fr": "Cœur univentriculaire",
+      "nom_en": "Univentricular heart",
+      "synonymes": [
+        "ventricule unique à double entrée"
+      ],
+      "cim10": "Q20.4",
+      "specialite": "CCVA",
+      "sous_specialite": "Chirurgie des cardiopathies congénitales",
+      "categories": [
+        "congénitale",
+        "cardiovasculaire"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "cyanose",
+        "dyspnée",
+        "insuffisance cardiaque"
+      ],
+      "signes_cliniques": [
+        "cyanose",
+        "souffle selon l'anatomie"
+      ],
+      "examens_cles": [
+        "échocardiographie",
+        "IRM cardiaque",
+        "cathétérisme"
+      ],
+      "traitements_cles": [
+        "palliation chirurgicale en plusieurs temps (anastomose cavo-pulmonaire, dérivation de Fontan)",
+        "suivi au long cours"
+      ],
+      "pathologies_liees": [
+        "PATH-CCVA-0012",
+        "PATH-CCVA-0015"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CGEN-0021",
+      "nom_fr": "Lésions traumatiques des organes creux de l'abdomen (grêle, côlon)",
+      "nom_en": "Traumatic hollow viscus injury",
+      "synonymes": [
+        "perforation digestive traumatique"
+      ],
+      "cim10": null,
+      "specialite": "CGEN",
+      "sous_specialite": "Traumatologie viscérale",
+      "categories": [
+        "traumatique",
+        "chirurgicale",
+        "digestive",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-015"
+      ],
+      "symptomes": [
+        "douleur abdominale progressive après un traumatisme (ceinture de sécurité, guidon)"
+      ],
+      "signes_cliniques": [
+        "signes de péritonite d'installation parfois retardée",
+        "ecchymose en bande (signe de la ceinture)"
+      ],
+      "examens_cles": [
+        "scanner abdominal (pneumopéritoine, épanchement sans lésion d'organe plein, épaississement pariétal)",
+        "surveillance clinique répétée"
+      ],
+      "traitements_cles": [
+        "laparotomie ou cœlioscopie (suture, résection-anastomose ou stomie)"
+      ],
+      "pathologies_liees": [
+        "PATH-CGEN-0019",
+        "PATH-CGEN-0010",
+        "PATH-CGEN-0020"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0016",
+      "nom_fr": "Complications du kyste hydatique du foie (fistule kysto-biliaire, rupture)",
+      "nom_en": "Complicated hepatic hydatid cyst",
+      "synonymes": [
+        "kyste hydatique rompu",
+        "fistule kysto-biliaire"
+      ],
+      "cim10": "B67.0",
+      "specialite": "CDIG",
+      "sous_specialite": "Chirurgie hépato-bilio-pancréatique",
+      "categories": [
+        "parasitaire",
+        "digestive",
+        "chirurgicale",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-012"
+      ],
+      "symptomes": [
+        "colique hépatique et ictère (rupture dans les voies biliaires)",
+        "fièvre (suppuration)",
+        "douleur brutale et réaction anaphylactique (rupture péritonéale)",
+        "vomique hydatique (rupture transdiaphragmatique)"
+      ],
+      "signes_cliniques": [
+        "angiocholite",
+        "péritonite ou choc anaphylactique",
+        "hépatomégalie douloureuse"
+      ],
+      "examens_cles": [
+        "échographie et scanner (communication kysto-biliaire, vésicules filles dans la voie biliaire principale)",
+        "cholangio-IRM",
+        "sérologie hydatique"
+      ],
+      "traitements_cles": [
+        "chirurgie (traitement du kyste et de la fistule biliaire, drainage de la voie biliaire)",
+        "CPRE avec sphinctérotomie pour évacuer le matériel hydatique",
+        "albendazole",
+        "réanimation d'un choc anaphylactique"
+      ],
+      "pathologies_liees": [
+        "PATH-UROL-0006",
+        "PATH-NCHI-0015",
+        "PATH-ORTH-0013",
+        "PATH-CDIG-0017",
+        "PATH-CDIG-0023"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0017",
+      "nom_fr": "Plaies et sténoses iatrogènes de la voie biliaire principale",
+      "nom_en": "Iatrogenic bile duct injury and stricture",
+      "synonymes": [
+        "traumatisme biliaire opératoire",
+        "biliome"
+      ],
+      "cim10": null,
+      "specialite": "CDIG",
+      "sous_specialite": "Chirurgie hépato-bilio-pancréatique",
+      "categories": [
+        "digestive",
+        "chirurgicale",
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-007"
+      ],
+      "symptomes": [
+        "douleurs abdominales",
+        "fièvre",
+        "ictère",
+        "écoulement biliaire par un drain après cholécystectomie"
+      ],
+      "signes_cliniques": [
+        "cholépéritoine",
+        "angiocholite",
+        "ictère cholestatique (sténose tardive)"
+      ],
+      "examens_cles": [
+        "bilan hépatique",
+        "échographie et scanner (collection)",
+        "cholangio-IRM",
+        "CPRE"
+      ],
+      "traitements_cles": [
+        "drainage des collections",
+        "traitement endoscopique (prothèse biliaire)",
+        "réparation chirurgicale (anastomose hépatico-jéjunale) en centre expert"
+      ],
+      "pathologies_liees": [
+        "PATH-CDIG-0009",
+        "PATH-CDIG-0016",
+        "PATH-CDIG-0021"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0018",
+      "nom_fr": "Fistule pancréatique postopératoire",
+      "nom_en": "Postoperative pancreatic fistula",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "CDIG",
+      "sous_specialite": "Chirurgie hépato-bilio-pancréatique",
+      "categories": [
+        "digestive",
+        "chirurgicale",
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleurs abdominales",
+        "fièvre",
+        "écoulement par les drains après chirurgie pancréatique"
+      ],
+      "signes_cliniques": [
+        "liquide de drainage riche en amylase",
+        "hémorragie secondaire possible (érosion vasculaire)"
+      ],
+      "examens_cles": [
+        "dosage de l'amylase dans le liquide de drainage",
+        "scanner abdominal (collection)",
+        "angioscanner si saignement"
+      ],
+      "traitements_cles": [
+        "drainage",
+        "antibiothérapie si infection",
+        "nutrition adaptée",
+        "embolisation d'un faux anévrisme",
+        "réintervention dans les formes graves"
+      ],
+      "pathologies_liees": [
+        "PATH-CDIG-0028",
+        "PATH-CDIG-0019",
+        "PATH-CDIG-0020"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0019",
+      "nom_fr": "Nécrose pancréatique infectée et collections nécrotiques",
+      "nom_en": "Infected pancreatic necrosis",
+      "synonymes": [
+        "coulée de nécrose infectée"
+      ],
+      "cim10": null,
+      "specialite": "CDIG",
+      "sous_specialite": "Chirurgie hépato-bilio-pancréatique",
+      "categories": [
+        "digestive",
+        "infectieuse",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-010"
+      ],
+      "symptomes": [
+        "fièvre et aggravation secondaire après une pancréatite aiguë sévère",
+        "douleurs abdominales"
+      ],
+      "signes_cliniques": [
+        "sepsis",
+        "défaillances d'organes"
+      ],
+      "examens_cles": [
+        "scanner (collections nécrotiques organisées, bulles de gaz)",
+        "ponction écho- ou scanno-guidée pour bactériologie",
+        "CRP, procalcitonine"
+      ],
+      "traitements_cles": [
+        "antibiothérapie",
+        "stratégie « step-up » (drainage percutané ou endoscopique, nécrosectomie endoscopique ou chirurgicale mini-invasive) de préférence après quatre semaines"
+      ],
+      "pathologies_liees": [
+        "PATH-CDIG-0018",
+        "PATH-CDIG-0007",
+        "PATH-MINT_REA-0003"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0020",
+      "nom_fr": "Cystadénomes du pancréas (séreux et mucineux)",
+      "nom_en": "Pancreatic cystadenomas (serous and mucinous)",
+      "synonymes": [
+        "tumeurs kystiques du pancréas"
+      ],
+      "cim10": "D13.6",
+      "specialite": "CDIG",
+      "sous_specialite": "Chirurgie hépato-bilio-pancréatique",
+      "categories": [
+        "néoplasique",
+        "digestive",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "souvent découverte fortuite",
+        "douleurs abdominales",
+        "masse"
+      ],
+      "signes_cliniques": [
+        "examen souvent normal"
+      ],
+      "examens_cles": [
+        "scanner et IRM pancréatiques",
+        "écho-endoscopie avec ponction (ACE et amylase du liquide kystique, cytologie)"
+      ],
+      "traitements_cles": [
+        "surveillance du cystadénome séreux asymptomatique",
+        "résection chirurgicale des tumeurs mucineuses (potentiel malin) ou symptomatiques"
+      ],
+      "pathologies_liees": [
+        "PATH-CDIG-0018",
+        "PATH-CDIG-0007"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0021",
+      "nom_fr": "Cholécystite aiguë alithiasique",
+      "nom_en": "Acute acalculous cholecystitis",
+      "synonymes": [],
+      "cim10": "K81.0",
+      "specialite": "CDIG",
+      "sous_specialite": "Chirurgie hépato-bilio-pancréatique",
+      "categories": [
+        "digestive",
+        "infectieuse",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "fièvre inexpliquée",
+        "douleur de l'hypocondre droit chez un patient de réanimation, polytraumatisé, brûlé ou en nutrition parentérale"
+      ],
+      "signes_cliniques": [
+        "sensibilité de l'hypocondre droit",
+        "signes de sepsis"
+      ],
+      "examens_cles": [
+        "échographie (paroi épaissie, sludge, distension, épanchement périvésiculaire, absence de calcul)",
+        "bilan hépatique"
+      ],
+      "traitements_cles": [
+        "antibiothérapie",
+        "cholécystostomie percutanée ou cholécystectomie selon l'état du patient"
+      ],
+      "pathologies_liees": [
+        "PATH-CDIG-0017",
+        "PATH-CDIG-0022",
+        "PATH-CPLA-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0022",
+      "nom_fr": "Polypes de la vésicule biliaire",
+      "nom_en": "Gallbladder polyps",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "CDIG",
+      "sous_specialite": "Chirurgie hépato-bilio-pancréatique",
+      "categories": [
+        "digestive",
+        "néoplasique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "le plus souvent asymptomatiques (découverte échographique)"
+      ],
+      "signes_cliniques": [
+        "examen normal"
+      ],
+      "examens_cles": [
+        "échographie abdominale (taille, nombre, caractère sessile)",
+        "écho-endoscopie selon les cas"
+      ],
+      "traitements_cles": [
+        "surveillance échographique",
+        "cholécystectomie si taille importante, croissance ou facteurs de risque de malignité"
+      ],
+      "pathologies_liees": [
+        "PATH-CDIG-0021"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0023",
+      "nom_fr": "Abcès et kystes de la rate",
+      "nom_en": "Splenic abscess and cysts",
+      "synonymes": [
+        "kyste hydatique splénique"
+      ],
+      "cim10": null,
+      "specialite": "CDIG",
+      "sous_specialite": "Chirurgie hépato-bilio-pancréatique",
+      "categories": [
+        "digestive",
+        "infectieuse",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "fièvre et douleur de l'hypocondre gauche (abcès)",
+        "pesanteur ou découverte fortuite (kyste)"
+      ],
+      "signes_cliniques": [
+        "splénomégalie",
+        "contexte d'endocardite, d'immunodépression ou de zone d'endémie hydatique"
+      ],
+      "examens_cles": [
+        "échographie et scanner",
+        "hémocultures",
+        "échocardiographie (endocardite)",
+        "sérologie hydatique"
+      ],
+      "traitements_cles": [
+        "antibiothérapie et drainage percutané (abcès)",
+        "splénectomie ou chirurgie conservatrice (kystes volumineux, hydatiques)",
+        "vaccinations en cas de splénectomie"
+      ],
+      "pathologies_liees": [
+        "PATH-CDIG-0016",
+        "PATH-CGEN-0016"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0024",
+      "nom_fr": "Sténoses bénignes de l'œsophage (peptiques, caustiques, anastomotiques)",
+      "nom_en": "Benign oesophageal strictures",
+      "synonymes": [],
+      "cim10": "K22.2",
+      "specialite": "CDIG",
+      "sous_specialite": "Chirurgie œso-gastrique",
+      "categories": [
+        "digestive",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "dysphagie progressive aux solides",
+        "régurgitations",
+        "amaigrissement"
+      ],
+      "signes_cliniques": [
+        "antécédent de reflux, d'ingestion de caustique ou de chirurgie œsophagienne"
+      ],
+      "examens_cles": [
+        "fibroscopie avec biopsies (élimination d'un cancer)",
+        "transit œsophagien"
+      ],
+      "traitements_cles": [
+        "dilatations endoscopiques répétées",
+        "traitement du reflux par IPP",
+        "œsophagoplastie (coloplastie) en cas d'échec des dilatations"
+      ],
+      "pathologies_liees": [
+        "PATH-URGE-0011",
+        "PATH-CDIG-0004",
+        "PATH-CDIG-0025"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0025",
+      "nom_fr": "Corps étrangers ingérés du tube digestif",
+      "nom_en": "Ingested foreign bodies",
+      "synonymes": [
+        "ingestion de pile bouton",
+        "bézoard"
+      ],
+      "cim10": "T18",
+      "specialite": "CDIG",
+      "sous_specialite": "Chirurgie œso-gastrique",
+      "categories": [
+        "digestive",
+        "urgence",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "dysphagie",
+        "hypersialorrhée",
+        "douleur rétrosternale",
+        "souvent asymptomatique chez l'enfant"
+      ],
+      "signes_cliniques": [
+        "signes de perforation (emphysème, défense)",
+        "impaction alimentaire chez l'adulte"
+      ],
+      "examens_cles": [
+        "radiographie cervico-thoraco-abdominale (objet radio-opaque)",
+        "scanner si objet non radio-opaque ou complication"
+      ],
+      "traitements_cles": [
+        "extraction endoscopique en urgence (pile bouton œsophagienne, objets pointus, aimants multiples, impaction alimentaire)",
+        "surveillance de l'élimination spontanée des petits objets mousses",
+        "chirurgie si complication"
+      ],
+      "pathologies_liees": [
+        "PATH-CDIG-0024",
+        "PATH-ORL-0025",
+        "PATH-PEDI-0028"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0026",
+      "nom_fr": "Volvulus gastrique",
+      "nom_en": "Gastric volvulus",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "CDIG",
+      "sous_specialite": "Chirurgie œso-gastrique",
+      "categories": [
+        "digestive",
+        "chirurgicale",
+        "urgence"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur épigastrique brutale",
+        "vomissements improductifs (efforts de vomissement sans résultat)"
+      ],
+      "signes_cliniques": [
+        "distension épigastrique",
+        "impossibilité de descendre une sonde gastrique (triade de Borchardt)",
+        "terrain de hernie hiatale para-œsophagienne"
+      ],
+      "examens_cles": [
+        "scanner thoraco-abdominal",
+        "transit œsogastroduodénal"
+      ],
+      "traitements_cles": [
+        "décompression gastrique",
+        "chirurgie en urgence (détorsion, gastropexie, cure de la hernie hiatale)",
+        "résection si nécrose"
+      ],
+      "pathologies_liees": [
+        "PATH-CDIG-0003"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0027",
+      "nom_fr": "Complications chirurgicales de la chirurgie bariatrique",
+      "nom_en": "Surgical complications of bariatric surgery",
+      "synonymes": [
+        "fistule après sleeve gastrectomie",
+        "hernie interne après bypass"
+      ],
+      "cim10": null,
+      "specialite": "CDIG",
+      "sous_specialite": "Chirurgie bariatrique",
+      "categories": [
+        "digestive",
+        "chirurgicale",
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleurs abdominales",
+        "fièvre",
+        "tachycardie (signe d'alerte de fistule)",
+        "vomissements"
+      ],
+      "signes_cliniques": [
+        "tachycardie isolée",
+        "signes de sepsis",
+        "occlusion (hernie interne)"
+      ],
+      "examens_cles": [
+        "scanner avec opacification",
+        "endoscopie",
+        "NFS, CRP"
+      ],
+      "traitements_cles": [
+        "réintervention (cœlioscopie exploratrice)",
+        "traitement endoscopique des fistules (prothèse, drainage)",
+        "suivi nutritionnel à vie"
+      ],
+      "pathologies_liees": [
+        "PATH-CDIG-0005",
+        "PATH-CDIG-0006",
+        "PATH-CDIG-0028"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0028",
+      "nom_fr": "Fistule anastomotique digestive (lâchage d'anastomose)",
+      "nom_en": "Anastomotic leak",
+      "synonymes": [
+        "désunion anastomotique"
+      ],
+      "cim10": null,
+      "specialite": "CDIG",
+      "sous_specialite": "Chirurgie colorectale",
+      "categories": [
+        "digestive",
+        "chirurgicale",
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleurs abdominales",
+        "fièvre",
+        "iléus prolongé",
+        "écoulement digestif par un drain"
+      ],
+      "signes_cliniques": [
+        "péritonite postopératoire",
+        "sepsis",
+        "tachycardie"
+      ],
+      "examens_cles": [
+        "scanner avec opacification digestive",
+        "NFS, CRP (cinétique postopératoire)"
+      ],
+      "traitements_cles": [
+        "drainage radiologique (fistule localisée)",
+        "réintervention avec stomie (péritonite généralisée)",
+        "antibiothérapie",
+        "nutrition"
+      ],
+      "pathologies_liees": [
+        "PATH-CDIG-0018",
+        "PATH-CDIG-0027",
+        "PATH-CGEN-0011",
+        "PATH-CDIG-0034",
+        "PATH-CDIG-0029"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0029",
+      "nom_fr": "Iléus paralytique postopératoire",
+      "nom_en": "Postoperative paralytic ileus",
+      "synonymes": [
+        "iléus réflexe"
+      ],
+      "cim10": "K56.0",
+      "specialite": "CDIG",
+      "sous_specialite": "Chirurgie colorectale",
+      "categories": [
+        "digestive",
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "absence de reprise du transit",
+        "ballonnement",
+        "nausées, vomissements après chirurgie"
+      ],
+      "signes_cliniques": [
+        "abdomen distendu silencieux",
+        "absence de signe de péritonite"
+      ],
+      "examens_cles": [
+        "ionogramme (hypokaliémie)",
+        "scanner si prolongé (élimination d'une complication mécanique ou d'une fistule)"
+      ],
+      "traitements_cles": [
+        "aspiration gastrique si vomissements",
+        "correction hydroélectrolytique",
+        "réhabilitation améliorée après chirurgie (épargne morphinique, alimentation et mobilisation précoces)"
+      ],
+      "pathologies_liees": [
+        "PATH-CDIG-0030",
+        "PATH-CGEN-0013",
+        "PATH-CDIG-0028"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0030",
+      "nom_fr": "Syndrome d'Ogilvie (pseudo-obstruction colique aiguë)",
+      "nom_en": "Ogilvie syndrome (acute colonic pseudo-obstruction)",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "CDIG",
+      "sous_specialite": "Chirurgie colorectale",
+      "categories": [
+        "digestive",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "distension abdominale importante",
+        "arrêt ou ralentissement du transit chez un patient hospitalisé (postopératoire, sujet âgé, réanimation)"
+      ],
+      "signes_cliniques": [
+        "météorisme majeur",
+        "douleur à la palpation de la fosse iliaque droite (risque de perforation cæcale)"
+      ],
+      "examens_cles": [
+        "radiographie et scanner abdominaux (dilatation colique sans obstacle mécanique, diamètre cæcal)"
+      ],
+      "traitements_cles": [
+        "correction des facteurs favorisants",
+        "néostigmine sous surveillance",
+        "exsufflation endoscopique",
+        "chirurgie si perforation ou ischémie"
+      ],
+      "pathologies_liees": [
+        "PATH-CDIG-0029",
+        "PATH-CDIG-0011"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0031",
+      "nom_fr": "Carcinose péritonéale",
+      "nom_en": "Peritoneal carcinomatosis",
+      "synonymes": [],
+      "cim10": "C78.6",
+      "specialite": "CDIG",
+      "sous_specialite": "Chirurgie colorectale",
+      "categories": [
+        "néoplasique",
+        "digestive",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "augmentation du volume de l'abdomen",
+        "douleurs",
+        "troubles du transit",
+        "altération de l'état général"
+      ],
+      "signes_cliniques": [
+        "ascite",
+        "nodules palpables",
+        "occlusion"
+      ],
+      "examens_cles": [
+        "scanner thoraco-abdomino-pelvien",
+        "IRM",
+        "cœlioscopie exploratrice (index de carcinose péritonéale)",
+        "cytologie de l'ascite"
+      ],
+      "traitements_cles": [
+        "chimiothérapie systémique",
+        "chirurgie de cytoréduction complète associée ou non à une chimiothérapie hyperthermique intrapéritonéale selon l'origine et l'extension",
+        "traitement palliatif des occlusions"
+      ],
+      "pathologies_liees": [
+        "PATH-CDIG-0032",
+        "PATH-CDIG-0034"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0032",
+      "nom_fr": "Tumeurs mucineuses de l'appendice et pseudomyxome péritonéal",
+      "nom_en": "Appendiceal mucinous neoplasms and pseudomyxoma peritonei",
+      "synonymes": [
+        "mucocèle appendiculaire"
+      ],
+      "cim10": null,
+      "specialite": "CDIG",
+      "sous_specialite": "Chirurgie colorectale",
+      "categories": [
+        "néoplasique",
+        "digestive",
+        "chirurgicale"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "augmentation progressive du volume abdominal",
+        "découverte au cours d'une appendicectomie"
+      ],
+      "signes_cliniques": [
+        "ascite gélatineuse",
+        "masse abdominale"
+      ],
+      "examens_cles": [
+        "scanner (ascite mucineuse, scalloping hépatique)",
+        "marqueurs (ACE, CA 19-9)",
+        "examen histologique"
+      ],
+      "traitements_cles": [
+        "cytoréduction chirurgicale complète et chimiothérapie hyperthermique intrapéritonéale en centre expert"
+      ],
+      "pathologies_liees": [
+        "PATH-CDIG-0031",
+        "PATH-CGEN-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0033",
+      "nom_fr": "Abcès intra-abdominaux (sous-phrénique, du Douglas)",
+      "nom_en": "Intra-abdominal abscesses",
+      "synonymes": [],
+      "cim10": "K65.0",
+      "specialite": "CDIG",
+      "sous_specialite": "Chirurgie colorectale",
+      "categories": [
+        "digestive",
+        "infectieuse",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "fièvre persistante",
+        "douleurs abdominales ou scapulaires",
+        "troubles du transit",
+        "ténesme (abcès du Douglas)"
+      ],
+      "signes_cliniques": [
+        "masse ou douleur localisée",
+        "bombement du cul-de-sac de Douglas au toucher rectal"
+      ],
+      "examens_cles": [
+        "scanner abdomino-pelvien",
+        "hémocultures",
+        "NFS, CRP"
+      ],
+      "traitements_cles": [
+        "drainage percutané radioguidé",
+        "antibiothérapie",
+        "drainage chirurgical si échec"
+      ],
+      "pathologies_liees": [
+        "PATH-CGEN-0010",
+        "PATH-CGEN-0011",
+        "PATH-CGEN-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0034",
+      "nom_fr": "Stomies digestives et leurs complications",
+      "nom_en": "Digestive stomas and their complications",
+      "synonymes": [
+        "colostomie",
+        "iléostomie"
+      ],
+      "cim10": null,
+      "specialite": "CDIG",
+      "sous_specialite": "Chirurgie colorectale",
+      "categories": [
+        "digestive",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "fuites",
+        "irritation cutanée",
+        "douleur",
+        "diarrhée à haut débit (iléostomie)"
+      ],
+      "signes_cliniques": [
+        "nécrose, rétraction, prolapsus, sténose, éventration parastomiale",
+        "déshydratation"
+      ],
+      "examens_cles": [
+        "examen de la stomie",
+        "ionogramme et fonction rénale (iléostomie à haut débit)",
+        "scanner (éventration)"
+      ],
+      "traitements_cles": [
+        "appareillage adapté et éducation par une infirmière stomathérapeute",
+        "traitement des complications",
+        "rétablissement de la continuité digestive"
+      ],
+      "pathologies_liees": [
+        "PATH-CDIG-0028",
+        "PATH-CDIG-0031",
+        "PATH-CGEN-0004",
+        "PATH-PEDI-0022"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0035",
+      "nom_fr": "Sténose anale",
+      "nom_en": "Anal stenosis",
+      "synonymes": [],
+      "cim10": "K62.4",
+      "specialite": "CDIG",
+      "sous_specialite": "Proctologie chirurgicale",
+      "categories": [
+        "digestive",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "dysmarchie et difficultés d'exonération",
+        "selles rubanées",
+        "douleurs"
+      ],
+      "signes_cliniques": [
+        "anus rétréci au toucher",
+        "antécédent d'hémorroïdectomie"
+      ],
+      "examens_cles": [
+        "examen proctologique",
+        "anuscopie"
+      ],
+      "traitements_cles": [
+        "dilatations et laxatifs",
+        "anoplastie (lambeaux)"
+      ],
+      "pathologies_liees": [
+        "PATH-CDIG-0013",
+        "PATH-CDIG-0014"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CDIG-0036",
+      "nom_fr": "Fistule recto-vaginale",
+      "nom_en": "Rectovaginal fistula",
+      "synonymes": [],
+      "cim10": "N82.3",
+      "specialite": "CDIG",
+      "sous_specialite": "Proctologie chirurgicale",
+      "categories": [
+        "digestive",
+        "gynécologique",
+        "obstétricale",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "émission de gaz ou de selles par le vagin",
+        "infections vaginales récidivantes"
+      ],
+      "signes_cliniques": [
+        "orifice fistuleux visible au spéculum ou palpé au toucher rectal",
+        "antécédent obstétrical (déchirure périnéale), de radiothérapie ou de maladie de Crohn"
+      ],
+      "examens_cles": [
+        "examen sous anesthésie",
+        "IRM pelvienne",
+        "échographie endoanale"
+      ],
+      "traitements_cles": [
+        "drainage d'un sepsis associé",
+        "réparation chirurgicale (lambeau d'avancement, interposition)",
+        "stomie de protection selon les cas"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0038",
+        "PATH-GYNE-0020",
+        "PATH-CDIG-0015"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    }
+  ]
+}

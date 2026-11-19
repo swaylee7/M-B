@@ -1,0 +1,2908 @@
+{
+  "agent": "ENC-2",
+  "date": "2026-11-19",
+  "pathologies": [
+    {
+      "id": "PATH-MLEG-0001",
+      "nom_fr": "Asphyxies mécaniques (généralités médico-légales)",
+      "nom_en": "Mechanical asphyxia",
+      "synonymes": [],
+      "cim10": "T71",
+      "specialite": "MLEG",
+      "sous_specialite": "Traumatologie médico-légale",
+      "categories": [
+        "médico-légale",
+        "traumatique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-138"
+      ],
+      "symptomes": [
+        "contexte de pendaison, strangulation, suffocation, compression thoraco-abdominale, obstruction des voies aériennes ou submersion"
+      ],
+      "signes_cliniques": [
+        "signes généraux d'asphyxie (cyanose de la face, pétéchies conjonctivales et faciales, congestion viscérale) non spécifiques",
+        "signes locaux spécifiques selon le mécanisme"
+      ],
+      "examens_cles": [
+        "levée de corps et examen externe",
+        "autopsie médico-légale",
+        "examens complémentaires (histologie, toxicologie)"
+      ],
+      "traitements_cles": [
+        "prise en charge médicale des survivants (réanimation, examen des lésions cervicales)",
+        "certificat de décès avec obstacle médico-légal",
+        "rédaction d'un certificat descriptif chez le vivant"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0025",
+        "PATH-MLEG-0002",
+        "PATH-MLEG-0003",
+        "PATH-MLEG-0004",
+        "PATH-MLEG-0005",
+        "PATH-MLEG-0006"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MLEG-0002",
+      "nom_fr": "Pendaison",
+      "nom_en": "Hanging",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "MLEG",
+      "sous_specialite": "Traumatologie médico-légale",
+      "categories": [
+        "médico-légale",
+        "traumatique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-138"
+      ],
+      "symptomes": [
+        "suspension par un lien autour du cou (suicide le plus souvent)"
+      ],
+      "signes_cliniques": [
+        "sillon cervical oblique ascendant, interrompu au niveau du nœud, parcheminé",
+        "lividités déclives des membres inférieurs (pendaison complète)",
+        "fractures des cornes thyroïdiennes ou de l'os hyoïde possibles"
+      ],
+      "examens_cles": [
+        "examen du lien et du sillon",
+        "autopsie (infiltrations hémorragiques, lésions laryngées)",
+        "toxicologie"
+      ],
+      "traitements_cles": [
+        "survivants : réanimation, recherche de lésions cervicales et laryngées, prévention de l'œdème pulmonaire et cérébral, prise en charge psychiatrique",
+        "décès : obstacle médico-légal"
+      ],
+      "pathologies_liees": [
+        "PATH-MLEG-0001",
+        "PATH-MLEG-0003"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MLEG-0003",
+      "nom_fr": "Strangulation (au lien ou manuelle)",
+      "nom_en": "Strangulation (ligature or manual)",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "MLEG",
+      "sous_specialite": "Traumatologie médico-légale",
+      "categories": [
+        "médico-légale",
+        "traumatique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-139"
+      ],
+      "symptomes": [
+        "constriction du cou par un lien ou par les mains (violences, homicide)"
+      ],
+      "signes_cliniques": [
+        "sillon horizontal, continu, de profondeur régulière (lien)",
+        "ecchymoses digitées et excoriations unguéales (manuelle)",
+        "pétéchies faciales et conjonctivales marquées"
+      ],
+      "examens_cles": [
+        "examen médico-légal minutieux et photographies",
+        "autopsie (lésions laryngées, fractures de l'os hyoïde)",
+        "recherche de lésions de défense"
+      ],
+      "traitements_cles": [
+        "survivants : examen ORL, surveillance des voies aériennes, certificat descriptif avec ITT",
+        "décès : obstacle médico-légal"
+      ],
+      "pathologies_liees": [
+        "PATH-MLEG-0001",
+        "PATH-MLEG-0002",
+        "PATH-MLEG-0013"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MLEG-0004",
+      "nom_fr": "Suffocation (obstruction des orifices respiratoires)",
+      "nom_en": "Smothering (suffocation)",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "MLEG",
+      "sous_specialite": "Traumatologie médico-légale",
+      "categories": [
+        "médico-légale",
+        "traumatique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-138"
+      ],
+      "symptomes": [
+        "obstruction de la bouche et du nez par la main, un oreiller ou un sac",
+        "enfouissement",
+        "confinement"
+      ],
+      "signes_cliniques": [
+        "lésions souvent discrètes",
+        "ecchymoses et excoriations péribuccales et péri-nasales",
+        "lésions des muqueuses labiales"
+      ],
+      "examens_cles": [
+        "examen externe et autopsie",
+        "enquête sur les circonstances (nourrisson : diagnostic différentiel avec la mort inattendue du nourrisson)"
+      ],
+      "traitements_cles": [
+        "obstacle médico-légal",
+        "signalement en cas de suspicion de maltraitance"
+      ],
+      "pathologies_liees": [
+        "PATH-MLEG-0001",
+        "PATH-PEDI-0027",
+        "PATH-MLEG-0010"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MLEG-0005",
+      "nom_fr": "Asphyxie par compression thoraco-abdominale",
+      "nom_en": "Traumatic (compressive) asphyxia",
+      "synonymes": [
+        "asphyxie traumatique"
+      ],
+      "cim10": null,
+      "specialite": "MLEG",
+      "sous_specialite": "Traumatologie médico-légale",
+      "categories": [
+        "médico-légale",
+        "traumatique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-138"
+      ],
+      "symptomes": [
+        "écrasement thoracique (effondrement, mouvements de foule, ensevelissement)"
+      ],
+      "signes_cliniques": [
+        "masque ecchymotique cervico-facial (cyanose et pétéchies au-dessus de la zone comprimée)",
+        "hémorragies sous-conjonctivales"
+      ],
+      "examens_cles": [
+        "examen clinique",
+        "bilan lésionnel thoracique (scanner) chez le survivant",
+        "autopsie"
+      ],
+      "traitements_cles": [
+        "désincarcération et réanimation",
+        "prise en charge des lésions thoraciques associées"
+      ],
+      "pathologies_liees": [
+        "PATH-MLEG-0001",
+        "PATH-CTHO-0003",
+        "PATH-TRAU-0042"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MLEG-0006",
+      "nom_fr": "Submersion (aspects médico-légaux)",
+      "nom_en": "Drowning (forensic aspects)",
+      "synonymes": [
+        "noyade (médecine légale)"
+      ],
+      "cim10": null,
+      "specialite": "MLEG",
+      "sous_specialite": "Traumatologie médico-légale",
+      "categories": [
+        "médico-légale",
+        "environnementale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-138"
+      ],
+      "symptomes": [
+        "découverte d'un corps dans l'eau",
+        "diagnostic différentiel entre submersion vitale et immersion post-mortem"
+      ],
+      "signes_cliniques": [
+        "champignon de mousse aux orifices respiratoires",
+        "macération cutanée (« mains de blanchisseuse »)",
+        "lésions traumatiques associées"
+      ],
+      "examens_cles": [
+        "autopsie (poumons distendus, liquide dans les voies aériennes et l'estomac)",
+        "recherche de diatomées dans les organes",
+        "toxicologie"
+      ],
+      "traitements_cles": [
+        "obstacle médico-légal",
+        "identification du corps",
+        "détermination des circonstances (accident, suicide, homicide)"
+      ],
+      "pathologies_liees": [
+        "PATH-URGE-0025",
+        "PATH-MLEG-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MLEG-0007",
+      "nom_fr": "Plaies par arme blanche",
+      "nom_en": "Stab and incised wounds",
+      "synonymes": [
+        "plaies par instrument tranchant ou piquant"
+      ],
+      "cim10": null,
+      "specialite": "MLEG",
+      "sous_specialite": "Traumatologie médico-légale",
+      "categories": [
+        "médico-légale",
+        "traumatique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-139"
+      ],
+      "symptomes": [
+        "plaies, saignement",
+        "contexte d'agression"
+      ],
+      "signes_cliniques": [
+        "plaies à bords nets (tranchantes) ou punctiformes profondes (piquantes)",
+        "lésions de défense aux avant-bras et aux mains",
+        "orientation et profondeur des trajets"
+      ],
+      "examens_cles": [
+        "description précise (nombre, siège, dimensions, orientation) et photographies",
+        "imagerie selon la localisation",
+        "autopsie en cas de décès"
+      ],
+      "traitements_cles": [
+        "prise en charge chirurgicale des lésions",
+        "certificat médical initial descriptif avec incapacité totale de travail",
+        "conservation des vêtements (preuves)"
+      ],
+      "pathologies_liees": [
+        "PATH-CGEN-0020",
+        "PATH-CTHO-0007",
+        "PATH-CTHO-0008",
+        "PATH-URGE-0032",
+        "PATH-MLEG-0008",
+        "PATH-MLEG-0013"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MLEG-0008",
+      "nom_fr": "Plaies par arme à feu",
+      "nom_en": "Gunshot wounds",
+      "synonymes": [
+        "blessures par balle ou par plombs"
+      ],
+      "cim10": null,
+      "specialite": "MLEG",
+      "sous_specialite": "Traumatologie médico-légale",
+      "categories": [
+        "médico-légale",
+        "traumatique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-139"
+      ],
+      "symptomes": [
+        "plaie après un tir",
+        "douleur",
+        "saignement"
+      ],
+      "signes_cliniques": [
+        "orifice d'entrée (collerette érosive, tatouage selon la distance de tir) et éventuel orifice de sortie",
+        "lésions dépendant du projectile et de la distance de tir"
+      ],
+      "examens_cles": [
+        "radiographies et scanner (localisation des projectiles)",
+        "conservation des projectiles et des vêtements",
+        "autopsie médico-légale en cas de décès"
+      ],
+      "traitements_cles": [
+        "prise en charge chirurgicale",
+        "certificat descriptif",
+        "respect de la chaîne de conservation des preuves"
+      ],
+      "pathologies_liees": [
+        "PATH-CGEN-0020",
+        "PATH-CTHO-0008",
+        "PATH-CCVA-0005",
+        "PATH-URGE-0033",
+        "PATH-MLEG-0007"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MLEG-0009",
+      "nom_fr": "Foudroiement",
+      "nom_en": "Lightning strike",
+      "synonymes": [],
+      "cim10": "T75.0",
+      "specialite": "MLEG",
+      "sous_specialite": "Traumatologie médico-légale",
+      "categories": [
+        "médico-légale",
+        "environnementale",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "perte de connaissance",
+        "brûlures",
+        "surdité",
+        "amnésie après exposition à la foudre lors d'un orage"
+      ],
+      "signes_cliniques": [
+        "figures de Lichtenberg (arborescences cutanées transitoires)",
+        "brûlures",
+        "rupture tympanique",
+        "arrêt cardiaque"
+      ],
+      "examens_cles": [
+        "ECG et monitorage",
+        "CPK",
+        "examen ophtalmologique et ORL"
+      ],
+      "traitements_cles": [
+        "réanimation cardiopulmonaire prioritaire (triage inversé en cas de victimes multiples)",
+        "prise en charge des brûlures et des lésions associées",
+        "certificat"
+      ],
+      "pathologies_liees": [
+        "PATH-URGE-0029",
+        "PATH-URGE-0031"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MLEG-0010",
+      "nom_fr": "Maltraitance physique de l'enfant (syndrome de Silverman)",
+      "nom_en": "Physical child abuse",
+      "synonymes": [
+        "sévices à enfant",
+        "syndrome des enfants battus"
+      ],
+      "cim10": "T74.1",
+      "specialite": "MLEG",
+      "sous_specialite": "Victimologie",
+      "categories": [
+        "médico-légale",
+        "pédiatrique",
+        "traumatique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-139"
+      ],
+      "symptomes": [
+        "retard de consultation",
+        "explications incohérentes ou variables avec le développement de l'enfant",
+        "troubles du comportement"
+      ],
+      "signes_cliniques": [
+        "ecchymoses d'âges différents dans des zones inhabituelles",
+        "brûlures de formes caractéristiques (cigarette, immersion)",
+        "fractures multiples d'âges différents",
+        "lésions buccales"
+      ],
+      "examens_cles": [
+        "bilan radiologique du squelette complet (fractures métaphysaires, côtes)",
+        "fond d'œil et imagerie cérébrale (moins de 2 ans)",
+        "bilan d'hémostase (diagnostic différentiel)",
+        "photographies"
+      ],
+      "traitements_cles": [
+        "hospitalisation protectrice",
+        "soins des lésions",
+        "signalement aux autorités judiciaires et information des services de protection de l'enfance",
+        "prise en charge pluridisciplinaire"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0027",
+        "PATH-CPLA-0002",
+        "PATH-MLEG-0004",
+        "PATH-MLEG-0011",
+        "PATH-MLEG-0012",
+        "PATH-MLEG-0016"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MLEG-0011",
+      "nom_fr": "Syndrome du bébé secoué",
+      "nom_en": "Shaken baby syndrome",
+      "synonymes": [
+        "traumatisme crânien non accidentel du nourrisson"
+      ],
+      "cim10": "T74.4",
+      "specialite": "MLEG",
+      "sous_specialite": "Victimologie",
+      "categories": [
+        "médico-légale",
+        "pédiatrique",
+        "neurologique",
+        "traumatique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-139"
+      ],
+      "symptomes": [
+        "malaise",
+        "vomissements",
+        "convulsions",
+        "troubles de conscience",
+        "pâleur",
+        "macrocrânie chez un nourrisson de moins de 1 an"
+      ],
+      "signes_cliniques": [
+        "hématomes sous-duraux",
+        "hémorragies rétiniennes",
+        "lésions encéphaliques",
+        "absence fréquente de lésion externe"
+      ],
+      "examens_cles": [
+        "scanner et IRM cérébrale",
+        "fond d'œil",
+        "bilan squelettique complet",
+        "bilan d'hémostase"
+      ],
+      "traitements_cles": [
+        "réanimation neurochirurgicale",
+        "signalement judiciaire",
+        "prévention (information des parents sur les pleurs du nourrisson)"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0026",
+        "PATH-PEDI-0027",
+        "PATH-NCHI-0003",
+        "PATH-MLEG-0010",
+        "PATH-PEDI-0037"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MLEG-0012",
+      "nom_fr": "Agression sexuelle et viol (prise en charge médico-légale)",
+      "nom_en": "Sexual assault",
+      "synonymes": [
+        "violences sexuelles"
+      ],
+      "cim10": "T74.2",
+      "specialite": "MLEG",
+      "sous_specialite": "Victimologie",
+      "categories": [
+        "médico-légale",
+        "gynécologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-139"
+      ],
+      "symptomes": [
+        "déclaration de violences sexuelles",
+        "état de choc psychologique",
+        "douleurs génitales ou anales"
+      ],
+      "signes_cliniques": [
+        "lésions génitales, anales ou extragénitales (souvent absentes)",
+        "lésions de contention ou de défense"
+      ],
+      "examens_cles": [
+        "examen médico-légal avec consentement",
+        "prélèvements (ADN, IST)",
+        "β-hCG",
+        "toxicologie (soumission chimique)",
+        "photographies"
+      ],
+      "traitements_cles": [
+        "contraception d'urgence",
+        "prophylaxie post-exposition des IST et du VIH",
+        "vaccination contre l'hépatite B",
+        "soutien psychologique",
+        "certificat médical descriptif",
+        "information sur les droits"
+      ],
+      "pathologies_liees": [
+        "PATH-MLEG-0013",
+        "PATH-MLEG-0010",
+        "PATH-MTRA-0017",
+        "PATH-MLEG-0015"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MLEG-0013",
+      "nom_fr": "Violences conjugales",
+      "nom_en": "Intimate partner violence",
+      "synonymes": [
+        "violences faites aux femmes"
+      ],
+      "cim10": null,
+      "specialite": "MLEG",
+      "sous_specialite": "Victimologie",
+      "categories": [
+        "médico-légale",
+        "psychiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-139"
+      ],
+      "symptomes": [
+        "plaintes somatiques répétées",
+        "anxiété",
+        "dépression",
+        "consultations itératives"
+      ],
+      "signes_cliniques": [
+        "lésions traumatiques d'âges différents",
+        "lésions de défense",
+        "minimisation des faits",
+        "violences pendant la grossesse"
+      ],
+      "examens_cles": [
+        "repérage systématique",
+        "examen clinique avec description précise et photographies",
+        "évaluation du danger"
+      ],
+      "traitements_cles": [
+        "certificat médical descriptif avec incapacité totale de travail",
+        "orientation vers les structures d'aide",
+        "mise en sécurité",
+        "signalement selon la législation",
+        "soutien psychologique"
+      ],
+      "pathologies_liees": [
+        "PATH-MLEG-0003",
+        "PATH-MLEG-0012",
+        "PATH-MLEG-0007"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MLEG-0014",
+      "nom_fr": "Mort subite de l'adulte (démarche médico-légale)",
+      "nom_en": "Sudden death in adults (forensic approach)",
+      "synonymes": [],
+      "cim10": "R96.0",
+      "specialite": "MLEG",
+      "sous_specialite": "Thanatologie",
+      "categories": [
+        "médico-légale",
+        "cardiovasculaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-138"
+      ],
+      "symptomes": [
+        "décès brutal et inattendu d'un sujet apparemment en bonne santé"
+      ],
+      "signes_cliniques": [
+        "signes de mort",
+        "circonstances",
+        "recherche de signes de violence"
+      ],
+      "examens_cles": [
+        "levée de corps",
+        "autopsie médico-légale (causes cardiaques prédominantes, embolie pulmonaire, hémorragie méningée)",
+        "analyses toxicologiques et génétiques (canalopathies)"
+      ],
+      "traitements_cles": [
+        "obstacle médico-légal si mort suspecte",
+        "enquête familiale (cardiopathies héréditaires)",
+        "certificat de décès"
+      ],
+      "pathologies_liees": [
+        "PATH-URGE-0031",
+        "PATH-MINT_REA-0007"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MLEG-0015",
+      "nom_fr": "Empoisonnement criminel et soumission chimique",
+      "nom_en": "Criminal poisoning and drug-facilitated crime",
+      "synonymes": [
+        "soumission chimique"
+      ],
+      "cim10": null,
+      "specialite": "MLEG",
+      "sous_specialite": "Toxicologie médico-légale",
+      "categories": [
+        "médico-légale",
+        "toxique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "symptomes": [
+        "troubles de conscience, amnésie, malaise inexpliqués",
+        "contexte d'agression ou de vol"
+      ],
+      "signes_cliniques": [
+        "signes de l'intoxication selon le toxique"
+      ],
+      "examens_cles": [
+        "prélèvements précoces de sang et d'urines conservés selon les règles médico-légales",
+        "prélèvement de cheveux à distance",
+        "analyses toxicologiques ciblées et larges"
+      ],
+      "traitements_cles": [
+        "traitement de l'intoxication",
+        "signalement et conservation des prélèvements",
+        "certificat"
+      ],
+      "pathologies_liees": [
+        "PATH-MLEG-0012",
+        "PATH-URGE-0004"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MLEG-0016",
+      "nom_fr": "Syndrome de Münchhausen par procuration",
+      "nom_en": "Munchausen syndrome by proxy (fabricated or induced illness)",
+      "synonymes": [
+        "trouble factice imposé à autrui"
+      ],
+      "cim10": null,
+      "specialite": "MLEG",
+      "sous_specialite": "Toxicologie médico-légale",
+      "categories": [
+        "médico-légale",
+        "psychiatrique",
+        "pédiatrique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "symptômes inexpliqués, récidivants, rapportés par un parent",
+        "hospitalisations répétées"
+      ],
+      "signes_cliniques": [
+        "discordance entre les symptômes rapportés et les constatations",
+        "symptômes disparaissant en l'absence du parent"
+      ],
+      "examens_cles": [
+        "hospitalisation d'observation",
+        "analyses toxicologiques",
+        "enquête pluridisciplinaire"
+      ],
+      "traitements_cles": [
+        "protection de l'enfant",
+        "signalement judiciaire",
+        "prise en charge psychiatrique du parent"
+      ],
+      "pathologies_liees": [
+        "PATH-MLEG-0010",
+        "PATH-PEDI-0026",
+        "PATH-MLEG-0017"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MLEG-0017",
+      "nom_fr": "Simulation et sursimulation",
+      "nom_en": "Malingering",
+      "synonymes": [
+        "sinistrose"
+      ],
+      "cim10": "Z76.5",
+      "specialite": "MLEG",
+      "sous_specialite": "Droit médical",
+      "categories": [
+        "médico-légale",
+        "psychiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-139"
+      ],
+      "symptomes": [
+        "plaintes exagérées ou inventées dans un contexte de bénéfice secondaire (indemnisation, arrêt de travail)"
+      ],
+      "signes_cliniques": [
+        "discordance entre les plaintes et l'examen objectif",
+        "incohérences"
+      ],
+      "examens_cles": [
+        "examen clinique rigoureux",
+        "examens complémentaires objectifs",
+        "expertise"
+      ],
+      "traitements_cles": [
+        "rédaction prudente et objective des certificats",
+        "expertise médico-légale",
+        "diagnostic différentiel avec les troubles somatoformes et factices"
+      ],
+      "pathologies_liees": [
+        "PATH-MLEG-0016"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MTRA-0001",
+      "nom_fr": "Saturnisme (intoxication par le plomb)",
+      "nom_en": "Lead poisoning",
+      "synonymes": [
+        "intoxication saturnine"
+      ],
+      "cim10": "T56.0",
+      "specialite": "MTRA",
+      "sous_specialite": "Toxicologie professionnelle",
+      "categories": [
+        "professionnelle",
+        "toxique",
+        "hématologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-143"
+      ],
+      "symptomes": [
+        "douleurs abdominales (coliques saturnines)",
+        "constipation",
+        "asthénie",
+        "troubles cognitifs et de l'humeur",
+        "céphalées"
+      ],
+      "signes_cliniques": [
+        "liseré gingival de Burton",
+        "anémie",
+        "neuropathie motrice (paralysie radiale)",
+        "HTA",
+        "néphropathie"
+      ],
+      "examens_cles": [
+        "plombémie",
+        "protoporphyrines-zinc érythrocytaires",
+        "acide delta-aminolévulinique urinaire",
+        "NFS (anémie, ponctuations basophiles)",
+        "fonction rénale"
+      ],
+      "traitements_cles": [
+        "éviction de l'exposition",
+        "chélateurs (EDTA calcique, DMSA) selon la plombémie et les symptômes",
+        "prévention collective et individuelle",
+        "surveillance médicale renforcée",
+        "déclaration en maladie professionnelle"
+      ],
+      "pathologies_liees": [
+        "PATH-SPUB-0004",
+        "PATH-MTRA-0002"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MTRA-0002",
+      "nom_fr": "Intoxication professionnelle au mercure (hydrargyrisme)",
+      "nom_en": "Occupational mercury poisoning",
+      "synonymes": [],
+      "cim10": "T56.1",
+      "specialite": "MTRA",
+      "sous_specialite": "Toxicologie professionnelle",
+      "categories": [
+        "professionnelle",
+        "toxique",
+        "neurologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-143"
+      ],
+      "symptomes": [
+        "tremblements",
+        "irritabilité, troubles de l'humeur (éréthisme)",
+        "hypersialorrhée",
+        "gingivostomatite"
+      ],
+      "signes_cliniques": [
+        "tremblement intentionnel",
+        "stomatite",
+        "atteinte rénale (protéinurie)"
+      ],
+      "examens_cles": [
+        "mercurie et mercurémie",
+        "fonction rénale",
+        "protéinurie"
+      ],
+      "traitements_cles": [
+        "éviction de l'exposition",
+        "chélateurs dans certaines formes",
+        "prévention (orpaillage, industrie du chlore, amalgames)",
+        "déclaration en maladie professionnelle"
+      ],
+      "pathologies_liees": [
+        "PATH-MTRA-0001",
+        "PATH-MTRA-0004"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MTRA-0003",
+      "nom_fr": "Hémopathies liées au benzène (benzénisme)",
+      "nom_en": "Benzene-related haematological disorders",
+      "synonymes": [],
+      "cim10": "T52.1",
+      "specialite": "MTRA",
+      "sous_specialite": "Toxicologie professionnelle",
+      "categories": [
+        "professionnelle",
+        "toxique",
+        "hématologique",
+        "néoplasique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-145"
+      ],
+      "symptomes": [
+        "asthénie",
+        "syndrome hémorragique",
+        "infections"
+      ],
+      "signes_cliniques": [
+        "pâleur",
+        "purpura"
+      ],
+      "examens_cles": [
+        "NFS (cytopénies)",
+        "myélogramme (aplasie, myélodysplasie, leucémie aiguë myéloïde)",
+        "indicateurs biologiques d'exposition"
+      ],
+      "traitements_cles": [
+        "éviction de l'exposition",
+        "traitement de l'hémopathie",
+        "substitution du benzène et prévention",
+        "déclaration en maladie professionnelle"
+      ],
+      "pathologies_liees": [
+        "PATH-MTRA-0004",
+        "PATH-MTRA-0012",
+        "PATH-MTRA-0014"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MTRA-0004",
+      "nom_fr": "Intoxication professionnelle par les solvants organiques",
+      "nom_en": "Occupational organic solvent poisoning",
+      "synonymes": [
+        "encéphalopathie des solvants"
+      ],
+      "cim10": "T52",
+      "specialite": "MTRA",
+      "sous_specialite": "Toxicologie professionnelle",
+      "categories": [
+        "professionnelle",
+        "toxique",
+        "neurologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-145"
+      ],
+      "symptomes": [
+        "céphalées",
+        "vertiges",
+        "ébriété (exposition aiguë)",
+        "troubles de la mémoire et de la concentration, irritabilité (exposition chronique)"
+      ],
+      "signes_cliniques": [
+        "dermatite d'irritation",
+        "neuropathie périphérique (n-hexane)",
+        "syndrome psycho-organique"
+      ],
+      "examens_cles": [
+        "indicateurs biologiques d'exposition (métabolites urinaires)",
+        "bilan hépatique et rénal",
+        "électroneuromyogramme",
+        "évaluation neuropsychologique"
+      ],
+      "traitements_cles": [
+        "éviction de l'exposition",
+        "substitution par des produits moins toxiques",
+        "protection collective (ventilation) et individuelle",
+        "surveillance médicale",
+        "déclaration en maladie professionnelle"
+      ],
+      "pathologies_liees": [
+        "PATH-MTRA-0002",
+        "PATH-MTRA-0003",
+        "PATH-MTRA-0009"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MTRA-0005",
+      "nom_fr": "Byssinose",
+      "nom_en": "Byssinosis",
+      "synonymes": [],
+      "cim10": "J66.0",
+      "specialite": "MTRA",
+      "sous_specialite": "Maladies professionnelles",
+      "categories": [
+        "professionnelle",
+        "respiratoire"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [
+        "RES-MED-147"
+      ],
+      "symptomes": [
+        "oppression thoracique et dyspnée en début de semaine de travail (« fièvre du lundi ») chez les ouvriers du coton, du lin ou du chanvre"
+      ],
+      "signes_cliniques": [
+        "sibilants",
+        "évolution vers une obstruction bronchique chronique"
+      ],
+      "examens_cles": [
+        "EFR (chute du VEMS au cours de la journée de travail)",
+        "anamnèse professionnelle"
+      ],
+      "traitements_cles": [
+        "réduction de l'exposition aux poussières végétales",
+        "bronchodilatateurs",
+        "reclassement professionnel",
+        "déclaration en maladie professionnelle"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0020",
+        "PATH-MTRA-0006"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MTRA-0006",
+      "nom_fr": "Pneumoconiose du mineur de charbon",
+      "nom_en": "Coal workers' pneumoconiosis",
+      "synonymes": [
+        "anthracose"
+      ],
+      "cim10": "J60",
+      "specialite": "MTRA",
+      "sous_specialite": "Maladies professionnelles",
+      "categories": [
+        "professionnelle",
+        "respiratoire"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [
+        "RES-MED-147"
+      ],
+      "symptomes": [
+        "dyspnée d'effort progressive",
+        "toux et expectoration noirâtre"
+      ],
+      "signes_cliniques": [
+        "râles",
+        "signes d'insuffisance respiratoire chronique (formes compliquées)"
+      ],
+      "examens_cles": [
+        "radiographie thoracique (classification BIT)",
+        "scanner thoracique",
+        "EFR"
+      ],
+      "traitements_cles": [
+        "éviction de l'exposition",
+        "prise en charge de l'insuffisance respiratoire",
+        "dépistage de la tuberculose",
+        "déclaration en maladie professionnelle"
+      ],
+      "pathologies_liees": [
+        "PATH-MTRA-0005",
+        "PATH-MTRA-0007",
+        "PATH-MTRA-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MTRA-0007",
+      "nom_fr": "Bérylliose (maladie chronique du béryllium)",
+      "nom_en": "Berylliosis (chronic beryllium disease)",
+      "synonymes": [],
+      "cim10": "J63.2",
+      "specialite": "MTRA",
+      "sous_specialite": "Maladies professionnelles",
+      "categories": [
+        "professionnelle",
+        "respiratoire",
+        "inflammatoire"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [
+        "RES-MED-147"
+      ],
+      "symptomes": [
+        "dyspnée progressive",
+        "toux",
+        "asthénie",
+        "amaigrissement"
+      ],
+      "signes_cliniques": [
+        "crépitants",
+        "atteinte cutanée possible"
+      ],
+      "examens_cles": [
+        "scanner thoracique (nodules, adénopathies)",
+        "EFR",
+        "test de prolifération lymphocytaire au béryllium (sang, lavage bronchoalvéolaire)",
+        "biopsie (granulomes sans nécrose, diagnostic différentiel de la sarcoïdose)"
+      ],
+      "traitements_cles": [
+        "éviction de l'exposition",
+        "corticothérapie",
+        "déclaration en maladie professionnelle"
+      ],
+      "pathologies_liees": [
+        "PATH-MTRA-0006",
+        "PATH-ANAP-0002"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MTRA-0008",
+      "nom_fr": "Sidérose pulmonaire (soudeurs)",
+      "nom_en": "Siderosis",
+      "synonymes": [],
+      "cim10": "J63.4",
+      "specialite": "MTRA",
+      "sous_specialite": "Maladies professionnelles",
+      "categories": [
+        "professionnelle",
+        "respiratoire"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [
+        "RES-MED-147"
+      ],
+      "symptomes": [
+        "souvent asymptomatique",
+        "toux"
+      ],
+      "signes_cliniques": [
+        "examen souvent normal"
+      ],
+      "examens_cles": [
+        "radiographie et scanner thoraciques (micronodules)",
+        "anamnèse (soudure, oxycoupage)"
+      ],
+      "traitements_cles": [
+        "réduction de l'exposition (aspiration des fumées de soudage)",
+        "surveillance"
+      ],
+      "pathologies_liees": [
+        "PATH-MTRA-0006"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MTRA-0009",
+      "nom_fr": "Dermatoses professionnelles (eczéma de contact professionnel)",
+      "nom_en": "Occupational contact dermatitis",
+      "synonymes": [
+        "eczéma au ciment",
+        "dermatite d'irritation professionnelle"
+      ],
+      "cim10": null,
+      "specialite": "MTRA",
+      "sous_specialite": "Maladies professionnelles",
+      "categories": [
+        "professionnelle",
+        "dermatologique",
+        "inflammatoire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [
+        "RES-MED-142"
+      ],
+      "symptomes": [
+        "prurit",
+        "lésions eczémateuses des mains et des avant-bras rythmées par le travail"
+      ],
+      "signes_cliniques": [
+        "eczéma des zones exposées",
+        "amélioration pendant les congés",
+        "fissures (dermatite d'irritation)"
+      ],
+      "examens_cles": [
+        "tests épicutanés (patch tests) avec la batterie standard et les produits professionnels (chrome, résines, caoutchouc)"
+      ],
+      "traitements_cles": [
+        "éviction de l'allergène",
+        "protection (gants adaptés)",
+        "dermocorticoïdes",
+        "émollients",
+        "reclassement si nécessaire",
+        "déclaration en maladie professionnelle"
+      ],
+      "pathologies_liees": [
+        "PATH-MTRA-0004"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MTRA-0010",
+      "nom_fr": "Troubles musculo-squelettiques d'origine professionnelle",
+      "nom_en": "Work-related musculoskeletal disorders",
+      "synonymes": [
+        "TMS"
+      ],
+      "cim10": null,
+      "specialite": "MTRA",
+      "sous_specialite": "Maladies professionnelles",
+      "categories": [
+        "professionnelle",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [
+        "RES-MED-142"
+      ],
+      "symptomes": [
+        "douleurs de l'épaule, du coude, du poignet ou du rachis liées aux gestes répétitifs, aux postures et aux charges"
+      ],
+      "signes_cliniques": [
+        "tendinopathies de la coiffe des rotateurs, épicondylite, syndrome du canal carpien, lombalgies"
+      ],
+      "examens_cles": [
+        "examen clinique",
+        "imagerie et électroneuromyogramme selon la localisation",
+        "analyse du poste de travail"
+      ],
+      "traitements_cles": [
+        "traitement de la pathologie",
+        "aménagement ergonomique du poste",
+        "prévention collective",
+        "déclaration en maladie professionnelle selon les tableaux"
+      ],
+      "pathologies_liees": [
+        "PATH-ORTH-0022",
+        "PATH-MTRA-0016",
+        "PATH-MTRA-0018"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MTRA-0011",
+      "nom_fr": "Adénocarcinome de l'ethmoïde (exposition aux poussières de bois)",
+      "nom_en": "Ethmoid sinus adenocarcinoma (wood dust exposure)",
+      "synonymes": [
+        "cancer naso-sinusien professionnel"
+      ],
+      "cim10": "C31.1",
+      "specialite": "MTRA",
+      "sous_specialite": "Maladies professionnelles",
+      "categories": [
+        "professionnelle",
+        "néoplasique",
+        "ORL"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [
+        "RES-MED-144"
+      ],
+      "symptomes": [
+        "obstruction nasale unilatérale",
+        "rhinorrhée",
+        "épistaxis",
+        "anosmie"
+      ],
+      "signes_cliniques": [
+        "masse des fosses nasales",
+        "signes orbitaires (forme évoluée)"
+      ],
+      "examens_cles": [
+        "endoscopie nasale avec biopsie",
+        "scanner et IRM des sinus",
+        "anamnèse professionnelle (menuisiers, ébénistes)"
+      ],
+      "traitements_cles": [
+        "chirurgie (voie endoscopique ou externe)",
+        "radiothérapie postopératoire",
+        "déclaration en maladie professionnelle",
+        "surveillance post-professionnelle des exposés"
+      ],
+      "pathologies_liees": [
+        "PATH-MTRA-0012",
+        "PATH-ORL-0013"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MTRA-0012",
+      "nom_fr": "Cancers d'origine professionnelle (repérage et prévention)",
+      "nom_en": "Occupational cancers",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "MTRA",
+      "sous_specialite": "Maladies professionnelles",
+      "categories": [
+        "professionnelle",
+        "néoplasique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-144"
+      ],
+      "symptomes": [
+        "symptômes de l'organe atteint survenant après une latence prolongée"
+      ],
+      "signes_cliniques": [
+        "localisations principales : bronche, plèvre (amiante), vessie (amines aromatiques), sang (benzène, rayonnements ionisants), cavités naso-sinusiennes (bois), peau"
+      ],
+      "examens_cles": [
+        "interrogatoire professionnel systématique (curriculum laboris)",
+        "examens du cancer suspecté"
+      ],
+      "traitements_cles": [
+        "traitement oncologique",
+        "déclaration en maladie professionnelle",
+        "suppression ou substitution des cancérogènes",
+        "surveillance post-exposition"
+      ],
+      "pathologies_liees": [
+        "PATH-MTRA-0003",
+        "PATH-MTRA-0011",
+        "PATH-MTRA-0014"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MTRA-0013",
+      "nom_fr": "Surdité professionnelle provoquée par le bruit",
+      "nom_en": "Noise-induced hearing loss",
+      "synonymes": [
+        "traumatisme sonore chronique"
+      ],
+      "cim10": "H83.3",
+      "specialite": "MTRA",
+      "sous_specialite": "Risques physiques",
+      "categories": [
+        "professionnelle",
+        "ORL",
+        "environnementale"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-148"
+      ],
+      "symptomes": [
+        "hypoacousie progressive bilatérale",
+        "acouphènes",
+        "difficultés de compréhension dans le bruit"
+      ],
+      "signes_cliniques": [
+        "otoscopie normale",
+        "exposition prolongée à des niveaux sonores élevés"
+      ],
+      "examens_cles": [
+        "audiométrie tonale (encoche sur la fréquence 4 000 Hz puis extension)",
+        "audiogrammes de dépistage périodiques"
+      ],
+      "traitements_cles": [
+        "protection collective (réduction du bruit à la source) et individuelle (bouchons, casques)",
+        "appareillage",
+        "reclassement",
+        "déclaration en maladie professionnelle"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0012"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MTRA-0014",
+      "nom_fr": "Syndrome d'irradiation aiguë",
+      "nom_en": "Acute radiation syndrome",
+      "synonymes": [],
+      "cim10": "T66",
+      "specialite": "MTRA",
+      "sous_specialite": "Risques physiques",
+      "categories": [
+        "professionnelle",
+        "environnementale",
+        "hématologique",
+        "urgence"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [
+        "RES-MED-148"
+      ],
+      "symptomes": [
+        "nausées, vomissements précoces",
+        "asthénie",
+        "diarrhée",
+        "fièvre"
+      ],
+      "signes_cliniques": [
+        "phase de latence puis syndrome hématopoïétique, digestif ou neurovasculaire selon la dose",
+        "radiodermite aiguë"
+      ],
+      "examens_cles": [
+        "chronologie des vomissements",
+        "numération lymphocytaire répétée (estimation de la dose)",
+        "dosimétrie biologique (aberrations chromosomiques)"
+      ],
+      "traitements_cles": [
+        "décontamination si contamination",
+        "prise en charge en centre spécialisé (facteurs de croissance, transfusion, greffe de cellules souches)",
+        "radioprotection et prévention"
+      ],
+      "pathologies_liees": [
+        "PATH-MTRA-0012",
+        "PATH-MTRA-0015",
+        "PATH-MTRA-0003"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MTRA-0015",
+      "nom_fr": "Radiodermite",
+      "nom_en": "Radiodermatitis",
+      "synonymes": [],
+      "cim10": "L58",
+      "specialite": "MTRA",
+      "sous_specialite": "Risques physiques",
+      "categories": [
+        "professionnelle",
+        "dermatologique",
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-148"
+      ],
+      "symptomes": [
+        "érythème",
+        "prurit",
+        "douleur de la zone irradiée"
+      ],
+      "signes_cliniques": [
+        "érythème, desquamation sèche puis suintante, ulcération (aiguë)",
+        "atrophie, télangiectasies, dyschromie, sclérose (chronique)"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "biopsie d'une ulcération chronique (élimination d'un carcinome)"
+      ],
+      "traitements_cles": [
+        "soins cutanés adaptés",
+        "prise en charge des ulcérations chroniques (chirurgie, lambeaux)",
+        "radioprotection"
+      ],
+      "pathologies_liees": [
+        "PATH-MTRA-0014"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MTRA-0016",
+      "nom_fr": "Syndrome des vibrations (main-bras)",
+      "nom_en": "Hand-arm vibration syndrome",
+      "synonymes": [
+        "maladie des engins vibrants"
+      ],
+      "cim10": "T75.2",
+      "specialite": "MTRA",
+      "sous_specialite": "Risques physiques",
+      "categories": [
+        "professionnelle",
+        "cardiovasculaire",
+        "neurologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-148"
+      ],
+      "symptomes": [
+        "crises de doigts blancs déclenchées par le froid",
+        "paresthésies",
+        "perte de dextérité"
+      ],
+      "signes_cliniques": [
+        "phénomène de Raynaud professionnel",
+        "troubles sensitifs",
+        "arthrose du coude ou du poignet"
+      ],
+      "examens_cles": [
+        "test de provocation au froid",
+        "capillaroscopie",
+        "électroneuromyogramme",
+        "radiographies"
+      ],
+      "traitements_cles": [
+        "réduction de l'exposition aux vibrations (outils, gants anti-vibratiles)",
+        "protection contre le froid",
+        "déclaration en maladie professionnelle"
+      ],
+      "pathologies_liees": [
+        "PATH-MTRA-0010"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MTRA-0017",
+      "nom_fr": "Accident d'exposition au sang",
+      "nom_en": "Blood and body fluid exposure",
+      "synonymes": [
+        "accident d'exposition aux liquides biologiques"
+      ],
+      "cim10": null,
+      "specialite": "MTRA",
+      "sous_specialite": "Risques biologiques",
+      "categories": [
+        "professionnelle",
+        "infectieuse",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-146"
+      ],
+      "symptomes": [
+        "piqûre, coupure ou projection sur muqueuse ou peau lésée avec du sang ou un liquide biologique"
+      ],
+      "signes_cliniques": [
+        "évaluation du risque (profondeur, type d'aiguille, statut du patient source)"
+      ],
+      "examens_cles": [
+        "sérologies VIH, VHB, VHC du patient source (avec accord) et de la personne exposée",
+        "suivi sérologique",
+        "statut vaccinal contre l'hépatite B"
+      ],
+      "traitements_cles": [
+        "soins immédiats (lavage, antisepsie)",
+        "prophylaxie antirétrovirale dans les heures suivantes selon le risque",
+        "sérovaccination contre l'hépatite B si non immunisé",
+        "déclaration en accident du travail",
+        "prévention (précautions standard, matériel sécurisé)"
+      ],
+      "pathologies_liees": [
+        "PATH-MLEG-0012",
+        "PATH-EPID-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MTRA-0018",
+      "nom_fr": "Syndrome d'épuisement professionnel (burn-out)",
+      "nom_en": "Occupational burnout",
+      "synonymes": [
+        "épuisement professionnel"
+      ],
+      "cim10": "Z73.0",
+      "specialite": "MTRA",
+      "sous_specialite": "Ergonomie",
+      "categories": [
+        "professionnelle",
+        "psychiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [
+        "RES-MED-142"
+      ],
+      "symptomes": [
+        "épuisement émotionnel",
+        "cynisme et distanciation vis-à-vis du travail",
+        "sentiment d'inefficacité",
+        "troubles du sommeil"
+      ],
+      "signes_cliniques": [
+        "signes anxio-dépressifs associés",
+        "facteurs de risques psychosociaux au travail"
+      ],
+      "examens_cles": [
+        "évaluation clinique",
+        "échelles (Maslach Burnout Inventory)",
+        "recherche d'un épisode dépressif caractérisé et d'idées suicidaires"
+      ],
+      "traitements_cles": [
+        "arrêt de travail selon la sévérité",
+        "prise en charge psychothérapeutique",
+        "traitement d'un trouble dépressif associé",
+        "aménagement et prévention des risques psychosociaux"
+      ],
+      "pathologies_liees": [
+        "PATH-MTRA-0010"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-SPUB-0001",
+      "nom_fr": "Traumatismes dus aux accidents de la voie publique",
+      "nom_en": "Road traffic injuries",
+      "synonymes": [
+        "accidents de la circulation"
+      ],
+      "cim10": null,
+      "specialite": "SPUB",
+      "sous_specialite": "Programmes nationaux de santé",
+      "categories": [
+        "santé publique",
+        "traumatique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "polytraumatismes, traumatismes crâniens et rachidiens chez les usagers de la route (piétons, deux-roues, occupants)"
+      ],
+      "signes_cliniques": [
+        "lourde charge de mortalité et de handicap chez les jeunes adultes",
+        "facteurs de risque (vitesse, absence de ceinture et de casque, alcool, fatigue, téléphone)"
+      ],
+      "examens_cles": [
+        "surveillance épidémiologique (registres, indicateurs de mortalité et de morbidité)",
+        "enquêtes sur les facteurs de risque"
+      ],
+      "traitements_cles": [
+        "prévention primaire (législation, contrôle de la vitesse, ceinture, casque, sièges auto pour enfants)",
+        "organisation des secours préhospitaliers",
+        "réseau de traumatologie",
+        "réadaptation"
+      ],
+      "pathologies_liees": [
+        "PATH-CCVA-0003",
+        "PATH-TRAU-0023",
+        "PATH-TRAU-0038",
+        "PATH-NCHI-0001",
+        "PATH-MPR-0002"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-SPUB-0002",
+      "nom_fr": "Accidents de la vie courante de l'enfant",
+      "nom_en": "Domestic accidents in children",
+      "synonymes": [
+        "accidents domestiques"
+      ],
+      "cim10": null,
+      "specialite": "SPUB",
+      "sous_specialite": "Programmes nationaux de santé",
+      "categories": [
+        "santé publique",
+        "pédiatrique",
+        "traumatique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-134"
+      ],
+      "symptomes": [
+        "chutes, brûlures, intoxications, noyades, suffocations, défenestrations selon l'âge"
+      ],
+      "signes_cliniques": [
+        "facteurs de risque liés à l'âge (exploration du jeune enfant), au logement et à la surveillance"
+      ],
+      "examens_cles": [
+        "surveillance épidémiologique des accidents",
+        "analyse des circonstances"
+      ],
+      "traitements_cles": [
+        "éducation des parents",
+        "sécurisation du domicile (rangement des produits toxiques, protection des sources de chaleur, barrières)",
+        "réglementation des produits et emballages"
+      ],
+      "pathologies_liees": [
+        "PATH-CPLA-0002",
+        "PATH-PEDI-0028",
+        "PATH-URGE-0025",
+        "PATH-ORL-0025",
+        "PATH-URGE-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-SPUB-0003",
+      "nom_fr": "Fluorose endémique (dentaire et squelettique)",
+      "nom_en": "Endemic fluorosis",
+      "synonymes": [
+        "darmous"
+      ],
+      "cim10": "M85.1",
+      "specialite": "SPUB",
+      "sous_specialite": "Programmes nationaux de santé",
+      "categories": [
+        "santé publique",
+        "environnementale",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "taches dentaires",
+        "douleurs articulaires et rachidiennes",
+        "raideur (forme squelettique)"
+      ],
+      "signes_cliniques": [
+        "fluorose dentaire",
+        "ankylose rachidienne",
+        "ossifications ligamentaires",
+        "compression médullaire (formes sévères)",
+        "zones à eaux de boisson riches en fluor (régions sahariennes)"
+      ],
+      "examens_cles": [
+        "dosage du fluor dans l'eau",
+        "radiographies (ostéocondensation, calcifications ligamentaires)",
+        "fluorurie"
+      ],
+      "traitements_cles": [
+        "approvisionnement en eau à teneur en fluor adaptée (défluoruration)",
+        "traitement symptomatique",
+        "chirurgie des complications neurologiques"
+      ],
+      "pathologies_liees": [
+        "PATH-DENT-0017"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-SPUB-0004",
+      "nom_fr": "Saturnisme infantile (exposition environnementale au plomb)",
+      "nom_en": "Childhood lead poisoning",
+      "synonymes": [
+        "intoxication au plomb de l'enfant"
+      ],
+      "cim10": "T56.0",
+      "specialite": "SPUB",
+      "sous_specialite": "Programmes nationaux de santé",
+      "categories": [
+        "santé publique",
+        "environnementale",
+        "toxique",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-143"
+      ],
+      "symptomes": [
+        "souvent asymptomatique",
+        "troubles du comportement et des apprentissages",
+        "douleurs abdominales",
+        "anorexie"
+      ],
+      "signes_cliniques": [
+        "anémie",
+        "retard de développement",
+        "encéphalopathie (formes sévères)",
+        "comportement de pica"
+      ],
+      "examens_cles": [
+        "plombémie (dépistage ciblé des enfants exposés : habitat ancien, activités artisanales, cosmétiques traditionnels)",
+        "NFS"
+      ],
+      "traitements_cles": [
+        "suppression de la source d'exposition (enquête environnementale)",
+        "chélation selon la plombémie",
+        "suivi du développement",
+        "déclaration"
+      ],
+      "pathologies_liees": [
+        "PATH-MTRA-0001",
+        "PATH-PEDI-0016"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-SPUB-0005",
+      "nom_fr": "Grossesse à haut risque",
+      "nom_en": "High-risk pregnancy",
+      "synonymes": [
+        "GHR"
+      ],
+      "cim10": "Z35",
+      "specialite": "SPUB",
+      "sous_specialite": "Santé maternelle et infantile",
+      "categories": [
+        "santé publique",
+        "obstétricale"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-134"
+      ],
+      "symptomes": [
+        "grossesse associée à un facteur de risque maternel, fœtal ou obstétrical"
+      ],
+      "signes_cliniques": [
+        "facteurs de risque (âges extrêmes, grande multiparité, antécédents obstétricaux, HTA, diabète, cardiopathie, grossesse multiple, utérus cicatriciel)"
+      ],
+      "examens_cles": [
+        "repérage précoce et systématique lors des consultations prénatales",
+        "examens adaptés au risque"
+      ],
+      "traitements_cles": [
+        "orientation vers une structure adaptée (niveau de maternité)",
+        "suivi renforcé",
+        "programme national de périnatalité"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0001",
+        "PATH-OBST-0023",
+        "PATH-OBST-0028",
+        "PATH-OBST-0013",
+        "PATH-NEON-0022",
+        "PATH-SPUB-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-SPUB-0006",
+      "nom_fr": "Malnutrition chronique de l'enfant (retard de croissance staturale)",
+      "nom_en": "Stunting (chronic malnutrition)",
+      "synonymes": [
+        "stunting"
+      ],
+      "cim10": "E45",
+      "specialite": "SPUB",
+      "sous_specialite": "Santé maternelle et infantile",
+      "categories": [
+        "santé publique",
+        "nutritionnelle",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-134"
+      ],
+      "symptomes": [
+        "petite taille",
+        "infections répétées",
+        "retard des acquisitions"
+      ],
+      "signes_cliniques": [
+        "rapport taille/âge inférieur à -2 z-score (OMS)",
+        "antécédents de faible poids de naissance et d'infections répétées"
+      ],
+      "examens_cles": [
+        "mesures anthropométriques",
+        "indicateurs de population (prévalence du retard de croissance)"
+      ],
+      "traitements_cles": [
+        "promotion de l'allaitement maternel exclusif pendant 6 mois et d'une diversification adaptée",
+        "prévention des infections (eau potable, hygiène, vaccination)",
+        "supplémentation en micronutriments",
+        "programmes de nutrition des 1 000 premiers jours"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0001",
+        "PATH-PEDI-0006",
+        "PATH-NEON-0023",
+        "PATH-SPUB-0007"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-SPUB-0007",
+      "nom_fr": "Carence en vitamine A et xérophtalmie",
+      "nom_en": "Vitamin A deficiency and xerophthalmia",
+      "synonymes": [],
+      "cim10": "E50",
+      "specialite": "SPUB",
+      "sous_specialite": "Santé maternelle et infantile",
+      "categories": [
+        "santé publique",
+        "nutritionnelle",
+        "ophtalmologique",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-134"
+      ],
+      "symptomes": [
+        "héméralopie (cécité nocturne)",
+        "infections sévères et répétées (rougeole compliquée, diarrhées)"
+      ],
+      "signes_cliniques": [
+        "xérose conjonctivale",
+        "taches de Bitot",
+        "xérose puis kératomalacie cornéenne (risque de cécité)"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "rétinolémie",
+        "enquêtes de population"
+      ],
+      "traitements_cles": [
+        "supplémentation en vitamine A selon les protocoles de l'OMS (traitement et prévention, notamment lors de la rougeole)",
+        "diversification alimentaire"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0001",
+        "PATH-SPUB-0006"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-SPUB-0008",
+      "nom_fr": "Décès maternel (surveillance de la mortalité maternelle)",
+      "nom_en": "Maternal death",
+      "synonymes": [
+        "mortalité maternelle"
+      ],
+      "cim10": null,
+      "specialite": "SPUB",
+      "sous_specialite": "Santé maternelle et infantile",
+      "categories": [
+        "santé publique",
+        "obstétricale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-134"
+      ],
+      "symptomes": [
+        "décès survenant pendant la grossesse ou dans les 42 jours suivant sa fin, d'une cause liée à la grossesse ou aggravée par elle"
+      ],
+      "signes_cliniques": [
+        "causes directes principales : hémorragies du post-partum, troubles hypertensifs (pré-éclampsie, éclampsie), infections, complications d'avortement, embolies",
+        "causes indirectes (cardiopathies)"
+      ],
+      "examens_cles": [
+        "ratio de mortalité maternelle",
+        "audits et revues de décès maternels (analyse des soins et des retards)",
+        "enquêtes confidentielles"
+      ],
+      "traitements_cles": [
+        "consultations prénatales de qualité",
+        "accouchement assisté par du personnel qualifié",
+        "soins obstétricaux d'urgence",
+        "planification familiale",
+        "organisation en réseau périnatal"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0041",
+        "PATH-OBST-0001",
+        "PATH-OBST-0002",
+        "PATH-SPUB-0005",
+        "PATH-OBST-0043"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-SPUB-0009",
+      "nom_fr": "Maladies à transmission hydrique (épidémies d'origine hydrique)",
+      "nom_en": "Waterborne diseases",
+      "synonymes": [
+        "MTH"
+      ],
+      "cim10": null,
+      "specialite": "SPUB",
+      "sous_specialite": "Hygiène et environnement",
+      "categories": [
+        "santé publique",
+        "infectieuse",
+        "environnementale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-130"
+      ],
+      "symptomes": [
+        "diarrhées aiguës, fièvre, ictère selon l'agent (choléra, typhoïde, hépatite A, shigellose)"
+      ],
+      "signes_cliniques": [
+        "cas groupés dans une même zone de distribution d'eau",
+        "recrudescence estivale"
+      ],
+      "examens_cles": [
+        "enquête épidémiologique",
+        "analyses bactériologiques de l'eau (coliformes fécaux, chlore résiduel)",
+        "diagnostic microbiologique des cas"
+      ],
+      "traitements_cles": [
+        "mesures correctives sur le réseau (chloration)",
+        "déclaration obligatoire",
+        "éducation sanitaire",
+        "assainissement",
+        "prise en charge des cas (réhydratation)"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0021",
+        "PATH-PEDI-0022",
+        "PATH-SPUB-0010"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-SPUB-0010",
+      "nom_fr": "Méthémoglobinémie du nourrisson liée aux nitrates de l'eau",
+      "nom_en": "Nitrate-induced methaemoglobinaemia in infants",
+      "synonymes": [
+        "syndrome du bébé bleu"
+      ],
+      "cim10": null,
+      "specialite": "SPUB",
+      "sous_specialite": "Hygiène et environnement",
+      "categories": [
+        "santé publique",
+        "environnementale",
+        "hématologique",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "cyanose grisâtre ne répondant pas à l'oxygène",
+        "irritabilité",
+        "léthargie chez un nourrisson alimenté avec une eau de puits riche en nitrates"
+      ],
+      "signes_cliniques": [
+        "cyanose sans détresse respiratoire proportionnée",
+        "sang de couleur chocolat"
+      ],
+      "examens_cles": [
+        "dosage de la méthémoglobine (CO-oxymétrie)",
+        "gaz du sang (PaO2 normale)",
+        "analyse des nitrates de l'eau"
+      ],
+      "traitements_cles": [
+        "bleu de méthylène dans les formes symptomatiques",
+        "éviction de l'eau contaminée",
+        "contrôle de la qualité de l'eau de boisson"
+      ],
+      "pathologies_liees": [
+        "PATH-SPUB-0009"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-EPID-0001",
+      "nom_fr": "Infections associées aux soins (infections nosocomiales)",
+      "nom_en": "Healthcare-associated infections",
+      "synonymes": [
+        "infections nosocomiales"
+      ],
+      "cim10": "Y95",
+      "specialite": "EPID",
+      "sous_specialite": "Surveillance épidémiologique",
+      "categories": [
+        "infectieuse",
+        "santé publique",
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-129"
+      ],
+      "symptomes": [
+        "infection apparaissant au cours ou au décours d'une prise en charge (plus de 48 heures après l'admission)"
+      ],
+      "signes_cliniques": [
+        "localisations principales : infections urinaires, du site opératoire, pneumopathies, bactériémies",
+        "facteurs de risque liés au patient et aux dispositifs invasifs"
+      ],
+      "examens_cles": [
+        "définitions standardisées",
+        "enquêtes de prévalence et d'incidence",
+        "prélèvements microbiologiques",
+        "surveillance des bactéries multirésistantes"
+      ],
+      "traitements_cles": [
+        "précautions standard (hygiène des mains par friction hydroalcoolique)",
+        "précautions complémentaires",
+        "bon usage des antibiotiques",
+        "comité de lutte contre les infections nosocomiales",
+        "signalement"
+      ],
+      "pathologies_liees": [
+        "PATH-CGEN-0011",
+        "PATH-MTRA-0017",
+        "PATH-EPID-0002",
+        "PATH-EPID-0003"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-EPID-0002",
+      "nom_fr": "Infection du site opératoire",
+      "nom_en": "Surgical site infection",
+      "synonymes": [],
+      "cim10": "T81.4",
+      "specialite": "EPID",
+      "sous_specialite": "Surveillance épidémiologique",
+      "categories": [
+        "infectieuse",
+        "iatrogène",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-129"
+      ],
+      "symptomes": [
+        "douleur, rougeur, écoulement purulent de la cicatrice",
+        "fièvre dans les 30 jours (ou 90 jours en présence de matériel)"
+      ],
+      "signes_cliniques": [
+        "infection superficielle, profonde ou de l'organe ou de l'espace",
+        "désunion de cicatrice"
+      ],
+      "examens_cles": [
+        "prélèvements bactériologiques",
+        "imagerie (collection profonde)",
+        "surveillance (taux par type d'intervention, score NNIS)"
+      ],
+      "traitements_cles": [
+        "drainage, reprise chirurgicale si nécessaire",
+        "antibiothérapie adaptée",
+        "prévention (préparation cutanée, antibioprophylaxie adaptée et limitée, asepsie)"
+      ],
+      "pathologies_liees": [
+        "PATH-CGEN-0007",
+        "PATH-EPID-0001",
+        "PATH-ORTH-0012"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-EPID-0003",
+      "nom_fr": "Infection urinaire associée aux soins (sur sonde)",
+      "nom_en": "Catheter-associated urinary tract infection",
+      "synonymes": [],
+      "cim10": "T83.5",
+      "specialite": "EPID",
+      "sous_specialite": "Surveillance épidémiologique",
+      "categories": [
+        "infectieuse",
+        "iatrogène",
+        "urologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-129"
+      ],
+      "symptomes": [
+        "fièvre",
+        "douleurs sus-pubiennes ou lombaires chez un patient sondé"
+      ],
+      "signes_cliniques": [
+        "souvent pauvre",
+        "distinction entre colonisation et infection"
+      ],
+      "examens_cles": [
+        "ECBU prélevé sur le site dédié de la sonde",
+        "hémocultures"
+      ],
+      "traitements_cles": [
+        "changement de la sonde et antibiothérapie adaptée si infection",
+        "pas de traitement des colonisations asymptomatiques",
+        "prévention (indication restreinte du sondage, système clos, retrait précoce)"
+      ],
+      "pathologies_liees": [
+        "PATH-EPID-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-EPID-0004",
+      "nom_fr": "Paralysie flasque aiguë (surveillance de la poliomyélite)",
+      "nom_en": "Acute flaccid paralysis surveillance",
+      "synonymes": [
+        "PFA"
+      ],
+      "cim10": null,
+      "specialite": "EPID",
+      "sous_specialite": "Investigation d'épidémie",
+      "categories": [
+        "infectieuse",
+        "neurologique",
+        "santé publique",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-130",
+        "RES-MED-070"
+      ],
+      "symptomes": [
+        "faiblesse ou paralysie d'installation aiguë d'un ou plusieurs membres chez un enfant de moins de 15 ans"
+      ],
+      "signes_cliniques": [
+        "paralysie flasque asymétrique (poliomyélite) ou symétrique ascendante (syndrome de Guillain-Barré)"
+      ],
+      "examens_cles": [
+        "notification immédiate",
+        "deux prélèvements de selles à 24 heures d'intervalle dans les 14 jours suivant le début",
+        "examen de suivi à 60 jours"
+      ],
+      "traitements_cles": [
+        "déclaration obligatoire (indicateur de performance du système de surveillance de l'éradication de la poliomyélite)",
+        "maintien d'une couverture vaccinale élevée",
+        "prise en charge du patient"
+      ],
+      "pathologies_liees": [
+        "PATH-MPR-0002"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ANAP-0001",
+      "nom_fr": "Amylose (lésion anatomopathologique de dépôt amyloïde)",
+      "nom_en": "Amyloidosis (amyloid deposition)",
+      "synonymes": [
+        "substance amyloïde"
+      ],
+      "cim10": "E85",
+      "specialite": "ANAP",
+      "sous_specialite": "Pathologie générale",
+      "categories": [
+        "anatomopathologique",
+        "métabolique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "manifestations dépendant des organes atteints : asthénie, œdèmes, dyspnée, neuropathie, diarrhée"
+      ],
+      "signes_cliniques": [
+        "macroglossie",
+        "purpura périorbitaire",
+        "hépatomégalie",
+        "syndrome néphrotique",
+        "cardiomyopathie restrictive (amylose AL)",
+        "terrain inflammatoire chronique (amylose AA)"
+      ],
+      "examens_cles": [
+        "biopsie (glandes salivaires accessoires, graisse abdominale, rectum, organe atteint) avec coloration rouge Congo et biréfringence jaune-vert en lumière polarisée",
+        "typage de la protéine amyloïde (immunohistochimie, spectrométrie de masse)"
+      ],
+      "traitements_cles": [
+        "traitement de la cause (chimiothérapie dans l'amylose AL, contrôle de l'inflammation dans l'amylose AA)",
+        "stabilisateurs de la transthyrétine",
+        "traitement symptomatique des atteintes d'organes"
+      ],
+      "pathologies_liees": [
+        "PATH-ANAP-0002",
+        "PATH-ANAP-0010"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ANAP-0002",
+      "nom_fr": "Granulome épithélioïde et gigantocellulaire",
+      "nom_en": "Epithelioid and giant cell granuloma",
+      "synonymes": [
+        "inflammation granulomateuse"
+      ],
+      "cim10": null,
+      "specialite": "ANAP",
+      "sous_specialite": "Pathologie générale",
+      "categories": [
+        "anatomopathologique",
+        "inflammatoire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "manifestations de la maladie causale (tuberculose, sarcoïdose, lèpre, mycoses, maladie de Crohn, bérylliose)"
+      ],
+      "signes_cliniques": [
+        "lésion nodulaire constituée de cellules épithélioïdes et de cellules géantes multinucléées (type Langhans), entourées d'une couronne lymphocytaire"
+      ],
+      "examens_cles": [
+        "biopsie",
+        "colorations spéciales (Ziehl-Neelsen, PAS, Grocott)",
+        "culture et PCR mycobactériennes",
+        "présence ou non de nécrose caséeuse (orientation étiologique)"
+      ],
+      "traitements_cles": [
+        "traitement de la cause"
+      ],
+      "pathologies_liees": [
+        "PATH-MTRA-0007",
+        "PATH-ANAP-0001",
+        "PATH-ANAP-0004",
+        "PATH-ANAP-0003",
+        "PATH-ANAP-0010"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ANAP-0003",
+      "nom_fr": "Granulome à corps étranger",
+      "nom_en": "Foreign body granuloma",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ANAP",
+      "sous_specialite": "Pathologie générale",
+      "categories": [
+        "anatomopathologique",
+        "inflammatoire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "nodule ou masse indolore",
+        "antécédent de plaie, d'injection, de suture ou d'implant"
+      ],
+      "signes_cliniques": [
+        "nodule ferme sous-cutané ou tissulaire"
+      ],
+      "examens_cles": [
+        "histologie (macrophages et cellules géantes multinucléées de type corps étranger autour du matériel)",
+        "examen en lumière polarisée (matériel biréfringent)"
+      ],
+      "traitements_cles": [
+        "exérèse si gêne",
+        "retrait du corps étranger"
+      ],
+      "pathologies_liees": [
+        "PATH-ANAP-0002"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ANAP-0004",
+      "nom_fr": "Nécrose caséeuse",
+      "nom_en": "Caseous necrosis",
+      "synonymes": [
+        "caséum"
+      ],
+      "cim10": null,
+      "specialite": "ANAP",
+      "sous_specialite": "Pathologie générale",
+      "categories": [
+        "anatomopathologique",
+        "infectieuse"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "manifestations de la tuberculose dans l'organe concerné"
+      ],
+      "signes_cliniques": [
+        "macroscopie : matériel blanc-jaunâtre, friable, d'aspect de fromage frais"
+      ],
+      "examens_cles": [
+        "histologie : nécrose éosinophile homogène acellulaire au centre d'un granulome épithélioïde et gigantocellulaire",
+        "recherche de bacilles acido-alcoolo-résistants (Ziehl-Neelsen), culture, PCR"
+      ],
+      "traitements_cles": [
+        "traitement antituberculeux selon le programme national"
+      ],
+      "pathologies_liees": [
+        "PATH-ANAP-0002",
+        "PATH-ANAP-0005",
+        "PATH-ANAP-0016"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ANAP-0005",
+      "nom_fr": "Nécrose tissulaire (de coagulation, de liquéfaction, stéatonécrose)",
+      "nom_en": "Tissue necrosis",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ANAP",
+      "sous_specialite": "Pathologie générale",
+      "categories": [
+        "anatomopathologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "manifestations dépendant de l'organe et de l'étendue de la nécrose"
+      ],
+      "signes_cliniques": [
+        "nécrose de coagulation (ischémie des organes pleins), de liquéfaction (cerveau, abcès), stéatonécrose (pancréatite), nécrose fibrinoïde (vascularites)"
+      ],
+      "examens_cles": [
+        "histologie (caryolyse, caryorrhexie, pycnose, perte des contours cellulaires)",
+        "réaction inflammatoire périphérique"
+      ],
+      "traitements_cles": [
+        "traitement de la cause",
+        "détersion et cicatrisation",
+        "exérèse chirurgicale des tissus nécrosés selon le contexte"
+      ],
+      "pathologies_liees": [
+        "PATH-ANAP-0006",
+        "PATH-ANAP-0004",
+        "PATH-ANAP-0009"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ANAP-0006",
+      "nom_fr": "Infarctus (lésion anatomopathologique)",
+      "nom_en": "Infarction (pathology)",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ANAP",
+      "sous_specialite": "Pathologie générale",
+      "categories": [
+        "anatomopathologique",
+        "cardiovasculaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "manifestations de l'organe atteint (cœur, cerveau, rein, rate, intestin, poumon)"
+      ],
+      "signes_cliniques": [
+        "infarctus blanc (organes à circulation terminale) ou rouge (organes à double circulation, poumon, intestin, reperfusion)",
+        "évolution vers la cicatrice fibreuse"
+      ],
+      "examens_cles": [
+        "histologie (nécrose ischémique de coagulation, réaction inflammatoire puis tissu de granulation et fibrose)",
+        "datation de l'infarctus"
+      ],
+      "traitements_cles": [
+        "traitement de la cause (thrombose, embolie)"
+      ],
+      "pathologies_liees": [
+        "PATH-ANAP-0005",
+        "PATH-ANAP-0007",
+        "PATH-ANAP-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ANAP-0007",
+      "nom_fr": "Thrombose (lésion anatomopathologique)",
+      "nom_en": "Thrombosis (pathology)",
+      "synonymes": [
+        "thrombus"
+      ],
+      "cim10": null,
+      "specialite": "ANAP",
+      "sous_specialite": "Pathologie générale",
+      "categories": [
+        "anatomopathologique",
+        "cardiovasculaire",
+        "hématologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "manifestations ischémiques (thrombose artérielle) ou congestives (thrombose veineuse)"
+      ],
+      "signes_cliniques": [
+        "triade de Virchow (lésion pariétale, stase, hypercoagulabilité)",
+        "thrombus blanc, rouge ou mixte",
+        "évolution (lyse, organisation, recanalisation, migration embolique)"
+      ],
+      "examens_cles": [
+        "histologie (stries de Zahn)",
+        "distinction avec un caillot post-mortem"
+      ],
+      "traitements_cles": [
+        "traitement antithrombotique et de la cause"
+      ],
+      "pathologies_liees": [
+        "PATH-ANAP-0006",
+        "PATH-ANAP-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ANAP-0008",
+      "nom_fr": "Embolie (lésion anatomopathologique)",
+      "nom_en": "Embolism (pathology)",
+      "synonymes": [
+        "embole"
+      ],
+      "cim10": null,
+      "specialite": "ANAP",
+      "sous_specialite": "Pathologie générale",
+      "categories": [
+        "anatomopathologique",
+        "cardiovasculaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "manifestations ischémiques brutales en aval de l'embole"
+      ],
+      "signes_cliniques": [
+        "emboles cruoriques (le plus souvent), graisseux, gazeux, amniotiques, tumoraux, septiques, de cholestérol"
+      ],
+      "examens_cles": [
+        "histologie et autopsie (nature de l'embole)",
+        "recherche de la source"
+      ],
+      "traitements_cles": [
+        "traitement de la cause et de l'ischémie"
+      ],
+      "pathologies_liees": [
+        "PATH-ANAP-0006",
+        "PATH-ANAP-0007",
+        "PATH-TRAU-0041",
+        "PATH-OBST-0039",
+        "PATH-MINT_REA-0010"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ANAP-0009",
+      "nom_fr": "Inflammation aiguë (réaction inflammatoire aiguë)",
+      "nom_en": "Acute inflammation",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ANAP",
+      "sous_specialite": "Pathologie générale",
+      "categories": [
+        "anatomopathologique",
+        "inflammatoire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur",
+        "chaleur",
+        "rougeur",
+        "tuméfaction",
+        "impotence fonctionnelle"
+      ],
+      "signes_cliniques": [
+        "phase vasculo-exsudative (congestion, œdème, diapédèse des polynucléaires)",
+        "formes (séreuse, fibrineuse, purulente, hémorragique)"
+      ],
+      "examens_cles": [
+        "histologie (œdème, exsudat, infiltrat à polynucléaires neutrophiles)",
+        "marqueurs biologiques (CRP)"
+      ],
+      "traitements_cles": [
+        "traitement de la cause",
+        "anti-inflammatoires selon le contexte"
+      ],
+      "pathologies_liees": [
+        "PATH-ANAP-0010",
+        "PATH-ANAP-0005"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ANAP-0010",
+      "nom_fr": "Inflammation chronique",
+      "nom_en": "Chronic inflammation",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ANAP",
+      "sous_specialite": "Pathologie générale",
+      "categories": [
+        "anatomopathologique",
+        "inflammatoire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "manifestations prolongées de la maladie causale"
+      ],
+      "signes_cliniques": [
+        "persistance de l'agent agresseur ou maladie auto-immune",
+        "destruction tissulaire et réparation simultanées",
+        "évolution fibrosante"
+      ],
+      "examens_cles": [
+        "histologie (infiltrat lymphoplasmocytaire et macrophagique, néovaisseaux, fibrose)",
+        "formes granulomateuses"
+      ],
+      "traitements_cles": [
+        "traitement de la cause"
+      ],
+      "pathologies_liees": [
+        "PATH-ANAP-0009",
+        "PATH-ANAP-0002",
+        "PATH-ANAP-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ANAP-0011",
+      "nom_fr": "Métaplasie",
+      "nom_en": "Metaplasia",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ANAP",
+      "sous_specialite": "Pathologie générale",
+      "categories": [
+        "anatomopathologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "le plus souvent asymptomatique"
+      ],
+      "signes_cliniques": [
+        "transformation d'un tissu différencié en un autre tissu différencié de même lignée (malpighienne bronchique ou cervicale, intestinale gastrique, glandulaire de l'œsophage de Barrett)"
+      ],
+      "examens_cles": [
+        "biopsie et histologie",
+        "recherche d'une dysplasie associée"
+      ],
+      "traitements_cles": [
+        "suppression du facteur causal (tabac, reflux, Helicobacter pylori)",
+        "surveillance endoscopique des métaplasies à risque"
+      ],
+      "pathologies_liees": [
+        "PATH-ANAP-0012",
+        "PATH-GYNE-0025"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ANAP-0012",
+      "nom_fr": "Dysplasie (lésion précancéreuse)",
+      "nom_en": "Dysplasia",
+      "synonymes": [
+        "néoplasie intraépithéliale"
+      ],
+      "cim10": null,
+      "specialite": "ANAP",
+      "sous_specialite": "Pathologie générale",
+      "categories": [
+        "anatomopathologique",
+        "néoplasique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "le plus souvent asymptomatique"
+      ],
+      "signes_cliniques": [
+        "anomalies cytologiques et architecturales d'un épithélium sans franchissement de la membrane basale",
+        "grades (bas et haut grade)"
+      ],
+      "examens_cles": [
+        "biopsie et histologie",
+        "immunohistochimie (p16, Ki-67)"
+      ],
+      "traitements_cles": [
+        "exérèse ou destruction des lésions de haut grade",
+        "surveillance des lésions de bas grade"
+      ],
+      "pathologies_liees": [
+        "PATH-ANAP-0011",
+        "PATH-GYNE-0025",
+        "PATH-GYNE-0026",
+        "PATH-DENT-0016",
+        "PATH-ANAP-0013"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ANAP-0013",
+      "nom_fr": "Carcinome in situ",
+      "nom_en": "Carcinoma in situ",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ANAP",
+      "sous_specialite": "Pathologie générale",
+      "categories": [
+        "anatomopathologique",
+        "néoplasique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "le plus souvent asymptomatique (découverte au dépistage)"
+      ],
+      "signes_cliniques": [
+        "prolifération carcinomateuse intraépithéliale sans franchissement de la membrane basale",
+        "absence de potentiel métastatique"
+      ],
+      "examens_cles": [
+        "biopsie et examen histologique (intégrité de la membrane basale)"
+      ],
+      "traitements_cles": [
+        "exérèse complète avec marges saines",
+        "surveillance"
+      ],
+      "pathologies_liees": [
+        "PATH-ANAP-0012",
+        "PATH-GYNE-0029",
+        "PATH-GYNE-0025"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ANAP-0014",
+      "nom_fr": "Hyperplasie et hypertrophie tissulaires",
+      "nom_en": "Hyperplasia and hypertrophy",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ANAP",
+      "sous_specialite": "Pathologie générale",
+      "categories": [
+        "anatomopathologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "augmentation de volume d'un organe ou d'un tissu"
+      ],
+      "signes_cliniques": [
+        "hyperplasie (augmentation du nombre de cellules : prostate, endomètre, thyroïde) ou hypertrophie (augmentation de la taille des cellules : myocarde, muscle squelettique)",
+        "caractère physiologique ou pathologique"
+      ],
+      "examens_cles": [
+        "histologie",
+        "imagerie de l'organe"
+      ],
+      "traitements_cles": [
+        "traitement de la cause hormonale ou mécanique"
+      ],
+      "pathologies_liees": [
+        "PATH-UROL-0007",
+        "PATH-GYNE-0026",
+        "PATH-ANAP-0015"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ANAP-0015",
+      "nom_fr": "Atrophie tissulaire",
+      "nom_en": "Atrophy",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ANAP",
+      "sous_specialite": "Pathologie générale",
+      "categories": [
+        "anatomopathologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "diminution de volume et de fonction d'un organe"
+      ],
+      "signes_cliniques": [
+        "diminution de la taille et/ou du nombre des cellules",
+        "causes (diminution de l'activité, ischémie, dénervation, carence nutritionnelle, déprivation hormonale, vieillissement)"
+      ],
+      "examens_cles": [
+        "histologie",
+        "imagerie de l'organe"
+      ],
+      "traitements_cles": [
+        "traitement de la cause",
+        "rééducation (atrophie musculaire)"
+      ],
+      "pathologies_liees": [
+        "PATH-ANAP-0014"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ANAP-0016",
+      "nom_fr": "Calcifications pathologiques (dystrophiques et métastatiques)",
+      "nom_en": "Pathological calcification",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ANAP",
+      "sous_specialite": "Pathologie générale",
+      "categories": [
+        "anatomopathologique",
+        "métabolique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "le plus souvent asymptomatiques"
+      ],
+      "signes_cliniques": [
+        "calcifications dystrophiques sur tissus lésés (nécrose, athérome, valves) avec calcémie normale",
+        "calcifications métastatiques sur tissus sains en cas d'hypercalcémie ou d'hyperphosphatémie (rein, poumon, vaisseaux)"
+      ],
+      "examens_cles": [
+        "imagerie (radiographie, scanner)",
+        "histologie (coloration de von Kossa)",
+        "bilan phosphocalcique"
+      ],
+      "traitements_cles": [
+        "traitement de la cause"
+      ],
+      "pathologies_liees": [
+        "PATH-ANAP-0004"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ANAP-0017",
+      "nom_fr": "Hamartome",
+      "nom_en": "Hamartoma",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ANAP",
+      "sous_specialite": "Pathologie générale",
+      "categories": [
+        "anatomopathologique",
+        "congénitale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "le plus souvent asymptomatique (découverte fortuite)"
+      ],
+      "signes_cliniques": [
+        "malformation pseudotumorale faite d'éléments tissulaires normalement présents dans l'organe mais désorganisés (hamartome pulmonaire chondroïde, hamartomes des phacomatoses)"
+      ],
+      "examens_cles": [
+        "imagerie (calcifications « en pop-corn » et graisse dans l'hamartome pulmonaire)",
+        "histologie"
+      ],
+      "traitements_cles": [
+        "abstention ou exérèse selon la symptomatologie et le doute diagnostique"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0029",
+        "PATH-CPED-0030"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    }
+  ]
+}

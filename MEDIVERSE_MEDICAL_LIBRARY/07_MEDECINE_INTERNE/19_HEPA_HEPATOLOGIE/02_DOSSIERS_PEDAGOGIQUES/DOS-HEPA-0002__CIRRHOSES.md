@@ -6,11 +6,17 @@ sous_specialite: "Hépatopathies chroniques — hypertension portale"
 items_residanat: [RES-MED-020]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-04 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01/AUD-02/AUD-04 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 22
+    rapport: 00_SYSTEME/agents/AUD-04/rapports/DOS-HEPA-0002.md
 sources:
   - id: S1
     reference: "European Association for the Study of the Liver. EASL Clinical Practice Guidelines for the management of patients with decompensated cirrhosis. J Hepatol. 2018;69(2):406-460."
@@ -85,84 +91,100 @@ sources:
     url: ""
     verifiee: true
   - id: S10
-    reference: "Pugh RN, Murray-Lyon IM, Dawson JL, Pietroni MC, Williams R. Transection of the oesophagus for bleeding oesophageal varices. Br J Surg. 1973;60:646-649."
+    reference: "Pugh RN, Murray-Lyon IM, Dawson JL, Pietroni MC, Williams R. Transection of the oesophagus for bleeding oesophageal varices. Br J Surg. 1973;60(8):646-649."
     organisme: "Br J Surg"
     annee: 1973
     type: article
-    doi: ""
+    doi: "10.1002/bjs.1800600817"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S11
-    reference: "Kamath PS, Wiesner RH, Malinchoc M, et al. A model to predict survival in patients with end-stage liver disease. Hepatology. 2001;33:464-470."
+    reference: "Kamath PS, Wiesner RH, Malinchoc M, et al. A model to predict survival in patients with end-stage liver disease. Hepatology. 2001;33(2):464-470."
     organisme: "Hepatology"
     annee: 2001
     type: article
-    doi: ""
+    doi: "10.1053/jhep.2001.22172"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S12
-    reference: "Biggins SW, Angeli P, Garcia-Tsao G, et al. Diagnosis, evaluation, and management of ascites, spontaneous bacterial peritonitis and hepatorenal syndrome: 2021 practice guidance by the AASLD. Hepatology. 2021;74:1014-1048."
+    reference: "Biggins SW, Angeli P, Garcia-Tsao G, et al. Diagnosis, evaluation, and management of ascites, spontaneous bacterial peritonitis and hepatorenal syndrome: 2021 practice guidance by the AASLD. Hepatology. 2021;74(2):1014-1048."
     organisme: AASLD
     annee: 2021
     type: recommandation
-    doi: ""
+    doi: "10.1002/hep.31884"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S13
-    reference: "European Association for the Study of the Liver. EASL Clinical Practice Guidelines on the management of hepatic encephalopathy. J Hepatol. 2022;77:807-824."
+    reference: "European Association for the Study of the Liver. EASL Clinical Practice Guidelines on the management of hepatic encephalopathy. J Hepatol. 2022;77(3):807-824."
     organisme: EASL
     annee: 2022
     type: recommandation
-    doi: ""
+    doi: "10.1016/j.jhep.2022.06.001"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S14
     reference: "Villanueva C, Albillos A, Genescà J, et al. β blockers to prevent decompensation of cirrhosis in patients with clinically significant portal hypertension (PREDESCI): a randomised, double-blind, placebo-controlled, multicentre trial. Lancet. 2019;393:1597-1608."
     organisme: "Lancet"
     annee: 2019
     type: article
-    doi: ""
+    doi: "10.1016/S0140-6736(18)31875-0"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S15
     reference: "Caraceni P, Riggio O, Angeli P, et al. Long-term albumin administration in decompensated cirrhosis (ANSWER): an open-label randomised trial. Lancet. 2018;391:2417-2429."
     organisme: "Lancet"
     annee: 2018
     type: article
-    doi: ""
+    doi: "10.1016/S0140-6736(18)30840-7"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S16
-    reference: "Sort P, Navasa M, Arroyo V, et al. Effect of intravenous albumin on renal impairment and mortality in patients with cirrhosis and spontaneous bacterial peritonitis. N Engl J Med. 1999;341:403-409."
+    reference: "Sort P, Navasa M, Arroyo V, et al. Effect of intravenous albumin on renal impairment and mortality in patients with cirrhosis and spontaneous bacterial peritonitis. N Engl J Med. 1999;341(6):403-409."
     organisme: "NEJM"
     annee: 1999
     type: article
-    doi: ""
+    doi: "10.1056/NEJM199908053410603"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S17
-    reference: "Wong F, Pappas SC, Curry MP, et al. Terlipressin plus albumin for the treatment of type 1 hepatorenal syndrome (CONFIRM). N Engl J Med. 2021;384:818-828."
+    reference: "Wong F, Pappas SC, Curry MP, et al. Terlipressin plus albumin for the treatment of type 1 hepatorenal syndrome (CONFIRM). N Engl J Med. 2021;384(9):818-828."
     organisme: "NEJM"
     annee: 2021
     type: article
-    doi: ""
+    doi: "10.1056/NEJMoa2008290"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S18
-    reference: "European Association for the Study of the Liver. EASL Clinical Practice Guidelines on nutrition in chronic liver disease. J Hepatol. 2019;70:172-193."
+    reference: "European Association for the Study of the Liver. EASL Clinical Practice Guidelines on nutrition in chronic liver disease. J Hepatol. 2019;70(1):172-193."
     organisme: EASL
     annee: 2019
     type: recommandation
-    doi: ""
+    doi: "10.1016/j.jhep.2018.06.024"
     url: ""
-    verifiee: false
+    verifiee: true
+  - id: S19
+    reference: "European Association for the Study of the Liver. EASL Clinical Practice Guidelines: The diagnosis and management of patients with primary biliary cholangitis. J Hepatol. 2017;67(1):145-172."
+    organisme: EASL
+    annee: 2017
+    type: recommandation
+    doi: "10.1016/j.jhep.2017.03.022"
+    url: ""
+    verifiee: true
+  - id: S20
+    reference: "World Health Organization. Guidelines for the prevention, diagnosis, care and treatment for people with chronic hepatitis B infection. Geneva: WHO; March 2024 (corrigenda 21/02/2025). ISBN 978-92-4-009090-3. Document acquis : 18_RECOMMANDATIONS/04_OMS/Hepatite_B_chronique_2024.pdf (DOC-00030)."
+    organisme: OMS
+    annee: 2024
+    type: recommandation
+    doi: ""
+    url: "https://iris.who.int/handle/10665/376353"
+    verifiee: true
 mots_cles: [cirrhose, hypertension portale, cACLD, Child-Pugh, MELD, ascite, infection du liquide d'ascite, syndrome hépatorénal, encéphalopathie hépatique, carcinome hépatocellulaire, ACLF, carvédilol, albumine, TIPS, transplantation hépatique, Baveno VII, MASLD]
 ---
 
 # Cirrhoses : étiologies, évolution, traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : audité (AUD-01/02/04, 19/11/2026, v1.1) — corrections requises (voir rapport). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 > Dossiers liés : DOS-GAST-0001 (hémorragies digestives, dont rupture de varices) ; DOS-HEPA-0001 (hépatites virales A, B, C).
 
 **Items du programme couverts** : RES-MED-020 — « Cirrhoses : Etiologies - évolution - traitement. »
@@ -186,7 +208,7 @@ La **cirrhose** est une affection **diffuse** du foie caractérisée par une **f
 
 ### 1.2 Une maladie dynamique, pas un état figé
 
-Longtemps considérée comme irréversible, la cirrhose peut **régresser partiellement** lorsque la cause est supprimée (abstinence, guérison virale C, contrôle du VHB). Baveno VII a ainsi introduit la notion de **recompensation** : chez un patient décompensé dont la cause a été supprimée, la disparition durable des signes de décompensation sans traitement spécifique et l'amélioration stable des fonctions hépatiques définissent une maladie « recompensée » [S2].
+Longtemps considérée comme irréversible, la cirrhose peut **régresser partiellement** lorsque la cause est supprimée (abstinence, guérison virale C, contrôle du VHB). Baveno VII a ainsi introduit la notion de **recompensation**, qui exige trois conditions : suppression ou guérison de la cause (élimination du VHC, suppression virale durable du VHB, abstinence durable) ; disparition de l'ascite (sans diurétiques) et de l'encéphalopathie (sans lactulose ni rifaximine) et absence de récidive hémorragique variqueuse **pendant au moins 12 mois** ; amélioration stable des tests hépatiques (albumine, INR, bilirubine) [S2]. L'HTPCS pouvant persister, les BBNS ne sont pas arrêtés tant qu'elle n'a pas disparu [S2].
 
 ### 1.3 Concepts modernes
 
@@ -340,10 +362,10 @@ Score continu calculé à partir de la **bilirubine**, de l'**INR** et de la **c
 | **10–15** | cACLD **suggérée** |
 | **> 15** | cACLD **très probable** |
 | **≤ 15 avec plaquettes ≥ 150 G/L** | HTPCS **exclue** (forte valeur prédictive négative) |
-| **≥ 25** | HTPCS **probable** (règle d'inclusion) dans les cirrhoses virales, alcooliques et MASLD non obèses |
+| **≥ 25** | HTPCS **probable** (spécificité et VPP > 90 %) dans les cACLD virales, alcooliques et MASLD/NASH non obèses (IMC < 30 kg/m²) |
 | **< 20 avec plaquettes > 150 G/L** | Dépistage endoscopique des varices **évitable** (très faible probabilité de varices à traiter) |
 
-*« Règle des 5 » : 10, 15, 20, 25 kPa. Seuils rapportés d'après Baveno VII [S2] ; à vérifier dans le texte intégral lors de l'audit.*
+*« Règle des 5 » : 10, 15, 20, 25 kPa. Seuils vérifiés dans le texte intégral de Baveno VII (énoncés 2.4, 2.9, 2.15, 2.16, 2.19) [S2]. Une élastométrie ≥ 10 kPa doit être répétée à jeun ou complétée par un test sanguin (par exemple FIB-4 ≥ 2,67) [S2].*
 
 ### 7.4 Stades cliniques
 
@@ -434,7 +456,7 @@ Défaillances d'organes définies pour le foie (bilirubine), le rein (créatinin
 
 ### 9.4 Endoscopie œso-gastro-duodénale
 
-Recherche des varices œsophagiennes et gastriques, de leur taille et des signes rouges, d'une gastropathie d'hypertension portale. Indications de dépistage modulées par Baveno VII : endoscopie **évitable** si élastométrie < 20 kPa et plaquettes > 150 G/L ; chez un patient ayant une HTPCS et **traité par bêtabloquant non sélectif** pour prévenir la décompensation, l'endoscopie de dépistage n'est pas indispensable [S2].
+Recherche des varices œsophagiennes et gastriques, de leur taille et des signes rouges, d'une gastropathie d'hypertension portale. Indications de dépistage modulées par Baveno VII : chez le patient qui ne peut pas recevoir de BBNS, endoscopie si élastométrie ≥ 20 kPa ou plaquettes ≤ 150 G/L (elle est donc **évitable** si élastométrie < 20 kPa et plaquettes > 150 G/L) ; chez un patient ayant une HTPCS et **traité par bêtabloquant non sélectif** pour prévenir la décompensation, l'endoscopie de dépistage n'est pas nécessaire ; chez le patient ascitique non traité par BBNS, elle est indiquée [S2].
 
 ### 9.5 Ponction-biopsie hépatique
 
@@ -565,7 +587,7 @@ Child-Pugh, MELD/MELD-Na, natrémie, créatinine, présence d'une ascite réfrac
 | Hépatite delta | Interféron pégylé, bulévirtide (centres spécialisés) | [S6] |
 | MASLD | Perte de poids, activité physique, contrôle du diabète et des facteurs de risque cardiovasculaire | [S5] |
 | Hépatite auto-immune | Corticoïdes ± azathioprine | [À VÉRIFIER — recommandation spécifique] |
-| CBP | Acide ursodésoxycholique (13–15 mg/kg/j) | [POSOLOGIE À VÉRIFIER — RCP / recommandation EASL CBP] |
+| CBP | Acide ursodésoxycholique (13–15 mg/kg/j) | [S19] |
 | Hémochromatose | Saignées | [À VÉRIFIER] |
 | Wilson | Chélateurs (D-pénicillamine, trientine), zinc | [À VÉRIFIER] |
 | Budd-Chiari | Anticoagulation, angioplastie, TIPS, transplantation | [S2] |
@@ -574,10 +596,11 @@ Child-Pugh, MELD/MELD-Na, natrémie, créatinine, présence d'une ascite réfrac
 
 | Molécule | Posologie | Objectif | Source |
 |---|---|---|---|
-| **Carvédilol** (préféré par Baveno VII pour la prévention de la décompensation) | Débuter **6,25 mg/j**, augmenter à **12,5 mg/j** après quelques jours si la PA le permet | Dose maximale tolérée sans hypotension (PAS ≥ 90 mmHg) | [S2] |
-| **Propranolol** | 20–40 mg × 2/j, augmentation progressive | FC autour de 55–60/min, PA conservée | [S2] |
+| **Carvédilol** (BBNS préféré par Baveno VII chez le compensé [S2]) | Débuter à **6,25 mg/j**, puis **12,5 mg/j** (6,25 mg × 2) après quelques jours si la PA le permet : c'est la dose cible la plus souvent retenue ; dans PREDESCI, titration jusqu'à **25 mg/j au maximum** [S14] | PAS > 90 mmHg et FC > 55/min ; ne pas augmenter au-delà de la dose tolérée (l'effet hypotenseur croît avec la dose) | [S14] |
+| **Propranolol** | 20–40 mg × 2/j, augmentation progressive (PREDESCI : 40 mg × 2/j, jusqu'à 160 mg × 2/j) [S14] | FC autour de 55–60/min, PAS > 90 mmHg | [S14] |
+| **Nadolol** | Une prise par jour (BBNS « traditionnel » cité par Baveno VII) | Idem | [S2] |
 
-Indications : **HTPCS chez le cirrhotique compensé** (prévention de la décompensation — essai PREDESCI [S14]) ; **prophylaxie primaire** des grosses varices ; **prophylaxie secondaire** après rupture (associé aux ligatures) [S2]. Précautions : réduire ou arrêter en cas d'**hypotension** (PAS < 90 mmHg), d'**insuffisance rénale aiguë**, d'**hyponatrémie sévère** ou d'infection sévère ; en ascite réfractaire, prudence et ajustement [S1, S2]. Contre-indications : asthme, bloc auriculo-ventriculaire, bradycardie, artériopathie sévère.
+Indications : **HTPCS chez le cirrhotique compensé** (prévention de la décompensation — essai PREDESCI [S14]) ; **prophylaxie primaire** des varices à haut risque (chez l'ascitique, BBNS ou carvédilol préférés à la ligature) ; **prophylaxie secondaire** après rupture (BBNS traditionnel ou carvédilol, associé aux ligatures) [S2]. Précautions : chez l'ascitique, réduire ou arrêter en cas de **PA basse persistante** (PAS < 90 mmHg ou PAM < 65 mmHg) et/ou de **SHR-IRA**, puis reprendre ou retitrer après correction (Baveno VII) ; prudence en cas d'hyponatrémie sévère ou d'infection sévère [S1, S2]. Contre-indications : asthme, bloc auriculo-ventriculaire, bradycardie, artériopathie sévère.
 
 #### 13.2.3 Traitement de l'ascite [S1]
 
@@ -588,8 +611,8 @@ Indications : **HTPCS chez le cirrhotique compensé** (prévention de la décomp
    - **furosémide** : associé en cas de réponse insuffisante ou d'hyperkaliémie (ou d'emblée dans l'ascite récidivante), débuter à **40 mg/j**, augmenter par paliers de 40 mg jusqu'à **160 mg/j** maximum ;
    - objectif de perte de poids : **≤ 0,5 kg/j** sans œdèmes, **≤ 1 kg/j** avec œdèmes [S1] ;
    - surveillance : poids, diurèse, natrémie, kaliémie, créatinine ; effets indésirables : gynécomastie (spironolactone), hyponatrémie, insuffisance rénale, encéphalopathie, crampes.
-   [POSOLOGIE À VÉRIFIER — RCP / protocole local.]
-4. **Ascite grade 3 (tendue)** : **paracentèse évacuatrice** totale, suivie d'une perfusion d'**albumine à 20 %** : **8 g par litre retiré** si plus de **5 litres** sont évacués (prévention de la dysfonction circulatoire post-paracentèse) [S1] ; puis diurétiques.
+   Posologies : schéma par paliers des recommandations EASL 2018 sur la cirrhose décompensée [S1] (à adapter à la fonction rénale et à la kaliémie selon le RCP).
+4. **Ascite grade 3 (tendue)** : **paracentèse évacuatrice** totale, suivie d'une perfusion d'**albumine à 20 %** : **8 g par litre retiré** si plus de **5 litres** sont évacués (EASL 2018) [S1] — **6 à 8 g par litre** selon l'AASLD 2021 [S12] — pour prévenir la dysfonction circulatoire post-paracentèse ; puis diurétiques.
 5. **Ascite réfractaire** : paracentèses itératives avec albumine ; **TIPS couvert** chez les patients sélectionnés (bilirubine, encéphalopathie, fonction cardiaque) ; **évaluation pour transplantation** [S1, S2].
 6. **Médicaments à éviter** chez le patient ascitique : **AINS**, **IEC et sartans** (risque d'insuffisance rénale), aminosides ; prudence avec les alpha-bloquants [S1].
 
@@ -598,7 +621,7 @@ Indications : **HTPCS chez le cirrhotique compensé** (prévention de la décomp
 - **Antibiothérapie probabiliste** dès que les PNN sont ≥ 250/mm³, sans attendre la culture : **céphalosporine de 3ᵉ génération** (cefotaxime ou ceftriaxone) en cas d'infection communautaire ; en cas d'infection **nosocomiale** ou de facteurs de risque de bactéries multirésistantes, antibiothérapie élargie (pipéracilline-tazobactam ou carbapénème ± glycopeptide) selon l'écologie locale [S1].
 - **Albumine** : **1,5 g/kg à J1** (dans les 6 heures) et **1 g/kg à J3** : réduit l'insuffisance rénale et la mortalité [S1, S16].
 - **Ponction de contrôle à 48 h** : une baisse des PNN de moins de 25 % fait suspecter un échec (germe résistant, péritonite secondaire).
-- **Prophylaxie secondaire** après un épisode d'ILA : **norfloxacine 400 mg/j** au long cours (ou alternative selon disponibilité : ciprofloxacine, triméthoprime-sulfaméthoxazole) [S1] [POSOLOGIE À VÉRIFIER — disponibilité de la norfloxacine en Algérie].
+- **Prophylaxie secondaire** après un épisode d'ILA : **norfloxacine 400 mg/j** au long cours (EASL 2018) [S1] ; alternatives selon disponibilité et écologie : ciprofloxacine, triméthoprime-sulfaméthoxazole (posologies selon RCP et protocole local). Disponibilité de la norfloxacine en Algérie : à vérifier [À VÉRIFIER].
 - **Prophylaxie primaire** : à discuter chez les patients ayant des protides d'ascite < 15 g/L et une insuffisance hépatique ou rénale avancée [S1].
 
 #### 13.2.5 Insuffisance rénale aiguë et syndrome hépatorénal [S1]
@@ -608,7 +631,7 @@ Indications : **HTPCS chez le cirrhotique compensé** (prévention de la décomp
 3. **Expansion volémique** : **albumine 1 g/kg/j (maximum 100 g/j) pendant 2 jours** consécutifs [S1].
 4. Si critères de **SHR-IRA** (absence de réponse) : **terlipressine** en bolus de 1 mg toutes les 4–6 heures, ou en perfusion continue (débutée à 2 mg/24 h), augmentée en l'absence de réponse jusqu'à 12 mg/24 h, **associée à l'albumine 20–40 g/j** ; alternative en réanimation : **noradrénaline** [S1]. L'essai CONFIRM a confirmé l'efficacité de la terlipressine sur la réversion du SHR, mais a montré un excès d'**insuffisance respiratoire** (surcharge), justifiant une surveillance de l'oxygénation et de la volémie [S17].
 5. **TIPS** et **transplantation hépatique** : traitements de fond du SHR chez les patients éligibles.
-[POSOLOGIE À VÉRIFIER — RCP / protocole local pour la terlipressine.]
+Posologies (terlipressine, albumine) : recommandations EASL 2018 [S1] ; avant terlipressine, rechercher une surcharge volémique et une hypoxémie (risque d'insuffisance respiratoire mis en évidence par CONFIRM [S17]).
 
 #### 13.2.6 Hyponatrémie [S1]
 
@@ -619,12 +642,11 @@ Indications : **HTPCS chez le cirrhotique compensé** (prévention de la décomp
 #### 13.2.7 Encéphalopathie hépatique [S13]
 
 1. Rechercher et traiter le **facteur déclenchant** (présent dans la majorité des cas) : infection (ILA), hémorragie digestive, constipation, troubles hydroélectrolytiques (hypokaliémie, hyponatrémie), insuffisance rénale, déshydratation (diurétiques), **benzodiazépines/opiacés**, non-observance du lactulose, TIPS.
-2. **Lactulose** : dose initiale fractionnée, adaptée pour obtenir **2 à 3 selles molles par jour** ; lavements de lactulose si troubles de conscience.
-3. **Rifaximine 550 mg × 2/j** : en **association au lactulose** pour la prévention secondaire après une récidive d'encéphalopathie [S13].
+2. **Lactulose** : dose initiale fractionnée, adaptée pour obtenir **2 à 3 selles molles par jour** ; lavements de lactulose si troubles de conscience [S13].
+3. **Rifaximine 550 mg × 2/j** : en **association au lactulose** pour la prévention secondaire après une récidive d'encéphalopathie (EASL 2022 ; RCP) [S13].
 4. **Nutrition** : **pas de restriction protéique** (la dénutrition aggrave le pronostic) ; apports protéiques adaptés [S18].
 5. Protection des voies aériennes en cas de coma (grade III–IV), réanimation.
 6. Encéphalopathie récidivante : rechercher un **shunt porto-systémique spontané** (embolisation), discuter la transplantation.
-[POSOLOGIE À VÉRIFIER — RCP / protocole local.]
 
 #### 13.2.8 Albumine au long cours
 
@@ -632,7 +654,7 @@ L'essai ANSWER (administration hebdomadaire d'albumine chez les cirrhotiques ave
 
 #### 13.2.9 Nutrition [S18]
 
-- Apports énergétiques d'environ **35 kcal/kg/j** et protéiques de **1,2 à 1,5 g/kg/j** (poids sec) ; **collation tardive du soir** riche en glucides complexes pour raccourcir le jeûne nocturne ; fractionnement des repas ; supplémentation en vitamines et oligo-éléments (thiamine chez l'alcoolique) [S18] [chiffres À VÉRIFIER — non revérifiés dans la session].
+- Apports énergétiques d'au moins **35 kcal/kg/j** et protéiques de **1,2 à 1,5 g/kg/j** (poids sec) ; **collation tardive du soir** riche en glucides complexes pour raccourcir le jeûne nocturne ; fractionnement des repas ; supplémentation en vitamines et oligo-éléments (thiamine chez l'alcoolique) [S18].
 - Activité physique adaptée pour limiter la sarcopénie.
 
 #### 13.2.10 Mesures générales et iatrogénie
@@ -644,7 +666,7 @@ L'essai ANSWER (administration hebdomadaire d'albumine chez les cirrhotiques ave
 
 #### 13.2.11 TIPS
 
-Indications : rupture de varices (préemptif ou de sauvetage — cf. DOS-GAST-0001), **ascite réfractaire**, hydrothorax hépatique réfractaire, syndrome de Budd-Chiari, thrombose porte (sélection) [S1, S2]. Contre-indications : insuffisance cardiaque, hypertension pulmonaire sévère, encéphalopathie récidivante, bilirubine très élevée, Child-Pugh ≥ 14, sepsis non contrôlé.
+Indications : rupture de varices (préemptif ou de sauvetage — cf. DOS-GAST-0001), **ascite réfractaire**, hydrothorax hépatique réfractaire, syndrome de Budd-Chiari, thrombose porte (sélection) [S1, S2]. Contre-indications : insuffisance cardiaque, hypertension pulmonaire sévère, encéphalopathie récidivante, bilirubine très élevée, sepsis non contrôlé ; futilité probable si Child-Pugh ≥ 14 ou MELD > 30 avec lactates > 12 mmol/L, sauf transplantation proche (Baveno VII) [S2]. Baveno VII propose aussi le TIPS dès ≥ 3 grandes paracentèses en un an [S2].
 
 #### 13.2.12 Transplantation hépatique
 
@@ -820,7 +842,7 @@ Après l'épisode : lactulose en prévention secondaire ;
 **Ponction d'ascite** : liquide trouble ; **PNN 620/mm³** ; protides 9 g/L ; GASA 17 g/L ; culture en cours.
 
 **Question 1 — Quel est le diagnostic de synthèse ?**
-Cirrhose virale B **décompensée** (ascite, encéphalopathie, ictère) compliquée d'une **infection du liquide d'ascite** (PNN ≥ 250/mm³), d'une **insuffisance rénale aiguë** (créatinine × 1,5 par rapport à la valeur de base — critères ICA, stade 1B/2), d'une **hyponatrémie** et d'une **encéphalopathie hépatique grade II** probablement déclenchée par l'infection et l'IRA. Child-Pugh : bilirubine 54 (3) + albumine 26 (3) + TP 48 % (2) + ascite abondante (3) + encéphalopathie grade II (2) = **13, classe C**. Une **ACLF** doit être recherchée (défaillance rénale débutante + encéphalopathie grade II : à évaluer selon les critères EASL-CLIF [S3]).
+Cirrhose virale B **décompensée** (ascite, encéphalopathie, ictère) compliquée d'une **infection du liquide d'ascite** (PNN ≥ 250/mm³), d'une **insuffisance rénale aiguë** (créatinine × 1,5 par rapport à la valeur de base — critères ICA, stade 1B puisque la créatinine dépasse 133 µmol/L), d'une **hyponatrémie** et d'une **encéphalopathie hépatique grade II** probablement déclenchée par l'infection et l'IRA. Child-Pugh : bilirubine 54 (3) + albumine 26 (3) + TP 48 % (2) + ascite abondante (3) + encéphalopathie grade II (2) = **13, classe C**. Une **ACLF** doit être recherchée (défaillance rénale débutante + encéphalopathie grade II : à évaluer selon les critères EASL-CLIF [S3]).
 
 **Question 2 — Traitement immédiat ?**
 1. **Arrêt de l'ibuprofène** (AINS) et de la **metformine** (insuffisance rénale) ; pas de diurétiques.
@@ -828,7 +850,7 @@ Cirrhose virale B **décompensée** (ascite, encéphalopathie, ictère) compliqu
 3. **Albumine 1,5 g/kg à J1 puis 1 g/kg à J3** [S1, S16] — qui assure aussi l'expansion volémique de l'IRA.
 4. **Lactulose** pour 2–3 selles molles par jour [S13].
 5. Recherche d'autres foyers infectieux (hémocultures, ECBU, radiographie thoracique) ; recherche d'une hémorragie digestive (toucher rectal, hémoglobine).
-6. **Entécavir** (ADN détectable chez un cirrhotique décompensé) à dose adaptée à la fonction rénale ; ténofovir alafénamide en alternative selon la fonction rénale [S6]. [POSOLOGIE À VÉRIFIER — RCP, adaptation rénale.]
+6. **Entécavir** (traitement indiqué en cirrhose décompensée) : 1 mg/j à jeun, réduit à **0,5 mg/j (ou 1 mg toutes les 48 h)** si la clairance de la créatinine est de 30–49 mL/min (ce qui est probable ici), à réajuster selon l'évolution rénale (OMS 2024, tableau 17.1 ; RCP) [S20] ; ténofovir alafénamide en alternative (pas d'adaptation si ClCr ≥ 15 mL/min) [S6, S20].
 7. Paracentèse évacuatrice **différée/limitée** tant que l'IRA n'est pas contrôlée, sauf ascite tendue mal tolérée (alors avec albumine).
 8. Surveillance en unité de soins continus.
 
@@ -983,12 +1005,14 @@ E. Il s'adresse aux patients qui pourraient bénéficier d'un traitement en cas 
 7. **[S7]** EASL. Recommendations on treatment of hepatitis C: Final update of the series. *J Hepatol*. 2020;73(5):1170-1218. doi:10.1016/j.jhep.2020.08.018. — *vérifiée*.
 8. **[S8]** Bensalem A, et al. Widespread geographical disparities in chronic hepatitis B virus infection in Algeria. *Arch Virol*. 2017;162:1641-1648. doi:10.1007/s00705-017-3284-6. — *vérifiée*.
 9. **[S9]** Gralnek IM, et al. Endoscopic diagnosis and management of esophagogastric variceal hemorrhage: ESGE Guideline. *Endoscopy*. 2022;54(11):1094-1120. doi:10.1055/a-1939-4887. — *vérifiée*.
-10. **[S10]** Pugh RN, et al. Transection of the oesophagus for bleeding oesophageal varices. *Br J Surg*. 1973;60:646-649. — *non revérifiée*.
-11. **[S11]** Kamath PS, et al. A model to predict survival in patients with end-stage liver disease. *Hepatology*. 2001;33:464-470. — *non revérifiée*.
-12. **[S12]** Biggins SW, et al. AASLD 2021 practice guidance on ascites, SBP and HRS. *Hepatology*. 2021;74:1014-1048. — *non revérifiée*.
-13. **[S13]** EASL. Clinical Practice Guidelines on the management of hepatic encephalopathy. *J Hepatol*. 2022;77:807-824. — *non revérifiée*.
-14. **[S14]** Villanueva C, et al. PREDESCI. *Lancet*. 2019;393:1597-1608. — *non revérifiée*.
-15. **[S15]** Caraceni P, et al. ANSWER. *Lancet*. 2018;391:2417-2429. — *non revérifiée*.
-16. **[S16]** Sort P, et al. Albumin in cirrhosis and spontaneous bacterial peritonitis. *N Engl J Med*. 1999;341:403-409. — *non revérifiée*.
-17. **[S17]** Wong F, et al. CONFIRM. *N Engl J Med*. 2021;384:818-828. — *non revérifiée*.
-18. **[S18]** EASL. Clinical Practice Guidelines on nutrition in chronic liver disease. *J Hepatol*. 2019;70:172-193. — *non revérifiée*.
+10. **[S10]** Pugh RN, et al. Transection of the oesophagus for bleeding oesophageal varices. *Br J Surg*. 1973;60(8):646-649. doi:10.1002/bjs.1800600817 (PMID 4541913). — *vérifiée (audit)*.
+11. **[S11]** Kamath PS, et al. A model to predict survival in patients with end-stage liver disease. *Hepatology*. 2001;33(2):464-470. doi:10.1053/jhep.2001.22172 (PMID 11172350). — *vérifiée (audit)*.
+12. **[S12]** Biggins SW, et al. AASLD 2021 practice guidance on ascites, SBP and HRS. *Hepatology*. 2021;74(2):1014-1048. doi:10.1002/hep.31884 (PMID 33942342). — *vérifiée (audit)*.
+13. **[S13]** EASL. Clinical Practice Guidelines on the management of hepatic encephalopathy. *J Hepatol*. 2022;77(3):807-824. doi:10.1016/j.jhep.2022.06.001 (PMID 35724930). — *vérifiée (audit)*.
+14. **[S14]** Villanueva C, et al. β blockers to prevent decompensation of cirrhosis in patients with clinically significant portal hypertension (PREDESCI). *Lancet*. 2019;393:1597-1608. doi:10.1016/S0140-6736(18)31875-0 (PMID 30910320). — *vérifiée (audit)*.
+15. **[S15]** Caraceni P, et al. Long-term albumin administration in decompensated cirrhosis (ANSWER). *Lancet*. 2018;391:2417-2429. doi:10.1016/S0140-6736(18)30840-7 (PMID 29861076). — *vérifiée (audit)*.
+16. **[S16]** Sort P, et al. Effect of intravenous albumin on renal impairment and mortality in patients with cirrhosis and spontaneous bacterial peritonitis. *N Engl J Med*. 1999;341(6):403-409. doi:10.1056/NEJM199908053410603 (PMID 10432325). — *vérifiée (audit)*.
+17. **[S17]** Wong F, et al. Terlipressin plus albumin for the treatment of type 1 hepatorenal syndrome (CONFIRM). *N Engl J Med*. 2021;384(9):818-828. doi:10.1056/NEJMoa2008290 (PMID 33657294). — *vérifiée (audit)*.
+18. **[S18]** EASL. Clinical Practice Guidelines on nutrition in chronic liver disease. *J Hepatol*. 2019;70(1):172-193. doi:10.1016/j.jhep.2018.06.024 (PMID 30144956). — *vérifiée (audit)*.
+19. **[S19]** EASL. Clinical Practice Guidelines: The diagnosis and management of patients with primary biliary cholangitis. *J Hepatol*. 2017;67(1):145-172. doi:10.1016/j.jhep.2017.03.022 (PMID 28427765). — *existence vérifiée (audit), ajoutée pour la posologie de l'AUDC*.
+20. **[S20]** OMS. Guidelines for the prevention, diagnosis, care and treatment for people with chronic hepatitis B infection. 2024 (corrigenda 2025). — *vérifiée (document acquis DOC-00030), ajoutée pour l'adaptation rénale des analogues*.

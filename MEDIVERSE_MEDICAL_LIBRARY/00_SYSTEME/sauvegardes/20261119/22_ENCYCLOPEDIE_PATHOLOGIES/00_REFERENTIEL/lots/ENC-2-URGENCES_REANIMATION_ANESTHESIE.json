@@ -1,0 +1,2930 @@
+{
+  "agent": "ENC-2",
+  "date": "2026-11-19",
+  "pathologies": [
+    {
+      "id": "PATH-URGE-0001",
+      "nom_fr": "Intoxication au monoxyde de carbone",
+      "nom_en": "Carbon monoxide poisoning",
+      "synonymes": [
+        "intoxication oxycarbonée"
+      ],
+      "cim10": "T58",
+      "specialite": "URGE",
+      "sous_specialite": "Toxicologie d'urgence",
+      "categories": [
+        "toxique",
+        "environnementale",
+        "urgence",
+        "santé publique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "symptomes": [
+        "céphalées",
+        "vertiges",
+        "nausées",
+        "asthénie",
+        "troubles de conscience",
+        "caractère collectif (foyer) en période hivernale (chauffage, chauffe-eau)"
+      ],
+      "signes_cliniques": [
+        "troubles neurologiques (confusion, coma, convulsions)",
+        "douleur thoracique",
+        "saturation de pouls faussement normale"
+      ],
+      "examens_cles": [
+        "carboxyhémoglobine (sang ou CO-oxymétrie)",
+        "CO dans l'air expiré",
+        "ECG et troponine",
+        "lactates",
+        "β-hCG chez la femme"
+      ],
+      "traitements_cles": [
+        "soustraction de l'atmosphère toxique",
+        "oxygénothérapie normobare à haut débit",
+        "oxygénothérapie hyperbare selon les indications (coma, grossesse, signes neurologiques)",
+        "enquête environnementale et prévention"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0028",
+        "PATH-CPLA-0001",
+        "PATH-URGE-0031",
+        "PATH-MINT_REA-0006",
+        "PATH-SPUB-0002"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-URGE-0002",
+      "nom_fr": "Intoxication au paracétamol",
+      "nom_en": "Paracetamol (acetaminophen) poisoning",
+      "synonymes": [],
+      "cim10": "T39.1",
+      "specialite": "URGE",
+      "sous_specialite": "Toxicologie d'urgence",
+      "categories": [
+        "toxique",
+        "urgence",
+        "digestive"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "symptomes": [
+        "souvent asymptomatique initialement",
+        "nausées, vomissements",
+        "douleur de l'hypocondre droit (après 24 heures)"
+      ],
+      "signes_cliniques": [
+        "ictère et encéphalopathie (hépatite fulminante, forme tardive)"
+      ],
+      "examens_cles": [
+        "paracétamolémie à partir de la 4e heure reportée sur le nomogramme",
+        "transaminases",
+        "TP",
+        "créatininémie"
+      ],
+      "traitements_cles": [
+        "N-acétylcystéine selon le nomogramme ou la dose ingérée",
+        "charbon activé si ingestion récente",
+        "transfert en centre de transplantation hépatique si insuffisance hépatique grave"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0028"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-URGE-0003",
+      "nom_fr": "Intoxication aux organophosphorés et carbamates",
+      "nom_en": "Organophosphate and carbamate poisoning",
+      "synonymes": [
+        "intoxication aux pesticides anticholinestérasiques"
+      ],
+      "cim10": "T60.0",
+      "specialite": "URGE",
+      "sous_specialite": "Toxicologie d'urgence",
+      "categories": [
+        "toxique",
+        "urgence",
+        "professionnelle"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "symptomes": [
+        "hypersialorrhée",
+        "sueurs",
+        "vomissements, diarrhée",
+        "dyspnée",
+        "fasciculations",
+        "troubles de conscience"
+      ],
+      "signes_cliniques": [
+        "syndrome muscarinique (myosis, bradycardie, bronchorrhée)",
+        "syndrome nicotinique (fasciculations, paralysies)",
+        "syndrome central (coma, convulsions)"
+      ],
+      "examens_cles": [
+        "dosage de l'activité des cholinestérases (plasmatique et érythrocytaire)",
+        "gaz du sang",
+        "ECG"
+      ],
+      "traitements_cles": [
+        "décontamination cutanée (protection des soignants)",
+        "atropine à doses titrées",
+        "pralidoxime (organophosphorés)",
+        "ventilation mécanique",
+        "benzodiazépines si convulsions"
+      ],
+      "pathologies_liees": [
+        "PATH-URGE-0031",
+        "PATH-PEDI-0028"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-URGE-0004",
+      "nom_fr": "Intoxication aux benzodiazépines",
+      "nom_en": "Benzodiazepine poisoning",
+      "synonymes": [],
+      "cim10": "T42.4",
+      "specialite": "URGE",
+      "sous_specialite": "Toxicologie d'urgence",
+      "categories": [
+        "toxique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "symptomes": [
+        "somnolence",
+        "dysarthrie",
+        "ataxie"
+      ],
+      "signes_cliniques": [
+        "coma calme hypotonique sans signe de localisation",
+        "dépression respiratoire (associations)"
+      ],
+      "examens_cles": [
+        "dosage toxicologique (qualitatif)",
+        "recherche de co-intoxicants (éthanol, paracétamol)",
+        "gaz du sang",
+        "ECG"
+      ],
+      "traitements_cles": [
+        "surveillance et soutien des fonctions vitales",
+        "flumazénil dans des indications restreintes (contre-indiqué en cas d'intoxication associée aux tricycliques ou d'épilepsie)",
+        "évaluation psychiatrique"
+      ],
+      "pathologies_liees": [
+        "PATH-URGE-0005",
+        "PATH-URGE-0008",
+        "PATH-MINT_REA-0006",
+        "PATH-MLEG-0015"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-URGE-0005",
+      "nom_fr": "Intoxication aux antidépresseurs tricycliques",
+      "nom_en": "Tricyclic antidepressant poisoning",
+      "synonymes": [],
+      "cim10": "T43.0",
+      "specialite": "URGE",
+      "sous_specialite": "Toxicologie d'urgence",
+      "categories": [
+        "toxique",
+        "urgence",
+        "cardiovasculaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "symptomes": [
+        "somnolence",
+        "agitation",
+        "convulsions",
+        "palpitations"
+      ],
+      "signes_cliniques": [
+        "syndrome anticholinergique (mydriase, tachycardie, rétention d'urine, sécheresse des muqueuses)",
+        "coma",
+        "convulsions"
+      ],
+      "examens_cles": [
+        "ECG (élargissement des QRS, troubles du rythme : effet stabilisant de membrane)",
+        "gaz du sang",
+        "dosage toxicologique"
+      ],
+      "traitements_cles": [
+        "bicarbonate de sodium molaire ou lactate de sodium si QRS larges",
+        "prise en charge des convulsions",
+        "ventilation",
+        "contre-indication du flumazénil"
+      ],
+      "pathologies_liees": [
+        "PATH-URGE-0004",
+        "PATH-URGE-0031"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-URGE-0006",
+      "nom_fr": "Intoxication aux digitaliques",
+      "nom_en": "Digitalis (cardiac glycoside) poisoning",
+      "synonymes": [],
+      "cim10": "T46.0",
+      "specialite": "URGE",
+      "sous_specialite": "Toxicologie d'urgence",
+      "categories": [
+        "toxique",
+        "cardiovasculaire",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "symptomes": [
+        "nausées, vomissements",
+        "troubles visuels (dyschromatopsie)",
+        "asthénie",
+        "confusion"
+      ],
+      "signes_cliniques": [
+        "bradycardie",
+        "troubles du rythme et de la conduction"
+      ],
+      "examens_cles": [
+        "digoxinémie",
+        "kaliémie (facteur pronostique)",
+        "ECG",
+        "fonction rénale"
+      ],
+      "traitements_cles": [
+        "arrêt du digitalique",
+        "correction des troubles électrolytiques",
+        "fragments Fab antidigoxine selon les critères de gravité",
+        "atropine",
+        "entraînement électrosystolique"
+      ],
+      "pathologies_liees": [
+        "PATH-URGE-0031",
+        "PATH-URGE-0014"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-URGE-0007",
+      "nom_fr": "Intoxication aux salicylés",
+      "nom_en": "Salicylate poisoning",
+      "synonymes": [],
+      "cim10": "T39.0",
+      "specialite": "URGE",
+      "sous_specialite": "Toxicologie d'urgence",
+      "categories": [
+        "toxique",
+        "urgence",
+        "métabolique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "symptomes": [
+        "acouphènes",
+        "vertiges",
+        "nausées, vomissements",
+        "polypnée",
+        "confusion"
+      ],
+      "signes_cliniques": [
+        "hyperventilation",
+        "hyperthermie",
+        "déshydratation",
+        "troubles de conscience"
+      ],
+      "examens_cles": [
+        "salicylémie",
+        "gaz du sang (alcalose respiratoire puis acidose métabolique)",
+        "ionogramme",
+        "glycémie"
+      ],
+      "traitements_cles": [
+        "charbon activé",
+        "alcalinisation des urines",
+        "correction hydroélectrolytique",
+        "épuration extrarénale dans les formes graves"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0017"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-URGE-0008",
+      "nom_fr": "Intoxication éthylique aiguë",
+      "nom_en": "Acute alcohol intoxication",
+      "synonymes": [
+        "ivresse aiguë"
+      ],
+      "cim10": "T51.0",
+      "specialite": "URGE",
+      "sous_specialite": "Toxicologie d'urgence",
+      "categories": [
+        "toxique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "symptomes": [
+        "désinhibition",
+        "troubles de l'équilibre",
+        "vomissements",
+        "somnolence puis coma"
+      ],
+      "signes_cliniques": [
+        "haleine œnolique",
+        "ataxie",
+        "coma",
+        "hypothermie",
+        "hypoglycémie (enfant, dénutri)"
+      ],
+      "examens_cles": [
+        "alcoolémie ou éthanol dans l'air expiré",
+        "glycémie",
+        "recherche d'un traumatisme crânien associé (scanner si doute)",
+        "bilan des co-intoxications"
+      ],
+      "traitements_cles": [
+        "surveillance",
+        "prévention de l'inhalation (position latérale de sécurité)",
+        "correction de l'hypoglycémie",
+        "vitamine B1",
+        "orientation addictologique"
+      ],
+      "pathologies_liees": [
+        "PATH-URGE-0004",
+        "PATH-URGE-0009",
+        "PATH-NCHI-0001",
+        "PATH-URGE-0027"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-URGE-0009",
+      "nom_fr": "Intoxication au méthanol et à l'éthylène glycol",
+      "nom_en": "Methanol and ethylene glycol poisoning",
+      "synonymes": [],
+      "cim10": "T51.1",
+      "specialite": "URGE",
+      "sous_specialite": "Toxicologie d'urgence",
+      "categories": [
+        "toxique",
+        "urgence"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "symptomes": [
+        "ébriété initiale puis, après un intervalle libre, troubles visuels (méthanol), douleurs abdominales, troubles de conscience"
+      ],
+      "signes_cliniques": [
+        "cécité (méthanol)",
+        "convulsions",
+        "coma",
+        "insuffisance rénale (éthylène glycol)"
+      ],
+      "examens_cles": [
+        "gaz du sang (acidose métabolique à trou anionique élevé)",
+        "trou osmolaire",
+        "dosages spécifiques",
+        "créatininémie"
+      ],
+      "traitements_cles": [
+        "fomépizole (ou éthanol)",
+        "bicarbonates",
+        "épuration extrarénale",
+        "acide folique (méthanol)"
+      ],
+      "pathologies_liees": [
+        "PATH-URGE-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-URGE-0010",
+      "nom_fr": "Intoxication aux opioïdes",
+      "nom_en": "Opioid poisoning",
+      "synonymes": [
+        "surdose d'opiacés"
+      ],
+      "cim10": null,
+      "specialite": "URGE",
+      "sous_specialite": "Toxicologie d'urgence",
+      "categories": [
+        "toxique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "symptomes": [
+        "somnolence",
+        "bradypnée",
+        "contexte de toxicomanie ou de traitement antalgique"
+      ],
+      "signes_cliniques": [
+        "triade coma, myosis serré, bradypnée",
+        "apnée"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "dosage toxicologique",
+        "gaz du sang"
+      ],
+      "traitements_cles": [
+        "ventilation au masque",
+        "naloxone titrée (attention à la durée d'action courte et au sevrage brutal)",
+        "surveillance prolongée",
+        "prévention (naloxone en kit pour l'entourage)"
+      ],
+      "pathologies_liees": [
+        "PATH-URGE-0031",
+        "PATH-MINT_REA-0006"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-URGE-0011",
+      "nom_fr": "Intoxication par produits caustiques",
+      "nom_en": "Caustic ingestion",
+      "synonymes": [
+        "ingestion de caustique"
+      ],
+      "cim10": "T54",
+      "specialite": "URGE",
+      "sous_specialite": "Toxicologie d'urgence",
+      "categories": [
+        "toxique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "symptomes": [
+        "douleurs buccales, rétrosternales et épigastriques",
+        "hypersialorrhée",
+        "dysphagie",
+        "vomissements"
+      ],
+      "signes_cliniques": [
+        "brûlures buccopharyngées",
+        "dyspnée (atteinte laryngée)",
+        "signes de perforation (défense, emphysème sous-cutané)"
+      ],
+      "examens_cles": [
+        "identification du produit",
+        "endoscopie œsogastroduodénale ou scanner thoraco-abdominal injecté selon les pratiques",
+        "gaz du sang, lactates"
+      ],
+      "traitements_cles": [
+        "ne pas faire vomir, ne pas neutraliser, ne pas faire boire",
+        "position demi-assise",
+        "chirurgie en urgence si nécrose transmurale",
+        "prise en charge des séquelles"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0028",
+        "PATH-OPHT-0043",
+        "PATH-CDIG-0024"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-URGE-0012",
+      "nom_fr": "Intoxication aux raticides anticoagulants",
+      "nom_en": "Anticoagulant rodenticide poisoning",
+      "synonymes": [
+        "intoxication aux antivitamines K « superwarfarines »"
+      ],
+      "cim10": "T60.4",
+      "specialite": "URGE",
+      "sous_specialite": "Toxicologie d'urgence",
+      "categories": [
+        "toxique",
+        "hématologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "symptomes": [
+        "souvent asymptomatique",
+        "hémorragies retardées (gingivorragies, hématurie, hématomes)"
+      ],
+      "signes_cliniques": [
+        "syndrome hémorragique"
+      ],
+      "examens_cles": [
+        "TP et INR (répétés à 24-48 heures)",
+        "dosage des facteurs vitamine K-dépendants",
+        "recherche toxicologique"
+      ],
+      "traitements_cles": [
+        "vitamine K1 prolongée",
+        "concentré de complexe prothrombinique si hémorragie grave"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0028"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-URGE-0013",
+      "nom_fr": "Intoxication par les champignons",
+      "nom_en": "Mushroom poisoning",
+      "synonymes": [
+        "syndrome phalloïdien"
+      ],
+      "cim10": "T62.0",
+      "specialite": "URGE",
+      "sous_specialite": "Toxicologie d'urgence",
+      "categories": [
+        "toxique",
+        "urgence",
+        "digestive"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "symptomes": [
+        "troubles digestifs (vomissements, diarrhée) précoces (syndromes bénins) ou retardés de plus de 6 heures (syndrome phalloïdien)"
+      ],
+      "signes_cliniques": [
+        "déshydratation",
+        "ictère et insuffisance hépatique (amanite phalloïde)"
+      ],
+      "examens_cles": [
+        "anamnèse (délai d'apparition, espèce consommée, cas groupés)",
+        "transaminases",
+        "TP",
+        "fonction rénale",
+        "identification mycologique"
+      ],
+      "traitements_cles": [
+        "réhydratation",
+        "traitement spécifique du syndrome phalloïdien (silibinine, N-acétylcystéine selon les protocoles)",
+        "transplantation hépatique dans les formes fulminantes"
+      ],
+      "pathologies_liees": [
+        "PATH-URGE-0016"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-URGE-0014",
+      "nom_fr": "Intoxication aux bêtabloquants",
+      "nom_en": "Beta-blocker poisoning",
+      "synonymes": [],
+      "cim10": "T44.7",
+      "specialite": "URGE",
+      "sous_specialite": "Toxicologie d'urgence",
+      "categories": [
+        "toxique",
+        "cardiovasculaire",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "symptomes": [
+        "malaise",
+        "asthénie",
+        "troubles de conscience"
+      ],
+      "signes_cliniques": [
+        "bradycardie",
+        "hypotension",
+        "choc cardiogénique",
+        "hypoglycémie",
+        "convulsions (propranolol)"
+      ],
+      "examens_cles": [
+        "ECG",
+        "glycémie",
+        "échocardiographie"
+      ],
+      "traitements_cles": [
+        "atropine",
+        "glucagon",
+        "catécholamines",
+        "insulinothérapie à forte dose euglycémique",
+        "assistance circulatoire dans les formes réfractaires"
+      ],
+      "pathologies_liees": [
+        "PATH-URGE-0006",
+        "PATH-MINT_REA-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-URGE-0015",
+      "nom_fr": "Intoxication à la cocaïne",
+      "nom_en": "Cocaine poisoning",
+      "synonymes": [],
+      "cim10": "T40.5",
+      "specialite": "URGE",
+      "sous_specialite": "Toxicologie d'urgence",
+      "categories": [
+        "toxique",
+        "cardiovasculaire",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "symptomes": [
+        "agitation",
+        "douleur thoracique",
+        "palpitations",
+        "convulsions"
+      ],
+      "signes_cliniques": [
+        "syndrome sympathomimétique (tachycardie, HTA, mydriase, hyperthermie)"
+      ],
+      "examens_cles": [
+        "ECG, troponine (syndrome coronarien)",
+        "CPK (rhabdomyolyse)",
+        "dosage toxicologique",
+        "imagerie cérébrale si signes neurologiques"
+      ],
+      "traitements_cles": [
+        "benzodiazépines",
+        "refroidissement",
+        "prise en charge des complications cardiovasculaires",
+        "prudence avec les bêtabloquants"
+      ],
+      "pathologies_liees": [
+        "PATH-URGE-0018"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-URGE-0016",
+      "nom_fr": "Intoxication par Atractylis gummifera (chardon à glu)",
+      "nom_en": "Atractylis gummifera poisoning",
+      "synonymes": [
+        "intoxication par plante toxique (Maghreb)"
+      ],
+      "cim10": "T62.2",
+      "specialite": "URGE",
+      "sous_specialite": "Toxicologie d'urgence",
+      "categories": [
+        "toxique",
+        "urgence",
+        "digestive",
+        "rénale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "symptomes": [
+        "vomissements",
+        "douleurs abdominales",
+        "céphalées",
+        "troubles de conscience après ingestion de la racine (usage traditionnel, confusion avec une plante comestible)"
+      ],
+      "signes_cliniques": [
+        "convulsions",
+        "coma",
+        "ictère",
+        "saignements"
+      ],
+      "examens_cles": [
+        "glycémie (hypoglycémie)",
+        "transaminases",
+        "TP",
+        "créatininémie"
+      ],
+      "traitements_cles": [
+        "traitement symptomatique en réanimation (correction de l'hypoglycémie, prise en charge de l'insuffisance hépatique et rénale)",
+        "absence d'antidote spécifique",
+        "prévention et information des populations"
+      ],
+      "pathologies_liees": [
+        "PATH-URGE-0013",
+        "PATH-PEDI-0028"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-URGE-0017",
+      "nom_fr": "Intoxication à la paraphénylènediamine",
+      "nom_en": "Paraphenylenediamine (hair dye) poisoning",
+      "synonymes": [
+        "intoxication au « henné noir »"
+      ],
+      "cim10": null,
+      "specialite": "URGE",
+      "sous_specialite": "Toxicologie d'urgence",
+      "categories": [
+        "toxique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "symptomes": [
+        "œdème cervico-facial",
+        "dysphagie",
+        "douleurs musculaires",
+        "urines foncées"
+      ],
+      "signes_cliniques": [
+        "œdème lingual et cervico-facial massif (risque asphyxique)",
+        "rhabdomyolyse",
+        "insuffisance rénale",
+        "troubles du rythme"
+      ],
+      "examens_cles": [
+        "CPK",
+        "myoglobinurie",
+        "créatininémie",
+        "kaliémie",
+        "ECG"
+      ],
+      "traitements_cles": [
+        "libération des voies aériennes (intubation ou trachéotomie précoce)",
+        "hydratation et alcalinisation",
+        "épuration extrarénale",
+        "prise en charge en réanimation"
+      ],
+      "pathologies_liees": [],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-URGE-0018",
+      "nom_fr": "Intoxication aiguë au cannabis",
+      "nom_en": "Acute cannabis intoxication",
+      "synonymes": [],
+      "cim10": "T40.7",
+      "specialite": "URGE",
+      "sous_specialite": "Toxicologie d'urgence",
+      "categories": [
+        "toxique",
+        "urgence",
+        "psychiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "symptomes": [
+        "anxiété",
+        "attaque de panique",
+        "troubles perceptifs",
+        "vomissements (syndrome d'hyperémèse cannabique)",
+        "somnolence (enfant)"
+      ],
+      "signes_cliniques": [
+        "tachycardie",
+        "hyperhémie conjonctivale",
+        "coma chez le jeune enfant (ingestion accidentelle)"
+      ],
+      "examens_cles": [
+        "dépistage urinaire",
+        "bilan des co-intoxications"
+      ],
+      "traitements_cles": [
+        "réassurance, environnement calme",
+        "benzodiazépines si anxiété majeure",
+        "surveillance",
+        "orientation addictologique"
+      ],
+      "pathologies_liees": [
+        "PATH-URGE-0015",
+        "PATH-PEDI-0028"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-URGE-0019",
+      "nom_fr": "Intoxication au fer",
+      "nom_en": "Iron poisoning",
+      "synonymes": [],
+      "cim10": "T45.4",
+      "specialite": "URGE",
+      "sous_specialite": "Toxicologie d'urgence",
+      "categories": [
+        "toxique",
+        "urgence",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "symptomes": [
+        "vomissements",
+        "diarrhée sanglante",
+        "douleurs abdominales chez le jeune enfant (ingestion de comprimés)"
+      ],
+      "signes_cliniques": [
+        "choc",
+        "acidose",
+        "insuffisance hépatique (phase tardive)"
+      ],
+      "examens_cles": [
+        "sidérémie",
+        "radiographie de l'abdomen (comprimés radio-opaques)",
+        "gaz du sang",
+        "lactates"
+      ],
+      "traitements_cles": [
+        "déféroxamine dans les intoxications graves",
+        "irrigation intestinale selon les cas",
+        "traitement symptomatique"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0028"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-URGE-0020",
+      "nom_fr": "Intoxication par les hydrocarbures (pétrole, kérosène) chez l'enfant",
+      "nom_en": "Hydrocarbon poisoning in children",
+      "synonymes": [
+        "ingestion de pétrole lampant"
+      ],
+      "cim10": "T52.0",
+      "specialite": "URGE",
+      "sous_specialite": "Toxicologie d'urgence",
+      "categories": [
+        "toxique",
+        "respiratoire",
+        "pédiatrique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "symptomes": [
+        "toux",
+        "vomissements",
+        "dyspnée après ingestion accidentelle"
+      ],
+      "signes_cliniques": [
+        "polypnée",
+        "signes de pneumopathie d'inhalation",
+        "troubles de conscience"
+      ],
+      "examens_cles": [
+        "radiographie thoracique (à distance)",
+        "gaz du sang"
+      ],
+      "traitements_cles": [
+        "ne pas faire vomir",
+        "oxygénothérapie",
+        "surveillance hospitalière",
+        "pas d'antibiotique systématique",
+        "prévention (stockage dans des contenants adaptés)"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0028",
+        "PATH-MINT_REA-0004"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-URGE-0021",
+      "nom_fr": "Envenimation scorpionique",
+      "nom_en": "Scorpion envenomation",
+      "synonymes": [
+        "piqûre de scorpion"
+      ],
+      "cim10": "T63.2",
+      "specialite": "URGE",
+      "sous_specialite": "Urgences vitales",
+      "categories": [
+        "toxique",
+        "environnementale",
+        "urgence",
+        "santé publique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-111"
+      ],
+      "symptomes": [
+        "douleur locale intense",
+        "paresthésies",
+        "vomissements",
+        "sueurs",
+        "agitation"
+      ],
+      "signes_cliniques": [
+        "classes de gravité (classe I : signes locaux",
+        "classe II : signes généraux",
+        "classe III : défaillance vitale : choc cardiogénique, œdème pulmonaire, coma, convulsions)",
+        "gravité accrue chez l'enfant"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "ECG",
+        "troponine",
+        "échocardiographie et radiographie thoracique dans les formes graves",
+        "glycémie"
+      ],
+      "traitements_cles": [
+        "antalgiques et surveillance (classe I)",
+        "hospitalisation et traitement symptomatique (classes II et III)",
+        "prise en charge de la défaillance cardiaque (dobutamine) et respiratoire",
+        "immunothérapie selon les protocoles nationaux",
+        "prévention (programme national de lutte en Algérie)"
+      ],
+      "pathologies_liees": [
+        "PATH-URGE-0022",
+        "PATH-URGE-0031"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-URGE-0022",
+      "nom_fr": "Envenimation par morsure de serpent (vipère)",
+      "nom_en": "Snake (viper) envenomation",
+      "synonymes": [
+        "morsure de serpent"
+      ],
+      "cim10": "T63.0",
+      "specialite": "URGE",
+      "sous_specialite": "Urgences vitales",
+      "categories": [
+        "toxique",
+        "environnementale",
+        "urgence",
+        "hématologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-111"
+      ],
+      "symptomes": [
+        "douleur locale",
+        "œdème extensif",
+        "saignements",
+        "malaise"
+      ],
+      "signes_cliniques": [
+        "œdème et ecchymose progressifs (grades de gravité)",
+        "syndrome hémorragique",
+        "choc"
+      ],
+      "examens_cles": [
+        "NFS, plaquettes",
+        "TP, fibrinogène, D-dimères (coagulopathie de consommation)",
+        "fonction rénale",
+        "CPK"
+      ],
+      "traitements_cles": [
+        "immobilisation du membre",
+        "pas de garrot ni d'incision",
+        "antivenin selon le grade et les troubles de l'hémostase",
+        "prophylaxie antitétanique",
+        "traitement symptomatique"
+      ],
+      "pathologies_liees": [
+        "PATH-URGE-0021",
+        "PATH-TRAU-0040"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-URGE-0023",
+      "nom_fr": "Morsures de chien et d'animaux",
+      "nom_en": "Animal bites",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "URGE",
+      "sous_specialite": "Urgences vitales",
+      "categories": [
+        "traumatique",
+        "infectieuse",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [
+        "RES-MED-111"
+      ],
+      "symptomes": [
+        "plaie par morsure",
+        "douleur"
+      ],
+      "signes_cliniques": [
+        "plaie punctiforme ou délabrante",
+        "localisation (visage chez l'enfant, main)"
+      ],
+      "examens_cles": [
+        "évaluation de la plaie et des lésions associées",
+        "radiographie selon le cas"
+      ],
+      "traitements_cles": [
+        "lavage abondant et désinfection",
+        "parage",
+        "suture selon la localisation",
+        "antibioprophylaxie selon le risque",
+        "prophylaxie antitétanique",
+        "prophylaxie antirabique selon le statut de l'animal et la catégorie d'exposition"
+      ],
+      "pathologies_liees": [
+        "PATH-URGE-0032",
+        "PATH-CPLA-0011"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-URGE-0024",
+      "nom_fr": "Envenimation par piqûres d'hyménoptères (abeilles, guêpes, frelons)",
+      "nom_en": "Hymenoptera stings (toxic envenomation)",
+      "synonymes": [],
+      "cim10": "T63.4",
+      "specialite": "URGE",
+      "sous_specialite": "Urgences vitales",
+      "categories": [
+        "toxique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [
+        "RES-MED-111"
+      ],
+      "symptomes": [
+        "douleur et œdème locaux",
+        "piqûres multiples (attaque d'essaim)"
+      ],
+      "signes_cliniques": [
+        "réaction locale étendue",
+        "atteinte des voies aériennes (piqûre buccale)",
+        "toxicité systémique (rhabdomyolyse, hémolyse) en cas de piqûres multiples"
+      ],
+      "examens_cles": [
+        "CPK, créatininémie, NFS si piqûres multiples"
+      ],
+      "traitements_cles": [
+        "retrait de l'aiguillon",
+        "traitement local",
+        "surveillance",
+        "prise en charge d'une anaphylaxie associée (adrénaline)"
+      ],
+      "pathologies_liees": [],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-URGE-0025",
+      "nom_fr": "Noyade",
+      "nom_en": "Drowning",
+      "synonymes": [
+        "submersion"
+      ],
+      "cim10": "T75.1",
+      "specialite": "URGE",
+      "sous_specialite": "Traumatologie d'urgence",
+      "categories": [
+        "environnementale",
+        "respiratoire",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-110"
+      ],
+      "symptomes": [
+        "inhalation d'eau",
+        "toux",
+        "détresse respiratoire",
+        "troubles de conscience"
+      ],
+      "signes_cliniques": [
+        "stades de gravité (aquastress, petit hypoxique, grand hypoxique, anoxique)",
+        "hypothermie",
+        "lésions traumatiques associées (plongeon, rachis cervical)"
+      ],
+      "examens_cles": [
+        "gaz du sang",
+        "radiographie thoracique",
+        "température",
+        "glycémie",
+        "ionogramme"
+      ],
+      "traitements_cles": [
+        "réanimation cardiopulmonaire débutant par les insufflations",
+        "oxygénothérapie",
+        "ventilation non invasive ou mécanique",
+        "réchauffement",
+        "prévention (surveillance des enfants, apprentissage de la natation)"
+      ],
+      "pathologies_liees": [
+        "PATH-URGE-0031",
+        "PATH-MINT_REA-0004",
+        "PATH-URGE-0027",
+        "PATH-MLEG-0006",
+        "PATH-SPUB-0002"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-URGE-0026",
+      "nom_fr": "Coup de chaleur",
+      "nom_en": "Heatstroke",
+      "synonymes": [
+        "hyperthermie d'effort ou classique"
+      ],
+      "cim10": "T67.0",
+      "specialite": "URGE",
+      "sous_specialite": "Traumatologie d'urgence",
+      "categories": [
+        "environnementale",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "malaise",
+        "confusion",
+        "arrêt de la sudation (coup de chaleur classique)",
+        "contexte de canicule ou d'effort intense"
+      ],
+      "signes_cliniques": [
+        "température centrale > 40 °C",
+        "troubles neurologiques",
+        "défaillances d'organes"
+      ],
+      "examens_cles": [
+        "température centrale",
+        "CPK, ionogramme, créatininémie, bilan hépatique, hémostase"
+      ],
+      "traitements_cles": [
+        "refroidissement immédiat et intensif",
+        "réhydratation",
+        "prise en charge des défaillances",
+        "prévention (hydratation, adaptation des horaires de travail)"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0022"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-URGE-0027",
+      "nom_fr": "Hypothermie accidentelle",
+      "nom_en": "Accidental hypothermia",
+      "synonymes": [],
+      "cim10": "T68",
+      "specialite": "URGE",
+      "sous_specialite": "Traumatologie d'urgence",
+      "categories": [
+        "environnementale",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "frissons puis disparition des frissons",
+        "confusion",
+        "somnolence"
+      ],
+      "signes_cliniques": [
+        "température centrale < 35 °C",
+        "bradycardie",
+        "troubles du rythme",
+        "coma (formes profondes)"
+      ],
+      "examens_cles": [
+        "température centrale (sonde œsophagienne ou rectale basse lecture)",
+        "ECG (onde J d'Osborn)",
+        "kaliémie",
+        "glycémie"
+      ],
+      "traitements_cles": [
+        "réchauffement externe passif et actif",
+        "réchauffement interne et circulation extracorporelle en cas d'arrêt cardiaque",
+        "manipulation douce (risque de fibrillation ventriculaire)"
+      ],
+      "pathologies_liees": [
+        "PATH-URGE-0008",
+        "PATH-URGE-0025",
+        "PATH-URGE-0028",
+        "PATH-NEON-0016",
+        "PATH-ANES-0007"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-URGE-0028",
+      "nom_fr": "Gelures",
+      "nom_en": "Frostbite",
+      "synonymes": [],
+      "cim10": "T35",
+      "specialite": "URGE",
+      "sous_specialite": "Traumatologie d'urgence",
+      "categories": [
+        "environnementale",
+        "dermatologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "froid, engourdissement puis douleur des extrémités"
+      ],
+      "signes_cliniques": [
+        "lésions graduées (blanchiment, phlyctènes, nécrose)",
+        "localisation aux extrémités"
+      ],
+      "examens_cles": [
+        "évaluation clinique",
+        "scintigraphie osseuse ou IRM (niveau de viabilité) dans les formes graves"
+      ],
+      "traitements_cles": [
+        "réchauffement rapide dans l'eau tiède",
+        "analgésie",
+        "soins locaux",
+        "iloprost ou thrombolyse dans certaines formes graves",
+        "amputation tardive des tissus non viables"
+      ],
+      "pathologies_liees": [
+        "PATH-URGE-0027"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-URGE-0029",
+      "nom_fr": "Électrisation",
+      "nom_en": "Electrical injury",
+      "synonymes": [],
+      "cim10": "T75.4",
+      "specialite": "URGE",
+      "sous_specialite": "Traumatologie d'urgence",
+      "categories": [
+        "environnementale",
+        "traumatique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "contact accidentel avec le courant électrique domestique ou industriel",
+        "douleurs",
+        "perte de connaissance"
+      ],
+      "signes_cliniques": [
+        "troubles du rythme",
+        "brûlures aux points d'entrée et de sortie",
+        "lésions traumatiques (chute, projection)",
+        "rhabdomyolyse"
+      ],
+      "examens_cles": [
+        "ECG et monitorage",
+        "CPK",
+        "myoglobinurie",
+        "fonction rénale"
+      ],
+      "traitements_cles": [
+        "mise en sécurité (coupure du courant)",
+        "réanimation cardiopulmonaire si arrêt",
+        "surveillance cardiaque selon le type d'exposition",
+        "prise en charge des brûlures et de la rhabdomyolyse"
+      ],
+      "pathologies_liees": [
+        "PATH-CPLA-0003",
+        "PATH-URGE-0031",
+        "PATH-MLEG-0009"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-URGE-0030",
+      "nom_fr": "Accident de décompression",
+      "nom_en": "Decompression sickness",
+      "synonymes": [
+        "maladie des caissons"
+      ],
+      "cim10": "T70.3",
+      "specialite": "URGE",
+      "sous_specialite": "Traumatologie d'urgence",
+      "categories": [
+        "environnementale",
+        "urgence",
+        "professionnelle"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "douleurs articulaires",
+        "prurit",
+        "paresthésies",
+        "paraplégie",
+        "vertiges après une plongée sous-marine"
+      ],
+      "signes_cliniques": [
+        "signes neurologiques (atteinte médullaire, vestibulaire)",
+        "signes cutanés (marbrures)",
+        "détresse respiratoire"
+      ],
+      "examens_cles": [
+        "diagnostic clinique (profil de plongée)"
+      ],
+      "traitements_cles": [
+        "oxygénothérapie normobare au masque à haute concentration",
+        "hydratation",
+        "recompression en caisson hyperbare en urgence"
+      ],
+      "pathologies_liees": [
+        "PATH-MINT_REA-0010"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-URGE-0031",
+      "nom_fr": "Arrêt cardiorespiratoire",
+      "nom_en": "Cardiac arrest",
+      "synonymes": [
+        "arrêt cardiaque"
+      ],
+      "cim10": "I46",
+      "specialite": "URGE",
+      "sous_specialite": "Traumatologie d'urgence",
+      "categories": [
+        "cardiovasculaire",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-108"
+      ],
+      "symptomes": [
+        "perte de connaissance brutale",
+        "absence de respiration normale (gasps)"
+      ],
+      "signes_cliniques": [
+        "absence de réponse et de respiration normale",
+        "absence de pouls carotidien"
+      ],
+      "examens_cles": [
+        "rythme initial (choquable : fibrillation ventriculaire, tachycardie ventriculaire sans pouls",
+        "non choquable : asystolie, activité électrique sans pouls)",
+        "recherche des causes réversibles (4H-4T)",
+        "gaz du sang",
+        "ECG et coronarographie après récupération"
+      ],
+      "traitements_cles": [
+        "chaîne de survie : alerte, réanimation cardiopulmonaire précoce, défibrillation (DAE)",
+        "réanimation spécialisée (adrénaline, amiodarone, contrôle des voies aériennes)",
+        "traitement de la cause",
+        "soins post-arrêt (contrôle ciblé de la température)",
+        "prévention par la formation du public"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0039",
+        "PATH-CTHO-0007",
+        "PATH-URGE-0001",
+        "PATH-URGE-0003",
+        "PATH-URGE-0005",
+        "PATH-URGE-0006",
+        "PATH-URGE-0010",
+        "PATH-URGE-0021",
+        "PATH-URGE-0025",
+        "PATH-URGE-0029",
+        "PATH-MINT_REA-0007",
+        "PATH-MINT_REA-0010",
+        "PATH-ANES-0011",
+        "PATH-MLEG-0009",
+        "PATH-MLEG-0014"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-URGE-0032",
+      "nom_fr": "Plaies cutanées traumatiques",
+      "nom_en": "Traumatic skin wounds",
+      "synonymes": [],
+      "cim10": "T14.1",
+      "specialite": "URGE",
+      "sous_specialite": "Traumatologie d'urgence",
+      "categories": [
+        "traumatique",
+        "dermatologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "plaie",
+        "saignement",
+        "douleur"
+      ],
+      "signes_cliniques": [
+        "profondeur",
+        "corps étrangers",
+        "atteinte des structures nobles (tendons, nerfs, vaisseaux)",
+        "souillure"
+      ],
+      "examens_cles": [
+        "exploration de la plaie",
+        "radiographie si corps étranger radio-opaque suspecté"
+      ],
+      "traitements_cles": [
+        "lavage",
+        "parage",
+        "suture ou fermeture adaptée",
+        "prophylaxie antitétanique selon le statut vaccinal",
+        "antibioprophylaxie selon le risque"
+      ],
+      "pathologies_liees": [
+        "PATH-URGE-0023",
+        "PATH-CPLA-0009",
+        "PATH-MLEG-0007"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-URGE-0033",
+      "nom_fr": "Lésions par effet de souffle (blast)",
+      "nom_en": "Blast injury",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "URGE",
+      "sous_specialite": "Médecine de catastrophe",
+      "categories": [
+        "traumatique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "surdité",
+        "dyspnée",
+        "douleurs abdominales après une explosion"
+      ],
+      "signes_cliniques": [
+        "lésions primaires (rupture tympanique, blast pulmonaire, perforations digestives)",
+        "lésions secondaires (projectiles) et tertiaires (projection)",
+        "brûlures"
+      ],
+      "examens_cles": [
+        "otoscopie",
+        "radiographie et scanner thoraciques",
+        "scanner corps entier"
+      ],
+      "traitements_cles": [
+        "triage des victimes (médecine de catastrophe)",
+        "ventilation protectrice",
+        "chirurgie des lésions associées",
+        "prise en charge psychologique"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0042",
+        "PATH-TRAU-0038",
+        "PATH-MLEG-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MINT_REA-0001",
+      "nom_fr": "Choc hypovolémique",
+      "nom_en": "Hypovolaemic shock",
+      "synonymes": [],
+      "cim10": "R57.1",
+      "specialite": "MINT_REA",
+      "sous_specialite": "États de choc",
+      "categories": [
+        "cardiovasculaire",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-106"
+      ],
+      "symptomes": [
+        "soif",
+        "malaise",
+        "oligurie",
+        "troubles de conscience"
+      ],
+      "signes_cliniques": [
+        "tachycardie",
+        "hypotension",
+        "pincement de la pression différentielle",
+        "marbrures",
+        "temps de recoloration allongé",
+        "pertes extériorisées (hémorragie, diarrhée, brûlures)"
+      ],
+      "examens_cles": [
+        "hémoglobine",
+        "lactates",
+        "ionogramme, fonction rénale",
+        "échographie (veine cave inférieure)",
+        "recherche de la cause"
+      ],
+      "traitements_cles": [
+        "remplissage vasculaire (cristalloïdes)",
+        "transfusion si hémorragie",
+        "contrôle de la cause",
+        "vasopresseurs transitoires en cas d'hypotension menaçante"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0039",
+        "PATH-CPLA-0001",
+        "PATH-URGE-0014",
+        "PATH-PEDI-0022",
+        "PATH-MINT_REA-0003",
+        "PATH-PEDI-0030"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MINT_REA-0002",
+      "nom_fr": "Choc obstructif",
+      "nom_en": "Obstructive shock",
+      "synonymes": [],
+      "cim10": "R57.8",
+      "specialite": "MINT_REA",
+      "sous_specialite": "États de choc",
+      "categories": [
+        "cardiovasculaire",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-106"
+      ],
+      "symptomes": [
+        "dyspnée",
+        "douleur thoracique",
+        "malaise"
+      ],
+      "signes_cliniques": [
+        "hypotension avec signes d'insuffisance cardiaque droite (turgescence jugulaire)",
+        "causes : embolie pulmonaire massive, tamponnade, pneumothorax compressif"
+      ],
+      "examens_cles": [
+        "échocardiographie au lit",
+        "radiographie thoracique",
+        "angioscanner thoracique si le patient est transportable"
+      ],
+      "traitements_cles": [
+        "traitement de l'obstacle (thrombolyse ou thrombectomie de l'embolie pulmonaire, péricardiocentèse, exsufflation du pneumothorax)",
+        "soutien hémodynamique"
+      ],
+      "pathologies_liees": [
+        "PATH-CTHO-0001",
+        "PATH-CTHO-0007",
+        "PATH-MINT_REA-0003"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MINT_REA-0003",
+      "nom_fr": "Syndrome de défaillance multiviscérale",
+      "nom_en": "Multiple organ dysfunction syndrome",
+      "synonymes": [
+        "défaillance multiviscérale"
+      ],
+      "cim10": null,
+      "specialite": "MINT_REA",
+      "sous_specialite": "États de choc",
+      "categories": [
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-106"
+      ],
+      "symptomes": [
+        "aggravation progressive au décours d'une agression (sepsis, choc, traumatisme, pancréatite)"
+      ],
+      "signes_cliniques": [
+        "défaillances respiratoire, circulatoire, rénale, hépatique, hématologique et neurologique (score SOFA)"
+      ],
+      "examens_cles": [
+        "gaz du sang, lactates",
+        "fonction rénale et hépatique",
+        "hémostase",
+        "numération plaquettaire"
+      ],
+      "traitements_cles": [
+        "traitement de la cause",
+        "soutien des défaillances (ventilation, vasopresseurs, épuration extrarénale)",
+        "prévention des complications de réanimation"
+      ],
+      "pathologies_liees": [
+        "PATH-CGEN-0011",
+        "PATH-MINT_REA-0001",
+        "PATH-MINT_REA-0002",
+        "PATH-MINT_REA-0004",
+        "PATH-MINT_REA-0008",
+        "PATH-CDIG-0019",
+        "PATH-MINT_REA-0014"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MINT_REA-0004",
+      "nom_fr": "Syndrome de détresse respiratoire aiguë",
+      "nom_en": "Acute respiratory distress syndrome",
+      "synonymes": [
+        "SDRA"
+      ],
+      "cim10": "J80",
+      "specialite": "MINT_REA",
+      "sous_specialite": "SDRA et ventilation mécanique",
+      "categories": [
+        "respiratoire",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-106"
+      ],
+      "symptomes": [
+        "dyspnée aiguë sévère",
+        "polypnée",
+        "cyanose"
+      ],
+      "signes_cliniques": [
+        "hypoxémie sévère (rapport PaO2/FiO2 abaissé, définition de Berlin)",
+        "infiltrats bilatéraux non expliqués par une insuffisance cardiaque",
+        "facteur déclenchant (pneumonie, sepsis, inhalation, pancréatite, traumatisme)"
+      ],
+      "examens_cles": [
+        "gaz du sang",
+        "radiographie ou scanner thoracique",
+        "échocardiographie (élimination d'un œdème cardiogénique)"
+      ],
+      "traitements_cles": [
+        "ventilation protectrice (petits volumes courants, pression de plateau limitée, PEP adaptée)",
+        "décubitus ventral",
+        "curarisation dans certains cas",
+        "ECMO veino-veineuse dans les formes réfractaires",
+        "traitement de la cause"
+      ],
+      "pathologies_liees": [
+        "PATH-CTHO-0005",
+        "PATH-TRAU-0041",
+        "PATH-URGE-0020",
+        "PATH-URGE-0025",
+        "PATH-MINT_REA-0003",
+        "PATH-MINT_REA-0005",
+        "PATH-ANES-0016",
+        "PATH-ANES-0002",
+        "PATH-MINT_REA-0013"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MINT_REA-0005",
+      "nom_fr": "Insuffisance respiratoire aiguë",
+      "nom_en": "Acute respiratory failure",
+      "synonymes": [
+        "détresse respiratoire aiguë"
+      ],
+      "cim10": "J96.0",
+      "specialite": "MINT_REA",
+      "sous_specialite": "SDRA et ventilation mécanique",
+      "categories": [
+        "respiratoire",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "dyspnée",
+        "polypnée",
+        "sueurs",
+        "troubles de conscience (hypercapnie)"
+      ],
+      "signes_cliniques": [
+        "signes de lutte",
+        "cyanose",
+        "signes d'épuisement (respiration abdominale paradoxale)",
+        "astérixis"
+      ],
+      "examens_cles": [
+        "gaz du sang (hypoxémie, hypercapnie, pH)",
+        "radiographie thoracique",
+        "recherche de la cause"
+      ],
+      "traitements_cles": [
+        "oxygénothérapie (dont haut débit nasal)",
+        "ventilation non invasive (décompensation hypercapnique, œdème pulmonaire)",
+        "intubation et ventilation mécanique",
+        "traitement de la cause"
+      ],
+      "pathologies_liees": [
+        "PATH-MINT_REA-0004",
+        "PATH-ORL-0025",
+        "PATH-ORL-0023"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MINT_REA-0006",
+      "nom_fr": "Coma (orientation étiologique en réanimation)",
+      "nom_en": "Coma",
+      "synonymes": [],
+      "cim10": "R40.2",
+      "specialite": "MINT_REA",
+      "sous_specialite": "Neuro-réanimation",
+      "categories": [
+        "neurologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-107"
+      ],
+      "symptomes": [
+        "altération profonde et prolongée de la conscience"
+      ],
+      "signes_cliniques": [
+        "score de Glasgow",
+        "signes de localisation",
+        "pupilles",
+        "signes méningés",
+        "fièvre",
+        "contexte (toxique, métabolique, traumatique, vasculaire, infectieux)"
+      ],
+      "examens_cles": [
+        "glycémie capillaire immédiate",
+        "ionogramme, calcémie, fonction rénale et hépatique",
+        "gaz du sang",
+        "toxicologie",
+        "scanner cérébral",
+        "ponction lombaire",
+        "EEG"
+      ],
+      "traitements_cles": [
+        "protection des voies aériennes (intubation si Glasgow ≤ 8)",
+        "correction immédiate d'une hypoglycémie (avec thiamine si alcoolisme ou dénutrition)",
+        "traitement étiologique",
+        "prévention des complications du décubitus"
+      ],
+      "pathologies_liees": [
+        "PATH-URGE-0001",
+        "PATH-URGE-0004",
+        "PATH-URGE-0010",
+        "PATH-NCHI-0001",
+        "PATH-MINT_REA-0007",
+        "PATH-NEON-0013"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MINT_REA-0007",
+      "nom_fr": "État de mort encéphalique",
+      "nom_en": "Brain death",
+      "synonymes": [
+        "mort cérébrale"
+      ],
+      "cim10": null,
+      "specialite": "MINT_REA",
+      "sous_specialite": "Neuro-réanimation",
+      "categories": [
+        "neurologique",
+        "médico-légale",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-138"
+      ],
+      "symptomes": [
+        "coma aréactif chez un patient ventilé, de cause connue et irréversible"
+      ],
+      "signes_cliniques": [
+        "absence totale de conscience et d'activité motrice spontanée",
+        "abolition de tous les réflexes du tronc cérébral",
+        "absence de ventilation spontanée (épreuve d'hypercapnie)"
+      ],
+      "examens_cles": [
+        "confirmation selon la réglementation (EEG nuls et aréactifs ou angiographie, angioscanner cérébral)"
+      ],
+      "traitements_cles": [
+        "diagnostic selon le cadre légal",
+        "information des proches",
+        "maintien des fonctions d'organes en vue d'un éventuel prélèvement dans le respect de la législation"
+      ],
+      "pathologies_liees": [
+        "PATH-URGE-0031",
+        "PATH-MINT_REA-0006",
+        "PATH-NCHI-0001",
+        "PATH-MLEG-0014"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MINT_REA-0008",
+      "nom_fr": "Neuromyopathie acquise en réanimation",
+      "nom_en": "Intensive care unit-acquired weakness",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "MINT_REA",
+      "sous_specialite": "Nutrition en réanimation",
+      "categories": [
+        "neurologique",
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "faiblesse musculaire diffuse au réveil",
+        "difficulté de sevrage ventilatoire"
+      ],
+      "signes_cliniques": [
+        "tétraparésie flasque symétrique",
+        "aréflexie",
+        "respect relatif de la face",
+        "facteurs de risque (sepsis, corticoïdes, curares, hyperglycémie)"
+      ],
+      "examens_cles": [
+        "score MRC",
+        "électroneuromyogramme"
+      ],
+      "traitements_cles": [
+        "prévention (mobilisation précoce, contrôle glycémique, limitation des sédations et curares)",
+        "rééducation prolongée"
+      ],
+      "pathologies_liees": [
+        "PATH-MINT_REA-0003",
+        "PATH-MPR-0012",
+        "PATH-MINT_REA-0012"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MINT_REA-0009",
+      "nom_fr": "Syndrome du compartiment abdominal",
+      "nom_en": "Abdominal compartment syndrome",
+      "synonymes": [
+        "hypertension intra-abdominale"
+      ],
+      "cim10": null,
+      "specialite": "MINT_REA",
+      "sous_specialite": "États de choc",
+      "categories": [
+        "digestive",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "distension abdominale"
+      ],
+      "signes_cliniques": [
+        "abdomen tendu",
+        "oligurie",
+        "augmentation des pressions de ventilation",
+        "hypotension"
+      ],
+      "examens_cles": [
+        "mesure de la pression intravésicale"
+      ],
+      "traitements_cles": [
+        "mesures médicales (sédation, évacuation des liquides, aspiration digestive, bilan hydrique négatif)",
+        "laparostomie de décompression"
+      ],
+      "pathologies_liees": [
+        "PATH-CPLA-0001",
+        "PATH-TRAU-0038"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MINT_REA-0010",
+      "nom_fr": "Embolie gazeuse",
+      "nom_en": "Gas embolism",
+      "synonymes": [
+        "embolie gazeuse iatrogène"
+      ],
+      "cim10": null,
+      "specialite": "MINT_REA",
+      "sous_specialite": "États de choc",
+      "categories": [
+        "cardiovasculaire",
+        "iatrogène",
+        "urgence"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "malaise brutal",
+        "dyspnée",
+        "signes neurologiques au cours d'un geste (cathéter veineux central, chirurgie, hémodialyse)"
+      ],
+      "signes_cliniques": [
+        "collapsus",
+        "convulsions",
+        "déficit focal",
+        "arrêt cardiaque"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "échocardiographie",
+        "imagerie cérébrale"
+      ],
+      "traitements_cles": [
+        "interruption de l'entrée d'air",
+        "décubitus latéral gauche et Trendelenburg (embolie veineuse)",
+        "oxygène pur",
+        "oxygénothérapie hyperbare (embolie artérielle)"
+      ],
+      "pathologies_liees": [
+        "PATH-URGE-0030",
+        "PATH-URGE-0031",
+        "PATH-ANAP-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ANES-0001",
+      "nom_fr": "Choc anaphylactique peranesthésique",
+      "nom_en": "Perioperative anaphylactic shock",
+      "synonymes": [
+        "allergie peranesthésique"
+      ],
+      "cim10": "T88.6",
+      "specialite": "ANES",
+      "sous_specialite": "Anesthésie générale",
+      "categories": [
+        "iatrogène",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-106"
+      ],
+      "symptomes": [
+        "survenue à l'induction anesthésique (curares, antibiotiques, latex)"
+      ],
+      "signes_cliniques": [
+        "hypotension, tachycardie",
+        "bronchospasme",
+        "érythème ou urticaire",
+        "arrêt cardiaque (grade IV)"
+      ],
+      "examens_cles": [
+        "tryptase sérique (prélèvements répétés)",
+        "histamine",
+        "bilan allergologique à distance (tests cutanés)"
+      ],
+      "traitements_cles": [
+        "arrêt de l'agent suspect",
+        "adrénaline titrée selon le grade",
+        "remplissage vasculaire",
+        "traitement du bronchospasme",
+        "déclaration de pharmacovigilance et carte d'allergie"
+      ],
+      "pathologies_liees": [
+        "PATH-ANES-0003"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ANES-0002",
+      "nom_fr": "Inhalation du contenu gastrique (syndrome de Mendelson)",
+      "nom_en": "Pulmonary aspiration of gastric contents (Mendelson's syndrome)",
+      "synonymes": [
+        "pneumopathie d'inhalation peranesthésique"
+      ],
+      "cim10": "J95.4",
+      "specialite": "ANES",
+      "sous_specialite": "Anesthésie générale",
+      "categories": [
+        "respiratoire",
+        "iatrogène",
+        "obstétricale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "désaturation",
+        "toux",
+        "bronchospasme après une régurgitation lors de l'induction ou du réveil"
+      ],
+      "signes_cliniques": [
+        "liquide gastrique dans l'oropharynx",
+        "hypoxémie",
+        "crépitants"
+      ],
+      "examens_cles": [
+        "radiographie thoracique",
+        "gaz du sang",
+        "fibroscopie bronchique selon les cas"
+      ],
+      "traitements_cles": [
+        "aspiration",
+        "oxygénothérapie et ventilation",
+        "prévention (jeûne préopératoire, induction en séquence rapide, antiacides chez la femme enceinte)"
+      ],
+      "pathologies_liees": [
+        "PATH-MINT_REA-0004",
+        "PATH-ANES-0003",
+        "PATH-ANES-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ANES-0003",
+      "nom_fr": "Intubation difficile et voies aériennes difficiles",
+      "nom_en": "Difficult intubation and airway",
+      "synonymes": [],
+      "cim10": "T88.4",
+      "specialite": "ANES",
+      "sous_specialite": "Anesthésie générale",
+      "categories": [
+        "iatrogène",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "impossibilité ou difficulté de ventilation au masque ou d'intubation"
+      ],
+      "signes_cliniques": [
+        "critères prédictifs (Mallampati, ouverture de bouche, distance thyromentonnière, mobilité cervicale)",
+        "désaturation"
+      ],
+      "examens_cles": [
+        "évaluation préanesthésique des voies aériennes",
+        "capnographie (confirmation de l'intubation)"
+      ],
+      "traitements_cles": [
+        "algorithmes de gestion (oxygénation préalable, vidéolaryngoscope, dispositifs supraglottiques, mandrin)",
+        "intubation vigile sous fibroscopie si difficulté prévue",
+        "abord trachéal d'urgence (cricothyroïdotomie) en dernier recours"
+      ],
+      "pathologies_liees": [
+        "PATH-ANES-0001",
+        "PATH-ANES-0002",
+        "PATH-ANES-0010"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ANES-0004",
+      "nom_fr": "Mémorisation peropératoire (réveil peropératoire)",
+      "nom_en": "Intraoperative awareness",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ANES",
+      "sous_specialite": "Anesthésie générale",
+      "categories": [
+        "iatrogène",
+        "psychiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "souvenirs d'événements peropératoires",
+        "anxiété",
+        "cauchemars"
+      ],
+      "signes_cliniques": [
+        "facteurs de risque (anesthésie intraveineuse totale avec curares, césarienne, chirurgie cardiaque, instabilité hémodynamique)"
+      ],
+      "examens_cles": [
+        "entretien postopératoire structuré",
+        "monitorage de la profondeur d'anesthésie (index bispectral) en prévention"
+      ],
+      "traitements_cles": [
+        "prévention par une anesthésie adaptée et monitorée",
+        "prise en charge psychologique précoce (risque d'état de stress post-traumatique)"
+      ],
+      "pathologies_liees": [
+        "PATH-ANES-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ANES-0005",
+      "nom_fr": "Nausées et vomissements postopératoires",
+      "nom_en": "Postoperative nausea and vomiting",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ANES",
+      "sous_specialite": "Anesthésie générale",
+      "categories": [
+        "iatrogène",
+        "digestive"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "nausées",
+        "vomissements après une anesthésie"
+      ],
+      "signes_cliniques": [
+        "facteurs de risque (score d'Apfel : sexe féminin, non-fumeur, antécédents de mal des transports ou de NVPO, morphiniques postopératoires)"
+      ],
+      "examens_cles": [
+        "évaluation du risque préopératoire"
+      ],
+      "traitements_cles": [
+        "prophylaxie multimodale selon le score (dexaméthasone, sétrons, dropéridol)",
+        "limitation des facteurs favorisants (morphiniques, protoxyde d'azote)",
+        "traitement curatif d'une classe différente"
+      ],
+      "pathologies_liees": [
+        "PATH-ANES-0014"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ANES-0006",
+      "nom_fr": "Delirium postopératoire",
+      "nom_en": "Postoperative delirium",
+      "synonymes": [
+        "confusion postopératoire"
+      ],
+      "cim10": null,
+      "specialite": "ANES",
+      "sous_specialite": "Anesthésie générale",
+      "categories": [
+        "neurologique",
+        "psychiatrique",
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "confusion aiguë fluctuante",
+        "troubles de l'attention",
+        "agitation ou hypoactivité dans les jours suivant une chirurgie, surtout chez le sujet âgé"
+      ],
+      "signes_cliniques": [
+        "début brutal",
+        "fluctuations",
+        "inversion du rythme veille-sommeil"
+      ],
+      "examens_cles": [
+        "échelles de dépistage (CAM)",
+        "recherche de causes (douleur, rétention urinaire, infection, hypoxémie, troubles métaboliques, médicaments)"
+      ],
+      "traitements_cles": [
+        "prévention non médicamenteuse (réorientation, lunettes, appareils auditifs, sommeil, mobilisation)",
+        "traitement des causes",
+        "neuroleptiques à faible dose en cas d'agitation dangereuse"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0017",
+        "PATH-ANES-0014",
+        "PATH-MINT_REA-0011"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ANES-0007",
+      "nom_fr": "Hypothermie peropératoire",
+      "nom_en": "Perioperative hypothermia",
+      "synonymes": [],
+      "cim10": "T88.5",
+      "specialite": "ANES",
+      "sous_specialite": "Anesthésie générale",
+      "categories": [
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "frissons au réveil",
+        "inconfort"
+      ],
+      "signes_cliniques": [
+        "température centrale < 36 °C pendant ou après une anesthésie"
+      ],
+      "examens_cles": [
+        "monitorage de la température centrale"
+      ],
+      "traitements_cles": [
+        "réchauffement actif (couverture à air pulsé, réchauffement des solutés)",
+        "prévention dès l'induction"
+      ],
+      "pathologies_liees": [
+        "PATH-URGE-0027",
+        "PATH-NEON-0016"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ANES-0008",
+      "nom_fr": "Curarisation résiduelle postopératoire",
+      "nom_en": "Residual neuromuscular blockade",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ANES",
+      "sous_specialite": "Anesthésie générale",
+      "categories": [
+        "iatrogène",
+        "respiratoire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "faiblesse",
+        "difficultés respiratoires et de déglutition au réveil"
+      ],
+      "signes_cliniques": [
+        "hypoventilation",
+        "inhalation",
+        "obstruction des voies aériennes supérieures"
+      ],
+      "examens_cles": [
+        "monitorage de la curarisation (rapport du train de quatre)"
+      ],
+      "traitements_cles": [
+        "monitorage systématique",
+        "antagonisation (néostigmine, sugammadex selon le curare)",
+        "ventilation jusqu'à décurarisation complète"
+      ],
+      "pathologies_liees": [
+        "PATH-ANES-0004",
+        "PATH-ANES-0009",
+        "PATH-ANES-0002"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ANES-0009",
+      "nom_fr": "Déficit en pseudocholinestérase (apnée prolongée à la succinylcholine)",
+      "nom_en": "Pseudocholinesterase deficiency",
+      "synonymes": [
+        "déficit en butyrylcholinestérase"
+      ],
+      "cim10": null,
+      "specialite": "ANES",
+      "sous_specialite": "Anesthésie générale",
+      "categories": [
+        "génétique",
+        "iatrogène"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "apnée prolongée après administration de succinylcholine ou de mivacurium"
+      ],
+      "signes_cliniques": [
+        "absence de reprise ventilatoire"
+      ],
+      "examens_cles": [
+        "dosage de l'activité de la cholinestérase plasmatique",
+        "phénotypage",
+        "enquête familiale"
+      ],
+      "traitements_cles": [
+        "ventilation et sédation jusqu'à récupération spontanée",
+        "carte d'information du patient",
+        "éviction des curares concernés"
+      ],
+      "pathologies_liees": [
+        "PATH-ANES-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ANES-0010",
+      "nom_fr": "Laryngospasme",
+      "nom_en": "Laryngospasm",
+      "synonymes": [],
+      "cim10": "J38.5",
+      "specialite": "ANES",
+      "sous_specialite": "Anesthésie générale",
+      "categories": [
+        "respiratoire",
+        "iatrogène",
+        "pédiatrique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "stridor ou obstruction complète des voies aériennes à l'induction ou à l'extubation, surtout chez l'enfant"
+      ],
+      "signes_cliniques": [
+        "désaturation rapide",
+        "mouvements respiratoires paradoxaux"
+      ],
+      "examens_cles": [
+        "diagnostic clinique"
+      ],
+      "traitements_cles": [
+        "arrêt de la stimulation",
+        "oxygène en pression positive",
+        "approfondissement de l'anesthésie",
+        "curare à action rapide et intubation si persistance"
+      ],
+      "pathologies_liees": [
+        "PATH-ANES-0003",
+        "PATH-ORL-0022"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ANES-0011",
+      "nom_fr": "Toxicité systémique des anesthésiques locaux",
+      "nom_en": "Local anaesthetic systemic toxicity",
+      "synonymes": [],
+      "cim10": "T41.3",
+      "specialite": "ANES",
+      "sous_specialite": "Anesthésie locorégionale",
+      "categories": [
+        "toxique",
+        "iatrogène",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "goût métallique",
+        "paresthésies péribuccales",
+        "acouphènes",
+        "agitation puis convulsions"
+      ],
+      "signes_cliniques": [
+        "convulsions",
+        "troubles du rythme et de la conduction",
+        "collapsus",
+        "arrêt cardiaque (bupivacaïne)"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "ECG"
+      ],
+      "traitements_cles": [
+        "arrêt de l'injection",
+        "oxygénation",
+        "benzodiazépines si convulsions",
+        "émulsion lipidique intraveineuse",
+        "réanimation cardiopulmonaire prolongée",
+        "prévention (doses maximales, injections fractionnées, échoguidage)"
+      ],
+      "pathologies_liees": [
+        "PATH-URGE-0031"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ANES-0012",
+      "nom_fr": "Céphalée post-ponction durale",
+      "nom_en": "Post-dural puncture headache",
+      "synonymes": [
+        "syndrome post-ponction lombaire"
+      ],
+      "cim10": "G97.1",
+      "specialite": "ANES",
+      "sous_specialite": "Anesthésie locorégionale",
+      "categories": [
+        "neurologique",
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "céphalées orthostatiques (aggravées en position debout, soulagées en décubitus) quelques jours après une rachianesthésie, une péridurale ou une ponction lombaire",
+        "nausées",
+        "acouphènes"
+      ],
+      "signes_cliniques": [
+        "examen neurologique normal",
+        "raideur de nuque possible"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "imagerie cérébrale si atypie (hématome sous-dural, thrombophlébite)"
+      ],
+      "traitements_cles": [
+        "antalgiques, caféine",
+        "blood patch péridural si persistance ou sévérité"
+      ],
+      "pathologies_liees": [
+        "PATH-ANES-0013"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ANES-0013",
+      "nom_fr": "Hématome périmédullaire après anesthésie neuraxiale",
+      "nom_en": "Spinal epidural haematoma after neuraxial anaesthesia",
+      "synonymes": [
+        "hématome péridural"
+      ],
+      "cim10": null,
+      "specialite": "ANES",
+      "sous_specialite": "Anesthésie locorégionale",
+      "categories": [
+        "neurologique",
+        "iatrogène",
+        "urgence"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "douleurs rachidiennes",
+        "déficit moteur ou sensitif des membres inférieurs",
+        "troubles sphinctériens après une péridurale ou une rachianesthésie"
+      ],
+      "signes_cliniques": [
+        "déficit neurologique progressif ou prolongé au-delà de la durée attendue du bloc",
+        "terrain d'anticoagulation"
+      ],
+      "examens_cles": [
+        "IRM médullaire en urgence"
+      ],
+      "traitements_cles": [
+        "décompression chirurgicale en urgence",
+        "prévention (respect des délais entre anticoagulants et geste neuraxial)"
+      ],
+      "pathologies_liees": [
+        "PATH-ANES-0012"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ANES-0014",
+      "nom_fr": "Douleur aiguë postopératoire",
+      "nom_en": "Acute postoperative pain",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ANES",
+      "sous_specialite": "Douleur",
+      "categories": [
+        "neurologique",
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [
+        "RES-MED-168"
+      ],
+      "symptomes": [
+        "douleur au site opératoire",
+        "retentissement sur la mobilisation, la toux et le sommeil"
+      ],
+      "signes_cliniques": [
+        "intensité (EVA, EN)",
+        "signes de complication chirurgicale devant une douleur inhabituelle"
+      ],
+      "examens_cles": [
+        "évaluation régulière de la douleur et de la sédation"
+      ],
+      "traitements_cles": [
+        "analgésie multimodale (paracétamol, AINS, néfopam, morphiniques titrés)",
+        "analgésie locorégionale (blocs périphériques, péridurale)",
+        "analgésie autocontrôlée",
+        "prévention de la chronicisation"
+      ],
+      "pathologies_liees": [
+        "PATH-ANES-0005",
+        "PATH-ANES-0006",
+        "PATH-ANES-0015"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ANES-0015",
+      "nom_fr": "Douleur chronique postchirurgicale",
+      "nom_en": "Chronic postsurgical pain",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ANES",
+      "sous_specialite": "Douleur",
+      "categories": [
+        "neurologique",
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur persistant plus de 3 mois après une chirurgie (thoracotomie, mastectomie, hernie inguinale, amputation)"
+      ],
+      "signes_cliniques": [
+        "composante neuropathique (allodynie, brûlures, décharges électriques)"
+      ],
+      "examens_cles": [
+        "évaluation de la douleur (questionnaire DN4)",
+        "recherche d'une complication chirurgicale"
+      ],
+      "traitements_cles": [
+        "prise en charge en structure douleur",
+        "antalgiques adaptés (antiépileptiques, antidépresseurs en cas de douleur neuropathique)",
+        "prévention (analgésie périopératoire efficace)"
+      ],
+      "pathologies_liees": [
+        "PATH-ANES-0014",
+        "PATH-MPR-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ANES-0016",
+      "nom_fr": "Œdème pulmonaire lésionnel post-transfusionnel (TRALI)",
+      "nom_en": "Transfusion-related acute lung injury",
+      "synonymes": [
+        "TRALI"
+      ],
+      "cim10": null,
+      "specialite": "ANES",
+      "sous_specialite": "Transfusion périopératoire",
+      "categories": [
+        "respiratoire",
+        "hématologique",
+        "iatrogène",
+        "urgence"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [
+        "RES-MED-171"
+      ],
+      "symptomes": [
+        "dyspnée aiguë dans les 6 heures suivant une transfusion"
+      ],
+      "signes_cliniques": [
+        "hypoxémie",
+        "infiltrats pulmonaires bilatéraux",
+        "fièvre",
+        "hypotension",
+        "absence de surcharge volémique"
+      ],
+      "examens_cles": [
+        "radiographie thoracique",
+        "gaz du sang",
+        "échocardiographie (élimination d'une surcharge)",
+        "recherche d'anticorps anti-HLA ou anti-HNA chez le donneur"
+      ],
+      "traitements_cles": [
+        "arrêt de la transfusion",
+        "oxygénothérapie et ventilation",
+        "déclaration d'hémovigilance"
+      ],
+      "pathologies_liees": [
+        "PATH-MINT_REA-0004",
+        "PATH-ANES-0017"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ANES-0017",
+      "nom_fr": "Surcharge volémique post-transfusionnelle (TACO)",
+      "nom_en": "Transfusion-associated circulatory overload",
+      "synonymes": [
+        "TACO"
+      ],
+      "cim10": null,
+      "specialite": "ANES",
+      "sous_specialite": "Transfusion périopératoire",
+      "categories": [
+        "cardiovasculaire",
+        "hématologique",
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-171"
+      ],
+      "symptomes": [
+        "dyspnée",
+        "orthopnée pendant ou après une transfusion"
+      ],
+      "signes_cliniques": [
+        "HTA",
+        "turgescence jugulaire",
+        "crépitants",
+        "œdème pulmonaire",
+        "terrain (sujet âgé, insuffisance cardiaque ou rénale)"
+      ],
+      "examens_cles": [
+        "radiographie thoracique",
+        "NT-proBNP",
+        "échocardiographie"
+      ],
+      "traitements_cles": [
+        "arrêt ou ralentissement de la transfusion",
+        "diurétiques",
+        "oxygénothérapie",
+        "prévention (débit adapté, transfusion fractionnée)"
+      ],
+      "pathologies_liees": [
+        "PATH-ANES-0016"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MINT_REA-0011",
+      "nom_fr": "Delirium en réanimation",
+      "nom_en": "Intensive care unit delirium",
+      "synonymes": [
+        "confusion de réanimation"
+      ],
+      "cim10": null,
+      "specialite": "MINT_REA",
+      "sous_specialite": "Neuro-réanimation",
+      "categories": [
+        "neurologique",
+        "psychiatrique",
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "désorientation",
+        "agitation ou au contraire hypoactivité",
+        "troubles de l'attention fluctuants"
+      ],
+      "signes_cliniques": [
+        "début brutal et fluctuation",
+        "facteurs favorisants (sepsis, sédatifs, privation de sommeil, contentions)"
+      ],
+      "examens_cles": [
+        "dépistage par une échelle adaptée (CAM-ICU)",
+        "recherche de causes (sepsis, troubles métaboliques, sevrage, médicaments)"
+      ],
+      "traitements_cles": [
+        "prévention non médicamenteuse (réorientation, sommeil, mobilisation précoce, limitation des benzodiazépines)",
+        "traitement des causes",
+        "neuroleptique à faible dose en cas d'agitation dangereuse"
+      ],
+      "pathologies_liees": [
+        "PATH-MINT_REA-0012",
+        "PATH-ANES-0006"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MINT_REA-0012",
+      "nom_fr": "Syndrome post-réanimation (PICS)",
+      "nom_en": "Post-intensive care syndrome",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "MINT_REA",
+      "sous_specialite": "Neuro-réanimation",
+      "categories": [
+        "neurologique",
+        "psychiatrique",
+        "handicap"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "fatigue",
+        "faiblesse musculaire",
+        "troubles cognitifs (mémoire, attention)",
+        "anxiété, dépression, état de stress post-traumatique après un séjour en réanimation"
+      ],
+      "signes_cliniques": [
+        "neuromyopathie acquise",
+        "déconditionnement",
+        "retentissement sur la reprise professionnelle et la famille"
+      ],
+      "examens_cles": [
+        "évaluation fonctionnelle, cognitive et psychologique en consultation post-réanimation"
+      ],
+      "traitements_cles": [
+        "rééducation précoce et réadaptation",
+        "prise en charge psychologique",
+        "consultation de suivi post-réanimation",
+        "soutien des proches"
+      ],
+      "pathologies_liees": [
+        "PATH-MPR-0012",
+        "PATH-MINT_REA-0011",
+        "PATH-MINT_REA-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MINT_REA-0013",
+      "nom_fr": "Barotraumatisme sous ventilation mécanique",
+      "nom_en": "Ventilator-induced barotrauma",
+      "synonymes": [
+        "pneumothorax sous ventilation"
+      ],
+      "cim10": null,
+      "specialite": "MINT_REA",
+      "sous_specialite": "SDRA et ventilation mécanique",
+      "categories": [
+        "respiratoire",
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "aggravation respiratoire brutale",
+        "désaturation chez un patient ventilé"
+      ],
+      "signes_cliniques": [
+        "augmentation des pressions d'insufflation",
+        "emphysème sous-cutané",
+        "asymétrie auscultatoire",
+        "collapsus (pneumothorax compressif)"
+      ],
+      "examens_cles": [
+        "échographie pleurale",
+        "radiographie thoracique",
+        "scanner (pneumomédiastin)"
+      ],
+      "traitements_cles": [
+        "exsufflation ou drainage thoracique en urgence",
+        "ventilation protectrice (limitation des pressions et des volumes)"
+      ],
+      "pathologies_liees": [
+        "PATH-MINT_REA-0004",
+        "PATH-CTHO-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MINT_REA-0014",
+      "nom_fr": "Lésions gastroduodénales de stress en réanimation",
+      "nom_en": "Stress-related mucosal disease",
+      "synonymes": [
+        "ulcère de stress"
+      ],
+      "cim10": null,
+      "specialite": "MINT_REA",
+      "sous_specialite": "États de choc",
+      "categories": [
+        "digestive",
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "hémorragie digestive haute (hématémèse, sang dans la sonde gastrique, méléna) chez un patient de réanimation"
+      ],
+      "signes_cliniques": [
+        "facteurs de risque (ventilation mécanique prolongée, coagulopathie, état de choc)"
+      ],
+      "examens_cles": [
+        "NFS",
+        "endoscopie digestive haute"
+      ],
+      "traitements_cles": [
+        "prévention (IPP chez les patients à risque, nutrition entérale précoce)",
+        "traitement endoscopique de l'hémorragie"
+      ],
+      "pathologies_liees": [
+        "PATH-MINT_REA-0003",
+        "PATH-CDIG-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    }
+  ]
+}

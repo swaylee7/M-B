@@ -1,0 +1,4399 @@
+{
+  "agent": "ENC-2",
+  "date": "2026-11-19",
+  "pathologies": [
+    {
+      "id": "PATH-ORL-0001",
+      "nom_fr": "Otite moyenne aiguë",
+      "nom_en": "Acute otitis media",
+      "synonymes": [
+        "otite moyenne aiguë purulente"
+      ],
+      "cim10": "H66.0",
+      "specialite": "ORL",
+      "sous_specialite": "Otologie",
+      "categories": [
+        "infectieuse",
+        "ORL",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-044"
+      ],
+      "symptomes": [
+        "otalgie",
+        "fièvre",
+        "irritabilité du nourrisson",
+        "otorrhée (perforation)"
+      ],
+      "signes_cliniques": [
+        "tympan bombant, inflammatoire, opaque à l'otoscopie",
+        "conjonctivite associée (Haemophilus influenzae)"
+      ],
+      "examens_cles": [
+        "diagnostic otoscopique",
+        "paracentèse avec prélèvement bactériologique en cas d'échec ou chez le très jeune nourrisson"
+      ],
+      "traitements_cles": [
+        "antalgiques et antipyrétiques",
+        "antibiothérapie (amoxicilline en première intention) selon l'âge et la sévérité",
+        "paracentèse",
+        "prévention (vaccination antipneumococcique)"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0005",
+        "PATH-ORL-0002",
+        "PATH-ORL-0003",
+        "PATH-ORL-0032",
+        "PATH-PEDI-0029"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0002",
+      "nom_fr": "Otite séromuqueuse",
+      "nom_en": "Otitis media with effusion",
+      "synonymes": [
+        "otite moyenne chronique à tympan fermé"
+      ],
+      "cim10": "H65",
+      "specialite": "ORL",
+      "sous_specialite": "Otologie",
+      "categories": [
+        "ORL",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [
+        "RES-CHI-044"
+      ],
+      "symptomes": [
+        "hypoacousie",
+        "retard de langage",
+        "sensation d'oreille pleine"
+      ],
+      "signes_cliniques": [
+        "tympan mat, rétracté, épanchement rétrotympanique, niveau liquide"
+      ],
+      "examens_cles": [
+        "otoscopie",
+        "tympanométrie (courbe plate)",
+        "audiométrie (surdité de transmission)",
+        "examen du cavum chez l'adulte (élimination d'un cancer du cavum si unilatérale)"
+      ],
+      "traitements_cles": [
+        "surveillance",
+        "aérateurs transtympaniques si persistance avec retentissement auditif",
+        "adénoïdectomie selon les cas"
+      ],
+      "pathologies_liees": [
+        "PATH-CPLA-0007",
+        "PATH-ORL-0001",
+        "PATH-ORL-0032",
+        "PATH-PEDI-0034"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0003",
+      "nom_fr": "Otite moyenne chronique simple (perforation tympanique)",
+      "nom_en": "Chronic suppurative otitis media",
+      "synonymes": [
+        "otite chronique muqueuse à tympan ouvert"
+      ],
+      "cim10": "H66.1",
+      "specialite": "ORL",
+      "sous_specialite": "Otologie",
+      "categories": [
+        "infectieuse",
+        "ORL"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [
+        "RES-CHI-045"
+      ],
+      "symptomes": [
+        "otorrhée intermittente",
+        "hypoacousie"
+      ],
+      "signes_cliniques": [
+        "perforation tympanique non marginale",
+        "muqueuse de caisse inflammatoire"
+      ],
+      "examens_cles": [
+        "otoscopie (microscope)",
+        "audiométrie",
+        "scanner des rochers si doute de cholestéatome"
+      ],
+      "traitements_cles": [
+        "soins locaux et gouttes auriculaires lors des poussées",
+        "protection de l'oreille vis-à-vis de l'eau",
+        "tympanoplastie"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0001",
+        "PATH-ORL-0004"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0004",
+      "nom_fr": "Cholestéatome de l'oreille moyenne",
+      "nom_en": "Middle ear cholesteatoma",
+      "synonymes": [
+        "otite chronique cholestéatomateuse"
+      ],
+      "cim10": "H71",
+      "specialite": "ORL",
+      "sous_specialite": "Otologie",
+      "categories": [
+        "ORL"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-045"
+      ],
+      "symptomes": [
+        "otorrhée fétide persistante",
+        "hypoacousie",
+        "vertiges ou paralysie faciale (complications)"
+      ],
+      "signes_cliniques": [
+        "perforation marginale ou poche de rétraction avec squames blanchâtres"
+      ],
+      "examens_cles": [
+        "otoscopie au microscope",
+        "audiométrie",
+        "scanner des rochers",
+        "IRM (séquences de diffusion) pour les récidives"
+      ],
+      "traitements_cles": [
+        "chirurgie d'exérèse (tympanoplastie en technique fermée ou ouverte)",
+        "surveillance prolongée (récidive)"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0003",
+        "PATH-ORL-0005",
+        "PATH-NCHI-0014"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0005",
+      "nom_fr": "Mastoïdite aiguë",
+      "nom_en": "Acute mastoiditis",
+      "synonymes": [],
+      "cim10": "H70.0",
+      "specialite": "ORL",
+      "sous_specialite": "Otologie",
+      "categories": [
+        "infectieuse",
+        "ORL",
+        "pédiatrique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-044"
+      ],
+      "symptomes": [
+        "otalgie",
+        "fièvre",
+        "altération de l'état général"
+      ],
+      "signes_cliniques": [
+        "décollement du pavillon de l'oreille",
+        "tuméfaction rétro-auriculaire inflammatoire",
+        "otite moyenne aiguë associée"
+      ],
+      "examens_cles": [
+        "scanner des rochers avec injection (ostéolyse, abcès sous-périosté, thrombophlébite du sinus latéral)"
+      ],
+      "traitements_cles": [
+        "antibiothérapie parentérale",
+        "paracentèse",
+        "drainage chirurgical d'un abcès ou mastoïdectomie"
+      ],
+      "pathologies_liees": [
+        "PATH-NCHI-0014",
+        "PATH-ORL-0001",
+        "PATH-ORL-0004"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0006",
+      "nom_fr": "Otite externe",
+      "nom_en": "Otitis externa",
+      "synonymes": [
+        "otite du baigneur"
+      ],
+      "cim10": "H60",
+      "specialite": "ORL",
+      "sous_specialite": "Otologie",
+      "categories": [
+        "infectieuse",
+        "ORL"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "otalgie intense majorée par la traction du pavillon ou la mastication",
+        "otorrhée",
+        "prurit"
+      ],
+      "signes_cliniques": [
+        "conduit auditif externe œdématié, inflammatoire",
+        "tympan normal quand visible"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "prélèvement en cas d'échec ou de terrain particulier (diabète)"
+      ],
+      "traitements_cles": [
+        "nettoyage du conduit",
+        "gouttes auriculaires antibiotiques (avec ou sans corticoïdes)",
+        "antalgiques",
+        "mèche si conduit très œdématié"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0007"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0007",
+      "nom_fr": "Otite externe maligne (nécrosante)",
+      "nom_en": "Malignant (necrotizing) otitis externa",
+      "synonymes": [
+        "otite externe nécrosante"
+      ],
+      "cim10": "H60.2",
+      "specialite": "ORL",
+      "sous_specialite": "Otologie",
+      "categories": [
+        "infectieuse",
+        "ORL",
+        "urgence"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "otalgie intense et insomniante",
+        "otorrhée persistante chez un sujet âgé diabétique"
+      ],
+      "signes_cliniques": [
+        "tissu de granulation du conduit",
+        "paralysies des nerfs crâniens (VII, puis IX, X, XI)"
+      ],
+      "examens_cles": [
+        "scanner et IRM (ostéite de la base du crâne)",
+        "scintigraphie",
+        "prélèvements (Pseudomonas aeruginosa)"
+      ],
+      "traitements_cles": [
+        "antibiothérapie anti-pyocyanique prolongée",
+        "équilibre du diabète",
+        "soins locaux"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0006"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0008",
+      "nom_fr": "Otospongiose",
+      "nom_en": "Otosclerosis",
+      "synonymes": [
+        "otosclérose"
+      ],
+      "cim10": "H80",
+      "specialite": "ORL",
+      "sous_specialite": "Otologie",
+      "categories": [
+        "ORL"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "hypoacousie progressive chez l'adulte jeune (souvent la femme)",
+        "acouphènes",
+        "aggravation lors des grossesses"
+      ],
+      "signes_cliniques": [
+        "tympan normal",
+        "surdité de transmission"
+      ],
+      "examens_cles": [
+        "audiométrie tonale (surdité de transmission, encoche de Carhart)",
+        "tympanométrie (abolition du réflexe stapédien)",
+        "scanner des rochers"
+      ],
+      "traitements_cles": [
+        "chirurgie (stapédotomie)",
+        "prothèse auditive"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0012"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0009",
+      "nom_fr": "Surdité brusque idiopathique",
+      "nom_en": "Sudden sensorineural hearing loss",
+      "synonymes": [],
+      "cim10": "H91.2",
+      "specialite": "ORL",
+      "sous_specialite": "Audiologie et vestibulologie",
+      "categories": [
+        "ORL",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "baisse brutale de l'audition, unilatérale",
+        "acouphènes",
+        "sensation d'oreille pleine",
+        "vertiges parfois"
+      ],
+      "signes_cliniques": [
+        "otoscopie normale",
+        "Weber latéralisé du côté sain"
+      ],
+      "examens_cles": [
+        "audiométrie tonale (surdité de perception)",
+        "IRM (élimination d'un schwannome vestibulaire)"
+      ],
+      "traitements_cles": [
+        "corticothérapie précoce (générale ou intratympanique)",
+        "oxygénothérapie hyperbare selon les pratiques"
+      ],
+      "pathologies_liees": [
+        "PATH-NCHI-0011",
+        "PATH-ORL-0012",
+        "PATH-ORL-0011"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0010",
+      "nom_fr": "Surdité congénitale de l'enfant",
+      "nom_en": "Congenital hearing loss",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ORL",
+      "sous_specialite": "Audiologie et vestibulologie",
+      "categories": [
+        "ORL",
+        "congénitale",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "absence de réaction aux bruits",
+        "retard de langage"
+      ],
+      "signes_cliniques": [
+        "examen otologique",
+        "recherche d'un syndrome associé",
+        "facteurs de risque (CMV, prématurité, ictère sévère, antécédents familiaux)"
+      ],
+      "examens_cles": [
+        "dépistage néonatal (otoémissions acoustiques, potentiels évoqués auditifs automatisés)",
+        "audiométrie adaptée à l'âge",
+        "imagerie",
+        "bilan génétique (connexine 26) et CMV"
+      ],
+      "traitements_cles": [
+        "appareillage auditif précoce",
+        "implant cochléaire dans les surdités profondes",
+        "rééducation orthophonique",
+        "accompagnement familial"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0016",
+        "PATH-NEON-0029",
+        "PATH-NEON-0030",
+        "PATH-NEON-0039",
+        "PATH-PEDI-0034"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0011",
+      "nom_fr": "Maladie de Ménière",
+      "nom_en": "Ménière's disease",
+      "synonymes": [
+        "hydrops endolymphatique"
+      ],
+      "cim10": "H81.0",
+      "specialite": "ORL",
+      "sous_specialite": "Audiologie et vestibulologie",
+      "categories": [
+        "ORL"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-047"
+      ],
+      "symptomes": [
+        "crises de vertiges rotatoires de quelques heures",
+        "surdité fluctuante",
+        "acouphènes",
+        "plénitude de l'oreille"
+      ],
+      "signes_cliniques": [
+        "nystagmus pendant la crise",
+        "surdité de perception progressive"
+      ],
+      "examens_cles": [
+        "audiométrie (surdité de perception sur les graves)",
+        "vidéonystagmographie",
+        "IRM (élimination d'un schwannome, visualisation de l'hydrops)"
+      ],
+      "traitements_cles": [
+        "traitement de la crise (antivertigineux)",
+        "traitement de fond (bétahistine, mesures hygiéno-diététiques)",
+        "injections intratympaniques",
+        "chirurgie dans les formes invalidantes"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0009",
+        "PATH-ORL-0012"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0012",
+      "nom_fr": "Acouphènes",
+      "nom_en": "Tinnitus",
+      "synonymes": [],
+      "cim10": "H93.1",
+      "specialite": "ORL",
+      "sous_specialite": "Audiologie et vestibulologie",
+      "categories": [
+        "ORL"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "perception d'un son en l'absence de source externe (sifflement, bourdonnement)",
+        "retentissement sur le sommeil et la concentration"
+      ],
+      "signes_cliniques": [
+        "otoscopie",
+        "recherche d'un acouphène pulsatile (cause vasculaire)"
+      ],
+      "examens_cles": [
+        "audiométrie",
+        "IRM si acouphène unilatéral ou asymétrique",
+        "imagerie vasculaire si pulsatile"
+      ],
+      "traitements_cles": [
+        "traitement de la cause",
+        "appareillage auditif",
+        "thérapies cognitivo-comportementales",
+        "thérapie sonore"
+      ],
+      "pathologies_liees": [
+        "PATH-NCHI-0011",
+        "PATH-ORL-0008",
+        "PATH-ORL-0009",
+        "PATH-ORL-0011",
+        "PATH-MTRA-0013"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0013",
+      "nom_fr": "Épistaxis",
+      "nom_en": "Epistaxis",
+      "synonymes": [
+        "saignement de nez"
+      ],
+      "cim10": "R04.0",
+      "specialite": "ORL",
+      "sous_specialite": "Rhinologie",
+      "categories": [
+        "ORL",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-046"
+      ],
+      "symptomes": [
+        "saignement nasal antérieur ou postérieur"
+      ],
+      "signes_cliniques": [
+        "abondance et retentissement (pouls, pression artérielle)",
+        "HTA",
+        "prise d'anticoagulants",
+        "recherche d'une cause locale ou générale"
+      ],
+      "examens_cles": [
+        "NFS, hémostase, groupage si abondante",
+        "endoscopie nasale",
+        "imagerie selon le contexte (tumeur)"
+      ],
+      "traitements_cles": [
+        "compression bidigitale",
+        "méchage antérieur",
+        "tamponnement postérieur",
+        "cautérisation",
+        "ligature ou embolisation artérielle si récidive",
+        "traitement de la cause"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0021",
+        "PATH-ORL-0019",
+        "PATH-MTRA-0011"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0014",
+      "nom_fr": "Sinusite aiguë de l'adulte",
+      "nom_en": "Acute rhinosinusitis",
+      "synonymes": [
+        "rhinosinusite aiguë"
+      ],
+      "cim10": "J01",
+      "specialite": "ORL",
+      "sous_specialite": "Rhinologie",
+      "categories": [
+        "infectieuse",
+        "ORL"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur sinusienne unilatérale majorée par l'antéflexion",
+        "rhinorrhée purulente",
+        "obstruction nasale"
+      ],
+      "signes_cliniques": [
+        "rhinorrhée purulente au méat moyen",
+        "complications orbitaires ou cérébrales (sinusites frontales, ethmoïdales, sphénoïdales)"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "scanner des sinus si complication, forme frontale ou sphénoïdale, échec"
+      ],
+      "traitements_cles": [
+        "lavages nasaux",
+        "antalgiques",
+        "antibiothérapie dans les formes sévères, compliquées ou d'origine dentaire"
+      ],
+      "pathologies_liees": [
+        "PATH-NCHI-0014",
+        "PATH-ORL-0015",
+        "PATH-ORL-0017",
+        "PATH-OPHT-0041"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0015",
+      "nom_fr": "Rhinosinusite chronique",
+      "nom_en": "Chronic rhinosinusitis",
+      "synonymes": [],
+      "cim10": "J32",
+      "specialite": "ORL",
+      "sous_specialite": "Rhinologie",
+      "categories": [
+        "inflammatoire",
+        "ORL"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "obstruction nasale",
+        "rhinorrhée",
+        "douleurs faciales",
+        "troubles de l'odorat depuis plus de 12 semaines"
+      ],
+      "signes_cliniques": [
+        "endoscopie nasale (œdème, sécrétions, polypes)"
+      ],
+      "examens_cles": [
+        "endoscopie nasale",
+        "scanner des sinus",
+        "recherche d'une origine dentaire (sinusite maxillaire unilatérale)"
+      ],
+      "traitements_cles": [
+        "lavages nasaux",
+        "corticoïdes locaux",
+        "chirurgie endoscopique fonctionnelle",
+        "traitement d'une cause dentaire"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0014",
+        "PATH-ORL-0016"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0016",
+      "nom_fr": "Polypose naso-sinusienne",
+      "nom_en": "Chronic rhinosinusitis with nasal polyps",
+      "synonymes": [],
+      "cim10": "J33",
+      "specialite": "ORL",
+      "sous_specialite": "Rhinologie",
+      "categories": [
+        "inflammatoire",
+        "ORL"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "obstruction nasale bilatérale",
+        "anosmie",
+        "rhinorrhée"
+      ],
+      "signes_cliniques": [
+        "polypes bilatéraux à l'endoscopie",
+        "association à l'asthme et à l'intolérance à l'aspirine (syndrome de Widal)"
+      ],
+      "examens_cles": [
+        "endoscopie nasale",
+        "scanner des sinus",
+        "bilan allergologique et respiratoire"
+      ],
+      "traitements_cles": [
+        "corticoïdes locaux",
+        "cures courtes de corticoïdes généraux",
+        "chirurgie endoscopique",
+        "biothérapies dans les formes sévères"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0015"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0017",
+      "nom_fr": "Ethmoïdite aiguë de l'enfant",
+      "nom_en": "Acute ethmoiditis in children",
+      "synonymes": [],
+      "cim10": "J01.2",
+      "specialite": "ORL",
+      "sous_specialite": "Rhinologie",
+      "categories": [
+        "infectieuse",
+        "ORL",
+        "pédiatrique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "fièvre élevée",
+        "œdème palpébral",
+        "rhinorrhée"
+      ],
+      "signes_cliniques": [
+        "œdème inflammatoire de l'angle interne de l'œil",
+        "signes de gravité (exophtalmie, ophtalmoplégie, baisse visuelle)"
+      ],
+      "examens_cles": [
+        "scanner des sinus et des orbites avec injection (abcès sous-périosté)"
+      ],
+      "traitements_cles": [
+        "antibiothérapie (parentérale si forme sévère)",
+        "drainage chirurgical d'un abcès orbitaire"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0014",
+        "PATH-OPHT-0041",
+        "PATH-PEDI-0029"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0018",
+      "nom_fr": "Déviation de la cloison nasale",
+      "nom_en": "Deviated nasal septum",
+      "synonymes": [],
+      "cim10": "J34.2",
+      "specialite": "ORL",
+      "sous_specialite": "Rhinologie",
+      "categories": [
+        "ORL"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "obstruction nasale unilatérale ou à bascule",
+        "ronflement"
+      ],
+      "signes_cliniques": [
+        "déviation visible à la rhinoscopie"
+      ],
+      "examens_cles": [
+        "endoscopie nasale",
+        "scanner selon les cas"
+      ],
+      "traitements_cles": [
+        "septoplastie si obstruction gênante"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0019"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0019",
+      "nom_fr": "Fracture des os propres du nez",
+      "nom_en": "Fracture of nasal bones",
+      "synonymes": [],
+      "cim10": "S02.2",
+      "specialite": "ORL",
+      "sous_specialite": "Rhinologie",
+      "categories": [
+        "traumatique",
+        "ORL"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "épistaxis",
+        "douleur",
+        "obstruction nasale après traumatisme"
+      ],
+      "signes_cliniques": [
+        "déformation nasale",
+        "recherche d'un hématome de la cloison (urgence)"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "imagerie selon les cas"
+      ],
+      "traitements_cles": [
+        "drainage en urgence d'un hématome de cloison",
+        "réduction de la fracture dans les jours suivants"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0013",
+        "PATH-ORL-0018"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0020",
+      "nom_fr": "Atrésie des choanes",
+      "nom_en": "Choanal atresia",
+      "synonymes": [],
+      "cim10": "Q30.0",
+      "specialite": "ORL",
+      "sous_specialite": "Rhinologie",
+      "categories": [
+        "congénitale",
+        "ORL",
+        "néonatale"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "détresse respiratoire néonatale cyclique (améliorée par les pleurs) en cas de forme bilatérale",
+        "rhinorrhée unilatérale (forme unilatérale)"
+      ],
+      "signes_cliniques": [
+        "impossibilité de passer une sonde par les fosses nasales",
+        "association possible au syndrome CHARGE"
+      ],
+      "examens_cles": [
+        "test à la sonde",
+        "scanner (atrésie osseuse ou membraneuse)"
+      ],
+      "traitements_cles": [
+        "canule de Mayo en urgence (forme bilatérale)",
+        "chirurgie endoscopique de perforation"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0021",
+      "nom_fr": "Angiofibrome nasopharyngien juvénile",
+      "nom_en": "Juvenile nasopharyngeal angiofibroma",
+      "synonymes": [
+        "fibrome nasopharyngien"
+      ],
+      "cim10": "D10.6",
+      "specialite": "ORL",
+      "sous_specialite": "Rhinologie",
+      "categories": [
+        "néoplasique",
+        "ORL"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "épistaxis récidivantes abondantes",
+        "obstruction nasale unilatérale chez l'adolescent de sexe masculin"
+      ],
+      "signes_cliniques": [
+        "masse rouge dans le cavum à l'endoscopie (biopsie contre-indiquée)"
+      ],
+      "examens_cles": [
+        "scanner et IRM",
+        "artériographie avec embolisation préopératoire"
+      ],
+      "traitements_cles": [
+        "embolisation préopératoire puis exérèse chirurgicale (endoscopique ou externe)"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0013"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0022",
+      "nom_fr": "Laryngite aiguë sous-glottique",
+      "nom_en": "Croup (acute subglottic laryngitis)",
+      "synonymes": [
+        "croup"
+      ],
+      "cim10": "J05.0",
+      "specialite": "ORL",
+      "sous_specialite": "Laryngologie",
+      "categories": [
+        "infectieuse",
+        "ORL",
+        "respiratoire",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-048"
+      ],
+      "symptomes": [
+        "toux rauque « aboyante »",
+        "voix rauque",
+        "dyspnée laryngée inspiratoire nocturne",
+        "fièvre modérée"
+      ],
+      "signes_cliniques": [
+        "bradypnée inspiratoire",
+        "stridor",
+        "tirage",
+        "enfant de 6 mois à 3 ans"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "évaluation de la gravité (score)"
+      ],
+      "traitements_cles": [
+        "corticoïdes oraux",
+        "adrénaline en aérosol dans les formes sévères",
+        "hospitalisation et surveillance si détresse"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0023",
+        "PATH-ORL-0025",
+        "PATH-ORL-0024",
+        "PATH-ANES-0010"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0023",
+      "nom_fr": "Épiglottite aiguë",
+      "nom_en": "Acute epiglottitis",
+      "synonymes": [],
+      "cim10": "J05.1",
+      "specialite": "ORL",
+      "sous_specialite": "Laryngologie",
+      "categories": [
+        "infectieuse",
+        "ORL",
+        "respiratoire",
+        "urgence"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [
+        "RES-CHI-048"
+      ],
+      "symptomes": [
+        "dyspnée laryngée d'installation rapide",
+        "fièvre élevée",
+        "dysphagie",
+        "hypersialorrhée"
+      ],
+      "signes_cliniques": [
+        "enfant assis penché en avant, bouche ouverte",
+        "voix étouffée",
+        "ne jamais allonger ni examiner la gorge à l'abaisse-langue"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "laryngoscopie en milieu sécurisé"
+      ],
+      "traitements_cles": [
+        "urgence vitale : intubation en milieu spécialisé",
+        "antibiothérapie parentérale (Haemophilus influenzae b)",
+        "prévention vaccinale"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0022",
+        "PATH-ORL-0025",
+        "PATH-MINT_REA-0005"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0024",
+      "nom_fr": "Laryngomalacie",
+      "nom_en": "Laryngomalacia",
+      "synonymes": [
+        "stridor laryngé congénital"
+      ],
+      "cim10": "Q31.5",
+      "specialite": "ORL",
+      "sous_specialite": "Laryngologie",
+      "categories": [
+        "congénitale",
+        "ORL",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-048"
+      ],
+      "symptomes": [
+        "stridor inspiratoire apparaissant dans les premières semaines, majoré par l'agitation et le décubitus dorsal"
+      ],
+      "signes_cliniques": [
+        "bon état général le plus souvent",
+        "signes de gravité (difficultés alimentaires, cassure pondérale, apnées)"
+      ],
+      "examens_cles": [
+        "nasofibroscopie (bascule des aryténoïdes, épiglotte en oméga)"
+      ],
+      "traitements_cles": [
+        "abstention et surveillance (résolution vers 18-24 mois)",
+        "traitement d'un reflux associé",
+        "supraglottoplastie dans les formes sévères"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0022",
+        "PATH-PEDI-0024",
+        "PATH-ORL-0033"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0025",
+      "nom_fr": "Corps étranger des voies aériennes",
+      "nom_en": "Foreign body in the airway",
+      "synonymes": [
+        "inhalation de corps étranger"
+      ],
+      "cim10": "T17",
+      "specialite": "ORL",
+      "sous_specialite": "Laryngologie",
+      "categories": [
+        "ORL",
+        "respiratoire",
+        "pédiatrique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-048"
+      ],
+      "symptomes": [
+        "syndrome de pénétration (accès de suffocation brutal avec toux) chez un jeune enfant",
+        "toux persistante",
+        "pneumopathies récidivantes"
+      ],
+      "signes_cliniques": [
+        "asymétrie auscultatoire",
+        "wheezing unilatéral",
+        "détresse respiratoire (corps étranger laryngé ou trachéal)"
+      ],
+      "examens_cles": [
+        "radiographie thoracique en inspiration et expiration (piégeage)",
+        "endoscopie bronchique (diagnostic et extraction)"
+      ],
+      "traitements_cles": [
+        "manœuvres de désobstruction en cas d'asphyxie (Heimlich, tapes dorsales chez le nourrisson)",
+        "extraction par bronchoscopie rigide",
+        "prévention"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0020",
+        "PATH-ORL-0022",
+        "PATH-ORL-0023",
+        "PATH-MLEG-0001",
+        "PATH-MINT_REA-0005",
+        "PATH-SPUB-0002",
+        "PATH-CDIG-0025"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0026",
+      "nom_fr": "Papillomatose laryngée",
+      "nom_en": "Recurrent respiratory papillomatosis",
+      "synonymes": [],
+      "cim10": "D14.1",
+      "specialite": "ORL",
+      "sous_specialite": "Laryngologie",
+      "categories": [
+        "néoplasique",
+        "infectieuse",
+        "ORL"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [
+        "RES-CHI-048"
+      ],
+      "symptomes": [
+        "dysphonie progressive",
+        "dyspnée laryngée"
+      ],
+      "signes_cliniques": [
+        "lésions papillomateuses laryngées récidivantes (HPV 6 et 11)"
+      ],
+      "examens_cles": [
+        "laryngoscopie avec biopsie"
+      ],
+      "traitements_cles": [
+        "exérèses endoscopiques répétées (laser, microdébrideur)",
+        "traitements adjuvants selon les cas",
+        "prévention par la vaccination HPV"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0028"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0027",
+      "nom_fr": "Paralysie laryngée (récurrentielle)",
+      "nom_en": "Vocal cord paralysis",
+      "synonymes": [],
+      "cim10": "J38.0",
+      "specialite": "ORL",
+      "sous_specialite": "Laryngologie",
+      "categories": [
+        "ORL",
+        "neurologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "dysphonie (voix bitonale)",
+        "fausses routes",
+        "dyspnée (paralysie bilatérale)"
+      ],
+      "signes_cliniques": [
+        "immobilité d'une corde vocale en laryngoscopie"
+      ],
+      "examens_cles": [
+        "nasofibroscopie",
+        "scanner du trajet du nerf (cou, médiastin) à la recherche d'une cause (thyroïdectomie, cancer thyroïdien, œsophagien ou bronchique)"
+      ],
+      "traitements_cles": [
+        "rééducation orthophonique",
+        "injection de médialisation ou thyroplastie",
+        "traitement de la cause"
+      ],
+      "pathologies_liees": [
+        "PATH-CGEN-0014"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0028",
+      "nom_fr": "Nodules des cordes vocales",
+      "nom_en": "Vocal cord nodules",
+      "synonymes": [
+        "nodules de surmenage vocal"
+      ],
+      "cim10": "J38.2",
+      "specialite": "ORL",
+      "sous_specialite": "Laryngologie",
+      "categories": [
+        "ORL"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "dysphonie chronique",
+        "fatigue vocale"
+      ],
+      "signes_cliniques": [
+        "nodules bilatéraux symétriques à la jonction tiers antérieur-tiers moyen des cordes vocales"
+      ],
+      "examens_cles": [
+        "laryngoscopie",
+        "vidéostroboscopie"
+      ],
+      "traitements_cles": [
+        "rééducation orthophonique",
+        "hygiène vocale",
+        "phonochirurgie en cas d'échec"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0026"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0029",
+      "nom_fr": "Angine aiguë (amygdalite)",
+      "nom_en": "Acute tonsillitis",
+      "synonymes": [
+        "amygdalite aiguë"
+      ],
+      "cim10": "J03",
+      "specialite": "ORL",
+      "sous_specialite": "Laryngologie",
+      "categories": [
+        "infectieuse",
+        "ORL"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "odynophagie",
+        "fièvre",
+        "adénopathies cervicales douloureuses"
+      ],
+      "signes_cliniques": [
+        "amygdales érythémateuses ou érythémato-pultacées",
+        "formes pseudo-membraneuses (mononucléose, diphtérie) et ulcéreuses"
+      ],
+      "examens_cles": [
+        "test de diagnostic rapide streptococcique (score de McIsaac)",
+        "NFS et sérologie si suspicion de mononucléose"
+      ],
+      "traitements_cles": [
+        "antalgiques",
+        "antibiothérapie si streptocoque confirmé (prévention du RAA)",
+        "amygdalectomie si angines récidivantes"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0030",
+        "PATH-ORL-0032"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0030",
+      "nom_fr": "Phlegmon péri-amygdalien",
+      "nom_en": "Peritonsillar abscess",
+      "synonymes": [],
+      "cim10": "J36",
+      "specialite": "ORL",
+      "sous_specialite": "Laryngologie",
+      "categories": [
+        "infectieuse",
+        "ORL",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "odynophagie unilatérale intense",
+        "trismus",
+        "voix étouffée",
+        "otalgie réflexe",
+        "fièvre"
+      ],
+      "signes_cliniques": [
+        "bombement du pilier antérieur",
+        "déviation de la luette",
+        "trismus"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "scanner si doute d'extension parapharyngée"
+      ],
+      "traitements_cles": [
+        "ponction ou incision-drainage",
+        "antibiothérapie",
+        "amygdalectomie à distance en cas de récidive"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0029",
+        "PATH-ORL-0031"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0031",
+      "nom_fr": "Abcès rétropharyngé",
+      "nom_en": "Retropharyngeal abscess",
+      "synonymes": [],
+      "cim10": "J39.0",
+      "specialite": "ORL",
+      "sous_specialite": "Laryngologie",
+      "categories": [
+        "infectieuse",
+        "ORL",
+        "pédiatrique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "fièvre",
+        "dysphagie",
+        "torticolis fébrile chez le jeune enfant",
+        "dyspnée"
+      ],
+      "signes_cliniques": [
+        "bombement de la paroi pharyngée postérieure",
+        "raideur cervicale"
+      ],
+      "examens_cles": [
+        "scanner cervical injecté"
+      ],
+      "traitements_cles": [
+        "antibiothérapie parentérale",
+        "drainage chirurgical par voie endobuccale si collection"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0030",
+        "PATH-CTHO-0011"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0032",
+      "nom_fr": "Hypertrophie adéno-amygdalienne",
+      "nom_en": "Hypertrophy of tonsils and adenoids",
+      "synonymes": [
+        "végétations adénoïdes"
+      ],
+      "cim10": "J35.3",
+      "specialite": "ORL",
+      "sous_specialite": "Laryngologie",
+      "categories": [
+        "ORL",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "ronflement",
+        "apnées du sommeil",
+        "respiration buccale",
+        "rhinopharyngites et otites récidivantes"
+      ],
+      "signes_cliniques": [
+        "amygdales volumineuses",
+        "faciès adénoïdien",
+        "troubles du comportement et de l'attention"
+      ],
+      "examens_cles": [
+        "examen clinique",
+        "nasofibroscopie",
+        "polygraphie ou polysomnographie selon les cas"
+      ],
+      "traitements_cles": [
+        "adénoïdectomie et/ou amygdalectomie selon les indications"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0001",
+        "PATH-ORL-0002",
+        "PATH-ORL-0029",
+        "PATH-PEDI-0029"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0033",
+      "nom_fr": "Sténose laryngée",
+      "nom_en": "Laryngeal stenosis",
+      "synonymes": [
+        "sténose sous-glottique"
+      ],
+      "cim10": "J38.6",
+      "specialite": "ORL",
+      "sous_specialite": "Laryngologie",
+      "categories": [
+        "ORL",
+        "respiratoire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "dyspnée laryngée",
+        "stridor",
+        "dysphonie"
+      ],
+      "signes_cliniques": [
+        "dyspnée inspiratoire",
+        "antécédent d'intubation prolongée"
+      ],
+      "examens_cles": [
+        "laryngotrachéoscopie",
+        "scanner"
+      ],
+      "traitements_cles": [
+        "dilatations et traitements endoscopiques",
+        "laryngotrachéoplastie",
+        "trachéotomie si nécessaire"
+      ],
+      "pathologies_liees": [
+        "PATH-CTHO-0013",
+        "PATH-ORL-0024"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0034",
+      "nom_fr": "Adénome pléomorphe de la parotide",
+      "nom_en": "Pleomorphic adenoma of the parotid gland",
+      "synonymes": [
+        "tumeur mixte de la parotide"
+      ],
+      "cim10": "D11.0",
+      "specialite": "ORL",
+      "sous_specialite": "Cancérologie cervico-faciale",
+      "categories": [
+        "néoplasique",
+        "ORL"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "tuméfaction parotidienne lente et indolore"
+      ],
+      "signes_cliniques": [
+        "masse ferme, mobile",
+        "fonction faciale normale"
+      ],
+      "examens_cles": [
+        "échographie",
+        "IRM",
+        "cytoponction"
+      ],
+      "traitements_cles": [
+        "parotidectomie avec dissection et conservation du nerf facial"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0037"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0035",
+      "nom_fr": "Kyste du tractus thyréoglosse",
+      "nom_en": "Thyroglossal duct cyst",
+      "synonymes": [],
+      "cim10": "Q89.2",
+      "specialite": "ORL",
+      "sous_specialite": "Chirurgie cervicale",
+      "categories": [
+        "congénitale",
+        "ORL",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "tuméfaction cervicale médiane",
+        "poussées infectieuses"
+      ],
+      "signes_cliniques": [
+        "masse médiane, mobile à la déglutition et à la protraction de la langue"
+      ],
+      "examens_cles": [
+        "échographie cervicale (présence d'une thyroïde en place)"
+      ],
+      "traitements_cles": [
+        "exérèse chirurgicale selon l'intervention de Sistrunk (avec le corps de l'os hyoïde)"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0036"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0036",
+      "nom_fr": "Kystes et fistules branchiaux",
+      "nom_en": "Branchial cleft cysts and fistulas",
+      "synonymes": [],
+      "cim10": "Q18.0",
+      "specialite": "ORL",
+      "sous_specialite": "Chirurgie cervicale",
+      "categories": [
+        "congénitale",
+        "ORL",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "tuméfaction cervicale latérale",
+        "écoulement par un orifice cutané",
+        "poussées infectieuses"
+      ],
+      "signes_cliniques": [
+        "masse latérocervicale au bord antérieur du sterno-cléido-mastoïdien",
+        "orifice fistuleux"
+      ],
+      "examens_cles": [
+        "échographie",
+        "scanner ou IRM"
+      ],
+      "traitements_cles": [
+        "exérèse chirurgicale complète à distance d'une poussée infectieuse"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0029",
+        "PATH-ORL-0035"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORL-0037",
+      "nom_fr": "Lithiase salivaire",
+      "nom_en": "Sialolithiasis",
+      "synonymes": [
+        "colique salivaire"
+      ],
+      "cim10": "K11.5",
+      "specialite": "ORL",
+      "sous_specialite": "Chirurgie cervicale",
+      "categories": [
+        "ORL",
+        "bucco-dentaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "hernie et colique salivaires lors des repas",
+        "tuméfaction de la glande"
+      ],
+      "signes_cliniques": [
+        "calcul palpable sur le trajet du canal (sous-mandibulaire le plus souvent)",
+        "pus à l'ostium (sialite)"
+      ],
+      "examens_cles": [
+        "échographie",
+        "radiographie (calcul radio-opaque)",
+        "sialendoscopie"
+      ],
+      "traitements_cles": [
+        "extraction du calcul par voie endobuccale ou sialendoscopie",
+        "antibiothérapie si surinfection",
+        "sous-mandibulectomie dans certains cas"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0034"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0001",
+      "nom_fr": "Cataracte liée à l'âge",
+      "nom_en": "Age-related cataract",
+      "synonymes": [
+        "cataracte sénile"
+      ],
+      "cim10": "H25",
+      "specialite": "OPHT",
+      "sous_specialite": "Segment antérieur",
+      "categories": [
+        "ophtalmologique",
+        "dégénérative"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-041"
+      ],
+      "symptomes": [
+        "baisse progressive de l'acuité visuelle",
+        "éblouissement",
+        "diplopie monoculaire",
+        "modification de la réfraction (myopie d'indice)"
+      ],
+      "signes_cliniques": [
+        "opacification du cristallin à la lampe à fente",
+        "reflet pupillaire altéré"
+      ],
+      "examens_cles": [
+        "acuité visuelle",
+        "examen à la lampe à fente",
+        "fond d'œil (éliminer une autre cause)",
+        "biométrie oculaire préopératoire"
+      ],
+      "traitements_cles": [
+        "chirurgie par phacoémulsification avec implantation d'une lentille intraoculaire"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0002",
+        "PATH-OPHT-0013",
+        "PATH-OPHT-0014",
+        "PATH-OPHT-0015",
+        "PATH-OPHT-0024"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0002",
+      "nom_fr": "Cataracte congénitale",
+      "nom_en": "Congenital cataract",
+      "synonymes": [],
+      "cim10": "Q12.0",
+      "specialite": "OPHT",
+      "sous_specialite": "Segment antérieur",
+      "categories": [
+        "congénitale",
+        "ophtalmologique",
+        "pédiatrique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [
+        "RES-CHI-041"
+      ],
+      "symptomes": [
+        "leucocorie",
+        "strabisme",
+        "nystagmus",
+        "absence de poursuite visuelle"
+      ],
+      "signes_cliniques": [
+        "reflet rouge pupillaire absent ou anormal"
+      ],
+      "examens_cles": [
+        "examen du reflet pupillaire à la naissance",
+        "lampe à fente",
+        "échographie oculaire",
+        "bilan étiologique (infectieux, métabolique, génétique)"
+      ],
+      "traitements_cles": [
+        "chirurgie précoce (formes denses)",
+        "correction optique",
+        "rééducation de l'amblyopie"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0029",
+        "PATH-OPHT-0001",
+        "PATH-OPHT-0033",
+        "PATH-OPHT-0032"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0003",
+      "nom_fr": "Conjonctivite bactérienne",
+      "nom_en": "Bacterial conjunctivitis",
+      "synonymes": [],
+      "cim10": "H10.0",
+      "specialite": "OPHT",
+      "sous_specialite": "Segment antérieur",
+      "categories": [
+        "infectieuse",
+        "ophtalmologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "œil rouge",
+        "sécrétions purulentes",
+        "paupières collées au réveil"
+      ],
+      "signes_cliniques": [
+        "hyperhémie conjonctivale",
+        "sécrétions",
+        "acuité visuelle normale",
+        "absence de douleur profonde"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "prélèvement dans les formes sévères ou chez le nouveau-né"
+      ],
+      "traitements_cles": [
+        "lavages au sérum physiologique",
+        "collyre antibiotique",
+        "hygiène des mains"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0004",
+        "PATH-OPHT-0035",
+        "PATH-OPHT-0007"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0004",
+      "nom_fr": "Conjonctivite virale (adénovirus)",
+      "nom_en": "Viral (adenoviral) conjunctivitis",
+      "synonymes": [
+        "kératoconjonctivite épidémique"
+      ],
+      "cim10": "B30",
+      "specialite": "OPHT",
+      "sous_specialite": "Segment antérieur",
+      "categories": [
+        "infectieuse",
+        "ophtalmologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "œil rouge, larmoiement, sensation de grain de sable",
+        "atteinte bilatérale successive",
+        "contexte épidémique"
+      ],
+      "signes_cliniques": [
+        "follicules conjonctivaux",
+        "adénopathie prétragienne",
+        "kératite ponctuée"
+      ],
+      "examens_cles": [
+        "diagnostic clinique"
+      ],
+      "traitements_cles": [
+        "lavages",
+        "larmes artificielles",
+        "mesures d'hygiène strictes (contagiosité)",
+        "pas d'antibiotique systématique"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0003",
+        "PATH-OPHT-0005"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0005",
+      "nom_fr": "Conjonctivite allergique",
+      "nom_en": "Allergic conjunctivitis",
+      "synonymes": [],
+      "cim10": "H10.1",
+      "specialite": "OPHT",
+      "sous_specialite": "Segment antérieur",
+      "categories": [
+        "ophtalmologique",
+        "inflammatoire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "prurit oculaire",
+        "larmoiement",
+        "rougeur bilatérale",
+        "caractère saisonnier"
+      ],
+      "signes_cliniques": [
+        "chémosis",
+        "papilles conjonctivales",
+        "rhinite associée"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "bilan allergologique"
+      ],
+      "traitements_cles": [
+        "éviction de l'allergène",
+        "collyres antihistaminiques ou antidégranulants",
+        "larmes artificielles"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0004",
+        "PATH-OPHT-0006"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0006",
+      "nom_fr": "Kérato-conjonctivite vernale",
+      "nom_en": "Vernal keratoconjunctivitis",
+      "synonymes": [
+        "conjonctivite printanière"
+      ],
+      "cim10": null,
+      "specialite": "OPHT",
+      "sous_specialite": "Segment antérieur",
+      "categories": [
+        "ophtalmologique",
+        "inflammatoire",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "prurit intense",
+        "photophobie",
+        "sécrétions filantes chez le garçon en âge scolaire, à prédominance printanière et estivale"
+      ],
+      "signes_cliniques": [
+        "papilles géantes tarsales (aspect pavimenteux)",
+        "nodules limbiques (grains de Trantas)",
+        "ulcère vernal"
+      ],
+      "examens_cles": [
+        "examen à la lampe à fente"
+      ],
+      "traitements_cles": [
+        "collyres antiallergiques",
+        "ciclosporine en collyre",
+        "corticoïdes locaux en cure courte sous surveillance",
+        "protection solaire"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0005",
+        "PATH-OPHT-0010"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0007",
+      "nom_fr": "Trachome",
+      "nom_en": "Trachoma",
+      "synonymes": [
+        "conjonctivite granuleuse à Chlamydia trachomatis"
+      ],
+      "cim10": "A71",
+      "specialite": "OPHT",
+      "sous_specialite": "Segment antérieur",
+      "categories": [
+        "infectieuse",
+        "ophtalmologique",
+        "santé publique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "œil rouge chronique",
+        "larmoiement",
+        "sécrétions",
+        "puis baisse visuelle (forme cicatricielle)"
+      ],
+      "signes_cliniques": [
+        "follicules conjonctivaux tarsaux supérieurs",
+        "cicatrices conjonctivales",
+        "trichiasis",
+        "opacités cornéennes (classification simplifiée de l'OMS)"
+      ],
+      "examens_cles": [
+        "diagnostic clinique (grades OMS)",
+        "PCR selon les cas"
+      ],
+      "traitements_cles": [
+        "stratégie CHANCE de l'OMS (chirurgie du trichiasis, antibiotiques, nettoyage du visage, changement de l'environnement)",
+        "azithromycine"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0003",
+        "PATH-OPHT-0039",
+        "PATH-OPHT-0009"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0008",
+      "nom_fr": "Kératite herpétique",
+      "nom_en": "Herpes simplex keratitis",
+      "synonymes": [],
+      "cim10": "B00.5",
+      "specialite": "OPHT",
+      "sous_specialite": "Segment antérieur",
+      "categories": [
+        "infectieuse",
+        "ophtalmologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "œil rouge douloureux",
+        "photophobie",
+        "larmoiement",
+        "baisse visuelle"
+      ],
+      "signes_cliniques": [
+        "ulcération dendritique colorée par la fluorescéine",
+        "hypoesthésie cornéenne",
+        "récidives"
+      ],
+      "examens_cles": [
+        "examen à la lampe à fente avec fluorescéine",
+        "PCR selon les cas"
+      ],
+      "traitements_cles": [
+        "antiviraux locaux et/ou généraux",
+        "contre-indication des corticoïdes locaux dans la forme épithéliale",
+        "prévention des récidives"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0009",
+        "PATH-OPHT-0013"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0009",
+      "nom_fr": "Kératite bactérienne (abcès de cornée)",
+      "nom_en": "Bacterial keratitis (corneal ulcer)",
+      "synonymes": [
+        "abcès cornéen"
+      ],
+      "cim10": "H16.0",
+      "specialite": "OPHT",
+      "sous_specialite": "Segment antérieur",
+      "categories": [
+        "infectieuse",
+        "ophtalmologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "œil rouge très douloureux",
+        "photophobie",
+        "baisse visuelle",
+        "port de lentilles de contact"
+      ],
+      "signes_cliniques": [
+        "infiltrat blanc cornéen avec ulcération",
+        "cercle périkératique",
+        "hypopion"
+      ],
+      "examens_cles": [
+        "grattage cornéen pour examen bactériologique et mycologique (et amibes)"
+      ],
+      "traitements_cles": [
+        "collyres antibiotiques fortifiés à forte fréquence",
+        "hospitalisation des formes graves",
+        "arrêt du port des lentilles",
+        "greffe de cornée en cas de perforation ou de séquelles"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0007",
+        "PATH-OPHT-0008",
+        "PATH-OPHT-0042",
+        "PATH-OPHT-0014",
+        "PATH-OPHT-0039"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0010",
+      "nom_fr": "Kératocône",
+      "nom_en": "Keratoconus",
+      "synonymes": [],
+      "cim10": "H18.6",
+      "specialite": "OPHT",
+      "sous_specialite": "Segment antérieur",
+      "categories": [
+        "ophtalmologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "baisse visuelle progressive",
+        "astigmatisme évolutif",
+        "photophobie chez l'adolescent ou l'adulte jeune"
+      ],
+      "signes_cliniques": [
+        "amincissement et protrusion conique de la cornée",
+        "frottements oculaires fréquents (terrain atopique)"
+      ],
+      "examens_cles": [
+        "topographie et tomographie cornéennes"
+      ],
+      "traitements_cles": [
+        "correction optique (lunettes, lentilles rigides)",
+        "cross-linking du collagène cornéen (formes évolutives)",
+        "anneaux intracornéens",
+        "greffe de cornée dans les formes évoluées"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0006"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0011",
+      "nom_fr": "Ptérygion",
+      "nom_en": "Pterygium",
+      "synonymes": [],
+      "cim10": "H11.0",
+      "specialite": "OPHT",
+      "sous_specialite": "Segment antérieur",
+      "categories": [
+        "ophtalmologique",
+        "environnementale"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "gêne oculaire",
+        "rougeur",
+        "baisse visuelle si envahissement de l'axe visuel"
+      ],
+      "signes_cliniques": [
+        "prolifération fibrovasculaire triangulaire de la conjonctive nasale envahissant la cornée",
+        "exposition solaire et poussières"
+      ],
+      "examens_cles": [
+        "examen à la lampe à fente"
+      ],
+      "traitements_cles": [
+        "protection solaire",
+        "larmes artificielles",
+        "exérèse chirurgicale avec autogreffe conjonctivale si gêne ou progression"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0012"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0012",
+      "nom_fr": "Sécheresse oculaire",
+      "nom_en": "Dry eye disease",
+      "synonymes": [
+        "syndrome sec oculaire"
+      ],
+      "cim10": "H04.1",
+      "specialite": "OPHT",
+      "sous_specialite": "Segment antérieur",
+      "categories": [
+        "ophtalmologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "sensation de grain de sable",
+        "brûlures",
+        "larmoiement paradoxal",
+        "fatigue visuelle"
+      ],
+      "signes_cliniques": [
+        "kératite ponctuée superficielle",
+        "temps de rupture du film lacrymal raccourci"
+      ],
+      "examens_cles": [
+        "test de Schirmer",
+        "temps de rupture du film lacrymal",
+        "coloration par la fluorescéine",
+        "recherche d'un syndrome de Gougerot-Sjögren"
+      ],
+      "traitements_cles": [
+        "larmes artificielles",
+        "hygiène palpébrale",
+        "ciclosporine en collyre",
+        "bouchons méatiques"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0011"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0013",
+      "nom_fr": "Uvéite antérieure aiguë",
+      "nom_en": "Acute anterior uveitis",
+      "synonymes": [
+        "iridocyclite"
+      ],
+      "cim10": "H20.0",
+      "specialite": "OPHT",
+      "sous_specialite": "Segment antérieur",
+      "categories": [
+        "inflammatoire",
+        "ophtalmologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "œil rouge douloureux",
+        "photophobie",
+        "baisse visuelle modérée"
+      ],
+      "signes_cliniques": [
+        "cercle périkératique",
+        "précipités rétrodescemétiques",
+        "effet Tyndall de la chambre antérieure",
+        "synéchies postérieures",
+        "myosis"
+      ],
+      "examens_cles": [
+        "examen à la lampe à fente",
+        "bilan étiologique orienté (HLA-B27, spondylarthrite, sarcoïdose, maladie de Behçet, tuberculose, arthrite juvénile idiopathique)"
+      ],
+      "traitements_cles": [
+        "corticoïdes locaux",
+        "collyres mydriatiques et cycloplégiques",
+        "traitement de la cause"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0001",
+        "PATH-OPHT-0008",
+        "PATH-OPHT-0018"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0014",
+      "nom_fr": "Endophtalmie",
+      "nom_en": "Endophthalmitis",
+      "synonymes": [],
+      "cim10": "H44.0",
+      "specialite": "OPHT",
+      "sous_specialite": "Segment antérieur",
+      "categories": [
+        "infectieuse",
+        "ophtalmologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "baisse visuelle brutale",
+        "douleur oculaire après chirurgie oculaire, traumatisme pénétrant ou bactériémie"
+      ],
+      "signes_cliniques": [
+        "hypopion",
+        "hyalite",
+        "chémosis"
+      ],
+      "examens_cles": [
+        "ponction de chambre antérieure et de vitré (microbiologie)",
+        "échographie oculaire"
+      ],
+      "traitements_cles": [
+        "injections intravitréennes d'antibiotiques en urgence",
+        "vitrectomie selon la gravité",
+        "antibiothérapie générale"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0009",
+        "PATH-OPHT-0044",
+        "PATH-OPHT-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0015",
+      "nom_fr": "Glaucome aigu par fermeture de l'angle",
+      "nom_en": "Acute angle-closure glaucoma",
+      "synonymes": [
+        "crise de glaucome aigu"
+      ],
+      "cim10": "H40.2",
+      "specialite": "OPHT",
+      "sous_specialite": "Glaucome",
+      "categories": [
+        "ophtalmologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-040"
+      ],
+      "symptomes": [
+        "douleur oculaire intense irradiant dans le territoire du trijumeau",
+        "baisse visuelle brutale",
+        "halos colorés",
+        "nausées, vomissements"
+      ],
+      "signes_cliniques": [
+        "œil rouge",
+        "cornée œdémateuse",
+        "mydriase aréflexique",
+        "œil dur à la palpation",
+        "chambre antérieure étroite"
+      ],
+      "examens_cles": [
+        "tonométrie (pression intraoculaire très élevée)",
+        "gonioscopie (angle fermé)",
+        "examen de l'œil adelphe"
+      ],
+      "traitements_cles": [
+        "urgence : hypotonisants (acétazolamide, mannitol, collyres bêtabloquants et myotiques)",
+        "iridotomie périphérique au laser des deux yeux",
+        "prévention par contre-indication des mydriatiques et anticholinergiques chez les sujets à risque"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0016",
+        "PATH-OPHT-0018",
+        "PATH-OPHT-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0016",
+      "nom_fr": "Glaucome primitif à angle ouvert",
+      "nom_en": "Primary open-angle glaucoma",
+      "synonymes": [
+        "glaucome chronique"
+      ],
+      "cim10": "H40.1",
+      "specialite": "OPHT",
+      "sous_specialite": "Glaucome",
+      "categories": [
+        "ophtalmologique",
+        "dégénérative"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [
+        "RES-CHI-040"
+      ],
+      "symptomes": [
+        "asymptomatique jusqu'à un stade évolué",
+        "altération du champ visuel tardive"
+      ],
+      "signes_cliniques": [
+        "excavation papillaire",
+        "pression intraoculaire souvent élevée",
+        "antécédents familiaux, myopie, origine africaine"
+      ],
+      "examens_cles": [
+        "tonométrie",
+        "pachymétrie",
+        "fond d'œil (rapport cup/disc)",
+        "champ visuel",
+        "OCT des fibres nerveuses rétiniennes"
+      ],
+      "traitements_cles": [
+        "collyres hypotonisants (analogues des prostaglandines, bêtabloquants, inhibiteurs de l'anhydrase carbonique, alpha-agonistes)",
+        "trabéculoplastie au laser",
+        "chirurgie filtrante",
+        "dépistage après 40 ans"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0015",
+        "PATH-OPHT-0026",
+        "PATH-OPHT-0017",
+        "PATH-OPHT-0022"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0017",
+      "nom_fr": "Glaucome congénital",
+      "nom_en": "Congenital glaucoma",
+      "synonymes": [
+        "buphtalmie"
+      ],
+      "cim10": "Q15.0",
+      "specialite": "OPHT",
+      "sous_specialite": "Glaucome",
+      "categories": [
+        "congénitale",
+        "ophtalmologique",
+        "pédiatrique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "larmoiement",
+        "photophobie",
+        "blépharospasme chez le nourrisson"
+      ],
+      "signes_cliniques": [
+        "buphtalmie (gros yeux)",
+        "œdème cornéen",
+        "augmentation du diamètre cornéen"
+      ],
+      "examens_cles": [
+        "examen sous anesthésie générale (tonométrie, diamètre cornéen, gonioscopie, fond d'œil)"
+      ],
+      "traitements_cles": [
+        "chirurgie (goniotomie, trabéculotomie)",
+        "suivi prolongé",
+        "traitement de l'amblyopie"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0016",
+        "PATH-OPHT-0033"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0018",
+      "nom_fr": "Glaucome néovasculaire",
+      "nom_en": "Neovascular glaucoma",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "OPHT",
+      "sous_specialite": "Glaucome",
+      "categories": [
+        "ophtalmologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-042"
+      ],
+      "symptomes": [
+        "douleur oculaire",
+        "baisse visuelle sévère"
+      ],
+      "signes_cliniques": [
+        "néovaisseaux de l'iris (rubéose irienne) et de l'angle",
+        "hypertonie oculaire",
+        "terrain d'ischémie rétinienne (rétinopathie diabétique, occlusion de la veine centrale)"
+      ],
+      "examens_cles": [
+        "examen à la lampe à fente",
+        "gonioscopie",
+        "angiographie rétinienne"
+      ],
+      "traitements_cles": [
+        "photocoagulation panrétinienne",
+        "anti-VEGF intravitréens",
+        "hypotonisants",
+        "chirurgie filtrante ou cyclodestruction"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0013",
+        "PATH-OPHT-0015",
+        "PATH-OPHT-0022"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0019",
+      "nom_fr": "Rétinopathie hypertensive",
+      "nom_en": "Hypertensive retinopathy",
+      "synonymes": [],
+      "cim10": "H35.0",
+      "specialite": "OPHT",
+      "sous_specialite": "Rétine",
+      "categories": [
+        "ophtalmologique",
+        "cardiovasculaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-043"
+      ],
+      "symptomes": [
+        "le plus souvent asymptomatique",
+        "baisse visuelle dans l'HTA maligne"
+      ],
+      "signes_cliniques": [
+        "rétrécissement artériel, signe du croisement",
+        "hémorragies, nodules cotonneux",
+        "œdème papillaire (stade 3 de Kirkham)"
+      ],
+      "examens_cles": [
+        "fond d'œil (classification de Kirkham)",
+        "angiographie selon les cas",
+        "évaluation de l'HTA et de son retentissement"
+      ],
+      "traitements_cles": [
+        "contrôle tensionnel progressif",
+        "prise en charge de l'urgence hypertensive"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0022",
+        "PATH-OPHT-0023",
+        "PATH-OPHT-0029",
+        "PATH-OBST-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0020",
+      "nom_fr": "Décollement de rétine rhegmatogène",
+      "nom_en": "Rhegmatogenous retinal detachment",
+      "synonymes": [],
+      "cim10": "H33.0",
+      "specialite": "OPHT",
+      "sous_specialite": "Rétine",
+      "categories": [
+        "ophtalmologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "myodésopsies (corps flottants)",
+        "phosphènes",
+        "amputation du champ visuel « en rideau »",
+        "baisse visuelle (atteinte maculaire)"
+      ],
+      "signes_cliniques": [
+        "rétine soulevée et déchirure au fond d'œil dilaté",
+        "terrain myope ou pseudophaque"
+      ],
+      "examens_cles": [
+        "fond d'œil dilaté",
+        "échographie en mode B si milieux troubles"
+      ],
+      "traitements_cles": [
+        "chirurgie en urgence (indentation épisclérale, vitrectomie avec tamponnement)",
+        "photocoagulation laser des déchirures sans décollement"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0026",
+        "PATH-OPHT-0044",
+        "PATH-OPHT-0045"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0021",
+      "nom_fr": "Dégénérescence maculaire liée à l'âge",
+      "nom_en": "Age-related macular degeneration",
+      "synonymes": [
+        "DMLA"
+      ],
+      "cim10": "H35.3",
+      "specialite": "OPHT",
+      "sous_specialite": "Rétine",
+      "categories": [
+        "ophtalmologique",
+        "dégénérative"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "baisse de l'acuité visuelle centrale",
+        "métamorphopsies",
+        "scotome central"
+      ],
+      "signes_cliniques": [
+        "drusen",
+        "atrophie géographique (forme atrophique)",
+        "néovaisseaux choroïdiens et hémorragies (forme exsudative)"
+      ],
+      "examens_cles": [
+        "grille d'Amsler",
+        "OCT maculaire",
+        "angiographie à la fluorescéine et au vert d'indocyanine"
+      ],
+      "traitements_cles": [
+        "injections intravitréennes d'anti-VEGF (forme exsudative)",
+        "supplémentation antioxydante selon les critères",
+        "arrêt du tabac",
+        "rééducation basse vision"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0026"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0022",
+      "nom_fr": "Occlusion de la veine centrale de la rétine",
+      "nom_en": "Central retinal vein occlusion",
+      "synonymes": [],
+      "cim10": "H34.8",
+      "specialite": "OPHT",
+      "sous_specialite": "Rétine",
+      "categories": [
+        "ophtalmologique",
+        "cardiovasculaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "baisse visuelle unilatérale d'installation rapide, souvent au réveil"
+      ],
+      "signes_cliniques": [
+        "hémorragies rétiniennes en flammèches diffuses",
+        "veines dilatées et tortueuses",
+        "œdème papillaire et maculaire",
+        "terrain (HTA, glaucome, âge)"
+      ],
+      "examens_cles": [
+        "fond d'œil",
+        "OCT",
+        "angiographie (forme ischémique ou non)",
+        "bilan des facteurs de risque"
+      ],
+      "traitements_cles": [
+        "traitement de l'œdème maculaire (anti-VEGF, corticoïdes intravitréens)",
+        "photocoagulation des formes ischémiques (prévention du glaucome néovasculaire)",
+        "contrôle des facteurs de risque"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0018",
+        "PATH-OPHT-0019",
+        "PATH-OPHT-0016"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0023",
+      "nom_fr": "Occlusion de l'artère centrale de la rétine",
+      "nom_en": "Central retinal artery occlusion",
+      "synonymes": [],
+      "cim10": "H34.1",
+      "specialite": "OPHT",
+      "sous_specialite": "Rétine",
+      "categories": [
+        "ophtalmologique",
+        "cardiovasculaire",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "baisse visuelle brutale, unilatérale, indolore et profonde"
+      ],
+      "signes_cliniques": [
+        "rétine pâle œdémateuse avec tache rouge cerise maculaire",
+        "déficit pupillaire afférent"
+      ],
+      "examens_cles": [
+        "fond d'œil",
+        "bilan étiologique en urgence comme un AVC (bilan cardio-embolique, Doppler des troncs supra-aortiques)",
+        "VS et CRP après 50 ans (maladie de Horton)"
+      ],
+      "traitements_cles": [
+        "prise en charge en filière neurovasculaire",
+        "traitement de la cause (corticothérapie en urgence si maladie de Horton)",
+        "prévention secondaire"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0019",
+        "PATH-OPHT-0028"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0024",
+      "nom_fr": "Rétinopathie pigmentaire",
+      "nom_en": "Retinitis pigmentosa",
+      "synonymes": [
+        "rétinite pigmentaire"
+      ],
+      "cim10": "H35.5",
+      "specialite": "OPHT",
+      "sous_specialite": "Rétine",
+      "categories": [
+        "génétique",
+        "ophtalmologique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "héméralopie (mauvaise vision nocturne)",
+        "rétrécissement progressif du champ visuel"
+      ],
+      "signes_cliniques": [
+        "pigments en « ostéoblastes » en périphérie rétinienne",
+        "artères grêles",
+        "pâleur papillaire"
+      ],
+      "examens_cles": [
+        "électrorétinogramme",
+        "champ visuel",
+        "OCT",
+        "étude génétique"
+      ],
+      "traitements_cles": [
+        "aides à la basse vision",
+        "thérapie génique pour certains génotypes (RPE65)",
+        "traitement des complications (cataracte, œdème maculaire)",
+        "conseil génétique"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0025",
+      "nom_fr": "Toxoplasmose oculaire (choriorétinite toxoplasmique)",
+      "nom_en": "Ocular toxoplasmosis",
+      "synonymes": [
+        "choriorétinite toxoplasmique"
+      ],
+      "cim10": "B58.0",
+      "specialite": "OPHT",
+      "sous_specialite": "Rétine",
+      "categories": [
+        "infectieuse",
+        "parasitaire",
+        "ophtalmologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "baisse visuelle",
+        "myodésopsies",
+        "œil peu rouge"
+      ],
+      "signes_cliniques": [
+        "foyer de choriorétinite blanc jouxtant une cicatrice pigmentée",
+        "hyalite (aspect de « phare dans le brouillard »)"
+      ],
+      "examens_cles": [
+        "fond d'œil",
+        "sérologie toxoplasmique",
+        "PCR sur ponction de chambre antérieure selon les cas"
+      ],
+      "traitements_cles": [
+        "traitement antiparasitaire (pyriméthamine-sulfadiazine ou alternatives) dans les formes menaçantes",
+        "corticothérapie associée selon les cas"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0022"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0026",
+      "nom_fr": "Myopie forte",
+      "nom_en": "High myopia",
+      "synonymes": [],
+      "cim10": "H52.1",
+      "specialite": "OPHT",
+      "sous_specialite": "Rétine",
+      "categories": [
+        "ophtalmologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "baisse de la vision de loin",
+        "nécessité d'une forte correction"
+      ],
+      "signes_cliniques": [
+        "myopie supérieure à -6 dioptries",
+        "lésions dégénératives du fond d'œil (atrophie, néovaisseaux, déchirures)"
+      ],
+      "examens_cles": [
+        "réfraction sous cycloplégie",
+        "fond d'œil",
+        "longueur axiale",
+        "OCT"
+      ],
+      "traitements_cles": [
+        "correction optique (lunettes, lentilles)",
+        "chirurgie réfractive selon les cas",
+        "surveillance du fond d'œil (décollement de rétine, néovaisseaux)",
+        "freinage de la myopie chez l'enfant (atropine faiblement dosée, verres spécifiques)"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0016",
+        "PATH-OPHT-0020",
+        "PATH-OPHT-0021"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0027",
+      "nom_fr": "Névrite optique rétrobulbaire",
+      "nom_en": "Optic neuritis",
+      "synonymes": [],
+      "cim10": "H46",
+      "specialite": "OPHT",
+      "sous_specialite": "Neuro-ophtalmologie",
+      "categories": [
+        "ophtalmologique",
+        "neurologique",
+        "inflammatoire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "baisse visuelle unilatérale rapide",
+        "douleur à la mobilisation du globe",
+        "dyschromatopsie"
+      ],
+      "signes_cliniques": [
+        "déficit pupillaire afférent relatif",
+        "fond d'œil souvent normal",
+        "scotome central"
+      ],
+      "examens_cles": [
+        "champ visuel",
+        "IRM cérébrale et orbitaire (lésions de démyélinisation)",
+        "potentiels évoqués visuels",
+        "anticorps anti-AQP4 et anti-MOG"
+      ],
+      "traitements_cles": [
+        "corticothérapie intraveineuse à forte dose selon les cas",
+        "prise en charge d'une sclérose en plaques sous-jacente"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0028",
+        "PATH-OPHT-0029"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0028",
+      "nom_fr": "Neuropathie optique ischémique antérieure",
+      "nom_en": "Anterior ischaemic optic neuropathy",
+      "synonymes": [],
+      "cim10": "H47.0",
+      "specialite": "OPHT",
+      "sous_specialite": "Neuro-ophtalmologie",
+      "categories": [
+        "ophtalmologique",
+        "cardiovasculaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "baisse visuelle brutale indolore, souvent au réveil",
+        "altération du champ visuel altitudinal"
+      ],
+      "signes_cliniques": [
+        "œdème papillaire sectoriel",
+        "terrain vasculaire",
+        "signes de maladie de Horton après 50 ans (céphalées, claudication de la mâchoire)"
+      ],
+      "examens_cles": [
+        "champ visuel",
+        "VS, CRP en urgence",
+        "biopsie de l'artère temporale si suspicion de maladie de Horton"
+      ],
+      "traitements_cles": [
+        "corticothérapie en urgence si forme artéritique (maladie de Horton)",
+        "contrôle des facteurs de risque vasculaire"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0023",
+        "PATH-OPHT-0027",
+        "PATH-OPHT-0029"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0029",
+      "nom_fr": "Œdème papillaire",
+      "nom_en": "Papilloedema",
+      "synonymes": [
+        "stase papillaire"
+      ],
+      "cim10": "H47.1",
+      "specialite": "OPHT",
+      "sous_specialite": "Neuro-ophtalmologie",
+      "categories": [
+        "ophtalmologique",
+        "neurologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-052"
+      ],
+      "symptomes": [
+        "éclipses visuelles",
+        "céphalées",
+        "diplopie (paralysie du VI)"
+      ],
+      "signes_cliniques": [
+        "papilles bilatéralement œdémateuses, saillantes, à bords flous",
+        "acuité visuelle longtemps conservée"
+      ],
+      "examens_cles": [
+        "fond d'œil",
+        "OCT papillaire",
+        "imagerie cérébrale en urgence (cause d'hypertension intracrânienne)"
+      ],
+      "traitements_cles": [
+        "traitement de la cause de l'hypertension intracrânienne"
+      ],
+      "pathologies_liees": [
+        "PATH-NCHI-0021",
+        "PATH-NCHI-0027",
+        "PATH-OPHT-0019",
+        "PATH-OPHT-0027",
+        "PATH-OPHT-0028",
+        "PATH-OPHT-0031"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0030",
+      "nom_fr": "Paralysie du nerf oculomoteur (III)",
+      "nom_en": "Third (oculomotor) nerve palsy",
+      "synonymes": [],
+      "cim10": "H49.0",
+      "specialite": "OPHT",
+      "sous_specialite": "Neuro-ophtalmologie",
+      "categories": [
+        "ophtalmologique",
+        "neurologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "diplopie",
+        "chute de la paupière"
+      ],
+      "signes_cliniques": [
+        "ptosis",
+        "œil en abduction et en bas",
+        "mydriase (atteinte intrinsèque, compressive)"
+      ],
+      "examens_cles": [
+        "imagerie en urgence (angioscanner ou angio-IRM) à la recherche d'un anévrisme de l'artère communicante postérieure si mydriase",
+        "bilan vasculaire (diabète, HTA)"
+      ],
+      "traitements_cles": [
+        "traitement de la cause (embolisation ou clippage d'un anévrisme)",
+        "occlusion temporaire pour la diplopie",
+        "chirurgie du strabisme à distance"
+      ],
+      "pathologies_liees": [
+        "PATH-NCHI-0016",
+        "PATH-OPHT-0038",
+        "PATH-OPHT-0031"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0031",
+      "nom_fr": "Paralysie du nerf abducens (VI)",
+      "nom_en": "Sixth (abducens) nerve palsy",
+      "synonymes": [],
+      "cim10": "H49.2",
+      "specialite": "OPHT",
+      "sous_specialite": "Neuro-ophtalmologie",
+      "categories": [
+        "ophtalmologique",
+        "neurologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "diplopie horizontale majorée en vision de loin et dans le regard latéral"
+      ],
+      "signes_cliniques": [
+        "limitation de l'abduction",
+        "ésotropie"
+      ],
+      "examens_cles": [
+        "examen orthoptique",
+        "imagerie cérébrale (hypertension intracrânienne, tumeur)",
+        "bilan vasculaire"
+      ],
+      "traitements_cles": [
+        "traitement de la cause",
+        "prismes ou occlusion",
+        "toxine botulique ou chirurgie selon l'évolution"
+      ],
+      "pathologies_liees": [
+        "PATH-NCHI-0027",
+        "PATH-OPHT-0029",
+        "PATH-OPHT-0030",
+        "PATH-OPHT-0032"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0032",
+      "nom_fr": "Strabisme de l'enfant",
+      "nom_en": "Childhood strabismus",
+      "synonymes": [
+        "strabisme convergent"
+      ],
+      "cim10": "H50",
+      "specialite": "OPHT",
+      "sous_specialite": "Ophtalmopédiatrie et strabisme",
+      "categories": [
+        "ophtalmologique",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "déviation d'un œil remarquée par l'entourage",
+        "torticolis"
+      ],
+      "signes_cliniques": [
+        "déviation des axes visuels (reflets cornéens asymétriques)",
+        "test de l'écran",
+        "recherche d'une amblyopie et d'une cause organique (rétinoblastome, cataracte)"
+      ],
+      "examens_cles": [
+        "examen orthoptique",
+        "réfraction sous cycloplégie",
+        "fond d'œil"
+      ],
+      "traitements_cles": [
+        "correction optique totale",
+        "traitement de l'amblyopie (occlusion)",
+        "chirurgie des muscles oculomoteurs"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0025",
+        "PATH-OPHT-0031",
+        "PATH-OPHT-0033",
+        "PATH-OPHT-0002"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0033",
+      "nom_fr": "Amblyopie",
+      "nom_en": "Amblyopia",
+      "synonymes": [
+        "œil paresseux"
+      ],
+      "cim10": "H53.0",
+      "specialite": "OPHT",
+      "sous_specialite": "Ophtalmopédiatrie et strabisme",
+      "categories": [
+        "ophtalmologique",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "baisse de l'acuité visuelle d'un œil souvent méconnue"
+      ],
+      "signes_cliniques": [
+        "acuité visuelle diminuée sans lésion organique",
+        "strabisme ou anisométropie associés"
+      ],
+      "examens_cles": [
+        "mesure de l'acuité visuelle adaptée à l'âge",
+        "réfraction sous cycloplégie",
+        "dépistage visuel systématique"
+      ],
+      "traitements_cles": [
+        "correction optique",
+        "occlusion de l'œil sain ou pénalisation",
+        "traitement précoce (avant 6-7 ans)"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0002",
+        "PATH-OPHT-0017",
+        "PATH-OPHT-0032",
+        "PATH-OPHT-0038"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0034",
+      "nom_fr": "Imperforation du canal lacrymonasal",
+      "nom_en": "Congenital nasolacrimal duct obstruction",
+      "synonymes": [],
+      "cim10": "Q10.5",
+      "specialite": "OPHT",
+      "sous_specialite": "Ophtalmopédiatrie et strabisme",
+      "categories": [
+        "congénitale",
+        "ophtalmologique",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "larmoiement permanent du nourrisson",
+        "sécrétions"
+      ],
+      "signes_cliniques": [
+        "reflux de mucopus à la pression du sac lacrymal",
+        "dacryocystite possible"
+      ],
+      "examens_cles": [
+        "diagnostic clinique"
+      ],
+      "traitements_cles": [
+        "massages du sac lacrymal",
+        "sondage des voies lacrymales si persistance",
+        "antibiothérapie si infection"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0037",
+        "PATH-OPHT-0035"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0035",
+      "nom_fr": "Conjonctivite néonatale",
+      "nom_en": "Neonatal conjunctivitis",
+      "synonymes": [
+        "ophtalmie du nouveau-né"
+      ],
+      "cim10": "P39.1",
+      "specialite": "OPHT",
+      "sous_specialite": "Ophtalmopédiatrie et strabisme",
+      "categories": [
+        "infectieuse",
+        "ophtalmologique",
+        "néonatale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "sécrétions purulentes et œdème palpébral dans les premiers jours ou semaines de vie"
+      ],
+      "signes_cliniques": [
+        "conjonctivite purulente (gonocoque : précoce et sévère; Chlamydia : plus tardive)"
+      ],
+      "examens_cles": [
+        "prélèvement conjonctival (bactériologie, PCR Chlamydia et gonocoque)"
+      ],
+      "traitements_cles": [
+        "antibiothérapie locale et générale adaptée",
+        "traitement des parents",
+        "prophylaxie néonatale"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0003",
+        "PATH-OPHT-0034",
+        "PATH-NEON-0027"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0036",
+      "nom_fr": "Orgelet et chalazion",
+      "nom_en": "Hordeolum and chalazion",
+      "synonymes": [],
+      "cim10": "H00",
+      "specialite": "OPHT",
+      "sous_specialite": "Oculoplastie",
+      "categories": [
+        "infectieuse",
+        "ophtalmologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "tuméfaction douloureuse (orgelet) ou indolore (chalazion) de la paupière"
+      ],
+      "signes_cliniques": [
+        "nodule inflammatoire du bord libre (orgelet) ou nodule palpébral ferme (chalazion)"
+      ],
+      "examens_cles": [
+        "diagnostic clinique"
+      ],
+      "traitements_cles": [
+        "soins chauds et massages",
+        "pommade antibiotique et corticoïde selon le cas",
+        "incision-curetage du chalazion persistant"
+      ],
+      "pathologies_liees": [],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0037",
+      "nom_fr": "Dacryocystite aiguë",
+      "nom_en": "Acute dacryocystitis",
+      "synonymes": [],
+      "cim10": "H04.3",
+      "specialite": "OPHT",
+      "sous_specialite": "Oculoplastie",
+      "categories": [
+        "infectieuse",
+        "ophtalmologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "tuméfaction douloureuse de l'angle interne de l'œil",
+        "larmoiement",
+        "fièvre"
+      ],
+      "signes_cliniques": [
+        "tuméfaction inflammatoire sous le tendon canthal interne",
+        "reflux purulent par les points lacrymaux"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "scanner si cellulite orbitaire suspectée"
+      ],
+      "traitements_cles": [
+        "antibiothérapie générale",
+        "drainage si abcès",
+        "dacryocystorhinostomie à distance"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0034",
+        "PATH-OPHT-0041"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0038",
+      "nom_fr": "Ptosis",
+      "nom_en": "Ptosis",
+      "synonymes": [
+        "blépharoptose"
+      ],
+      "cim10": "H02.4",
+      "specialite": "OPHT",
+      "sous_specialite": "Oculoplastie",
+      "categories": [
+        "ophtalmologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "chute de la paupière supérieure",
+        "gêne visuelle",
+        "fatigue en fin de journée (myasthénie)"
+      ],
+      "signes_cliniques": [
+        "paupière couvrant une partie de la pupille",
+        "fonction du releveur",
+        "recherche d'une paralysie du III, d'un syndrome de Claude Bernard-Horner, d'une myasthénie"
+      ],
+      "examens_cles": [
+        "examen clinique",
+        "bilan étiologique selon le contexte (test au glaçon, anticorps anti-RACh, imagerie)"
+      ],
+      "traitements_cles": [
+        "traitement de la cause",
+        "chirurgie (résection ou suspension du releveur)",
+        "traitement précoce chez l'enfant si risque d'amblyopie"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0030",
+        "PATH-OPHT-0033"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0039",
+      "nom_fr": "Entropion et trichiasis",
+      "nom_en": "Entropion and trichiasis",
+      "synonymes": [],
+      "cim10": "H02.0",
+      "specialite": "OPHT",
+      "sous_specialite": "Oculoplastie",
+      "categories": [
+        "ophtalmologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "irritation oculaire",
+        "larmoiement",
+        "sensation de corps étranger"
+      ],
+      "signes_cliniques": [
+        "bord palpébral enroulé vers l'œil",
+        "cils frottant sur la cornée",
+        "ulcérations cornéennes"
+      ],
+      "examens_cles": [
+        "examen à la lampe à fente"
+      ],
+      "traitements_cles": [
+        "épilation provisoire",
+        "chirurgie palpébrale (rotation tarsale dans le trichiasis trachomateux)"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0007",
+        "PATH-OPHT-0009"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0040",
+      "nom_fr": "Orbitopathie dysthyroïdienne",
+      "nom_en": "Thyroid eye disease (Graves' orbitopathy)",
+      "synonymes": [
+        "exophtalmie basedowienne"
+      ],
+      "cim10": "H06.2",
+      "specialite": "OPHT",
+      "sous_specialite": "Oculoplastie",
+      "categories": [
+        "ophtalmologique",
+        "endocrinienne",
+        "auto-immune"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "irritation oculaire",
+        "larmoiement",
+        "diplopie",
+        "baisse visuelle (neuropathie optique compressive)"
+      ],
+      "signes_cliniques": [
+        "exophtalmie",
+        "rétraction palpébrale",
+        "signes inflammatoires (score d'activité clinique)",
+        "limitation oculomotrice"
+      ],
+      "examens_cles": [
+        "bilan thyroïdien (TSH, T4 libre, anticorps anti-récepteurs de la TSH)",
+        "scanner ou IRM orbitaire"
+      ],
+      "traitements_cles": [
+        "euthyroïdie",
+        "arrêt du tabac",
+        "sélénium (formes légères)",
+        "corticoïdes intraveineux (formes actives modérées à sévères)",
+        "décompression orbitaire en urgence en cas de neuropathie optique",
+        "chirurgie de réhabilitation"
+      ],
+      "pathologies_liees": [],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0041",
+      "nom_fr": "Cellulite orbitaire",
+      "nom_en": "Orbital cellulitis",
+      "synonymes": [],
+      "cim10": "H05.0",
+      "specialite": "OPHT",
+      "sous_specialite": "Oculoplastie",
+      "categories": [
+        "infectieuse",
+        "ophtalmologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur oculaire",
+        "œdème palpébral",
+        "fièvre",
+        "baisse visuelle"
+      ],
+      "signes_cliniques": [
+        "exophtalmie",
+        "ophtalmoplégie douloureuse",
+        "chémosis",
+        "déficit pupillaire afférent (gravité)"
+      ],
+      "examens_cles": [
+        "scanner orbitaire et des sinus avec injection (abcès sous-périosté)",
+        "hémocultures"
+      ],
+      "traitements_cles": [
+        "antibiothérapie intraveineuse",
+        "drainage chirurgical d'un abcès",
+        "traitement de la sinusite causale"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0014",
+        "PATH-ORL-0017",
+        "PATH-OPHT-0037"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0042",
+      "nom_fr": "Corps étranger cornéen",
+      "nom_en": "Corneal foreign body",
+      "synonymes": [],
+      "cim10": "T15.0",
+      "specialite": "OPHT",
+      "sous_specialite": "Urgences ophtalmologiques",
+      "categories": [
+        "traumatique",
+        "ophtalmologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur oculaire",
+        "sensation de corps étranger",
+        "larmoiement",
+        "travail du métal sans protection"
+      ],
+      "signes_cliniques": [
+        "corps étranger visible à la lampe à fente",
+        "anneau de rouille"
+      ],
+      "examens_cles": [
+        "examen à la lampe à fente avec fluorescéine",
+        "éversion de la paupière supérieure",
+        "imagerie si suspicion de corps étranger intraoculaire"
+      ],
+      "traitements_cles": [
+        "ablation sous anesthésie topique",
+        "collyre antibiotique",
+        "port de lunettes de protection (prévention)"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0009",
+        "PATH-OPHT-0044"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0043",
+      "nom_fr": "Brûlure chimique oculaire",
+      "nom_en": "Chemical eye injury",
+      "synonymes": [
+        "causticité oculaire"
+      ],
+      "cim10": null,
+      "specialite": "OPHT",
+      "sous_specialite": "Urgences ophtalmologiques",
+      "categories": [
+        "traumatique",
+        "toxique",
+        "ophtalmologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur intense",
+        "blépharospasme",
+        "baisse visuelle après projection d'un produit"
+      ],
+      "signes_cliniques": [
+        "hyperhémie ou ischémie conjonctivale (blanchiment limbique, gravité)",
+        "désépithélialisation cornéenne"
+      ],
+      "examens_cles": [
+        "mesure du pH conjonctival",
+        "examen à la lampe à fente (classification de Roper-Hall)"
+      ],
+      "traitements_cles": [
+        "lavage oculaire immédiat, abondant et prolongé",
+        "antalgiques",
+        "collyres (antibiotiques, cicatrisants, corticoïdes sous surveillance)",
+        "greffe de membrane amniotique dans les formes graves"
+      ],
+      "pathologies_liees": [
+        "PATH-CPLA-0004",
+        "PATH-URGE-0011"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0044",
+      "nom_fr": "Plaie du globe oculaire",
+      "nom_en": "Open globe injury",
+      "synonymes": [
+        "plaie perforante de l'œil"
+      ],
+      "cim10": "S05",
+      "specialite": "OPHT",
+      "sous_specialite": "Urgences ophtalmologiques",
+      "categories": [
+        "traumatique",
+        "ophtalmologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "baisse visuelle",
+        "douleur après traumatisme par objet tranchant ou projectile"
+      ],
+      "signes_cliniques": [
+        "plaie cornéenne ou sclérale",
+        "issue de tissus intraoculaires",
+        "pupille déformée",
+        "hypotonie"
+      ],
+      "examens_cles": [
+        "scanner orbitaire (corps étranger intraoculaire)",
+        "pas d'IRM si corps étranger métallique suspecté"
+      ],
+      "traitements_cles": [
+        "protection du globe par une coque rigide sans pression",
+        "prophylaxie antitétanique",
+        "antibiothérapie",
+        "suture chirurgicale en urgence"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0014",
+        "PATH-OPHT-0020",
+        "PATH-OPHT-0042"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0045",
+      "nom_fr": "Contusion oculaire (hyphéma)",
+      "nom_en": "Ocular contusion (hyphaema)",
+      "synonymes": [],
+      "cim10": "S05.1",
+      "specialite": "OPHT",
+      "sous_specialite": "Urgences ophtalmologiques",
+      "categories": [
+        "traumatique",
+        "ophtalmologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur",
+        "baisse visuelle après traumatisme contondant"
+      ],
+      "signes_cliniques": [
+        "hyphéma",
+        "mydriase traumatique",
+        "hypertonie",
+        "œdème rétinien"
+      ],
+      "examens_cles": [
+        "examen à la lampe à fente",
+        "tonométrie",
+        "fond d'œil (décollement de rétine)",
+        "imagerie orbitaire si suspicion de fracture"
+      ],
+      "traitements_cles": [
+        "repos, surélévation de la tête",
+        "collyres corticoïdes et cycloplégiques",
+        "hypotonisants",
+        "surveillance des complications (glaucome, décollement de rétine)"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0020",
+        "PATH-OPHT-0046"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OPHT-0046",
+      "nom_fr": "Fracture du plancher de l'orbite",
+      "nom_en": "Orbital floor fracture",
+      "synonymes": [
+        "fracture en « blow-out »"
+      ],
+      "cim10": "S02.3",
+      "specialite": "OPHT",
+      "sous_specialite": "Urgences ophtalmologiques",
+      "categories": [
+        "traumatique",
+        "ophtalmologique",
+        "ORL"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "diplopie verticale",
+        "hypoesthésie de la joue",
+        "douleur après un choc direct sur l'orbite"
+      ],
+      "signes_cliniques": [
+        "limitation de l'élévation du globe (incarcération du muscle droit inférieur)",
+        "énophtalmie",
+        "emphysème palpébral"
+      ],
+      "examens_cles": [
+        "scanner du massif facial"
+      ],
+      "traitements_cles": [
+        "chirurgie en urgence en cas d'incarcération musculaire (notamment chez l'enfant)",
+        "réparation différée selon l'énophtalmie et la diplopie"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0045"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DENT-0001",
+      "nom_fr": "Carie dentaire",
+      "nom_en": "Dental caries",
+      "synonymes": [],
+      "cim10": "K02",
+      "specialite": "DENT",
+      "sous_specialite": "Odontologie conservatrice",
+      "categories": [
+        "bucco-dentaire",
+        "infectieuse"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "sensibilité au froid et au sucré",
+        "douleur provoquée",
+        "cavité visible"
+      ],
+      "signes_cliniques": [
+        "lésion amélaire puis dentinaire",
+        "cavitation"
+      ],
+      "examens_cles": [
+        "examen clinique",
+        "radiographies rétrocoronaires"
+      ],
+      "traitements_cles": [
+        "prévention (hygiène bucco-dentaire, fluor, alimentation peu sucrée, scellement des sillons)",
+        "soins conservateurs (obturation)"
+      ],
+      "pathologies_liees": [
+        "PATH-DENT-0002",
+        "PATH-DENT-0017"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DENT-0002",
+      "nom_fr": "Pulpite aiguë",
+      "nom_en": "Acute pulpitis",
+      "synonymes": [
+        "rage de dents"
+      ],
+      "cim10": "K04.0",
+      "specialite": "DENT",
+      "sous_specialite": "Odontologie conservatrice",
+      "categories": [
+        "bucco-dentaire",
+        "infectieuse"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur dentaire spontanée, intense, pulsatile, majorée par le froid et le décubitus"
+      ],
+      "signes_cliniques": [
+        "carie profonde",
+        "test au froid provoquant une douleur prolongée (pulpite irréversible)"
+      ],
+      "examens_cles": [
+        "tests de vitalité pulpaire",
+        "radiographie rétroalvéolaire"
+      ],
+      "traitements_cles": [
+        "antalgiques",
+        "pulpotomie ou traitement endodontique (pulpectomie)"
+      ],
+      "pathologies_liees": [
+        "PATH-DENT-0001",
+        "PATH-DENT-0003"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DENT-0003",
+      "nom_fr": "Nécrose pulpaire",
+      "nom_en": "Pulp necrosis",
+      "synonymes": [],
+      "cim10": "K04.1",
+      "specialite": "DENT",
+      "sous_specialite": "Odontologie conservatrice",
+      "categories": [
+        "bucco-dentaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "souvent asymptomatique",
+        "dyschromie de la dent"
+      ],
+      "signes_cliniques": [
+        "absence de réponse aux tests de vitalité"
+      ],
+      "examens_cles": [
+        "tests de vitalité",
+        "radiographie (lésion périapicale)"
+      ],
+      "traitements_cles": [
+        "traitement endodontique (désinfection et obturation canalaire)"
+      ],
+      "pathologies_liees": [
+        "PATH-DENT-0002",
+        "PATH-DENT-0004",
+        "PATH-DENT-0012"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DENT-0004",
+      "nom_fr": "Abcès périapical (parodontite apicale aiguë)",
+      "nom_en": "Periapical abscess",
+      "synonymes": [],
+      "cim10": "K04.7",
+      "specialite": "DENT",
+      "sous_specialite": "Odontologie conservatrice",
+      "categories": [
+        "bucco-dentaire",
+        "infectieuse"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur dentaire intense",
+        "sensation de dent longue",
+        "tuméfaction"
+      ],
+      "signes_cliniques": [
+        "dent sensible à la percussion",
+        "tuméfaction vestibulaire fluctuante"
+      ],
+      "examens_cles": [
+        "radiographie rétroalvéolaire"
+      ],
+      "traitements_cles": [
+        "drainage (ouverture de la chambre pulpaire, incision)",
+        "traitement endodontique ou extraction",
+        "antibiothérapie si signes généraux ou extension"
+      ],
+      "pathologies_liees": [
+        "PATH-DENT-0003",
+        "PATH-DENT-0005"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DENT-0005",
+      "nom_fr": "Cellulite cervico-faciale d'origine dentaire",
+      "nom_en": "Odontogenic cervicofacial cellulitis",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "DENT",
+      "sous_specialite": "Odontologie conservatrice",
+      "categories": [
+        "bucco-dentaire",
+        "infectieuse",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "tuméfaction faciale douloureuse",
+        "fièvre",
+        "trismus",
+        "dysphagie"
+      ],
+      "signes_cliniques": [
+        "tuméfaction inflammatoire",
+        "extension cervicale",
+        "signes de gravité (dyspnée, crépitation, extension médiastinale)"
+      ],
+      "examens_cles": [
+        "orthopantomogramme",
+        "scanner cervico-facial et thoracique dans les formes graves"
+      ],
+      "traitements_cles": [
+        "antibiothérapie",
+        "drainage chirurgical",
+        "traitement de la dent causale",
+        "prise en charge en urgence des formes diffuses (risque de médiastinite)"
+      ],
+      "pathologies_liees": [
+        "PATH-CTHO-0011",
+        "PATH-DENT-0004",
+        "PATH-DENT-0009"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DENT-0006",
+      "nom_fr": "Gingivite",
+      "nom_en": "Gingivitis",
+      "synonymes": [],
+      "cim10": "K05.1",
+      "specialite": "DENT",
+      "sous_specialite": "Parodontologie",
+      "categories": [
+        "bucco-dentaire",
+        "inflammatoire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "saignement gingival au brossage"
+      ],
+      "signes_cliniques": [
+        "gencive rouge, œdémateuse",
+        "plaque dentaire"
+      ],
+      "examens_cles": [
+        "examen clinique",
+        "indices de plaque et de saignement"
+      ],
+      "traitements_cles": [
+        "hygiène bucco-dentaire",
+        "détartrage"
+      ],
+      "pathologies_liees": [
+        "PATH-DENT-0007",
+        "PATH-DENT-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DENT-0007",
+      "nom_fr": "Parodontite",
+      "nom_en": "Periodontitis",
+      "synonymes": [
+        "maladie parodontale"
+      ],
+      "cim10": "K05.3",
+      "specialite": "DENT",
+      "sous_specialite": "Parodontologie",
+      "categories": [
+        "bucco-dentaire",
+        "inflammatoire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "saignement gingival",
+        "mobilité dentaire",
+        "halitose",
+        "récessions gingivales"
+      ],
+      "signes_cliniques": [
+        "poches parodontales",
+        "perte d'attache",
+        "mobilité",
+        "terrain (tabac, diabète)"
+      ],
+      "examens_cles": [
+        "sondage parodontal",
+        "radiographies (perte osseuse)"
+      ],
+      "traitements_cles": [
+        "hygiène",
+        "détartrage-surfaçage radiculaire",
+        "chirurgie parodontale",
+        "équilibre du diabète et arrêt du tabac"
+      ],
+      "pathologies_liees": [
+        "PATH-DENT-0006"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DENT-0008",
+      "nom_fr": "Gingivite ulcéro-nécrotique",
+      "nom_en": "Necrotizing ulcerative gingivitis",
+      "synonymes": [
+        "angine de Vincent (forme gingivale)"
+      ],
+      "cim10": "A69.1",
+      "specialite": "DENT",
+      "sous_specialite": "Parodontologie",
+      "categories": [
+        "bucco-dentaire",
+        "infectieuse"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur gingivale intense",
+        "saignement spontané",
+        "halitose fétide",
+        "fièvre"
+      ],
+      "signes_cliniques": [
+        "nécrose des papilles interdentaires (aspect décapité)",
+        "pseudomembranes",
+        "terrain (immunodépression, dénutrition, tabac)"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "recherche d'une immunodépression (sérologie VIH)"
+      ],
+      "traitements_cles": [
+        "débridement doux",
+        "bains de bouche antiseptiques",
+        "métronidazole",
+        "hygiène"
+      ],
+      "pathologies_liees": [
+        "PATH-DENT-0006",
+        "PATH-PEDI-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DENT-0009",
+      "nom_fr": "Péricoronarite (accidents d'éruption de la dent de sagesse)",
+      "nom_en": "Pericoronitis",
+      "synonymes": [],
+      "cim10": "K05.2",
+      "specialite": "DENT",
+      "sous_specialite": "Parodontologie",
+      "categories": [
+        "bucco-dentaire",
+        "infectieuse"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur rétromolaire",
+        "trismus",
+        "dysphagie",
+        "otalgie"
+      ],
+      "signes_cliniques": [
+        "capuchon muqueux inflammatoire recouvrant une dent de sagesse en éruption"
+      ],
+      "examens_cles": [
+        "orthopantomogramme"
+      ],
+      "traitements_cles": [
+        "soins locaux et bains de bouche",
+        "antibiothérapie selon l'extension",
+        "avulsion de la dent de sagesse à froid"
+      ],
+      "pathologies_liees": [
+        "PATH-DENT-0005",
+        "PATH-DENT-0010"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DENT-0010",
+      "nom_fr": "Dents incluses et enclavées",
+      "nom_en": "Impacted teeth",
+      "synonymes": [
+        "dents de sagesse incluses"
+      ],
+      "cim10": "K01.1",
+      "specialite": "DENT",
+      "sous_specialite": "Chirurgie buccale",
+      "categories": [
+        "bucco-dentaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "souvent asymptomatique",
+        "douleurs",
+        "accidents infectieux"
+      ],
+      "signes_cliniques": [
+        "absence d'éruption d'une dent à l'âge habituel"
+      ],
+      "examens_cles": [
+        "orthopantomogramme",
+        "cone beam"
+      ],
+      "traitements_cles": [
+        "surveillance",
+        "avulsion chirurgicale (dents de sagesse symptomatiques)",
+        "traction orthodontico-chirurgicale (canine incluse)"
+      ],
+      "pathologies_liees": [
+        "PATH-DENT-0009",
+        "PATH-DENT-0020",
+        "PATH-DENT-0011"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DENT-0011",
+      "nom_fr": "Alvéolite post-extractionnelle",
+      "nom_en": "Alveolar osteitis (dry socket)",
+      "synonymes": [
+        "alvéolite sèche"
+      ],
+      "cim10": "K10.3",
+      "specialite": "DENT",
+      "sous_specialite": "Chirurgie buccale",
+      "categories": [
+        "bucco-dentaire",
+        "infectieuse"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur intense irradiante apparaissant 2 à 4 jours après une extraction"
+      ],
+      "signes_cliniques": [
+        "alvéole vide sans caillot, os dénudé",
+        "halitose"
+      ],
+      "examens_cles": [
+        "diagnostic clinique"
+      ],
+      "traitements_cles": [
+        "nettoyage de l'alvéole",
+        "pansement alvéolaire",
+        "antalgiques"
+      ],
+      "pathologies_liees": [
+        "PATH-DENT-0010",
+        "PATH-DENT-0014"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DENT-0012",
+      "nom_fr": "Kyste radiculo-dentaire",
+      "nom_en": "Radicular cyst",
+      "synonymes": [
+        "kyste périapical"
+      ],
+      "cim10": "K04.8",
+      "specialite": "DENT",
+      "sous_specialite": "Chirurgie buccale",
+      "categories": [
+        "bucco-dentaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "souvent asymptomatique",
+        "tuméfaction osseuse"
+      ],
+      "signes_cliniques": [
+        "dent causale non vitale"
+      ],
+      "examens_cles": [
+        "radiographie (image radioclaire périapicale bien limitée)"
+      ],
+      "traitements_cles": [
+        "traitement endodontique",
+        "énucléation chirurgicale si volumineux"
+      ],
+      "pathologies_liees": [
+        "PATH-DENT-0003",
+        "PATH-DENT-0013"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DENT-0013",
+      "nom_fr": "Améloblastome",
+      "nom_en": "Ameloblastoma",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "DENT",
+      "sous_specialite": "Chirurgie buccale",
+      "categories": [
+        "néoplasique",
+        "bucco-dentaire"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "tuméfaction lente et indolore de la mâchoire (mandibule surtout)"
+      ],
+      "signes_cliniques": [
+        "soufflure osseuse",
+        "mobilité dentaire"
+      ],
+      "examens_cles": [
+        "orthopantomogramme et scanner (image multiloculaire en « bulles de savon »)",
+        "biopsie"
+      ],
+      "traitements_cles": [
+        "exérèse chirurgicale avec marges (risque de récidive)",
+        "reconstruction"
+      ],
+      "pathologies_liees": [
+        "PATH-DENT-0012"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DENT-0014",
+      "nom_fr": "Ostéonécrose des mâchoires (médicamenteuse ou radio-induite)",
+      "nom_en": "Osteonecrosis of the jaw",
+      "synonymes": [
+        "ostéoradionécrose"
+      ],
+      "cim10": null,
+      "specialite": "DENT",
+      "sous_specialite": "Chirurgie buccale",
+      "categories": [
+        "bucco-dentaire",
+        "iatrogène",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur",
+        "exposition osseuse persistante dans la cavité buccale",
+        "mobilité dentaire"
+      ],
+      "signes_cliniques": [
+        "os nécrotique exposé depuis plus de 8 semaines chez un patient traité par antirésorbeurs (bisphosphonates, dénosumab) ou après radiothérapie"
+      ],
+      "examens_cles": [
+        "orthopantomogramme",
+        "scanner"
+      ],
+      "traitements_cles": [
+        "prévention (bilan et soins dentaires avant traitement)",
+        "bains de bouche antiseptiques",
+        "antibiothérapie",
+        "chirurgie de résection selon le stade"
+      ],
+      "pathologies_liees": [
+        "PATH-DENT-0011"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DENT-0015",
+      "nom_fr": "Aphtose buccale récidivante",
+      "nom_en": "Recurrent aphthous stomatitis",
+      "synonymes": [
+        "aphtes"
+      ],
+      "cim10": "K12.0",
+      "specialite": "DENT",
+      "sous_specialite": "Pathologie buccale",
+      "categories": [
+        "bucco-dentaire",
+        "inflammatoire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "ulcérations buccales douloureuses récidivantes"
+      ],
+      "signes_cliniques": [
+        "ulcérations rondes à fond jaunâtre et halo rouge",
+        "recherche d'une aphtose bipolaire (maladie de Behçet), d'une maladie cœliaque ou d'une carence"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "NFS, ferritine, folates, B12 selon le contexte"
+      ],
+      "traitements_cles": [
+        "traitement local (antalgiques, corticoïdes locaux)",
+        "traitement d'une carence",
+        "colchicine dans les formes sévères"
+      ],
+      "pathologies_liees": [],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DENT-0016",
+      "nom_fr": "Leucoplasie buccale",
+      "nom_en": "Oral leukoplakia",
+      "synonymes": [],
+      "cim10": "K13.2",
+      "specialite": "DENT",
+      "sous_specialite": "Pathologie buccale",
+      "categories": [
+        "bucco-dentaire",
+        "néoplasique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "tache blanche buccale asymptomatique"
+      ],
+      "signes_cliniques": [
+        "plaque blanche non détachable au grattage",
+        "terrain alcoolo-tabagique"
+      ],
+      "examens_cles": [
+        "biopsie (recherche de dysplasie)"
+      ],
+      "traitements_cles": [
+        "arrêt du tabac et de l'alcool",
+        "exérèse ou laser selon la dysplasie",
+        "surveillance (lésion potentiellement maligne)"
+      ],
+      "pathologies_liees": [
+        "PATH-ANAP-0012"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DENT-0017",
+      "nom_fr": "Fluorose dentaire",
+      "nom_en": "Dental fluorosis",
+      "synonymes": [
+        "dents tachetées"
+      ],
+      "cim10": "K00.3",
+      "specialite": "DENT",
+      "sous_specialite": "Odontologie pédiatrique",
+      "categories": [
+        "bucco-dentaire",
+        "environnementale",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "taches blanchâtres ou brunâtres de l'émail",
+        "gêne esthétique"
+      ],
+      "signes_cliniques": [
+        "opacités symétriques de l'émail, colorations brunes, puits (formes sévères)",
+        "zones à eau riche en fluor (sud algérien)"
+      ],
+      "examens_cles": [
+        "diagnostic clinique (indice de Dean)",
+        "dosage du fluor dans l'eau de boisson"
+      ],
+      "traitements_cles": [
+        "éclaircissement, micro-abrasion, facettes ou couronnes selon la sévérité",
+        "prévention (eau à teneur en fluor adaptée)"
+      ],
+      "pathologies_liees": [
+        "PATH-DENT-0001",
+        "PATH-SPUB-0003",
+        "PATH-DENT-0018"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DENT-0018",
+      "nom_fr": "Amélogenèse imparfaite",
+      "nom_en": "Amelogenesis imperfecta",
+      "synonymes": [],
+      "cim10": "K00.5",
+      "specialite": "DENT",
+      "sous_specialite": "Odontologie pédiatrique",
+      "categories": [
+        "génétique",
+        "bucco-dentaire"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "sensibilité dentaire",
+        "gêne esthétique"
+      ],
+      "signes_cliniques": [
+        "anomalies de l'émail (hypoplasique, hypominéralisé) touchant toutes les dents des deux dentitions"
+      ],
+      "examens_cles": [
+        "examen clinique",
+        "radiographies",
+        "étude génétique"
+      ],
+      "traitements_cles": [
+        "protection et restauration prothétique précoce",
+        "prise en charge pluridisciplinaire"
+      ],
+      "pathologies_liees": [
+        "PATH-DENT-0017"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DENT-0019",
+      "nom_fr": "Traumatismes dentaires (fracture, luxation, expulsion)",
+      "nom_en": "Dental trauma",
+      "synonymes": [
+        "avulsion dentaire traumatique"
+      ],
+      "cim10": "S02.5",
+      "specialite": "DENT",
+      "sous_specialite": "Odontologie pédiatrique",
+      "categories": [
+        "traumatique",
+        "bucco-dentaire",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur",
+        "dent fracturée, déplacée ou expulsée après une chute"
+      ],
+      "signes_cliniques": [
+        "fracture coronaire ou radiculaire",
+        "mobilité",
+        "déplacement",
+        "alvéole vide"
+      ],
+      "examens_cles": [
+        "radiographies rétroalvéolaires"
+      ],
+      "traitements_cles": [
+        "réimplantation immédiate d'une dent permanente expulsée (conservation dans le lait ou le sérum)",
+        "contention",
+        "restauration",
+        "traitement endodontique selon le cas"
+      ],
+      "pathologies_liees": [
+        "PATH-DENT-0020"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DENT-0020",
+      "nom_fr": "Malocclusions et anomalies dento-faciales",
+      "nom_en": "Malocclusion and dentofacial anomalies",
+      "synonymes": [],
+      "cim10": "K07",
+      "specialite": "DENT",
+      "sous_specialite": "Odontologie pédiatrique",
+      "categories": [
+        "bucco-dentaire",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "gêne esthétique",
+        "troubles de la mastication ou de la phonation"
+      ],
+      "signes_cliniques": [
+        "anomalies de position des dents ou des bases osseuses (classes d'Angle)",
+        "succion du pouce"
+      ],
+      "examens_cles": [
+        "examen orthodontique",
+        "orthopantomogramme",
+        "téléradiographie de profil (céphalométrie)"
+      ],
+      "traitements_cles": [
+        "traitement orthodontique (appareils amovibles ou fixes)",
+        "chirurgie orthognathique des dysmorphies squelettiques de l'adulte"
+      ],
+      "pathologies_liees": [
+        "PATH-CPLA-0007",
+        "PATH-DENT-0010",
+        "PATH-DENT-0019",
+        "PATH-DENT-0021"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-DENT-0021",
+      "nom_fr": "Dysfonction de l'appareil manducateur (articulation temporo-mandibulaire)",
+      "nom_en": "Temporomandibular joint disorders",
+      "synonymes": [
+        "syndrome algo-dysfonctionnel de l'appareil manducateur"
+      ],
+      "cim10": "K07.6",
+      "specialite": "DENT",
+      "sous_specialite": "Odontologie pédiatrique",
+      "categories": [
+        "bucco-dentaire",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleurs préauriculaires",
+        "craquements",
+        "limitation de l'ouverture buccale",
+        "céphalées"
+      ],
+      "signes_cliniques": [
+        "bruits articulaires",
+        "déviation à l'ouverture",
+        "douleur des muscles masticateurs",
+        "bruxisme"
+      ],
+      "examens_cles": [
+        "examen clinique",
+        "IRM de l'articulation temporo-mandibulaire selon les cas"
+      ],
+      "traitements_cles": [
+        "conseils (alimentation molle, éviter les parafonctions)",
+        "gouttière occlusale",
+        "kinésithérapie",
+        "antalgiques"
+      ],
+      "pathologies_liees": [
+        "PATH-DENT-0020"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    }
+  ]
+}

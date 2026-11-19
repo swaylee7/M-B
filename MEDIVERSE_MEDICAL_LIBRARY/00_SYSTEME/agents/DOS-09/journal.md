@@ -8,3 +8,4 @@ Mission : Dossiers pédagogiques originaux approfondis — Rhumatologie-médecin
 - 2026-11-19T02:06:50+00:00 — DOS-RHUM-0001 (polyarthrite rhumatoïde) rédigé en 6 parties et assemblé ; 14 QCM (QCM-RHUM-0901…0914) et 2 cas (CAS-RHUM-0901, 0902) ; 8 QCM reproduits en section 20.
 - 2026-11-19T02:13:36+00:00 — DOS-RHUM-0002 (pelvispondylite rhumatismale / SpA axiale) rédigé et assemblé ; 13 QCM (QCM-RHUM-0915…0927) et 2 cas (CAS-RHUM-0903, 0904). Europe PMC temporairement indisponible (HTTP 503) : référence Ioannina 2007 (cas CAS-RHUM-0904) laissée « à vérifier ».
 - 2026-11-19T02:19:58+00:00 — DOS-MINT-0001 (lupus érythémateux systémique, items RES-MED-101 + RES-MED-154) rédigé et assemblé ; 16 QCM (QCM-MINT-0901…0916, tagués sur les deux items) et 3 cas (CAS-MINT-0901…0903).
+- 2026-11-19T02:26:33+00:00 — DOS-MINT-0002 (maladie de Behçet) rédigé et assemblé ; 13 QCM (QCM-MINT-0917…0929) et 2 cas (CAS-MINT-0904, 0905).

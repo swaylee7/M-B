@@ -6,11 +6,17 @@ sous_specialite: "Pancréas — urgences digestives"
 items_residanat: [RES-CHI-010]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-04 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_valide
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01/AUD-02/AUD-04 (IA)"
+    verdict: audite_valide
+    corrections: 16
+    rapport: 00_SYSTEME/agents/AUD-04/rapports/DOS-CDIG-0002.md
 sources:
   - id: S1
     reference: "Banks PA, Bollen TL, Dervenis C, et al.; Acute Pancreatitis Classification Working Group. Classification of acute pancreatitis — 2012: revision of the Atlanta classification and definitions by international consensus. Gut. 2013;62(1):102-111."
@@ -49,89 +55,105 @@ sources:
     organisme: "Lancet"
     annee: 2015
     type: article
-    doi: ""
+    doi: "10.1016/S0140-6736(15)00274-3"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S6
     reference: "Boxhoorn L, van Dijk SM, van Grinsven J, et al. Immediate versus postponed intervention for infected necrotizing pancreatitis (POINTER). N Engl J Med. 2021;385:1372-1381."
     organisme: "NEJM"
     annee: 2021
     type: article
-    doi: ""
+    doi: "10.1056/NEJMoa2100826"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S7
     reference: "Schepers NJ, Hallensleben NDL, Besselink MG, et al. Urgent endoscopic retrograde cholangiopancreatography with sphincterotomy versus conservative treatment in predicted severe acute gallstone pancreatitis (APEC): a multicentre randomised controlled trial. Lancet. 2020;396:167-176."
     organisme: "Lancet"
     annee: 2020
     type: article
-    doi: ""
+    doi: "10.1016/S0140-6736(20)30539-0"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S8
     reference: "van Brunschot S, van Grinsven J, van Santvoort HC, et al. Endoscopic or surgical step-up approach for infected necrotising pancreatitis (TENSION): a multicentre randomised trial. Lancet. 2018;391:51-58."
     organisme: "Lancet"
     annee: 2018
     type: article
-    doi: ""
+    doi: "10.1016/S0140-6736(17)32404-2"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S9
     reference: "Bakker OJ, van Brunschot S, van Santvoort HC, et al. Early versus on-demand nasoenteric tube feeding in acute pancreatitis (PYTHON). N Engl J Med. 2014;371:1983-1993."
     organisme: "NEJM"
     annee: 2014
     type: article
-    doi: ""
+    doi: "10.1056/NEJMoa1404393"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S10
     reference: "van Santvoort HC, Besselink MG, Bakker OJ, et al. A step-up approach or open necrosectomy for necrotizing pancreatitis (PANTER). N Engl J Med. 2010;362:1491-1502."
     organisme: "NEJM"
     annee: 2010
     type: article
-    doi: ""
+    doi: "10.1056/NEJMoa0908821"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S11
     reference: "Balthazar EJ, Robinson DL, Megibow AJ, Ranson JH. Acute pancreatitis: value of CT in establishing prognosis. Radiology. 1990;174:331-336."
     organisme: "Radiology"
     annee: 1990
     type: article
-    doi: ""
+    doi: "10.1148/radiology.174.2.2296641"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S12
-    reference: "Ranson JH, Rifkind KM, Roses DF, et al. Prognostic signs and the role of operative management in acute pancreatitis. Surg Gynecol Obstet. 1974;139:69-81."
+    reference: "Ranson JH, Rifkind KM, Roses DF, et al. Prognostic signs and the role of operative management in acute pancreatitis. Surg Gynecol Obstet. 1974;139(1):69-81 (PMID 4834279)."
     organisme: "Surg Gynecol Obstet"
     annee: 1974
     type: article
     doi: ""
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S13
     reference: "Wu BU, Johannes RS, Sun X, et al. The early prediction of mortality in acute pancreatitis: a large population-based study (BISAP). Gut. 2008;57:1698-1703."
     organisme: "Gut"
     annee: 2008
     type: article
-    doi: ""
+    doi: "10.1136/gut.2008.152702"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S14
     reference: "Leppäniemi A, Tolonen M, Tarasconi A, et al. 2019 WSES guidelines for the management of severe acute pancreatitis. World J Emerg Surg. 2019;14:27."
     organisme: WSES
     annee: 2019
     type: recommandation
-    doi: ""
+    doi: "10.1186/s13017-019-0247-0"
     url: ""
-    verifiee: false
+    verifiee: true
+  - id: S15
+    reference: "Mortele KJ, Wiesner W, Intriere L, et al. A modified CT severity index for evaluating acute pancreatitis: improved correlation with patient outcome. AJR Am J Roentgenol. 2004;183(5):1261-1265."
+    organisme: "AJR Am J Roentgenol"
+    annee: 2004
+    type: article
+    doi: "10.2214/ajr.183.5.01831261"
+    url: ""
+    verifiee: true
+  - id: S16
+    reference: "Dumonceau JM, Kapral C, Aabakken L, et al. ERCP-related adverse events: European Society of Gastrointestinal Endoscopy (ESGE) Guideline. Endoscopy. 2020;52(2):127-149."
+    organisme: ESGE
+    annee: 2020
+    type: recommandation
+    doi: "10.1055/a-1075-4080"
+    url: ""
+    verifiee: true
 mots_cles: [pancréatite aiguë, lipase, classification d'Atlanta révisée, score de Marshall modifié, nécrose pancréatique, nécrose infectée, collection nécrotique organisée, pseudokyste, Ringer lactate, WATERFALL, nutrition entérale, CPRE, cholécystectomie, step-up approach, hypertriglycéridémie, score de Balthazar, Ranson, BISAP]
 ---
 
 # Pancréatite aiguë : diagnostic, physiopathologie et traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
-> Les essais PONCHO, POINTER, APEC, TENSION, PYTHON et PANTER n'ont pas pu être revérifiés pendant la session (budget de recherche épuisé) : leurs résultats sont présentés selon leur description classique et doivent être contrôlés à l'audit.
+> Statut : audité (AUD-01/02/04, 19/11/2026, v1.1) — non encore relu par un enseignant. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Audit : existence et conclusions des essais PONCHO, POINTER, APEC, TENSION, PYTHON, PANTER et WATERFALL vérifiées sur leurs résumés PubMed ; recommandations ACG 2024 vérifiées sur le texte intégral (PMC).
 
 **Items du programme couverts** : RES-CHI-010 — « Pancréatite aiguë : Diagnostic, physiopathologie et traitement. » (Item rattaché à la chirurgie digestive et à la gastro-entérologie.)
 
@@ -243,8 +265,8 @@ La mortalité est déterminée par la **persistance** des défaillances d'organe
 
 | Cause | Fréquence relative (ordre de grandeur) | Arguments | Examens |
 |---|---|---|---|
-| **Lithiase biliaire** | ≈ 40 % (première cause) | Femme, > 50 ans, surpoids, antécédent de coliques hépatiques, **ALAT élevées précocement** (> 3 × LSN dans les 48 premières heures : forte valeur prédictive positive d'origine biliaire [À VÉRIFIER]) | **Échographie abdominale chez tous les patients** [S2, S3] ; bili-IRM ou échoendoscopie si doute |
-| **Alcool** | ≈ 20–30 % (variable selon les pays) | Consommation chronique importante (habituellement plusieurs années), homme, épisodes récidivants | Interrogatoire, GGT, VGM ; signes de pancréatite chronique (calcifications) |
+| **Lithiase biliaire** | 40–70 % selon l'ACG 2024 (première cause) [S3] | Femme, > 50 ans, surpoids, antécédent de coliques hépatiques, **ALAT élevées précocement** (> 3 × LSN dans les 48 premières heures : forte valeur prédictive positive d'origine biliaire [À VÉRIFIER]) | **Échographie abdominale chez tous les patients** [S2, S3] ; bili-IRM ou échoendoscopie si doute |
+| **Alcool** | 25–35 % selon l'ACG 2024 (variable selon les pays) [S3] | Consommation chronique importante (habituellement plusieurs années), homme, épisodes récidivants | Interrogatoire, GGT, VGM ; signes de pancréatite chronique (calcifications) |
 | **Hypertriglycéridémie** | ≈ 2–5 % (troisième cause) | Triglycérides **> 11,3 mmol/L (1 000 mg/dL)**, diabète déséquilibré, grossesse, obésité, alcool, médicaments ; sérum lactescent | Triglycérides à l'admission (ils baissent vite avec le jeûne) [S3] |
 | **Post-CPRE** | Complication de quelques % des CPRE | Douleur et lipase après CPRE | Contexte |
 | **Hypercalcémie** | Rare | Hyperparathyroïdie, néoplasie | Calcémie corrigée, PTH |
@@ -313,7 +335,21 @@ Chacune peut être **stérile** ou **infectée** [S1]. Autres complications loca
 | 30–50 % | 4 |
 | > 50 % | 6 |
 
-**CTSI = grade + nécrose (0 à 10)** ; un score ≥ 7 traduit une forme grave à forte morbi-mortalité (seuils classiques [À VÉRIFIER]). Un **CTSI modifié** (Mortele) intègre les complications extrapancréatiques.
+**CTSI = grade + nécrose (0 à 10)** ; dans la série princeps, un index élevé (7–10) s'accompagnait d'une morbidité de 92 % et d'une mortalité de 17 %, un index bas d'une morbidité de 2 % sans décès ; les complications graves concernaient les nécroses > 30 % [S11].
+
+**CTSI modifié (Mortele, 2004)** [S15] — barème d'après la publication originale (texte intégral non relu à l'audit) :
+
+| Élément | Points |
+|---|---|
+| Inflammation : pancréas normal | 0 |
+| Anomalies pancréatiques intrinsèques ± infiltration de la graisse péripancréatique | 2 |
+| Collection pancréatique ou péripancréatique, ou nécrose graisseuse péripancréatique | 4 |
+| Nécrose : absente | 0 |
+| Nécrose ≤ 30 % | 2 |
+| Nécrose > 30 % | 4 |
+| Complication(s) extrapancréatique(s) : épanchement pleural, ascite, complication vasculaire, parenchymateuse ou digestive | 2 |
+
+Total 0 à 10 : 0–2 = légère, 4–6 = modérée, 8–10 = sévère. Le CTSI modifié est mieux corrélé que le CTSI à la durée d'hospitalisation, aux interventions, à l'infection et aux défaillances d'organes [S15].
 
 ### 7.5 Scores biologico-cliniques
 
@@ -330,7 +366,7 @@ Chacune peut être **stérile** ou **infectée** [S1]. Autres complications loca
 
 *Seuils reproduits d'après la publication de Ranson [S12] ; non revérifiés pendant la session [À VÉRIFIER].* Limite : il nécessite 48 heures.
 
-**BISAP** [S13] (1 point chacun) : **B**UN (urée) > 25 mg/dL (≈ 8,9 mmol/L), trouble de conscience (**I**mpaired mental status), **S**IRS, âge > 60 ans (**A**ge), épanchement **P**leural ; un score ≥ 3 est associé à une mortalité accrue.
+**BISAP** [S13] (1 point chacun, évalué dans les 24 premières heures) : **B**UN (urée) > 25 mg/dL (≈ 8,9 mmol/L), trouble de conscience (**I**mpaired mental status), **S**IRS, âge > 60 ans (**A**ge), épanchement **P**leural ; la mortalité hospitalière va de < 1 % (score bas) à > 20 % (score le plus élevé) ; un score ≥ 3 est associé à une mortalité accrue.
 
 **SIRS** (≥ 2 critères parmi : T > 38 °C ou < 36 °C ; FC > 90/min ; FR > 20/min ou PaCO2 < 32 mmHg ; leucocytes > 12 ou < 4 G/L) : l'IAP/APA recommande d'utiliser le **SIRS à l'admission et sa persistance à 48 h** pour prédire une forme sévère [S2].
 
@@ -392,7 +428,7 @@ Chacune peut être **stérile** ou **infectée** [S1]. Autres complications loca
 
 ### 9.4 Diagnostic de l'infection de la nécrose
 
-À suspecter devant une **aggravation clinique ou biologique après 7–10 jours** (fièvre, sepsis, nouvelle défaillance d'organe). Arguments : **bulles de gaz** dans la collection à la TDM (quasi pathognomoniques en l'absence de geste préalable), hémocultures positives. La **ponction-aspiration à l'aiguille fine** guidée n'est plus systématique ; elle reste possible en cas de doute [S2] [À VÉRIFIER].
+À suspecter devant une **aggravation clinique ou biologique après 7–10 jours** (fièvre, sepsis, nouvelle défaillance d'organe). Arguments : **bulles de gaz** dans la collection à la TDM (quasi pathognomoniques en l'absence de geste préalable), hémocultures positives. La **ponction-aspiration à l'aiguille fine** guidée n'est pas recommandée en routine (l'ACG 2024 suggère de ne pas la pratiquer devant une suspicion de nécrose infectée) [S3].
 
 ### 9.5 Bilan étiologique de seconde intention (PA « idiopathique »)
 
@@ -513,14 +549,14 @@ Lorsque la nécrose détruit l'isthme ou le corps de la glande, le **canal de Wi
 | **Soluté** | **Ringer lactate** préféré au sérum salé isotonique (effet anti-inflammatoire suggéré, moins d'acidose hyperchlorémique) | [S2, S3] |
 | **Stratégie** | **Modérée et guidée par des objectifs** : l'essai WATERFALL (249 patients, arrêt précoce) a comparé un remplissage **agressif** (bolus de 20 mL/kg puis 3 mL/kg/h) à un remplissage **modéré** (1,5 mL/kg/h, bolus de 10 mL/kg seulement en cas d'hypovolémie) : pas de réduction de l'évolution vers une forme modérément sévère ou sévère (22,1 % vs 17,3 %), mais **surcharge hydrique nettement plus fréquente** avec la stratégie agressive (20,5 % vs 6,3 %) | [S4] |
 | **Recommandations antérieures** | IAP/APA 2013 : remplissage initial guidé par des objectifs, de l'ordre de **5 à 10 mL/kg/h** jusqu'à atteinte des objectifs (FC < 120/min, PAM 65–85 mmHg, diurèse > 0,5–1 mL/kg/h, hématocrite 35–44 %) | [S2] [chiffres À VÉRIFIER] |
-| **ACG 2024** | Hydratation précoce « modérément agressive » par Ringer lactate avec surveillance étroite (signes vitaux, diurèse) dans les premières heures | [S3] |
+| **ACG 2024** | Remplissage « modérément agressif » (recommandation conditionnelle) : sans hypovolémie, pas plus de **1,5 mL/kg/h** au départ ; **bolus de 10 mL/kg** en cas d'hypovolémie ; la plupart des patients reçoivent 3–4 L sur les 24 premières heures selon l'IMC ; prudence en cas de comorbidité cardiovasculaire ou rénale, surveillance de la surcharge ; **Ringer lactate** préféré au sérum salé | [S3] |
 | **Réévaluation** | Réévaluer à intervalles rapprochés (par exemple à 3, 12, 24, 48 et 72 heures) : hémodynamique, diurèse, hématocrite, urée, signes de surcharge (crépitants, désaturation, œdèmes) | [S3, S4] |
 
-**Contre-indications relatives au Ringer lactate** : hypercalcémie (contient du calcium) ; prudence en cas d'hyperkaliémie sévère. [POSOLOGIE À VÉRIFIER — protocole local de réanimation.]
+**Contre-indications relatives au Ringer lactate** : hypercalcémie (contient du calcium) ; prudence en cas d'hyperkaliémie sévère. Débits : stratégie modérée de WATERFALL reprise par l'ACG 2024 [S3, S4], à adapter au terrain (cardiopathie, insuffisance rénale) et réévaluée régulièrement.
 
 #### 13.2.2 Analgésie
 
-- **Antalgie multimodale** : paracétamol (adapté au poids et à la fonction hépatique), **opioïdes** (morphine titrée, PCA) — leur utilisation est acceptée et ils n'aggravent pas l'évolution de la PA de manière démontrée [S3] [À VÉRIFIER] ; **AINS** à éviter en cas d'insuffisance rénale ou d'hypovolémie.
+- **Antalgie multimodale** : paracétamol (adapté au poids et à la fonction hépatique), **opioïdes** (morphine titrée, PCA) — leur utilisation est acceptée et aucun effet délétère sur l'évolution de la PA n'a été démontré (l'ACG 2024 ne traite pas de l'analgésie) [À VÉRIFIER — source à citer] ; **AINS** à éviter en cas d'insuffisance rénale ou d'hypovolémie.
 - L'analgésie péridurale peut être discutée en réanimation dans des équipes entraînées [À VÉRIFIER].
 
 #### 13.2.3 Nutrition
@@ -534,7 +570,7 @@ Lorsque la nécrose détruit l'isthme ou le corps de la glande, le **canal de Wi
 
 - **Pas d'antibioprophylaxie systématique**, même dans les formes sévères ou nécrosantes [S2, S3].
 - **Antibiothérapie** pour les **infections documentées ou fortement suspectées** : angiocholite, infection extrapancréatique (pneumopathie, urinaire, cathéter), **nécrose infectée** — avec des molécules **pénétrant la nécrose** (carbapénèmes, fluoroquinolones, métronidazole) ; elle peut permettre de **retarder**, voire d'éviter, une intervention [S2, S3].
-- [Choix et posologies selon l'écologie locale — POSOLOGIE À VÉRIFIER — protocole local.]
+- Choix des molécules selon l'écologie locale et l'antibiogramme ; posologies selon le RCP et le protocole local (aucune posologie n'est proposée dans ce dossier). Les antibiotiques diffusant dans la nécrose servent surtout à différer le drainage au-delà de 4 semaines (ACG 2024) [S3].
 
 #### 13.2.5 Traitements sans efficacité démontrée
 
@@ -551,7 +587,7 @@ Inhibiteurs de la pompe à protons (sauf indication propre), somatostatine/octr�
 
 #### 13.2.7 Cholécystectomie
 
-- **PA biliaire légère** : **cholécystectomie au cours de la même hospitalisation** (dès la résolution) — le report expose à des récidives biliaires (essai PONCHO) [S2, S3, S5].
+- **PA biliaire légère** : **cholécystectomie au cours de la même hospitalisation** (dès la résolution) — le report expose à des récidives biliaires (PONCHO : complications biliaires récidivantes 5 % vs 17 %) [S2, S5].
 - **PA biliaire nécrosante** : cholécystectomie **différée** jusqu'à la résolution des collections ou **au-delà de 6 semaines** (risque infectieux) [S2] [À VÉRIFIER].
 - Voie cœlioscopique ; exploration de la voie biliaire principale selon le bilan.
 
@@ -567,8 +603,8 @@ Inhibiteurs de la pompe à protons (sauf indication propre), somatostatine/octr�
    - **drainage** en première intention — **percutané** (de préférence par voie rétropéritonéale) ou **endoscopique transmural** (échoendoguidé, prothèse d'apposition luminale) ;
    - puis, en l'absence d'amélioration, **nécrosectomie mini-invasive** : **endoscopique** (transgastrique) ou **vidéo-assistée par voie rétropéritonéale** (VARD) ;
    - la **nécrosectomie chirurgicale ouverte** est réservée aux échecs.
-3. **Délai** : différer l'intervention, idéalement **jusqu'à l'encapsulation de la nécrose (≈ 4 semaines)** [S2] ; l'essai POINTER n'a pas montré de bénéfice d'un drainage immédiat dès le diagnostic d'infection par rapport à un drainage différé jusqu'à l'encapsulation, et la stratégie différée a nécessité moins d'interventions [S6].
-4. **Step-up endoscopique vs chirurgical** : mortalité et complications majeures comparables, mais **moins de fistules pancréatiques** et une hospitalisation plus courte avec la voie endoscopique (TENSION) [S8].
+3. **Délai** : chez le patient stable, différer l'intervention, idéalement **jusqu'à l'encapsulation de la nécrose (≈ 4 semaines)** [S2, S3] ; l'essai POINTER (104 patients) n'a pas montré de bénéfice d'un drainage immédiat dès le diagnostic d'infection par rapport à un drainage différé jusqu'à l'encapsulation ; la stratégie différée a nécessité moins d'interventions (2,6 vs 4,4) et 39 % des patients différés ont guéri sous antibiotiques seuls [S6].
+4. **Step-up endoscopique vs chirurgical** : complications majeures ou décès comparables (43 % vs 45 %), mais **moins de fistules pancréatiques** et une hospitalisation plus courte avec la voie endoscopique (TENSION) [S8]. Dans PANTER, le step-up (35 % des patients traités par drainage seul) réduisait les complications majeures ou le décès par rapport à la nécrosectomie ouverte (40 % vs 69 %) [S10].
 5. **Pseudokyste** : **abstention** s'il est asymptomatique (quelle que soit la taille) ; drainage (préférentiellement **endoscopique**) s'il est symptomatique ou compliqué (infection, compression, hémorragie).
 
 #### 13.2.10 Autres gestes
@@ -648,7 +684,7 @@ PANCRÉATITE AIGUË CONFIRMÉE (2 critères / 3)
 ### 15.2 Prévention de la pancréatite post-CPRE
 
 - **Indication rigoureuse** de la CPRE (privilégier bili-IRM/échoendoscopie à visée diagnostique).
-- **AINS par voie rectale** (indométacine ou diclofénac 100 mg) avant ou juste après la CPRE en l'absence de contre-indication ; **prothèse pancréatique** chez les patients à haut risque ; **hydratation par Ringer lactate** périprocédurale [recommandation ESGE spécifique non revérifiée — POSOLOGIE À VÉRIFIER].
+- **AINS par voie rectale** : **100 mg de diclofénac ou d'indométacine immédiatement avant la CPRE** chez tous les patients sans contre-indication aux AINS (ESGE 2020, recommandation forte) [S16] ; l'ACG 2024 recommande l'indométacine rectale chez les patients à haut risque [S3]. **Prothèse pancréatique** chez les patients à haut risque [S16, S3]. Hydratation par Ringer lactate périprocédurale chez certains patients (modalités à vérifier dans l'ESGE 2020) [À VÉRIFIER].
 
 ### 15.3 Prévention primaire
 
@@ -890,6 +926,7 @@ E. Pseudokyste, qui doit être drainé dès qu'il dépasse 6 cm même asymptomat
 | **Voie du step-up** | Step-up chirurgical (drainage percutané + VARD) [S10] | Step-up endoscopique (TENSION) : moins de fistules [S8] | Choix selon l'expertise locale et l'anatomie de la collection |
 | **Classification de gravité** | Atlanta révisée 2012 : 3 niveaux [S1] | Classification « fondée sur les déterminants » (2012) : 4 niveaux (légère, modérée, sévère, critique) [non revérifiée] | Atlanta révisée est la plus utilisée en pratique et à l'examen |
 | **Moment de la TDM** | IAP/APA et ACG : pas de TDM systématique à l'admission ; TDM après 72–96 h si nécessaire [S2, S3] | Pratiques locales : TDM précoce fréquente (accès, doute diagnostique) | La TDM précoce n'améliore pas le pronostic et sous-estime la nécrose |
+| **Prévention de la PA post-CPRE** | ESGE 2020 : AINS rectal (100 mg) chez **tous** les patients sans contre-indication [S16] | ACG 2024 : indométacine rectale chez les patients **à haut risque** [S3] | Indication plus large en Europe |
 | **CPRE dans la PA biliaire prédite sévère sans angiocholite** | ACG 2024 : traitement médical préféré à une CPRE < 72 h [S3] ; APEC 2020 : pas de bénéfice de la CPRE urgente [S7] | Pratiques antérieures : CPRE précoce dans les formes sévères | Concordance actuelle en faveur de l'abstention en l'absence d'angiocholite |
 
 ---
@@ -900,13 +937,15 @@ E. Pseudokyste, qui doit être drainé dès qu'il dépasse 6 cm même asymptomat
 2. **[S2]** Working Group IAP/APA. IAP/APA evidence-based guidelines for the management of acute pancreatitis. *Pancreatology*. 2013;13(4 Suppl 2):e1-e15. doi:10.1016/j.pan.2013.07.063. — *vérifiée*.
 3. **[S3]** Tenner S, et al. American College of Gastroenterology Guidelines: Management of Acute Pancreatitis. *Am J Gastroenterol*. 2024;119(3):419-437. doi:10.14309/ajg.0000000000002645. — *vérifiée*.
 4. **[S4]** de-Madaria E, et al. Aggressive or moderate fluid resuscitation in acute pancreatitis (WATERFALL). *N Engl J Med*. 2022;387:989-1000. doi:10.1056/NEJMoa2202884. — *vérifiée*.
-5. **[S5]** da Costa DW, et al. PONCHO. *Lancet*. 2015;386:1261-1268. — *non revérifiée*.
-6. **[S6]** Boxhoorn L, et al. POINTER. *N Engl J Med*. 2021;385:1372-1381. — *non revérifiée*.
-7. **[S7]** Schepers NJ, et al. APEC. *Lancet*. 2020;396:167-176. — *non revérifiée*.
-8. **[S8]** van Brunschot S, et al. TENSION. *Lancet*. 2018;391:51-58. — *non revérifiée*.
-9. **[S9]** Bakker OJ, et al. PYTHON. *N Engl J Med*. 2014;371:1983-1993. — *non revérifiée*.
-10. **[S10]** van Santvoort HC, et al. PANTER. *N Engl J Med*. 2010;362:1491-1502. — *non revérifiée*.
-11. **[S11]** Balthazar EJ, et al. Acute pancreatitis: value of CT in establishing prognosis. *Radiology*. 1990;174:331-336. — *non revérifiée*.
-12. **[S12]** Ranson JH, et al. Prognostic signs and the role of operative management in acute pancreatitis. *Surg Gynecol Obstet*. 1974;139:69-81. — *non revérifiée*.
-13. **[S13]** Wu BU, et al. The early prediction of mortality in acute pancreatitis (BISAP). *Gut*. 2008;57:1698-1703. — *non revérifiée*.
-14. **[S14]** Leppäniemi A, et al. 2019 WSES guidelines for the management of severe acute pancreatitis. *World J Emerg Surg*. 2019;14:27. — *non revérifiée*.
+5. **[S5]** da Costa DW, et al. PONCHO. *Lancet*. 2015;386:1261-1268. doi:10.1016/S0140-6736(15)00274-3 (PMID 26460661). — *vérifiée (audit)*.
+6. **[S6]** Boxhoorn L, et al. POINTER. *N Engl J Med*. 2021;385:1372-1381. doi:10.1056/NEJMoa2100826 (PMID 34614330). — *vérifiée (audit)*.
+7. **[S7]** Schepers NJ, et al. APEC. *Lancet*. 2020;396:167-176. doi:10.1016/S0140-6736(20)30539-0 (PMID 32682482). — *vérifiée (audit)*.
+8. **[S8]** van Brunschot S, et al. TENSION. *Lancet*. 2018;391:51-58. doi:10.1016/S0140-6736(17)32404-2 (PMID 29108721). — *vérifiée (audit)*.
+9. **[S9]** Bakker OJ, et al. PYTHON. *N Engl J Med*. 2014;371:1983-1993. doi:10.1056/NEJMoa1404393 (PMID 25409371). — *vérifiée (audit)*.
+10. **[S10]** van Santvoort HC, et al. PANTER. *N Engl J Med*. 2010;362:1491-1502. doi:10.1056/NEJMoa0908821 (PMID 20410514). — *vérifiée (audit)*.
+11. **[S11]** Balthazar EJ, et al. Acute pancreatitis: value of CT in establishing prognosis. *Radiology*. 1990;174(2):331-336. doi:10.1148/radiology.174.2.2296641 (PMID 2296641). — *vérifiée (audit)*.
+12. **[S12]** Ranson JH, et al. Prognostic signs and the role of operative management in acute pancreatitis. *Surg Gynecol Obstet*. 1974;139(1):69-81 (PMID 4834279). — *vérifiée (audit)*.
+13. **[S13]** Wu BU, et al. The early prediction of mortality in acute pancreatitis: a large population-based study (BISAP). *Gut*. 2008;57(12):1698-1703. doi:10.1136/gut.2008.152702 (PMID 18519429). — *vérifiée (audit)*.
+14. **[S14]** Leppäniemi A, et al. 2019 WSES guidelines for the management of severe acute pancreatitis. *World J Emerg Surg*. 2019;14:27. doi:10.1186/s13017-019-0247-0 (PMID 31210778). — *vérifiée (audit)*.
+15. **[S15]** Mortele KJ, et al. A modified CT severity index for evaluating acute pancreatitis. *AJR Am J Roentgenol*. 2004;183(5):1261-1265. doi:10.2214/ajr.183.5.01831261 (PMID 15505289). — *vérifiée (audit)*.
+16. **[S16]** Dumonceau JM, et al. ERCP-related adverse events: ESGE Guideline. *Endoscopy*. 2020;52(2):127-149. doi:10.1055/a-1075-4080 (PMID 31863440). — *vérifiée (audit)*.

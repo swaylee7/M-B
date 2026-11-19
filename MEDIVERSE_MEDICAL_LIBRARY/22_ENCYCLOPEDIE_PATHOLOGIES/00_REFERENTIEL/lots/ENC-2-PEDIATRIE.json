@@ -1,0 +1,5011 @@
+{
+  "agent": "ENC-2",
+  "date": "2026-11-19",
+  "pathologies": [
+    {
+      "id": "PATH-PEDI-0001",
+      "nom_fr": "Malnutrition protéino-énergétique de l'enfant",
+      "nom_en": "Protein-energy malnutrition in children",
+      "synonymes": [
+        "malnutrition protéino-calorique",
+        "dénutrition de l'enfant"
+      ],
+      "cim10": "E46",
+      "specialite": "PEDI",
+      "sous_specialite": "Nutrition et croissance",
+      "categories": [
+        "nutritionnelle",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-067"
+      ],
+      "symptomes": [
+        "anorexie",
+        "perte de poids ou stagnation pondérale",
+        "diarrhée récidivante",
+        "apathie"
+      ],
+      "signes_cliniques": [
+        "cassure de la courbe pondérale puis staturale",
+        "fonte musculaire et du tissu adipeux",
+        "œdèmes (forme œdémateuse)",
+        "infections récurrentes"
+      ],
+      "examens_cles": [
+        "indices anthropométriques (poids/taille, taille/âge en z-score OMS)",
+        "périmètre brachial",
+        "albuminémie, protidémie",
+        "ionogramme, glycémie",
+        "recherche d'infection (NFS, ECBU, radiographie thoracique)"
+      ],
+      "traitements_cles": [
+        "renutrition progressive en phase de stabilisation puis de réhabilitation (laits thérapeutiques type F-75/F-100, aliments thérapeutiques prêts à l'emploi)",
+        "prévention et traitement de l'hypoglycémie et de l'hypothermie",
+        "traitement des infections",
+        "correction des carences en micronutriments",
+        "éducation nutritionnelle"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0002",
+        "PATH-PEDI-0003",
+        "PATH-PEDI-0021",
+        "PATH-PEDI-0022",
+        "PATH-SPUB-0006",
+        "PATH-PEDI-0006",
+        "PATH-PEDI-0007",
+        "PATH-PEDI-0023",
+        "PATH-NEON-0016",
+        "PATH-DENT-0008",
+        "PATH-SPUB-0007"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0002",
+      "nom_fr": "Marasme",
+      "nom_en": "Nutritional marasmus",
+      "synonymes": [
+        "malnutrition aiguë sévère non œdémateuse"
+      ],
+      "cim10": "E41",
+      "specialite": "PEDI",
+      "sous_specialite": "Nutrition et croissance",
+      "categories": [
+        "nutritionnelle",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-067"
+      ],
+      "symptomes": [
+        "amaigrissement extrême",
+        "faim conservée au début",
+        "irritabilité"
+      ],
+      "signes_cliniques": [
+        "émaciation sévère (« peau sur les os »)",
+        "faciès de vieillard",
+        "disparition de la boule de Bichat",
+        "absence d'œdèmes"
+      ],
+      "examens_cles": [
+        "rapport poids/taille < -3 z-score",
+        "périmètre brachial",
+        "glycémie",
+        "ionogramme",
+        "bilan infectieux"
+      ],
+      "traitements_cles": [
+        "prise en charge hospitalière si compliqué (protocole OMS en 10 étapes)",
+        "laits thérapeutiques F-75 puis F-100",
+        "antibiothérapie systématique selon protocole",
+        "supplémentation en micronutriments"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0001",
+        "PATH-PEDI-0003"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0003",
+      "nom_fr": "Kwashiorkor",
+      "nom_en": "Kwashiorkor",
+      "synonymes": [
+        "malnutrition aiguë sévère œdémateuse"
+      ],
+      "cim10": "E40",
+      "specialite": "PEDI",
+      "sous_specialite": "Nutrition et croissance",
+      "categories": [
+        "nutritionnelle",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-067"
+      ],
+      "symptomes": [
+        "anorexie",
+        "apathie",
+        "diarrhée"
+      ],
+      "signes_cliniques": [
+        "œdèmes bilatéraux prenant le godet",
+        "dermatose (lésions en « peinture écaillée »)",
+        "cheveux décolorés et cassants",
+        "hépatomégalie (stéatose)"
+      ],
+      "examens_cles": [
+        "albuminémie effondrée",
+        "ionogramme (hypokaliémie)",
+        "glycémie",
+        "NFS (anémie)",
+        "bilan infectieux"
+      ],
+      "traitements_cles": [
+        "protocole OMS de malnutrition aiguë sévère",
+        "renutrition prudente (F-75) puis réhabilitation (F-100)",
+        "antibiothérapie",
+        "correction prudente des troubles hydroélectrolytiques (risque de surcharge)",
+        "micronutriments"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0001",
+        "PATH-PEDI-0002"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0004",
+      "nom_fr": "Rachitisme hypophosphatémique lié à l'X",
+      "nom_en": "X-linked hypophosphatemic rickets",
+      "synonymes": [
+        "rachitisme vitamino-résistant hypophosphatémique",
+        "hypophosphatémie familiale"
+      ],
+      "cim10": "E83.3",
+      "specialite": "PEDI",
+      "sous_specialite": "Nutrition et croissance",
+      "categories": [
+        "génétique",
+        "métabolique",
+        "pédiatrique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "retard de croissance",
+        "douleurs osseuses",
+        "troubles de la marche"
+      ],
+      "signes_cliniques": [
+        "genu varum progressif",
+        "petite taille disproportionnée",
+        "abcès dentaires spontanés"
+      ],
+      "examens_cles": [
+        "phosphorémie basse avec phosphaturie inadaptée (TmP/DFG bas)",
+        "calcémie normale",
+        "phosphatases alcalines élevées",
+        "FGF23",
+        "étude génétique (gène PHEX)"
+      ],
+      "traitements_cles": [
+        "phosphore oral et dérivés actifs de la vitamine D",
+        "anticorps anti-FGF23 (burosumab) selon indications",
+        "chirurgie orthopédique des déformations",
+        "prise en charge en centre de référence"
+      ],
+      "pathologies_liees": [
+        "PATH-ORTH-0029"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0005",
+      "nom_fr": "Obésité de l'enfant",
+      "nom_en": "Childhood obesity",
+      "synonymes": [
+        "surpoids de l'enfant"
+      ],
+      "cim10": "E66",
+      "specialite": "PEDI",
+      "sous_specialite": "Nutrition et croissance",
+      "categories": [
+        "nutritionnelle",
+        "métabolique",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "prise de poids excessive",
+        "essoufflement à l'effort",
+        "retentissement psychologique"
+      ],
+      "signes_cliniques": [
+        "IMC supérieur au seuil IOTF/OMS pour l'âge et le sexe",
+        "rebond d'adiposité précoce",
+        "vergetures",
+        "acanthosis nigricans"
+      ],
+      "examens_cles": [
+        "courbe d'IMC",
+        "bilan lipidique, glycémie à jeun",
+        "transaminases",
+        "recherche de causes endocriniennes ou génétiques si signes d'appel (cassure staturale)"
+      ],
+      "traitements_cles": [
+        "prise en charge pluridisciplinaire (diététique, activité physique, comportementale)",
+        "implication familiale",
+        "dépistage et traitement des complications"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0006",
+        "PATH-ORTH-0003"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0006",
+      "nom_fr": "Retard de croissance staturo-pondérale de l'enfant",
+      "nom_en": "Faltering growth in children",
+      "synonymes": [
+        "cassure de la courbe de croissance",
+        "hypotrophie"
+      ],
+      "cim10": null,
+      "specialite": "PEDI",
+      "sous_specialite": "Nutrition et croissance",
+      "categories": [
+        "pédiatrique",
+        "nutritionnelle",
+        "endocrinienne"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-064"
+      ],
+      "symptomes": [
+        "stagnation de la taille et/ou du poids",
+        "troubles alimentaires"
+      ],
+      "signes_cliniques": [
+        "infléchissement de la courbe staturale (< -2 DS) ou cassure",
+        "rapport poids/taille anormal",
+        "signes orientant vers une cause organique"
+      ],
+      "examens_cles": [
+        "courbes de croissance",
+        "âge osseux",
+        "NFS, ionogramme, bilan martial",
+        "anticorps anti-transglutaminase",
+        "TSH, T4",
+        "caryotype chez la fille (syndrome de Turner)",
+        "tests de stimulation de l'hormone de croissance"
+      ],
+      "traitements_cles": [
+        "traitement étiologique (régime sans gluten, hormone de croissance, lévothyroxine…)",
+        "prise en charge nutritionnelle",
+        "suivi auxologique"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0005",
+        "PATH-PEDI-0018",
+        "PATH-PEDI-0001",
+        "PATH-SPUB-0006"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0007",
+      "nom_fr": "Scorbut infantile",
+      "nom_en": "Infantile scurvy",
+      "synonymes": [
+        "carence en vitamine C",
+        "maladie de Barlow"
+      ],
+      "cim10": "E54",
+      "specialite": "PEDI",
+      "sous_specialite": "Nutrition et croissance",
+      "categories": [
+        "nutritionnelle",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "douleurs des membres",
+        "pseudo-paralysie",
+        "irritabilité"
+      ],
+      "signes_cliniques": [
+        "hémorragies gingivales",
+        "hématomes sous-périostés",
+        "pétéchies périfolliculaires"
+      ],
+      "examens_cles": [
+        "dosage de la vitamine C (acide ascorbique)",
+        "radiographies (liseré de Fraenkel, ostéopénie)"
+      ],
+      "traitements_cles": [
+        "supplémentation en vitamine C",
+        "correction du régime alimentaire"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0008",
+      "nom_fr": "Infection urinaire de l'enfant",
+      "nom_en": "Urinary tract infection in children",
+      "synonymes": [
+        "pyélonéphrite aiguë de l'enfant",
+        "cystite de l'enfant"
+      ],
+      "cim10": "N39.0",
+      "specialite": "PEDI",
+      "sous_specialite": "Infectiologie pédiatrique",
+      "categories": [
+        "infectieuse",
+        "rénale",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-065"
+      ],
+      "symptomes": [
+        "fièvre isolée du nourrisson",
+        "troubles digestifs",
+        "brûlures mictionnelles et pollakiurie (grand enfant)",
+        "douleurs lombaires"
+      ],
+      "signes_cliniques": [
+        "fièvre élevée sans foyer",
+        "altération de l'état général",
+        "sensibilité lombaire"
+      ],
+      "examens_cles": [
+        "bandelette urinaire",
+        "ECBU (prélèvement adapté à l'âge)",
+        "CRP, procalcitonine",
+        "hémocultures chez le nourrisson",
+        "échographie rénale et vésicale",
+        "cystographie si récidive ou anomalie"
+      ],
+      "traitements_cles": [
+        "antibiothérapie adaptée (parentérale initiale si nourrisson ou signes de gravité, relais oral)",
+        "prise en charge d'une uropathie sous-jacente",
+        "prévention des récidives"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0020",
+        "PATH-CPED-0019",
+        "PATH-CPED-0021",
+        "PATH-PEDI-0015",
+        "PATH-PEDI-0025"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0009",
+      "nom_fr": "Exanthème subit (roséole infantile)",
+      "nom_en": "Exanthema subitum (roseola infantum)",
+      "synonymes": [
+        "sixième maladie",
+        "infection à HHV-6"
+      ],
+      "cim10": "B08.2",
+      "specialite": "PEDI",
+      "sous_specialite": "Infectiologie pédiatrique",
+      "categories": [
+        "infectieuse",
+        "pédiatrique",
+        "dermatologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "fièvre élevée pendant environ 3 jours",
+        "irritabilité"
+      ],
+      "signes_cliniques": [
+        "éruption maculo-papuleuse rosée du tronc à la défervescence",
+        "bon état général",
+        "risque de convulsion fébrile"
+      ],
+      "examens_cles": [
+        "diagnostic clinique"
+      ],
+      "traitements_cles": [
+        "traitement symptomatique (antipyrétiques)",
+        "information des parents"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0010",
+        "PATH-PEDI-0011"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0010",
+      "nom_fr": "Mégalérythème épidémique",
+      "nom_en": "Erythema infectiosum (fifth disease)",
+      "synonymes": [
+        "cinquième maladie",
+        "infection à parvovirus B19"
+      ],
+      "cim10": "B08.3",
+      "specialite": "PEDI",
+      "sous_specialite": "Infectiologie pédiatrique",
+      "categories": [
+        "infectieuse",
+        "pédiatrique",
+        "dermatologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "fièvre modérée",
+        "éruption"
+      ],
+      "signes_cliniques": [
+        "érythème souffleté des joues",
+        "éruption maculo-papuleuse en dentelle des membres",
+        "arthralgies (adolescent)"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "sérologie ou PCR parvovirus B19 si terrain à risque (grossesse, hémolyse chronique)"
+      ],
+      "traitements_cles": [
+        "traitement symptomatique",
+        "surveillance des femmes enceintes exposées (risque d'anasarque fœtale)",
+        "transfusion si crise aplasique"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0009",
+        "PATH-OBST-0030"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0011",
+      "nom_fr": "Syndrome pieds-mains-bouche",
+      "nom_en": "Hand, foot and mouth disease",
+      "synonymes": [
+        "stomatite vésiculeuse à entérovirus avec exanthème"
+      ],
+      "cim10": "B08.4",
+      "specialite": "PEDI",
+      "sous_specialite": "Infectiologie pédiatrique",
+      "categories": [
+        "infectieuse",
+        "pédiatrique",
+        "dermatologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "fièvre modérée",
+        "douleurs buccales",
+        "refus alimentaire"
+      ],
+      "signes_cliniques": [
+        "vésicules buccales",
+        "vésicules des paumes, plantes et fesses"
+      ],
+      "examens_cles": [
+        "diagnostic clinique"
+      ],
+      "traitements_cles": [
+        "traitement symptomatique",
+        "hydratation",
+        "éviction et hygiène des mains en collectivité"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0009",
+        "PATH-PEDI-0022"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0012",
+      "nom_fr": "Staphylococcie pleuropulmonaire du nourrisson",
+      "nom_en": "Staphylococcal pleuropneumonia in infants",
+      "synonymes": [
+        "pneumopathie staphylococcique bulleuse"
+      ],
+      "cim10": "J15.2",
+      "specialite": "PEDI",
+      "sous_specialite": "Infectiologie pédiatrique",
+      "categories": [
+        "infectieuse",
+        "respiratoire",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "fièvre élevée",
+        "altération de l'état général",
+        "détresse respiratoire",
+        "ballonnement abdominal"
+      ],
+      "signes_cliniques": [
+        "syndrome de condensation ou d'épanchement pleural",
+        "signes de sepsis"
+      ],
+      "examens_cles": [
+        "radiographie thoracique (bulles, pyopneumothorax)",
+        "NFS, CRP",
+        "hémocultures",
+        "ponction pleurale"
+      ],
+      "traitements_cles": [
+        "antibiothérapie anti-staphylococcique parentérale",
+        "drainage d'un épanchement ou d'un pneumothorax",
+        "réanimation si choc"
+      ],
+      "pathologies_liees": [
+        "PATH-CTHO-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0013",
+      "nom_fr": "Insuffisance cardiaque du nourrisson",
+      "nom_en": "Heart failure in infants",
+      "synonymes": [],
+      "cim10": "I50",
+      "specialite": "PEDI",
+      "sous_specialite": "Cardiologie pédiatrique",
+      "categories": [
+        "cardiovasculaire",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "difficultés et essoufflement lors des tétées",
+        "sueurs",
+        "stagnation pondérale"
+      ],
+      "signes_cliniques": [
+        "tachycardie",
+        "polypnée",
+        "hépatomégalie",
+        "bruit de galop"
+      ],
+      "examens_cles": [
+        "radiographie thoracique (cardiomégalie)",
+        "échocardiographie",
+        "ECG",
+        "NT-proBNP"
+      ],
+      "traitements_cles": [
+        "diurétiques",
+        "traitement de la cause (cardiopathie congénitale, myocardite, trouble du rythme)",
+        "enrichissement calorique",
+        "chirurgie ou cathétérisme interventionnel selon la cause"
+      ],
+      "pathologies_liees": [
+        "PATH-CCVA-0011",
+        "PATH-CCVA-0014",
+        "PATH-CCVA-0012",
+        "PATH-PEDI-0030"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0014",
+      "nom_fr": "Syndrome néphrotique idiopathique de l'enfant",
+      "nom_en": "Idiopathic nephrotic syndrome in children",
+      "synonymes": [
+        "néphrose lipoïdique",
+        "lésions glomérulaires minimes"
+      ],
+      "cim10": "N04",
+      "specialite": "PEDI",
+      "sous_specialite": "Néphrologie pédiatrique",
+      "categories": [
+        "rénale",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-080"
+      ],
+      "symptomes": [
+        "œdèmes blancs mous déclives",
+        "prise de poids",
+        "urines mousseuses"
+      ],
+      "signes_cliniques": [
+        "œdèmes palpébraux et des membres",
+        "ascite",
+        "épanchements",
+        "absence d'HTA et d'hématurie (forme pure)"
+      ],
+      "examens_cles": [
+        "protéinurie massive (rapport protéinurie/créatininurie)",
+        "albuminémie basse",
+        "hyperlipidémie",
+        "créatininémie",
+        "biopsie rénale si forme atypique ou corticorésistance"
+      ],
+      "traitements_cles": [
+        "corticothérapie orale",
+        "mesures hygiéno-diététiques (régime pauvre en sel)",
+        "prévention des complications thrombotiques et infectieuses",
+        "immunosuppresseurs en cas de corticodépendance"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0031"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0015",
+      "nom_fr": "Énurésie de l'enfant",
+      "nom_en": "Nocturnal enuresis",
+      "synonymes": [
+        "énurésie nocturne primaire"
+      ],
+      "cim10": "F98.0",
+      "specialite": "PEDI",
+      "sous_specialite": "Néphrologie pédiatrique",
+      "categories": [
+        "pédiatrique",
+        "urologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "mictions involontaires nocturnes après l'âge de 5 ans",
+        "retentissement psychologique"
+      ],
+      "signes_cliniques": [
+        "examen clinique normal dans la forme isolée",
+        "recherche de signes diurnes (urgenturie, constipation)"
+      ],
+      "examens_cles": [
+        "bandelette urinaire (glycosurie, infection)",
+        "calendrier mictionnel",
+        "échographie si forme non isolée"
+      ],
+      "traitements_cles": [
+        "mesures éducatives (calendrier, restriction hydrique vespérale)",
+        "alarme d'énurésie",
+        "desmopressine",
+        "traitement d'une constipation associée"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0008",
+        "PATH-PEDI-0025",
+        "PATH-UROL-0018",
+        "PATH-PEDI-0038"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0016",
+      "nom_fr": "Retard de développement psychomoteur",
+      "nom_en": "Global developmental delay",
+      "synonymes": [
+        "retard des acquisitions"
+      ],
+      "cim10": "R62.0",
+      "specialite": "PEDI",
+      "sous_specialite": "Neuropédiatrie",
+      "categories": [
+        "neurologique",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-066"
+      ],
+      "symptomes": [
+        "retard d'acquisition de la tenue de tête, de la position assise, de la marche ou du langage"
+      ],
+      "signes_cliniques": [
+        "décalage par rapport aux étapes du développement",
+        "examen neurologique (tonus, réflexes)",
+        "périmètre crânien",
+        "dysmorphie"
+      ],
+      "examens_cles": [
+        "évaluation du développement",
+        "audition et vision",
+        "IRM cérébrale",
+        "bilan génétique et métabolique orienté",
+        "TSH"
+      ],
+      "traitements_cles": [
+        "prise en charge précoce pluridisciplinaire (kinésithérapie, psychomotricité, orthophonie)",
+        "traitement étiologique si possible",
+        "accompagnement familial"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0009",
+        "PATH-ORL-0010",
+        "PATH-NEON-0041",
+        "PATH-SPUB-0004",
+        "PATH-PEDI-0033",
+        "PATH-PEDI-0034"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0017",
+      "nom_fr": "Syndrome de Reye",
+      "nom_en": "Reye syndrome",
+      "synonymes": [
+        "encéphalopathie avec stéatose hépatique"
+      ],
+      "cim10": "G93.7",
+      "specialite": "PEDI",
+      "sous_specialite": "Neuropédiatrie",
+      "categories": [
+        "neurologique",
+        "digestive",
+        "pédiatrique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "vomissements incoercibles",
+        "troubles de conscience",
+        "antécédent d'infection virale traitée par aspirine"
+      ],
+      "signes_cliniques": [
+        "encéphalopathie aiguë",
+        "signes d'hypertension intracrânienne",
+        "hépatomégalie sans ictère"
+      ],
+      "examens_cles": [
+        "transaminases élevées",
+        "ammoniémie élevée",
+        "glycémie (hypoglycémie)",
+        "TP abaissé"
+      ],
+      "traitements_cles": [
+        "réanimation",
+        "traitement de l'hypertension intracrânienne",
+        "correction de l'hypoglycémie",
+        "prévention par contre-indication de l'aspirine chez l'enfant"
+      ],
+      "pathologies_liees": [
+        "PATH-NCHI-0027",
+        "PATH-URGE-0007"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0018",
+      "nom_fr": "Déficit en hormone de croissance de l'enfant",
+      "nom_en": "Growth hormone deficiency in children",
+      "synonymes": [
+        "déficit somatotrope"
+      ],
+      "cim10": "E23.0",
+      "specialite": "PEDI",
+      "sous_specialite": "Endocrinologie pédiatrique",
+      "categories": [
+        "endocrinienne",
+        "pédiatrique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "ralentissement de la croissance",
+        "hypoglycémies (nourrisson)"
+      ],
+      "signes_cliniques": [
+        "petite taille harmonieuse",
+        "vitesse de croissance diminuée",
+        "adiposité tronculaire",
+        "micropénis (forme néonatale)"
+      ],
+      "examens_cles": [
+        "âge osseux retardé",
+        "IGF-1",
+        "tests de stimulation de l'hormone de croissance",
+        "IRM hypothalamo-hypophysaire"
+      ],
+      "traitements_cles": [
+        "hormone de croissance recombinante",
+        "substitution des autres déficits hypophysaires associés"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0006"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0019",
+      "nom_fr": "Bronchiolite aiguë du nourrisson",
+      "nom_en": "Acute bronchiolitis",
+      "synonymes": [
+        "bronchiolite à VRS"
+      ],
+      "cim10": "J21",
+      "specialite": "PEDI",
+      "sous_specialite": "Pneumo-allergologie pédiatrique",
+      "categories": [
+        "infectieuse",
+        "respiratoire",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "rhinite puis toux",
+        "gêne respiratoire",
+        "difficultés alimentaires"
+      ],
+      "signes_cliniques": [
+        "polypnée",
+        "signes de lutte (tirage)",
+        "sibilants et/ou crépitants",
+        "signes de gravité (apnées, désaturation, mauvaise prise alimentaire)"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "oxymétrie de pouls",
+        "radiographie et bilans seulement si forme atypique ou grave"
+      ],
+      "traitements_cles": [
+        "désobstruction rhinopharyngée",
+        "fractionnement de l'alimentation",
+        "oxygénothérapie et hydratation si besoin",
+        "hospitalisation selon les critères de gravité",
+        "prévention (anticorps monoclonal anti-VRS selon recommandations)"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0020",
+        "PATH-PEDI-0029"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0020",
+      "nom_fr": "Asthme du nourrisson et du jeune enfant",
+      "nom_en": "Preschool asthma (recurrent wheeze)",
+      "synonymes": [
+        "wheezing récurrent du nourrisson"
+      ],
+      "cim10": "J45",
+      "specialite": "PEDI",
+      "sous_specialite": "Pneumo-allergologie pédiatrique",
+      "categories": [
+        "respiratoire",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [
+        "RES-MED-045"
+      ],
+      "symptomes": [
+        "épisodes répétés de toux et de sifflements",
+        "toux nocturne",
+        "gêne respiratoire"
+      ],
+      "signes_cliniques": [
+        "sibilants expiratoires",
+        "distension thoracique",
+        "signes de lutte lors des exacerbations"
+      ],
+      "examens_cles": [
+        "diagnostic clinique (au moins 3 épisodes de sifflements)",
+        "radiographie thoracique au premier épisode",
+        "bilan allergologique orienté",
+        "éliminer un diagnostic différentiel (corps étranger, mucoviscidose, cardiopathie)"
+      ],
+      "traitements_cles": [
+        "bronchodilatateurs de courte durée d'action en chambre d'inhalation",
+        "corticoïdes inhalés de fond selon la sévérité",
+        "éviction des facteurs déclenchants (tabagisme passif)",
+        "éducation thérapeutique"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0019",
+        "PATH-ORL-0025",
+        "PATH-MTRA-0005"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0021",
+      "nom_fr": "Diarrhée aiguë du nourrisson et de l'enfant",
+      "nom_en": "Acute gastroenteritis in children",
+      "synonymes": [
+        "gastro-entérite aiguë de l'enfant"
+      ],
+      "cim10": "A09",
+      "specialite": "PEDI",
+      "sous_specialite": "Gastro-entérologie pédiatrique",
+      "categories": [
+        "infectieuse",
+        "digestive",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-072"
+      ],
+      "symptomes": [
+        "selles liquides fréquentes",
+        "vomissements",
+        "fièvre",
+        "douleurs abdominales"
+      ],
+      "signes_cliniques": [
+        "évaluation de la perte de poids et de la déshydratation",
+        "état hémodynamique",
+        "selles glairo-sanglantes (forme invasive)"
+      ],
+      "examens_cles": [
+        "pesée",
+        "ionogramme et fonction rénale si déshydratation importante",
+        "coproculture si diarrhée sanglante ou contexte particulier"
+      ],
+      "traitements_cles": [
+        "solutés de réhydratation orale",
+        "poursuite de l'alimentation",
+        "zinc selon recommandations OMS",
+        "réhydratation intraveineuse si déshydratation sévère",
+        "antibiothérapie dans certaines formes bactériennes invasives",
+        "prévention (vaccin anti-rotavirus, hygiène)"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0001",
+        "PATH-PEDI-0022",
+        "PATH-PEDI-0023",
+        "PATH-SPUB-0009"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0022",
+      "nom_fr": "Déshydratation aiguë du nourrisson",
+      "nom_en": "Acute dehydration in infants",
+      "synonymes": [],
+      "cim10": "E86",
+      "specialite": "PEDI",
+      "sous_specialite": "Gastro-entérologie pédiatrique",
+      "categories": [
+        "métabolique",
+        "pédiatrique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-074"
+      ],
+      "symptomes": [
+        "soif",
+        "diminution de la diurèse",
+        "irritabilité ou somnolence"
+      ],
+      "signes_cliniques": [
+        "perte de poids",
+        "pli cutané persistant",
+        "yeux creux",
+        "fontanelle déprimée",
+        "temps de recoloration allongé",
+        "signes de choc"
+      ],
+      "examens_cles": [
+        "estimation de la perte de poids",
+        "ionogramme (dysnatrémie)",
+        "fonction rénale",
+        "gaz du sang (acidose)"
+      ],
+      "traitements_cles": [
+        "réhydratation orale si déshydratation modérée",
+        "réhydratation intraveineuse (remplissage si choc puis réhydratation progressive, plus lente en cas d'hypernatrémie)",
+        "traitement de la cause"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0001",
+        "PATH-PEDI-0011",
+        "PATH-PEDI-0021",
+        "PATH-URGE-0026",
+        "PATH-CPED-0011",
+        "PATH-MINT_REA-0001",
+        "PATH-SPUB-0009",
+        "PATH-CDIG-0034"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0023",
+      "nom_fr": "Diarrhée chronique du nourrisson et de l'enfant",
+      "nom_en": "Chronic diarrhoea in children",
+      "synonymes": [
+        "syndrome de malabsorption de l'enfant"
+      ],
+      "cim10": null,
+      "specialite": "PEDI",
+      "sous_specialite": "Gastro-entérologie pédiatrique",
+      "categories": [
+        "digestive",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-073"
+      ],
+      "symptomes": [
+        "diarrhée de plus de 2 à 4 semaines",
+        "ballonnement",
+        "stagnation pondérale"
+      ],
+      "signes_cliniques": [
+        "courbe de croissance (retentissement)",
+        "signes de malabsorption",
+        "examen anal"
+      ],
+      "examens_cles": [
+        "examen des selles (stéatorrhée, parasitologie)",
+        "NFS, bilan martial, albuminémie",
+        "anticorps anti-transglutaminase",
+        "test de la sueur",
+        "élastase fécale"
+      ],
+      "traitements_cles": [
+        "traitement étiologique (régime sans gluten, éviction des protéines du lait de vache, traitement antiparasitaire)",
+        "renutrition",
+        "correction des carences"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0021",
+        "PATH-PEDI-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0024",
+      "nom_fr": "Reflux gastro-œsophagien du nourrisson",
+      "nom_en": "Gastro-oesophageal reflux in infants",
+      "synonymes": [
+        "RGO du nourrisson"
+      ],
+      "cim10": "K21",
+      "specialite": "PEDI",
+      "sous_specialite": "Gastro-entérologie pédiatrique",
+      "categories": [
+        "digestive",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "régurgitations",
+        "vomissements",
+        "pleurs lors des repas",
+        "toux nocturne"
+      ],
+      "signes_cliniques": [
+        "croissance généralement normale (forme physiologique)",
+        "signes d'œsophagite ou complications respiratoires (forme pathologique)"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "pH-métrie ou pH-impédancemétrie et endoscopie en cas de forme compliquée"
+      ],
+      "traitements_cles": [
+        "réassurance",
+        "fractionnement et épaississement des repas",
+        "IPP en cas d'œsophagite",
+        "chirurgie anti-reflux exceptionnelle"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0011",
+        "PATH-PEDI-0026",
+        "PATH-CDIG-0003",
+        "PATH-CPED-0001",
+        "PATH-ORL-0024",
+        "PATH-PEDI-0037"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0025",
+      "nom_fr": "Constipation fonctionnelle de l'enfant",
+      "nom_en": "Functional constipation in children",
+      "synonymes": [],
+      "cim10": "K59.0",
+      "specialite": "PEDI",
+      "sous_specialite": "Gastro-entérologie pédiatrique",
+      "categories": [
+        "digestive",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "selles rares, dures et douloureuses",
+        "douleurs abdominales",
+        "encoprésie"
+      ],
+      "signes_cliniques": [
+        "masse fécale palpable",
+        "fissure anale",
+        "examen neurologique et du rachis normal"
+      ],
+      "examens_cles": [
+        "diagnostic clinique (critères de Rome IV)",
+        "explorations (lavement opaque, biopsie rectale) si signes d'alarme"
+      ],
+      "traitements_cles": [
+        "mesures hygiéno-diététiques",
+        "laxatifs osmotiques (polyéthylène glycol)",
+        "désimpaction si fécalome",
+        "présentation régulière aux toilettes"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0008",
+        "PATH-PEDI-0015",
+        "PATH-CPED-0007",
+        "PATH-CDIG-0010",
+        "PATH-PEDI-0038"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0026",
+      "nom_fr": "Malaise grave du nourrisson",
+      "nom_en": "Brief resolved unexplained event (apparent life-threatening event)",
+      "synonymes": [
+        "malaise inexpliqué du nourrisson"
+      ],
+      "cim10": null,
+      "specialite": "PEDI",
+      "sous_specialite": "Urgences pédiatriques",
+      "categories": [
+        "pédiatrique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "épisode brutal d'apnée, de changement de couleur (cyanose, pâleur) ou de tonus, résolutif"
+      ],
+      "signes_cliniques": [
+        "examen clinique souvent normal après l'épisode",
+        "recherche de signes de maltraitance, d'infection ou de cardiopathie"
+      ],
+      "examens_cles": [
+        "selon le risque : ECG, glycémie, ionogramme, bilan infectieux, explorations du reflux, EEG"
+      ],
+      "traitements_cles": [
+        "hospitalisation de surveillance si haut risque",
+        "traitement de la cause (reflux, infection, convulsion, maltraitance)",
+        "information des parents"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0024",
+        "PATH-PEDI-0027",
+        "PATH-MLEG-0011",
+        "PATH-NEON-0012",
+        "PATH-MLEG-0016"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0027",
+      "nom_fr": "Mort inattendue du nourrisson",
+      "nom_en": "Sudden unexpected infant death",
+      "synonymes": [
+        "mort subite du nourrisson"
+      ],
+      "cim10": "R95",
+      "specialite": "PEDI",
+      "sous_specialite": "Urgences pédiatriques",
+      "categories": [
+        "pédiatrique",
+        "médico-légale",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "décès brutal et inattendu d'un nourrisson, le plus souvent pendant le sommeil"
+      ],
+      "signes_cliniques": [
+        "absence d'explication par l'anamnèse et l'examen",
+        "recherche de lésions traumatiques"
+      ],
+      "examens_cles": [
+        "transfert en centre de référence",
+        "examens post-mortem (imagerie, autopsie, bilans biologiques et toxicologiques)",
+        "enquête sur les conditions de couchage"
+      ],
+      "traitements_cles": [
+        "accompagnement des parents",
+        "prévention (couchage sur le dos, lit dédié, absence de tabagisme passif)",
+        "démarche médico-légale si suspicion de maltraitance"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0026",
+        "PATH-MLEG-0011",
+        "PATH-MLEG-0010",
+        "PATH-MLEG-0004"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0028",
+      "nom_fr": "Intoxications accidentelles domestiques de l'enfant",
+      "nom_en": "Accidental poisoning in children",
+      "synonymes": [
+        "ingestion accidentelle"
+      ],
+      "cim10": null,
+      "specialite": "PEDI",
+      "sous_specialite": "Urgences pédiatriques",
+      "categories": [
+        "toxique",
+        "pédiatrique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [
+        "RES-MED-109"
+      ],
+      "symptomes": [
+        "ingestion d'un produit ménager ou médicamenteux",
+        "vomissements",
+        "troubles de conscience"
+      ],
+      "signes_cliniques": [
+        "signes selon le toxique (brûlures buccales, troubles neurologiques, détresse respiratoire)",
+        "évaluation de la quantité ingérée"
+      ],
+      "examens_cles": [
+        "identification du produit et de la dose",
+        "contact avec un centre antipoison",
+        "dosages spécifiques (paracétamol, fer)",
+        "fibroscopie si caustique"
+      ],
+      "traitements_cles": [
+        "traitement symptomatique",
+        "antidote si indiqué",
+        "contre-indication des vomissements provoqués pour caustiques et hydrocarbures",
+        "prévention des accidents domestiques"
+      ],
+      "pathologies_liees": [
+        "PATH-URGE-0011",
+        "PATH-URGE-0020",
+        "PATH-URGE-0002",
+        "PATH-URGE-0019",
+        "PATH-URGE-0001",
+        "PATH-CPLA-0002",
+        "PATH-URGE-0003",
+        "PATH-URGE-0012",
+        "PATH-URGE-0016",
+        "PATH-URGE-0018",
+        "PATH-SPUB-0002",
+        "PATH-CDIG-0025"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0001",
+      "nom_fr": "Maladie des membranes hyalines",
+      "nom_en": "Respiratory distress syndrome of newborn",
+      "synonymes": [
+        "détresse respiratoire par déficit en surfactant"
+      ],
+      "cim10": "P22.0",
+      "specialite": "NEON",
+      "sous_specialite": "Détresses respiratoires néonatales",
+      "categories": [
+        "respiratoire",
+        "néonatale"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-075"
+      ],
+      "symptomes": [
+        "détresse respiratoire dès la naissance chez le prématuré",
+        "geignement expiratoire"
+      ],
+      "signes_cliniques": [
+        "polypnée",
+        "signes de lutte (score de Silverman)",
+        "cyanose",
+        "diminution du murmure vésiculaire"
+      ],
+      "examens_cles": [
+        "radiographie thoracique (aspect en verre dépoli, bronchogramme aérien)",
+        "gaz du sang"
+      ],
+      "traitements_cles": [
+        "corticothérapie anténatale préventive",
+        "ventilation non invasive (CPAP)",
+        "surfactant exogène endotrachéal",
+        "ventilation mécanique si besoin"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0022",
+        "PATH-NEON-0006",
+        "PATH-NEON-0005",
+        "PATH-NEON-0010",
+        "PATH-NEON-0002",
+        "PATH-NEON-0026",
+        "PATH-ORL-0020"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0002",
+      "nom_fr": "Retard de résorption du liquide pulmonaire",
+      "nom_en": "Transient tachypnoea of the newborn",
+      "synonymes": [
+        "tachypnée transitoire du nouveau-né"
+      ],
+      "cim10": "P22.1",
+      "specialite": "NEON",
+      "sous_specialite": "Détresses respiratoires néonatales",
+      "categories": [
+        "respiratoire",
+        "néonatale"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-075"
+      ],
+      "symptomes": [
+        "polypnée précoce, surtout après césarienne programmée"
+      ],
+      "signes_cliniques": [
+        "polypnée avec signes de lutte modérés",
+        "évolution favorable en quelques heures à jours"
+      ],
+      "examens_cles": [
+        "radiographie thoracique (scissurite, surcharge interstitielle)",
+        "gaz du sang si besoin"
+      ],
+      "traitements_cles": [
+        "surveillance",
+        "oxygénothérapie ou CPAP si nécessaire",
+        "alimentation adaptée"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0003",
+      "nom_fr": "Syndrome d'inhalation méconiale",
+      "nom_en": "Meconium aspiration syndrome",
+      "synonymes": [],
+      "cim10": "P24.0",
+      "specialite": "NEON",
+      "sous_specialite": "Détresses respiratoires néonatales",
+      "categories": [
+        "respiratoire",
+        "néonatale"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-075"
+      ],
+      "symptomes": [
+        "détresse respiratoire chez un nouveau-né à terme ou post-terme",
+        "liquide amniotique méconial"
+      ],
+      "signes_cliniques": [
+        "polypnée",
+        "distension thoracique",
+        "cyanose",
+        "imprégnation méconiale de la peau et du cordon"
+      ],
+      "examens_cles": [
+        "radiographie thoracique (opacités nodulaires, zones d'emphysème)",
+        "gaz du sang"
+      ],
+      "traitements_cles": [
+        "réanimation en salle de naissance selon les recommandations",
+        "ventilation adaptée",
+        "surfactant",
+        "traitement de l'HTAP associée"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0004",
+        "PATH-NEON-0008",
+        "PATH-NEON-0005",
+        "PATH-OBST-0025"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0004",
+      "nom_fr": "Hypertension artérielle pulmonaire persistante du nouveau-né",
+      "nom_en": "Persistent pulmonary hypertension of the newborn",
+      "synonymes": [
+        "persistance de la circulation fœtale"
+      ],
+      "cim10": "P29.3",
+      "specialite": "NEON",
+      "sous_specialite": "Détresses respiratoires néonatales",
+      "categories": [
+        "cardiovasculaire",
+        "respiratoire",
+        "néonatale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-075"
+      ],
+      "symptomes": [
+        "cyanose réfractaire",
+        "détresse respiratoire"
+      ],
+      "signes_cliniques": [
+        "hypoxémie profonde disproportionnée",
+        "différence de saturation pré- et post-ductale"
+      ],
+      "examens_cles": [
+        "échocardiographie (shunt droite-gauche, pressions pulmonaires)",
+        "gaz du sang",
+        "radiographie thoracique"
+      ],
+      "traitements_cles": [
+        "ventilation optimisée",
+        "monoxyde d'azote inhalé",
+        "support hémodynamique",
+        "ECMO dans les formes réfractaires"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0003",
+        "PATH-CPED-0002",
+        "PATH-NEON-0008",
+        "PATH-CCVA-0013"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0005",
+      "nom_fr": "Pneumothorax néonatal",
+      "nom_en": "Neonatal pneumothorax",
+      "synonymes": [],
+      "cim10": "P25.1",
+      "specialite": "NEON",
+      "sous_specialite": "Détresses respiratoires néonatales",
+      "categories": [
+        "respiratoire",
+        "néonatale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-075"
+      ],
+      "symptomes": [
+        "aggravation brutale d'une détresse respiratoire"
+      ],
+      "signes_cliniques": [
+        "asymétrie thoracique",
+        "diminution du murmure vésiculaire",
+        "déplacement des bruits du cœur"
+      ],
+      "examens_cles": [
+        "transillumination",
+        "radiographie thoracique"
+      ],
+      "traitements_cles": [
+        "exsufflation à l'aiguille si compressif",
+        "drainage thoracique",
+        "surveillance si forme minime"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0001",
+        "PATH-NEON-0003"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0006",
+      "nom_fr": "Dysplasie bronchopulmonaire",
+      "nom_en": "Bronchopulmonary dysplasia",
+      "synonymes": [
+        "maladie pulmonaire chronique du prématuré"
+      ],
+      "cim10": "P27.1",
+      "specialite": "NEON",
+      "sous_specialite": "Détresses respiratoires néonatales",
+      "categories": [
+        "respiratoire",
+        "néonatale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "dépendance prolongée à l'oxygène",
+        "difficultés alimentaires"
+      ],
+      "signes_cliniques": [
+        "polypnée",
+        "signes de lutte persistants",
+        "stagnation pondérale"
+      ],
+      "examens_cles": [
+        "besoin en oxygène à 36 semaines d'âge corrigé",
+        "radiographie thoracique",
+        "échocardiographie (HTAP)"
+      ],
+      "traitements_cles": [
+        "oxygénothérapie",
+        "nutrition optimisée",
+        "diurétiques selon le contexte",
+        "prévention (corticoïdes anténatals, ventilation protectrice, caféine)"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0001",
+        "PATH-NEON-0022"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0007",
+      "nom_fr": "Apnées du prématuré",
+      "nom_en": "Apnoea of prematurity",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "NEON",
+      "sous_specialite": "Détresses respiratoires néonatales",
+      "categories": [
+        "respiratoire",
+        "neurologique",
+        "néonatale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "pauses respiratoires de plus de 20 secondes ou accompagnées de bradycardie ou de désaturation"
+      ],
+      "signes_cliniques": [
+        "apnées centrales chez un prématuré",
+        "élimination d'une cause secondaire (infection, hypoglycémie, anémie)"
+      ],
+      "examens_cles": [
+        "monitorage cardiorespiratoire",
+        "bilan infectieux et métabolique si apnées nouvelles"
+      ],
+      "traitements_cles": [
+        "citrate de caféine",
+        "stimulation",
+        "CPAP ou ventilation si apnées sévères",
+        "traitement d'une cause associée"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0022",
+        "PATH-NEON-0027"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0008",
+      "nom_fr": "Asphyxie périnatale",
+      "nom_en": "Birth asphyxia",
+      "synonymes": [
+        "anoxie néonatale"
+      ],
+      "cim10": "P21",
+      "specialite": "NEON",
+      "sous_specialite": "Réanimation néonatale",
+      "categories": [
+        "néonatale",
+        "neurologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-076"
+      ],
+      "symptomes": [
+        "absence de respiration efficace à la naissance",
+        "hypotonie"
+      ],
+      "signes_cliniques": [
+        "score d'Apgar bas",
+        "bradycardie",
+        "nécessité de réanimation en salle de naissance"
+      ],
+      "examens_cles": [
+        "gaz du sang au cordon (acidose)",
+        "lactates",
+        "bilan de retentissement multiviscéral"
+      ],
+      "traitements_cles": [
+        "réanimation néonatale selon algorithme (ventilation au masque, compressions thoraciques, adrénaline)",
+        "évaluation pour hypothermie thérapeutique"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0003",
+        "PATH-NEON-0004",
+        "PATH-NEON-0009",
+        "PATH-OBST-0037"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0009",
+      "nom_fr": "Encéphalopathie anoxo-ischémique du nouveau-né",
+      "nom_en": "Hypoxic-ischaemic encephalopathy of newborn",
+      "synonymes": [
+        "souffrance cérébrale néonatale"
+      ],
+      "cim10": "P91.6",
+      "specialite": "NEON",
+      "sous_specialite": "Réanimation néonatale",
+      "categories": [
+        "neurologique",
+        "néonatale"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-076"
+      ],
+      "symptomes": [
+        "troubles de conscience",
+        "troubles du tonus",
+        "difficultés de succion",
+        "convulsions"
+      ],
+      "signes_cliniques": [
+        "classification de Sarnat (stades I à III)",
+        "anomalies des réflexes archaïques"
+      ],
+      "examens_cles": [
+        "EEG ou EEG d'amplitude",
+        "IRM cérébrale",
+        "bilan de défaillance d'organes"
+      ],
+      "traitements_cles": [
+        "hypothermie thérapeutique dans les 6 premières heures selon critères",
+        "traitement des convulsions",
+        "soutien des fonctions vitales",
+        "suivi neurodéveloppemental"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0016",
+        "PATH-NEON-0008",
+        "PATH-NEON-0012"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0010",
+      "nom_fr": "Hémorragie intraventriculaire du prématuré",
+      "nom_en": "Intraventricular haemorrhage of the preterm infant",
+      "synonymes": [
+        "hémorragie sous-épendymaire"
+      ],
+      "cim10": "P52",
+      "specialite": "NEON",
+      "sous_specialite": "Réanimation néonatale",
+      "categories": [
+        "neurologique",
+        "néonatale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-076"
+      ],
+      "symptomes": [
+        "souvent asymptomatique",
+        "parfois dégradation brutale (apnées, convulsions)"
+      ],
+      "signes_cliniques": [
+        "bombement de la fontanelle",
+        "chute de l'hématocrite",
+        "anomalies neurologiques"
+      ],
+      "examens_cles": [
+        "échographie transfontanellaire (grades de Papile)"
+      ],
+      "traitements_cles": [
+        "prévention (corticoïdes anténatals, stabilité hémodynamique)",
+        "traitement symptomatique",
+        "surveillance de l'hydrocéphalie post-hémorragique (dérivation si besoin)"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0001",
+        "PATH-NEON-0022",
+        "PATH-NEON-0011",
+        "PATH-NCHI-0025",
+        "PATH-NEON-0018"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0011",
+      "nom_fr": "Leucomalacie périventriculaire",
+      "nom_en": "Periventricular leukomalacia",
+      "synonymes": [],
+      "cim10": "P91.2",
+      "specialite": "NEON",
+      "sous_specialite": "Réanimation néonatale",
+      "categories": [
+        "neurologique",
+        "néonatale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-076"
+      ],
+      "symptomes": [
+        "souvent asymptomatique en période néonatale"
+      ],
+      "signes_cliniques": [
+        "anomalies du tonus et de la motricité au cours du suivi"
+      ],
+      "examens_cles": [
+        "échographie transfontanellaire",
+        "IRM cérébrale à l'âge du terme"
+      ],
+      "traitements_cles": [
+        "prévention des facteurs de risque",
+        "suivi neurodéveloppemental",
+        "rééducation précoce"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0010",
+        "PATH-NEON-0022"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0012",
+      "nom_fr": "Convulsions néonatales",
+      "nom_en": "Neonatal seizures",
+      "synonymes": [],
+      "cim10": "P90",
+      "specialite": "NEON",
+      "sous_specialite": "Réanimation néonatale",
+      "categories": [
+        "neurologique",
+        "néonatale",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-076"
+      ],
+      "symptomes": [
+        "mouvements anormaux",
+        "apnées",
+        "mâchonnements",
+        "clonies"
+      ],
+      "signes_cliniques": [
+        "crises souvent discrètes (subtiles) ou cloniques focales"
+      ],
+      "examens_cles": [
+        "glycémie, calcémie, magnésémie, ionogramme",
+        "bilan infectieux avec ponction lombaire",
+        "EEG",
+        "imagerie cérébrale"
+      ],
+      "traitements_cles": [
+        "correction d'une cause métabolique",
+        "antiépileptiques (phénobarbital en première intention le plus souvent)",
+        "traitement étiologique"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0026",
+        "PATH-NEON-0009",
+        "PATH-NEON-0013",
+        "PATH-NEON-0015",
+        "PATH-NEON-0028"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0013",
+      "nom_fr": "Hypoglycémie néonatale",
+      "nom_en": "Neonatal hypoglycaemia",
+      "synonymes": [],
+      "cim10": "P70.4",
+      "specialite": "NEON",
+      "sous_specialite": "Réanimation néonatale",
+      "categories": [
+        "métabolique",
+        "néonatale"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "trémulations",
+        "hypotonie",
+        "difficultés de succion",
+        "apnées",
+        "convulsions"
+      ],
+      "signes_cliniques": [
+        "signes neurologiques ou asymptomatique chez un nouveau-né à risque (prématuré, hypotrophe, mère diabétique)"
+      ],
+      "examens_cles": [
+        "glycémie capillaire puis veineuse",
+        "bilan étiologique si persistante (insuline, cortisol)"
+      ],
+      "traitements_cles": [
+        "alimentation précoce et fréquente",
+        "glucose intraveineux si sévère ou symptomatique",
+        "traitement de la cause"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0012",
+        "PATH-NEON-0014",
+        "PATH-NEON-0023",
+        "PATH-NEON-0016",
+        "PATH-MINT_REA-0006"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0014",
+      "nom_fr": "Nouveau-né de mère diabétique",
+      "nom_en": "Infant of a diabetic mother",
+      "synonymes": [
+        "fœtopathie diabétique"
+      ],
+      "cim10": "P70.1",
+      "specialite": "NEON",
+      "sous_specialite": "Réanimation néonatale",
+      "categories": [
+        "métabolique",
+        "néonatale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-067"
+      ],
+      "symptomes": [
+        "détresse respiratoire",
+        "trémulations",
+        "somnolence"
+      ],
+      "signes_cliniques": [
+        "macrosomie",
+        "hypoglycémie",
+        "polyglobulie",
+        "ictère",
+        "malformations possibles (cardiaques, rachidiennes)"
+      ],
+      "examens_cles": [
+        "glycémies répétées",
+        "calcémie",
+        "hématocrite",
+        "bilirubinémie",
+        "échocardiographie (cardiomyopathie hypertrophique)"
+      ],
+      "traitements_cles": [
+        "alimentation précoce",
+        "surveillance glycémique",
+        "traitement de l'hypoglycémie et des complications"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0013",
+        "PATH-OBST-0009",
+        "PATH-NEON-0017",
+        "PATH-OBST-0031",
+        "PATH-NEON-0015"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0015",
+      "nom_fr": "Hypocalcémie néonatale",
+      "nom_en": "Neonatal hypocalcaemia",
+      "synonymes": [],
+      "cim10": "P71",
+      "specialite": "NEON",
+      "sous_specialite": "Réanimation néonatale",
+      "categories": [
+        "métabolique",
+        "néonatale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "trémulations",
+        "hyperexcitabilité",
+        "convulsions"
+      ],
+      "signes_cliniques": [
+        "hypertonie",
+        "clonies",
+        "apnées"
+      ],
+      "examens_cles": [
+        "calcémie totale ou ionisée",
+        "magnésémie",
+        "phosphorémie",
+        "PTH et vitamine D maternelle si tardive"
+      ],
+      "traitements_cles": [
+        "calcium intraveineux (forme symptomatique) puis oral",
+        "correction d'une hypomagnésémie",
+        "vitamine D"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0012",
+        "PATH-NEON-0014"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0016",
+      "nom_fr": "Hypothermie du nouveau-né",
+      "nom_en": "Hypothermia of newborn",
+      "synonymes": [],
+      "cim10": "P80",
+      "specialite": "NEON",
+      "sous_specialite": "Réanimation néonatale",
+      "categories": [
+        "néonatale",
+        "environnementale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "refroidissement",
+        "léthargie",
+        "mauvaise succion"
+      ],
+      "signes_cliniques": [
+        "température centrale basse",
+        "extrémités froides",
+        "bradycardie",
+        "détresse respiratoire"
+      ],
+      "examens_cles": [
+        "température",
+        "glycémie",
+        "bilan infectieux selon le contexte"
+      ],
+      "traitements_cles": [
+        "réchauffement progressif (incubateur, peau à peau)",
+        "prévention (séchage, chaîne du chaud)",
+        "traitement de l'hypoglycémie associée"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0013",
+        "PATH-NEON-0022",
+        "PATH-PEDI-0001",
+        "PATH-URGE-0027",
+        "PATH-ANES-0007"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0017",
+      "nom_fr": "Polyglobulie néonatale",
+      "nom_en": "Polycythaemia neonatorum",
+      "synonymes": [],
+      "cim10": "P61.1",
+      "specialite": "NEON",
+      "sous_specialite": "Réanimation néonatale",
+      "categories": [
+        "hématologique",
+        "néonatale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "léthargie",
+        "difficultés alimentaires",
+        "trémulations"
+      ],
+      "signes_cliniques": [
+        "érythrose",
+        "cyanose",
+        "hépatomégalie"
+      ],
+      "examens_cles": [
+        "hématocrite veineux",
+        "glycémie",
+        "bilirubinémie"
+      ],
+      "traitements_cles": [
+        "hydratation",
+        "exsanguino-transfusion partielle dans les formes symptomatiques sévères"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0014",
+        "PATH-NEON-0023",
+        "PATH-NEON-0035"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0018",
+      "nom_fr": "Maladie hémorragique du nouveau-né (carence en vitamine K)",
+      "nom_en": "Haemorrhagic disease of newborn (vitamin K deficiency bleeding)",
+      "synonymes": [],
+      "cim10": "P53",
+      "specialite": "NEON",
+      "sous_specialite": "Réanimation néonatale",
+      "categories": [
+        "hématologique",
+        "néonatale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "saignements digestifs",
+        "saignement du cordon",
+        "hémorragie intracrânienne (forme tardive)"
+      ],
+      "signes_cliniques": [
+        "hématémèse, méléna",
+        "ecchymoses",
+        "signes neurologiques"
+      ],
+      "examens_cles": [
+        "TP abaissé",
+        "facteurs vitamine K-dépendants bas",
+        "plaquettes normales"
+      ],
+      "traitements_cles": [
+        "vitamine K (curative)",
+        "plasma frais congelé ou concentré de complexe prothrombinique si hémorragie grave",
+        "prévention systématique par vitamine K à la naissance"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0010"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0019",
+      "nom_fr": "Paralysie obstétricale du plexus brachial",
+      "nom_en": "Obstetric brachial plexus palsy",
+      "synonymes": [
+        "paralysie d'Erb"
+      ],
+      "cim10": "P14.0",
+      "specialite": "NEON",
+      "sous_specialite": "Réanimation néonatale",
+      "categories": [
+        "neurologique",
+        "traumatique",
+        "néonatale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "absence de mobilité d'un membre supérieur dès la naissance"
+      ],
+      "signes_cliniques": [
+        "membre en adduction et rotation interne, coude en extension (atteinte C5-C6)",
+        "réflexe de Moro asymétrique",
+        "signe de Claude Bernard-Horner (atteinte basse)"
+      ],
+      "examens_cles": [
+        "examen clinique répété",
+        "radiographie (fracture de clavicule associée)",
+        "EMG et IRM selon l'évolution"
+      ],
+      "traitements_cles": [
+        "kinésithérapie précoce",
+        "chirurgie nerveuse en l'absence de récupération",
+        "prise en charge orthopédique des séquelles"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0031",
+        "PATH-OBST-0009",
+        "PATH-NEON-0021"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0020",
+      "nom_fr": "Céphalhématome",
+      "nom_en": "Cephalhaematoma",
+      "synonymes": [],
+      "cim10": "P12.0",
+      "specialite": "NEON",
+      "sous_specialite": "Réanimation néonatale",
+      "categories": [
+        "traumatique",
+        "néonatale"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "tuméfaction crânienne apparaissant après la naissance"
+      ],
+      "signes_cliniques": [
+        "tuméfaction limitée par les sutures (sous-périostée), non pulsatile"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "bilirubinémie (risque d'ictère)",
+        "imagerie si doute de fracture"
+      ],
+      "traitements_cles": [
+        "abstention (résorption spontanée)",
+        "surveillance de l'ictère"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0035"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0021",
+      "nom_fr": "Fracture obstétricale de la clavicule",
+      "nom_en": "Fracture of clavicle due to birth injury",
+      "synonymes": [],
+      "cim10": "P13.4",
+      "specialite": "NEON",
+      "sous_specialite": "Réanimation néonatale",
+      "categories": [
+        "traumatique",
+        "néonatale"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "pleurs à la mobilisation",
+        "diminution de la mobilité du membre"
+      ],
+      "signes_cliniques": [
+        "crépitation",
+        "tuméfaction puis cal palpable",
+        "Moro asymétrique"
+      ],
+      "examens_cles": [
+        "radiographie de la clavicule"
+      ],
+      "traitements_cles": [
+        "abstention ou immobilisation simple",
+        "antalgiques",
+        "consolidation spontanée"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0019",
+        "PATH-OBST-0031",
+        "PATH-TRAU-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0022",
+      "nom_fr": "Prématurité",
+      "nom_en": "Preterm birth (prematurity)",
+      "synonymes": [
+        "grande prématurité",
+        "très grande prématurité"
+      ],
+      "cim10": "P07",
+      "specialite": "NEON",
+      "sous_specialite": "Prématurité",
+      "categories": [
+        "néonatale"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-075"
+      ],
+      "symptomes": [
+        "naissance avant 37 semaines d'aménorrhée"
+      ],
+      "signes_cliniques": [
+        "immaturité des fonctions (respiratoire, thermique, digestive, neurologique)",
+        "faible poids"
+      ],
+      "examens_cles": [
+        "âge gestationnel",
+        "bilan selon complications (radiographie, échographie transfontanellaire, fond d'œil)"
+      ],
+      "traitements_cles": [
+        "corticothérapie anténatale",
+        "transfert in utero en maternité adaptée",
+        "soins de développement",
+        "nutrition optimisée",
+        "prévention des complications",
+        "suivi neurodéveloppemental"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0001",
+        "PATH-NEON-0006",
+        "PATH-NEON-0007",
+        "PATH-NEON-0010",
+        "PATH-NEON-0011",
+        "PATH-NEON-0016",
+        "PATH-OBST-0010",
+        "PATH-NEON-0024",
+        "PATH-NEON-0025",
+        "PATH-NEON-0026",
+        "PATH-OBST-0011",
+        "PATH-NEON-0027",
+        "PATH-SPUB-0005"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0023",
+      "nom_fr": "Nouveau-né hypotrophe (petit pour l'âge gestationnel)",
+      "nom_en": "Small for gestational age newborn",
+      "synonymes": [
+        "retard de croissance intra-utérin"
+      ],
+      "cim10": "P05",
+      "specialite": "NEON",
+      "sous_specialite": "Prématurité",
+      "categories": [
+        "néonatale",
+        "nutritionnelle"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "faible poids à la naissance"
+      ],
+      "signes_cliniques": [
+        "poids inférieur au 10e percentile pour l'âge gestationnel",
+        "maigreur"
+      ],
+      "examens_cles": [
+        "courbes de croissance anténatales",
+        "glycémie",
+        "hématocrite",
+        "recherche d'une cause (infection congénitale, anomalie chromosomique)"
+      ],
+      "traitements_cles": [
+        "prévention de l'hypoglycémie et de l'hypothermie",
+        "alimentation précoce",
+        "suivi de la croissance"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0013",
+        "PATH-NEON-0017",
+        "PATH-OBST-0008",
+        "PATH-NEON-0030",
+        "PATH-SPUB-0006"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0024",
+      "nom_fr": "Entérocolite ulcéronécrosante",
+      "nom_en": "Necrotizing enterocolitis of newborn",
+      "synonymes": [],
+      "cim10": "P77",
+      "specialite": "NEON",
+      "sous_specialite": "Prématurité",
+      "categories": [
+        "digestive",
+        "néonatale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "intolérance alimentaire",
+        "ballonnement",
+        "rectorragies",
+        "vomissements bilieux"
+      ],
+      "signes_cliniques": [
+        "distension abdominale",
+        "défense",
+        "signes de sepsis"
+      ],
+      "examens_cles": [
+        "radiographie de l'abdomen (pneumatose intestinale, pneumopéritoine)",
+        "NFS, CRP",
+        "hémocultures"
+      ],
+      "traitements_cles": [
+        "arrêt de l'alimentation",
+        "aspiration gastrique",
+        "antibiothérapie",
+        "chirurgie si perforation",
+        "prévention par l'allaitement maternel"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0022",
+        "PATH-NEON-0027"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0025",
+      "nom_fr": "Rétinopathie du prématuré",
+      "nom_en": "Retinopathy of prematurity",
+      "synonymes": [
+        "fibroplasie rétrolentale"
+      ],
+      "cim10": "H35.1",
+      "specialite": "NEON",
+      "sous_specialite": "Prématurité",
+      "categories": [
+        "ophtalmologique",
+        "néonatale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "asymptomatique au stade précoce"
+      ],
+      "signes_cliniques": [
+        "anomalies de vascularisation rétinienne au fond d'œil"
+      ],
+      "examens_cles": [
+        "dépistage systématique par fond d'œil chez le grand prématuré"
+      ],
+      "traitements_cles": [
+        "contrôle de l'oxygénothérapie",
+        "photocoagulation laser",
+        "anti-VEGF intravitréen selon indications",
+        "suivi ophtalmologique"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0022",
+        "PATH-OPHT-0032"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0026",
+      "nom_fr": "Canal artériel persistant du prématuré",
+      "nom_en": "Patent ductus arteriosus in preterm infants",
+      "synonymes": [],
+      "cim10": "Q25.0",
+      "specialite": "NEON",
+      "sous_specialite": "Prématurité",
+      "categories": [
+        "cardiovasculaire",
+        "néonatale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "dépendance ventilatoire",
+        "intolérance alimentaire"
+      ],
+      "signes_cliniques": [
+        "souffle systolique ou continu",
+        "pouls bondissants",
+        "précordium hyperactif"
+      ],
+      "examens_cles": [
+        "échocardiographie"
+      ],
+      "traitements_cles": [
+        "abstention surveillée",
+        "fermeture pharmacologique (ibuprofène ou paracétamol)",
+        "fermeture chirurgicale ou percutanée si échec"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0022",
+        "PATH-NEON-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0027",
+      "nom_fr": "Infection néonatale bactérienne précoce",
+      "nom_en": "Early-onset neonatal bacterial infection",
+      "synonymes": [
+        "sepsis néonatal précoce"
+      ],
+      "cim10": "P36",
+      "specialite": "NEON",
+      "sous_specialite": "Infections néonatales",
+      "categories": [
+        "infectieuse",
+        "néonatale"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-081"
+      ],
+      "symptomes": [
+        "détresse respiratoire",
+        "troubles hémodynamiques",
+        "troubles neurologiques",
+        "fièvre ou hypothermie"
+      ],
+      "signes_cliniques": [
+        "geignement",
+        "teint gris",
+        "hépatomégalie",
+        "troubles de la régulation thermique",
+        "facteurs de risque anamnestiques (portage de streptocoque B, rupture prolongée des membranes, fièvre maternelle)"
+      ],
+      "examens_cles": [
+        "hémoculture",
+        "CRP, procalcitonine",
+        "ponction lombaire",
+        "prélèvements périphériques selon protocole"
+      ],
+      "traitements_cles": [
+        "antibiothérapie probabiliste parentérale précoce",
+        "prévention par antibioprophylaxie per-partum (streptocoque B)"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0007",
+        "PATH-NEON-0024",
+        "PATH-OBST-0012",
+        "PATH-OBST-0011",
+        "PATH-NEON-0028",
+        "PATH-NEON-0022",
+        "PATH-NEON-0031",
+        "PATH-NEON-0032",
+        "PATH-NEON-0034",
+        "PATH-OPHT-0035"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0028",
+      "nom_fr": "Méningite bactérienne néonatale",
+      "nom_en": "Neonatal bacterial meningitis",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "NEON",
+      "sous_specialite": "Infections néonatales",
+      "categories": [
+        "infectieuse",
+        "neurologique",
+        "néonatale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-081"
+      ],
+      "symptomes": [
+        "fièvre ou hypothermie",
+        "refus de boire",
+        "convulsions",
+        "troubles de conscience"
+      ],
+      "signes_cliniques": [
+        "fontanelle bombée",
+        "hypotonie",
+        "signes de sepsis"
+      ],
+      "examens_cles": [
+        "ponction lombaire (cytologie, culture, PCR)",
+        "hémocultures",
+        "imagerie cérébrale"
+      ],
+      "traitements_cles": [
+        "antibiothérapie parentérale adaptée (streptocoque B, Escherichia coli K1, Listeria)",
+        "traitement des convulsions",
+        "suivi neurosensoriel"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0012",
+        "PATH-NEON-0027",
+        "PATH-NCHI-0025",
+        "PATH-NEON-0031"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0029",
+      "nom_fr": "Syndrome de rubéole congénitale",
+      "nom_en": "Congenital rubella syndrome",
+      "synonymes": [
+        "embryofœtopathie rubéoleuse"
+      ],
+      "cim10": "P35.0",
+      "specialite": "NEON",
+      "sous_specialite": "Infections néonatales",
+      "categories": [
+        "infectieuse",
+        "congénitale",
+        "néonatale"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [
+        "RES-MED-081"
+      ],
+      "symptomes": [
+        "retard de croissance",
+        "troubles auditifs et visuels"
+      ],
+      "signes_cliniques": [
+        "cataracte",
+        "surdité",
+        "cardiopathie (canal artériel, sténose pulmonaire)",
+        "microcéphalie",
+        "purpura"
+      ],
+      "examens_cles": [
+        "IgM spécifiques",
+        "PCR rubéole",
+        "bilan auditif, ophtalmologique et cardiaque"
+      ],
+      "traitements_cles": [
+        "prise en charge des séquelles",
+        "isolement (excrétion virale prolongée)",
+        "prévention par la vaccination"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0002",
+        "PATH-ORL-0010"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0030",
+      "nom_fr": "Infection congénitale à cytomégalovirus",
+      "nom_en": "Congenital cytomegalovirus infection",
+      "synonymes": [],
+      "cim10": "P35.1",
+      "specialite": "NEON",
+      "sous_specialite": "Infections néonatales",
+      "categories": [
+        "infectieuse",
+        "néonatale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-081"
+      ],
+      "symptomes": [
+        "souvent asymptomatique",
+        "surdité de révélation secondaire"
+      ],
+      "signes_cliniques": [
+        "hypotrophie",
+        "microcéphalie",
+        "pétéchies",
+        "hépatosplénomégalie",
+        "ictère"
+      ],
+      "examens_cles": [
+        "PCR CMV urinaire ou salivaire dans les premières semaines",
+        "imagerie cérébrale",
+        "audition",
+        "fond d'œil"
+      ],
+      "traitements_cles": [
+        "antiviral (valganciclovir) dans les formes symptomatiques selon recommandations",
+        "suivi audiologique et neurodéveloppemental"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0023",
+        "PATH-ORL-0010",
+        "PATH-PEDI-0031"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0031",
+      "nom_fr": "Herpès néonatal",
+      "nom_en": "Neonatal herpes simplex infection",
+      "synonymes": [],
+      "cim10": "P35.2",
+      "specialite": "NEON",
+      "sous_specialite": "Infections néonatales",
+      "categories": [
+        "infectieuse",
+        "néonatale"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [
+        "RES-MED-081"
+      ],
+      "symptomes": [
+        "vésicules cutanées",
+        "fièvre",
+        "convulsions",
+        "défaillance multiviscérale"
+      ],
+      "signes_cliniques": [
+        "forme cutanéo-muqueuse, encéphalitique ou disséminée"
+      ],
+      "examens_cles": [
+        "PCR HSV (lésions, sang, LCR)",
+        "transaminases"
+      ],
+      "traitements_cles": [
+        "aciclovir intraveineux",
+        "prévention (césarienne en cas de lésions maternelles évolutives à terme, traitement maternel)"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0027",
+        "PATH-NEON-0028"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0032",
+      "nom_fr": "Syphilis congénitale",
+      "nom_en": "Congenital syphilis",
+      "synonymes": [],
+      "cim10": "A50",
+      "specialite": "NEON",
+      "sous_specialite": "Infections néonatales",
+      "categories": [
+        "infectieuse",
+        "néonatale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-081"
+      ],
+      "symptomes": [
+        "rhinite",
+        "éruption",
+        "pseudo-paralysie"
+      ],
+      "signes_cliniques": [
+        "pemphigus palmo-plantaire",
+        "hépatosplénomégalie",
+        "ostéochondrite",
+        "lésions tardives (dents d'Hutchinson)"
+      ],
+      "examens_cles": [
+        "sérologies (tests tréponémiques et non tréponémiques comparés mère-enfant)",
+        "radiographies des os longs",
+        "ponction lombaire"
+      ],
+      "traitements_cles": [
+        "pénicilline G",
+        "prévention par dépistage et traitement prénatals"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0027",
+        "PATH-PEDI-0031"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0033",
+      "nom_fr": "Tétanos néonatal",
+      "nom_en": "Neonatal tetanus",
+      "synonymes": [],
+      "cim10": "A33",
+      "specialite": "NEON",
+      "sous_specialite": "Infections néonatales",
+      "categories": [
+        "infectieuse",
+        "néonatale",
+        "santé publique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-134",
+        "RES-MED-070"
+      ],
+      "symptomes": [
+        "refus de téter après quelques jours de vie normale",
+        "pleurs"
+      ],
+      "signes_cliniques": [
+        "trismus",
+        "contractures généralisées",
+        "spasmes paroxystiques",
+        "ombilic infecté"
+      ],
+      "examens_cles": [
+        "diagnostic clinique"
+      ],
+      "traitements_cles": [
+        "réanimation",
+        "sérothérapie et immunoglobulines",
+        "myorelaxants",
+        "soins du cordon",
+        "prévention par vaccination antitétanique de la femme enceinte et accouchement hygiénique"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0034"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0034",
+      "nom_fr": "Omphalite du nouveau-né",
+      "nom_en": "Omphalitis of newborn",
+      "synonymes": [],
+      "cim10": "P38",
+      "specialite": "NEON",
+      "sous_specialite": "Infections néonatales",
+      "categories": [
+        "infectieuse",
+        "néonatale"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "écoulement purulent du cordon",
+        "fièvre"
+      ],
+      "signes_cliniques": [
+        "rougeur et œdème périombilical",
+        "extension à la paroi"
+      ],
+      "examens_cles": [
+        "prélèvement bactériologique",
+        "hémocultures si signes généraux"
+      ],
+      "traitements_cles": [
+        "soins locaux",
+        "antibiothérapie (parentérale si extension ou signes généraux)"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0033",
+        "PATH-NEON-0027"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0035",
+      "nom_fr": "Ictère physiologique du nouveau-né",
+      "nom_en": "Physiological neonatal jaundice",
+      "synonymes": [
+        "ictère simple du nouveau-né"
+      ],
+      "cim10": null,
+      "specialite": "NEON",
+      "sous_specialite": "Ictère néonatal",
+      "categories": [
+        "néonatale",
+        "hématologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-069"
+      ],
+      "symptomes": [
+        "coloration jaune de la peau apparaissant après 24 heures de vie"
+      ],
+      "signes_cliniques": [
+        "ictère isolé, bon état général, selles colorées, urines claires"
+      ],
+      "examens_cles": [
+        "bilirubine transcutanée ou sérique reportée sur les courbes de référence"
+      ],
+      "traitements_cles": [
+        "surveillance",
+        "photothérapie si la bilirubine dépasse les seuils selon l'âge et les facteurs de risque",
+        "alimentation efficace"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0017",
+        "PATH-NEON-0020",
+        "PATH-NEON-0036",
+        "PATH-NEON-0037",
+        "PATH-NEON-0038",
+        "PATH-NEON-0039"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0036",
+      "nom_fr": "Maladie hémolytique du nouveau-né par incompatibilité Rhésus",
+      "nom_en": "Rh isoimmunization of newborn",
+      "synonymes": [
+        "allo-immunisation anti-D"
+      ],
+      "cim10": "P55.0",
+      "specialite": "NEON",
+      "sous_specialite": "Ictère néonatal",
+      "categories": [
+        "hématologique",
+        "néonatale"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-069"
+      ],
+      "symptomes": [
+        "ictère précoce (avant 24 heures)",
+        "pâleur"
+      ],
+      "signes_cliniques": [
+        "anémie",
+        "hépatosplénomégalie",
+        "anasarque (forme sévère)"
+      ],
+      "examens_cles": [
+        "groupe sanguin mère-enfant",
+        "test de Coombs direct",
+        "bilirubinémie",
+        "NFS, réticulocytes"
+      ],
+      "traitements_cles": [
+        "photothérapie intensive",
+        "exsanguino-transfusion",
+        "transfusion",
+        "prévention par immunoglobulines anti-D chez la mère Rh négatif"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0035",
+        "PATH-OBST-0017",
+        "PATH-NEON-0039",
+        "PATH-OBST-0030",
+        "PATH-NEON-0037"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0037",
+      "nom_fr": "Maladie hémolytique du nouveau-né par incompatibilité ABO",
+      "nom_en": "ABO isoimmunization of newborn",
+      "synonymes": [],
+      "cim10": "P55.1",
+      "specialite": "NEON",
+      "sous_specialite": "Ictère néonatal",
+      "categories": [
+        "hématologique",
+        "néonatale"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-069"
+      ],
+      "symptomes": [
+        "ictère précoce"
+      ],
+      "signes_cliniques": [
+        "ictère",
+        "anémie modérée"
+      ],
+      "examens_cles": [
+        "mère de groupe O et enfant A ou B",
+        "test de Coombs direct",
+        "bilirubinémie"
+      ],
+      "traitements_cles": [
+        "photothérapie",
+        "exsanguino-transfusion rarement nécessaire"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0035",
+        "PATH-NEON-0036"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0038",
+      "nom_fr": "Ictère au lait de mère",
+      "nom_en": "Breast milk jaundice",
+      "synonymes": [],
+      "cim10": "P59.3",
+      "specialite": "NEON",
+      "sous_specialite": "Ictère néonatal",
+      "categories": [
+        "néonatale"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [
+        "RES-MED-069"
+      ],
+      "symptomes": [
+        "ictère prolongé au-delà de 2 semaines chez un nourrisson allaité"
+      ],
+      "signes_cliniques": [
+        "bon état général",
+        "croissance normale",
+        "selles colorées"
+      ],
+      "examens_cles": [
+        "bilirubine non conjuguée",
+        "élimination d'une cholestase (bilirubine conjuguée) et d'une hypothyroïdie"
+      ],
+      "traitements_cles": [
+        "poursuite de l'allaitement",
+        "réassurance",
+        "surveillance"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0035"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0039",
+      "nom_fr": "Ictère nucléaire",
+      "nom_en": "Kernicterus",
+      "synonymes": [
+        "encéphalopathie bilirubinique"
+      ],
+      "cim10": "P57",
+      "specialite": "NEON",
+      "sous_specialite": "Ictère néonatal",
+      "categories": [
+        "neurologique",
+        "néonatale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-MED-069"
+      ],
+      "symptomes": [
+        "léthargie",
+        "hypotonie puis hypertonie",
+        "cri aigu"
+      ],
+      "signes_cliniques": [
+        "opisthotonos",
+        "séquelles (choréo-athétose, surdité, paralysie du regard vers le haut)"
+      ],
+      "examens_cles": [
+        "bilirubinémie très élevée",
+        "IRM (noyaux gris centraux)",
+        "potentiels évoqués auditifs"
+      ],
+      "traitements_cles": [
+        "exsanguino-transfusion en urgence",
+        "photothérapie intensive",
+        "prévention par dépistage et traitement précoce de l'hyperbilirubinémie"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0035",
+        "PATH-NEON-0036",
+        "PATH-ORL-0010"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0040",
+      "nom_fr": "Syndrome de sevrage néonatal",
+      "nom_en": "Neonatal abstinence syndrome",
+      "synonymes": [],
+      "cim10": "P96.1",
+      "specialite": "NEON",
+      "sous_specialite": "Nutrition néonatale",
+      "categories": [
+        "toxique",
+        "néonatale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "irritabilité",
+        "pleurs aigus",
+        "troubles du sommeil",
+        "difficultés alimentaires"
+      ],
+      "signes_cliniques": [
+        "trémulations",
+        "hypertonie",
+        "diarrhée",
+        "vomissements",
+        "sueurs"
+      ],
+      "examens_cles": [
+        "score de sevrage (Finnegan)",
+        "toxicologie urinaire"
+      ],
+      "traitements_cles": [
+        "soins de confort (environnement calme, peau à peau, allaitement selon le cas)",
+        "traitement médicamenteux (morphinique) si score élevé"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0041"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NEON-0041",
+      "nom_fr": "Syndrome d'alcoolisation fœtale",
+      "nom_en": "Fetal alcohol syndrome",
+      "synonymes": [
+        "embryofœtopathie alcoolique"
+      ],
+      "cim10": "Q86.0",
+      "specialite": "NEON",
+      "sous_specialite": "Nutrition néonatale",
+      "categories": [
+        "congénitale",
+        "toxique",
+        "néonatale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "retard de croissance",
+        "troubles du comportement et des apprentissages"
+      ],
+      "signes_cliniques": [
+        "dysmorphie faciale (fentes palpébrales courtes, philtrum lisse, lèvre supérieure fine)",
+        "microcéphalie"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "évaluation neuropsychologique",
+        "recherche de malformations associées"
+      ],
+      "traitements_cles": [
+        "prise en charge pluridisciplinaire",
+        "prévention par l'abstinence pendant la grossesse"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0040",
+        "PATH-PEDI-0016"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPED-0001",
+      "nom_fr": "Atrésie de l'œsophage",
+      "nom_en": "Oesophageal atresia",
+      "synonymes": [],
+      "cim10": "Q39",
+      "specialite": "CPED",
+      "sous_specialite": "Chirurgie viscérale néonatale",
+      "categories": [
+        "congénitale",
+        "digestive",
+        "chirurgicale",
+        "néonatale"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [
+        "RES-CHI-020"
+      ],
+      "symptomes": [
+        "hypersalivation",
+        "accès de toux et de cyanose aux tétées",
+        "hydramnios anténatal"
+      ],
+      "signes_cliniques": [
+        "impossibilité de descendre une sonde gastrique",
+        "recherche des malformations associées (VACTERL)"
+      ],
+      "examens_cles": [
+        "test à la sonde",
+        "radiographie thoraco-abdominale (sonde enroulée, aération digestive si fistule)",
+        "échocardiographie"
+      ],
+      "traitements_cles": [
+        "aspiration continue du cul-de-sac",
+        "position proclive",
+        "chirurgie (anastomose œsophagienne et fermeture de la fistule)",
+        "suivi (sténose, reflux)"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0026",
+        "PATH-CPED-0008",
+        "PATH-PEDI-0024"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPED-0002",
+      "nom_fr": "Hernie diaphragmatique congénitale",
+      "nom_en": "Congenital diaphragmatic hernia",
+      "synonymes": [],
+      "cim10": "Q79.0",
+      "specialite": "CPED",
+      "sous_specialite": "Chirurgie viscérale néonatale",
+      "categories": [
+        "congénitale",
+        "respiratoire",
+        "chirurgicale",
+        "néonatale"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [
+        "RES-CHI-022"
+      ],
+      "symptomes": [
+        "détresse respiratoire néonatale sévère"
+      ],
+      "signes_cliniques": [
+        "abdomen plat (scaphoïde)",
+        "bruits du cœur déplacés à droite",
+        "murmure vésiculaire diminué du côté atteint"
+      ],
+      "examens_cles": [
+        "diagnostic anténatal (échographie, IRM)",
+        "radiographie thoraco-abdominale (anses intestinales intrathoraciques)"
+      ],
+      "traitements_cles": [
+        "intubation immédiate sans ventilation au masque",
+        "sonde gastrique",
+        "prise en charge de l'hypoplasie pulmonaire et de l'HTAP",
+        "chirurgie différée après stabilisation"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0004",
+        "PATH-CPED-0006"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPED-0003",
+      "nom_fr": "Atrésie et sténose duodénales",
+      "nom_en": "Duodenal atresia and stenosis",
+      "synonymes": [],
+      "cim10": "Q41.0",
+      "specialite": "CPED",
+      "sous_specialite": "Chirurgie viscérale néonatale",
+      "categories": [
+        "congénitale",
+        "digestive",
+        "chirurgicale",
+        "néonatale"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [
+        "RES-CHI-019"
+      ],
+      "symptomes": [
+        "vomissements bilieux précoces",
+        "hydramnios anténatal"
+      ],
+      "signes_cliniques": [
+        "abdomen non distendu",
+        "association fréquente à la trisomie 21"
+      ],
+      "examens_cles": [
+        "radiographie de l'abdomen (image en « double bulle »)"
+      ],
+      "traitements_cles": [
+        "aspiration gastrique",
+        "réhydratation",
+        "duodéno-duodénostomie"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0004",
+        "PATH-CPED-0006",
+        "PATH-OBST-0026"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPED-0004",
+      "nom_fr": "Atrésie du grêle",
+      "nom_en": "Jejunoileal atresia",
+      "synonymes": [],
+      "cim10": "Q41",
+      "specialite": "CPED",
+      "sous_specialite": "Chirurgie viscérale néonatale",
+      "categories": [
+        "congénitale",
+        "digestive",
+        "chirurgicale",
+        "néonatale"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [
+        "RES-CHI-019"
+      ],
+      "symptomes": [
+        "vomissements bilieux",
+        "absence d'émission de méconium"
+      ],
+      "signes_cliniques": [
+        "distension abdominale d'autant plus marquée que l'atrésie est basse"
+      ],
+      "examens_cles": [
+        "radiographie de l'abdomen (niveaux hydroaériques)",
+        "lavement opaque (microcôlon)"
+      ],
+      "traitements_cles": [
+        "aspiration digestive",
+        "réanimation",
+        "résection-anastomose"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0003",
+        "PATH-CPED-0005",
+        "PATH-CPED-0007"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPED-0005",
+      "nom_fr": "Iléus méconial",
+      "nom_en": "Meconium ileus",
+      "synonymes": [],
+      "cim10": "P75",
+      "specialite": "CPED",
+      "sous_specialite": "Chirurgie viscérale néonatale",
+      "categories": [
+        "digestive",
+        "génétique",
+        "chirurgicale",
+        "néonatale"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [
+        "RES-CHI-019"
+      ],
+      "symptomes": [
+        "occlusion néonatale",
+        "absence d'émission de méconium"
+      ],
+      "signes_cliniques": [
+        "distension abdominale",
+        "anses palpables"
+      ],
+      "examens_cles": [
+        "radiographie de l'abdomen",
+        "lavement aux hydrosolubles (microcôlon)",
+        "test de la sueur et génétique (mucoviscidose)"
+      ],
+      "traitements_cles": [
+        "lavement thérapeutique aux hydrosolubles",
+        "chirurgie si échec ou complication",
+        "prise en charge de la mucoviscidose"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0004"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPED-0006",
+      "nom_fr": "Malrotation intestinale et volvulus du grêle",
+      "nom_en": "Intestinal malrotation with midgut volvulus",
+      "synonymes": [
+        "anomalie de rotation et d'accolement"
+      ],
+      "cim10": "Q43.3",
+      "specialite": "CPED",
+      "sous_specialite": "Chirurgie viscérale néonatale",
+      "categories": [
+        "congénitale",
+        "digestive",
+        "chirurgicale",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-019"
+      ],
+      "symptomes": [
+        "vomissements bilieux brutaux",
+        "douleurs abdominales",
+        "rectorragies (ischémie)"
+      ],
+      "signes_cliniques": [
+        "abdomen d'abord plat puis distendu",
+        "signes de choc tardifs"
+      ],
+      "examens_cles": [
+        "échographie (inversion des vaisseaux mésentériques, signe du tourbillon)",
+        "transit œsogastroduodénal"
+      ],
+      "traitements_cles": [
+        "chirurgie en urgence (détorsion, intervention de Ladd)",
+        "réanimation"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0002",
+        "PATH-CPED-0003",
+        "PATH-CDIG-0010"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPED-0007",
+      "nom_fr": "Maladie de Hirschsprung",
+      "nom_en": "Hirschsprung disease",
+      "synonymes": [
+        "mégacôlon congénital aganglionnaire"
+      ],
+      "cim10": "Q43.1",
+      "specialite": "CPED",
+      "sous_specialite": "Chirurgie viscérale néonatale",
+      "categories": [
+        "congénitale",
+        "digestive",
+        "chirurgicale"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [
+        "RES-CHI-019"
+      ],
+      "symptomes": [
+        "retard d'émission du méconium au-delà de 48 heures",
+        "constipation chronique sévère",
+        "ballonnement"
+      ],
+      "signes_cliniques": [
+        "distension abdominale",
+        "débâcle après toucher rectal",
+        "risque d'entérocolite"
+      ],
+      "examens_cles": [
+        "lavement opaque (zone de transition)",
+        "manométrie anorectale (absence de réflexe recto-anal inhibiteur)",
+        "biopsie rectale (absence de cellules ganglionnaires)"
+      ],
+      "traitements_cles": [
+        "nursing (irrigations)",
+        "abaissement colique chirurgical",
+        "prévention et traitement de l'entérocolite"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0025",
+        "PATH-CPED-0004"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPED-0008",
+      "nom_fr": "Malformations anorectales",
+      "nom_en": "Anorectal malformations",
+      "synonymes": [
+        "imperforation anale"
+      ],
+      "cim10": "Q42",
+      "specialite": "CPED",
+      "sous_specialite": "Chirurgie viscérale néonatale",
+      "categories": [
+        "congénitale",
+        "digestive",
+        "chirurgicale",
+        "néonatale"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [
+        "RES-CHI-019"
+      ],
+      "symptomes": [
+        "absence d'anus à l'examen de naissance",
+        "absence d'émission de méconium"
+      ],
+      "signes_cliniques": [
+        "anus absent ou ectopique",
+        "fistule périnéale ou urinaire",
+        "malformations associées (VACTERL)"
+      ],
+      "examens_cles": [
+        "examen périnéal",
+        "radiographie et échographie périnéale",
+        "bilan des malformations associées (rachis, reins, cœur)"
+      ],
+      "traitements_cles": [
+        "colostomie ou anoplastie selon la forme",
+        "chirurgie de reconstruction (anorectoplastie)",
+        "suivi de la continence"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0001",
+        "PATH-NCHI-0019"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPED-0009",
+      "nom_fr": "Omphalocèle",
+      "nom_en": "Exomphalos",
+      "synonymes": [
+        "exomphale"
+      ],
+      "cim10": "Q79.2",
+      "specialite": "CPED",
+      "sous_specialite": "Chirurgie viscérale néonatale",
+      "categories": [
+        "congénitale",
+        "chirurgicale",
+        "néonatale"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "diagnostic anténatal ou à la naissance"
+      ],
+      "signes_cliniques": [
+        "hernie des viscères dans le cordon recouverte d'un sac",
+        "anomalies associées (chromosomiques, cardiaques, syndrome de Beckwith-Wiedemann)"
+      ],
+      "examens_cles": [
+        "échographie anténatale",
+        "caryotype",
+        "échocardiographie"
+      ],
+      "traitements_cles": [
+        "protection du sac",
+        "fermeture chirurgicale primaire ou progressive"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0010",
+        "PATH-CPED-0015"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPED-0010",
+      "nom_fr": "Laparoschisis",
+      "nom_en": "Gastroschisis",
+      "synonymes": [
+        "gastroschisis"
+      ],
+      "cim10": "Q79.3",
+      "specialite": "CPED",
+      "sous_specialite": "Chirurgie viscérale néonatale",
+      "categories": [
+        "congénitale",
+        "chirurgicale",
+        "néonatale"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "diagnostic anténatal ou à la naissance"
+      ],
+      "signes_cliniques": [
+        "anses intestinales extériorisées sans sac, à droite d'un cordon normal"
+      ],
+      "examens_cles": [
+        "échographie anténatale"
+      ],
+      "traitements_cles": [
+        "protection des anses (sac stérile), prévention de l'hypothermie et de la déshydratation",
+        "réintégration chirurgicale primaire ou différée",
+        "nutrition parentérale"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0009"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPED-0011",
+      "nom_fr": "Sténose hypertrophique du pylore",
+      "nom_en": "Congenital hypertrophic pyloric stenosis",
+      "synonymes": [],
+      "cim10": "Q40.0",
+      "specialite": "CPED",
+      "sous_specialite": "Chirurgie viscérale néonatale",
+      "categories": [
+        "digestive",
+        "chirurgicale",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "vomissements en jet, non bilieux, après un intervalle libre de quelques semaines",
+        "faim persistante"
+      ],
+      "signes_cliniques": [
+        "olive pylorique palpable",
+        "ondes péristaltiques",
+        "déshydratation",
+        "amaigrissement"
+      ],
+      "examens_cles": [
+        "échographie (épaississement et allongement du pylore)",
+        "ionogramme (alcalose hypochlorémique, hypokaliémie)"
+      ],
+      "traitements_cles": [
+        "correction hydroélectrolytique préalable",
+        "pylorotomie extramuqueuse"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0024",
+        "PATH-PEDI-0022",
+        "PATH-CDIG-0002"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPED-0012",
+      "nom_fr": "Invagination intestinale aiguë du nourrisson",
+      "nom_en": "Intussusception",
+      "synonymes": [],
+      "cim10": "K56.1",
+      "specialite": "CPED",
+      "sous_specialite": "Chirurgie viscérale néonatale",
+      "categories": [
+        "digestive",
+        "chirurgicale",
+        "pédiatrique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "crises douloureuses paroxystiques avec pleurs et pâleur",
+        "refus du biberon",
+        "vomissements",
+        "rectorragies"
+      ],
+      "signes_cliniques": [
+        "boudin d'invagination palpable",
+        "intervalles libres",
+        "signes de choc tardifs"
+      ],
+      "examens_cles": [
+        "échographie abdominale (image en cible ou en « sandwich »)"
+      ],
+      "traitements_cles": [
+        "réduction par lavement sous contrôle radiologique (pneumatique ou hydrostatique)",
+        "chirurgie si échec, perforation ou état de choc"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0016",
+        "PATH-PEDI-0036",
+        "PATH-PEDI-0037"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPED-0013",
+      "nom_fr": "Kyste du cholédoque",
+      "nom_en": "Choledochal cyst",
+      "synonymes": [
+        "dilatation congénitale de la voie biliaire principale"
+      ],
+      "cim10": "Q44.4",
+      "specialite": "CPED",
+      "sous_specialite": "Chirurgie viscérale néonatale",
+      "categories": [
+        "congénitale",
+        "digestive",
+        "chirurgicale"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "douleurs abdominales",
+        "ictère intermittent"
+      ],
+      "signes_cliniques": [
+        "masse de l'hypocondre droit",
+        "triade classique (douleur, ictère, masse)"
+      ],
+      "examens_cles": [
+        "échographie",
+        "cholangio-IRM"
+      ],
+      "traitements_cles": [
+        "exérèse du kyste avec anastomose hépatico-jéjunale (risque de dégénérescence)"
+      ],
+      "pathologies_liees": [],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPED-0014",
+      "nom_fr": "Hernie inguinale de l'enfant",
+      "nom_en": "Inguinal hernia in children",
+      "synonymes": [
+        "persistance du canal péritonéo-vaginal"
+      ],
+      "cim10": "K40",
+      "specialite": "CPED",
+      "sous_specialite": "Chirurgie viscérale néonatale",
+      "categories": [
+        "chirurgicale",
+        "digestive",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "tuméfaction inguinale intermittente, majorée par les pleurs"
+      ],
+      "signes_cliniques": [
+        "tuméfaction réductible de l'aine",
+        "chez la fille, ovaire herniaire possible",
+        "risque d'étranglement"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "échographie si doute"
+      ],
+      "traitements_cles": [
+        "cure chirurgicale programmée (rapide chez le nourrisson et le prématuré)",
+        "réduction et chirurgie urgente si étranglement"
+      ],
+      "pathologies_liees": [
+        "PATH-CGEN-0001",
+        "PATH-UROL-0012",
+        "PATH-CPED-0017"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPED-0015",
+      "nom_fr": "Hernie ombilicale de l'enfant",
+      "nom_en": "Umbilical hernia in children",
+      "synonymes": [],
+      "cim10": "K42",
+      "specialite": "CPED",
+      "sous_specialite": "Chirurgie viscérale néonatale",
+      "categories": [
+        "chirurgicale",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "tuméfaction ombilicale indolore"
+      ],
+      "signes_cliniques": [
+        "hernie souple, réductible",
+        "collet palpable"
+      ],
+      "examens_cles": [
+        "diagnostic clinique"
+      ],
+      "traitements_cles": [
+        "abstention (fermeture spontanée fréquente)",
+        "chirurgie si persistance après l'âge de 4-5 ans ou collet large"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0009",
+        "PATH-CGEN-0003"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPED-0016",
+      "nom_fr": "Diverticule de Meckel compliqué",
+      "nom_en": "Meckel's diverticulum",
+      "synonymes": [],
+      "cim10": "Q43.0",
+      "specialite": "CPED",
+      "sous_specialite": "Chirurgie viscérale néonatale",
+      "categories": [
+        "congénitale",
+        "digestive",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "rectorragies indolores abondantes",
+        "douleurs abdominales",
+        "occlusion"
+      ],
+      "signes_cliniques": [
+        "anémie",
+        "tableau pseudo-appendiculaire (diverticulite)"
+      ],
+      "examens_cles": [
+        "scintigraphie au technétium (muqueuse gastrique ectopique)",
+        "laparoscopie diagnostique"
+      ],
+      "traitements_cles": [
+        "résection chirurgicale du diverticule"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0012",
+        "PATH-CGEN-0008",
+        "PATH-CGEN-0012"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPED-0017",
+      "nom_fr": "Cryptorchidie",
+      "nom_en": "Undescended testis",
+      "synonymes": [
+        "testicule non descendu"
+      ],
+      "cim10": "Q53",
+      "specialite": "CPED",
+      "sous_specialite": "Urologie pédiatrique",
+      "categories": [
+        "congénitale",
+        "urologique",
+        "chirurgicale",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "bourse vide uni- ou bilatérale"
+      ],
+      "signes_cliniques": [
+        "testicule non palpable ou palpable dans le canal inguinal, non abaissable dans la bourse"
+      ],
+      "examens_cles": [
+        "examen clinique",
+        "caryotype et bilan hormonal si bilatéral non palpable ou ambiguïté sexuelle",
+        "cœlioscopie si non palpable"
+      ],
+      "traitements_cles": [
+        "orchidopexie avant 18 mois",
+        "surveillance (risque d'infertilité et de cancer)"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0014",
+        "PATH-CPED-0018",
+        "PATH-UROL-0013",
+        "PATH-UROL-0010"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPED-0018",
+      "nom_fr": "Hypospadias",
+      "nom_en": "Hypospadias",
+      "synonymes": [],
+      "cim10": "Q54",
+      "specialite": "CPED",
+      "sous_specialite": "Urologie pédiatrique",
+      "categories": [
+        "congénitale",
+        "urologique",
+        "chirurgicale",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "anomalie de position du méat urétral",
+        "jet urinaire dévié"
+      ],
+      "signes_cliniques": [
+        "méat ectopique ventral",
+        "prépuce incomplet (en tablier)",
+        "coudure de la verge"
+      ],
+      "examens_cles": [
+        "examen clinique",
+        "bilan endocrinien et génétique si associé à une cryptorchidie (trouble du développement sexuel)"
+      ],
+      "traitements_cles": [
+        "chirurgie de correction (urétroplastie) dans la petite enfance",
+        "ne pas circoncire avant la chirurgie"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0017",
+        "PATH-CPED-0022",
+        "PATH-CPED-0024"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPED-0019",
+      "nom_fr": "Syndrome de la jonction pyélo-urétérale",
+      "nom_en": "Ureteropelvic junction obstruction",
+      "synonymes": [
+        "hydronéphrose congénitale"
+      ],
+      "cim10": "Q62",
+      "specialite": "CPED",
+      "sous_specialite": "Urologie pédiatrique",
+      "categories": [
+        "congénitale",
+        "urologique",
+        "rénale",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "découverte anténatale",
+        "douleurs lombaires",
+        "infection urinaire",
+        "hématurie"
+      ],
+      "signes_cliniques": [
+        "masse lombaire",
+        "crises douloureuses après boissons abondantes (adolescent)"
+      ],
+      "examens_cles": [
+        "échographie (dilatation pyélocalicielle sans dilatation urétérale)",
+        "scintigraphie rénale au MAG3 (obstruction, fonction différentielle)",
+        "uro-IRM"
+      ],
+      "traitements_cles": [
+        "surveillance si fonction conservée",
+        "pyéloplastie si obstruction avec altération de la fonction ou symptômes"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0008",
+        "PATH-CPED-0020",
+        "PATH-CPED-0023"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPED-0020",
+      "nom_fr": "Reflux vésico-urétéral de l'enfant",
+      "nom_en": "Vesicoureteral reflux",
+      "synonymes": [],
+      "cim10": "Q62.7",
+      "specialite": "CPED",
+      "sous_specialite": "Urologie pédiatrique",
+      "categories": [
+        "congénitale",
+        "urologique",
+        "rénale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "pyélonéphrites récidivantes",
+        "découverte sur dilatation anténatale"
+      ],
+      "signes_cliniques": [
+        "fièvre récidivante",
+        "HTA et retard de croissance si néphropathie de reflux"
+      ],
+      "examens_cles": [
+        "cystographie rétrograde mictionnelle (grades)",
+        "échographie",
+        "scintigraphie au DMSA (cicatrices)"
+      ],
+      "traitements_cles": [
+        "surveillance et traitement précoce des infections",
+        "antibioprophylaxie selon indications",
+        "traitement endoscopique ou réimplantation urétérovésicale"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0008",
+        "PATH-CPED-0019",
+        "PATH-CPED-0021",
+        "PATH-CPED-0023"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPED-0021",
+      "nom_fr": "Valves de l'urètre postérieur",
+      "nom_en": "Posterior urethral valves",
+      "synonymes": [],
+      "cim10": "Q64.2",
+      "specialite": "CPED",
+      "sous_specialite": "Urologie pédiatrique",
+      "categories": [
+        "congénitale",
+        "urologique",
+        "rénale",
+        "chirurgicale"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "dysurie",
+        "jet urinaire faible",
+        "infections urinaires",
+        "découverte anténatale"
+      ],
+      "signes_cliniques": [
+        "globe vésical",
+        "insuffisance rénale",
+        "oligoamnios anténatal"
+      ],
+      "examens_cles": [
+        "échographie (vessie de lutte, dilatation bilatérale)",
+        "cystographie mictionnelle (dilatation de l'urètre postérieur)",
+        "créatininémie"
+      ],
+      "traitements_cles": [
+        "drainage vésical",
+        "résection endoscopique des valves",
+        "suivi néphrologique au long cours"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0008",
+        "PATH-CPED-0020",
+        "PATH-OBST-0027"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPED-0022",
+      "nom_fr": "Phimosis et paraphimosis",
+      "nom_en": "Phimosis and paraphimosis",
+      "synonymes": [],
+      "cim10": "N47",
+      "specialite": "CPED",
+      "sous_specialite": "Urologie pédiatrique",
+      "categories": [
+        "urologique",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "impossibilité de décalotter",
+        "ballonnement du prépuce à la miction",
+        "douleur et œdème du gland (paraphimosis)"
+      ],
+      "signes_cliniques": [
+        "anneau préputial serré",
+        "paraphimosis : prépuce rétracté formant un anneau œdémateux"
+      ],
+      "examens_cles": [
+        "diagnostic clinique"
+      ],
+      "traitements_cles": [
+        "phimosis : abstention ou dermocorticoïdes, chirurgie si persistance pathologique",
+        "paraphimosis : réduction manuelle en urgence, incision si échec"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0018",
+        "PATH-UROL-0033"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPED-0023",
+      "nom_fr": "Méga-uretère primitif",
+      "nom_en": "Primary megaureter",
+      "synonymes": [],
+      "cim10": "Q62.2",
+      "specialite": "CPED",
+      "sous_specialite": "Urologie pédiatrique",
+      "categories": [
+        "congénitale",
+        "urologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "découverte anténatale",
+        "infections urinaires",
+        "douleurs"
+      ],
+      "signes_cliniques": [
+        "souvent asymptomatique"
+      ],
+      "examens_cles": [
+        "échographie (dilatation urétérale)",
+        "cystographie (élimination d'un reflux)",
+        "scintigraphie MAG3",
+        "uro-IRM"
+      ],
+      "traitements_cles": [
+        "surveillance (résolution spontanée fréquente)",
+        "réimplantation urétérovésicale si obstruction avec retentissement"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0019",
+        "PATH-CPED-0020"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPED-0024",
+      "nom_fr": "Exstrophie vésicale",
+      "nom_en": "Bladder exstrophy",
+      "synonymes": [],
+      "cim10": "Q64.1",
+      "specialite": "CPED",
+      "sous_specialite": "Urologie pédiatrique",
+      "categories": [
+        "congénitale",
+        "urologique",
+        "chirurgicale"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "anomalie visible à la naissance"
+      ],
+      "signes_cliniques": [
+        "plaque vésicale exposée sur la paroi abdominale",
+        "épispadias",
+        "diastasis pubien"
+      ],
+      "examens_cles": [
+        "diagnostic anténatal ou clinique",
+        "bilan des malformations associées"
+      ],
+      "traitements_cles": [
+        "chirurgie reconstructrice en plusieurs temps en centre spécialisé",
+        "prise en charge de la continence"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0018"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPED-0025",
+      "nom_fr": "Fracture supracondylienne de l'humérus de l'enfant",
+      "nom_en": "Supracondylar humeral fracture in children",
+      "synonymes": [],
+      "cim10": "S42.4",
+      "specialite": "CPED",
+      "sous_specialite": "Traumatologie de l'enfant",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur du coude après chute sur la main",
+        "impotence fonctionnelle"
+      ],
+      "signes_cliniques": [
+        "déformation et œdème du coude",
+        "recherche systématique de complications vasculaires (pouls radial) et nerveuses"
+      ],
+      "examens_cles": [
+        "radiographies du coude face et profil"
+      ],
+      "traitements_cles": [
+        "immobilisation pour les formes non déplacées",
+        "réduction et embrochage pour les formes déplacées",
+        "surveillance du syndrome des loges (syndrome de Volkmann)"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0040",
+        "PATH-TRAU-0005",
+        "PATH-CPED-0026",
+        "PATH-CPED-0027",
+        "PATH-CCVA-0005"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPED-0026",
+      "nom_fr": "Décollements épiphysaires (fractures du cartilage de croissance)",
+      "nom_en": "Physeal fractures (Salter-Harris)",
+      "synonymes": [
+        "fractures de Salter et Harris"
+      ],
+      "cim10": null,
+      "specialite": "CPED",
+      "sous_specialite": "Traumatologie de l'enfant",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur et impotence après traumatisme chez l'enfant"
+      ],
+      "signes_cliniques": [
+        "tuméfaction métaphyso-épiphysaire",
+        "douleur exquise sur le cartilage de croissance"
+      ],
+      "examens_cles": [
+        "radiographies comparatives",
+        "classification de Salter-Harris",
+        "IRM ou scanner selon le cas"
+      ],
+      "traitements_cles": [
+        "réduction douce et immobilisation",
+        "ostéosynthèse pour les types articulaires déplacés",
+        "surveillance de la croissance (épiphysiodèse)"
+      ],
+      "pathologies_liees": [
+        "PATH-ORTH-0009",
+        "PATH-CPED-0025"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPED-0027",
+      "nom_fr": "Pronation douloureuse",
+      "nom_en": "Pulled elbow (radial head subluxation)",
+      "synonymes": [
+        "subluxation de la tête radiale"
+      ],
+      "cim10": null,
+      "specialite": "CPED",
+      "sous_specialite": "Traumatologie de l'enfant",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "refus d'utiliser le membre supérieur après traction brusque sur la main",
+        "pleurs"
+      ],
+      "signes_cliniques": [
+        "bras le long du corps, avant-bras en pronation",
+        "absence d'œdème ou de déformation"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "radiographie seulement si mécanisme atypique ou échec de la réduction"
+      ],
+      "traitements_cles": [
+        "réduction manuelle par supination-flexion",
+        "information des parents"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0025"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPED-0028",
+      "nom_fr": "Tératome sacro-coccygien",
+      "nom_en": "Sacrococcygeal teratoma",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "CPED",
+      "sous_specialite": "Oncologie chirurgicale pédiatrique",
+      "categories": [
+        "néoplasique",
+        "congénitale",
+        "pédiatrique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "masse de la région sacrée visible à la naissance ou découverte anténatale"
+      ],
+      "signes_cliniques": [
+        "masse fessière ou présacrée",
+        "troubles urinaires ou digestifs (forme interne)"
+      ],
+      "examens_cles": [
+        "échographie anténatale",
+        "IRM",
+        "alpha-fœtoprotéine (marqueur de malignité et de récidive)"
+      ],
+      "traitements_cles": [
+        "exérèse chirurgicale complète incluant le coccyx",
+        "surveillance de l'alpha-fœtoprotéine"
+      ],
+      "pathologies_liees": [
+        "PATH-NCHI-0019"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPED-0029",
+      "nom_fr": "Lymphangiome kystique",
+      "nom_en": "Cystic lymphangioma (lymphatic malformation)",
+      "synonymes": [
+        "malformation lymphatique kystique"
+      ],
+      "cim10": "D18.1",
+      "specialite": "CPED",
+      "sous_specialite": "Oncologie chirurgicale pédiatrique",
+      "categories": [
+        "congénitale",
+        "pédiatrique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "tuméfaction molle cervicale ou axillaire",
+        "augmentation brutale de volume (infection, saignement)"
+      ],
+      "signes_cliniques": [
+        "masse rénitente, transilluminable",
+        "compression des voies aériennes (forme cervicale étendue)"
+      ],
+      "examens_cles": [
+        "échographie",
+        "IRM"
+      ],
+      "traitements_cles": [
+        "sclérothérapie",
+        "chirurgie d'exérèse selon la localisation",
+        "traitements médicaux (sirolimus) dans les formes étendues"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0036",
+        "PATH-ANAP-0017"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPED-0030",
+      "nom_fr": "Malformation congénitale des voies aériennes pulmonaires (MAKP)",
+      "nom_en": "Congenital pulmonary airway malformation",
+      "synonymes": [
+        "malformation adénomatoïde kystique pulmonaire"
+      ],
+      "cim10": null,
+      "specialite": "CPED",
+      "sous_specialite": "Chirurgie viscérale néonatale",
+      "categories": [
+        "congénitale",
+        "respiratoire",
+        "chirurgicale"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "détresse respiratoire néonatale",
+        "infections pulmonaires récidivantes",
+        "découverte anténatale"
+      ],
+      "signes_cliniques": [
+        "diminution du murmure vésiculaire localisée"
+      ],
+      "examens_cles": [
+        "échographie anténatale",
+        "scanner thoracique"
+      ],
+      "traitements_cles": [
+        "surveillance",
+        "lobectomie chirurgicale (formes symptomatiques ou selon les indications pour les formes asymptomatiques)"
+      ],
+      "pathologies_liees": [
+        "PATH-CTHO-0012",
+        "PATH-CPED-0031",
+        "PATH-ANAP-0017"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPED-0031",
+      "nom_fr": "Séquestration pulmonaire",
+      "nom_en": "Pulmonary sequestration",
+      "synonymes": [],
+      "cim10": "Q33.2",
+      "specialite": "CPED",
+      "sous_specialite": "Chirurgie viscérale néonatale",
+      "categories": [
+        "congénitale",
+        "respiratoire",
+        "chirurgicale"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "infections pulmonaires récidivantes de la base",
+        "découverte anténatale"
+      ],
+      "signes_cliniques": [
+        "souvent pauvre"
+      ],
+      "examens_cles": [
+        "angioscanner thoracique (vascularisation systémique aberrante, souvent d'origine aortique)"
+      ],
+      "traitements_cles": [
+        "exérèse chirurgicale",
+        "embolisation de l'artère systémique selon les cas"
+      ],
+      "pathologies_liees": [
+        "PATH-CTHO-0012",
+        "PATH-CPED-0030"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPED-0032",
+      "nom_fr": "Pectus excavatum (thorax en entonnoir)",
+      "nom_en": "Pectus excavatum",
+      "synonymes": [
+        "thorax en entonnoir"
+      ],
+      "cim10": "Q67.6",
+      "specialite": "CPED",
+      "sous_specialite": "Orthopédie pédiatrique",
+      "categories": [
+        "congénitale",
+        "ostéo-articulaire",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "retentissement esthétique et psychologique",
+        "dyspnée d'effort parfois"
+      ],
+      "signes_cliniques": [
+        "dépression sternale",
+        "association possible à un syndrome de Marfan"
+      ],
+      "examens_cles": [
+        "scanner thoracique (index de Haller)",
+        "évaluation cardio-respiratoire"
+      ],
+      "traitements_cles": [
+        "abstention",
+        "ventouse (cloche à vide)",
+        "correction chirurgicale (intervention de Nuss, sternochondroplastie)"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0033"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPED-0033",
+      "nom_fr": "Pectus carinatum (thorax en carène)",
+      "nom_en": "Pectus carinatum",
+      "synonymes": [
+        "thorax en carène"
+      ],
+      "cim10": "Q67.7",
+      "specialite": "CPED",
+      "sous_specialite": "Orthopédie pédiatrique",
+      "categories": [
+        "congénitale",
+        "ostéo-articulaire",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "déformation thoracique antérieure",
+        "retentissement esthétique"
+      ],
+      "signes_cliniques": [
+        "protrusion sternale"
+      ],
+      "examens_cles": [
+        "examen clinique",
+        "scanner selon les cas"
+      ],
+      "traitements_cles": [
+        "orthèse de compression dynamique",
+        "chirurgie dans les formes sévères"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0032"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0029",
+      "nom_fr": "Rhinopharyngite aiguë de l'enfant",
+      "nom_en": "Acute nasopharyngitis (common cold) in children",
+      "synonymes": [
+        "rhume"
+      ],
+      "cim10": "J00",
+      "specialite": "PEDI",
+      "sous_specialite": "Infectiologie pédiatrique",
+      "categories": [
+        "infectieuse",
+        "ORL",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "rhinorrhée",
+        "obstruction nasale",
+        "fièvre modérée",
+        "toux",
+        "gêne à la tétée chez le nourrisson"
+      ],
+      "signes_cliniques": [
+        "rhinorrhée claire puis mucopurulente",
+        "pharynx inflammatoire",
+        "tympans à examiner systématiquement"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "pas d'examen complémentaire en l'absence de complication"
+      ],
+      "traitements_cles": [
+        "lavages de nez au sérum physiologique",
+        "antipyrétiques",
+        "pas d'antibiotique (origine virale)",
+        "surveillance des complications (otite moyenne aiguë, sinusite, bronchiolite)"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0001",
+        "PATH-PEDI-0019",
+        "PATH-ORL-0017",
+        "PATH-ORL-0032"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0030",
+      "nom_fr": "Syndrome inflammatoire multisystémique pédiatrique post-COVID-19 (PIMS/MIS-C)",
+      "nom_en": "Multisystem inflammatory syndrome in children (MIS-C)",
+      "synonymes": [
+        "PIMS-TS",
+        "MIS-C"
+      ],
+      "cim10": "U10.9",
+      "specialite": "PEDI",
+      "sous_specialite": "Infectiologie pédiatrique",
+      "categories": [
+        "inflammatoire",
+        "infectieuse",
+        "cardiovasculaire",
+        "pédiatrique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "fièvre persistante",
+        "douleurs abdominales",
+        "vomissements",
+        "éruption",
+        "conjonctivite, quelques semaines après une infection à SARS-CoV-2"
+      ],
+      "signes_cliniques": [
+        "état de choc (dysfonction myocardique)",
+        "signes cutanéo-muqueux proches de la maladie de Kawasaki"
+      ],
+      "examens_cles": [
+        "CRP, procalcitonine, ferritine élevées",
+        "troponine, NT-proBNP",
+        "échocardiographie (dysfonction ventriculaire, anomalies coronaires)",
+        "sérologie SARS-CoV-2"
+      ],
+      "traitements_cles": [
+        "immunoglobulines intraveineuses",
+        "corticoïdes",
+        "aspirine selon les protocoles",
+        "prise en charge en réanimation pédiatrique si choc",
+        "suivi cardiologique"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0013",
+        "PATH-MINT_REA-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0031",
+      "nom_fr": "Syndrome néphrotique congénital",
+      "nom_en": "Congenital nephrotic syndrome",
+      "synonymes": [
+        "syndrome néphrotique de type finlandais"
+      ],
+      "cim10": null,
+      "specialite": "PEDI",
+      "sous_specialite": "Néphrologie pédiatrique",
+      "categories": [
+        "rénale",
+        "génétique",
+        "pédiatrique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "œdèmes précoces dans les trois premiers mois de vie",
+        "difficultés alimentaires",
+        "infections"
+      ],
+      "signes_cliniques": [
+        "œdèmes généralisés",
+        "ascite",
+        "placenta volumineux à la naissance",
+        "retard de croissance"
+      ],
+      "examens_cles": [
+        "protéinurie massive",
+        "albuminémie effondrée",
+        "étude génétique (NPHS1, NPHS2)",
+        "recherche d'une cause infectieuse (syphilis, CMV, toxoplasmose)"
+      ],
+      "traitements_cles": [
+        "perfusions d'albumine",
+        "nutrition",
+        "prévention des thromboses et des infections",
+        "néphrectomie et dialyse puis transplantation rénale selon l'évolution"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0014",
+        "PATH-NEON-0032",
+        "PATH-NEON-0030"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0032",
+      "nom_fr": "Épilepsie à pointes centro-temporales (épilepsie rolandique)",
+      "nom_en": "Self-limited epilepsy with centrotemporal spikes (rolandic epilepsy)",
+      "synonymes": [
+        "épilepsie bénigne à pointes centro-temporales"
+      ],
+      "cim10": "G40.0",
+      "specialite": "PEDI",
+      "sous_specialite": "Neuropédiatrie",
+      "categories": [
+        "neurologique",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "crises nocturnes ou à l'endormissement chez l'enfant d'âge scolaire",
+        "paresthésies de l'hémiface",
+        "hypersialorrhée",
+        "arrêt de la parole"
+      ],
+      "signes_cliniques": [
+        "crises focales hémifaciales",
+        "examen neurologique normal"
+      ],
+      "examens_cles": [
+        "EEG (pointes centro-temporales activées par le sommeil)"
+      ],
+      "traitements_cles": [
+        "abstention thérapeutique fréquente (évolution spontanément favorable à l'adolescence)",
+        "antiépileptique si crises fréquentes ou mal tolérées",
+        "information de la famille"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0033",
+        "PATH-PEDI-0034"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0033",
+      "nom_fr": "Syndrome de Lennox-Gastaut",
+      "nom_en": "Lennox-Gastaut syndrome",
+      "synonymes": [
+        "encéphalopathie épileptique de l'enfant"
+      ],
+      "cim10": "G40.4",
+      "specialite": "PEDI",
+      "sous_specialite": "Neuropédiatrie",
+      "categories": [
+        "neurologique",
+        "pédiatrique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "crises multiples pluriquotidiennes (toniques nocturnes, atoniques avec chutes, absences atypiques)",
+        "régression cognitive"
+      ],
+      "signes_cliniques": [
+        "chutes traumatisantes",
+        "déficience intellectuelle",
+        "troubles du comportement"
+      ],
+      "examens_cles": [
+        "EEG (pointes-ondes lentes diffuses, rythmes rapides pendant le sommeil)",
+        "IRM cérébrale",
+        "bilan étiologique (génétique, métabolique)"
+      ],
+      "traitements_cles": [
+        "antiépileptiques adaptés (association fréquente)",
+        "régime cétogène",
+        "chirurgie palliative (callosotomie) ou stimulation du nerf vague",
+        "protection contre les chutes (casque)"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0032",
+        "PATH-PEDI-0016"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0034",
+      "nom_fr": "Troubles du développement du langage oral de l'enfant",
+      "nom_en": "Developmental language disorder",
+      "synonymes": [
+        "retard de langage",
+        "dysphasie"
+      ],
+      "cim10": "F80",
+      "specialite": "PEDI",
+      "sous_specialite": "Neuropédiatrie",
+      "categories": [
+        "neurologique",
+        "psychiatrique",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [
+        "RES-MED-066"
+      ],
+      "symptomes": [
+        "retard d'apparition des premiers mots et des phrases",
+        "difficultés de compréhension ou d'expression",
+        "difficultés scolaires"
+      ],
+      "signes_cliniques": [
+        "décalage persistant par rapport aux repères de développement",
+        "recherche d'une surdité, d'un trouble du spectre de l'autisme ou d'une déficience intellectuelle"
+      ],
+      "examens_cles": [
+        "bilan auditif systématique",
+        "bilan orthophonique",
+        "évaluation du développement global"
+      ],
+      "traitements_cles": [
+        "rééducation orthophonique",
+        "aménagements scolaires",
+        "accompagnement parental",
+        "traitement d'une surdité"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0032",
+        "PATH-ORL-0010",
+        "PATH-ORL-0002",
+        "PATH-PEDI-0016",
+        "PATH-PEDI-0035"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0035",
+      "nom_fr": "Trouble spécifique des apprentissages (dyslexie-dysorthographie)",
+      "nom_en": "Specific learning disorder (dyslexia)",
+      "synonymes": [],
+      "cim10": "F81.0",
+      "specialite": "PEDI",
+      "sous_specialite": "Neuropédiatrie",
+      "categories": [
+        "neurologique",
+        "psychiatrique",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "difficultés durables d'apprentissage de la lecture et de l'orthographe malgré une scolarisation adaptée",
+        "fatigue scolaire"
+      ],
+      "signes_cliniques": [
+        "intelligence normale",
+        "lecture lente et erronée",
+        "absence de trouble sensoriel"
+      ],
+      "examens_cles": [
+        "bilan orthophonique (lecture, orthographe, conscience phonologique)",
+        "bilan visuel et auditif",
+        "bilan neuropsychologique selon le contexte"
+      ],
+      "traitements_cles": [
+        "rééducation orthophonique",
+        "aménagements pédagogiques",
+        "soutien psychologique"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0034"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0036",
+      "nom_fr": "Adénolymphite mésentérique de l'enfant",
+      "nom_en": "Mesenteric lymphadenitis in children",
+      "synonymes": [],
+      "cim10": "I88.0",
+      "specialite": "PEDI",
+      "sous_specialite": "Gastro-entérologie pédiatrique",
+      "categories": [
+        "infectieuse",
+        "digestive",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleurs abdominales de la fosse iliaque droite",
+        "fièvre",
+        "contexte d'infection rhinopharyngée"
+      ],
+      "signes_cliniques": [
+        "douleur de la fosse iliaque droite sans défense franche (diagnostic différentiel de l'appendicite)"
+      ],
+      "examens_cles": [
+        "échographie abdominale (adénopathies mésentériques, appendice normal)",
+        "NFS, CRP"
+      ],
+      "traitements_cles": [
+        "traitement symptomatique",
+        "surveillance clinique",
+        "réévaluation si aggravation"
+      ],
+      "pathologies_liees": [
+        "PATH-CGEN-0008",
+        "PATH-CPED-0012"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0037",
+      "nom_fr": "Coliques du nourrisson (pleurs excessifs)",
+      "nom_en": "Infantile colic",
+      "synonymes": [
+        "pleurs excessifs du nourrisson"
+      ],
+      "cim10": null,
+      "specialite": "PEDI",
+      "sous_specialite": "Gastro-entérologie pédiatrique",
+      "categories": [
+        "digestive",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "accès de pleurs prolongés, surtout en fin de journée, chez un nourrisson de moins de 4 mois en bonne santé",
+        "agitation",
+        "jambes repliées"
+      ],
+      "signes_cliniques": [
+        "examen clinique normal",
+        "croissance normale",
+        "absence de fièvre"
+      ],
+      "examens_cles": [
+        "diagnostic clinique d'élimination (recherche de signes d'alarme : vomissements, cassure pondérale, fièvre)"
+      ],
+      "traitements_cles": [
+        "réassurance et soutien des parents",
+        "conseils de portage et d'apaisement",
+        "prévention du syndrome du bébé secoué"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0024",
+        "PATH-MLEG-0011",
+        "PATH-CPED-0012"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-PEDI-0038",
+      "nom_fr": "Encoprésie de l'enfant",
+      "nom_en": "Encopresis",
+      "synonymes": [],
+      "cim10": "F98.1",
+      "specialite": "PEDI",
+      "sous_specialite": "Gastro-entérologie pédiatrique",
+      "categories": [
+        "digestive",
+        "psychiatrique",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "émissions involontaires de selles dans les sous-vêtements après l'âge de 4 ans",
+        "retentissement psychosocial"
+      ],
+      "signes_cliniques": [
+        "fécalome palpable (encoprésie rétentionnelle)",
+        "examen neurologique et du rachis normal"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "radiographie de l'abdomen selon les cas"
+      ],
+      "traitements_cles": [
+        "évacuation du fécalome",
+        "laxatifs osmotiques prolongés",
+        "présentation régulière aux toilettes",
+        "accompagnement psychologique"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0025",
+        "PATH-PEDI-0015"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    }
+  ]
+}

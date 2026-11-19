@@ -1,0 +1,4884 @@
+{
+  "agent": "ENC-2",
+  "date": "2026-11-19",
+  "pathologies": [
+    {
+      "id": "PATH-GYNE-0001",
+      "nom_fr": "Vaginose bactérienne",
+      "nom_en": "Bacterial vaginosis",
+      "synonymes": [
+        "vaginose à Gardnerella"
+      ],
+      "cim10": null,
+      "specialite": "GYNE",
+      "sous_specialite": "Gynécologie médicale",
+      "categories": [
+        "infectieuse",
+        "gynécologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "leucorrhées grisâtres fluides",
+        "odeur de « poisson pourri »",
+        "peu ou pas de prurit"
+      ],
+      "signes_cliniques": [
+        "leucorrhées homogènes adhérentes",
+        "absence d'inflammation vulvo-vaginale"
+      ],
+      "examens_cles": [
+        "critères d'Amsel (pH vaginal > 4,5, test à la potasse positif, clue cells)",
+        "score de Nugent"
+      ],
+      "traitements_cles": [
+        "antibiotique anti-anaérobie (métronidazole oral ou local, clindamycine)",
+        "traitement pendant la grossesse selon recommandations"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0002",
+        "PATH-GYNE-0004",
+        "PATH-OBST-0010"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GYNE-0002",
+      "nom_fr": "Candidose vulvo-vaginale",
+      "nom_en": "Vulvovaginal candidiasis",
+      "synonymes": [
+        "mycose vaginale"
+      ],
+      "cim10": "B37.3",
+      "specialite": "GYNE",
+      "sous_specialite": "Gynécologie médicale",
+      "categories": [
+        "infectieuse",
+        "gynécologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "prurit vulvaire intense",
+        "brûlures",
+        "dyspareunie",
+        "leucorrhées"
+      ],
+      "signes_cliniques": [
+        "leucorrhées blanches caillebottées",
+        "érythème et œdème vulvo-vaginal"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "prélèvement mycologique en cas de récidive ou d'atypie"
+      ],
+      "traitements_cles": [
+        "antifongiques azolés locaux ou oraux",
+        "recherche de facteurs favorisants (diabète, antibiothérapie)",
+        "traitement d'entretien des formes récidivantes"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GYNE-0003",
+      "nom_fr": "Cervicite",
+      "nom_en": "Cervicitis",
+      "synonymes": [
+        "endocervicite"
+      ],
+      "cim10": "N72",
+      "specialite": "GYNE",
+      "sous_specialite": "Gynécologie médicale",
+      "categories": [
+        "infectieuse",
+        "gynécologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "leucorrhées purulentes",
+        "métrorragies post-coïtales",
+        "souvent asymptomatique"
+      ],
+      "signes_cliniques": [
+        "col inflammatoire, saignant au contact",
+        "glaire louche"
+      ],
+      "examens_cles": [
+        "PCR Chlamydia trachomatis et Neisseria gonorrhoeae",
+        "prélèvement bactériologique",
+        "dépistage des autres IST"
+      ],
+      "traitements_cles": [
+        "antibiothérapie adaptée (couvrant Chlamydia et gonocoque)",
+        "traitement du partenaire",
+        "prévention des IST"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0004",
+        "PATH-GYNE-0011",
+        "PATH-GYNE-0034",
+        "PATH-GYNE-0024"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GYNE-0004",
+      "nom_fr": "Infection génitale haute (salpingite aiguë)",
+      "nom_en": "Pelvic inflammatory disease (acute salpingitis)",
+      "synonymes": [
+        "maladie inflammatoire pelvienne"
+      ],
+      "cim10": "N70.0",
+      "specialite": "GYNE",
+      "sous_specialite": "Gynécologie médicale",
+      "categories": [
+        "infectieuse",
+        "gynécologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleurs pelviennes",
+        "fièvre",
+        "leucorrhées",
+        "métrorragies"
+      ],
+      "signes_cliniques": [
+        "douleur à la mobilisation utérine",
+        "douleur annexielle",
+        "masse annexielle (abcès)"
+      ],
+      "examens_cles": [
+        "β-hCG (éliminer une grossesse extra-utérine)",
+        "NFS, CRP",
+        "prélèvements vaginaux et endocervicaux (PCR)",
+        "échographie pelvienne",
+        "cœlioscopie si doute"
+      ],
+      "traitements_cles": [
+        "antibiothérapie probabiliste couvrant Chlamydia, gonocoque et anaérobies",
+        "drainage d'un abcès tubo-ovarien",
+        "traitement du partenaire"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0001",
+        "PATH-GYNE-0003",
+        "PATH-GYNE-0011",
+        "PATH-GYNE-0034",
+        "PATH-CGEN-0008",
+        "PATH-OBST-0043",
+        "PATH-OBST-0044"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GYNE-0005",
+      "nom_fr": "Endométriose",
+      "nom_en": "Endometriosis",
+      "synonymes": [],
+      "cim10": "N80",
+      "specialite": "GYNE",
+      "sous_specialite": "Gynécologie médicale",
+      "categories": [
+        "gynécologique",
+        "inflammatoire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "dysménorrhée secondaire intense",
+        "dyspareunie profonde",
+        "douleurs pelviennes chroniques",
+        "infertilité"
+      ],
+      "signes_cliniques": [
+        "nodule du cul-de-sac de Douglas ou des ligaments utéro-sacrés",
+        "utérus rétroversé fixé"
+      ],
+      "examens_cles": [
+        "échographie endovaginale",
+        "IRM pelvienne",
+        "cœlioscopie (diagnostic et traitement)"
+      ],
+      "traitements_cles": [
+        "traitement hormonal (progestatifs, contraception œstroprogestative en continu, analogues de la GnRH)",
+        "antalgiques",
+        "chirurgie d'exérèse des lésions",
+        "AMP en cas d'infertilité"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0006",
+        "PATH-GYNE-0012",
+        "PATH-GYNE-0034",
+        "PATH-GYNE-0009"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GYNE-0006",
+      "nom_fr": "Adénomyose",
+      "nom_en": "Adenomyosis",
+      "synonymes": [
+        "endométriose interne"
+      ],
+      "cim10": "N80.0",
+      "specialite": "GYNE",
+      "sous_specialite": "Gynécologie médicale",
+      "categories": [
+        "gynécologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "ménorragies",
+        "dysménorrhée",
+        "douleurs pelviennes"
+      ],
+      "signes_cliniques": [
+        "utérus augmenté de volume, globuleux, sensible"
+      ],
+      "examens_cles": [
+        "échographie endovaginale",
+        "IRM pelvienne (épaississement de la zone jonctionnelle)"
+      ],
+      "traitements_cles": [
+        "traitement hormonal (DIU au lévonorgestrel, progestatifs)",
+        "hystérectomie en l'absence de désir de grossesse"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0005",
+        "PATH-GYNE-0007",
+        "PATH-GYNE-0015",
+        "PATH-GYNE-0012"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GYNE-0007",
+      "nom_fr": "Fibrome utérin (léiomyome)",
+      "nom_en": "Uterine leiomyoma (fibroid)",
+      "synonymes": [
+        "myome utérin"
+      ],
+      "cim10": "D25",
+      "specialite": "GYNE",
+      "sous_specialite": "Gynécologie médicale",
+      "categories": [
+        "gynécologique",
+        "néoplasique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-060"
+      ],
+      "symptomes": [
+        "ménorragies",
+        "pesanteur pelvienne",
+        "troubles urinaires (pollakiurie)",
+        "douleurs"
+      ],
+      "signes_cliniques": [
+        "utérus augmenté de volume, irrégulier",
+        "anémie"
+      ],
+      "examens_cles": [
+        "échographie pelvienne",
+        "IRM",
+        "hystéroscopie (fibrome sous-muqueux)",
+        "NFS"
+      ],
+      "traitements_cles": [
+        "abstention si asymptomatique",
+        "traitement médical (progestatifs, acide tranexamique, analogues de la GnRH en préopératoire)",
+        "myomectomie",
+        "hystérectomie",
+        "embolisation des artères utérines"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0006",
+        "PATH-GYNE-0015",
+        "PATH-GYNE-0008",
+        "PATH-GYNE-0034"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GYNE-0008",
+      "nom_fr": "Polype de l'endomètre",
+      "nom_en": "Endometrial polyp",
+      "synonymes": [],
+      "cim10": "N84.0",
+      "specialite": "GYNE",
+      "sous_specialite": "Gynécologie médicale",
+      "categories": [
+        "gynécologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "métrorragies",
+        "ménorragies",
+        "spotting intermenstruel"
+      ],
+      "signes_cliniques": [
+        "examen clinique souvent normal"
+      ],
+      "examens_cles": [
+        "échographie endovaginale avec hystérosonographie",
+        "hystéroscopie avec biopsie"
+      ],
+      "traitements_cles": [
+        "résection hystéroscopique avec analyse histologique"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0007",
+        "PATH-GYNE-0015"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GYNE-0009",
+      "nom_fr": "Kystes ovariens fonctionnels et organiques bénins",
+      "nom_en": "Benign ovarian cysts",
+      "synonymes": [
+        "kyste folliculaire",
+        "kyste du corps jaune"
+      ],
+      "cim10": "N83",
+      "specialite": "GYNE",
+      "sous_specialite": "Gynécologie médicale",
+      "categories": [
+        "gynécologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [
+        "RES-CHI-061"
+      ],
+      "symptomes": [
+        "souvent asymptomatique",
+        "douleurs pelviennes",
+        "troubles des règles"
+      ],
+      "signes_cliniques": [
+        "masse latéro-utérine"
+      ],
+      "examens_cles": [
+        "échographie pelvienne (caractère uniloculaire, contenu)",
+        "contrôle échographique à distance",
+        "marqueurs (CA 125) selon le contexte"
+      ],
+      "traitements_cles": [
+        "surveillance des kystes fonctionnels",
+        "kystectomie cœlioscopique si persistance ou caractère organique",
+        "prise en charge des complications"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0005",
+        "PATH-GYNE-0010",
+        "PATH-GYNE-0027"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GYNE-0010",
+      "nom_fr": "Torsion d'annexe",
+      "nom_en": "Adnexal torsion",
+      "synonymes": [
+        "torsion d'ovaire"
+      ],
+      "cim10": "N83.5",
+      "specialite": "GYNE",
+      "sous_specialite": "Gynécologie médicale",
+      "categories": [
+        "gynécologique",
+        "urgence",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-061"
+      ],
+      "symptomes": [
+        "douleur pelvienne brutale et intense",
+        "nausées, vomissements"
+      ],
+      "signes_cliniques": [
+        "défense pelvienne",
+        "masse annexielle douloureuse"
+      ],
+      "examens_cles": [
+        "β-hCG",
+        "échographie pelvienne Doppler (masse, diminution des flux)"
+      ],
+      "traitements_cles": [
+        "cœlioscopie en urgence avec détorsion et traitement conservateur de l'ovaire si possible"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0009",
+        "PATH-GYNE-0027",
+        "PATH-GYNE-0011",
+        "PATH-CGEN-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GYNE-0011",
+      "nom_fr": "Grossesse extra-utérine",
+      "nom_en": "Ectopic pregnancy",
+      "synonymes": [
+        "grossesse ectopique"
+      ],
+      "cim10": "O00",
+      "specialite": "GYNE",
+      "sous_specialite": "Gynécologie médicale",
+      "categories": [
+        "gynécologique",
+        "obstétricale",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-057"
+      ],
+      "symptomes": [
+        "retard de règles",
+        "métrorragies peu abondantes sépia",
+        "douleurs pelviennes latéralisées",
+        "malaise"
+      ],
+      "signes_cliniques": [
+        "douleur annexielle",
+        "masse latéro-utérine",
+        "signes d'hémopéritoine et de choc (forme rompue)"
+      ],
+      "examens_cles": [
+        "β-hCG plasmatique (cinétique)",
+        "échographie endovaginale (utérus vide, masse latéro-utérine, épanchement)"
+      ],
+      "traitements_cles": [
+        "méthotrexate (forme précoce non compliquée)",
+        "cœlioscopie (salpingotomie ou salpingectomie)",
+        "chirurgie en urgence si rupture",
+        "immunoglobulines anti-D si Rh négatif"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0003",
+        "PATH-GYNE-0004",
+        "PATH-GYNE-0010",
+        "PATH-OBST-0015",
+        "PATH-GYNE-0034",
+        "PATH-CGEN-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GYNE-0012",
+      "nom_fr": "Dysménorrhée primaire",
+      "nom_en": "Primary dysmenorrhoea",
+      "synonymes": [
+        "règles douloureuses"
+      ],
+      "cim10": "N94.4",
+      "specialite": "GYNE",
+      "sous_specialite": "Gynécologie médicale",
+      "categories": [
+        "gynécologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleurs pelviennes cycliques au début des règles",
+        "nausées",
+        "céphalées"
+      ],
+      "signes_cliniques": [
+        "examen gynécologique normal"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "échographie pelvienne si atypie ou résistance (endométriose)"
+      ],
+      "traitements_cles": [
+        "AINS",
+        "contraception œstroprogestative",
+        "antalgiques"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0005",
+        "PATH-GYNE-0006"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GYNE-0013",
+      "nom_fr": "Aménorrhée primaire",
+      "nom_en": "Primary amenorrhoea",
+      "synonymes": [],
+      "cim10": "N91.0",
+      "specialite": "GYNE",
+      "sous_specialite": "Gynécologie médicale",
+      "categories": [
+        "gynécologique",
+        "endocrinienne"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "absence de règles à 15 ans",
+        "douleurs pelviennes cycliques (cause obstructive)"
+      ],
+      "signes_cliniques": [
+        "développement des caractères sexuels secondaires",
+        "examen de la vulve et de l'hymen",
+        "petite taille",
+        "dysmorphie"
+      ],
+      "examens_cles": [
+        "β-hCG",
+        "FSH, LH, œstradiol, prolactine, TSH",
+        "échographie pelvienne",
+        "caryotype"
+      ],
+      "traitements_cles": [
+        "traitement étiologique (chirurgie d'une malformation obstructive, substitution hormonale, prise en charge d'un trouble du développement sexuel)"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0023",
+        "PATH-GYNE-0022",
+        "PATH-GYNE-0014"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GYNE-0014",
+      "nom_fr": "Aménorrhée secondaire",
+      "nom_en": "Secondary amenorrhoea",
+      "synonymes": [],
+      "cim10": "N91.1",
+      "specialite": "GYNE",
+      "sous_specialite": "Gynécologie médicale",
+      "categories": [
+        "gynécologique",
+        "endocrinienne"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "arrêt des règles depuis au moins 3 mois",
+        "bouffées de chaleur",
+        "galactorrhée"
+      ],
+      "signes_cliniques": [
+        "signes d'hyperandrogénie",
+        "galactorrhée",
+        "perte de poids"
+      ],
+      "examens_cles": [
+        "β-hCG (éliminer une grossesse)",
+        "FSH, LH, œstradiol, prolactine, TSH",
+        "test aux progestatifs",
+        "échographie pelvienne"
+      ],
+      "traitements_cles": [
+        "traitement étiologique (prise en charge d'une hyperprolactinémie, d'un SOPK, d'une insuffisance ovarienne, d'une aménorrhée hypothalamique)",
+        "contraception si nécessaire"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0013",
+        "PATH-GYNE-0021"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GYNE-0015",
+      "nom_fr": "Saignements utérins anormaux (ménométrorragies)",
+      "nom_en": "Abnormal uterine bleeding",
+      "synonymes": [
+        "ménorragies",
+        "métrorragies"
+      ],
+      "cim10": "N92",
+      "specialite": "GYNE",
+      "sous_specialite": "Gynécologie médicale",
+      "categories": [
+        "gynécologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "règles abondantes ou prolongées",
+        "saignements entre les règles",
+        "asthénie"
+      ],
+      "signes_cliniques": [
+        "anémie",
+        "examen au spéculum (origine cervicale)",
+        "taille de l'utérus"
+      ],
+      "examens_cles": [
+        "β-hCG",
+        "NFS, ferritine",
+        "bilan d'hémostase (maladie de Willebrand chez l'adolescente)",
+        "échographie endovaginale",
+        "hystéroscopie",
+        "biopsie de l'endomètre selon l'âge et les facteurs de risque"
+      ],
+      "traitements_cles": [
+        "traitement étiologique (classification PALM-COEIN)",
+        "traitement médical (acide tranexamique, progestatifs, DIU au lévonorgestrel)",
+        "chirurgie conservatrice ou hystérectomie",
+        "traitement martial"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0006",
+        "PATH-GYNE-0007",
+        "PATH-GYNE-0008",
+        "PATH-GYNE-0026"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GYNE-0016",
+      "nom_fr": "Syndrome climatérique de la ménopause",
+      "nom_en": "Menopausal syndrome",
+      "synonymes": [
+        "ménopause symptomatique"
+      ],
+      "cim10": "N95.1",
+      "specialite": "GYNE",
+      "sous_specialite": "Gynécologie médicale",
+      "categories": [
+        "gynécologique",
+        "endocrinienne"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "bouffées de chaleur",
+        "sueurs nocturnes",
+        "sécheresse vaginale",
+        "troubles du sommeil et de l'humeur"
+      ],
+      "signes_cliniques": [
+        "atrophie vulvo-vaginale",
+        "aménorrhée de plus de 12 mois après 45-50 ans"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "FSH élevée si doute",
+        "ostéodensitométrie selon les facteurs de risque",
+        "bilan cardiovasculaire"
+      ],
+      "traitements_cles": [
+        "règles hygiéno-diététiques",
+        "traitement hormonal de la ménopause après évaluation du rapport bénéfice/risque",
+        "traitements locaux de l'atrophie",
+        "prévention de l'ostéoporose"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0018",
+        "PATH-GYNE-0019"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GYNE-0017",
+      "nom_fr": "Syndrome prémenstruel",
+      "nom_en": "Premenstrual syndrome",
+      "synonymes": [
+        "syndrome de tension prémenstruelle"
+      ],
+      "cim10": "N94.3",
+      "specialite": "GYNE",
+      "sous_specialite": "Gynécologie médicale",
+      "categories": [
+        "gynécologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "irritabilité",
+        "troubles de l'humeur",
+        "mastodynie",
+        "ballonnement, céphalées en phase lutéale"
+      ],
+      "signes_cliniques": [
+        "examen normal",
+        "symptômes cycliques disparaissant avec les règles"
+      ],
+      "examens_cles": [
+        "diagnostic clinique (calendrier des symptômes)"
+      ],
+      "traitements_cles": [
+        "mesures hygiéno-diététiques",
+        "contraception œstroprogestative",
+        "antidépresseurs ISRS dans les formes sévères (trouble dysphorique prémenstruel)"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0031"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GYNE-0018",
+      "nom_fr": "Prolapsus génital",
+      "nom_en": "Genital prolapse",
+      "synonymes": [
+        "descente d'organes pelviens"
+      ],
+      "cim10": "N81",
+      "specialite": "GYNE",
+      "sous_specialite": "Urogynécologie",
+      "categories": [
+        "gynécologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "sensation de boule vaginale",
+        "pesanteur pelvienne",
+        "troubles urinaires ou ano-rectaux"
+      ],
+      "signes_cliniques": [
+        "extériorisation de la paroi vaginale antérieure (cystocèle), du col (hystérocèle) ou de la paroi postérieure (rectocèle) à l'effort de poussée"
+      ],
+      "examens_cles": [
+        "examen clinique avec classification (POP-Q)",
+        "bilan urodynamique selon les troubles urinaires",
+        "échographie"
+      ],
+      "traitements_cles": [
+        "rééducation périnéale",
+        "pessaire",
+        "chirurgie (promontofixation, chirurgie par voie vaginale)"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0016",
+        "PATH-GYNE-0019",
+        "PATH-OBST-0038",
+        "PATH-CDIG-0014"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GYNE-0019",
+      "nom_fr": "Incontinence urinaire d'effort de la femme",
+      "nom_en": "Female stress urinary incontinence",
+      "synonymes": [],
+      "cim10": "N39.3",
+      "specialite": "GYNE",
+      "sous_specialite": "Urogynécologie",
+      "categories": [
+        "gynécologique",
+        "urologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "fuites urinaires à la toux, à l'effort ou au rire"
+      ],
+      "signes_cliniques": [
+        "test à la toux positif",
+        "mobilité urétrale",
+        "hypotonie périnéale"
+      ],
+      "examens_cles": [
+        "calendrier mictionnel",
+        "ECBU",
+        "bilan urodynamique avant chirurgie"
+      ],
+      "traitements_cles": [
+        "rééducation périnéale",
+        "chirurgie (bandelette sous-urétrale)"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0016",
+        "PATH-GYNE-0018",
+        "PATH-UROL-0019"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GYNE-0020",
+      "nom_fr": "Fistule vésico-vaginale",
+      "nom_en": "Vesicovaginal fistula",
+      "synonymes": [
+        "fistule obstétricale"
+      ],
+      "cim10": "N82.0",
+      "specialite": "GYNE",
+      "sous_specialite": "Urogynécologie",
+      "categories": [
+        "gynécologique",
+        "urologique",
+        "obstétricale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "écoulement urinaire permanent par le vagin"
+      ],
+      "signes_cliniques": [
+        "orifice fistuleux visible au spéculum",
+        "épreuve au bleu de méthylène positive"
+      ],
+      "examens_cles": [
+        "épreuve des trois compresses au bleu",
+        "cystoscopie",
+        "uroscanner ou UIV (atteinte urétérale)"
+      ],
+      "traitements_cles": [
+        "drainage vésical prolongé (petites fistules récentes)",
+        "réparation chirurgicale par voie vaginale ou abdominale",
+        "prévention (prise en charge des dystocies)"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0033",
+        "PATH-OBST-0034",
+        "PATH-OBST-0036",
+        "PATH-UROL-0027",
+        "PATH-CDIG-0036"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GYNE-0021",
+      "nom_fr": "Synéchies utérines (syndrome d'Asherman)",
+      "nom_en": "Intrauterine adhesions (Asherman syndrome)",
+      "synonymes": [],
+      "cim10": "N85.6",
+      "specialite": "GYNE",
+      "sous_specialite": "Urogynécologie",
+      "categories": [
+        "gynécologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "hypoménorrhée ou aménorrhée secondaire",
+        "infertilité",
+        "fausses couches à répétition"
+      ],
+      "signes_cliniques": [
+        "antécédent de curetage (notamment du post-partum) ou d'endométrite"
+      ],
+      "examens_cles": [
+        "hystéroscopie diagnostique",
+        "hystérosalpingographie",
+        "échographie 3D"
+      ],
+      "traitements_cles": [
+        "cure hystéroscopique des synéchies",
+        "prévention des récidives"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0014",
+        "PATH-GYNE-0034",
+        "PATH-OBST-0016",
+        "PATH-OBST-0042"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GYNE-0022",
+      "nom_fr": "Syndrome de Mayer-Rokitansky-Küster-Hauser",
+      "nom_en": "Mayer-Rokitansky-Küster-Hauser syndrome",
+      "synonymes": [
+        "aplasie utéro-vaginale"
+      ],
+      "cim10": "Q51.0",
+      "specialite": "GYNE",
+      "sous_specialite": "Urogynécologie",
+      "categories": [
+        "congénitale",
+        "gynécologique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "aménorrhée primaire",
+        "impossibilité de rapports sexuels"
+      ],
+      "signes_cliniques": [
+        "caractères sexuels secondaires normaux",
+        "vagin borgne court"
+      ],
+      "examens_cles": [
+        "échographie et IRM pelviennes (absence d'utérus)",
+        "caryotype 46,XX",
+        "bilan rénal et rachidien (malformations associées)"
+      ],
+      "traitements_cles": [
+        "création d'un néovagin (dilatations, chirurgie)",
+        "accompagnement psychologique",
+        "options de parentalité selon la législation"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0013"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GYNE-0023",
+      "nom_fr": "Imperforation hyménéale (hématocolpos)",
+      "nom_en": "Imperforate hymen",
+      "synonymes": [
+        "hématocolpos"
+      ],
+      "cim10": "Q52.3",
+      "specialite": "GYNE",
+      "sous_specialite": "Urogynécologie",
+      "categories": [
+        "congénitale",
+        "gynécologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleurs pelviennes cycliques chez une adolescente sans règles",
+        "rétention d'urine"
+      ],
+      "signes_cliniques": [
+        "membrane hyménéale bombante bleutée",
+        "masse pelvienne"
+      ],
+      "examens_cles": [
+        "échographie pelvienne (hématocolpos)"
+      ],
+      "traitements_cles": [
+        "hyménotomie chirurgicale"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0013",
+        "PATH-UROL-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GYNE-0024",
+      "nom_fr": "Bartholinite (abcès de la glande de Bartholin)",
+      "nom_en": "Bartholin's gland abscess",
+      "synonymes": [],
+      "cim10": "N75.1",
+      "specialite": "GYNE",
+      "sous_specialite": "Urogynécologie",
+      "categories": [
+        "infectieuse",
+        "gynécologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur vulvaire intense",
+        "gêne à la marche et à la position assise"
+      ],
+      "signes_cliniques": [
+        "tuméfaction rouge, chaude, fluctuante de la partie postérieure de la grande lèvre"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "prélèvement bactériologique (IST)"
+      ],
+      "traitements_cles": [
+        "incision-drainage ou marsupialisation",
+        "antibiothérapie selon le contexte"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0003"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GYNE-0025",
+      "nom_fr": "Lésions précancéreuses du col (néoplasies intraépithéliales cervicales)",
+      "nom_en": "Cervical intraepithelial neoplasia",
+      "synonymes": [
+        "dysplasie cervicale",
+        "CIN",
+        "lésions malpighiennes intraépithéliales"
+      ],
+      "cim10": "N87",
+      "specialite": "GYNE",
+      "sous_specialite": "Oncologie gynécologique",
+      "categories": [
+        "néoplasique",
+        "gynécologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-058"
+      ],
+      "symptomes": [
+        "asymptomatique"
+      ],
+      "signes_cliniques": [
+        "col d'aspect normal à l'œil nu le plus souvent"
+      ],
+      "examens_cles": [
+        "frottis (classification de Bethesda)",
+        "test HPV",
+        "colposcopie avec biopsies dirigées"
+      ],
+      "traitements_cles": [
+        "surveillance des lésions de bas grade",
+        "conisation (exérèse à l'anse) des lésions de haut grade",
+        "vaccination HPV préventive"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0028",
+        "PATH-ANAP-0011",
+        "PATH-ANAP-0012",
+        "PATH-ANAP-0013"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GYNE-0026",
+      "nom_fr": "Hyperplasie de l'endomètre",
+      "nom_en": "Endometrial hyperplasia",
+      "synonymes": [],
+      "cim10": "N85.0",
+      "specialite": "GYNE",
+      "sous_specialite": "Oncologie gynécologique",
+      "categories": [
+        "gynécologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-059"
+      ],
+      "symptomes": [
+        "métrorragies",
+        "ménorragies"
+      ],
+      "signes_cliniques": [
+        "terrain d'hyperœstrogénie (obésité, SOPK, anovulation)"
+      ],
+      "examens_cles": [
+        "échographie endovaginale",
+        "biopsie de l'endomètre (avec ou sans atypie)"
+      ],
+      "traitements_cles": [
+        "progestatifs (sans atypie)",
+        "hystérectomie en cas d'hyperplasie atypique (risque de cancer)"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0015",
+        "PATH-ANAP-0012",
+        "PATH-ANAP-0014"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GYNE-0027",
+      "nom_fr": "Tumeurs bénignes de l'ovaire (dont kyste dermoïde)",
+      "nom_en": "Benign ovarian tumours (including dermoid cyst)",
+      "synonymes": [
+        "tératome mature",
+        "cystadénome"
+      ],
+      "cim10": "D27",
+      "specialite": "GYNE",
+      "sous_specialite": "Oncologie gynécologique",
+      "categories": [
+        "néoplasique",
+        "gynécologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-061"
+      ],
+      "symptomes": [
+        "souvent asymptomatique",
+        "pesanteur pelvienne",
+        "douleurs"
+      ],
+      "signes_cliniques": [
+        "masse latéro-utérine mobile"
+      ],
+      "examens_cles": [
+        "échographie (critères IOTA)",
+        "IRM pelvienne",
+        "marqueurs tumoraux selon le contexte"
+      ],
+      "traitements_cles": [
+        "kystectomie ou annexectomie cœlioscopique avec examen histologique"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0009",
+        "PATH-GYNE-0010"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GYNE-0028",
+      "nom_fr": "Cancer du vagin",
+      "nom_en": "Vaginal cancer",
+      "synonymes": [],
+      "cim10": "C52",
+      "specialite": "GYNE",
+      "sous_specialite": "Oncologie gynécologique",
+      "categories": [
+        "néoplasique",
+        "gynécologique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "métrorragies",
+        "leucorrhées"
+      ],
+      "signes_cliniques": [
+        "lésion vaginale bourgeonnante ou ulcérée"
+      ],
+      "examens_cles": [
+        "biopsie",
+        "IRM pelvienne",
+        "recherche d'un cancer du col associé"
+      ],
+      "traitements_cles": [
+        "radiothérapie et curiethérapie",
+        "chirurgie dans certaines formes localisées"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0025"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GYNE-0029",
+      "nom_fr": "Carcinome canalaire in situ du sein",
+      "nom_en": "Ductal carcinoma in situ of the breast",
+      "synonymes": [],
+      "cim10": "D05.1",
+      "specialite": "GYNE",
+      "sous_specialite": "Sénologie",
+      "categories": [
+        "néoplasique",
+        "gynécologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-062"
+      ],
+      "symptomes": [
+        "le plus souvent asymptomatique (découverte au dépistage)"
+      ],
+      "signes_cliniques": [
+        "examen clinique souvent normal",
+        "écoulement mamelonnaire ou maladie de Paget du mamelon possibles"
+      ],
+      "examens_cles": [
+        "mammographie (microcalcifications)",
+        "macrobiopsie stéréotaxique"
+      ],
+      "traitements_cles": [
+        "exérèse chirurgicale avec marges saines (tumorectomie ou mastectomie)",
+        "radiothérapie après traitement conservateur",
+        "hormonothérapie selon les cas"
+      ],
+      "pathologies_liees": [
+        "PATH-ANAP-0013"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GYNE-0030",
+      "nom_fr": "Fibroadénome du sein",
+      "nom_en": "Breast fibroadenoma",
+      "synonymes": [
+        "adénofibrome"
+      ],
+      "cim10": "D24",
+      "specialite": "GYNE",
+      "sous_specialite": "Sénologie",
+      "categories": [
+        "néoplasique",
+        "gynécologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [
+        "RES-CHI-062"
+      ],
+      "symptomes": [
+        "nodule du sein indolore chez la femme jeune"
+      ],
+      "signes_cliniques": [
+        "nodule ferme, mobile, bien limité"
+      ],
+      "examens_cles": [
+        "échographie mammaire",
+        "microbiopsie si critère atypique ou après 25-30 ans selon les recommandations"
+      ],
+      "traitements_cles": [
+        "surveillance",
+        "exérèse si augmentation de taille, gêne ou doute diagnostique"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0033",
+        "PATH-GYNE-0031"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GYNE-0031",
+      "nom_fr": "Mastopathie fibrokystique",
+      "nom_en": "Fibrocystic breast disease",
+      "synonymes": [
+        "dystrophie fibrokystique",
+        "mastose"
+      ],
+      "cim10": "N60.1",
+      "specialite": "GYNE",
+      "sous_specialite": "Sénologie",
+      "categories": [
+        "gynécologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "mastodynie cyclique prémenstruelle",
+        "nodosités mammaires"
+      ],
+      "signes_cliniques": [
+        "seins nodulaires, sensibles, bilatéraux",
+        "kystes palpables"
+      ],
+      "examens_cles": [
+        "échographie mammaire",
+        "mammographie selon l'âge",
+        "ponction d'un kyste"
+      ],
+      "traitements_cles": [
+        "réassurance",
+        "antalgiques",
+        "progestatifs locaux ou généraux selon le contexte",
+        "ponction évacuatrice des kystes symptomatiques"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0017",
+        "PATH-GYNE-0030"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GYNE-0032",
+      "nom_fr": "Mastite et abcès du sein non puerpéraux",
+      "nom_en": "Non-puerperal mastitis and breast abscess",
+      "synonymes": [
+        "mastite granulomateuse"
+      ],
+      "cim10": "N61",
+      "specialite": "GYNE",
+      "sous_specialite": "Sénologie",
+      "categories": [
+        "infectieuse",
+        "gynécologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur, rougeur et tuméfaction du sein",
+        "fièvre"
+      ],
+      "signes_cliniques": [
+        "placard inflammatoire",
+        "masse fluctuante (abcès)",
+        "fistule"
+      ],
+      "examens_cles": [
+        "échographie (collection)",
+        "prélèvement bactériologique",
+        "biopsie pour éliminer un cancer inflammatoire et une mastite granulomateuse"
+      ],
+      "traitements_cles": [
+        "antibiothérapie",
+        "ponction ou drainage de l'abcès",
+        "traitement spécifique de la mastite granulomateuse"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0045"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GYNE-0033",
+      "nom_fr": "Tumeur phyllode du sein",
+      "nom_en": "Phyllodes tumour of the breast",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "GYNE",
+      "sous_specialite": "Sénologie",
+      "categories": [
+        "néoplasique",
+        "gynécologique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "nodule du sein d'augmentation rapide"
+      ],
+      "signes_cliniques": [
+        "masse volumineuse, polylobée, mobile"
+      ],
+      "examens_cles": [
+        "échographie",
+        "mammographie",
+        "microbiopsie (bénigne, borderline ou maligne)"
+      ],
+      "traitements_cles": [
+        "exérèse chirurgicale avec marges saines",
+        "surveillance (récidive locale)"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0030"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GYNE-0034",
+      "nom_fr": "Infertilité féminine",
+      "nom_en": "Female infertility",
+      "synonymes": [
+        "infécondité",
+        "stérilité féminine"
+      ],
+      "cim10": "N97",
+      "specialite": "GYNE",
+      "sous_specialite": "Infertilité et AMP",
+      "categories": [
+        "gynécologique",
+        "endocrinienne"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-065"
+      ],
+      "symptomes": [
+        "absence de grossesse après 12 mois de rapports réguliers non protégés (6 mois après 35 ans)"
+      ],
+      "signes_cliniques": [
+        "troubles du cycle",
+        "signes d'hyperandrogénie",
+        "antécédents d'infection génitale ou de chirurgie pelvienne"
+      ],
+      "examens_cles": [
+        "courbe ménothermique ou dosage de progestérone",
+        "bilan hormonal (FSH, LH, œstradiol, AMH, prolactine, TSH)",
+        "échographie pelvienne (compte folliculaire)",
+        "hystérosalpingographie",
+        "bilan masculin associé (spermogramme)"
+      ],
+      "traitements_cles": [
+        "traitement étiologique",
+        "induction de l'ovulation",
+        "chirurgie tubaire ou de l'endométriose",
+        "AMP (insémination intra-utérine, FIV, ICSI)"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0003",
+        "PATH-GYNE-0004",
+        "PATH-GYNE-0005",
+        "PATH-GYNE-0007",
+        "PATH-GYNE-0011",
+        "PATH-GYNE-0021",
+        "PATH-UROL-0013",
+        "PATH-GYNE-0035"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-GYNE-0035",
+      "nom_fr": "Syndrome d'hyperstimulation ovarienne",
+      "nom_en": "Ovarian hyperstimulation syndrome",
+      "synonymes": [],
+      "cim10": "N98.1",
+      "specialite": "GYNE",
+      "sous_specialite": "Infertilité et AMP",
+      "categories": [
+        "gynécologique",
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleurs et distension abdominales",
+        "nausées",
+        "dyspnée",
+        "prise de poids rapide"
+      ],
+      "signes_cliniques": [
+        "ascite",
+        "épanchement pleural",
+        "oligurie",
+        "ovaires augmentés de volume"
+      ],
+      "examens_cles": [
+        "échographie (ovaires multikystiques, ascite)",
+        "NFS (hémoconcentration)",
+        "ionogramme, fonction rénale",
+        "bilan hépatique"
+      ],
+      "traitements_cles": [
+        "surveillance",
+        "prévention thromboembolique",
+        "remplissage et ponction d'ascite selon la gravité",
+        "prévention par adaptation des protocoles de stimulation"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0034"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0001",
+      "nom_fr": "Pré-éclampsie",
+      "nom_en": "Pre-eclampsia",
+      "synonymes": [
+        "toxémie gravidique"
+      ],
+      "cim10": "O14",
+      "specialite": "OBST",
+      "sous_specialite": "Pathologie de la grossesse",
+      "categories": [
+        "obstétricale",
+        "cardiovasculaire",
+        "rénale"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-066"
+      ],
+      "symptomes": [
+        "céphalées",
+        "troubles visuels (phosphènes)",
+        "douleur épigastrique en barre",
+        "œdèmes d'apparition rapide"
+      ],
+      "signes_cliniques": [
+        "HTA ≥ 140/90 mmHg après 20 semaines d'aménorrhée",
+        "protéinurie",
+        "réflexes ostéotendineux vifs",
+        "signes de gravité"
+      ],
+      "examens_cles": [
+        "protéinurie (rapport protéinurie/créatininurie)",
+        "NFS-plaquettes",
+        "transaminases",
+        "créatininémie",
+        "uricémie",
+        "bilan d'hémostase",
+        "échographie obstétricale et Doppler",
+        "rapport sFlt-1/PlGF selon disponibilité"
+      ],
+      "traitements_cles": [
+        "antihypertenseurs adaptés à la grossesse",
+        "sulfate de magnésium (prévention de l'éclampsie)",
+        "corticothérapie anténatale si naissance prématurée prévisible",
+        "extraction fœtale selon la gravité et le terme",
+        "prévention par aspirine à faible dose chez les femmes à risque"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0002",
+        "PATH-OBST-0003",
+        "PATH-OBST-0014",
+        "PATH-OBST-0008",
+        "PATH-OBST-0004",
+        "PATH-OBST-0007",
+        "PATH-OBST-0005",
+        "PATH-OBST-0023",
+        "PATH-OPHT-0019",
+        "PATH-SPUB-0005",
+        "PATH-SPUB-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0002",
+      "nom_fr": "Éclampsie",
+      "nom_en": "Eclampsia",
+      "synonymes": [],
+      "cim10": "O15",
+      "specialite": "OBST",
+      "sous_specialite": "Pathologie de la grossesse",
+      "categories": [
+        "obstétricale",
+        "neurologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-066"
+      ],
+      "symptomes": [
+        "céphalées",
+        "troubles visuels",
+        "crise convulsive généralisée"
+      ],
+      "signes_cliniques": [
+        "crise tonico-clonique au cours d'une pré-éclampsie (pendant la grossesse ou le post-partum)",
+        "coma post-critique"
+      ],
+      "examens_cles": [
+        "bilan de pré-éclampsie",
+        "imagerie cérébrale si atypie (syndrome d'encéphalopathie postérieure réversible)"
+      ],
+      "traitements_cles": [
+        "liberté des voies aériennes, oxygénation",
+        "sulfate de magnésium",
+        "contrôle tensionnel",
+        "extraction fœtale après stabilisation maternelle"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0001",
+        "PATH-OBST-0003",
+        "PATH-SPUB-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0003",
+      "nom_fr": "HELLP syndrome",
+      "nom_en": "HELLP syndrome",
+      "synonymes": [],
+      "cim10": "O14.2",
+      "specialite": "OBST",
+      "sous_specialite": "Pathologie de la grossesse",
+      "categories": [
+        "obstétricale",
+        "hématologique",
+        "digestive"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-066"
+      ],
+      "symptomes": [
+        "douleur épigastrique ou de l'hypocondre droit",
+        "nausées, vomissements",
+        "malaise"
+      ],
+      "signes_cliniques": [
+        "souvent associé à une pré-éclampsie",
+        "ictère rare"
+      ],
+      "examens_cles": [
+        "hémolyse (schizocytes, LDH élevées, haptoglobine effondrée)",
+        "transaminases élevées",
+        "thrombopénie",
+        "échographie hépatique (hématome sous-capsulaire)"
+      ],
+      "traitements_cles": [
+        "extraction fœtale selon le terme et la gravité",
+        "traitement de la pré-éclampsie associée",
+        "transfusion de plaquettes si nécessaire",
+        "surveillance en milieu spécialisé"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0001",
+        "PATH-OBST-0002",
+        "PATH-OBST-0020",
+        "PATH-OBST-0019"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0004",
+      "nom_fr": "Hypertension artérielle gravidique",
+      "nom_en": "Gestational hypertension",
+      "synonymes": [],
+      "cim10": "O13",
+      "specialite": "OBST",
+      "sous_specialite": "Pathologie de la grossesse",
+      "categories": [
+        "obstétricale",
+        "cardiovasculaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [
+        "RES-CHI-066"
+      ],
+      "symptomes": [
+        "souvent asymptomatique"
+      ],
+      "signes_cliniques": [
+        "HTA apparue après 20 semaines d'aménorrhée sans protéinurie significative"
+      ],
+      "examens_cles": [
+        "mesure tensionnelle répétée (automesure)",
+        "protéinurie",
+        "bilan biologique de pré-éclampsie",
+        "surveillance de la croissance fœtale"
+      ],
+      "traitements_cles": [
+        "antihypertenseurs selon les chiffres tensionnels",
+        "surveillance du risque d'évolution vers la pré-éclampsie"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0001",
+        "PATH-OBST-0005"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0005",
+      "nom_fr": "HTA chronique et grossesse",
+      "nom_en": "Pre-existing hypertension complicating pregnancy",
+      "synonymes": [
+        "HTA préexistante"
+      ],
+      "cim10": "O10",
+      "specialite": "OBST",
+      "sous_specialite": "Pathologie de la grossesse",
+      "categories": [
+        "obstétricale",
+        "cardiovasculaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-066"
+      ],
+      "symptomes": [
+        "souvent asymptomatique"
+      ],
+      "signes_cliniques": [
+        "HTA connue ou découverte avant 20 semaines d'aménorrhée"
+      ],
+      "examens_cles": [
+        "bilan de retentissement (rein, cœur)",
+        "recherche d'une HTA secondaire",
+        "surveillance de la croissance fœtale"
+      ],
+      "traitements_cles": [
+        "adaptation du traitement antihypertenseur avant ou en début de grossesse (arrêt des IEC, ARA2)",
+        "aspirine à faible dose préventive",
+        "surveillance de la pré-éclampsie surajoutée"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0004",
+        "PATH-OBST-0001",
+        "PATH-OBST-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0006",
+      "nom_fr": "Vomissements gravidiques graves (hyperémèse gravidique)",
+      "nom_en": "Hyperemesis gravidarum",
+      "synonymes": [],
+      "cim10": "O21",
+      "specialite": "OBST",
+      "sous_specialite": "Pathologie de la grossesse",
+      "categories": [
+        "obstétricale",
+        "digestive"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "nausées et vomissements incoercibles au premier trimestre",
+        "intolérance alimentaire"
+      ],
+      "signes_cliniques": [
+        "perte de poids supérieure à 5 %",
+        "déshydratation",
+        "tachycardie"
+      ],
+      "examens_cles": [
+        "ionogramme (hypokaliémie, alcalose)",
+        "cétonurie",
+        "bilan hépatique",
+        "TSH",
+        "échographie (grossesse multiple, môle)"
+      ],
+      "traitements_cles": [
+        "réhydratation intraveineuse",
+        "antiémétiques",
+        "vitamine B1 (prévention de l'encéphalopathie de Gayet-Wernicke)",
+        "soutien psychologique"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0023"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0007",
+      "nom_fr": "Mort fœtale in utero",
+      "nom_en": "Intrauterine fetal death",
+      "synonymes": [],
+      "cim10": "O36.4",
+      "specialite": "OBST",
+      "sous_specialite": "Pathologie de la grossesse",
+      "categories": [
+        "obstétricale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "disparition des mouvements actifs fœtaux"
+      ],
+      "signes_cliniques": [
+        "absence de bruits du cœur fœtal",
+        "hauteur utérine inférieure au terme"
+      ],
+      "examens_cles": [
+        "échographie (absence d'activité cardiaque)",
+        "bilan étiologique (infectieux, test de Kleihauer, bilan de thrombophilie et auto-immun, examen fœtopathologique et placentaire)",
+        "bilan d'hémostase (CIVD)"
+      ],
+      "traitements_cles": [
+        "déclenchement de l'accouchement après préparation",
+        "prévention de l'allo-immunisation anti-D",
+        "accompagnement psychologique du deuil",
+        "bilan préconceptionnel pour la grossesse suivante"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0001",
+        "PATH-OBST-0014",
+        "PATH-OBST-0008",
+        "PATH-OBST-0017",
+        "PATH-OBST-0022"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0008",
+      "nom_fr": "Retard de croissance intra-utérin",
+      "nom_en": "Fetal growth restriction",
+      "synonymes": [],
+      "cim10": "O36.5",
+      "specialite": "OBST",
+      "sous_specialite": "Pathologie de la grossesse",
+      "categories": [
+        "obstétricale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "le plus souvent asymptomatique"
+      ],
+      "signes_cliniques": [
+        "hauteur utérine insuffisante pour le terme"
+      ],
+      "examens_cles": [
+        "biométries fœtales (estimation du poids < 10e percentile)",
+        "Doppler ombilical, cérébral et des artères utérines",
+        "quantité de liquide amniotique",
+        "enregistrement du rythme cardiaque fœtal"
+      ],
+      "traitements_cles": [
+        "surveillance rapprochée",
+        "corticothérapie anténatale et sulfate de magnésium si naissance prématurée prévisible",
+        "décision du moment de l'extraction",
+        "prévention par aspirine chez les femmes à risque"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0023",
+        "PATH-OBST-0001",
+        "PATH-OBST-0005",
+        "PATH-OBST-0007",
+        "PATH-OBST-0027"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0009",
+      "nom_fr": "Macrosomie fœtale",
+      "nom_en": "Fetal macrosomia",
+      "synonymes": [
+        "gros fœtus"
+      ],
+      "cim10": "O36.6",
+      "specialite": "OBST",
+      "sous_specialite": "Pathologie de la grossesse",
+      "categories": [
+        "obstétricale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-067"
+      ],
+      "symptomes": [
+        "hauteur utérine excessive"
+      ],
+      "signes_cliniques": [
+        "hauteur utérine supérieure au 90e percentile",
+        "terrain de diabète ou d'obésité maternelle"
+      ],
+      "examens_cles": [
+        "échographie (estimation du poids fœtal > 4 000 g ou > 90e percentile)",
+        "dépistage du diabète gestationnel"
+      ],
+      "traitements_cles": [
+        "équilibre glycémique",
+        "discussion de la voie d'accouchement (césarienne si estimation très élevée)",
+        "préparation à la dystocie des épaules"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0014",
+        "PATH-NEON-0019",
+        "PATH-OBST-0031",
+        "PATH-OBST-0041",
+        "PATH-OBST-0025"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0010",
+      "nom_fr": "Menace d'accouchement prématuré",
+      "nom_en": "Threatened preterm labour",
+      "synonymes": [],
+      "cim10": "O60",
+      "specialite": "OBST",
+      "sous_specialite": "Pathologie de la grossesse",
+      "categories": [
+        "obstétricale"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "contractions utérines régulières et douloureuses avant 37 semaines d'aménorrhée",
+        "pertes vaginales"
+      ],
+      "signes_cliniques": [
+        "modifications cervicales au toucher vaginal"
+      ],
+      "examens_cles": [
+        "échographie endovaginale (longueur du col)",
+        "prélèvement vaginal",
+        "ECBU",
+        "enregistrement cardiotocographique",
+        "fibronectine fœtale selon disponibilité"
+      ],
+      "traitements_cles": [
+        "tocolyse (inhibiteurs calciques, antagonistes de l'ocytocine)",
+        "corticothérapie anténatale",
+        "sulfate de magnésium (neuroprotection) avant 32 semaines",
+        "transfert in utero en maternité adaptée",
+        "traitement d'une infection"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0022",
+        "PATH-GYNE-0001",
+        "PATH-OBST-0011",
+        "PATH-OBST-0012",
+        "PATH-OBST-0018",
+        "PATH-OBST-0023",
+        "PATH-OBST-0013"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0011",
+      "nom_fr": "Rupture prématurée des membranes",
+      "nom_en": "Premature rupture of membranes",
+      "synonymes": [
+        "rupture prématurée avant travail"
+      ],
+      "cim10": "O42",
+      "specialite": "OBST",
+      "sous_specialite": "Pathologie de la grossesse",
+      "categories": [
+        "obstétricale"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "écoulement de liquide clair par le vagin"
+      ],
+      "signes_cliniques": [
+        "liquide amniotique visible au spéculum",
+        "absence de travail"
+      ],
+      "examens_cles": [
+        "test diagnostique (IGFBP-1 ou PAMG-1)",
+        "prélèvement vaginal",
+        "NFS, CRP",
+        "enregistrement du rythme cardiaque fœtal",
+        "échographie"
+      ],
+      "traitements_cles": [
+        "antibiothérapie",
+        "corticothérapie anténatale avant 34 semaines",
+        "déclenchement selon le terme",
+        "surveillance infectieuse"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0022",
+        "PATH-NEON-0027",
+        "PATH-OBST-0010",
+        "PATH-OBST-0012",
+        "PATH-OBST-0035",
+        "PATH-OBST-0027"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0012",
+      "nom_fr": "Chorioamniotite",
+      "nom_en": "Chorioamnionitis",
+      "synonymes": [
+        "infection intra-amniotique"
+      ],
+      "cim10": "O41.1",
+      "specialite": "OBST",
+      "sous_specialite": "Pathologie de la grossesse",
+      "categories": [
+        "obstétricale",
+        "infectieuse"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "fièvre maternelle",
+        "douleurs utérines",
+        "liquide amniotique malodorant"
+      ],
+      "signes_cliniques": [
+        "tachycardie maternelle et fœtale",
+        "utérus sensible"
+      ],
+      "examens_cles": [
+        "NFS, CRP",
+        "hémocultures",
+        "prélèvement vaginal",
+        "analyse du placenta"
+      ],
+      "traitements_cles": [
+        "antibiothérapie maternelle",
+        "extraction fœtale",
+        "prise en charge néonatale (risque d'infection néonatale)"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0027",
+        "PATH-OBST-0010",
+        "PATH-OBST-0011",
+        "PATH-OBST-0043"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0013",
+      "nom_fr": "Placenta praevia",
+      "nom_en": "Placenta praevia",
+      "synonymes": [
+        "placenta bas inséré"
+      ],
+      "cim10": "O44",
+      "specialite": "OBST",
+      "sous_specialite": "Pathologie de la grossesse",
+      "categories": [
+        "obstétricale",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-064"
+      ],
+      "symptomes": [
+        "métrorragies de sang rouge, indolores, récidivantes au troisième trimestre"
+      ],
+      "signes_cliniques": [
+        "utérus souple",
+        "présentation haute ou anormale",
+        "toucher vaginal proscrit"
+      ],
+      "examens_cles": [
+        "échographie (endovaginale) de localisation placentaire",
+        "recherche d'un placenta accreta (échographie, IRM)"
+      ],
+      "traitements_cles": [
+        "hospitalisation et repos si saignement",
+        "corticothérapie anténatale",
+        "césarienne programmée si recouvrant",
+        "césarienne en urgence si hémorragie grave"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0014",
+        "PATH-OBST-0041",
+        "PATH-OBST-0010",
+        "PATH-OBST-0021",
+        "PATH-SPUB-0005"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0014",
+      "nom_fr": "Hématome rétroplacentaire",
+      "nom_en": "Placental abruption",
+      "synonymes": [
+        "décollement prématuré du placenta normalement inséré"
+      ],
+      "cim10": "O45",
+      "specialite": "OBST",
+      "sous_specialite": "Pathologie de la grossesse",
+      "categories": [
+        "obstétricale",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-063"
+      ],
+      "symptomes": [
+        "douleur abdominale brutale en coup de poignard",
+        "métrorragies noirâtres peu abondantes"
+      ],
+      "signes_cliniques": [
+        "utérus de bois (contracture permanente)",
+        "hauteur utérine augmentée",
+        "signes de choc",
+        "HTA fréquente"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "enregistrement du rythme cardiaque fœtal (anomalies, MFIU)",
+        "NFS, bilan d'hémostase (CIVD)",
+        "échographie non indispensable au diagnostic"
+      ],
+      "traitements_cles": [
+        "extraction fœtale en urgence (césarienne si fœtus vivant)",
+        "réanimation maternelle",
+        "correction des troubles de l'hémostase",
+        "prévention par la prise en charge de la pré-éclampsie"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0001",
+        "PATH-OBST-0007",
+        "PATH-OBST-0013",
+        "PATH-OBST-0041",
+        "PATH-OBST-0037"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0015",
+      "nom_fr": "Fausse couche spontanée",
+      "nom_en": "Spontaneous abortion (miscarriage)",
+      "synonymes": [
+        "avortement spontané"
+      ],
+      "cim10": "O03",
+      "specialite": "OBST",
+      "sous_specialite": "Pathologie de la grossesse",
+      "categories": [
+        "obstétricale"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "métrorragies du premier trimestre",
+        "douleurs pelviennes",
+        "expulsion de débris"
+      ],
+      "signes_cliniques": [
+        "col ouvert ou fermé",
+        "volume utérin"
+      ],
+      "examens_cles": [
+        "β-hCG",
+        "échographie endovaginale (sac sans embryon, absence d'activité cardiaque, rétention)"
+      ],
+      "traitements_cles": [
+        "expectative",
+        "traitement médical (misoprostol)",
+        "aspiration chirurgicale",
+        "prévention de l'allo-immunisation anti-D"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0011",
+        "PATH-OBST-0016"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0016",
+      "nom_fr": "Fausses couches spontanées à répétition",
+      "nom_en": "Recurrent pregnancy loss",
+      "synonymes": [],
+      "cim10": "N96",
+      "specialite": "OBST",
+      "sous_specialite": "Pathologie de la grossesse",
+      "categories": [
+        "obstétricale",
+        "gynécologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "au moins trois fausses couches spontanées précoces consécutives"
+      ],
+      "signes_cliniques": [
+        "recherche d'antécédents personnels et familiaux"
+      ],
+      "examens_cles": [
+        "caryotype du couple",
+        "bilan des anticorps antiphospholipides",
+        "échographie 3D ou hystéroscopie (malformation utérine, synéchies)",
+        "TSH",
+        "glycémie"
+      ],
+      "traitements_cles": [
+        "traitement étiologique (aspirine et héparine si syndrome des antiphospholipides, chirurgie d'une cloison utérine)",
+        "soutien psychologique"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0021",
+        "PATH-OBST-0015"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0017",
+      "nom_fr": "Allo-immunisation fœto-maternelle anti-RhD",
+      "nom_en": "Rhesus isoimmunization in pregnancy",
+      "synonymes": [],
+      "cim10": "O36.0",
+      "specialite": "OBST",
+      "sous_specialite": "Pathologie de la grossesse",
+      "categories": [
+        "obstétricale",
+        "hématologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "asymptomatique chez la mère"
+      ],
+      "signes_cliniques": [
+        "anémie fœtale suspectée (hydramnios, anasarque)"
+      ],
+      "examens_cles": [
+        "groupage et recherche d'agglutinines irrégulières (RAI) avec titrage",
+        "génotypage RHD fœtal sur sang maternel",
+        "Doppler de l'artère cérébrale moyenne fœtale"
+      ],
+      "traitements_cles": [
+        "prévention par immunoglobulines anti-D (systématique au troisième trimestre et après tout événement à risque)",
+        "transfusion in utero",
+        "extraction et prise en charge néonatale"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0036",
+        "PATH-OBST-0007",
+        "PATH-OBST-0030",
+        "PATH-OBST-0026"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0018",
+      "nom_fr": "Pyélonéphrite aiguë gravidique",
+      "nom_en": "Acute pyelonephritis in pregnancy",
+      "synonymes": [],
+      "cim10": "O23.0",
+      "specialite": "OBST",
+      "sous_specialite": "Pathologie de la grossesse",
+      "categories": [
+        "obstétricale",
+        "infectieuse",
+        "rénale"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "fièvre élevée",
+        "frissons",
+        "douleurs lombaires",
+        "brûlures mictionnelles"
+      ],
+      "signes_cliniques": [
+        "douleur lombaire à l'ébranlement",
+        "contractions utérines"
+      ],
+      "examens_cles": [
+        "ECBU",
+        "hémocultures",
+        "NFS, CRP, créatininémie",
+        "échographie rénale",
+        "surveillance fœtale"
+      ],
+      "traitements_cles": [
+        "antibiothérapie parentérale adaptée à la grossesse puis relais oral",
+        "surveillance de la menace d'accouchement prématuré",
+        "dépistage mensuel de la bactériurie"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0010",
+        "PATH-UROL-0002"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0019",
+      "nom_fr": "Cholestase intrahépatique gravidique",
+      "nom_en": "Intrahepatic cholestasis of pregnancy",
+      "synonymes": [],
+      "cim10": "O26.6",
+      "specialite": "OBST",
+      "sous_specialite": "Pathologie de la grossesse",
+      "categories": [
+        "obstétricale",
+        "digestive"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "prurit palmo-plantaire puis généralisé à prédominance nocturne au troisième trimestre"
+      ],
+      "signes_cliniques": [
+        "lésions de grattage",
+        "ictère rare"
+      ],
+      "examens_cles": [
+        "acides biliaires sériques élevés",
+        "transaminases",
+        "élimination des autres hépatopathies"
+      ],
+      "traitements_cles": [
+        "acide ursodésoxycholique",
+        "surveillance fœtale",
+        "discussion d'un déclenchement selon le taux d'acides biliaires"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0020",
+        "PATH-OBST-0003"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0020",
+      "nom_fr": "Stéatose hépatique aiguë gravidique",
+      "nom_en": "Acute fatty liver of pregnancy",
+      "synonymes": [],
+      "cim10": "O26.6",
+      "specialite": "OBST",
+      "sous_specialite": "Pathologie de la grossesse",
+      "categories": [
+        "obstétricale",
+        "digestive",
+        "urgence"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "nausées, vomissements",
+        "douleurs abdominales",
+        "syndrome polyuro-polydipsique",
+        "ictère au troisième trimestre"
+      ],
+      "signes_cliniques": [
+        "encéphalopathie",
+        "signes d'insuffisance hépatique"
+      ],
+      "examens_cles": [
+        "transaminases",
+        "bilirubine",
+        "hypoglycémie",
+        "TP effondré",
+        "insuffisance rénale",
+        "imagerie hépatique"
+      ],
+      "traitements_cles": [
+        "extraction fœtale rapide",
+        "réanimation maternelle",
+        "prise en charge des défaillances (hémostase, hypoglycémie)"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0003",
+        "PATH-OBST-0019",
+        "PATH-OBST-0041"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0021",
+      "nom_fr": "Anémie de la grossesse",
+      "nom_en": "Anaemia in pregnancy",
+      "synonymes": [
+        "anémie ferriprive gravidique"
+      ],
+      "cim10": "O99.0",
+      "specialite": "OBST",
+      "sous_specialite": "Pathologie de la grossesse",
+      "categories": [
+        "obstétricale",
+        "hématologique",
+        "nutritionnelle"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "asthénie",
+        "dyspnée d'effort",
+        "palpitations"
+      ],
+      "signes_cliniques": [
+        "pâleur cutanéo-muqueuse",
+        "tachycardie"
+      ],
+      "examens_cles": [
+        "NFS (hémoglobine selon le trimestre)",
+        "ferritine",
+        "recherche d'autres carences (folates, B12) et d'une hémoglobinopathie"
+      ],
+      "traitements_cles": [
+        "supplémentation en fer et acide folique",
+        "traitement martial intraveineux selon la sévérité et le terme",
+        "prévention de l'hémorragie du post-partum"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0013",
+        "PATH-OBST-0041"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0022",
+      "nom_fr": "Toxoplasmose et grossesse",
+      "nom_en": "Toxoplasmosis in pregnancy",
+      "synonymes": [
+        "séroconversion toxoplasmique"
+      ],
+      "cim10": "O98.6",
+      "specialite": "OBST",
+      "sous_specialite": "Pathologie de la grossesse",
+      "categories": [
+        "obstétricale",
+        "infectieuse",
+        "parasitaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "le plus souvent asymptomatique",
+        "parfois fièvre et adénopathies"
+      ],
+      "signes_cliniques": [
+        "examen maternel généralement normal"
+      ],
+      "examens_cles": [
+        "sérologie toxoplasmique en début de grossesse et surveillance mensuelle si non immunisée",
+        "test d'avidité des IgG",
+        "amniocentèse (PCR) après séroconversion",
+        "échographies fœtales"
+      ],
+      "traitements_cles": [
+        "spiramycine après séroconversion",
+        "association pyriméthamine-sulfadiazine si infection fœtale prouvée",
+        "règles hygiéno-diététiques de prévention"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0007",
+        "PATH-OPHT-0025"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0023",
+      "nom_fr": "Grossesse gémellaire",
+      "nom_en": "Twin pregnancy",
+      "synonymes": [
+        "grossesse multiple"
+      ],
+      "cim10": "O30",
+      "specialite": "OBST",
+      "sous_specialite": "Pathologie de la grossesse",
+      "categories": [
+        "obstétricale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "signes sympathiques de grossesse plus marqués"
+      ],
+      "signes_cliniques": [
+        "utérus plus volumineux que le terme"
+      ],
+      "examens_cles": [
+        "échographie du premier trimestre (chorionicité, amnionicité)",
+        "surveillance échographique rapprochée selon la chorionicité"
+      ],
+      "traitements_cles": [
+        "suivi renforcé (prématurité, pré-éclampsie, RCIU)",
+        "prise en charge des complications spécifiques des grossesses monochoriales",
+        "accouchement en maternité adaptée"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0006",
+        "PATH-OBST-0010",
+        "PATH-OBST-0024",
+        "PATH-OBST-0001",
+        "PATH-OBST-0041",
+        "PATH-SPUB-0005"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0024",
+      "nom_fr": "Syndrome transfuseur-transfusé",
+      "nom_en": "Twin-to-twin transfusion syndrome",
+      "synonymes": [],
+      "cim10": "O43.0",
+      "specialite": "OBST",
+      "sous_specialite": "Pathologie de la grossesse",
+      "categories": [
+        "obstétricale"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "augmentation rapide du volume utérin",
+        "contractions"
+      ],
+      "signes_cliniques": [
+        "grossesse gémellaire monochoriale biamniotique"
+      ],
+      "examens_cles": [
+        "échographie (polyhydramnios chez le receveur, oligoamnios chez le donneur, stades de Quintero)",
+        "Doppler fœtal"
+      ],
+      "traitements_cles": [
+        "coagulation laser fœtoscopique des anastomoses placentaires",
+        "amniodrainage",
+        "surveillance et extraction selon le terme"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0023",
+        "PATH-OBST-0026",
+        "PATH-OBST-0027"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0025",
+      "nom_fr": "Grossesse prolongée et terme dépassé",
+      "nom_en": "Prolonged pregnancy",
+      "synonymes": [],
+      "cim10": "O48",
+      "specialite": "OBST",
+      "sous_specialite": "Pathologie de la grossesse",
+      "categories": [
+        "obstétricale"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "absence de travail au-delà de 41 semaines d'aménorrhée"
+      ],
+      "signes_cliniques": [
+        "datation précise de la grossesse (échographie du premier trimestre)"
+      ],
+      "examens_cles": [
+        "surveillance fœtale (rythme cardiaque fœtal, quantité de liquide amniotique)"
+      ],
+      "traitements_cles": [
+        "surveillance rapprochée à partir de 41 semaines",
+        "déclenchement du travail selon les recommandations"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0003",
+        "PATH-OBST-0027",
+        "PATH-OBST-0009"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0026",
+      "nom_fr": "Hydramnios",
+      "nom_en": "Polyhydramnios",
+      "synonymes": [
+        "excès de liquide amniotique"
+      ],
+      "cim10": "O40",
+      "specialite": "OBST",
+      "sous_specialite": "Pathologie de la grossesse",
+      "categories": [
+        "obstétricale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "augmentation rapide du volume abdominal",
+        "dyspnée",
+        "contractions"
+      ],
+      "signes_cliniques": [
+        "hauteur utérine excessive",
+        "difficulté de palpation fœtale"
+      ],
+      "examens_cles": [
+        "échographie (grande citerne ou index amniotique élevé)",
+        "recherche de diabète, d'anomalie fœtale (atrésie digestive), d'anémie fœtale, d'infection"
+      ],
+      "traitements_cles": [
+        "traitement étiologique",
+        "amniodrainage si mal toléré",
+        "surveillance de la menace d'accouchement prématuré"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0001",
+        "PATH-CPED-0003",
+        "PATH-OBST-0024",
+        "PATH-OBST-0017",
+        "PATH-OBST-0030"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0027",
+      "nom_fr": "Oligoamnios",
+      "nom_en": "Oligohydramnios",
+      "synonymes": [],
+      "cim10": "O41.0",
+      "specialite": "OBST",
+      "sous_specialite": "Pathologie de la grossesse",
+      "categories": [
+        "obstétricale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "diminution des mouvements fœtaux ou absence de symptôme"
+      ],
+      "signes_cliniques": [
+        "hauteur utérine insuffisante"
+      ],
+      "examens_cles": [
+        "échographie (index amniotique ou plus grande citerne diminués)",
+        "recherche d'une rupture des membranes, d'un RCIU ou d'une uropathie fœtale"
+      ],
+      "traitements_cles": [
+        "traitement étiologique",
+        "surveillance fœtale",
+        "extraction selon le terme et le contexte"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0021",
+        "PATH-OBST-0008",
+        "PATH-OBST-0024",
+        "PATH-OBST-0025",
+        "PATH-OBST-0011"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0028",
+      "nom_fr": "Cardiopathie et grossesse",
+      "nom_en": "Heart disease complicating pregnancy",
+      "synonymes": [
+        "valvulopathie et grossesse"
+      ],
+      "cim10": "O99.4",
+      "specialite": "OBST",
+      "sous_specialite": "Pathologie de la grossesse",
+      "categories": [
+        "obstétricale",
+        "cardiovasculaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "dyspnée d'effort",
+        "palpitations",
+        "orthopnée"
+      ],
+      "signes_cliniques": [
+        "souffle cardiaque",
+        "signes d'insuffisance cardiaque",
+        "troubles du rythme"
+      ],
+      "examens_cles": [
+        "échocardiographie",
+        "ECG",
+        "NT-proBNP",
+        "classification du risque maternel (OMS modifiée)"
+      ],
+      "traitements_cles": [
+        "évaluation préconceptionnelle",
+        "surveillance pluridisciplinaire (cardiologue, obstétricien, anesthésiste)",
+        "adaptation des traitements (anticoagulants, bêtabloquants)",
+        "planification de l'accouchement"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0029",
+        "PATH-OBST-0041",
+        "PATH-SPUB-0005"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0029",
+      "nom_fr": "Thrombose veineuse de la grossesse et du post-partum",
+      "nom_en": "Venous thrombosis in pregnancy and puerperium",
+      "synonymes": [
+        "maladie thromboembolique veineuse gravidique"
+      ],
+      "cim10": "O22.3",
+      "specialite": "OBST",
+      "sous_specialite": "Pathologie de la grossesse",
+      "categories": [
+        "obstétricale",
+        "cardiovasculaire",
+        "hématologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur et œdème unilatéral d'un membre inférieur",
+        "dyspnée (embolie pulmonaire)"
+      ],
+      "signes_cliniques": [
+        "grosse jambe douloureuse",
+        "signes d'embolie pulmonaire"
+      ],
+      "examens_cles": [
+        "échographie-Doppler veineuse",
+        "angioscanner ou scintigraphie pulmonaire selon la situation",
+        "D-dimères peu contributifs"
+      ],
+      "traitements_cles": [
+        "héparine de bas poids moléculaire",
+        "contention",
+        "prévention selon les facteurs de risque (notamment après césarienne)"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0028",
+        "PATH-OBST-0041",
+        "PATH-OBST-0044"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0030",
+      "nom_fr": "Anasarque fœtoplacentaire",
+      "nom_en": "Hydrops fetalis",
+      "synonymes": [
+        "hydrops fœtal"
+      ],
+      "cim10": "O36.2",
+      "specialite": "OBST",
+      "sous_specialite": "Pathologie de la grossesse",
+      "categories": [
+        "obstétricale",
+        "congénitale"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "diminution des mouvements fœtaux",
+        "hydramnios"
+      ],
+      "signes_cliniques": [
+        "hauteur utérine excessive"
+      ],
+      "examens_cles": [
+        "échographie (épanchements séreux fœtaux, œdème cutané)",
+        "recherche d'une cause immune (RAI) et non immune (parvovirus B19, anomalies cardiaques ou chromosomiques, hémoglobinopathies)",
+        "Doppler de l'artère cérébrale moyenne"
+      ],
+      "traitements_cles": [
+        "traitement étiologique (transfusion in utero en cas d'anémie fœtale)",
+        "surveillance",
+        "discussion pluridisciplinaire en centre de médecine fœtale"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0010",
+        "PATH-NEON-0036",
+        "PATH-OBST-0017",
+        "PATH-OBST-0026"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0031",
+      "nom_fr": "Dystocie des épaules",
+      "nom_en": "Shoulder dystocia",
+      "synonymes": [],
+      "cim10": "O66.0",
+      "specialite": "OBST",
+      "sous_specialite": "Accouchement",
+      "categories": [
+        "obstétricale",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "arrêt de la progression après la sortie de la tête fœtale"
+      ],
+      "signes_cliniques": [
+        "tête « collée » à la vulve (signe de la tortue)",
+        "échec de la traction douce"
+      ],
+      "examens_cles": [
+        "diagnostic clinique per-partum"
+      ],
+      "traitements_cles": [
+        "manœuvres obstétricales codifiées (McRoberts, pression sus-pubienne, manœuvres de Wood, de Jacquemier)",
+        "appel de l'équipe",
+        "examen du nouveau-né"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0014",
+        "PATH-NEON-0019",
+        "PATH-NEON-0021",
+        "PATH-OBST-0009",
+        "PATH-OBST-0041"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0032",
+      "nom_fr": "Présentation du siège",
+      "nom_en": "Breech presentation",
+      "synonymes": [],
+      "cim10": "O32.1",
+      "specialite": "OBST",
+      "sous_specialite": "Accouchement",
+      "categories": [
+        "obstétricale"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "perception du pôle céphalique dans le fond utérin"
+      ],
+      "signes_cliniques": [
+        "pôle céphalique au fond utérin",
+        "bruits du cœur fœtal sus-ombilicaux"
+      ],
+      "examens_cles": [
+        "échographie (type de siège, attitude de la tête, estimation du poids)",
+        "radiopelvimétrie ou pelvi-scanner selon les pratiques"
+      ],
+      "traitements_cles": [
+        "version par manœuvre externe",
+        "accouchement par voie basse sous conditions",
+        "césarienne selon les critères"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0035",
+        "PATH-OBST-0034",
+        "PATH-ORTH-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0033",
+      "nom_fr": "Dystocie dynamique (anomalies de la contraction utérine)",
+      "nom_en": "Abnormal forces of labour",
+      "synonymes": [
+        "stagnation de la dilatation"
+      ],
+      "cim10": "O62",
+      "specialite": "OBST",
+      "sous_specialite": "Accouchement",
+      "categories": [
+        "obstétricale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "stagnation ou ralentissement du travail",
+        "contractions douloureuses inefficaces ou excessives"
+      ],
+      "signes_cliniques": [
+        "dilatation cervicale stagnante",
+        "hypocinésie ou hypercinésie utérine"
+      ],
+      "examens_cles": [
+        "partogramme",
+        "tocographie",
+        "enregistrement du rythme cardiaque fœtal"
+      ],
+      "traitements_cles": [
+        "rupture artificielle des membranes et ocytocine si hypocinésie",
+        "analgésie",
+        "césarienne si échec ou anomalies du rythme cardiaque fœtal"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0020",
+        "PATH-OBST-0034",
+        "PATH-OBST-0037",
+        "PATH-OBST-0036",
+        "PATH-OBST-0041"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0034",
+      "nom_fr": "Disproportion fœto-pelvienne",
+      "nom_en": "Cephalopelvic disproportion",
+      "synonymes": [
+        "bassin rétréci"
+      ],
+      "cim10": "O33",
+      "specialite": "OBST",
+      "sous_specialite": "Accouchement",
+      "categories": [
+        "obstétricale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "stagnation du travail",
+        "absence d'engagement"
+      ],
+      "signes_cliniques": [
+        "tête fœtale non engagée",
+        "bassin cliniquement rétréci"
+      ],
+      "examens_cles": [
+        "pelvimétrie (pelvi-scanner)",
+        "estimation échographique du poids fœtal"
+      ],
+      "traitements_cles": [
+        "épreuve du travail encadrée",
+        "césarienne en cas d'échec ou de disproportion majeure"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0020",
+        "PATH-OBST-0032",
+        "PATH-OBST-0033",
+        "PATH-OBST-0036"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0035",
+      "nom_fr": "Procidence du cordon",
+      "nom_en": "Umbilical cord prolapse",
+      "synonymes": [],
+      "cim10": "O69.0",
+      "specialite": "OBST",
+      "sous_specialite": "Accouchement",
+      "categories": [
+        "obstétricale",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "survenue souvent après la rupture des membranes"
+      ],
+      "signes_cliniques": [
+        "cordon palpé au toucher vaginal ou visible à la vulve",
+        "bradycardie fœtale"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "enregistrement du rythme cardiaque fœtal"
+      ],
+      "traitements_cles": [
+        "refoulement de la présentation, position genu-pectorale",
+        "césarienne en extrême urgence (ou extraction voie basse si dilatation complète)"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0011",
+        "PATH-OBST-0032",
+        "PATH-OBST-0037"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0036",
+      "nom_fr": "Rupture utérine",
+      "nom_en": "Uterine rupture",
+      "synonymes": [],
+      "cim10": "O71.1",
+      "specialite": "OBST",
+      "sous_specialite": "Accouchement",
+      "categories": [
+        "obstétricale",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur brutale",
+        "arrêt des contractions",
+        "malaise"
+      ],
+      "signes_cliniques": [
+        "anomalies sévères du rythme cardiaque fœtal",
+        "remontée de la présentation",
+        "état de choc",
+        "terrain d'utérus cicatriciel"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "échographie en cas de doute"
+      ],
+      "traitements_cles": [
+        "laparotomie en urgence (extraction fœtale, suture ou hystérectomie d'hémostase)",
+        "réanimation et transfusion"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0020",
+        "PATH-OBST-0033",
+        "PATH-OBST-0034",
+        "PATH-OBST-0041"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0037",
+      "nom_fr": "Anomalies du rythme cardiaque fœtal per-partum (asphyxie fœtale)",
+      "nom_en": "Intrapartum fetal distress",
+      "synonymes": [
+        "souffrance fœtale aiguë"
+      ],
+      "cim10": "O68",
+      "specialite": "OBST",
+      "sous_specialite": "Accouchement",
+      "categories": [
+        "obstétricale",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "liquide amniotique méconial",
+        "diminution des mouvements actifs"
+      ],
+      "signes_cliniques": [
+        "anomalies du rythme cardiaque fœtal (bradycardie, décélérations, perte de variabilité)"
+      ],
+      "examens_cles": [
+        "cardiotocographie (classification des anomalies)",
+        "pH ou lactates au scalp fœtal",
+        "ECG fœtal (analyse du segment ST) selon les pratiques"
+      ],
+      "traitements_cles": [
+        "mesures correctrices (décubitus latéral, arrêt de l'ocytocine, traitement de l'hypotension)",
+        "extraction fœtale rapide selon la gravité"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0008",
+        "PATH-OBST-0033",
+        "PATH-OBST-0035",
+        "PATH-OBST-0014"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0038",
+      "nom_fr": "Déchirures périnéales obstétricales",
+      "nom_en": "Perineal laceration during delivery",
+      "synonymes": [
+        "lésions obstétricales du sphincter anal"
+      ],
+      "cim10": "O70",
+      "specialite": "OBST",
+      "sous_specialite": "Accouchement",
+      "categories": [
+        "obstétricale",
+        "traumatique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur périnéale",
+        "incontinence anale ou aux gaz (lésions sphinctériennes)"
+      ],
+      "signes_cliniques": [
+        "déchirure du 1er au 4e degré",
+        "atteinte du sphincter anal"
+      ],
+      "examens_cles": [
+        "examen périnéal et toucher rectal systématiques après l'accouchement",
+        "échographie endoanale si séquelles"
+      ],
+      "traitements_cles": [
+        "suture adaptée au degré lésionnel",
+        "antibioprophylaxie et laxatifs si lésion sphinctérienne",
+        "rééducation périnéale"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0018",
+        "PATH-CDIG-0015",
+        "PATH-OBST-0041",
+        "PATH-CDIG-0036"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0039",
+      "nom_fr": "Embolie amniotique",
+      "nom_en": "Amniotic fluid embolism",
+      "synonymes": [],
+      "cim10": "O88.1",
+      "specialite": "OBST",
+      "sous_specialite": "Accouchement",
+      "categories": [
+        "obstétricale",
+        "urgence"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "détresse respiratoire brutale",
+        "malaise",
+        "agitation pendant le travail ou juste après l'accouchement"
+      ],
+      "signes_cliniques": [
+        "collapsus cardiovasculaire",
+        "arrêt cardiaque",
+        "hémorragie par coagulopathie"
+      ],
+      "examens_cles": [
+        "diagnostic clinique d'élimination",
+        "bilan d'hémostase (CIVD)",
+        "échocardiographie"
+      ],
+      "traitements_cles": [
+        "réanimation cardiorespiratoire",
+        "extraction fœtale",
+        "correction de la coagulopathie et transfusion massive",
+        "prise en charge de l'hémorragie"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0041",
+        "PATH-URGE-0031",
+        "PATH-ANAP-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0040",
+      "nom_fr": "Inversion utérine",
+      "nom_en": "Postpartum uterine inversion",
+      "synonymes": [],
+      "cim10": "O71.2",
+      "specialite": "OBST",
+      "sous_specialite": "Accouchement",
+      "categories": [
+        "obstétricale",
+        "urgence"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur intense lors de la délivrance",
+        "hémorragie"
+      ],
+      "signes_cliniques": [
+        "masse vaginale ou vulvaire",
+        "fond utérin non palpé",
+        "choc souvent disproportionné"
+      ],
+      "examens_cles": [
+        "diagnostic clinique"
+      ],
+      "traitements_cles": [
+        "réduction manuelle immédiate",
+        "relaxants utérins",
+        "réduction chirurgicale si échec",
+        "utérotoniques après réduction"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0041"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0041",
+      "nom_fr": "Hémorragie du post-partum",
+      "nom_en": "Postpartum haemorrhage",
+      "synonymes": [
+        "hémorragie de la délivrance"
+      ],
+      "cim10": "O72",
+      "specialite": "OBST",
+      "sous_specialite": "Post-partum",
+      "categories": [
+        "obstétricale",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-056"
+      ],
+      "symptomes": [
+        "saignement vaginal abondant après l'accouchement",
+        "malaise"
+      ],
+      "signes_cliniques": [
+        "pertes sanguines ≥ 500 ml (voie basse)",
+        "utérus mou (atonie)",
+        "déchirures de la filière génitale",
+        "signes de choc"
+      ],
+      "examens_cles": [
+        "quantification des pertes (sac de recueil)",
+        "NFS, bilan d'hémostase, fibrinogène",
+        "groupage-RAI"
+      ],
+      "traitements_cles": [
+        "délivrance artificielle et révision utérine",
+        "massage utérin",
+        "utérotoniques (ocytocine, sulprostone)",
+        "acide tranexamique",
+        "ballonnet de tamponnement intra-utérin",
+        "embolisation artérielle ou chirurgie (ligatures, hystérectomie d'hémostase)",
+        "transfusion",
+        "prévention par administration préventive d'ocytocine"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0009",
+        "PATH-OBST-0013",
+        "PATH-OBST-0014",
+        "PATH-OBST-0020",
+        "PATH-OBST-0021",
+        "PATH-OBST-0023",
+        "PATH-OBST-0028",
+        "PATH-OBST-0029",
+        "PATH-OBST-0031",
+        "PATH-OBST-0033",
+        "PATH-OBST-0036",
+        "PATH-OBST-0039",
+        "PATH-OBST-0040",
+        "PATH-OBST-0042",
+        "PATH-OBST-0038",
+        "PATH-SPUB-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0042",
+      "nom_fr": "Rétention placentaire",
+      "nom_en": "Retained placenta",
+      "synonymes": [],
+      "cim10": "O73",
+      "specialite": "OBST",
+      "sous_specialite": "Post-partum",
+      "categories": [
+        "obstétricale"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [
+        "RES-CHI-056"
+      ],
+      "symptomes": [
+        "absence de délivrance dans les 30 minutes après la naissance",
+        "saignement"
+      ],
+      "signes_cliniques": [
+        "placenta non décollé ou incomplet à l'examen"
+      ],
+      "examens_cles": [
+        "examen du placenta",
+        "échographie (rétention partielle)"
+      ],
+      "traitements_cles": [
+        "délivrance artificielle",
+        "révision utérine",
+        "prise en charge de l'hémorragie associée",
+        "suspicion de placenta accreta"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0021",
+        "PATH-OBST-0041",
+        "PATH-OBST-0043"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0043",
+      "nom_fr": "Infection puerpérale (endométrite du post-partum)",
+      "nom_en": "Puerperal sepsis (postpartum endometritis)",
+      "synonymes": [
+        "endométrite du post-partum"
+      ],
+      "cim10": "O85",
+      "specialite": "OBST",
+      "sous_specialite": "Post-partum",
+      "categories": [
+        "obstétricale",
+        "infectieuse"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "fièvre dans les jours suivant l'accouchement",
+        "douleurs pelviennes",
+        "lochies malodorantes"
+      ],
+      "signes_cliniques": [
+        "utérus mal involué, mou, douloureux"
+      ],
+      "examens_cles": [
+        "prélèvement vaginal",
+        "hémocultures",
+        "NFS, CRP",
+        "échographie pelvienne (rétention)"
+      ],
+      "traitements_cles": [
+        "antibiothérapie adaptée",
+        "évacuation d'une rétention",
+        "prévention (asepsie, antibioprophylaxie lors de la césarienne)"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0004",
+        "PATH-OBST-0012",
+        "PATH-OBST-0042",
+        "PATH-OBST-0044",
+        "PATH-SPUB-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0044",
+      "nom_fr": "Thrombophlébite pelvienne du post-partum",
+      "nom_en": "Postpartum pelvic thrombophlebitis",
+      "synonymes": [
+        "thrombophlébite ovarienne"
+      ],
+      "cim10": null,
+      "specialite": "OBST",
+      "sous_specialite": "Post-partum",
+      "categories": [
+        "obstétricale",
+        "infectieuse",
+        "cardiovasculaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "fièvre persistante malgré antibiothérapie",
+        "douleurs pelviennes"
+      ],
+      "signes_cliniques": [
+        "examen souvent peu contributif"
+      ],
+      "examens_cles": [
+        "scanner ou IRM pelvienne (thrombose de la veine ovarienne)"
+      ],
+      "traitements_cles": [
+        "anticoagulation",
+        "antibiothérapie"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0043",
+        "PATH-OBST-0029",
+        "PATH-GYNE-0004"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-OBST-0045",
+      "nom_fr": "Mastite puerpérale et abcès du sein",
+      "nom_en": "Puerperal mastitis and breast abscess",
+      "synonymes": [
+        "lymphangite du sein"
+      ],
+      "cim10": "O91",
+      "specialite": "OBST",
+      "sous_specialite": "Post-partum",
+      "categories": [
+        "obstétricale",
+        "infectieuse"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur du sein",
+        "fièvre",
+        "frissons"
+      ],
+      "signes_cliniques": [
+        "placard inflammatoire du sein",
+        "masse fluctuante (abcès)"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "échographie (abcès)",
+        "prélèvement du lait selon le contexte"
+      ],
+      "traitements_cles": [
+        "poursuite de l'allaitement et drainage du sein",
+        "antalgiques",
+        "antibiothérapie si persistance",
+        "ponction ou drainage d'un abcès"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0032"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-UROL-0001",
+      "nom_fr": "Colique néphrétique",
+      "nom_en": "Renal colic",
+      "synonymes": [],
+      "cim10": "N23",
+      "specialite": "UROL",
+      "sous_specialite": "Lithiase urinaire",
+      "categories": [
+        "urologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-030",
+        "RES-CHI-023",
+        "RES-CHI-032"
+      ],
+      "symptomes": [
+        "douleur lombaire brutale, intense, irradiant vers les organes génitaux externes",
+        "agitation",
+        "nausées et vomissements"
+      ],
+      "signes_cliniques": [
+        "absence de position antalgique",
+        "fosse lombaire sensible",
+        "recherche de fièvre, d'anurie ou d'hyperalgie (formes compliquées)"
+      ],
+      "examens_cles": [
+        "bandelette urinaire (hématurie)",
+        "créatininémie",
+        "scanner sans injection ou échographie couplée à la radiographie selon le contexte",
+        "ECBU"
+      ],
+      "traitements_cles": [
+        "AINS",
+        "antalgiques",
+        "drainage en urgence (sonde JJ ou néphrostomie) des formes compliquées",
+        "traitement de la lithiase"
+      ],
+      "pathologies_liees": [
+        "PATH-UROL-0002"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-UROL-0002",
+      "nom_fr": "Pyélonéphrite aiguë obstructive",
+      "nom_en": "Obstructive acute pyelonephritis (pyonephrosis)",
+      "synonymes": [
+        "pyonéphrose"
+      ],
+      "cim10": "N13.6",
+      "specialite": "UROL",
+      "sous_specialite": "Lithiase urinaire",
+      "categories": [
+        "urologique",
+        "infectieuse",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-030"
+      ],
+      "symptomes": [
+        "fièvre élevée",
+        "frissons",
+        "douleurs lombaires"
+      ],
+      "signes_cliniques": [
+        "fosse lombaire douloureuse",
+        "signes de sepsis ou de choc septique"
+      ],
+      "examens_cles": [
+        "ECBU",
+        "hémocultures",
+        "NFS, CRP, créatininémie, lactates",
+        "scanner (obstacle, dilatation)"
+      ],
+      "traitements_cles": [
+        "drainage des urines en urgence (sonde JJ ou néphrostomie percutanée)",
+        "antibiothérapie parentérale",
+        "traitement différé de l'obstacle"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0018",
+        "PATH-UROL-0001",
+        "PATH-UROL-0031",
+        "PATH-UROL-0032"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-UROL-0003",
+      "nom_fr": "Lithiase vésicale",
+      "nom_en": "Bladder calculus",
+      "synonymes": [],
+      "cim10": "N21.0",
+      "specialite": "UROL",
+      "sous_specialite": "Lithiase urinaire",
+      "categories": [
+        "urologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-023"
+      ],
+      "symptomes": [
+        "interruption du jet urinaire",
+        "hématurie terminale",
+        "brûlures mictionnelles"
+      ],
+      "signes_cliniques": [
+        "terrain d'obstruction sous-vésicale (HBP) ou de vessie neurologique"
+      ],
+      "examens_cles": [
+        "échographie vésicale",
+        "radiographie de l'abdomen sans préparation",
+        "cystoscopie"
+      ],
+      "traitements_cles": [
+        "lithotritie endoscopique",
+        "traitement de l'obstacle sous-vésical"
+      ],
+      "pathologies_liees": [
+        "PATH-UROL-0007",
+        "PATH-UROL-0018"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-UROL-0004",
+      "nom_fr": "Kyste rénal simple",
+      "nom_en": "Simple renal cyst",
+      "synonymes": [],
+      "cim10": "N28.1",
+      "specialite": "UROL",
+      "sous_specialite": "Oncologie urologique",
+      "categories": [
+        "urologique",
+        "rénale"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "le plus souvent asymptomatique (découverte fortuite)"
+      ],
+      "signes_cliniques": [
+        "examen normal"
+      ],
+      "examens_cles": [
+        "échographie",
+        "scanner avec classification de Bosniak pour les kystes atypiques"
+      ],
+      "traitements_cles": [
+        "abstention pour les kystes simples",
+        "surveillance ou chirurgie des kystes complexes selon la classification de Bosniak"
+      ],
+      "pathologies_liees": [
+        "PATH-UROL-0006"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-UROL-0005",
+      "nom_fr": "Hématurie macroscopique",
+      "nom_en": "Gross haematuria",
+      "synonymes": [],
+      "cim10": "R31",
+      "specialite": "UROL",
+      "sous_specialite": "Oncologie urologique",
+      "categories": [
+        "urologique",
+        "rénale"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-031"
+      ],
+      "symptomes": [
+        "urines rouges",
+        "caillots",
+        "troubles mictionnels associés"
+      ],
+      "signes_cliniques": [
+        "chronologie (initiale, terminale, totale)",
+        "caillots",
+        "recherche de signes de gravité (rétention sur caillotage, anémie)"
+      ],
+      "examens_cles": [
+        "bandelette et ECBU",
+        "NFS, créatininémie, hémostase",
+        "échographie",
+        "uroscanner",
+        "cystoscopie",
+        "cytologie urinaire"
+      ],
+      "traitements_cles": [
+        "lavage et décaillotage vésical si caillotage",
+        "traitement étiologique (tumeur de vessie, lithiase, infection, néphropathie)"
+      ],
+      "pathologies_liees": [
+        "PATH-UROL-0022"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-UROL-0006",
+      "nom_fr": "Kyste hydatique du rein",
+      "nom_en": "Renal hydatid cyst",
+      "synonymes": [
+        "échinococcose rénale"
+      ],
+      "cim10": "B67.3",
+      "specialite": "UROL",
+      "sous_specialite": "Oncologie urologique",
+      "categories": [
+        "parasitaire",
+        "urologique",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur lombaire",
+        "hydaturie (émission de vésicules filles dans les urines)"
+      ],
+      "signes_cliniques": [
+        "masse lombaire",
+        "contexte rural et contact avec les chiens (zone d'endémie)"
+      ],
+      "examens_cles": [
+        "échographie et scanner (kyste avec membrane, vésicules filles, calcifications)",
+        "sérologie hydatique",
+        "recherche d'autres localisations (foie, poumon)"
+      ],
+      "traitements_cles": [
+        "chirurgie conservatrice (périkystectomie, résection du dôme saillant) ou néphrectomie selon la destruction",
+        "albendazole péri-opératoire",
+        "prévention (hygiène, traitement des chiens)"
+      ],
+      "pathologies_liees": [
+        "PATH-UROL-0004",
+        "PATH-NCHI-0015",
+        "PATH-ORTH-0013",
+        "PATH-CDIG-0016"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-UROL-0007",
+      "nom_fr": "Hypertrophie bénigne de la prostate",
+      "nom_en": "Benign prostatic hyperplasia",
+      "synonymes": [
+        "adénome de la prostate"
+      ],
+      "cim10": "N40",
+      "specialite": "UROL",
+      "sous_specialite": "Andrologie",
+      "categories": [
+        "urologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-025"
+      ],
+      "symptomes": [
+        "dysurie",
+        "pollakiurie nocturne",
+        "urgenturie",
+        "sensation de vidange incomplète"
+      ],
+      "signes_cliniques": [
+        "prostate augmentée de volume, régulière, ferme et indolore au toucher rectal",
+        "globe vésical (rétention)"
+      ],
+      "examens_cles": [
+        "score IPSS",
+        "débitmétrie",
+        "résidu post-mictionnel",
+        "PSA",
+        "créatininémie",
+        "ECBU",
+        "échographie de l'appareil urinaire"
+      ],
+      "traitements_cles": [
+        "règles hygiéno-diététiques",
+        "alphabloquants",
+        "inhibiteurs de la 5-alpha-réductase",
+        "phytothérapie",
+        "résection transurétrale de prostate ou énucléation au laser",
+        "adénomectomie par voie haute"
+      ],
+      "pathologies_liees": [
+        "PATH-UROL-0003",
+        "PATH-UROL-0008",
+        "PATH-UROL-0019",
+        "PATH-ANAP-0014",
+        "PATH-UROL-0030"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-UROL-0008",
+      "nom_fr": "Rétention aiguë d'urine",
+      "nom_en": "Acute urinary retention",
+      "synonymes": [],
+      "cim10": "R33",
+      "specialite": "UROL",
+      "sous_specialite": "Andrologie",
+      "categories": [
+        "urologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-029"
+      ],
+      "symptomes": [
+        "impossibilité d'uriner",
+        "douleur sus-pubienne intense",
+        "envie pressante"
+      ],
+      "signes_cliniques": [
+        "globe vésical palpable et percutable",
+        "agitation"
+      ],
+      "examens_cles": [
+        "échographie vésicale ou bladder scan",
+        "créatininémie",
+        "ECBU",
+        "recherche de la cause (toucher rectal, examen neurologique, médicaments)"
+      ],
+      "traitements_cles": [
+        "drainage vésical en urgence (sondage urétral ou cathétérisme sus-pubien)",
+        "surveillance du syndrome de levée d'obstacle",
+        "traitement étiologique"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0023",
+        "PATH-UROL-0007",
+        "PATH-UROL-0020",
+        "PATH-UROL-0018"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-UROL-0009",
+      "nom_fr": "Orchi-épididymite",
+      "nom_en": "Orchitis and epididymitis",
+      "synonymes": [],
+      "cim10": "N45",
+      "specialite": "UROL",
+      "sous_specialite": "Andrologie",
+      "categories": [
+        "urologique",
+        "infectieuse"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur scrotale progressive",
+        "fièvre",
+        "brûlures mictionnelles"
+      ],
+      "signes_cliniques": [
+        "épididyme augmenté de volume et douloureux",
+        "soulagement à l'élévation du testicule (signe de Prehn)"
+      ],
+      "examens_cles": [
+        "ECBU",
+        "PCR Chlamydia et gonocoque chez le sujet jeune",
+        "échographie-Doppler (hyperhémie) pour éliminer une torsion"
+      ],
+      "traitements_cles": [
+        "antibiothérapie adaptée au terrain (IST ou infection urinaire)",
+        "suspensoir, antalgiques"
+      ],
+      "pathologies_liees": [
+        "PATH-UROL-0010",
+        "PATH-UROL-0013"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-UROL-0010",
+      "nom_fr": "Torsion du cordon spermatique",
+      "nom_en": "Testicular torsion",
+      "synonymes": [
+        "torsion testiculaire"
+      ],
+      "cim10": "N44",
+      "specialite": "UROL",
+      "sous_specialite": "Andrologie",
+      "categories": [
+        "urologique",
+        "urgence",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-028"
+      ],
+      "symptomes": [
+        "douleur scrotale brutale et intense",
+        "nausées, vomissements",
+        "souvent chez l'enfant ou l'adolescent"
+      ],
+      "signes_cliniques": [
+        "testicule ascensionné, horizontalisé, très douloureux",
+        "abolition du réflexe crémastérien"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "l'échographie-Doppler ne doit pas retarder la chirurgie"
+      ],
+      "traitements_cles": [
+        "exploration chirurgicale en urgence (détorsion et orchidopexie bilatérale)",
+        "orchidectomie si nécrose"
+      ],
+      "pathologies_liees": [
+        "PATH-UROL-0009",
+        "PATH-CPED-0017",
+        "PATH-UROL-0028"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-UROL-0011",
+      "nom_fr": "Varicocèle",
+      "nom_en": "Varicocele",
+      "synonymes": [],
+      "cim10": "I86.1",
+      "specialite": "UROL",
+      "sous_specialite": "Andrologie",
+      "categories": [
+        "urologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [
+        "RES-CHI-065"
+      ],
+      "symptomes": [
+        "pesanteur scrotale",
+        "infertilité"
+      ],
+      "signes_cliniques": [
+        "dilatation des veines du cordon (« sac de vers ») majorée par la manœuvre de Valsalva",
+        "varicocèle droite isolée ou gauche récente évocatrice d'une cause tumorale"
+      ],
+      "examens_cles": [
+        "échographie-Doppler scrotale",
+        "spermogramme"
+      ],
+      "traitements_cles": [
+        "abstention",
+        "embolisation ou ligature chirurgicale si infertilité avec altération du sperme ou douleurs"
+      ],
+      "pathologies_liees": [
+        "PATH-UROL-0013"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-UROL-0012",
+      "nom_fr": "Hydrocèle vaginale",
+      "nom_en": "Hydrocele",
+      "synonymes": [],
+      "cim10": "N43",
+      "specialite": "UROL",
+      "sous_specialite": "Andrologie",
+      "categories": [
+        "urologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "augmentation de volume indolore des bourses"
+      ],
+      "signes_cliniques": [
+        "masse scrotale liquidienne, transilluminable",
+        "testicule non palpable séparément"
+      ],
+      "examens_cles": [
+        "échographie scrotale (élimine une tumeur testiculaire)"
+      ],
+      "traitements_cles": [
+        "abstention",
+        "cure chirurgicale si volumineuse ou gênante"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0014",
+        "PATH-CGEN-0001",
+        "PATH-UROL-0028"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-UROL-0013",
+      "nom_fr": "Infertilité masculine",
+      "nom_en": "Male infertility",
+      "synonymes": [],
+      "cim10": "N46",
+      "specialite": "UROL",
+      "sous_specialite": "Andrologie",
+      "categories": [
+        "urologique",
+        "endocrinienne"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-065"
+      ],
+      "symptomes": [
+        "absence de grossesse du couple après 12 mois de rapports réguliers non protégés"
+      ],
+      "signes_cliniques": [
+        "volume testiculaire",
+        "varicocèle",
+        "anomalies des déférents",
+        "signes d'hypogonadisme"
+      ],
+      "examens_cles": [
+        "spermogramme et spermocytogramme (au moins deux examens)",
+        "FSH, LH, testostérone",
+        "échographie scrotale",
+        "caryotype et microdélétions du chromosome Y si azoospermie ou oligospermie sévère"
+      ],
+      "traitements_cles": [
+        "traitement étiologique (varicocèle, hypogonadisme hypogonadotrope)",
+        "AMP (insémination, FIV, ICSI)",
+        "prélèvement chirurgical de spermatozoïdes"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0017",
+        "PATH-GYNE-0034",
+        "PATH-UROL-0011",
+        "PATH-UROL-0009"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-UROL-0014",
+      "nom_fr": "Dysfonction érectile",
+      "nom_en": "Erectile dysfunction",
+      "synonymes": [
+        "impuissance"
+      ],
+      "cim10": null,
+      "specialite": "UROL",
+      "sous_specialite": "Andrologie",
+      "categories": [
+        "urologique",
+        "cardiovasculaire",
+        "endocrinienne"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "incapacité à obtenir ou maintenir une érection suffisante"
+      ],
+      "signes_cliniques": [
+        "recherche de facteurs de risque cardiovasculaires",
+        "examen des organes génitaux",
+        "signes d'hypogonadisme"
+      ],
+      "examens_cles": [
+        "glycémie, bilan lipidique",
+        "testostérone",
+        "évaluation cardiovasculaire"
+      ],
+      "traitements_cles": [
+        "correction des facteurs de risque",
+        "inhibiteurs de la phosphodiestérase de type 5",
+        "injections intracaverneuses",
+        "implants péniens",
+        "prise en charge sexologique"
+      ],
+      "pathologies_liees": [
+        "PATH-UROL-0016",
+        "PATH-UROL-0015",
+        "PATH-UROL-0025",
+        "PATH-CCVA-0004"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-UROL-0015",
+      "nom_fr": "Priapisme",
+      "nom_en": "Priapism",
+      "synonymes": [],
+      "cim10": "N48.3",
+      "specialite": "UROL",
+      "sous_specialite": "Andrologie",
+      "categories": [
+        "urologique",
+        "urgence",
+        "hématologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "érection prolongée douloureuse sans désir sexuel"
+      ],
+      "signes_cliniques": [
+        "corps caverneux rigides, gland mou (forme ischémique)",
+        "terrain de drépanocytose ou d'injection intracaverneuse"
+      ],
+      "examens_cles": [
+        "gazométrie du sang caverneux (forme ischémique ou non)",
+        "échographie-Doppler",
+        "NFS"
+      ],
+      "traitements_cles": [
+        "urgence : ponction-lavage des corps caverneux et injection d'agonistes alpha-adrénergiques",
+        "chirurgie (shunt) si échec"
+      ],
+      "pathologies_liees": [
+        "PATH-UROL-0014"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-UROL-0016",
+      "nom_fr": "Maladie de La Peyronie",
+      "nom_en": "Peyronie's disease",
+      "synonymes": [
+        "induration plastique des corps caverneux"
+      ],
+      "cim10": "N48.6",
+      "specialite": "UROL",
+      "sous_specialite": "Andrologie",
+      "categories": [
+        "urologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "courbure de la verge en érection",
+        "douleurs",
+        "dysfonction érectile"
+      ],
+      "signes_cliniques": [
+        "plaque fibreuse palpable sur la verge"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "photographies en érection",
+        "échographie"
+      ],
+      "traitements_cles": [
+        "abstention en phase active",
+        "traitements médicaux",
+        "chirurgie de redressement en phase stabilisée"
+      ],
+      "pathologies_liees": [
+        "PATH-UROL-0014",
+        "PATH-CPLA-0012"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-UROL-0017",
+      "nom_fr": "Gangrène de Fournier",
+      "nom_en": "Fournier's gangrene",
+      "synonymes": [
+        "fasciite nécrosante du périnée"
+      ],
+      "cim10": null,
+      "specialite": "UROL",
+      "sous_specialite": "Andrologie",
+      "categories": [
+        "urologique",
+        "infectieuse",
+        "urgence"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur périnéale ou scrotale intense",
+        "fièvre",
+        "altération de l'état général"
+      ],
+      "signes_cliniques": [
+        "œdème, nécrose cutanée, crépitation sous-cutanée",
+        "signes de choc",
+        "terrain de diabète"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "scanner (gaz, extension) sans retarder la chirurgie",
+        "NFS, CRP, lactates"
+      ],
+      "traitements_cles": [
+        "débridement chirurgical extensif en urgence et reprises",
+        "antibiothérapie à large spectre",
+        "réanimation",
+        "reconstruction secondaire"
+      ],
+      "pathologies_liees": [
+        "PATH-MINT_REA-0003"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-UROL-0018",
+      "nom_fr": "Vessie neurologique",
+      "nom_en": "Neurogenic bladder",
+      "synonymes": [
+        "dysfonction vésico-sphinctérienne neurologique"
+      ],
+      "cim10": "N31",
+      "specialite": "UROL",
+      "sous_specialite": "Urologie fonctionnelle",
+      "categories": [
+        "urologique",
+        "neurologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "fuites urinaires",
+        "urgenturie",
+        "rétention",
+        "infections urinaires répétées"
+      ],
+      "signes_cliniques": [
+        "contexte neurologique (blessé médullaire, sclérose en plaques, spina bifida)",
+        "résidu post-mictionnel"
+      ],
+      "examens_cles": [
+        "bilan urodynamique",
+        "échographie rénale et vésicale",
+        "créatininémie",
+        "ECBU"
+      ],
+      "traitements_cles": [
+        "autosondages intermittents propres",
+        "anticholinergiques",
+        "injections intradétrusoriennes de toxine botulinique",
+        "chirurgie (agrandissement vésical) selon les cas"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0015",
+        "PATH-UROL-0003",
+        "PATH-UROL-0008",
+        "PATH-MPR-0002",
+        "PATH-NCHI-0019",
+        "PATH-UROL-0019",
+        "PATH-MPR-0005",
+        "PATH-NCHI-0031"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-UROL-0019",
+      "nom_fr": "Hyperactivité vésicale",
+      "nom_en": "Overactive bladder",
+      "synonymes": [
+        "vessie hyperactive"
+      ],
+      "cim10": "N32.8",
+      "specialite": "UROL",
+      "sous_specialite": "Urologie fonctionnelle",
+      "categories": [
+        "urologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "urgenturie",
+        "pollakiurie diurne et nocturne",
+        "fuites par urgenturie"
+      ],
+      "signes_cliniques": [
+        "examen clinique normal",
+        "élimination d'une infection, d'un obstacle, d'une cause neurologique"
+      ],
+      "examens_cles": [
+        "calendrier mictionnel",
+        "ECBU",
+        "résidu post-mictionnel",
+        "bilan urodynamique selon les cas"
+      ],
+      "traitements_cles": [
+        "rééducation et thérapie comportementale",
+        "anticholinergiques ou agonistes bêta-3 adrénergiques",
+        "toxine botulinique intradétrusorienne",
+        "neuromodulation"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0019",
+        "PATH-UROL-0018",
+        "PATH-UROL-0007",
+        "PATH-UROL-0021"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-UROL-0020",
+      "nom_fr": "Sténose de l'urètre",
+      "nom_en": "Urethral stricture",
+      "synonymes": [
+        "rétrécissement urétral"
+      ],
+      "cim10": "N35",
+      "specialite": "UROL",
+      "sous_specialite": "Urologie fonctionnelle",
+      "categories": [
+        "urologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "dysurie",
+        "jet faible",
+        "infections urinaires",
+        "rétention"
+      ],
+      "signes_cliniques": [
+        "antécédents de traumatisme, de sondage ou d'urétrite"
+      ],
+      "examens_cles": [
+        "débitmétrie",
+        "urétrographie rétrograde et mictionnelle",
+        "urétroscopie"
+      ],
+      "traitements_cles": [
+        "urétrotomie interne endoscopique",
+        "urétroplastie",
+        "dilatations"
+      ],
+      "pathologies_liees": [
+        "PATH-UROL-0008",
+        "PATH-UROL-0023",
+        "PATH-UROL-0029",
+        "PATH-UROL-0030"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-UROL-0021",
+      "nom_fr": "Cystite interstitielle (syndrome douloureux vésical)",
+      "nom_en": "Interstitial cystitis (bladder pain syndrome)",
+      "synonymes": [],
+      "cim10": "N30.1",
+      "specialite": "UROL",
+      "sous_specialite": "Urologie fonctionnelle",
+      "categories": [
+        "urologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleurs pelviennes chroniques majorées par le remplissage vésical",
+        "pollakiurie",
+        "urgenturie"
+      ],
+      "signes_cliniques": [
+        "examen clinique pauvre",
+        "ECBU stérile"
+      ],
+      "examens_cles": [
+        "calendrier mictionnel",
+        "cystoscopie (lésions de Hunner)",
+        "biopsie selon le cas"
+      ],
+      "traitements_cles": [
+        "prise en charge multimodale (éducation, antalgiques, traitements oraux et instillations endovésicales)",
+        "traitement endoscopique des lésions de Hunner"
+      ],
+      "pathologies_liees": [
+        "PATH-UROL-0019"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-UROL-0022",
+      "nom_fr": "Traumatisme du rein",
+      "nom_en": "Renal trauma",
+      "synonymes": [
+        "contusion rénale"
+      ],
+      "cim10": "S37.0",
+      "specialite": "UROL",
+      "sous_specialite": "Traumatismes urologiques",
+      "categories": [
+        "traumatique",
+        "urologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur lombaire",
+        "hématurie après traumatisme"
+      ],
+      "signes_cliniques": [
+        "hématome lombaire",
+        "signes de choc hémorragique"
+      ],
+      "examens_cles": [
+        "scanner abdominal avec injection et temps tardif (grade AAST)",
+        "hématocrite"
+      ],
+      "traitements_cles": [
+        "traitement conservateur le plus souvent (surveillance)",
+        "embolisation artérielle sélective",
+        "chirurgie si instabilité hémodynamique"
+      ],
+      "pathologies_liees": [
+        "PATH-UROL-0005",
+        "PATH-TRAU-0038",
+        "PATH-CGEN-0016"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-UROL-0023",
+      "nom_fr": "Rupture traumatique de l'urètre",
+      "nom_en": "Urethral injury",
+      "synonymes": [],
+      "cim10": "S37.3",
+      "specialite": "UROL",
+      "sous_specialite": "Traumatismes urologiques",
+      "categories": [
+        "traumatique",
+        "urologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "urétrorragie",
+        "rétention d'urine",
+        "hématome périnéal"
+      ],
+      "signes_cliniques": [
+        "urétrorragie après fracture du bassin ou chute à califourchon",
+        "sondage urétral contre-indiqué"
+      ],
+      "examens_cles": [
+        "urétrographie rétrograde"
+      ],
+      "traitements_cles": [
+        "cathétérisme sus-pubien",
+        "réparation différée ou réalignement endoscopique précoce selon le cas"
+      ],
+      "pathologies_liees": [
+        "PATH-UROL-0020",
+        "PATH-TRAU-0014",
+        "PATH-UROL-0024"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-UROL-0024",
+      "nom_fr": "Rupture traumatique de la vessie",
+      "nom_en": "Bladder injury",
+      "synonymes": [],
+      "cim10": "S37.2",
+      "specialite": "UROL",
+      "sous_specialite": "Traumatismes urologiques",
+      "categories": [
+        "traumatique",
+        "urologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur sus-pubienne",
+        "hématurie",
+        "impossibilité d'uriner"
+      ],
+      "signes_cliniques": [
+        "contexte de fracture du bassin ou de traumatisme sur vessie pleine"
+      ],
+      "examens_cles": [
+        "cystoscanner (rupture intra- ou extrapéritonéale)"
+      ],
+      "traitements_cles": [
+        "drainage vésical seul pour les ruptures extrapéritonéales",
+        "suture chirurgicale pour les ruptures intrapéritonéales"
+      ],
+      "pathologies_liees": [
+        "PATH-UROL-0023",
+        "PATH-TRAU-0014"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-UROL-0025",
+      "nom_fr": "Fracture des corps caverneux (fracture de la verge)",
+      "nom_en": "Penile fracture",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "UROL",
+      "sous_specialite": "Traumatismes urologiques",
+      "categories": [
+        "traumatique",
+        "urologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "craquement et douleur pendant un rapport ou une manipulation",
+        "détumescence brutale"
+      ],
+      "signes_cliniques": [
+        "hématome de la verge (« aubergine »)",
+        "déviation",
+        "urétrorragie possible"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "échographie ou IRM si doute",
+        "urétrographie si urétrorragie"
+      ],
+      "traitements_cles": [
+        "exploration et suture chirurgicale de l'albuginée en urgence"
+      ],
+      "pathologies_liees": [
+        "PATH-UROL-0014"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-UROL-0026",
+      "nom_fr": "Complications chirurgicales de la transplantation rénale",
+      "nom_en": "Surgical complications of kidney transplantation",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "UROL",
+      "sous_specialite": "Transplantation rénale chirurgicale",
+      "categories": [
+        "urologique",
+        "chirurgicale",
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "baisse de la diurèse",
+        "douleur du greffon",
+        "fièvre",
+        "écoulement urinaire par la cicatrice"
+      ],
+      "signes_cliniques": [
+        "masse en regard du greffon (lymphocèle, urinome, hématome)",
+        "HTA (sténose de l'artère du greffon)"
+      ],
+      "examens_cles": [
+        "échographie-Doppler du greffon",
+        "créatininémie",
+        "scanner",
+        "biochimie du liquide de drainage"
+      ],
+      "traitements_cles": [
+        "traitement selon la complication (reprise chirurgicale, drainage, angioplastie de l'artère du greffon, sonde JJ)"
+      ],
+      "pathologies_liees": [
+        "PATH-UROL-0027"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-UROL-0027",
+      "nom_fr": "Lésions de l'uretère (iatrogènes et traumatiques)",
+      "nom_en": "Ureteral injury",
+      "synonymes": [
+        "plaie urétérale"
+      ],
+      "cim10": "S37.1",
+      "specialite": "UROL",
+      "sous_specialite": "Traumatismes urologiques",
+      "categories": [
+        "traumatique",
+        "urologique",
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur lombaire",
+        "fièvre",
+        "écoulement urinaire par un drain ou par le vagin après chirurgie pelvienne",
+        "anurie si lésion bilatérale"
+      ],
+      "signes_cliniques": [
+        "urinome",
+        "fistule urétéro-vaginale",
+        "contexte de chirurgie gynécologique, colorectale ou urologique"
+      ],
+      "examens_cles": [
+        "uroscanner (extravasation de produit de contraste)",
+        "dosage de la créatinine dans le liquide de drainage",
+        "urétéropyélographie rétrograde"
+      ],
+      "traitements_cles": [
+        "réparation peropératoire si reconnue",
+        "sonde JJ ou néphrostomie",
+        "réimplantation urétéro-vésicale ou urétéro-urétérostomie"
+      ],
+      "pathologies_liees": [
+        "PATH-GYNE-0020",
+        "PATH-UROL-0026"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-UROL-0028",
+      "nom_fr": "Traumatisme des bourses et rupture testiculaire",
+      "nom_en": "Scrotal trauma and testicular rupture",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "UROL",
+      "sous_specialite": "Traumatismes urologiques",
+      "categories": [
+        "traumatique",
+        "urologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur scrotale intense après un choc direct (sport, accident)"
+      ],
+      "signes_cliniques": [
+        "hématome scrotal",
+        "testicule non palpable ou mal limité"
+      ],
+      "examens_cles": [
+        "échographie scrotale (rupture de l'albuginée, hématocèle)"
+      ],
+      "traitements_cles": [
+        "exploration chirurgicale et suture de l'albuginée en urgence",
+        "orchidectomie si destruction"
+      ],
+      "pathologies_liees": [
+        "PATH-UROL-0010",
+        "PATH-UROL-0012"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-UROL-0029",
+      "nom_fr": "Incontinence urinaire après prostatectomie",
+      "nom_en": "Post-prostatectomy urinary incontinence",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "UROL",
+      "sous_specialite": "Urologie fonctionnelle",
+      "categories": [
+        "urologique",
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "fuites urinaires à l'effort ou permanentes après prostatectomie totale"
+      ],
+      "signes_cliniques": [
+        "insuffisance sphinctérienne",
+        "retentissement sur la qualité de vie"
+      ],
+      "examens_cles": [
+        "calendrier mictionnel",
+        "test de pesée des protections",
+        "bilan urodynamique",
+        "urétrocystoscopie"
+      ],
+      "traitements_cles": [
+        "rééducation périnéale",
+        "bandelette sous-urétrale masculine",
+        "sphincter urinaire artificiel"
+      ],
+      "pathologies_liees": [
+        "PATH-UROL-0030",
+        "PATH-UROL-0020"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-UROL-0030",
+      "nom_fr": "Sclérose du col vésical",
+      "nom_en": "Bladder neck obstruction (bladder neck contracture)",
+      "synonymes": [],
+      "cim10": "N32.0",
+      "specialite": "UROL",
+      "sous_specialite": "Urologie fonctionnelle",
+      "categories": [
+        "urologique",
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "dysurie",
+        "jet faible",
+        "rétention, notamment après chirurgie prostatique"
+      ],
+      "signes_cliniques": [
+        "résidu post-mictionnel"
+      ],
+      "examens_cles": [
+        "débitmétrie",
+        "urétrocystoscopie"
+      ],
+      "traitements_cles": [
+        "incision endoscopique du col vésical"
+      ],
+      "pathologies_liees": [
+        "PATH-UROL-0029",
+        "PATH-UROL-0007",
+        "PATH-UROL-0020"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-UROL-0031",
+      "nom_fr": "Pyélonéphrite emphysémateuse",
+      "nom_en": "Emphysematous pyelonephritis",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "UROL",
+      "sous_specialite": "Lithiase urinaire",
+      "categories": [
+        "urologique",
+        "infectieuse",
+        "urgence"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "fièvre",
+        "douleurs lombaires",
+        "altération de l'état général chez un patient diabétique"
+      ],
+      "signes_cliniques": [
+        "sepsis grave ou choc septique",
+        "crépitation lombaire rare"
+      ],
+      "examens_cles": [
+        "scanner abdominal (gaz dans le parenchyme rénal)",
+        "hémocultures, ECBU",
+        "glycémie"
+      ],
+      "traitements_cles": [
+        "antibiothérapie parentérale",
+        "drainage percutané",
+        "néphrectomie dans les formes étendues",
+        "équilibre glycémique"
+      ],
+      "pathologies_liees": [
+        "PATH-UROL-0002",
+        "PATH-UROL-0032"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-UROL-0032",
+      "nom_fr": "Abcès du rein et phlegmon périnéphrétique",
+      "nom_en": "Renal and perinephric abscess",
+      "synonymes": [],
+      "cim10": "N15.1",
+      "specialite": "UROL",
+      "sous_specialite": "Lithiase urinaire",
+      "categories": [
+        "urologique",
+        "infectieuse"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "fièvre prolongée",
+        "douleurs lombaires",
+        "altération de l'état général"
+      ],
+      "signes_cliniques": [
+        "empâtement lombaire",
+        "psoïtis"
+      ],
+      "examens_cles": [
+        "scanner abdominal avec injection",
+        "hémocultures, ECBU"
+      ],
+      "traitements_cles": [
+        "antibiothérapie prolongée",
+        "drainage percutané ou chirurgical des collections",
+        "traitement d'un obstacle"
+      ],
+      "pathologies_liees": [
+        "PATH-UROL-0031",
+        "PATH-UROL-0002"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-UROL-0033",
+      "nom_fr": "Balanoposthite",
+      "nom_en": "Balanoposthitis",
+      "synonymes": [
+        "balanite"
+      ],
+      "cim10": "N48.1",
+      "specialite": "UROL",
+      "sous_specialite": "Andrologie",
+      "categories": [
+        "infectieuse",
+        "urologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur et prurit du gland et du prépuce",
+        "écoulement"
+      ],
+      "signes_cliniques": [
+        "érythème du gland et du prépuce",
+        "dépôts blanchâtres (candidose)",
+        "terrain de diabète ou de phimosis"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "prélèvement mycologique et bactériologique",
+        "glycémie",
+        "dépistage des IST selon le contexte",
+        "biopsie si lésion persistante"
+      ],
+      "traitements_cles": [
+        "hygiène locale",
+        "antifongique ou antibiotique local selon la cause",
+        "traitement du phimosis",
+        "équilibre du diabète"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0022"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    }
+  ]
+}

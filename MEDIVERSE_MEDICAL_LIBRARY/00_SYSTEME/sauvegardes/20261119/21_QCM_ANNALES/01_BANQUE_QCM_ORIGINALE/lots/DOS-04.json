@@ -1,0 +1,2987 @@
+{
+  "agent": "DOS-04",
+  "date": "2026-11-19",
+  "qcm": [
+    {
+      "id": "QCM-GAST-0401",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Parmi les éléments suivants, lesquels entrent dans le calcul du score de Glasgow-Blatchford ?",
+      "propositions": {
+        "A": "L'urée sanguine",
+        "B": "L'hémoglobine",
+        "C": "L'âge du patient",
+        "D": "La présence d'une syncope",
+        "E": "Le stade de Forrest"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Le score de Glasgow-Blatchford est un score PRÉ-endoscopique : urée, hémoglobine (selon le sexe), PAS, FC ≥ 100, méléna, syncope, hépatopathie, insuffisance cardiaque. Il ne contient ni l'âge ni de critère endoscopique.",
+      "explications_par_proposition": {
+        "A": "Vrai : l'urée (de 2 à 6 points) reflète l'importance du saignement haut digéré.",
+        "B": "Vrai : seuils différents chez l'homme et la femme.",
+        "C": "Faux : l'âge figure dans Rockall et AIMS65, pas dans le Glasgow-Blatchford.",
+        "D": "Vrai : la syncope vaut 2 points.",
+        "E": "Faux : Forrest est une classification endoscopique ; Glasgow-Blatchford se calcule avant l'endoscopie."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-017"
+      ],
+      "theme": "Hémorragie digestive haute — stratification pré-endoscopique",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Confondre les items de Glasgow-Blatchford (pré-endoscopique) et de Rockall (âge, diagnostic endoscopique).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Gralnek IM et al. ESGE Guideline NVUGIH – Update 2021. Endoscopy 2021;53(3):300-332. doi:10.1055/a-1369-5274",
+          "date": "2021"
+        },
+        {
+          "reference": "Stanley AJ et al. Comparison of risk scoring systems for upper GI bleeding. BMJ 2017;356:i6432",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0402",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un homme de 34 ans consulte pour un méléna isolé la veille. FC 78/min, PAS 128 mmHg, Hb 14,1 g/dL, urée 5,8 mmol/L, pas de syncope, pas de comorbidité. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Son score de Glasgow-Blatchford est de 1",
+        "B": "Une prise en charge ambulatoire avec endoscopie programmée est possible",
+        "C": "Une endoscopie dans les 12 heures est obligatoire",
+        "D": "Une transfusion d'un culot globulaire est indiquée",
+        "E": "Le score de Glasgow-Blatchford ≤ 1 a une sensibilité très élevée pour identifier les patients sans besoin d'intervention"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "Seul le méléna rapporte 1 point (urée < 6,5, Hb ≥ 13, PAS ≥ 110, FC < 100). Un score ≤ 1 identifie des patients à très bas risque, gérables sans hospitalisation ni endoscopie urgente (ESGE 2021) ; dans l'étude de Stanley (BMJ 2017), le seuil ≤ 1 avait une sensibilité de 98,6 %.",
+      "explications_par_proposition": {
+        "A": "Vrai : méléna = 1 point, aucun autre item.",
+        "B": "Vrai : recommandation ESGE 2021.",
+        "C": "Faux : même chez les patients hospitalisés, l'ESGE ne recommande pas l'endoscopie ≤ 12 h systématique.",
+        "D": "Faux : Hb 14,1 g/dL, aucune indication.",
+        "E": "Vrai : sensibilité 98,6 % dans l'étude internationale de Stanley."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-017"
+      ],
+      "theme": "Hémorragie digestive haute — orientation ambulatoire",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Hospitaliser par réflexe tout méléna alors qu'un score ≤ 1 autorise l'ambulatoire.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Gralnek IM et al. ESGE Guideline NVUGIH – Update 2021. Endoscopy 2021;53(3):300-332. doi:10.1055/a-1369-5274",
+          "date": "2021"
+        },
+        {
+          "reference": "Stanley AJ et al. Comparison of risk scoring systems for upper GI bleeding. BMJ 2017;356:i6432",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0403",
+      "format": "QCS (réponse unique)",
+      "enonce": "Quelle est la stratégie transfusionnelle recommandée chez un patient de 50 ans, sans antécédent cardiovasculaire, présentant une hémorragie ulcéreuse stabilisée ?",
+      "propositions": {
+        "A": "Transfuser pour maintenir l'Hb ≥ 10 g/dL",
+        "B": "Transfuser si Hb < 9 g/dL avec un objectif 9–11 g/dL",
+        "C": "Transfuser si Hb < 7 g/dL avec un objectif 7–9 g/dL",
+        "D": "Ne jamais transfuser avant l'endoscopie",
+        "E": "Transfuser systématiquement 2 culots à l'admission"
+      },
+      "reponses_correctes": [
+        "C"
+      ],
+      "explication_generale": "La stratégie restrictive (seuil 7 g/dL, objectif 7–9 g/dL) est recommandée par l'ESGE 2021 ; l'essai de Villanueva (NEJM 2013, 921 patients) a montré une meilleure survie à 45 jours et moins de récidives qu'avec un seuil de 9 g/dL.",
+      "explications_par_proposition": {
+        "A": "Faux : stratégie libérale, délétère.",
+        "B": "Faux : c'est le bras libéral de l'essai de Villanueva.",
+        "C": "Vrai : stratégie restrictive.",
+        "D": "Faux : l'endoscopie ne retarde pas une transfusion indiquée.",
+        "E": "Faux : aucune justification à une transfusion systématique."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-017"
+      ],
+      "theme": "Hémorragie digestive — transfusion",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Vouloir « normaliser » l'hémoglobine.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Gralnek IM et al. ESGE Guideline NVUGIH – Update 2021. Endoscopy 2021;53(3):300-332. doi:10.1055/a-1369-5274",
+          "date": "2021"
+        },
+        {
+          "reference": "Villanueva C et al. Transfusion strategies for acute upper GI bleeding. N Engl J Med 2013;368:11-21. doi:10.1056/NEJMoa1211801",
+          "date": "2013"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0404",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon la recommandation ESGE 2021 sur l'hémorragie digestive haute non variqueuse, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'endoscopie est réalisée dans les 24 heures suivant la présentation après réanimation",
+        "B": "L'endoscopie urgente ≤ 12 heures est recommandée chez tous les patients à haut risque",
+        "C": "L'érythromycine IV 250 mg 30 à 120 minutes avant l'endoscopie est recommandée en l'absence de contre-indication",
+        "D": "La pose systématique d'une sonde nasogastrique est recommandée",
+        "E": "Un IPP IV à forte dose peut être débuté avant l'endoscopie sans la retarder"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "ESGE 2021 : endoscopie ≤ 24 h après réanimation ; pas d'endoscopie urgente ≤ 12 h systématique (pas d'amélioration du pronostic, recommandation forte, niveau de preuve élevé) ; érythromycine pré-endoscopique ; pas de sonde nasogastrique systématique ; IPP forte dose avant l'endoscopie sans la retarder.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : l'endoscopie ≤ 12 h n'améliore pas le pronostic par rapport à l'endoscopie précoce (sauf instabilité persistante).",
+        "C": "Vrai.",
+        "D": "Faux : non recommandée en routine.",
+        "E": "Vrai."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-017"
+      ],
+      "theme": "Hémorragie digestive haute non variqueuse — délai endoscopique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Confondre le délai de l'hémorragie variqueuse (≤ 12 h) et non variqueuse (≤ 24 h).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Gralnek IM et al. ESGE Guideline NVUGIH – Update 2021. Endoscopy 2021;53(3):300-332. doi:10.1055/a-1369-5274",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0405",
+      "format": "QCS (réponse unique)",
+      "enonce": "À l'endoscopie, un ulcère bulbaire présente un saignement en nappe (suintement) sans jet artériel. Quel est le stade de Forrest ?",
+      "propositions": {
+        "A": "Ia",
+        "B": "Ib",
+        "C": "IIa",
+        "D": "IIb",
+        "E": "III"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "Forrest Ia = jet ; Ib = suintement ; IIa = vaisseau visible ; IIb = caillot adhérent ; IIc = tache pigmentée ; III = fond propre. Les stades Ia, Ib et IIa imposent une hémostase endoscopique.",
+      "explications_par_proposition": {
+        "A": "Faux : Ia = saignement en jet.",
+        "B": "Vrai : saignement actif en nappe.",
+        "C": "Faux : vaisseau visible non hémorragique.",
+        "D": "Faux : caillot adhérent.",
+        "E": "Faux : fond propre, sans stigmate."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-017"
+      ],
+      "theme": "Ulcère hémorragique — classification de Forrest",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Gralnek IM et al. ESGE Guideline NVUGIH – Update 2021. Endoscopy 2021;53(3):300-332. doi:10.1055/a-1369-5274",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0406",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'hémostase endoscopique d'un ulcère Forrest IIa, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une hémostase endoscopique est indiquée",
+        "B": "L'injection d'adrénaline diluée peut être utilisée seule",
+        "C": "Les clips ou les méthodes thermiques sont des options validées",
+        "D": "Un IPP à forte dose est poursuivi 72 heures après l'hémostase",
+        "E": "Une endoscopie de contrôle systématique à 24 heures est recommandée"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'ESGE recommande une hémostase pour les stigmates de haut risque (Ia, Ib, IIa). L'adrénaline doit être associée à une seconde modalité (mécanique ou thermique). IPP forte dose 72 h. Pas de second regard systématique.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : jamais en monothérapie.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : la seconde endoscopie est réservée à la récidive clinique."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-017"
+      ],
+      "theme": "Ulcère hémorragique — hémostase endoscopique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Adrénaline en monothérapie ; second regard systématique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Gralnek IM et al. ESGE Guideline NVUGIH – Update 2021. Endoscopy 2021;53(3):300-332. doi:10.1055/a-1369-5274",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0407",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un cirrhotique Child-Pugh B est admis pour hématémèse. Avant l'endoscopie, quelles mesures sont recommandées ?",
+      "propositions": {
+        "A": "Terlipressine, somatostatine ou octréotide dès la suspicion",
+        "B": "Ceftriaxone 1 g/24 h",
+        "C": "Transfusion pour obtenir une Hb ≥ 10 g/dL",
+        "D": "Plasma frais congelé pour corriger un INR à 1,9",
+        "E": "Érythromycine IV 30 à 120 minutes avant l'endoscopie en l'absence de contre-indication"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "Baveno VII et ESGE 2022 : vasoactif immédiat (2–5 jours), antibioprophylaxie par ceftriaxone (≤ 7 jours), transfusion restrictive (seuil 7, cible 7–8 g/dL), pas de correction de l'INR par PFC, érythromycine pré-endoscopique ; endoscopie ≤ 12 h.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : la sur-transfusion augmente la pression portale et la récidive.",
+        "D": "Faux : l'INR ne reflète pas le risque hémorragique du cirrhotique.",
+        "E": "Vrai."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-017"
+      ],
+      "theme": "Rupture de varices — prise en charge initiale",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Oublier l'antibioprophylaxie ou sur-transfuser le cirrhotique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "de Franchis R et al. Baveno VII – Renewing consensus in portal hypertension. J Hepatol 2022;76(4):959-974. doi:10.1016/j.jhep.2021.12.022",
+          "date": "2022"
+        },
+        {
+          "reference": "Gralnek IM et al. ESGE Guideline: esophagogastric variceal hemorrhage. Endoscopy 2022;54(11):1094-1120. doi:10.1055/a-1939-4887",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0408",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon Baveno VII, chez quels patients cirrhotiques avec rupture de varices œsophagiennes un TIPS préemptif (dans les 72 h) doit-il être envisagé ?",
+      "propositions": {
+        "A": "Child-Pugh C à 12 points",
+        "B": "Child-Pugh B à 8 points avec saignement actif à l'endoscopie initiale",
+        "C": "Child-Pugh A à 6 points sans saignement actif",
+        "D": "Child-Pugh C à 15 points",
+        "E": "GPVH > 20 mmHg mesuré lors de l'hémorragie"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "E"
+      ],
+      "explication_generale": "Indications Baveno VII : Child-Pugh C < 14 points, Child-Pugh B > 7 points avec saignement actif à l'endoscopie initiale, ou GPVH > 20 mmHg. Au-delà de 13 points (C14–15), le bénéfice n'est pas établi (futilité).",
+      "explications_par_proposition": {
+        "A": "Vrai : C < 14.",
+        "B": "Vrai : B > 7 avec saignement actif.",
+        "C": "Faux : bas risque.",
+        "D": "Faux : Child ≥ 14 exclu.",
+        "E": "Vrai."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-017"
+      ],
+      "theme": "Rupture de varices — TIPS préemptif",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Proposer le TIPS préemptif aux Child C15 (futilité) ou oublier le critère du saignement actif pour les Child B.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "de Franchis R et al. Baveno VII – Renewing consensus in portal hypertension. J Hepatol 2022;76(4):959-974. doi:10.1016/j.jhep.2021.12.022",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0409",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'acide tranexamique dans l'hémorragie digestive (essai HALT-IT), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'essai a inclus plus de 12 000 patients",
+        "B": "Il a réduit la mortalité par hémorragie à 5 jours",
+        "C": "Il a augmenté les événements thromboemboliques veineux",
+        "D": "Il est recommandé en routine dans l'hémorragie variqueuse",
+        "E": "Le schéma testé associait 1 g en 10 minutes puis 3 g sur 24 heures"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explication_generale": "HALT-IT (Lancet 2020) : 12 009 patients ; décès par hémorragie à 5 jours 3,7 % vs 3,8 % (RR 0,99) ; thromboses veineuses 0,8 % vs 0,4 % ; plus de convulsions. L'acide tranexamique n'est pas recommandé dans l'hémorragie digestive.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : aucune réduction.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-017"
+      ],
+      "theme": "Hémorragie digestive — acide tranexamique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Transposer les données du traumatisme ou de l'hémorragie du post-partum à l'hémorragie digestive.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "HALT-IT Trial Collaborators. Tranexamic acid in acute GI bleeding (HALT-IT). Lancet 2020",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0410",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une femme de 79 ans présente des rectorragies abondantes persistantes ; FC 118/min, PAS 88 mmHg malgré 1 L de cristalloïdes ; urée normale. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une angio-TDM est l'examen de première intention après réanimation",
+        "B": "Une extravasation à l'angio-TDM conduit à une artériographie avec embolisation",
+        "C": "Une coloscopie urgente dans les 6 heures améliore la survie",
+        "D": "Une origine haute doit être envisagée devant une hématochézie avec instabilité",
+        "E": "Une colectomie subtotale « à l'aveugle » est indiquée d'emblée"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "ACG 2023 : angio-TDM en première intention en cas d'hématochézie persistante avec retentissement hémodynamique ; si extravasation → radiologie interventionnelle. La coloscopie urgente (< 24 h) n'améliore pas les critères majeurs. Une origine haute est possible (EOGD si suspicion, urée élevée). La chirurgie à l'aveugle est un dernier recours.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : pas de bénéfice démontré de la coloscopie urgente.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-017"
+      ],
+      "theme": "Hémorragie digestive basse",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Sengupta N et al. Management of acute lower GI bleeding: updated ACG guideline. Am J Gastroenterol 2023;118(2):208-231. doi:10.14309/ajg.0000000000002130",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0411",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un patient sous apixaban pour fibrillation atriale (CHA2DS2-VASc 4) a présenté un ulcère duodénal hémorragique traité endoscopiquement, sans récidive. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'anticoagulation doit être définitivement arrêtée",
+        "B": "L'ESGE propose une reprise de préférence dans les 7 jours suivant l'hémorragie",
+        "C": "La reprise de l'anticoagulation diminue le risque thromboembolique",
+        "D": "Un IPP doit accompagner la reprise de l'anticoagulant",
+        "E": "Le plasma frais congelé est l'antagoniste de référence de l'apixaban"
+      },
+      "reponses_correctes": [
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "ESGE 2021 : reprise de l'anticoagulation dès le contrôle du saignement, de préférence dans les 7 jours ou peu après. L'ACG 2023 recommande la reprise après l'arrêt du saignement pour diminuer thromboembolies et mortalité. IPP au long cours en prévention.",
+      "explications_par_proposition": {
+        "A": "Faux.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai (prévention de la récidive ulcéreuse).",
+        "E": "Faux : antidote spécifique ou CCP selon disponibilité."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-017"
+      ],
+      "theme": "Hémorragie digestive — antithrombotiques",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Arrêter définitivement un anticoagulant indispensable après une hémorragie contrôlée.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Gralnek IM et al. ESGE Guideline NVUGIH – Update 2021. Endoscopy 2021;53(3):300-332. doi:10.1055/a-1369-5274",
+          "date": "2021"
+        },
+        {
+          "reference": "Sengupta N et al. Management of acute lower GI bleeding: updated ACG guideline. Am J Gastroenterol 2023;118(2):208-231. doi:10.14309/ajg.0000000000002130",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-GAST-0412",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Après un ulcère duodénal hémorragique, quelles propositions concernant *Helicobacter pylori* sont exactes ?",
+      "propositions": {
+        "A": "La recherche doit être faite dès la phase aiguë",
+        "B": "Un test négatif en phase aiguë doit être répété à distance",
+        "C": "Le contrôle de l'éradication est inutile si le patient est asymptomatique",
+        "D": "L'éradication réduit le risque de récidive hémorragique",
+        "E": "Les IPP peuvent rendre faussement négatifs les tests diagnostiques"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "ESGE 2021 : rechercher H. pylori en phase aiguë, traiter s'il est présent, refaire le test s'il est négatif en phase aiguë. Contrôle d'éradication indispensable. Les IPP et le saignement augmentent les faux négatifs.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : contrôle obligatoire après traitement.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "GAST",
+      "items_residanat": [
+        "RES-MED-017"
+      ],
+      "theme": "Ulcère hémorragique — Helicobacter pylori",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Conclure à l'absence d'H. pylori sur un test réalisé sous IPP en phase hémorragique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Gralnek IM et al. ESGE Guideline NVUGIH – Update 2021. Endoscopy 2021;53(3):300-332. doi:10.1055/a-1369-5274",
+          "date": "2021"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEPA-0401",
+      "format": "QCS (réponse unique)",
+      "enonce": "Quel profil sérologique est le plus évocateur d'une hépatite B aiguë ?",
+      "propositions": {
+        "A": "AgHBs −, anti-HBc −, anti-HBs +",
+        "B": "AgHBs +, IgM anti-HBc +, anti-HBs −",
+        "C": "AgHBs −, anti-HBc +, anti-HBs +",
+        "D": "AgHBs +, IgM anti-HBc −, AgHBe −, anti-HBe + depuis 2 ans",
+        "E": "AgHBs −, anti-HBc −, anti-HBs −"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "L'hépatite B aiguë associe AgHBs positif et IgM anti-HBc positives (attention : une réactivation sévère d'infection chronique peut aussi donner des IgM anti-HBc).",
+      "explications_par_proposition": {
+        "A": "Faux : immunité vaccinale.",
+        "B": "Vrai.",
+        "C": "Faux : infection guérie.",
+        "D": "Faux : infection chronique AgHBe négative.",
+        "E": "Faux : sujet non immunisé."
+      },
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-019"
+      ],
+      "theme": "Hépatite B — sérologie",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "EASL CPG on the management of hepatitis B virus infection. J Hepatol 2025;83(2):502-583. doi:10.1016/j.jhep.2025.03.018",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEPA-0402",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un patient a : AgHBs −, anti-HBc +, anti-HBs −. Quelles interprétations sont possibles ?",
+      "propositions": {
+        "A": "Infection ancienne guérie avec disparition des anti-HBs",
+        "B": "Fenêtre sérologique d'une hépatite B aiguë en voie de guérison",
+        "C": "Infection occulte par le VHB",
+        "D": "Faux positif de l'anti-HBc",
+        "E": "Immunité post-vaccinale"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'anti-HBc isolé recouvre plusieurs situations : infection ancienne avec perte des anti-HBs, fenêtre sérologique (IgM anti-HBc positives), infection occulte (ADN détectable), faux positif. Le vaccin n'induit jamais d'anti-HBc.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai (rechercher les IgM anti-HBc).",
+        "C": "Vrai (ADN VHB).",
+        "D": "Vrai.",
+        "E": "Faux : le vaccin (AgHBs recombinant) n'induit que des anti-HBs."
+      },
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-019"
+      ],
+      "theme": "Hépatite B — anti-HBc isolé",
+      "difficulte": 3,
+      "niveau": "residanat",
+      "piege_classique": "Croire qu'un anti-HBc positif traduit une vaccination.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "EASL CPG on the management of hepatitis B virus infection. J Hepatol 2025;83(2):502-583. doi:10.1016/j.jhep.2025.03.018",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEPA-0403",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'hépatite A, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La transmission est principalement féco-orale",
+        "B": "Elle évolue vers la chronicité dans environ 5 % des cas",
+        "C": "Le diagnostic repose sur les IgM anti-VHA",
+        "D": "Le risque de forme grave augmente avec l'âge et en cas d'hépatopathie chronique",
+        "E": "Il n'existe pas de vaccin"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "L'hépatite A ne passe jamais à la chronicité, se diagnostique par les IgM anti-VHA, est plus sévère chez l'adulte âgé et sur hépatopathie préexistante (d'où la vaccination de ces patients). Un vaccin inactivé efficace existe.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : jamais de chronicité.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : vaccin inactivé en 2 doses."
+      },
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-019"
+      ],
+      "theme": "Hépatite A",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "OMS. Global hepatitis report 2024: action for access in low- and middle-income countries. Avril 2024",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEPA-0404",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Au cours d'une hépatite virale aiguë, quels éléments signent une forme grave nécessitant un contact avec un centre de transplantation ?",
+      "propositions": {
+        "A": "TP < 50 %",
+        "B": "Transaminases > 30 × LSN",
+        "C": "Astérixis et confusion",
+        "D": "Facteur V effondré",
+        "E": "Diminution rapide des transaminases avec baisse du TP"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "La gravité se juge sur la fonction hépatocellulaire (TP, facteur V) et l'encéphalopathie, pas sur le niveau des transaminases. Une baisse rapide des transaminases associée à une baisse du TP traduit une nécrose massive.",
+      "explications_par_proposition": {
+        "A": "Vrai : hépatite sévère.",
+        "B": "Faux : non corrélé à la gravité.",
+        "C": "Vrai : encéphalopathie = forme fulminante.",
+        "D": "Vrai.",
+        "E": "Vrai : signe péjoratif."
+      },
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-019"
+      ],
+      "theme": "Hépatite aiguë — critères de gravité",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Évaluer la gravité sur les transaminases.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "EASL CPG on the management of hepatitis B virus infection. J Hepatol 2025;83(2):502-583. doi:10.1016/j.jhep.2025.03.018",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEPA-0405",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon les recommandations EASL 2025, dans quelles situations un traitement antiviral contre le VHB est-il recommandé ou peut-il être proposé ?",
+      "propositions": {
+        "A": "ADN VHB 8 000 UI/mL, ALAT 1,5 × LSN, AgHBe négatif",
+        "B": "Cirrhose avec ADN VHB à 150 UI/mL et ALAT normales",
+        "C": "ADN VHB 800 UI/mL avec ALAT persistamment élevées après exclusion d'une autre cause",
+        "D": "ADN VHB 500 UI/mL, ALAT normales, élastométrie 4,8 kPa, sans antécédent familial",
+        "E": "ADN VHB 3 000 UI/mL, ALAT normales, fibrose significative"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "EASL 2025 : traitement si ADN ≥ 2 000 UI/mL et ALAT > LSN et/ou fibrose significative ; tout cirrhotique avec ADN détectable ; ADN < 2 000 avec ALAT persistamment élevées : traitement possible. La situation D correspond à une infection chronique à faible réplication sans fibrose : surveillance.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai (traitement possible).",
+        "D": "Faux : surveillance.",
+        "E": "Vrai (ADN ≥ 2 000 + fibrose significative)."
+      },
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-019"
+      ],
+      "theme": "Hépatite B chronique — indications EASL 2025",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Exiger des ALAT élevées chez le cirrhotique ; ignorer la fibrose quand les ALAT sont normales.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "EASL CPG on the management of hepatitis B virus infection. J Hepatol 2025;83(2):502-583. doi:10.1016/j.jhep.2025.03.018",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEPA-0406",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les analogues nucléos(t)idiques utilisés dans l'hépatite B, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'entécavir est déconseillé après résistance à la lamivudine",
+        "B": "Le ténofovir disoproxil expose à une toxicité rénale et osseuse",
+        "C": "Le ténofovir alafénamide a une meilleure tolérance rénale et osseuse",
+        "D": "Ils permettent d'obtenir la perte de l'AgHBs chez la majorité des patients en 1 an",
+        "E": "Le ténofovir disoproxil est utilisable pendant la grossesse"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Les analogues (ETV, TDF, TAF) suppriment durablement la réplication mais la perte de l'AgHBs reste rare (ADNccc nucléaire persistant). L'entécavir est moins efficace après résistance à la lamivudine (résistance croisée). Le TDF est l'option de la grossesse.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : la perte de l'AgHBs est rare.",
+        "E": "Vrai."
+      },
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-019"
+      ],
+      "theme": "Hépatite B — antiviraux",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que les analogues « guérissent » l'hépatite B.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "EASL CPG on the management of hepatitis B virus infection. J Hepatol 2025;83(2):502-583. doi:10.1016/j.jhep.2025.03.018",
+          "date": "2025"
+        },
+        {
+          "reference": "EASL 2017 CPG on the management of hepatitis B virus infection. J Hepatol 2017",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEPA-0407",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Avant un traitement par rituximab pour lymphome, un patient a : AgHBs −, anti-HBc +, anti-HBs + (45 mUI/mL), ADN VHB indétectable. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le risque de réactivation du VHB est élevé",
+        "B": "Une prophylaxie par entécavir ou ténofovir est recommandée",
+        "C": "La lamivudine est l'option préférée",
+        "D": "La prophylaxie est poursuivie au moins 18 mois après la dernière perfusion de rituximab",
+        "E": "Aucune mesure n'est nécessaire car les anti-HBs sont protecteurs"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "Les anti-CD20 exposent à un risque élevé de réactivation, même chez les sujets AgHBs−/anti-HBc+. Prophylaxie par ETV/TDF/TAF, poursuivie au moins 18 mois après le rituximab (EASL 2017 ; durée à confirmer dans le texte 2025).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : barrière génétique faible.",
+        "D": "Vrai.",
+        "E": "Faux : les anti-HBs ne protègent pas de la réactivation sous anti-CD20."
+      },
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-019"
+      ],
+      "theme": "Hépatite B — réactivation sous immunosuppression",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Négliger le risque de réactivation chez un patient « guéri » (anti-HBc+).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "EASL CPG on the management of hepatitis B virus infection. J Hepatol 2025;83(2):502-583. doi:10.1016/j.jhep.2025.03.018",
+          "date": "2025"
+        },
+        {
+          "reference": "EASL 2017 CPG on the management of hepatitis B virus infection. J Hepatol 2017",
+          "date": "2017"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEPA-0408",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Une femme enceinte de 20 SA est AgHBs+, AgHBe+, ADN VHB 7,5 log10 UI/mL, ALAT normales. Quelles mesures sont recommandées ?",
+      "propositions": {
+        "A": "Ténofovir disoproxil à débuter vers 24–28 SA",
+        "B": "Césarienne systématique",
+        "C": "Vaccination du nouveau-né dans les 24 heures",
+        "D": "Immunoglobulines anti-HBs au nouveau-né",
+        "E": "Contre-indication de l'allaitement"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Charge virale > 200 000 UI/mL : ténofovir au 3ᵉ trimestre ; sérovaccination du nouveau-né (vaccin dans les 24 h + immunoglobulines) ; la césarienne n'est pas indiquée pour ce motif ; l'allaitement est autorisé.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-019"
+      ],
+      "theme": "Hépatite B — transmission mère-enfant",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Contre-indiquer l'allaitement.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "EASL 2017 CPG on the management of hepatitis B virus infection. J Hepatol 2017",
+          "date": "2017"
+        },
+        {
+          "reference": "OMS. Guidelines for the prevention, diagnosis, care and treatment for people with chronic hepatitis B infection. Mars 2024",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEPA-0409",
+      "format": "QCS (réponse unique)",
+      "enonce": "Un donneur de sang a une sérologie anti-VHC positive. Quelle est l'étape suivante ?",
+      "propositions": {
+        "A": "Génotypage du VHC",
+        "B": "Recherche de l'ARN du VHC (ou de l'antigène de capside)",
+        "C": "Ponction-biopsie hépatique",
+        "D": "Traitement immédiat par sofosbuvir/velpatasvir",
+        "E": "Répétition de la sérologie dans 6 mois"
+      },
+      "reponses_correctes": [
+        "B"
+      ],
+      "explication_generale": "L'anti-VHC signe un contact ; seule la virémie (ARN ou antigène core) affirme une infection active. Le génotypage n'est plus indispensable avec les schémas pangénotypiques.",
+      "explications_par_proposition": {
+        "A": "Faux : non indispensable et inutile si l'ARN est négatif.",
+        "B": "Vrai.",
+        "C": "Faux.",
+        "D": "Faux : il faut d'abord confirmer la virémie.",
+        "E": "Faux : retarde le diagnostic."
+      },
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-019"
+      ],
+      "theme": "Hépatite C — diagnostic",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Assimiler anti-VHC positif et infection active.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "EASL recommendations on treatment of hepatitis C: final update of the series. J Hepatol 2020;73(5):1170-1218. doi:10.1016/j.jhep.2020.08.018",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEPA-0410",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le traitement de l'hépatite C par AAD, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Sofosbuvir/velpatasvir 12 semaines est un schéma pangénotypique",
+        "B": "Glécaprévir/pibrentasvir 8 semaines est une option chez le patient naïf non cirrhotique",
+        "C": "Les inhibiteurs de protéase sont contre-indiqués en cirrhose décompensée",
+        "D": "L'amiodarone peut être associée sans précaution au sofosbuvir",
+        "E": "L'AgHBs doit être recherché avant le traitement"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Schémas EASL 2020 : SOF/VEL 12 semaines, G/P 8 semaines (naïfs). Inhibiteurs de protéase (glécaprévir, voxilaprévir) contre-indiqués en Child B/C. Amiodarone + sofosbuvir : bradycardies graves. Risque de réactivation du VHB sous AAD.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-019"
+      ],
+      "theme": "Hépatite C — antiviraux à action directe",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Oublier les interactions médicamenteuses.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "EASL recommendations on treatment of hepatitis C: final update of the series. J Hepatol 2020;73(5):1170-1218. doi:10.1016/j.jhep.2020.08.018",
+          "date": "2020"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEPA-0411",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Après une réponse virologique soutenue (RVS12), quelles propositions sont exactes selon la position EASL 2024 ?",
+      "propositions": {
+        "A": "Un patient sans fibrose avancée peut être suivi en soins primaires",
+        "B": "Un patient cirrhotique doit poursuivre l'échographie tous les 6 mois",
+        "C": "Les anticorps anti-VHC disparaissent",
+        "D": "Une réinfection est possible",
+        "E": "Les personnes à risque de réinfection bénéficient d'un contrôle régulier de l'ARN"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "La guérison n'efface ni le risque de CHC en cas de fibrose avancée/cirrhose, ni le risque de réinfection ; l'anti-VHC persiste.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : l'anti-VHC persiste.",
+        "D": "Vrai.",
+        "E": "Vrai (par exemple tous les 6 mois)."
+      },
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-019"
+      ],
+      "theme": "Hépatite C — suivi après guérison",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Arrêter le dépistage du CHC chez un cirrhotique guéri.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Reiberger T, Lens S et al. EASL position paper on clinical follow-up after HCV cure. J Hepatol 2024;81(2):326-344. doi:10.1016/j.jhep.2024.04.007",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEPA-0412",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'épidémiologie et la politique de lutte contre les hépatites virales en Algérie, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "L'Algérie est considérée comme une zone d'endémicité intermédiaire pour le VHB",
+        "B": "La répartition du VHB est homogène sur le territoire",
+        "C": "Dans l'étude nationale de Bensalem et al., 15,2 % des patients étaient cirrhotiques au diagnostic",
+        "D": "Un plan stratégique national 2024-2027 vise l'élimination des hépatites virales",
+        "E": "L'élimination de la transmission mère-enfant du VHB est un axe prioritaire du plan national"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Bensalem et al. (Arch Virol 2017) : endémicité intermédiaire, forte hétérogénéité géographique (9 régions en excès), 15,2 % de cirrhoses au diagnostic. Le plan national 2024-2027 met l'accent sur l'élimination de la transmission mère-enfant du VHB.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : forte hétérogénéité.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-019"
+      ],
+      "theme": "Hépatites virales — Algérie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Bensalem A et al. Widespread geographical disparities in chronic hepatitis B virus infection in Algeria. Arch Virol 2017;162:1641-1648. doi:10.1007/s00705-017-3284-6",
+          "date": "2017"
+        },
+        {
+          "reference": "APS / Radio Algérie. Plan stratégique national 2024-2027 d'élimination des hépatites virales (juillet 2026)",
+          "date": "2026"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEPA-0413",
+      "format": "QCS (réponse unique)",
+      "enonce": "Un cirrhotique a : bilirubine 58 µmol/L, albumine 27 g/L, TP 45 %, ascite modérée, pas d'encéphalopathie. Quelle est sa classe de Child-Pugh ?",
+      "propositions": {
+        "A": "A6",
+        "B": "B8",
+        "C": "B9",
+        "D": "C11",
+        "E": "C12"
+      },
+      "reponses_correctes": [
+        "E"
+      ],
+      "explication_generale": "Bilirubine > 50 µmol/L = 3 ; albumine < 28 g/L = 3 ; TP 40–50 % = 2 ; ascite modérée = 3 ; pas d'encéphalopathie = 1. Total = 12 → classe C (10–15).",
+      "explications_par_proposition": {
+        "A": "Faux.",
+        "B": "Faux.",
+        "C": "Faux.",
+        "D": "Faux : erreur d'un point (souvent l'oubli du point attribué à l'absence d'encéphalopathie, ou mauvaise cotation de la bilirubine).",
+        "E": "Vrai : 3 + 3 + 2 + 3 + 1 = 12."
+      },
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-020"
+      ],
+      "theme": "Cirrhose — score de Child-Pugh",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Oublier que l'absence d'encéphalopathie vaut 1 point.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "EASL CPG for the management of patients with decompensated cirrhosis. J Hepatol 2018;69(2):406-460. doi:10.1016/j.jhep.2018.03.024",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEPA-0414",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Devant une cirrhose nouvellement diagnostiquée chez un homme de 32 ans, quels examens font partie du bilan étiologique ?",
+      "propositions": {
+        "A": "Céruléoplasmine",
+        "B": "AgHBs, anti-HBc et anti-VHD si AgHBs positif",
+        "C": "Ferritine et coefficient de saturation de la transferrine",
+        "D": "Anticorps anti-nucléaires, anti-muscle lisse et dosage des IgG",
+        "E": "Dosage de l'alpha-fœtoprotéine comme test étiologique"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le bilan étiologique doit être complet : alcool, VHB (± VHD), VHC, critères métaboliques, auto-immunité, surcharge en fer, Wilson (sujet < 40 ans), alpha-1-antitrypsine, causes vasculaires. L'AFP sert au dépistage du CHC, pas au diagnostic étiologique.",
+      "explications_par_proposition": {
+        "A": "Vrai : Wilson chez le sujet jeune.",
+        "B": "Vrai.",
+        "C": "Vrai : hémochromatose.",
+        "D": "Vrai : hépatite auto-immune.",
+        "E": "Faux : marqueur tumoral."
+      },
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-020"
+      ],
+      "theme": "Cirrhose — bilan étiologique",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "EASL CPG for the management of patients with decompensated cirrhosis. J Hepatol 2018;69(2):406-460. doi:10.1016/j.jhep.2018.03.024",
+          "date": "2018"
+        },
+        {
+          "reference": "EASL CPG on the management of hepatitis B virus infection. J Hepatol 2025;83(2):502-583. doi:10.1016/j.jhep.2025.03.018",
+          "date": "2025"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEPA-0415",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon Baveno VII, quelles propositions concernant l'élastométrie impulsionnelle sont exactes ?",
+      "propositions": {
+        "A": "Une valeur < 10 kPa exclut une maladie chronique avancée du foie compensée en l'absence d'autres signes",
+        "B": "Une valeur ≥ 25 kPa rend probable une hypertension portale cliniquement significative dans les cirrhoses virales et alcooliques",
+        "C": "Une valeur ≤ 15 kPa associée à des plaquettes ≥ 150 G/L exclut une hypertension portale cliniquement significative",
+        "D": "Une valeur < 20 kPa avec plaquettes > 150 G/L permet d'éviter l'endoscopie de dépistage des varices",
+        "E": "Elle est fiable pendant une poussée d'hépatite aiguë"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "« Règle des 5 » de Baveno VII (10-15-20-25 kPa). Les valeurs sont faussement élevées en cas de cytolyse aiguë, de cholestase ou de congestion.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : surestimation pendant la cytolyse."
+      },
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-020"
+      ],
+      "theme": "Cirrhose — outils non invasifs Baveno VII",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Interpréter une élastométrie pendant une hépatite aiguë.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "de Franchis R et al. Baveno VII – Renewing consensus in portal hypertension. J Hepatol 2022;76(4):959-974. doi:10.1016/j.jhep.2021.12.022",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEPA-0416",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un cirrhotique compensé (Child A5) a une élastométrie à 31 kPa et des plaquettes à 98 G/L ; pas d'antécédent de décompensation. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il a probablement une hypertension portale cliniquement significative",
+        "B": "Un bêtabloquant non sélectif est indiqué pour prévenir la décompensation",
+        "C": "Le carvédilol est le bêtabloquant préféré par Baveno VII",
+        "D": "Le carvédilol est débuté à 25 mg × 2/j",
+        "E": "Le bêtabloquant doit être réduit ou arrêté en cas d'hypotension avec PAS < 90 mmHg"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Baveno VII : en cas d'HTPCS, BBNS (carvédilol préféré) pour prévenir la décompensation ; carvédilol 6,25 mg/j puis 12,5 mg/j ; prudence en cas d'hypotension, d'IRA ou d'hyponatrémie sévère.",
+      "explications_par_proposition": {
+        "A": "Vrai : élastométrie ≥ 25 kPa.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : 6,25 mg/j puis 12,5 mg/j.",
+        "E": "Vrai."
+      },
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-020"
+      ],
+      "theme": "Cirrhose compensée — prévention de la décompensation",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Réserver les bêtabloquants aux seules grosses varices (concept antérieur à Baveno VII).",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "de Franchis R et al. Baveno VII – Renewing consensus in portal hypertension. J Hepatol 2022;76(4):959-974. doi:10.1016/j.jhep.2021.12.022",
+          "date": "2022"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEPA-0417",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le traitement de l'ascite non compliquée du cirrhotique (EASL 2018), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le régime apporte 80 à 120 mmol de sodium par jour",
+        "B": "La spironolactone est débutée à 100 mg/j et peut être augmentée jusqu'à 400 mg/j",
+        "C": "Le furosémide peut être augmenté jusqu'à 160 mg/j",
+        "D": "Une restriction hydrique est systématique",
+        "E": "La perte de poids visée est d'au plus 0,5 kg/j en l'absence d'œdèmes"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Régime modérément désodé (4,6–6,9 g de sel/j), spironolactone 100 → 400 mg/j, furosémide 40 → 160 mg/j, perte de poids ≤ 0,5 kg/j sans œdèmes (≤ 1 kg/j avec œdèmes). Restriction hydrique seulement si Na < 125 mmol/L.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-020"
+      ],
+      "theme": "Ascite — traitement",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Régime sans sel strict ou restriction hydrique systématique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "EASL CPG for the management of patients with decompensated cirrhosis. J Hepatol 2018;69(2):406-460. doi:10.1016/j.jhep.2018.03.024",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEPA-0418",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Après l'évacuation de 8 litres d'ascite chez un cirrhotique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une perfusion d'albumine de 8 g par litre évacué est recommandée",
+        "B": "La dose d'albumine correspondante est d'environ 64 g",
+        "C": "L'albumine prévient la dysfonction circulatoire post-paracentèse",
+        "D": "Un INR à 1,9 contre-indique la paracentèse",
+        "E": "Les diurétiques sont repris ensuite pour prévenir la récidive"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "EASL 2018 : paracentèse > 5 L → albumine 8 g/L évacué. La paracentèse est sûre malgré un INR allongé ou une thrombopénie modérée.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai : 8 × 8 = 64 g.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-020"
+      ],
+      "theme": "Ascite tendue — paracentèse",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Transfuser du plasma « préventif » avant une ponction d'ascite.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "EASL CPG for the management of patients with decompensated cirrhosis. J Hepatol 2018;69(2):406-460. doi:10.1016/j.jhep.2018.03.024",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEPA-0419",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un cirrhotique ascitique fébrile a 480 PNN/mm³ dans l'ascite ; culture en cours. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le diagnostic d'infection du liquide d'ascite est retenu",
+        "B": "Il faut attendre la culture avant de débuter les antibiotiques",
+        "C": "Une céphalosporine de 3ᵉ génération est adaptée en cas d'infection communautaire",
+        "D": "L'albumine est administrée à 1,5 g/kg à J1 puis 1 g/kg à J3",
+        "E": "Une prophylaxie secondaire est indiquée après guérison"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "PNN ≥ 250/mm³ = ILA ; traitement immédiat sans attendre la culture ; C3G (ou antibiothérapie élargie si nosocomiale) ; albumine J1/J3 (réduit l'IRA et la mortalité) ; prophylaxie secondaire (norfloxacine) au long cours.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-020"
+      ],
+      "theme": "Infection du liquide d'ascite",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Attendre une culture positive (souvent négative) pour traiter.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "EASL CPG for the management of patients with decompensated cirrhosis. J Hepatol 2018;69(2):406-460. doi:10.1016/j.jhep.2018.03.024",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEPA-0420",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quels éléments sont nécessaires pour retenir un syndrome hépatorénal de type IRA (SHR-IRA) chez un cirrhotique ascitique ?",
+      "propositions": {
+        "A": "IRA selon les critères ICA",
+        "B": "Absence de réponse après 2 jours d'arrêt des diurétiques et d'expansion par albumine 1 g/kg/j",
+        "C": "Absence de choc",
+        "D": "Protéinurie > 500 mg/j",
+        "E": "Absence de traitement néphrotoxique récent"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Critères EASL/ICA : IRA, pas de réponse à l'épreuve albumine de 48 h, pas de choc, pas de néphrotoxique récent, pas de lésion rénale structurale (protéinurie > 500 mg/j, hématurie, anomalies échographiques). Traitement : terlipressine + albumine.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : signe de lésion structurale (critère d'exclusion).",
+        "E": "Vrai."
+      },
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-020"
+      ],
+      "theme": "Insuffisance rénale aiguë — syndrome hépatorénal",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Diagnostiquer un SHR sans épreuve de remplissage par albumine.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "EASL CPG for the management of patients with decompensated cirrhosis. J Hepatol 2018;69(2):406-460. doi:10.1016/j.jhep.2018.03.024",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEPA-0421",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'encéphalopathie hépatique patente du cirrhotique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Un facteur déclenchant doit être systématiquement recherché",
+        "B": "Le lactulose vise 2 à 3 selles molles par jour",
+        "C": "La rifaximine est utilisée en association au lactulose pour prévenir les récidives",
+        "D": "Une restriction protéique stricte est recommandée",
+        "E": "Une hypoglycémie et un hématome sous-dural font partie des diagnostics différentiels"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Traitement du facteur déclenchant (infection, hémorragie, constipation, troubles ioniques, sédatifs), lactulose, rifaximine en prévention secondaire ; pas de restriction protéique (aggrave la dénutrition et la sarcopénie).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-020"
+      ],
+      "theme": "Encéphalopathie hépatique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Restreindre les protéines.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "EASL CPG for the management of patients with decompensated cirrhosis. J Hepatol 2018;69(2):406-460. doi:10.1016/j.jhep.2018.03.024",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEPA-0422",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un cirrhotique ascitique sous diurétiques a une natrémie à 122 mmol/L, sans signe neurologique. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une restriction hydrique est indiquée en cas d'hyponatrémie hypervolémique",
+        "B": "La correction ne doit pas dépasser 8 mmol/L par 24 heures",
+        "C": "Le sérum salé hypertonique est systématique",
+        "D": "Les diurétiques doivent être réévalués (réduits ou suspendus)",
+        "E": "Le risque de myélinolyse centropontine est majoré chez le cirrhotique dénutri ou alcoolique"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "EASL 2018 : restriction hydrique (1–1,5 L/j) si Na < 125 mmol/L dans l'hyponatrémie de dilution, réévaluation des diurétiques ; correction lente (≤ 8 mmol/L/24 h) ; sérum salé hypertonique réservé aux formes sévères symptomatiques.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-020"
+      ],
+      "theme": "Cirrhose — hyponatrémie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Corriger trop vite une hyponatrémie chronique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "EASL CPG for the management of patients with decompensated cirrhosis. J Hepatol 2018;69(2):406-460. doi:10.1016/j.jhep.2018.03.024",
+          "date": "2018"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEPA-0423",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le dépistage du carcinome hépatocellulaire chez le cirrhotique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il repose sur une échographie hépatique tous les 6 mois",
+        "B": "Il est inutile en classe A de Child-Pugh",
+        "C": "Il doit être poursuivi après guérison virologique C",
+        "D": "Il s'adresse aux patients qui pourraient être traités en cas de diagnostic",
+        "E": "Un scanner annuel est la modalité recommandée pour tous"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "EASL 2025 : surveillance par échographie semestrielle (± AFP), personnalisée selon le risque, chez les patients éligibles à un traitement. La guérison virale ne supprime pas le risque de CHC chez le cirrhotique.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : le Child A est la cible principale (traitements curatifs possibles).",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-020"
+      ],
+      "theme": "Cirrhose — dépistage du carcinome hépatocellulaire",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Arrêter le dépistage après RVS.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "EASL CPG on the management of hepatocellular carcinoma. J Hepatol 2025;82(2):315-374. doi:10.1016/j.jhep.2024.08.028",
+          "date": "2025"
+        },
+        {
+          "reference": "Reiberger T, Lens S et al. EASL position paper on clinical follow-up after HCV cure. J Hepatol 2024;81(2):326-344. doi:10.1016/j.jhep.2024.04.007",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-HEPA-0424",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon le consensus Delphi multisociétés de 2023 (Rinella et al.), quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le terme NAFLD est remplacé par MASLD",
+        "B": "Le diagnostic de MASLD requiert au moins 1 des 5 critères cardiométaboliques en plus de la stéatose",
+        "C": "La catégorie MetALD concerne les patients MASLD ayant une consommation d'alcool de 140–350 g/semaine (femme) ou 210–420 g/semaine (homme)",
+        "D": "Les termes « non alcoolique » et « fatty » ont été jugés stigmatisants par une majorité de répondants",
+        "E": "La stéatose sans critère métabolique ni autre cause est classée MASLD"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Le consensus (236 experts, 56 pays, supermajorité de 67 %) adopte MASLD, MetALD et la stéatose cryptogénique pour les patients sans critère métabolique ni cause identifiée.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai (61 % et 66 %).",
+        "E": "Faux : stéatose cryptogénique."
+      },
+      "specialite": "HEPA",
+      "items_residanat": [
+        "RES-MED-020"
+      ],
+      "theme": "Stéatose métabolique — nouvelle nomenclature",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Rinella ME et al. A multisociety Delphi consensus statement on new fatty liver disease nomenclature. J Hepatol 2023;79(6):1542-1556. doi:10.1016/j.jhep.2023.06.003",
+          "date": "2023"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0401",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le cycle d'*Echinococcus granulosus*, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le chien héberge le ténia adulte",
+        "B": "L'homme se contamine en ingérant des œufs",
+        "C": "L'homme se contamine en mangeant de la viande ovine parasitée",
+        "D": "L'homme est une impasse parasitaire",
+        "E": "Le chien se contamine en mangeant des viscères parasités crus"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Cycle chien (hôte définitif) – herbivores (hôtes intermédiaires). L'homme, hôte intermédiaire accidentel, se contamine par les œufs (contact avec le chien, légumes, eau) et ne transmet pas la maladie.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : le kyste n'est pas infestant pour l'homme.",
+        "D": "Vrai.",
+        "E": "Vrai : abattage non contrôlé."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-012"
+      ],
+      "theme": "Kyste hydatique — cycle parasitaire",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Croire que l'homme se contamine en mangeant de la viande.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Brunetti E, Kern P, Vuitton DA (WHO-IWGE). Expert consensus for the diagnosis and treatment of cystic and alveolar echinococcosis in humans. Acta Trop 2010;114(1):1-16. doi:10.1016/j.actatropica.2009.11.001",
+          "date": "2010"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0402",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la structure du kyste hydatique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le périkyste est une réaction fibreuse de l'hôte",
+        "B": "La membrane proligère produit les protoscolex",
+        "C": "Le liquide hydatique est très antigénique",
+        "D": "Les fistules kysto-biliaires siègent dans la membrane cuticulaire",
+        "E": "Le périkyste est enlevé dans la chirurgie radicale"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "De dehors en dedans : périkyste (hôte, contient des canaux biliaires écrasés → fistules), cuticule (laminée), membrane proligère (fertilité), liquide (antigénique : anaphylaxie, dissémination).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : elles siègent dans le périkyste.",
+        "E": "Vrai : périkystectomie."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-012"
+      ],
+      "theme": "Kyste hydatique — structure",
+      "difficulte": 2,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Brunetti E, Kern P, Vuitton DA (WHO-IWGE). Expert consensus for the diagnosis and treatment of cystic and alveolar echinococcosis in humans. Acta Trop 2010;114(1):1-16. doi:10.1016/j.actatropica.2009.11.001",
+          "date": "2010"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0403",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles correspondances entre la classification de Gharbi et celle de l'OMS-IWGE sont exactes ?",
+      "propositions": {
+        "A": "Gharbi I ≈ CE1",
+        "B": "Gharbi II ≈ CE2",
+        "C": "Gharbi III ≈ CE2",
+        "D": "Gharbi IV ≈ CE4",
+        "E": "Gharbi V ≈ CE5"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Gharbi II (membrane décollée) correspond à CE3a ; Gharbi III (vésicules filles, nid d'abeille) à CE2. Le stade CE3b n'a pas d'équivalent strict chez Gharbi.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : Gharbi II = CE3a.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-012"
+      ],
+      "theme": "Kyste hydatique — classifications échographiques",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Croire que les numéros se correspondent un à un.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Gharbi HA et al. Ultrasound examination of the hydatic liver. Radiology 1981;139(2):459-463. doi:10.1148/radiology.139.2.7220891",
+          "date": "1981"
+        },
+        {
+          "reference": "Brunetti E, Kern P, Vuitton DA (WHO-IWGE). Expert consensus for the diagnosis and treatment of cystic and alveolar echinococcosis in humans. Acta Trop 2010;114(1):1-16. doi:10.1016/j.actatropica.2009.11.001",
+          "date": "2010"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0404",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon la classification OMS-IWGE, quels stades sont considérés comme actifs ?",
+      "propositions": {
+        "A": "CL",
+        "B": "CE1",
+        "C": "CE2",
+        "D": "CE3b",
+        "E": "CE5"
+      },
+      "reponses_correctes": [
+        "B",
+        "C"
+      ],
+      "explication_generale": "Actifs : CE1, CE2 ; transitionnels : CE3a, CE3b ; inactifs : CE4, CE5 ; CL : activité indéterminée (diagnostic à confirmer).",
+      "explications_par_proposition": {
+        "A": "Faux : indéterminé.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : transitionnel (souvent encore actif, mais classé transitionnel).",
+        "E": "Faux : inactif."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-012"
+      ],
+      "theme": "Kyste hydatique — activité biologique (OMS)",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Brunetti E, Kern P, Vuitton DA (WHO-IWGE). Expert consensus for the diagnosis and treatment of cystic and alveolar echinococcosis in humans. Acta Trop 2010;114(1):1-16. doi:10.1016/j.actatropica.2009.11.001",
+          "date": "2010"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0405",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la sérologie hydatique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle peut être négative pour un kyste CE1",
+        "B": "Elle est moins sensible pour les localisations pulmonaires",
+        "C": "Une sérologie négative élimine le diagnostic devant une image typique",
+        "D": "Elle peut s'élever transitoirement après traitement",
+        "E": "Un test de confirmation (immunoblot) est utilisé après un test de dépistage positif"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Faux négatifs : CE1, CE4–CE5, poumon ; faux positifs : autres cestodoses. Mauvais marqueur précoce de guérison.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-012"
+      ],
+      "theme": "Kyste hydatique — sérologie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Récuser le diagnostic sur une sérologie négative.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Brunetti E, Kern P, Vuitton DA (WHO-IWGE). Expert consensus for the diagnosis and treatment of cystic and alveolar echinococcosis in humans. Acta Trop 2010;114(1):1-16. doi:10.1016/j.actatropica.2009.11.001",
+          "date": "2010"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0406",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'albendazole dans l'échinococcose kystique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La posologie est de 10–15 mg/kg/j en deux prises",
+        "B": "Il doit être pris au cours d'un repas riche en graisses",
+        "C": "Une surveillance des transaminases et de l'hémogramme est nécessaire",
+        "D": "Il est utilisable sans restriction chez la femme enceinte",
+        "E": "Il est particulièrement efficace sur les kystes CE1 et CE3a de moins de 5 cm"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "Consensus OMS-IWGE 2010 : ABZ 10–15 mg/kg/j (400 mg × 2/j chez l'adulte), avec un repas gras ; hépatotoxicité et neutropénie ; contre-indiqué pendant la grossesse ; seul pour les petits CE1/CE3a, en couverture des gestes pour les autres.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-012"
+      ],
+      "theme": "Kyste hydatique — albendazole",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Prescrire l'albendazole à jeun.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Brunetti E, Kern P, Vuitton DA (WHO-IWGE). Expert consensus for the diagnosis and treatment of cystic and alveolar echinococcosis in humans. Acta Trop 2010;114(1):1-16. doi:10.1016/j.actatropica.2009.11.001",
+          "date": "2010"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0407",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Dans quelles situations la PAIR est-elle contre-indiquée ou inadaptée ?",
+      "propositions": {
+        "A": "Kyste CE1 de 7 cm",
+        "B": "Kyste communiquant avec les voies biliaires",
+        "C": "Kyste CE2 multivésiculaire",
+        "D": "Kyste CE5 calcifié",
+        "E": "Kyste CE3a de 6 cm chez un patient refusant la chirurgie"
+      },
+      "reponses_correctes": [
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La PAIR est indiquée pour CE1 et CE3a (surtout > 5 cm). Elle est contre-indiquée en cas de communication biliaire (cholangite sclérosante par le scolicide), inadaptée aux kystes multivésiculaires (CE2/CE3b → techniques par cathéter ou chirurgie) et inutile pour les kystes inactifs.",
+      "explications_par_proposition": {
+        "A": "Faux : bonne indication.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : bonne indication."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-012"
+      ],
+      "theme": "Kyste hydatique — PAIR",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Brunetti E, Kern P, Vuitton DA (WHO-IWGE). Expert consensus for the diagnosis and treatment of cystic and alveolar echinococcosis in humans. Acta Trop 2010;114(1):1-16. doi:10.1016/j.actatropica.2009.11.001",
+          "date": "2010"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0408",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Un patient porteur d'un kyste hépatique CE3b de 10 cm présente fièvre, douleur et ictère ; l'imagerie montre du matériel dans la voie biliaire principale. Quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il s'agit d'une angiocholite par rupture du kyste dans les voies biliaires",
+        "B": "Une CPRE avec sphinctérotomie est indiquée en cas d'angiocholite sévère",
+        "C": "La PAIR est le traitement de choix du kyste",
+        "D": "Une antibiothérapie est nécessaire",
+        "E": "Une chirurgie du kyste reste nécessaire après la CPRE"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "La rupture intrabiliaire est la complication la plus fréquente. CPRE (désobstruction) puis chirurgie programmée sous albendazole ; la PAIR est contre-indiquée (communication biliaire, stade CE3b).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-012"
+      ],
+      "theme": "Kyste hydatique — rupture dans les voies biliaires",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Oublier la CPRE ou proposer une PAIR.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Brunetti E, Kern P, Vuitton DA (WHO-IWGE). Expert consensus for the diagnosis and treatment of cystic and alveolar echinococcosis in humans. Acta Trop 2010;114(1):1-16. doi:10.1016/j.actatropica.2009.11.001",
+          "date": "2010"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0409",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la chirurgie du kyste hydatique du foie, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La résection du dôme saillant est une technique conservatrice",
+        "B": "La périkystectomie emporte le périkyste",
+        "C": "La fistule biliaire externe est la complication la plus fréquente de la chirurgie conservatrice",
+        "D": "Le champ opératoire doit être protégé par des compresses imbibées de scolicide",
+        "E": "Le formol reste le scolicide recommandé"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Techniques conservatrices (RDS de Lagrot) ou radicales (périkystectomie, hépatectomie). Règles de sécurité : protection du champ, scolicide (sérum salé hypertonique ou éthanol) sauf communication biliaire ; le formol est abandonné.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-012"
+      ],
+      "theme": "Kyste hydatique — techniques chirurgicales",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Brunetti E, Kern P, Vuitton DA (WHO-IWGE). Expert consensus for the diagnosis and treatment of cystic and alveolar echinococcosis in humans. Acta Trop 2010;114(1):1-16. doi:10.1016/j.actatropica.2009.11.001",
+          "date": "2010"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0410",
+      "format": "QCS (réponse unique)",
+      "enonce": "Au cours d'une intervention, la ponction d'un kyste hépatique ramène un liquide teinté de bile. Quelle conduite est la plus appropriée ?",
+      "propositions": {
+        "A": "Injecter de l'éthanol à 95 % pendant 15 minutes",
+        "B": "Injecter du formol dilué",
+        "C": "Ne pas injecter de scolicide dans la cavité et rechercher puis traiter la fistule kysto-biliaire",
+        "D": "Refermer sans ouvrir le kyste",
+        "E": "Convertir en PAIR postopératoire"
+      },
+      "reponses_correctes": [
+        "C"
+      ],
+      "explication_generale": "Un liquide bilieux signe une communication kysto-biliaire : l'injection d'un scolicide expose à une cholangite sclérosante caustique. On extrait le parasite et on traite la fistule (suture, déconnexion, drainage).",
+      "explications_par_proposition": {
+        "A": "Faux.",
+        "B": "Faux (et le formol est abandonné).",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Faux."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-012"
+      ],
+      "theme": "Kyste hydatique — scolicides",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Injecter un scolicide dans un kyste communiquant avec l'arbre biliaire.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Brunetti E, Kern P, Vuitton DA (WHO-IWGE). Expert consensus for the diagnosis and treatment of cystic and alveolar echinococcosis in humans. Acta Trop 2010;114(1):1-16. doi:10.1016/j.actatropica.2009.11.001",
+          "date": "2010"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0411",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon le consensus OMS-IWGE 2010, quelles associations stade–traitement sont appropriées pour des kystes non compliqués ?",
+      "propositions": {
+        "A": "CE1 de 3 cm : albendazole seul",
+        "B": "CE1 de 8 cm : PAIR + albendazole",
+        "C": "CE2 : PAIR seule",
+        "D": "CE5 asymptomatique : abstention et surveillance",
+        "E": "CE3b : chirurgie ou technique percutanée par cathéter en centre expert, avec albendazole"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Approche stade-spécifique : CE1/CE3a < 5 cm → ABZ ; > 5 cm → PAIR + ABZ ; CE2/CE3b → chirurgie ou percutané non-PAIR + ABZ ; CE4/CE5 → « watch and wait ».",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-012"
+      ],
+      "theme": "Kyste hydatique — stratégie selon le stade",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Opérer systématiquement un kyste calcifié asymptomatique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Brunetti E, Kern P, Vuitton DA (WHO-IWGE). Expert consensus for the diagnosis and treatment of cystic and alveolar echinococcosis in humans. Acta Trop 2010;114(1):1-16. doi:10.1016/j.actatropica.2009.11.001",
+          "date": "2010"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0412",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Quelles mesures participent à la prévention de l'échinococcose kystique ?",
+      "propositions": {
+        "A": "Vermifugation régulière des chiens par praziquantel",
+        "B": "Destruction des abats parasités lors de l'abattage",
+        "C": "Vaccination humaine",
+        "D": "Lavage soigneux des légumes crus et hygiène des mains",
+        "E": "Lutte contre l'abattage clandestin"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Interrompre le cycle (approche One Health) : chiens, abattage, hygiène. Il n'existe pas de vaccin humain (un vaccin ovin existe dans certains pays).",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-012"
+      ],
+      "theme": "Kyste hydatique — prévention",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Brunetti E, Kern P, Vuitton DA (WHO-IWGE). Expert consensus for the diagnosis and treatment of cystic and alveolar echinococcosis in humans. Acta Trop 2010;114(1):1-16. doi:10.1016/j.actatropica.2009.11.001",
+          "date": "2010"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0413",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Selon la classification d'Atlanta révisée, quelles propositions concernant le diagnostic de pancréatite aiguë sont exactes ?",
+      "propositions": {
+        "A": "Deux critères sur trois suffisent",
+        "B": "La lipasémie doit être ≥ 3 fois la limite supérieure de la normale",
+        "C": "Le scanner est indispensable dans tous les cas",
+        "D": "La douleur typique est un des critères",
+        "E": "L'imagerie caractéristique est un des critères"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "explication_generale": "Diagnostic : douleur typique, lipase (ou amylase) ≥ 3 × LSN, imagerie caractéristique — 2 critères sur 3 suffisent.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : uniquement si doute diagnostique.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-010"
+      ],
+      "theme": "Pancréatite aiguë — diagnostic positif",
+      "difficulte": 1,
+      "niveau": "etudiant",
+      "piege_classique": "Demander un scanner pour « confirmer » une PA typique.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Banks PA et al. Classification of acute pancreatitis—2012: revision of the Atlanta classification. Gut 2013;62(1):102-111. doi:10.1136/gutjnl-2012-302779",
+          "date": "2013"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0414",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la lipasémie au cours de la pancréatite aiguë, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Son niveau est corrélé à la gravité",
+        "B": "Elle est plus spécifique que l'amylasémie",
+        "C": "Il est inutile de la doser quotidiennement pour suivre l'évolution",
+        "D": "Elle peut être modérément élevée dans une perforation d'ulcère",
+        "E": "Une lipase à 30 × LSN oriente vers une origine alcoolique"
+      },
+      "reponses_correctes": [
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "La lipase est le marqueur diagnostique de référence ; son niveau n'est corrélé ni à la gravité ni à l'étiologie ; élévations modérées possibles dans d'autres urgences abdominales.",
+      "explications_par_proposition": {
+        "A": "Faux.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-010"
+      ],
+      "theme": "Pancréatite aiguë — lipasémie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Suivre la lipase comme marqueur de gravité.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "IAP/APA evidence-based guidelines for the management of acute pancreatitis. Pancreatology 2013;13(4 Suppl 2):e1-e15. doi:10.1016/j.pan.2013.07.063",
+          "date": "2013"
+        },
+        {
+          "reference": "Tenner S et al. ACG Guidelines: Management of Acute Pancreatitis. Am J Gastroenterol 2024;119(3):419-437. doi:10.14309/ajg.0000000000002645",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0415",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'imagerie au cours d'une pancréatite aiguë typique, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une échographie abdominale est réalisée chez tous les patients à l'admission",
+        "B": "Le scanner injecté est systématique dans les 12 premières heures",
+        "C": "Pour évaluer la nécrose, le scanner est réalisé au moins 72–96 heures après le début",
+        "D": "Un scanner est justifié d'emblée en cas de doute avec une urgence chirurgicale",
+        "E": "L'échoendoscopie fait partie du bilan des pancréatites idiopathiques"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "explication_generale": "IAP/APA 2013 et ACG 2024 : échographie à l'admission (lithiase) ; pas de scanner systématique précoce ; scanner tardif pour la nécrose ; échoendoscopie en seconde intention.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Vrai."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-010"
+      ],
+      "theme": "Pancréatite aiguë — imagerie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Scanner précoce systématique qui sous-estime la nécrose.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "IAP/APA evidence-based guidelines for the management of acute pancreatitis. Pancreatology 2013;13(4 Suppl 2):e1-e15. doi:10.1016/j.pan.2013.07.063",
+          "date": "2013"
+        },
+        {
+          "reference": "Tenner S et al. ACG Guidelines: Management of Acute Pancreatitis. Am J Gastroenterol 2024;119(3):419-437. doi:10.14309/ajg.0000000000002645",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0416",
+      "format": "QCS (réponse unique)",
+      "enonce": "Une pancréatite aiguë se complique d'une insuffisance respiratoire (PaO2/FiO2 = 240) persistant 4 jours. Quelle est sa gravité selon Atlanta révisée ?",
+      "propositions": {
+        "A": "Légère",
+        "B": "Modérément sévère",
+        "C": "Sévère",
+        "D": "Critique",
+        "E": "Inclassable sans scanner"
+      },
+      "reponses_correctes": [
+        "C"
+      ],
+      "explication_generale": "Une défaillance d'organe persistante plus de 48 heures définit la forme sévère, indépendamment de la nécrose.",
+      "explications_par_proposition": {
+        "A": "Faux.",
+        "B": "Faux : défaillance < 48 h ou complication locale.",
+        "C": "Vrai.",
+        "D": "Faux : catégorie d'une autre classification (déterminants).",
+        "E": "Faux."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-010"
+      ],
+      "theme": "Pancréatite aiguë — gravité (Atlanta révisée)",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Fonder la gravité sur l'étendue de la nécrose seule.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Banks PA et al. Classification of acute pancreatitis—2012: revision of the Atlanta classification. Gut 2013;62(1):102-111. doi:10.1136/gutjnl-2012-302779",
+          "date": "2013"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0417",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant le score de Marshall modifié utilisé dans la classification d'Atlanta révisée, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Il évalue les fonctions respiratoire, rénale et cardiovasculaire",
+        "B": "Une défaillance d'organe correspond à un score ≥ 2 pour un organe",
+        "C": "Une créatinine de 180 µmol/L correspond à 2 points",
+        "D": "Une PAS < 90 mmHg répondant au remplissage correspond à 2 points",
+        "E": "Il inclut le score de Glasgow"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explication_generale": "Rénal : 134–169 = 1 ; 170–310 = 2. Cardiovasculaire : PAS < 90 répondant au remplissage = 1 ; ne répondant pas = 2. Pas de critère neurologique dans le score modifié d'Atlanta.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux : 1 point.",
+        "E": "Faux."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-010"
+      ],
+      "theme": "Pancréatite aiguë — score de Marshall modifié",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": null,
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Banks PA et al. Classification of acute pancreatitis—2012: revision of the Atlanta classification. Gut 2013;62(1):102-111. doi:10.1136/gutjnl-2012-302779",
+          "date": "2013"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0418",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant les collections de la pancréatite aiguë selon Atlanta révisée, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le pseudokyste survient après une pancréatite interstitielle, au-delà de 4 semaines",
+        "B": "La nécrose organisée (walled-off necrosis) contient des débris nécrotiques",
+        "C": "Une collection nécrotique aiguë a une paroi bien définie",
+        "D": "Toutes les collections peuvent être stériles ou infectées",
+        "E": "Un pseudokyste asymptomatique de 8 cm doit être drainé"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explication_generale": "< 4 semaines : collection liquidienne aiguë (interstitielle) ou collection nécrotique aiguë (nécrosante), sans paroi ; > 4 semaines : pseudokyste (sans nécrose) ou nécrose organisée, encapsulés. Abstention pour les collections asymptomatiques quelle que soit leur taille.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Faux : pas de paroi.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-010"
+      ],
+      "theme": "Pancréatite aiguë — complications locales",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Drainer un pseudokyste sur un critère de taille.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Banks PA et al. Classification of acute pancreatitis—2012: revision of the Atlanta classification. Gut 2013;62(1):102-111. doi:10.1136/gutjnl-2012-302779",
+          "date": "2013"
+        },
+        {
+          "reference": "IAP/APA evidence-based guidelines for the management of acute pancreatitis. Pancreatology 2013;13(4 Suppl 2):e1-e15. doi:10.1016/j.pan.2013.07.063",
+          "date": "2013"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0419",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la réanimation hydrique de la pancréatite aiguë, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Le Ringer lactate est préféré au sérum salé isotonique",
+        "B": "L'essai WATERFALL a montré qu'un remplissage agressif réduisait l'évolution vers une forme sévère",
+        "C": "Dans WATERFALL, la surcharge hydrique était plus fréquente avec le remplissage agressif",
+        "D": "Le remplissage doit être réévalué régulièrement (hémodynamique, diurèse, signes de surcharge)",
+        "E": "Un bolus de 20 mL/kg suivi de 3 mL/kg/h est la stratégie recommandée pour tous"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "WATERFALL (NEJM 2022) : pas de bénéfice du remplissage agressif (22,1 % vs 17,3 % d'évolution vers une forme modérément sévère/sévère) et plus de surcharge (20,5 % vs 6,3 %). Stratégie modérée guidée par des objectifs.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : c'était le bras agressif."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-010"
+      ],
+      "theme": "Pancréatite aiguë — réanimation hydrique",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Remplir massivement par réflexe.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "de-Madaria E et al. Aggressive or moderate fluid resuscitation in acute pancreatitis (WATERFALL). N Engl J Med 2022;387:989-1000. doi:10.1056/NEJMoa2202884",
+          "date": "2022"
+        },
+        {
+          "reference": "Tenner S et al. ACG Guidelines: Management of Acute Pancreatitis. Am J Gastroenterol 2024;119(3):419-437. doi:10.14309/ajg.0000000000002645",
+          "date": "2024"
+        },
+        {
+          "reference": "IAP/APA evidence-based guidelines for the management of acute pancreatitis. Pancreatology 2013;13(4 Suppl 2):e1-e15. doi:10.1016/j.pan.2013.07.063",
+          "date": "2013"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0420",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la nutrition au cours de la pancréatite aiguë, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Dans les formes légères, une réalimentation orale précoce (24–48 h) est recommandée",
+        "B": "Dans les formes sévères, la nutrition entérale est préférée à la parentérale",
+        "C": "La sonde nasogastrique est acceptable pour la nutrition entérale",
+        "D": "Le jeûne doit être maintenu jusqu'à normalisation de la lipase",
+        "E": "La nutrition parentérale est réservée à l'impossibilité ou à l'insuffisance de la voie entérale"
+      },
+      "reponses_correctes": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "explication_generale": "ACG 2024 et IAP/APA 2013 : alimentation orale précoce (régime pauvre en graisses) ; entérale > parentérale ; voie nasogastrique possible.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Faux.",
+        "E": "Vrai."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-010"
+      ],
+      "theme": "Pancréatite aiguë — nutrition",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Jeûne prolongé ou parentérale d'emblée.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "Tenner S et al. ACG Guidelines: Management of Acute Pancreatitis. Am J Gastroenterol 2024;119(3):419-437. doi:10.14309/ajg.0000000000002645",
+          "date": "2024"
+        },
+        {
+          "reference": "IAP/APA evidence-based guidelines for the management of acute pancreatitis. Pancreatology 2013;13(4 Suppl 2):e1-e15. doi:10.1016/j.pan.2013.07.063",
+          "date": "2013"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0421",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant l'antibiothérapie au cours de la pancréatite aiguë, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Une antibioprophylaxie est recommandée dans toutes les pancréatites nécrosantes",
+        "B": "Une angiocholite associée justifie une antibiothérapie",
+        "C": "La nécrose infectée justifie une antibiothérapie pénétrant la nécrose",
+        "D": "Les antibiotiques peuvent permettre de différer une intervention sur la nécrose infectée",
+        "E": "Une fièvre à J2 impose une antibiothérapie probabiliste systématique"
+      },
+      "reponses_correctes": [
+        "B",
+        "C",
+        "D"
+      ],
+      "explication_generale": "Pas d'antibioprophylaxie (IAP/APA, ACG). Antibiotiques pour les infections documentées ou fortement suspectées. La fièvre précoce relève le plus souvent du SIRS.",
+      "explications_par_proposition": {
+        "A": "Faux.",
+        "B": "Vrai.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux : la fièvre précoce est souvent inflammatoire."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-010"
+      ],
+      "theme": "Pancréatite aiguë — antibiothérapie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Antibioprophylaxie systématique de la nécrose.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "IAP/APA evidence-based guidelines for the management of acute pancreatitis. Pancreatology 2013;13(4 Suppl 2):e1-e15. doi:10.1016/j.pan.2013.07.063",
+          "date": "2013"
+        },
+        {
+          "reference": "Tenner S et al. ACG Guidelines: Management of Acute Pancreatitis. Am J Gastroenterol 2024;119(3):419-437. doi:10.14309/ajg.0000000000002645",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0422",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la CPRE au cours de la pancréatite aiguë biliaire, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "Elle est indiquée en urgence (< 24 h) en cas d'angiocholite associée",
+        "B": "Elle est systématique dans toutes les formes prédites sévères",
+        "C": "Sans angiocholite ni obstruction, un traitement médical est préféré à une CPRE dans les 72 premières heures",
+        "D": "Elle peut être proposée pour prévenir la récidive chez un patient inopérable",
+        "E": "Elle dispense de la cholécystectomie chez un patient opérable"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "IAP/APA 2013 et ACG 2024 : CPRE urgente si angiocholite ; pas de CPRE précoce sans angiocholite (y compris formes sévères prédites) ; sphinctérotomie si contre-indication opératoire ; cholécystectomie chez le patient opérable.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-010"
+      ],
+      "theme": "Pancréatite aiguë biliaire — CPRE",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "CPRE systématique dans la PA biliaire.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "IAP/APA evidence-based guidelines for the management of acute pancreatitis. Pancreatology 2013;13(4 Suppl 2):e1-e15. doi:10.1016/j.pan.2013.07.063",
+          "date": "2013"
+        },
+        {
+          "reference": "Tenner S et al. ACG Guidelines: Management of Acute Pancreatitis. Am J Gastroenterol 2024;119(3):419-437. doi:10.14309/ajg.0000000000002645",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0423",
+      "format": "QCS (réponse unique)",
+      "enonce": "Quelle est la conduite recommandée vis-à-vis de la vésicule après une pancréatite aiguë biliaire légère chez une patiente de 45 ans opérable ?",
+      "propositions": {
+        "A": "Cholécystectomie au cours de la même hospitalisation",
+        "B": "Cholécystectomie à 3 mois",
+        "C": "Surveillance et cholécystectomie seulement en cas de récidive",
+        "D": "Sphinctérotomie endoscopique seule",
+        "E": "Traitement par acide ursodésoxycholique"
+      },
+      "reponses_correctes": [
+        "A"
+      ],
+      "explication_generale": "IAP/APA 2013 et ACG 2024 : cholécystectomie pendant l'hospitalisation initiale pour une PA biliaire légère (risque de récidive en cas de report) ; différée dans les formes nécrosantes.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux : risque de récidive.",
+        "C": "Faux.",
+        "D": "Faux : réservée aux patients inopérables.",
+        "E": "Faux."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-010"
+      ],
+      "theme": "Pancréatite aiguë biliaire — cholécystectomie",
+      "difficulte": 2,
+      "niveau": "residanat",
+      "piege_classique": "Reporter la cholécystectomie d'une PA biliaire légère.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "IAP/APA evidence-based guidelines for the management of acute pancreatitis. Pancreatology 2013;13(4 Suppl 2):e1-e15. doi:10.1016/j.pan.2013.07.063",
+          "date": "2013"
+        },
+        {
+          "reference": "Tenner S et al. ACG Guidelines: Management of Acute Pancreatitis. Am J Gastroenterol 2024;119(3):419-437. doi:10.14309/ajg.0000000000002645",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    },
+    {
+      "id": "QCM-CDIG-0424",
+      "format": "QCM (réponses multiples)",
+      "enonce": "Concernant la prise en charge de la nécrose pancréatique infectée, quelles propositions sont exactes ?",
+      "propositions": {
+        "A": "La présence de bulles de gaz dans la nécrose au scanner est très évocatrice",
+        "B": "La nécrosectomie chirurgicale ouverte précoce est le traitement de première intention",
+        "C": "L'approche « step-up » débute par un drainage percutané ou endoscopique",
+        "D": "L'intervention est idéalement différée jusqu'à l'encapsulation (environ 4 semaines)",
+        "E": "Une nécrose stérile asymptomatique doit être drainée si elle dépasse 30 % de la glande"
+      },
+      "reponses_correctes": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explication_generale": "IAP/APA 2013 : antibiotiques, puis step-up (drainage → nécrosectomie mini-invasive), différé jusqu'à l'encapsulation ; la nécrose stérile relève de l'abstention.",
+      "explications_par_proposition": {
+        "A": "Vrai.",
+        "B": "Faux.",
+        "C": "Vrai.",
+        "D": "Vrai.",
+        "E": "Faux."
+      },
+      "specialite": "CDIG",
+      "items_residanat": [
+        "RES-CHI-010"
+      ],
+      "theme": "Pancréatite aiguë — nécrose infectée",
+      "difficulte": 3,
+      "niveau": "dems",
+      "piege_classique": "Opérer précocement une nécrose.",
+      "origine": "originale_mediverse",
+      "annale": {
+        "annee": null,
+        "faculte": null,
+        "document": null
+      },
+      "sources": [
+        {
+          "reference": "IAP/APA evidence-based guidelines for the management of acute pancreatitis. Pancreatology 2013;13(4 Suppl 2):e1-e15. doi:10.1016/j.pan.2013.07.063",
+          "date": "2013"
+        },
+        {
+          "reference": "Tenner S et al. ACG Guidelines: Management of Acute Pancreatitis. Am J Gastroenterol 2024;119(3):419-437. doi:10.14309/ajg.0000000000002645",
+          "date": "2024"
+        }
+      ],
+      "statut": "brouillon_a_auditer",
+      "auteur": "DOS-04",
+      "date_creation": "2026-11-19"
+    }
+  ]
+}

@@ -1,10 +1,62 @@
 {
   "id": "ANA-19",
-  "statut": "couvert_par_ANA-01",
-  "derniere_execution": "2026-11-19T01:25:21+00:00",
-  "taches_terminees": [],
-  "taches_suivantes": [],
-  "objectifs": {},
-  "compteurs": {},
-  "note": "Poste tenu par l'agent ANA-01 (agent unique pour ANA-01 à ANA-20) : voir 00_SYSTEME/agents/ANA-01/etat.json et les lots 24_BIBLIOGRAPHIE/00_CATALOGUE_OUVRAGES/lots/ANA-*.json."
+  "statut": "volet_encyclopedie_termine_a_auditer",
+  "derniere_execution": "2026-11-19T02:29:28+00:00",
+  "taches_terminees": [
+    "Référentiel des pathologies §11 (lots ENC-2) : 684 pathologies, 86 rares, CIM-10 554/684"
+  ],
+  "taches_suivantes": [
+    "Audit du référentiel ENC-2 (statut referentiel_a_auditer)",
+    "Arbitrage des recouvrements résiduels avec ENC-1 et pose des liens inter-agents",
+    "Fusion par indexer.py (referentiel_pathologies.json)"
+  ],
+  "objectifs": {
+    "total_vise": 550,
+    "grandes_specialites_min": 30,
+    "autres_min": 12
+  },
+  "compteurs": {
+    "pathologies": 684,
+    "maladies_rares": 86,
+    "cim10_renseignes": 554,
+    "par_specialite": {
+      "PEDI": 38,
+      "NEON": 41,
+      "CPED": 33,
+      "GYNE": 35,
+      "OBST": 45,
+      "UROL": 33,
+      "CGEN": 21,
+      "CDIG": 36,
+      "CTHO": 13,
+      "CCVA": 16,
+      "ORTH": 36,
+      "TRAU": 43,
+      "NCHI": 32,
+      "CPLA": 15,
+      "MPR": 13,
+      "ORL": 37,
+      "OPHT": 46,
+      "DENT": 21,
+      "URGE": 33,
+      "MINT_REA": 14,
+      "ANES": 17,
+      "MLEG": 17,
+      "MTRA": 18,
+      "SPUB": 10,
+      "EPID": 4,
+      "ANAP": 17
+    },
+    "doublons_enc1_retires": 136
+  },
+  "note": "Poste tenu par l'agent ANA-01 (agent unique pour ANA-01 à ANA-20) : voir 00_SYSTEME/agents/ANA-01/etat.json et les lots 24_BIBLIOGRAPHIE/00_CATALOGUE_OUVRAGES/lots/ANA-*.json. | Volet encyclopédie (§11) tenu en propre (lots ENC-2, couvre aussi ANA-20).",
+  "lots": [
+    "22_ENCYCLOPEDIE_PATHOLOGIES/00_REFERENTIEL/lots/ENC-2-PEDIATRIE.json",
+    "22_ENCYCLOPEDIE_PATHOLOGIES/00_REFERENTIEL/lots/ENC-2-GYNECO_OBSTETRIQUE_UROLOGIE.json",
+    "22_ENCYCLOPEDIE_PATHOLOGIES/00_REFERENTIEL/lots/ENC-2-CHIRURGIE_VISCERALE_THORACIQUE_VASCULAIRE.json",
+    "22_ENCYCLOPEDIE_PATHOLOGIES/00_REFERENTIEL/lots/ENC-2-LOCOMOTEUR_NEUROCHIRURGIE_PLASTIQUE_MPR.json",
+    "22_ENCYCLOPEDIE_PATHOLOGIES/00_REFERENTIEL/lots/ENC-2-TETE_ET_COU.json",
+    "22_ENCYCLOPEDIE_PATHOLOGIES/00_REFERENTIEL/lots/ENC-2-URGENCES_REANIMATION_ANESTHESIE.json",
+    "22_ENCYCLOPEDIE_PATHOLOGIES/00_REFERENTIEL/lots/ENC-2-TRANSVERSAL_MLEG_MTRA_SPUB_EPID_ANAP.json"
+  ]
 }

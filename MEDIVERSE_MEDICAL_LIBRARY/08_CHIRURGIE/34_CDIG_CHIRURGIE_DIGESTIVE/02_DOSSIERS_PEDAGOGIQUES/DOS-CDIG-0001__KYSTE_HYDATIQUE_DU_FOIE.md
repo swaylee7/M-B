@@ -6,11 +6,17 @@ sous_specialite: "Chirurgie hépatobiliaire — parasitoses chirurgicales"
 items_residanat: [RES-CHI-012]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-04 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01/AUD-02/AUD-04 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 21
+    rapport: 00_SYSTEME/agents/AUD-04/rapports/DOS-CDIG-0001.md
 sources:
   - id: S1
     reference: "Brunetti E, Kern P, Vuitton DA; Writing Panel for the WHO-IWGE. Expert consensus for the diagnosis and treatment of cystic and alveolar echinococcosis in humans. Acta Trop. 2010;114(1):1-16."
@@ -29,13 +35,13 @@ sources:
     url: ""
     verifiee: true
   - id: S3
-    reference: "WHO Informal Working Group on Echinococcosis. International classification of ultrasound images in cystic echinococcosis for application in clinical and field epidemiological settings. Acta Trop. 2003;85:253-261."
+    reference: "WHO Informal Working Group on Echinococcosis. International classification of ultrasound images in cystic echinococcosis for application in clinical and field epidemiological settings. Acta Trop. 2003;85(2):253-261."
     organisme: "OMS — WHO-IWGE"
     annee: 2003
     type: recommandation
-    doi: ""
+    doi: "10.1016/S0001-706X(02)00223-1"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S4
     reference: "World Health Organization. PAIR: Puncture, Aspiration, Injection, Re-Aspiration. An option for the treatment of cystic echinococcosis. Geneva: WHO; 2001 (WHO/CDS/CSR/APH/2001.6)."
     organisme: OMS
@@ -45,19 +51,19 @@ sources:
     url: ""
     verifiee: false
   - id: S5
-    reference: "[Auteurs À VÉRIFIER]. Article francophone sur l'échinococcose kystique (2023) rapportant une incidence chirurgicale annuelle en Algérie de 1,78 à 2,26 pour 100 000 habitants (citant des travaux antérieurs). PubMed Central PMC10714594."
-    organisme: "PubMed Central"
+    reference: "Benchikh El Fegoun MC, Umhang G, Boué F, et al. Prélèvement des kystes hydatiques par la méthode FTA Card pour la caractérisation moléculaire d'Echinococcus granulosus sensu lato en Algérie. Résultats préliminaires. Med Trop Sante Int. 2023;3(3). PMC10714594. (Cite une incidence chirurgicale annuelle de 1,78 à 2,26/100 000 d'après Hotez et coll. 2012 et Seimenis et coll. 2006.)"
+    organisme: "Med Trop Sante Int"
     annee: 2023
     type: article
-    doi: ""
+    doi: "10.48327/mtsi.v3i3.2023.416"
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10714594"
     verifiee: true
   - id: S6
-    reference: "Kheninef et al. [titre exact et revue À VÉRIFIER]. Étude de l'échinococcose kystique dans la région de Sétif (Algérie). 2026. Dépôt institutionnel Sapienza Università di Roma (IRIS)."
-    organisme: "Dépôt académique"
+    reference: "Kheninef A, Bellini I, Rondón S, et al. Echinococcus granulosus sensu stricto hydatid cysts in human and livestock from northeastern Algeria: molecular characterization based on nad5 and cox1 and fertility assessment. Parasitol Res. 2026;125. PMC13447339. (Version déposée : IRIS Sapienza Università di Roma.)"
+    organisme: "Parasitol Res"
     annee: 2026
     type: article
-    doi: ""
+    doi: "10.1007/s00436-026-08703-4"
     url: "https://iris.uniroma1.it/retrieve/6bfb6714-ca85-462d-aab0-e6682e42e3b4/Kheninef_Echinococcus_2026.pdf"
     verifiee: true
   - id: S7
@@ -81,33 +87,41 @@ sources:
     organisme: "Clin Microbiol Rev"
     annee: 2004
     type: article
-    doi: ""
+    doi: "10.1128/CMR.17.1.107-135.2004"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S10
     reference: "Wen H, Vuitton L, Tuxun T, et al. Echinococcosis: advances in the 21st century. Clin Microbiol Rev. 2019;32(2):e00075-18."
     organisme: "Clin Microbiol Rev"
     annee: 2019
     type: article
-    doi: ""
+    doi: "10.1128/CMR.00075-18"
     url: ""
-    verifiee: false
+    verifiee: true
   - id: S11
     reference: "Vuitton DA, McManus DP, Rogan MT, et al. International consensus on terminology to be used in the field of echinococcoses. Parasite. 2020;27:41."
     organisme: "Parasite"
     annee: 2020
     type: recommandation
-    doi: ""
+    doi: "10.1051/parasite/2020024"
     url: ""
-    verifiee: false
+    verifiee: true
+  - id: S12
+    reference: "World Health Organization. WHO guidelines for the treatment of patients with cystic echinococcosis. Geneva: WHO; 2025 (publié le 16 juin 2025). ISBN 978-92-4-011047-2. Licence CC BY-NC-SA 3.0 IGO."
+    organisme: OMS
+    annee: 2025
+    type: recommandation
+    doi: ""
+    url: "https://www.who.int/publications/i/item/9789240110472"
+    verifiee: true
 mots_cles: [kyste hydatique, échinococcose kystique, Echinococcus granulosus, hydatidose, classification de Gharbi, classification OMS-IWGE, albendazole, PAIR, résection du dôme saillant, périkystectomie, fistule kysto-biliaire, angiocholite hydatique, Algérie, One Health]
 ---
 
 # Kyste hydatique du foie : diagnostic, traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
-> Le consensus OMS-IWGE de 2010 [S1] reste le document international de référence pour la prise en charge « selon le stade » ; plusieurs données chiffrées (durées d'albendazole péri-interventionnel, taux de récidive) n'ont pas pu être revérifiées dans le texte intégral pendant la rédaction et sont signalées [À VÉRIFIER].
+> Statut : audité (AUD-01/02/04, 19/11/2026, v1.1) — corrections requises (voir rapport). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> **Actualisation (audit)** : l'OMS a publié le **16 juin 2025** ses premières **lignes directrices de traitement de l'échinococcose kystique** (méthode GRADE ; 7 recommandations conditionnelles, niveau de preuve très faible) [S12]. Elles actualisent la stratégie « selon le stade » du consensus OMS-IWGE de 2010 [S1] et précisent les posologies et durées d'albendazole ; ce dossier a été mis à jour en conséquence. Les taux de récidive restent signalés [À VÉRIFIER].
 
 **Items du programme couverts** : RES-CHI-012 — « Kyste hydatique du foie : Diagnostic - traitement. »
 
@@ -142,6 +156,7 @@ mots_cles: [kyste hydatique, échinococcose kystique, Echinococcus granulosus, h
 - **2001–2003** : manuel OMS sur la PAIR [S4] et **classification OMS-IWGE** standardisée [S3].
 - **2010** : **consensus d'experts OMS-IWGE** (Brunetti, Kern, Vuitton) promouvant une approche **fondée sur l'imagerie et adaptée au stade** du kyste [S1].
 - **2020** : consensus international sur la **terminologie** des échinococcoses [S11].
+- **2025** : premières **lignes directrices de l'OMS** pour le traitement de l'échinococcose kystique (kystes hépatiques non compliqués, kystes pulmonaires < 5 cm) [S12].
 
 ---
 
@@ -156,12 +171,12 @@ L'échinococcose kystique est cosmopolite, endémique dans les régions d'**éle
 | Indicateur | Donnée | Source |
 |---|---|---|
 | Statut | Zone d'**hyperendémie** de l'échinococcose kystique, comme l'ensemble du Maghreb | [S1, S5, S8] |
-| Incidence chirurgicale annuelle (estimation) | **1,78 à 2,26 / 100 000 habitants** (estimation citant des travaux antérieurs) | [S5] |
-| Autre estimation publiée pour l'Algérie | **3,6 à 4,6 / 100 000** (tableau comparatif d'une revue tunisienne), Tunisie ≈ **12,6 / 100 000** | [S8] [référence À VÉRIFIER] |
-| Données régionales récentes | Étude dans la région de **Sétif** (2026) rapportant une incidence chirurgicale élevée ; l'origine exacte du chiffre cité (données algériennes ou tunisiennes) doit être vérifiée | [S6] |
+| Incidence chirurgicale annuelle — estimation n° 1 | **1,78 à 2,26 / 100 000 habitants** : chiffre cité en **2023** par Benchikh El Fegoun et coll., d'après des sources secondaires antérieures (Hotez et coll. 2012 ; Seimenis et coll. 2006) ; période de mesure non précisée | [S5] |
+| Incidence chirurgicale annuelle — estimation n° 2 | **3,6 à 4,6 / 100 000** (tableau comparatif maghrébin d'une revue tunisienne ; Tunisie ≈ 12,6 / 100 000) ; date et période non identifiées | [S8] [référence À VÉRIFIER] |
+| Incidence chirurgicale — chiffre n° 3 (Sétif) | L'étude de **Kheninef et coll. (Parasitol Res, 2026)**, menée sur des kystes humains et animaux de la région de **Sétif**, cite une incidence chirurgicale moyenne de **12,7 / 100 000** : ce chiffre concerne **la Tunisie** (enquête 2001–2005, Chahed et coll. 2010), **pas l'Algérie** ; l'étude rapporte pour l'Algérie des prévalences animales (≈ 20 % des chiens errants ; 8,2–78 % des ovins ; ≈ 17 % des bovins selon les sources citées) | [S6] |
 | Expérience chirurgicale | Série rétrospective **oranaise** d'environ **2 200 kystes hydatiques** opérés sur 50 ans | [S7] |
 
-**Lecture critique** : l'incidence chirurgicale **sous-estime** l'incidence réelle (kystes asymptomatiques, traitements médicaux ou percutanés, absence de registre national exhaustif). Les écarts entre estimations reflètent des méthodes et des périodes différentes : il faut les citer **avec leur source** (voir § 21).
+**Lecture critique** : l'incidence chirurgicale **sous-estime** l'incidence réelle (kystes asymptomatiques, traitements médicaux ou percutanés, absence de registre national exhaustif). Les estimations algériennes publiées (1,78–2,26 et 3,6–4,6 / 100 000) sont discordantes, reprises de sources secondaires et d'époques différentes : il faut les citer **avec leur source et leur date**, sans en privilégier une ; le chiffre de 12,7 / 100 000 souvent associé à ces données est **tunisien** (voir § 21).
 
 **Facteurs favorisant la transmission en Algérie** [S6, S9, S10] [facteurs locaux à documenter — À VÉRIFIER] :
 - élevage ovin extensif (régions steppiques et hauts plateaux), forte population de **chiens errants ou de garde** ;
@@ -271,7 +286,7 @@ Une communication entre la cavité kystique et l'arbre biliaire, souvent **méco
 | **CE1** | Kyste uniloculaire anéchogène à **paroi visible (double contour)**, ± « flocons de neige » (sable hydatique) | **Actif** (fertile) |
 | **CE2** | Kyste **multivésiculaire, multicloisonné** (« rosace », « nid d'abeille ») | **Actif** |
 | **CE3a** | Kyste avec **membrane décollée** (« signe du nénuphar ») | **Transitionnel** |
-| **CE3b** | Kyste à **vésicules filles au sein d'une matrice solide** | **Transitionnel** (souvent encore actif) |
+| **CE3b** | Kyste à **vésicules filles au sein d'une matrice solide** (aspect « en gruyère ») | **Transitionnel** selon le consensus 2010 ; décrit comme **actif (viable)** par l'OMS 2025 |
 | **CE4** | Contenu **hétérogène** hypo/hyperéchogène, **sans vésicules filles** (aspect en « pelote de laine ») | **Inactif** (le plus souvent) |
 | **CE5** | Paroi **épaisse calcifiée** en arche, cône d'ombre | **Inactif** |
 
@@ -286,11 +301,11 @@ Une communication entre la cavité kystique et l'arbre biliaire, souvent **méco
 | IV | CE4 | |
 | V | CE5 | |
 
-**Intérêt de la classification OMS** : elle regroupe les kystes en **actifs (CE1, CE2)**, **transitionnels (CE3a, CE3b)** et **inactifs (CE4, CE5)** et guide directement le **choix thérapeutique** [S1].
+**Intérêt de la classification OMS** : le consensus de 2010 regroupe les kystes en **actifs (CE1, CE2)**, **transitionnels (CE3a, CE3b)** et **inactifs (CE4, CE5)** et guide directement le **choix thérapeutique** [S1]. Les lignes directrices OMS 2025 (définitions actualisées par le sous-groupe imagerie de l'OMS-IWGE) précisent la **viabilité** : CE1, CE2 et CE3b viables ; CE3a viable ou non ; CE4 peu ou non viable ; CE5 non viable ; le « CL » n'est **pas un stade** mais un kyste suspect nécessitant d'autres explorations [S12].
 
 ### 7.4 Autres éléments de description préthérapeutique
 
-Nombre de kystes, **taille** (seuil de 5 cm pour les choix thérapeutiques [S1]), **segment(s)**, situation **centrale ou périphérique**, **rapports vasculaires et biliaires**, signes de **communication biliaire** (dilatation des voies biliaires, matériel endobiliaire), localisations **extrahépatiques**.
+Nombre de kystes, **taille** (seuils de 5 et 10 cm pour les choix thérapeutiques selon l'OMS 2025 [S12] ; 5 cm dans le consensus 2010 [S1]), **segment(s)**, situation **centrale ou périphérique**, **rapports vasculaires et biliaires**, signes de **communication biliaire** (dilatation des voies biliaires, matériel endobiliaire), localisations **extrahépatiques**.
 
 ---
 
@@ -381,8 +396,8 @@ Indications **diagnostiques et surtout thérapeutiques** : ictère ou **angiocho
 
 ### 10.3 Formes selon le terrain
 
-- **Enfant** : diagnostic souvent plus précoce, kystes pulmonaires plus fréquents ; l'albendazole est utilisable avec adaptation pondérale [À VÉRIFIER — RCP pédiatrique].
-- **Femme enceinte** : l'albendazole est **contre-indiqué** pendant la grossesse (surtout au premier trimestre) [S1] ; abstention-surveillance des kystes non compliqués, chirurgie si complication (de préférence au 2ᵉ trimestre) [À VÉRIFIER].
+- **Enfant** : diagnostic souvent plus précoce, kystes pulmonaires plus fréquents ; l'albendazole s'utilise à la même posologie pondérale (10–15 mg/kg/j en 2 prises, sans dépasser 400 mg × 2/j) [S12] ; âge minimal et forme galénique selon le RCP [À VÉRIFIER].
+- **Femme enceinte** : l'albendazole est **contre-indiqué au premier trimestre** ; plus tard, le bénéfice attendu peut justifier son emploi malgré les risques (OMS 2025) [S12] ; contraception efficace pendant un traitement prolongé ; abstention-surveillance des kystes non compliqués, chirurgie si complication (de préférence au 2ᵉ trimestre) [À VÉRIFIER].
 - **Sujet âgé, comorbide** : privilégier les options les moins invasives ou l'abstention pour les kystes inactifs.
 
 ### 10.4 Formes évolutives
@@ -435,35 +450,35 @@ Indications **diagnostiques et surtout thérapeutiques** : ictère ou **angiocho
 
 | Élément | Albendazole (ABZ) — molécule de choix | Mébendazole (alternative) |
 |---|---|---|
-| **Posologie** | **10–15 mg/kg/j en 2 prises**, au cours d'un **repas riche en graisses** (absorption) ; chez l'adulte, classiquement **400 mg × 2/j** | 40–50 mg/kg/j en 3 prises [S1] |
-| **Modalités** | Traitement **continu** (les cures discontinues avec fenêtres thérapeutiques sont moins utilisées) [S1] [À VÉRIFIER] | |
-| **Durée en traitement médical exclusif** | Plusieurs mois (classiquement **3 à 6 mois**) avec réévaluation échographique [S1] [À VÉRIFIER] | |
-| **Couverture péri-interventionnelle** | Débuter **avant** la PAIR ou la chirurgie et poursuivre **après** (durées proposées : de quelques heures/jours avant à 1 mois après pour la PAIR, jusqu'à 1–3 mois après une chirurgie selon les situations) [S1, S4] [durées exactes À VÉRIFIER] | |
-| **Contre-indications** | **Grossesse** (premier trimestre en particulier), **hépatopathie chronique** sévère, **aplasie/insuffisance médullaire**, kystes à risque de rupture (gros kystes superficiels : la fragilisation par l'ABZ peut favoriser la rupture — avis spécialisé) [S1] | |
+| **Posologie** | **10–15 mg/kg/j en 2 prises (sans dépasser 400 mg × 2/j)**, au cours d'un **repas riche en graisses** (biodisponibilité) ; chez l'adulte, en pratique **400 mg × 2/j** ; utiliser un albendazole de qualité garantie [S1, S12] | 40–50 mg/kg/j en 3 prises [S1] |
+| **Modalités** | Traitement **continu**, sans les interruptions mensuelles préconisées dans les années 1980 [S12] | |
+| **Durée en traitement médical exclusif** | **3 à 6 mois en continu**, selon le stade et la taille ; absence de réponse = aucune modification du kyste après 3 mois ; réponse complète évaluée au plus tôt 12 mois après la fin du traitement ; une seconde cure peut être discutée [S12] | |
+| **Couverture péri-interventionnelle** | **1 à 7 jours avant** la PAIR, le traitement percutané ou la chirurgie, puis **1 à 3 mois après** (prolongeable) ; durée préopératoire raccourcie (parfois une seule prise) pour les gros kystes, surtout CE1, exposés à la perforation ; si **déversement** suspecté ou avéré : albendazole **≥ 3 mois (habituellement 6–12 mois)** + **praziquantel 40–50 mg/kg/j en 2 prises pendant 2 semaines** (jusqu'à 4) ; kyste **pulmonaire** opéré : pas d'albendazole avant la chirurgie [S12] | |
+| **Contre-indications** | Kystes **à risque de rupture** ; **premier trimestre de grossesse** ; prudence en cas d'**hépatopathie chronique** ; à éviter en cas d'**insuffisance médullaire** [S12] | |
 | **Effets indésirables** | **Hépatotoxicité** (élévation des transaminases), **leucopénie/neutropénie** (rare mais grave), alopécie réversible, troubles digestifs, céphalées | |
-| **Surveillance** | **Transaminases et hémogramme** régulièrement (par exemple toutes les 2 semaines le premier mois puis mensuellement [À VÉRIFIER]) ; contraception efficace | |
-| **Efficacité** | Meilleure sur les **petits kystes** (< 5 cm) **CE1 et CE3a** ; faible sur CE2/CE3b (vésicules filles) [S1] | |
+| **Surveillance** | **Transaminases et hémogramme** pendant tout le traitement [S12] (rythme selon le protocole local) ; contraception efficace chez la femme en âge de procréer | |
+| **Efficacité** | Meilleure sur les **petits kystes** (< 5 cm) **CE1 et CE3a** ; plus faible sur CE2/CE3b (vésicules filles), pour lesquels l'OMS 2025 ne propose l'albendazole seul qu'en première intention pour les kystes ≤ 5 cm [S1, S12] | |
 
-[POSOLOGIE À VÉRIFIER — RCP / protocole local, notamment chez l'enfant et chez l'insuffisant hépatique.]
+Posologies : lignes directrices OMS 2025 (doses en mg/kg applicables à l'adulte et à l'enfant) [S12] et consensus OMS-IWGE 2010 pour le mébendazole [S1].
 
 #### 13.2.2 Traitement percutané
 
 **PAIR** (Ponction — Aspiration — Injection d'un scolicide — Réaspiration), sous guidage échographique [S1, S4] :
 1. **Ponction** transhépatique (traversée d'un manchon de parenchyme sain pour limiter la fuite) ;
 2. **Aspiration** du liquide ; examen immédiat de sa couleur : un liquide **bilieux** (ou bilirubine élevée) signe une **communication biliaire** → **ne pas injecter de scolicide** ;
-3. **Injection** du scolicide : **sérum salé hypertonique (15–20 %)** ou **éthanol à 95 %**, laissé en place environ 15 minutes [S4] [durée À VÉRIFIER] ;
+3. **Injection** d'un agent protoscolicide (classiquement **sérum salé hypertonique 15–20 %** ou **éthanol à 95 %** [S4]), laissé en place **10 à 20 minutes** [S12] ;
 4. **Réaspiration**.
-Toujours **sous albendazole**, avec une équipe de réanimation prête (anaphylaxie).
+Toujours **sous albendazole** (1–7 jours avant, 1–3 mois après), avec une équipe de réanimation prête (anaphylaxie) [S12]. En cas de liquide bilieux (ou de passage du contraste dans les voies biliaires), **ne pas injecter** d'agent protoscolicide : drainage percutané par cathéter sans scolicide avec albendazole prolongé à 6 mois, ou chirurgie, ou traitement médical [S12].
 
 | PAIR — indications [S1] | PAIR — contre-indications et limites [S1] |
 |---|---|
-| Kystes **CE1** et **CE3a** (surtout > 5 cm ou ne répondant pas à l'ABZ) | Kystes **CE2** et **CE3b** (multivésiculaires : mauvais résultats → techniques par **cathéter** ou chirurgie) |
+| Kystes **CE1** et **CE3a** de **5–10 cm** (OMS 2025), et de **> 10 cm** (PAIR préférée au cathétérisme standard ou à la chirurgie) — centres de niveau 3–4 [S12] | Kystes **CE2** et **CE3b** (multivésiculaires : mauvais résultats → chirurgie, ou cathétérisme modifié dans de rares centres experts) |
 | Patients refusant ou ne pouvant pas être opérés | Kystes **inactifs** CE4–CE5 (inutile) |
 | Récidive après chirurgie | **Communication kysto-biliaire** (risque de **cholangite sclérosante** par le scolicide) |
 | | Kystes **inaccessibles** ou très superficiels (risque de fuite), kystes **pulmonaires** |
 | | Équipe ou plateau technique non entraîné |
 
-**Techniques percutanées « non-PAIR »** (cathétérisme, évacuation large par aspiration) : destinées aux kystes CE2 et CE3b, dans des centres experts [S1].
+**Techniques percutanées « non-PAIR »** (cathétérisme standard, cathétérisme modifié « Mo-CAT ») : proposées par le consensus 2010 pour les kystes CE2 et CE3b dans des centres experts [S1] ; l'OMS 2025 souligne que l'expérience du Mo-CAT est limitée à une poignée de centres et lui préfère la chirurgie pour les CE2/CE3b > 5 cm [S12].
 
 Complications du percutané : **anaphylaxie** (rare mais à anticiper), **fistule biliaire**, infection de la cavité, ensemencement le long du trajet, récidive.
 
@@ -496,27 +511,30 @@ Complications du percutané : **anaphylaxie** (rare mais à anticiper), **fistul
 
 **Complications postopératoires** : **fistule biliaire externe** (la plus fréquente ; tarit le plus souvent spontanément ; si débit élevé ou persistance → **CPRE avec sphinctérotomie** ± prothèse), suppuration de la cavité résiduelle (drainage percutané), hémorragie, abcès sous-phrénique, épanchement pleural, choc anaphylactique peropératoire, récidive.
 
-**Place de la cœlioscopie** : l'abord cœlioscopique est de plus en plus utilisé pour les kystes **périphériques**, **accessibles** (segments antérieurs II, III, IV, V, VI), **non compliqués** et de taille modérée ; il impose les mêmes règles de sécurité hydatique (protection du champ par des compresses imbibées de scolicide, aspiration au trocart à usage unique, extraction des membranes en sac). Ses avantages sont la diminution de la douleur postopératoire, de la durée d'hospitalisation et des complications pariétales. Ses limites sont les kystes **postérieurs** (segments VII et VIII), **centraux**, **multiples**, **calcifiés** ou **compliqués** (rupture biliaire), et le risque théorique de dissémination par le pneumopéritoine. La conversion en laparotomie doit être envisagée sans hésitation [À VÉRIFIER — séries et méta-analyses].
+**Place de la cœlioscopie** : l'abord cœlioscopique est de plus en plus utilisé pour les kystes **périphériques**, **accessibles** (segments antérieurs II, III, IV, V, VI), **non compliqués** et de taille modérée ; il impose les mêmes règles de sécurité hydatique (protection du champ par des compresses imbibées de scolicide, aspiration au trocart à usage unique, extraction des membranes en sac). Ses avantages sont la diminution de la douleur postopératoire, de la durée d'hospitalisation et des complications pariétales. Ses limites sont les kystes **postérieurs** (segments VII et VIII), **centraux**, **multiples**, **calcifiés** ou **compliqués** (rupture biliaire), et le risque théorique de dissémination par le pneumopéritoine. La conversion en laparotomie doit être envisagée sans hésitation. L'OMS 2025 retient la cœlioscopie (centres de niveau 3–4) pour les kystes périphériques et superficiels, notamment chez l'enfant, et la chirurgie ouverte pour les kystes profonds ou les situations complexes (segments 7 et 8 difficiles d'accès) [S12].
 
 **Cas particulier des kystes multiples et de l'hydatidose multiviscérale** : la stratégie est discutée en réunion multidisciplinaire ; on traite en général d'abord le kyste le plus menaçant (souvent pulmonaire chez l'enfant, ou le kyste hépatique compliqué), sous couverture d'albendazole prolongée. Les localisations associées foie-poumon droit peuvent parfois être traitées dans le même temps par voie transdiaphragmatique dans des équipes entraînées.
 
 #### 13.2.4 Abstention-surveillance (« watch and wait »)
 
-Pour les kystes **inactifs non compliqués** (CE4, CE5) : surveillance échographique prolongée, sans traitement [S1]. Elle évite des gestes inutiles chez des patients porteurs de kystes calcifiés asymptomatiques.
+Pour les kystes **inactifs non compliqués** (CE4, CE5) : surveillance par imagerie (échographie ou IRM) prolongée, sans traitement [S1] ; c'est la pratique admise, hors du champ des recommandations OMS 2025, qui demandent d'éviter la chirurgie sauf complication [S12]. Elle évite des gestes inutiles chez des patients porteurs de kystes calcifiés asymptomatiques.
 
-### 13.3 Indications : stratégie adaptée au stade (consensus OMS-IWGE)
+### 13.3 Indications : stratégie adaptée au stade (OMS 2025, actualisant le consensus OMS-IWGE 2010)
 
 | Situation | Option préférentielle | Alternatives / remarques | Source |
 |---|---|---|---|
-| **CE1, CE3a < 5 cm** | **Albendazole seul** | Surveillance de la réponse | [S1] |
-| **CE1, CE3a > 5 cm** | **PAIR + albendazole** | Chirurgie si PAIR indisponible/contre-indiquée | [S1] |
-| **CE2, CE3b** | **Chirurgie** ou **technique percutanée par cathéter** (centres experts) + albendazole | Albendazole seul souvent insuffisant | [S1] |
-| **CE4, CE5 non compliqués** | **Abstention-surveillance** | — | [S1] |
+| **CE1, CE3a < 5 cm** | **Albendazole seul** (3–6 mois) | Surveillance de la réponse ; applicable à tous les niveaux de soins | [S1, S12] |
+| **CE1, CE3a 5–10 cm** | **PAIR + albendazole** (pas de PAIR si communication biliaire) | Chirurgie (ouverte ou cœlioscopique) si PAIR indisponible ou contre-indiquée | [S1, S12] |
+| **CE1, CE3a > 10 cm** | **Traitement percutané + albendazole**, la PAIR étant préférée au cathétérisme standard ou à la chirurgie (niveau 3–4) | Chirurgie si percutané impossible | [S12] |
+| **CE2, CE3b ≤ 5 cm** | **Albendazole seul en première intention**, réponse étroitement surveillée | Chirurgie si absence de réponse à 3 mois | [S12] |
+| **CE2, CE3b > 5 cm** | **Chirurgie + albendazole** (ouverte ou cœlioscopique) | Cathétérisme modifié (Mo-CAT) seulement dans de rares centres experts (option retenue par le consensus 2010) | [S1, S12] |
+| **CE4, CE5 non compliqués** | **Abstention-surveillance** par imagerie | Hors champ des recommandations OMS 2025 ; chirurgie seulement si complication | [S1, S12] |
+| **Kyste pulmonaire actif < 5 cm** | **Chirurgie**, sans albendazole préopératoire ; albendazole après si déversement | Chirurgie thoracique de niveau 4 | [S12] |
 | **Kyste compliqué** (rupture biliaire, péritonéale, thoracique, infection, compression) | **Chirurgie** (± CPRE) + albendazole | Urgence selon le tableau | [S1] |
 | **Gros kyste superficiel à risque de rupture**, kystes multiples d'un même territoire | Chirurgie (conservatrice ou radicale) | | [S1] |
 | **Contre-indication opératoire** | Albendazole ± percutané selon le stade | | [S1] |
 
-*Tableau de synthèse rédigé d'après la logique « stade-spécifique » du consensus de 2010 [S1] ; les seuils et durées doivent être confrontés au texte intégral lors de l'audit.*
+*Tableau de synthèse rédigé d'après les recommandations OMS 2025 (toutes conditionnelles, niveau de preuve très faible ou consensus d'experts) [S12], qui actualisent le consensus de 2010 [S1]. Les kystes multiples, d'âges différents ou multiviscéraux relèvent d'une prise en charge individualisée [S12].*
 
 **Choix de la technique chirurgicale** : il dépend de la **localisation** (périphérique → radicale possible ; centrale → conservatrice prudente), du **nombre** de kystes, des **complications biliaires**, de l'**état général** et de l'**expérience de l'équipe**. Il n'existe pas de supériorité universelle démontrée d'une technique ; la tendance est à la chirurgie **radicale** lorsqu'elle est sûre, et à la **cœlioscopie** pour les kystes périphériques simples [À VÉRIFIER — revues récentes].
 
@@ -531,7 +549,7 @@ Pour les kystes **inactifs non compliqués** (CE4, CE5) : surveillance échograp
 ## 14. Surveillance
 
 - **Après traitement médical** : échographie (évolution vers CE3a, CE4, CE5 = inactivation), bilan hépatique et hémogramme sous albendazole.
-- **Après PAIR ou chirurgie** : échographie (± TDM) à intervalles rapprochés la première année (par exemple 1, 3, 6 et 12 mois [À VÉRIFIER]), puis annuelle pendant **plusieurs années** (le consensus recommande un suivi prolongé, de l'ordre d'au moins 3 à 5 ans, voire davantage [S1] [durée À VÉRIFIER]) ; une **cavité résiduelle** stable et vide n'est pas une récidive.
+- **Après PAIR ou chirurgie** : imagerie à **3–6 mois**, puis **une fois par an pendant au moins 5 années consécutives** après l'inactivation (OMS 2025) [S12] ; une **cavité résiduelle** stable et vide n'est pas une récidive.
 - **Sérologie** : utile à long terme (une remontée tardive après négativation doit faire rechercher une récidive), peu fiable à court terme.
 - **Kystes inactifs surveillés** : échographie périodique (réactivation possible d'un CE3/CE4 — rare pour CE5).
 
@@ -614,12 +632,14 @@ Signes pathognomoniques ? (double contour, sable, membrane décollée,
 KYSTE HYDATIQUE NON COMPLIQUÉ — stade OMS ?
    │
    ├─ CE1 / CE3a
-   │     ├─ < 5 cm → ALBENDAZOLE seul (10–15 mg/kg/j, surveillance)
-   │     └─ ≥ 5 cm → PAIR + ALBENDAZOLE (si pas de communication biliaire,
-   │                  équipe entraînée) ; sinon CHIRURGIE + ALBENDAZOLE
+   │     ├─ < 5 cm → ALBENDAZOLE seul (10–15 mg/kg/j, 3–6 mois, surveillance)
+   │     ├─ 5–10 cm → PAIR + ALBENDAZOLE (si pas de communication biliaire,
+   │     │            équipe entraînée) ; sinon CHIRURGIE + ALBENDAZOLE
+   │     └─ > 10 cm → PERCUTANÉ (PAIR de préférence) + ALBENDAZOLE (centre de niveau 3–4)
    │
-   ├─ CE2 / CE3b → CHIRURGIE (conservatrice ou radicale) + ALBENDAZOLE
-   │               ou technique percutanée par cathéter (centre expert)
+   ├─ CE2 / CE3b ≤ 5 cm → ALBENDAZOLE seul d'abord ; chirurgie si pas de réponse à 3 mois
+   ├─ CE2 / CE3b > 5 cm → CHIRURGIE (ouverte ou cœlioscopique) + ALBENDAZOLE
+   │                      (Mo-CAT : centres experts seulement)
    │
    └─ CE4 / CE5 → ABSTENTION-SURVEILLANCE échographique
 ```
@@ -675,7 +695,7 @@ Hospitalisation ; **réanimation hydro-électrolytique** ; **antibiothérapie pr
 **Chirurgie programmée** (après refroidissement de l'angiocholite, sous albendazole) : stade CE3b compliqué → la PAIR est **contre-indiquée** (multivésiculaire, communication biliaire) [S1]. Selon la localisation périphérique (VI–VII) et l'expérience de l'équipe : **périkystectomie** (radicale) ou **résection du dôme saillant** avec traitement soigneux de la **fistule kysto-biliaire** (suture ou déconnexion), **sans injection de scolicide** dans la cavité communiquant avec la bile ; drainage. La sphinctérotomie préalable réduit le risque de fistule biliaire externe postopératoire.
 
 **Question 5 — Suites et suivi ?**
-Albendazole postopératoire (durée selon le geste — [À VÉRIFIER dans S1]) avec surveillance des transaminases et de l'hémogramme ; échographie à 1, 3, 6, 12 mois puis annuelle ; sérologie à distance. **Enquête familiale** (échographie de dépistage chez les proches), **vermifugation des chiens** par praziquantel, conseils sur l'abattage et l'hygiène.
+Albendazole postopératoire 1 à 3 mois (prolongeable ; au moins 3 mois, habituellement 6–12 mois, avec praziquantel pendant 2 semaines en cas de déversement peropératoire) [S12], avec surveillance des transaminases et de l'hémogramme ; imagerie à 3–6 mois puis annuelle pendant au moins 5 ans [S12] ; sérologie à distance. **Enquête familiale** (échographie de dépistage chez les proches), **vermifugation des chiens** par praziquantel, conseils sur l'abattage et l'hygiène.
 
 **Commentaire pédagogique** : la **rupture intrabiliaire** est la complication la plus fréquente ; elle impose de penser à la **CPRE** avant la chirurgie, d'**éviter les scolicides** en cas de communication biliaire (cholangite sclérosante) et de considérer le patient dans son **contexte épidémiologique** (One Health).
 
@@ -684,15 +704,15 @@ Albendazole postopératoire (durée selon le geste — [À VÉRIFIER dans S1]) a
 ## 18. Points clés à retenir
 
 1. Le kyste hydatique est la **larve d'*Echinococcus granulosus*** ; l'homme est un **hôte accidentel** (impasse) contaminé par les **œufs** éliminés par le chien [S9].
-2. L'Algérie est une zone d'**hyperendémie** (incidence chirurgicale estimée entre environ 2 et 5 pour 100 000 selon les sources) [S5, S8].
+2. L'Algérie est une zone d'**hyperendémie** ; les incidences chirurgicales publiées sont **discordantes** et de seconde main : 1,78–2,26 / 100 000 (cité en 2023) [S5] et 3,6–4,6 / 100 000 (revue tunisienne) [S8] ; le chiffre de 12,7 / 100 000 est **tunisien** [S6].
 3. **Foie** (≈ 2/3) > **poumon** ; radiographie thoracique systématique.
 4. Structure : **périkyste** (hôte, fistules biliaires) / **cuticule** / **membrane proligère** (fertilité) / **liquide antigénique** (anaphylaxie, dissémination).
-5. **Échographie** = examen de première intention ; classification **OMS** : actifs CE1–CE2, transitionnels CE3a–CE3b, inactifs CE4–CE5 [S1].
+5. **Échographie** = examen de première intention ; classification **OMS** : actifs CE1–CE2, transitionnels CE3a–CE3b, inactifs CE4–CE5 (consensus 2010) [S1] ; l'OMS 2025 considère CE3b comme viable [S12].
 6. **Gharbi II = CE3a** et **Gharbi III = CE2** (piège de correspondance).
 7. Sérologie : utile mais **faux négatifs** (CE1, CE4–5, poumon) ; mauvais marqueur précoce de guérison [S1].
 8. **Complication la plus fréquente : rupture dans les voies biliaires** → angiocholite → **CPRE** puis chirurgie.
-9. **Albendazole 10–15 mg/kg/j en 2 prises avec repas gras** ; contre-indiqué pendant la **grossesse** ; surveiller **transaminases et hémogramme** [S1].
-10. **PAIR** : CE1/CE3a ; **contre-indiquée** si communication biliaire, CE2/CE3b, CE4/CE5 [S1, S4].
+9. **Albendazole 10–15 mg/kg/j en 2 prises (≤ 400 mg × 2/j) avec repas gras**, en continu ; seul 3–6 mois, ou 1–7 jours avant et 1–3 mois après un geste ; contre-indiqué au **premier trimestre de grossesse** ; surveiller **transaminases et hémogramme** [S1, S12].
+10. **PAIR** : CE1/CE3a ≥ 5 cm (OMS 2025) ; **contre-indiquée** si communication biliaire ; inadaptée aux CE2/CE3b et inutile pour les CE4/CE5 [S1, S4, S12].
 11. Chirurgie : **protection du champ**, extraction sans débordement, **recherche et traitement des fistules biliaires** ; conservatrice (RDS) ou radicale (périkystectomie, hépatectomie).
 12. **CE4–CE5 non compliqués** : **abstention-surveillance** [S1].
 13. Prévention : **vermifugation des chiens (praziquantel)**, abattage contrôlé, destruction des abats, hygiène.
@@ -707,7 +727,7 @@ Albendazole postopératoire (durée selon le geste — [À VÉRIFIER dans S1]) a
 - Éliminer le diagnostic sur une **sérologie négative** alors que l'imagerie est typique.
 - Proposer une **PAIR** pour un kyste multivésiculaire (CE2/CE3b) ou calcifié (CE5).
 - Opérer systématiquement un kyste **calcifié asymptomatique** (CE5).
-- Prescrire l'**albendazole à jeun** (absorption faible) ou chez une **femme enceinte**.
+- Prescrire l'**albendazole à jeun** (absorption faible) ou au **premier trimestre de grossesse**.
 - Oublier la **radiographie thoracique** et la recherche d'autres localisations.
 - Oublier la **CPRE** devant une angiocholite hydatique.
 - Ne traiter que le patient en oubliant l'**enquête familiale** et la **vermifugation des chiens**.
@@ -733,9 +753,9 @@ D. Gharbi IV correspond à CE4.
 E. Gharbi V correspond à CE5.
 > **Réponses : A, C, D, E.** Gharbi II = CE3a.
 
-**QCM 3.** Parmi les stades OMS suivants, lesquels sont considérés comme actifs ?
+**QCM 3.** Selon le consensus OMS-IWGE de 2010, parmi les stades suivants, lesquels sont considérés comme actifs ?
 A. CE1  B. CE2  C. CE3a  D. CE4  E. CE5
-> **Réponses : A, B.** CE3a et CE3b sont transitionnels ; CE4 et CE5 inactifs [S1].
+> **Réponses : A, B.** CE3a et CE3b sont transitionnels ; CE4 et CE5 inactifs [S1]. (L'OMS 2025 qualifie CE3b de viable et CE3a de « viable ou non » [S12].)
 
 **QCM 4.** Sérologie hydatique :
 A. Elle peut être négative dans un kyste CE1.
@@ -801,9 +821,10 @@ E. Lutte contre l'abattage clandestin.
 |---|---|---|---|
 | **Classification échographique** | Gharbi (1981) : 5 types, très utilisée au Maghreb et dans l'enseignement [S2] | OMS-IWGE (2003, reprise en 2010) : CL, CE1–CE5 avec CE3a/CE3b, fondée sur l'activité biologique [S1, S3] | Le consensus 2010 **recommande fortement** une classification fondée sur l'imagerie ; l'OMS est préférée car elle guide le traitement. Connaître la correspondance |
 | **Place de la chirurgie conservatrice vs radicale** | Écoles maghrébines : résection du dôme saillant largement pratiquée (simplicité, sécurité pour les kystes centraux) [S7] | Séries favorables à la chirurgie radicale (moins de récidives et de fistules) [À VÉRIFIER — méta-analyses] | Pas de supériorité universelle démontrée ; choix selon la localisation et l'équipe |
-| **Traitement des kystes CE2/CE3b** | Consensus 2010 : chirurgie ou techniques percutanées « non-PAIR » (cathéter) dans des centres experts [S1] | Pratique courante en Algérie : chirurgie quasi exclusive (accès limité au percutané) [À VÉRIFIER] | Dépend des ressources |
-| **Incidence chirurgicale en Algérie** | 1,78–2,26 / 100 000 [S5] | 3,6–4,6 / 100 000 (revue maghrébine) [S8] ; chiffres plus élevés rapportés dans une étude régionale de Sétif dont la source est à vérifier [S6] | Méthodes et périodes différentes ; pas de registre national exhaustif vérifié |
-| **Albendazole : cures discontinues vs continues** | Schémas anciens : cures de 28 jours avec fenêtres de 14 jours | Consensus 2010 : traitement continu préféré [S1] [À VÉRIFIER] | Le traitement continu est jugé plus efficace et non plus toxique |
+| **Traitement des kystes CE2/CE3b** | Consensus 2010 : chirurgie ou techniques percutanées « non-PAIR » (cathéter) dans des centres experts [S1] | OMS 2025 : albendazole seul d'abord si ≤ 5 cm ; chirurgie + albendazole si > 5 cm, Mo-CAT réservé à de rares centres [S12] ; pratique algérienne : chirurgie quasi exclusive [À VÉRIFIER] | Dépend des ressources |
+| **Gros kystes CE1/CE3a** | Consensus 2010 : PAIR + albendazole au-delà de 5 cm [S1] | OMS 2025 : PAIR + albendazole de 5 à 10 cm ; au-delà de 10 cm, percutané (PAIR préférée) + albendazole [S12] | Seuils de taille désormais à deux niveaux |
+| **Incidence chirurgicale en Algérie** | 1,78–2,26 / 100 000 (cité en 2023 d'après Hotez 2012 et Seimenis 2006) [S5] | 3,6–4,6 / 100 000 (revue maghrébine, référence à identifier) [S8] ; le chiffre de 12,7 / 100 000 cité par l'étude de Sétif (2026) est **tunisien** (Chahed 2010) [S6] | Méthodes et périodes différentes ; pas de registre national exhaustif vérifié ; ne pas fusionner ces chiffres |
+| **Albendazole : cures discontinues vs continues** | Schémas anciens (années 1980) et certains RCP : cures de 28 jours avec fenêtres de 14 jours | OMS 2025 : traitement continu, sans interruptions mensuelles [S12] | Vérifier la concordance avec le RCP disponible localement |
 | **Terminologie** | « Hydatidose », « kyste hydatique » (usage francophone) | « Échinococcose kystique » (consensus international 2020) [S11] | Les deux sont acceptés à l'examen ; préférer « échinococcose kystique » dans les publications |
 
 ---
@@ -812,12 +833,13 @@ E. Lutte contre l'abattage clandestin.
 
 1. **[S1]** Brunetti E, Kern P, Vuitton DA; WHO-IWGE. Expert consensus for the diagnosis and treatment of cystic and alveolar echinococcosis in humans. *Acta Trop*. 2010;114(1):1-16. doi:10.1016/j.actatropica.2009.11.001. — *vérifiée*.
 2. **[S2]** Gharbi HA, Hassine W, Brauner MW, Dupuch K. Ultrasound examination of the hydatic liver. *Radiology*. 1981;139(2):459-463. doi:10.1148/radiology.139.2.7220891. — *vérifiée*.
-3. **[S3]** WHO-IWGE. International classification of ultrasound images in cystic echinococcosis. *Acta Trop*. 2003;85:253-261. — *non revérifiée*.
+3. **[S3]** WHO-IWGE. International classification of ultrasound images in cystic echinococcosis for application in clinical and field epidemiological settings. *Acta Trop*. 2003;85(2):253-261. doi:10.1016/S0001-706X(02)00223-1 (PMID 12606104). — *vérifiée (audit)*.
 4. **[S4]** OMS. PAIR: Puncture, Aspiration, Injection, Re-Aspiration. An option for the treatment of cystic echinococcosis. 2001. — *non revérifiée*.
-5. **[S5]** [Auteurs À VÉRIFIER]. Article francophone sur l'échinococcose kystique, 2023. PMC10714594. — *existence et donnée d'incidence vérifiées ; auteurs à compléter*.
-6. **[S6]** Kheninef et al. Échinococcose kystique, région de Sétif. 2026 [titre et revue À VÉRIFIER]. — *existence vérifiée*.
+5. **[S5]** Benchikh El Fegoun MC, Umhang G, Boué F, et al. Prélèvement des kystes hydatiques par la méthode FTA Card… en Algérie. Résultats préliminaires. *Med Trop Sante Int*. 2023;3(3). doi:10.48327/mtsi.v3i3.2023.416 (PMC10714594). — *vérifiée (audit) ; le chiffre d'incidence y est de seconde main*.
+6. **[S6]** Kheninef A, et al. *Echinococcus granulosus* sensu stricto hydatid cysts in human and livestock from northeastern Algeria. *Parasitol Res*. 2026;125. doi:10.1007/s00436-026-08703-4 (PMC13447339). — *vérifiée (audit) ; le chiffre de 12,7/100 000 qu'elle cite est tunisien*.
 7. **[S7]** [Auteurs À VÉRIFIER]. Série oranaise de kystes hydatiques sur 50 ans. *e-Mémoires de l'Académie nationale de chirurgie*. 2025. — *existence vérifiée*.
 8. **[S8]** [Auteurs À VÉRIFIER]. Revue de l'échinococcose kystique en Tunisie avec comparaison maghrébine. — *non vérifiée (référence à identifier)*.
-9. **[S9]** Eckert J, Deplazes P. Biological, epidemiological, and clinical aspects of echinococcosis. *Clin Microbiol Rev*. 2004;17:107-135. — *non revérifiée*.
-10. **[S10]** Wen H, et al. Echinococcosis: advances in the 21st century. *Clin Microbiol Rev*. 2019;32:e00075-18. — *non revérifiée*.
-11. **[S11]** Vuitton DA, et al. International consensus on terminology to be used in the field of echinococcoses. *Parasite*. 2020;27:41. — *non revérifiée*.
+9. **[S9]** Eckert J, Deplazes P. Biological, epidemiological, and clinical aspects of echinococcosis. *Clin Microbiol Rev*. 2004;17(1):107-135. doi:10.1128/CMR.17.1.107-135.2004 (PMID 14726458). — *vérifiée (audit)*.
+10. **[S10]** Wen H, et al. Echinococcosis: advances in the 21st century. *Clin Microbiol Rev*. 2019;32(2):e00075-18. doi:10.1128/CMR.00075-18 (PMID 30760475). — *vérifiée (audit)*.
+11. **[S11]** Vuitton DA, et al. International consensus on terminology to be used in the field of echinococcoses. *Parasite*. 2020;27:41. doi:10.1051/parasite/2020024 (PMID 32500855). — *vérifiée (audit)*.
+12. **[S12]** OMS. WHO guidelines for the treatment of patients with cystic echinococcosis. Genève ; 16 juin 2025. ISBN 978-92-4-011047-2. https://www.who.int/publications/i/item/9789240110472 — *vérifiée (PDF téléchargé et lu à l'audit ; acquisition dans la bibliothèque à prévoir)*.

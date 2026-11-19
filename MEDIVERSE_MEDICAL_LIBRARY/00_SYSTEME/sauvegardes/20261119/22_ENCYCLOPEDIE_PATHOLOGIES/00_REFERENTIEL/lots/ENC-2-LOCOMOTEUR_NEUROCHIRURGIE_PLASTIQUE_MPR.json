@@ -1,0 +1,5820 @@
+{
+  "agent": "ENC-2",
+  "date": "2026-11-19",
+  "pathologies": [
+    {
+      "id": "PATH-ORTH-0001",
+      "nom_fr": "Luxation congénitale de la hanche (dysplasie développementale)",
+      "nom_en": "Developmental dysplasia of the hip",
+      "synonymes": [
+        "dysplasie de hanche"
+      ],
+      "cim10": "Q65",
+      "specialite": "ORTH",
+      "sous_specialite": "Orthopédie pédiatrique",
+      "categories": [
+        "congénitale",
+        "ostéo-articulaire",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-021"
+      ],
+      "symptomes": [
+        "le plus souvent asymptomatique chez le nouveau-né",
+        "boiterie ou retard de marche (diagnostic tardif)"
+      ],
+      "signes_cliniques": [
+        "instabilité de hanche (manœuvres d'Ortolani et de Barlow)",
+        "limitation de l'abduction",
+        "asymétrie des plis",
+        "facteurs de risque (siège, antécédents familiaux, fille, premier-né)"
+      ],
+      "examens_cles": [
+        "examen clinique systématique à la naissance et lors des consultations",
+        "échographie de hanche (méthode de Graf) avant 4 mois",
+        "radiographie du bassin après 4 mois"
+      ],
+      "traitements_cles": [
+        "langeage en abduction ou harnais de Pavlik",
+        "réduction orthopédique ou chirurgicale (traitement tardif)",
+        "ostéotomies pelviennes ou fémorales des dysplasies résiduelles"
+      ],
+      "pathologies_liees": [
+        "PATH-OBST-0032",
+        "PATH-ORTH-0002",
+        "PATH-ORTH-0008",
+        "PATH-ORTH-0034"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0002",
+      "nom_fr": "Pied bot varus équin congénital",
+      "nom_en": "Congenital talipes equinovarus (clubfoot)",
+      "synonymes": [],
+      "cim10": "Q66.0",
+      "specialite": "ORTH",
+      "sous_specialite": "Orthopédie pédiatrique",
+      "categories": [
+        "congénitale",
+        "ostéo-articulaire",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "déformation du pied visible dès la naissance"
+      ],
+      "signes_cliniques": [
+        "équin, varus, adduction et cavus irréductibles",
+        "recherche d'une cause neurologique (spina bifida) ou syndromique"
+      ],
+      "examens_cles": [
+        "examen clinique",
+        "échographie anténatale",
+        "radiographies selon l'évolution"
+      ],
+      "traitements_cles": [
+        "méthode de Ponseti (plâtres successifs, ténotomie percutanée du tendon d'Achille, attelle d'abduction)",
+        "kinésithérapie (méthode fonctionnelle)",
+        "chirurgie des récidives"
+      ],
+      "pathologies_liees": [
+        "PATH-ORTH-0001",
+        "PATH-NCHI-0019",
+        "PATH-ORTH-0028"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0003",
+      "nom_fr": "Épiphysiolyse fémorale supérieure",
+      "nom_en": "Slipped capital femoral epiphysis",
+      "synonymes": [],
+      "cim10": "M93.0",
+      "specialite": "ORTH",
+      "sous_specialite": "Orthopédie pédiatrique",
+      "categories": [
+        "ostéo-articulaire",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur de hanche ou du genou (douleur projetée)",
+        "boiterie chez un adolescent"
+      ],
+      "signes_cliniques": [
+        "rotation externe du membre lors de la flexion de hanche (signe de Drehmann)",
+        "terrain d'obésité",
+        "impossibilité d'appui (forme instable)"
+      ],
+      "examens_cles": [
+        "radiographies du bassin de face et des hanches de profil (profil indispensable)"
+      ],
+      "traitements_cles": [
+        "mise en décharge immédiate",
+        "fixation in situ par vissage",
+        "surveillance controlatérale (vissage préventif selon les cas)"
+      ],
+      "pathologies_liees": [
+        "PATH-ORTH-0004",
+        "PATH-PEDI-0005",
+        "PATH-ORTH-0034"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0004",
+      "nom_fr": "Ostéochondrite primitive de hanche (maladie de Legg-Perthes-Calvé)",
+      "nom_en": "Legg-Calvé-Perthes disease",
+      "synonymes": [
+        "ostéonécrose de la tête fémorale de l'enfant"
+      ],
+      "cim10": "M91.1",
+      "specialite": "ORTH",
+      "sous_specialite": "Orthopédie pédiatrique",
+      "categories": [
+        "ostéo-articulaire",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "boiterie",
+        "douleur de hanche ou du genou chez un garçon de 4 à 8 ans"
+      ],
+      "signes_cliniques": [
+        "limitation de l'abduction et de la rotation interne de hanche",
+        "amyotrophie"
+      ],
+      "examens_cles": [
+        "radiographies du bassin et des hanches (stades évolutifs)",
+        "IRM au début"
+      ],
+      "traitements_cles": [
+        "surveillance et maintien de la mobilité",
+        "traitement orthopédique ou chirurgical de « containment » selon l'âge et l'extension"
+      ],
+      "pathologies_liees": [
+        "PATH-ORTH-0003",
+        "PATH-ORTH-0007"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0005",
+      "nom_fr": "Scoliose idiopathique",
+      "nom_en": "Idiopathic scoliosis",
+      "synonymes": [],
+      "cim10": "M41",
+      "specialite": "ORTH",
+      "sous_specialite": "Orthopédie pédiatrique",
+      "categories": [
+        "ostéo-articulaire",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-104"
+      ],
+      "symptomes": [
+        "asymétrie du tronc découverte par l'entourage ou au dépistage",
+        "douleurs rares"
+      ],
+      "signes_cliniques": [
+        "gibbosité à l'antéflexion du tronc",
+        "asymétrie des épaules et du pli de taille",
+        "recherche de signes neurologiques ou de dysmorphie (scoliose secondaire)"
+      ],
+      "examens_cles": [
+        "radiographie du rachis entier en charge (angle de Cobb, test de Risser)",
+        "IRM si atypie"
+      ],
+      "traitements_cles": [
+        "surveillance radiologique pendant la croissance",
+        "corset orthopédique",
+        "kinésithérapie",
+        "arthrodèse vertébrale des formes sévères ou évolutives"
+      ],
+      "pathologies_liees": [
+        "PATH-ORTH-0027",
+        "PATH-ORTH-0009"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0006",
+      "nom_fr": "Maladie d'Osgood-Schlatter",
+      "nom_en": "Osgood-Schlatter disease",
+      "synonymes": [
+        "apophysite tibiale antérieure"
+      ],
+      "cim10": "M92.5",
+      "specialite": "ORTH",
+      "sous_specialite": "Orthopédie pédiatrique",
+      "categories": [
+        "ostéo-articulaire",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur de la tubérosité tibiale antérieure à l'effort chez un adolescent sportif"
+      ],
+      "signes_cliniques": [
+        "tuméfaction douloureuse de la tubérosité tibiale antérieure"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "radiographie du genou de profil"
+      ],
+      "traitements_cles": [
+        "repos sportif relatif",
+        "antalgiques",
+        "évolution favorable en fin de croissance"
+      ],
+      "pathologies_liees": [
+        "PATH-ORTH-0010",
+        "PATH-ORTH-0030",
+        "PATH-ORTH-0032"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0007",
+      "nom_fr": "Synovite aiguë transitoire de hanche",
+      "nom_en": "Transient synovitis of the hip",
+      "synonymes": [
+        "rhume de hanche"
+      ],
+      "cim10": "M67.3",
+      "specialite": "ORTH",
+      "sous_specialite": "Orthopédie pédiatrique",
+      "categories": [
+        "ostéo-articulaire",
+        "inflammatoire",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "boiterie ou refus d'appui d'apparition brutale chez l'enfant de 3 à 10 ans",
+        "épisode viral récent"
+      ],
+      "signes_cliniques": [
+        "limitation douloureuse de la rotation interne",
+        "apyrexie ou fébricule",
+        "bon état général"
+      ],
+      "examens_cles": [
+        "échographie (épanchement)",
+        "NFS, CRP (normales)",
+        "radiographie du bassin",
+        "ponction si doute d'arthrite septique"
+      ],
+      "traitements_cles": [
+        "repos et antalgiques",
+        "contrôle clinique",
+        "reconsidérer le diagnostic si fièvre ou persistance"
+      ],
+      "pathologies_liees": [
+        "PATH-ORTH-0004"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0008",
+      "nom_fr": "Torticolis congénital musculaire",
+      "nom_en": "Congenital muscular torticollis",
+      "synonymes": [],
+      "cim10": "Q68.0",
+      "specialite": "ORTH",
+      "sous_specialite": "Orthopédie pédiatrique",
+      "categories": [
+        "congénitale",
+        "ostéo-articulaire",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "inclinaison de la tête et rotation controlatérale du visage chez le nourrisson"
+      ],
+      "signes_cliniques": [
+        "olive (fibrose) du muscle sterno-cléido-mastoïdien",
+        "plagiocéphalie",
+        "recherche d'une dysplasie de hanche associée"
+      ],
+      "examens_cles": [
+        "échographie du sterno-cléido-mastoïdien",
+        "échographie des hanches",
+        "radiographie du rachis cervical si doute"
+      ],
+      "traitements_cles": [
+        "kinésithérapie (étirements, positionnement)",
+        "ténotomie chirurgicale des formes résistantes"
+      ],
+      "pathologies_liees": [
+        "PATH-ORTH-0001",
+        "PATH-NCHI-0032"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0009",
+      "nom_fr": "Inégalité de longueur des membres inférieurs",
+      "nom_en": "Leg length discrepancy",
+      "synonymes": [],
+      "cim10": "M21.7",
+      "specialite": "ORTH",
+      "sous_specialite": "Orthopédie pédiatrique",
+      "categories": [
+        "ostéo-articulaire",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "boiterie",
+        "douleurs lombaires"
+      ],
+      "signes_cliniques": [
+        "bascule du bassin",
+        "mesure clinique de l'inégalité"
+      ],
+      "examens_cles": [
+        "télémétrie (pangonogramme)",
+        "âge osseux",
+        "prévision de l'inégalité en fin de croissance"
+      ],
+      "traitements_cles": [
+        "compensation par talonnette",
+        "épiphysiodèse",
+        "allongement osseux progressif"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0026",
+        "PATH-ORTH-0005",
+        "PATH-ORTH-0029"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0010",
+      "nom_fr": "Ostéochondrite disséquante",
+      "nom_en": "Osteochondritis dissecans",
+      "synonymes": [],
+      "cim10": "M93.2",
+      "specialite": "ORTH",
+      "sous_specialite": "Orthopédie pédiatrique",
+      "categories": [
+        "ostéo-articulaire",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur articulaire mécanique (genou le plus souvent)",
+        "blocages",
+        "épanchement"
+      ],
+      "signes_cliniques": [
+        "douleur à la palpation du condyle fémoral interne",
+        "épanchement intra-articulaire"
+      ],
+      "examens_cles": [
+        "radiographies (incidence en schuss)",
+        "IRM (stabilité du fragment)"
+      ],
+      "traitements_cles": [
+        "mise au repos (forme stable de l'enfant)",
+        "fixation ou greffe chirurgicale des formes instables"
+      ],
+      "pathologies_liees": [
+        "PATH-ORTH-0006"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0011",
+      "nom_fr": "Ostéomyélite chronique",
+      "nom_en": "Chronic osteomyelitis",
+      "synonymes": [
+        "ostéite chronique"
+      ],
+      "cim10": "M86",
+      "specialite": "ORTH",
+      "sous_specialite": "Infections ostéo-articulaires",
+      "categories": [
+        "infectieuse",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-038"
+      ],
+      "symptomes": [
+        "douleurs osseuses persistantes",
+        "fistule cutanée chronique productive"
+      ],
+      "signes_cliniques": [
+        "fistule",
+        "séquestre",
+        "antécédent de fracture ouverte ou d'ostéomyélite insuffisamment traitée"
+      ],
+      "examens_cles": [
+        "radiographies et scanner (séquestres, réaction périostée)",
+        "IRM",
+        "biopsies osseuses multiples (bactériologie)"
+      ],
+      "traitements_cles": [
+        "traitement médico-chirurgical : excision des tissus infectés et des séquestres, antibiothérapie prolongée adaptée, reconstruction osseuse et couverture"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0023",
+        "PATH-ORTH-0025"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0012",
+      "nom_fr": "Infection sur prothèse articulaire",
+      "nom_en": "Prosthetic joint infection",
+      "synonymes": [],
+      "cim10": "T84.5",
+      "specialite": "ORTH",
+      "sous_specialite": "Infections ostéo-articulaires",
+      "categories": [
+        "infectieuse",
+        "ostéo-articulaire",
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur de la prothèse",
+        "fièvre",
+        "écoulement de la cicatrice"
+      ],
+      "signes_cliniques": [
+        "fistule",
+        "désunion de cicatrice",
+        "signes inflammatoires locaux"
+      ],
+      "examens_cles": [
+        "ponction articulaire (cytologie, culture)",
+        "CRP",
+        "imagerie",
+        "prélèvements peropératoires multiples"
+      ],
+      "traitements_cles": [
+        "lavage avec changement des pièces mobiles (infection aiguë)",
+        "changement de prothèse en un ou deux temps (infection chronique)",
+        "antibiothérapie prolongée"
+      ],
+      "pathologies_liees": [
+        "PATH-ORTH-0020",
+        "PATH-EPID-0002"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0013",
+      "nom_fr": "Hydatidose osseuse",
+      "nom_en": "Bone hydatidosis (osseous echinococcosis)",
+      "synonymes": [
+        "échinococcose osseuse"
+      ],
+      "cim10": "B67.2",
+      "specialite": "ORTH",
+      "sous_specialite": "Infections ostéo-articulaires",
+      "categories": [
+        "parasitaire",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "douleurs osseuses",
+        "fracture pathologique",
+        "signes neurologiques (localisation rachidienne)"
+      ],
+      "signes_cliniques": [
+        "tuméfaction",
+        "fistule",
+        "compression médullaire"
+      ],
+      "examens_cles": [
+        "radiographies (lacunes multiloculaires)",
+        "scanner, IRM",
+        "sérologie hydatique"
+      ],
+      "traitements_cles": [
+        "chirurgie d'exérèse aussi complète que possible",
+        "albendazole prolongé",
+        "prévention"
+      ],
+      "pathologies_liees": [
+        "PATH-UROL-0006",
+        "PATH-ORTH-0019",
+        "PATH-CDIG-0016"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0014",
+      "nom_fr": "Tumeur à cellules géantes de l'os",
+      "nom_en": "Giant cell tumour of bone",
+      "synonymes": [],
+      "cim10": "D48.0",
+      "specialite": "ORTH",
+      "sous_specialite": "Tumeurs osseuses",
+      "categories": [
+        "néoplasique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [
+        "RES-CHI-039"
+      ],
+      "symptomes": [
+        "douleur articulaire",
+        "tuméfaction chez l'adulte jeune"
+      ],
+      "signes_cliniques": [
+        "lésion épiphysaire (genou, poignet)"
+      ],
+      "examens_cles": [
+        "radiographie (lacune épiphyso-métaphysaire excentrée)",
+        "IRM",
+        "biopsie"
+      ],
+      "traitements_cles": [
+        "curetage-comblement ou résection",
+        "dénosumab dans certaines situations",
+        "surveillance des récidives"
+      ],
+      "pathologies_liees": [
+        "PATH-ORTH-0018"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0015",
+      "nom_fr": "Ostéome ostéoïde",
+      "nom_en": "Osteoid osteoma",
+      "synonymes": [],
+      "cim10": "D16",
+      "specialite": "ORTH",
+      "sous_specialite": "Tumeurs osseuses",
+      "categories": [
+        "néoplasique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-039"
+      ],
+      "symptomes": [
+        "douleur nocturne calmée par l'aspirine ou les AINS chez l'adolescent ou l'adulte jeune"
+      ],
+      "signes_cliniques": [
+        "douleur localisée",
+        "scoliose douloureuse (localisation rachidienne)"
+      ],
+      "examens_cles": [
+        "radiographie et scanner (nidus avec ostéocondensation périphérique)",
+        "scintigraphie"
+      ],
+      "traitements_cles": [
+        "destruction percutanée (radiofréquence) ou exérèse chirurgicale du nidus"
+      ],
+      "pathologies_liees": [],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0016",
+      "nom_fr": "Ostéochondrome (exostose)",
+      "nom_en": "Osteochondroma",
+      "synonymes": [
+        "exostose ostéogénique"
+      ],
+      "cim10": "D16",
+      "specialite": "ORTH",
+      "sous_specialite": "Tumeurs osseuses",
+      "categories": [
+        "néoplasique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [
+        "RES-CHI-039"
+      ],
+      "symptomes": [
+        "masse dure indolore",
+        "gêne mécanique",
+        "compression nerveuse ou vasculaire"
+      ],
+      "signes_cliniques": [
+        "tuméfaction osseuse dure près d'une métaphyse"
+      ],
+      "examens_cles": [
+        "radiographie (excroissance en continuité avec la corticale et la médullaire)",
+        "IRM (épaisseur de la coiffe cartilagineuse)"
+      ],
+      "traitements_cles": [
+        "surveillance",
+        "exérèse si gêne ou suspicion de transformation en chondrosarcome"
+      ],
+      "pathologies_liees": [],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0017",
+      "nom_fr": "Kyste osseux essentiel",
+      "nom_en": "Simple (unicameral) bone cyst",
+      "synonymes": [
+        "kyste osseux solitaire"
+      ],
+      "cim10": "M85.4",
+      "specialite": "ORTH",
+      "sous_specialite": "Tumeurs osseuses",
+      "categories": [
+        "ostéo-articulaire",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-039"
+      ],
+      "symptomes": [
+        "découverte fortuite",
+        "fracture pathologique révélatrice"
+      ],
+      "signes_cliniques": [
+        "douleur après fracture",
+        "humérus ou fémur proximal de l'enfant"
+      ],
+      "examens_cles": [
+        "radiographie (lacune métaphysaire centrale, signe du fragment tombé)",
+        "IRM si doute"
+      ],
+      "traitements_cles": [
+        "surveillance",
+        "infiltrations (corticoïdes, moelle osseuse)",
+        "curetage-comblement"
+      ],
+      "pathologies_liees": [
+        "PATH-ORTH-0019",
+        "PATH-ORTH-0018",
+        "PATH-ORTH-0036"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0018",
+      "nom_fr": "Kyste anévrysmal de l'os",
+      "nom_en": "Aneurysmal bone cyst",
+      "synonymes": [],
+      "cim10": "M85.5",
+      "specialite": "ORTH",
+      "sous_specialite": "Tumeurs osseuses",
+      "categories": [
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-039"
+      ],
+      "symptomes": [
+        "douleur",
+        "tuméfaction"
+      ],
+      "signes_cliniques": [
+        "lésion soufflante"
+      ],
+      "examens_cles": [
+        "radiographie (lacune excentrée soufflante)",
+        "IRM (niveaux liquide-liquide)",
+        "biopsie (élimination d'un ostéosarcome télangiectasique)"
+      ],
+      "traitements_cles": [
+        "curetage-comblement",
+        "sclérothérapie",
+        "embolisation"
+      ],
+      "pathologies_liees": [
+        "PATH-ORTH-0014",
+        "PATH-ORTH-0017"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0019",
+      "nom_fr": "Fracture pathologique",
+      "nom_en": "Pathological fracture",
+      "synonymes": [],
+      "cim10": "M84.4",
+      "specialite": "ORTH",
+      "sous_specialite": "Tumeurs osseuses",
+      "categories": [
+        "ostéo-articulaire",
+        "traumatique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-039"
+      ],
+      "symptomes": [
+        "fracture pour un traumatisme minime",
+        "douleurs osseuses préalables"
+      ],
+      "signes_cliniques": [
+        "déformation et impotence",
+        "contexte tumoral, infectieux ou métabolique"
+      ],
+      "examens_cles": [
+        "radiographies",
+        "scanner et IRM",
+        "bilan étiologique (biopsie, bilan phosphocalcique)"
+      ],
+      "traitements_cles": [
+        "ostéosynthèse adaptée",
+        "traitement de la cause"
+      ],
+      "pathologies_liees": [
+        "PATH-ORTH-0013",
+        "PATH-ORTH-0017",
+        "PATH-ORTH-0036"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0020",
+      "nom_fr": "Descellement aseptique de prothèse articulaire",
+      "nom_en": "Aseptic loosening of joint prosthesis",
+      "synonymes": [],
+      "cim10": "T84.0",
+      "specialite": "ORTH",
+      "sous_specialite": "Arthroplasties",
+      "categories": [
+        "ostéo-articulaire",
+        "iatrogène"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur mécanique réapparaissant à distance de la pose"
+      ],
+      "signes_cliniques": [
+        "boiterie",
+        "instabilité"
+      ],
+      "examens_cles": [
+        "radiographies comparatives (liserés, migration)",
+        "ponction pour éliminer une infection"
+      ],
+      "traitements_cles": [
+        "reprise chirurgicale (changement de prothèse)"
+      ],
+      "pathologies_liees": [
+        "PATH-ORTH-0012"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0021",
+      "nom_fr": "Hallux valgus",
+      "nom_en": "Hallux valgus",
+      "synonymes": [],
+      "cim10": "M20.1",
+      "specialite": "ORTH",
+      "sous_specialite": "Arthroplasties",
+      "categories": [
+        "dégénérative",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur de l'avant-pied",
+        "difficultés de chaussage"
+      ],
+      "signes_cliniques": [
+        "déviation du gros orteil en dehors",
+        "bursite de la tête du premier métatarsien",
+        "orteils en griffe"
+      ],
+      "examens_cles": [
+        "radiographies des pieds en charge"
+      ],
+      "traitements_cles": [
+        "chaussage adapté, orthèses",
+        "chirurgie (ostéotomies) si gêne importante"
+      ],
+      "pathologies_liees": [
+        "PATH-ORTH-0033"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0022",
+      "nom_fr": "Rupture de la coiffe des rotateurs",
+      "nom_en": "Rotator cuff tear",
+      "synonymes": [],
+      "cim10": "M75.1",
+      "specialite": "ORTH",
+      "sous_specialite": "Arthroplasties",
+      "categories": [
+        "dégénérative",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur de l'épaule nocturne et à l'élévation",
+        "perte de force"
+      ],
+      "signes_cliniques": [
+        "tests de conflit sous-acromial",
+        "testing des muscles de la coiffe (Jobe, rotation externe, Belly-press)"
+      ],
+      "examens_cles": [
+        "radiographies",
+        "échographie",
+        "arthro-IRM ou arthroscanner"
+      ],
+      "traitements_cles": [
+        "rééducation",
+        "infiltrations",
+        "réparation arthroscopique de la coiffe",
+        "prothèse inversée dans les ruptures massives avec arthropathie"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0002",
+        "PATH-ORTH-0023",
+        "PATH-MTRA-0010"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0023",
+      "nom_fr": "Instabilité chronique de l'épaule (luxation récidivante)",
+      "nom_en": "Recurrent shoulder instability",
+      "synonymes": [],
+      "cim10": "M24.4",
+      "specialite": "ORTH",
+      "sous_specialite": "Arthroplasties",
+      "categories": [
+        "ostéo-articulaire",
+        "traumatique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "épisodes répétés de luxation ou de subluxation",
+        "appréhension"
+      ],
+      "signes_cliniques": [
+        "test d'appréhension positif",
+        "hyperlaxité"
+      ],
+      "examens_cles": [
+        "radiographies",
+        "arthroscanner ou arthro-IRM (lésion de Bankart, encoche de Hill-Sachs)"
+      ],
+      "traitements_cles": [
+        "rééducation",
+        "stabilisation chirurgicale (butée coracoïdienne de Latarjet, réparation arthroscopique de Bankart)"
+      ],
+      "pathologies_liees": [
+        "PATH-ORTH-0022",
+        "PATH-TRAU-0002"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0024",
+      "nom_fr": "Maladie de Kienböck",
+      "nom_en": "Kienböck's disease",
+      "synonymes": [
+        "ostéonécrose du semi-lunaire"
+      ],
+      "cim10": "M93.1",
+      "specialite": "ORTH",
+      "sous_specialite": "Arthroplasties",
+      "categories": [
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur du poignet",
+        "raideur",
+        "perte de force"
+      ],
+      "signes_cliniques": [
+        "douleur à la palpation dorsale du semi-lunaire"
+      ],
+      "examens_cles": [
+        "radiographies",
+        "IRM (stade précoce)"
+      ],
+      "traitements_cles": [
+        "immobilisation",
+        "chirurgie (raccourcissement radial, revascularisation, résection de la première rangée des os du carpe, arthrodèse)"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0011"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0025",
+      "nom_fr": "Pseudarthrose",
+      "nom_en": "Nonunion of fracture",
+      "synonymes": [],
+      "cim10": "M84.1",
+      "specialite": "ORTH",
+      "sous_specialite": "Arthroplasties",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur persistante et mobilité anormale du foyer au-delà du délai habituel de consolidation"
+      ],
+      "signes_cliniques": [
+        "mobilité du foyer de fracture",
+        "recherche d'infection"
+      ],
+      "examens_cles": [
+        "radiographies et scanner (absence de pontage osseux)",
+        "bilan infectieux"
+      ],
+      "traitements_cles": [
+        "reprise chirurgicale (ostéosynthèse stable, avivement, greffe osseuse)",
+        "traitement d'une infection associée"
+      ],
+      "pathologies_liees": [
+        "PATH-ORTH-0011",
+        "PATH-ORTH-0026",
+        "PATH-TRAU-0011",
+        "PATH-TRAU-0023"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0026",
+      "nom_fr": "Cal vicieux",
+      "nom_en": "Malunion of fracture",
+      "synonymes": [],
+      "cim10": "M84.0",
+      "specialite": "ORTH",
+      "sous_specialite": "Arthroplasties",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "déformation",
+        "douleurs",
+        "gêne fonctionnelle"
+      ],
+      "signes_cliniques": [
+        "déformation angulaire, rotatoire ou raccourcissement"
+      ],
+      "examens_cles": [
+        "radiographies et scanner"
+      ],
+      "traitements_cles": [
+        "ostéotomie correctrice si retentissement fonctionnel"
+      ],
+      "pathologies_liees": [
+        "PATH-ORTH-0025",
+        "PATH-TRAU-0010"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0027",
+      "nom_fr": "Maladie de Scheuermann (dystrophie rachidienne de croissance)",
+      "nom_en": "Scheuermann disease",
+      "synonymes": [
+        "cyphose de l'adolescent"
+      ],
+      "cim10": "M42.0",
+      "specialite": "ORTH",
+      "sous_specialite": "Rachis",
+      "categories": [
+        "ostéo-articulaire",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "dorsalgies de l'adolescent",
+        "déformation en cyphose"
+      ],
+      "signes_cliniques": [
+        "hypercyphose thoracique raide"
+      ],
+      "examens_cles": [
+        "radiographies du rachis (cunéiformisation vertébrale, irrégularités des plateaux)"
+      ],
+      "traitements_cles": [
+        "kinésithérapie",
+        "corset selon l'importance",
+        "chirurgie exceptionnelle"
+      ],
+      "pathologies_liees": [
+        "PATH-ORTH-0005"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0001",
+      "nom_fr": "Fracture de la clavicule",
+      "nom_en": "Fracture of clavicle",
+      "synonymes": [],
+      "cim10": "S42.0",
+      "specialite": "TRAU",
+      "sous_specialite": "Fractures des membres",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur de l'épaule après chute",
+        "impotence du membre supérieur"
+      ],
+      "signes_cliniques": [
+        "déformation en marche d'escalier",
+        "recherche de complications cutanées, vasculaires et neurologiques"
+      ],
+      "examens_cles": [
+        "radiographie de la clavicule"
+      ],
+      "traitements_cles": [
+        "traitement orthopédique (écharpe)",
+        "ostéosynthèse dans certaines formes déplacées ou compliquées"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0021",
+        "PATH-TRAU-0034"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0002",
+      "nom_fr": "Luxation antéro-interne de l'épaule",
+      "nom_en": "Anterior shoulder dislocation",
+      "synonymes": [
+        "luxation gléno-humérale"
+      ],
+      "cim10": "S43.0",
+      "specialite": "TRAU",
+      "sous_specialite": "Fractures des membres",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur intense après chute",
+        "impotence totale",
+        "attitude du traumatisé du membre supérieur"
+      ],
+      "signes_cliniques": [
+        "signe de l'épaulette",
+        "vacuité de la glène",
+        "abduction irréductible",
+        "recherche d'une atteinte du nerf axillaire"
+      ],
+      "examens_cles": [
+        "radiographies avant et après réduction (fracture associée)"
+      ],
+      "traitements_cles": [
+        "réduction en urgence (après radiographie)",
+        "immobilisation",
+        "rééducation",
+        "traitement de l'instabilité récidivante"
+      ],
+      "pathologies_liees": [
+        "PATH-ORTH-0022",
+        "PATH-ORTH-0023",
+        "PATH-TRAU-0003"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0003",
+      "nom_fr": "Fracture de l'extrémité supérieure de l'humérus",
+      "nom_en": "Proximal humeral fracture",
+      "synonymes": [],
+      "cim10": "S42.2",
+      "specialite": "TRAU",
+      "sous_specialite": "Fractures des membres",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur de l'épaule après chute, surtout chez le sujet âgé ostéoporotique"
+      ],
+      "signes_cliniques": [
+        "ecchymose brachio-thoracique de Hennequin",
+        "recherche d'une atteinte du nerf axillaire"
+      ],
+      "examens_cles": [
+        "radiographies de l'épaule (face, profil)",
+        "scanner pour les fractures complexes (classification de Neer)"
+      ],
+      "traitements_cles": [
+        "traitement orthopédique (coude au corps) des fractures peu déplacées",
+        "ostéosynthèse ou arthroplastie selon le déplacement et l'âge"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0002",
+        "PATH-TRAU-0004"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0004",
+      "nom_fr": "Fracture de la diaphyse humérale",
+      "nom_en": "Humeral shaft fracture",
+      "synonymes": [],
+      "cim10": "S42.3",
+      "specialite": "TRAU",
+      "sous_specialite": "Fractures des membres",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur et impotence du bras"
+      ],
+      "signes_cliniques": [
+        "déformation",
+        "mobilité anormale",
+        "recherche d'une paralysie radiale (main tombante)"
+      ],
+      "examens_cles": [
+        "radiographies du bras"
+      ],
+      "traitements_cles": [
+        "traitement orthopédique (plâtre pendant, attelle de Sarmiento)",
+        "ostéosynthèse (plaque, clou)",
+        "surveillance du nerf radial"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0003",
+        "PATH-TRAU-0005"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0005",
+      "nom_fr": "Fracture de l'extrémité inférieure de l'humérus de l'adulte",
+      "nom_en": "Distal humeral fracture",
+      "synonymes": [
+        "fracture de la palette humérale"
+      ],
+      "cim10": "S42.4",
+      "specialite": "TRAU",
+      "sous_specialite": "Fractures des membres",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur et impotence du coude"
+      ],
+      "signes_cliniques": [
+        "œdème et déformation du coude",
+        "recherche de complications vasculaires et nerveuses (ulnaire)"
+      ],
+      "examens_cles": [
+        "radiographies",
+        "scanner (fractures articulaires)"
+      ],
+      "traitements_cles": [
+        "ostéosynthèse par plaques",
+        "arthroplastie chez le sujet âgé dans certaines fractures"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0025",
+        "PATH-TRAU-0004",
+        "PATH-TRAU-0006"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0006",
+      "nom_fr": "Luxation du coude",
+      "nom_en": "Elbow dislocation",
+      "synonymes": [],
+      "cim10": "S53.1",
+      "specialite": "TRAU",
+      "sous_specialite": "Fractures des membres",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur et impotence après chute sur la main"
+      ],
+      "signes_cliniques": [
+        "déformation (saillie de l'olécrâne en arrière)",
+        "recherche de complications vasculaires et nerveuses"
+      ],
+      "examens_cles": [
+        "radiographies avant et après réduction (fractures associées : tête radiale, coronoïde)"
+      ],
+      "traitements_cles": [
+        "réduction en urgence",
+        "immobilisation courte",
+        "rééducation précoce",
+        "chirurgie des formes instables"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0005",
+        "PATH-TRAU-0008",
+        "PATH-TRAU-0007"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0007",
+      "nom_fr": "Fracture de l'olécrâne",
+      "nom_en": "Olecranon fracture",
+      "synonymes": [],
+      "cim10": "S52.0",
+      "specialite": "TRAU",
+      "sous_specialite": "Fractures des membres",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur du coude après chute sur le coude"
+      ],
+      "signes_cliniques": [
+        "hématome postérieur",
+        "perte de l'extension active du coude"
+      ],
+      "examens_cles": [
+        "radiographies du coude"
+      ],
+      "traitements_cles": [
+        "ostéosynthèse (haubanage, plaque) des fractures déplacées"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0006"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0008",
+      "nom_fr": "Fracture de la tête radiale",
+      "nom_en": "Radial head fracture",
+      "synonymes": [],
+      "cim10": "S52.1",
+      "specialite": "TRAU",
+      "sous_specialite": "Fractures des membres",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur du coude",
+        "limitation de la pronosupination"
+      ],
+      "signes_cliniques": [
+        "douleur à la palpation de la tête radiale",
+        "hémarthrose"
+      ],
+      "examens_cles": [
+        "radiographies du coude",
+        "scanner"
+      ],
+      "traitements_cles": [
+        "traitement fonctionnel (fractures peu déplacées)",
+        "ostéosynthèse ou prothèse de tête radiale"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0006"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0009",
+      "nom_fr": "Fractures des deux os de l'avant-bras",
+      "nom_en": "Fractures of both forearm bones",
+      "synonymes": [],
+      "cim10": "S52.4",
+      "specialite": "TRAU",
+      "sous_specialite": "Fractures des membres",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur et déformation de l'avant-bras"
+      ],
+      "signes_cliniques": [
+        "déformation",
+        "mobilité anormale",
+        "recherche de syndrome des loges et de lésions des articulations radio-ulnaires (Monteggia, Galeazzi)"
+      ],
+      "examens_cles": [
+        "radiographies de l'avant-bras prenant le coude et le poignet"
+      ],
+      "traitements_cles": [
+        "ostéosynthèse par plaques chez l'adulte",
+        "traitement orthopédique ou embrochage centromédullaire chez l'enfant"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0040",
+        "PATH-TRAU-0010"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0010",
+      "nom_fr": "Fracture de l'extrémité inférieure du radius",
+      "nom_en": "Distal radius fracture",
+      "synonymes": [
+        "fracture de Pouteau-Colles",
+        "fracture de Goyrand-Smith"
+      ],
+      "cim10": "S52.5",
+      "specialite": "TRAU",
+      "sous_specialite": "Fractures des membres",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-033"
+      ],
+      "symptomes": [
+        "douleur et impotence du poignet après chute sur la main"
+      ],
+      "signes_cliniques": [
+        "déformation en « dos de fourchette » (Pouteau-Colles)",
+        "recherche d'une atteinte du nerf médian"
+      ],
+      "examens_cles": [
+        "radiographies du poignet de face et de profil",
+        "scanner des fractures articulaires"
+      ],
+      "traitements_cles": [
+        "réduction et immobilisation plâtrée",
+        "ostéosynthèse (broches, plaque antérieure) des fractures instables ou articulaires",
+        "rééducation",
+        "dépistage de l'ostéoporose chez le sujet âgé"
+      ],
+      "pathologies_liees": [
+        "PATH-ORTH-0026",
+        "PATH-TRAU-0009",
+        "PATH-TRAU-0011"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0011",
+      "nom_fr": "Fracture du scaphoïde carpien",
+      "nom_en": "Scaphoid fracture",
+      "synonymes": [],
+      "cim10": "S62.0",
+      "specialite": "TRAU",
+      "sous_specialite": "Fractures des membres",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur du poignet après chute sur la paume"
+      ],
+      "signes_cliniques": [
+        "douleur à la palpation de la tabatière anatomique"
+      ],
+      "examens_cles": [
+        "radiographies du poignet avec incidences spécifiques",
+        "scanner ou IRM si radiographies normales et suspicion clinique"
+      ],
+      "traitements_cles": [
+        "immobilisation plâtrée prolongée",
+        "vissage percutané",
+        "greffe osseuse en cas de pseudarthrose"
+      ],
+      "pathologies_liees": [
+        "PATH-ORTH-0024",
+        "PATH-ORTH-0025",
+        "PATH-TRAU-0010",
+        "PATH-TRAU-0012"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0012",
+      "nom_fr": "Luxation périlunaire du carpe",
+      "nom_en": "Perilunate dislocation",
+      "synonymes": [
+        "luxation rétrolunaire du carpe"
+      ],
+      "cim10": "S63.0",
+      "specialite": "TRAU",
+      "sous_specialite": "Fractures des membres",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire",
+        "urgence"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur et tuméfaction du poignet après traumatisme violent"
+      ],
+      "signes_cliniques": [
+        "déformation",
+        "troubles sensitifs du nerf médian"
+      ],
+      "examens_cles": [
+        "radiographies du poignet (profil strict)",
+        "scanner"
+      ],
+      "traitements_cles": [
+        "réduction en urgence et stabilisation chirurgicale (brochage, réparation ligamentaire)"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0011"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0013",
+      "nom_fr": "Fractures des métacarpiens",
+      "nom_en": "Metacarpal fractures",
+      "synonymes": [
+        "fracture du boxeur"
+      ],
+      "cim10": "S62.3",
+      "specialite": "TRAU",
+      "sous_specialite": "Fractures des membres",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur et œdème de la main après un coup de poing ou une chute"
+      ],
+      "signes_cliniques": [
+        "déformation",
+        "recherche d'un trouble de rotation des doigts (chevauchement en flexion)"
+      ],
+      "examens_cles": [
+        "radiographies de la main"
+      ],
+      "traitements_cles": [
+        "traitement orthopédique",
+        "ostéosynthèse en cas de déplacement important ou de trouble rotatoire"
+      ],
+      "pathologies_liees": [
+        "PATH-CPLA-0009"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0014",
+      "nom_fr": "Fractures du bassin (anneau pelvien)",
+      "nom_en": "Pelvic ring fractures",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "TRAU",
+      "sous_specialite": "Bassin et cotyle",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur pelvienne",
+        "impossibilité de se lever"
+      ],
+      "signes_cliniques": [
+        "instabilité du bassin",
+        "hématome périnéal",
+        "urétrorragie",
+        "signes de choc hémorragique"
+      ],
+      "examens_cles": [
+        "radiographie du bassin",
+        "scanner corps entier du polytraumatisé",
+        "recherche de lésions urétrales et vésicales"
+      ],
+      "traitements_cles": [
+        "ceinture pelvienne en urgence",
+        "embolisation artérielle ou packing pelvien en cas d'hémorragie",
+        "fixateur externe",
+        "ostéosynthèse différée"
+      ],
+      "pathologies_liees": [
+        "PATH-UROL-0023",
+        "PATH-UROL-0024",
+        "PATH-TRAU-0015",
+        "PATH-TRAU-0038",
+        "PATH-TRAU-0039"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0015",
+      "nom_fr": "Fracture du cotyle",
+      "nom_en": "Acetabular fracture",
+      "synonymes": [
+        "fracture de l'acétabulum"
+      ],
+      "cim10": "S32.4",
+      "specialite": "TRAU",
+      "sous_specialite": "Bassin et cotyle",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur de hanche après traumatisme à haute énergie"
+      ],
+      "signes_cliniques": [
+        "impotence",
+        "luxation associée de la tête fémorale",
+        "recherche d'une atteinte du nerf sciatique"
+      ],
+      "examens_cles": [
+        "radiographies (incidences de Judet)",
+        "scanner avec reconstructions"
+      ],
+      "traitements_cles": [
+        "traction",
+        "ostéosynthèse des fractures déplacées",
+        "prothèse de hanche dans certaines situations"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0014",
+        "PATH-TRAU-0016"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0016",
+      "nom_fr": "Luxation traumatique de la hanche",
+      "nom_en": "Traumatic hip dislocation",
+      "synonymes": [],
+      "cim10": "S73.0",
+      "specialite": "TRAU",
+      "sous_specialite": "Bassin et cotyle",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-034"
+      ],
+      "symptomes": [
+        "douleur intense et impotence après traumatisme à haute énergie (choc du tableau de bord)"
+      ],
+      "signes_cliniques": [
+        "attitude en flexion-adduction-rotation interne (luxation postérieure)",
+        "recherche d'une atteinte du nerf sciatique"
+      ],
+      "examens_cles": [
+        "radiographies du bassin",
+        "scanner après réduction (fractures associées, incarcérations)"
+      ],
+      "traitements_cles": [
+        "réduction en urgence sous anesthésie générale",
+        "traitement des fractures associées",
+        "surveillance de l'ostéonécrose de la tête fémorale"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0015",
+        "PATH-TRAU-0038"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0017",
+      "nom_fr": "Fracture du col du fémur",
+      "nom_en": "Femoral neck fracture",
+      "synonymes": [],
+      "cim10": "S72.0",
+      "specialite": "TRAU",
+      "sous_specialite": "Bassin et cotyle",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-035"
+      ],
+      "symptomes": [
+        "douleur de l'aine",
+        "impotence après chute chez le sujet âgé"
+      ],
+      "signes_cliniques": [
+        "raccourcissement, rotation externe et adduction du membre (fracture déplacée)"
+      ],
+      "examens_cles": [
+        "radiographies du bassin et de la hanche (classification de Garden)",
+        "bilan préopératoire et gériatrique"
+      ],
+      "traitements_cles": [
+        "chirurgie précoce : ostéosynthèse (vissage) des fractures non déplacées ou du sujet jeune",
+        "arthroplastie (prothèse intermédiaire ou totale) des fractures déplacées du sujet âgé",
+        "verticalisation précoce",
+        "prévention des complications de décubitus",
+        "traitement de l'ostéoporose"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0018",
+        "PATH-ANES-0006"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0018",
+      "nom_fr": "Fracture du massif trochantérien",
+      "nom_en": "Trochanteric (pertrochanteric) fracture",
+      "synonymes": [
+        "fracture pertrochantérienne"
+      ],
+      "cim10": "S72.1",
+      "specialite": "TRAU",
+      "sous_specialite": "Bassin et cotyle",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [
+        "RES-CHI-035"
+      ],
+      "symptomes": [
+        "douleur et impotence après chute chez le sujet âgé"
+      ],
+      "signes_cliniques": [
+        "rotation externe marquée et raccourcissement du membre",
+        "hématome"
+      ],
+      "examens_cles": [
+        "radiographies du bassin et de la hanche"
+      ],
+      "traitements_cles": [
+        "ostéosynthèse (clou centromédullaire, vis-plaque)",
+        "mise en charge précoce",
+        "prise en charge gériatrique"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0017"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0019",
+      "nom_fr": "Fracture de la diaphyse fémorale",
+      "nom_en": "Femoral shaft fracture",
+      "synonymes": [],
+      "cim10": "S72.3",
+      "specialite": "TRAU",
+      "sous_specialite": "Bassin et cotyle",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur, impotence et déformation de la cuisse après traumatisme violent"
+      ],
+      "signes_cliniques": [
+        "déformation",
+        "choc hémorragique",
+        "recherche de lésions associées (genou, hanche)"
+      ],
+      "examens_cles": [
+        "radiographies du fémur prenant les articulations sus- et sous-jacentes",
+        "bilan du polytraumatisé"
+      ],
+      "traitements_cles": [
+        "immobilisation provisoire (attelle de traction)",
+        "enclouage centromédullaire précoce",
+        "traitement orthopédique chez le jeune enfant"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0041",
+        "PATH-TRAU-0038",
+        "PATH-TRAU-0039"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0020",
+      "nom_fr": "Fracture de l'extrémité inférieure du fémur",
+      "nom_en": "Distal femoral fracture",
+      "synonymes": [
+        "fracture supracondylienne du fémur"
+      ],
+      "cim10": "S72.4",
+      "specialite": "TRAU",
+      "sous_specialite": "Bassin et cotyle",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur et impotence du genou"
+      ],
+      "signes_cliniques": [
+        "hémarthrose",
+        "déformation",
+        "recherche d'une lésion de l'artère poplitée"
+      ],
+      "examens_cles": [
+        "radiographies",
+        "scanner"
+      ],
+      "traitements_cles": [
+        "ostéosynthèse (plaque, clou rétrograde)"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0022"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0021",
+      "nom_fr": "Fracture de la rotule",
+      "nom_en": "Patellar fracture",
+      "synonymes": [
+        "fracture de la patella"
+      ],
+      "cim10": "S82.0",
+      "specialite": "TRAU",
+      "sous_specialite": "Bassin et cotyle",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur du genou après chute sur le genou"
+      ],
+      "signes_cliniques": [
+        "hémarthrose",
+        "perte de l'extension active"
+      ],
+      "examens_cles": [
+        "radiographies du genou (face, profil, axiale)"
+      ],
+      "traitements_cles": [
+        "immobilisation (fracture non déplacée)",
+        "ostéosynthèse (haubanage) des fractures déplacées"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0033"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0022",
+      "nom_fr": "Fracture des plateaux tibiaux",
+      "nom_en": "Tibial plateau fracture",
+      "synonymes": [],
+      "cim10": "S82.1",
+      "specialite": "TRAU",
+      "sous_specialite": "Bassin et cotyle",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur et impotence du genou"
+      ],
+      "signes_cliniques": [
+        "hémarthrose",
+        "déformation axiale",
+        "recherche de syndrome des loges et de lésions ligamentaires associées"
+      ],
+      "examens_cles": [
+        "radiographies",
+        "scanner (enfoncement, séparation)"
+      ],
+      "traitements_cles": [
+        "ostéosynthèse avec réduction de l'enfoncement",
+        "traitement orthopédique des fractures non déplacées"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0020",
+        "PATH-TRAU-0040",
+        "PATH-TRAU-0030"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0023",
+      "nom_fr": "Fracture ouverte des os de la jambe",
+      "nom_en": "Open fracture of the tibia and fibula",
+      "synonymes": [],
+      "cim10": "S82.2",
+      "specialite": "TRAU",
+      "sous_specialite": "Bassin et cotyle",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-036"
+      ],
+      "symptomes": [
+        "douleur, déformation et plaie de la jambe après traumatisme (accident de la voie publique)"
+      ],
+      "signes_cliniques": [
+        "ouverture cutanée (classification de Cauchoix-Duparc ou Gustilo)",
+        "recherche de complications vasculaires, nerveuses et de syndrome des loges"
+      ],
+      "examens_cles": [
+        "radiographies de la jambe prenant genou et cheville"
+      ],
+      "traitements_cles": [
+        "antibioprophylaxie précoce",
+        "prophylaxie antitétanique",
+        "parage chirurgical en urgence",
+        "stabilisation (fixateur externe ou enclouage)",
+        "couverture cutanée"
+      ],
+      "pathologies_liees": [
+        "PATH-ORTH-0011",
+        "PATH-ORTH-0025",
+        "PATH-TRAU-0040",
+        "PATH-SPUB-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0024",
+      "nom_fr": "Fracture du pilon tibial",
+      "nom_en": "Tibial pilon fracture",
+      "synonymes": [],
+      "cim10": "S82.3",
+      "specialite": "TRAU",
+      "sous_specialite": "Bassin et cotyle",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur et impotence de la cheville après chute d'un lieu élevé"
+      ],
+      "signes_cliniques": [
+        "œdème important",
+        "phlyctènes",
+        "souffrance cutanée"
+      ],
+      "examens_cles": [
+        "radiographies",
+        "scanner"
+      ],
+      "traitements_cles": [
+        "fixateur externe temporaire puis ostéosynthèse différée après amélioration cutanée"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0027",
+        "PATH-TRAU-0025"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0025",
+      "nom_fr": "Fractures bimalléolaires de la cheville",
+      "nom_en": "Bimalleolar ankle fractures",
+      "synonymes": [
+        "fractures malléolaires"
+      ],
+      "cim10": "S82.8",
+      "specialite": "TRAU",
+      "sous_specialite": "Bassin et cotyle",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur et impotence de la cheville après torsion"
+      ],
+      "signes_cliniques": [
+        "déformation",
+        "douleur des malléoles",
+        "recherche d'une luxation associée"
+      ],
+      "examens_cles": [
+        "radiographies de la cheville (règles d'Ottawa)"
+      ],
+      "traitements_cles": [
+        "réduction en urgence si luxation",
+        "ostéosynthèse des fractures déplacées",
+        "prévention thromboembolique"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0024",
+        "PATH-TRAU-0026"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0026",
+      "nom_fr": "Entorse de la cheville",
+      "nom_en": "Ankle sprain",
+      "synonymes": [
+        "entorse du ligament collatéral latéral"
+      ],
+      "cim10": "S93.4",
+      "specialite": "TRAU",
+      "sous_specialite": "Bassin et cotyle",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur de la cheville après torsion en inversion",
+        "craquement"
+      ],
+      "signes_cliniques": [
+        "œdème et ecchymose latérale",
+        "douleur ligamentaire",
+        "appliquer les règles d'Ottawa"
+      ],
+      "examens_cles": [
+        "radiographie seulement selon les règles d'Ottawa",
+        "échographie selon les cas"
+      ],
+      "traitements_cles": [
+        "protocole RICE (repos, glace, compression, élévation)",
+        "orthèse de stabilisation",
+        "rééducation proprioceptive",
+        "chirurgie de l'instabilité chronique"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0025",
+        "PATH-TRAU-0029"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0027",
+      "nom_fr": "Fracture du calcanéum",
+      "nom_en": "Calcaneal fracture",
+      "synonymes": [],
+      "cim10": "S92.0",
+      "specialite": "TRAU",
+      "sous_specialite": "Bassin et cotyle",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur du talon après chute d'un lieu élevé"
+      ],
+      "signes_cliniques": [
+        "œdème",
+        "élargissement du talon",
+        "recherche d'une fracture rachidienne associée"
+      ],
+      "examens_cles": [
+        "radiographies (angle de Böhler)",
+        "scanner"
+      ],
+      "traitements_cles": [
+        "traitement fonctionnel ou ostéosynthèse selon le déplacement"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0024",
+        "PATH-TRAU-0037"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0028",
+      "nom_fr": "Fractures des métatarsiens",
+      "nom_en": "Metatarsal fractures",
+      "synonymes": [],
+      "cim10": "S92.3",
+      "specialite": "TRAU",
+      "sous_specialite": "Bassin et cotyle",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur de l'avant-pied"
+      ],
+      "signes_cliniques": [
+        "œdème",
+        "douleur localisée"
+      ],
+      "examens_cles": [
+        "radiographies du pied"
+      ],
+      "traitements_cles": [
+        "chaussure de décharge ou plâtre",
+        "ostéosynthèse de certaines fractures (base du cinquième métatarsien de type Jones déplacée)"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0043"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0029",
+      "nom_fr": "Rupture du tendon d'Achille",
+      "nom_en": "Achilles tendon rupture",
+      "synonymes": [],
+      "cim10": "S86.0",
+      "specialite": "TRAU",
+      "sous_specialite": "Lésions capsulo-ligamentaires et tendineuses",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur brutale du mollet (« coup de bâton ») lors d'une impulsion",
+        "boiterie"
+      ],
+      "signes_cliniques": [
+        "encoche palpable",
+        "test de Thompson positif",
+        "impossibilité de se tenir sur la pointe du pied"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "échographie"
+      ],
+      "traitements_cles": [
+        "traitement orthopédique (botte en équin) ou suture chirurgicale",
+        "rééducation"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0026"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0030",
+      "nom_fr": "Rupture du ligament croisé antérieur",
+      "nom_en": "Anterior cruciate ligament tear",
+      "synonymes": [],
+      "cim10": "S83.5",
+      "specialite": "TRAU",
+      "sous_specialite": "Lésions capsulo-ligamentaires et tendineuses",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "craquement lors d'un mouvement de pivot",
+        "gonflement rapide",
+        "sensation d'instabilité (dérobements)"
+      ],
+      "signes_cliniques": [
+        "hémarthrose",
+        "test de Lachman positif",
+        "ressaut rotatoire"
+      ],
+      "examens_cles": [
+        "radiographies",
+        "IRM du genou"
+      ],
+      "traitements_cles": [
+        "rééducation",
+        "ligamentoplastie selon l'instabilité, l'âge et l'activité sportive"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0022",
+        "PATH-TRAU-0031",
+        "PATH-TRAU-0032"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0031",
+      "nom_fr": "Lésion méniscale traumatique",
+      "nom_en": "Traumatic meniscal tear",
+      "synonymes": [],
+      "cim10": "S83.2",
+      "specialite": "TRAU",
+      "sous_specialite": "Lésions capsulo-ligamentaires et tendineuses",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur de l'interligne",
+        "blocages",
+        "gonflements"
+      ],
+      "signes_cliniques": [
+        "douleur à la palpation de l'interligne",
+        "tests méniscaux positifs",
+        "flessum (blocage)"
+      ],
+      "examens_cles": [
+        "IRM du genou"
+      ],
+      "traitements_cles": [
+        "traitement fonctionnel",
+        "suture méniscale (lésion périphérique du sujet jeune) ou méniscectomie partielle arthroscopique"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0030",
+        "PATH-ORTH-0031"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0032",
+      "nom_fr": "Entorse du ligament collatéral médial du genou",
+      "nom_en": "Medial collateral ligament sprain of the knee",
+      "synonymes": [
+        "entorse interne du genou"
+      ],
+      "cim10": "S83.4",
+      "specialite": "TRAU",
+      "sous_specialite": "Lésions capsulo-ligamentaires et tendineuses",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur interne du genou après un traumatisme en valgus"
+      ],
+      "signes_cliniques": [
+        "douleur à l'insertion fémorale du ligament",
+        "laxité en valgus à 30° de flexion"
+      ],
+      "examens_cles": [
+        "radiographies",
+        "IRM si suspicion de lésions associées"
+      ],
+      "traitements_cles": [
+        "orthèse articulée",
+        "rééducation",
+        "chirurgie rare (lésions combinées)"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0030"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0033",
+      "nom_fr": "Luxation de la rotule",
+      "nom_en": "Patellar dislocation",
+      "synonymes": [
+        "luxation de la patella"
+      ],
+      "cim10": "S83.0",
+      "specialite": "TRAU",
+      "sous_specialite": "Lésions capsulo-ligamentaires et tendineuses",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "déboîtement brutal de la rotule en dehors lors d'une torsion",
+        "douleur"
+      ],
+      "signes_cliniques": [
+        "rotule déplacée en dehors (avant réduction)",
+        "hémarthrose",
+        "appréhension"
+      ],
+      "examens_cles": [
+        "radiographies (fracture ostéochondrale)",
+        "IRM",
+        "scanner (facteurs d'instabilité)"
+      ],
+      "traitements_cles": [
+        "réduction",
+        "immobilisation puis rééducation",
+        "stabilisation chirurgicale en cas de récidive"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0021",
+        "PATH-ORTH-0032"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0034",
+      "nom_fr": "Luxation acromio-claviculaire",
+      "nom_en": "Acromioclavicular joint dislocation",
+      "synonymes": [
+        "disjonction acromio-claviculaire"
+      ],
+      "cim10": "S43.1",
+      "specialite": "TRAU",
+      "sous_specialite": "Lésions capsulo-ligamentaires et tendineuses",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur du moignon de l'épaule après chute sur l'épaule"
+      ],
+      "signes_cliniques": [
+        "saillie de l'extrémité latérale de la clavicule",
+        "touche de piano"
+      ],
+      "examens_cles": [
+        "radiographies des articulations acromio-claviculaires comparatives"
+      ],
+      "traitements_cles": [
+        "traitement fonctionnel (stades peu déplacés)",
+        "stabilisation chirurgicale des formes graves"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0035",
+      "nom_fr": "Fractures et luxations du rachis cervical",
+      "nom_en": "Cervical spine fractures and dislocations",
+      "synonymes": [
+        "traumatisme du rachis cervical"
+      ],
+      "cim10": "S12",
+      "specialite": "TRAU",
+      "sous_specialite": "Traumatismes du rachis",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire",
+        "neurologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-053"
+      ],
+      "symptomes": [
+        "cervicalgies après traumatisme",
+        "déficit neurologique",
+        "paresthésies"
+      ],
+      "signes_cliniques": [
+        "contracture",
+        "déficit moteur ou sensitif (tétraplégie)",
+        "immobilisation cervicale préhospitalière"
+      ],
+      "examens_cles": [
+        "scanner du rachis cervical",
+        "IRM si déficit neurologique ou suspicion de lésion disco-ligamentaire"
+      ],
+      "traitements_cles": [
+        "immobilisation (collier cervical, maintien en rectitude)",
+        "réduction et stabilisation chirurgicale (arthrodèse) des lésions instables",
+        "prise en charge d'une atteinte médullaire"
+      ],
+      "pathologies_liees": [
+        "PATH-NCHI-0010",
+        "PATH-TRAU-0036",
+        "PATH-MPR-0003",
+        "PATH-TRAU-0038"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0036",
+      "nom_fr": "Entorse grave du rachis cervical",
+      "nom_en": "Severe cervical sprain",
+      "synonymes": [],
+      "cim10": "S13.4",
+      "specialite": "TRAU",
+      "sous_specialite": "Traumatismes du rachis",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-053"
+      ],
+      "symptomes": [
+        "cervicalgies",
+        "raideur après traumatisme en flexion"
+      ],
+      "signes_cliniques": [
+        "douleur des épineuses",
+        "souvent sans déficit"
+      ],
+      "examens_cles": [
+        "radiographies dynamiques à distance",
+        "IRM (lésions ligamentaires postérieures)"
+      ],
+      "traitements_cles": [
+        "arthrodèse en cas d'instabilité",
+        "immobilisation et surveillance radiologique"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0035"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0037",
+      "nom_fr": "Fractures du rachis thoraco-lombaire",
+      "nom_en": "Thoracolumbar spine fractures",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "TRAU",
+      "sous_specialite": "Traumatismes du rachis",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire",
+        "neurologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "rachialgies après chute d'un lieu élevé ou accident",
+        "déficit neurologique éventuel"
+      ],
+      "signes_cliniques": [
+        "douleur à la palpation des épineuses",
+        "signes de paraplégie ou de syndrome de la queue de cheval"
+      ],
+      "examens_cles": [
+        "scanner du rachis",
+        "IRM (atteinte médullaire, disco-ligamentaire)"
+      ],
+      "traitements_cles": [
+        "traitement fonctionnel ou corset (fractures stables)",
+        "ostéosynthèse (fractures instables ou avec déficit)",
+        "décompression"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0027",
+        "PATH-NCHI-0010",
+        "PATH-MPR-0002"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0038",
+      "nom_fr": "Polytraumatisme",
+      "nom_en": "Multiple trauma",
+      "synonymes": [
+        "polytraumatisé"
+      ],
+      "cim10": "T07",
+      "specialite": "TRAU",
+      "sous_specialite": "Polytraumatisé",
+      "categories": [
+        "traumatique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "traumatisme à haute énergie (accident de la voie publique, chute, écrasement)"
+      ],
+      "signes_cliniques": [
+        "évaluation primaire (voies aériennes, ventilation, circulation, état neurologique, exposition)",
+        "lésions associées multiples dont au moins une engage le pronostic vital"
+      ],
+      "examens_cles": [
+        "échographie FAST",
+        "radiographies thoracique et du bassin en salle",
+        "scanner corps entier",
+        "bilan biologique (hémoglobine, lactates, hémostase, groupage)"
+      ],
+      "traitements_cles": [
+        "prise en charge préhospitalière médicalisée et orientation vers un centre de traumatologie",
+        "contrôle des hémorragies (damage control)",
+        "remplissage et transfusion",
+        "acide tranexamique",
+        "chirurgie et radiologie interventionnelle"
+      ],
+      "pathologies_liees": [
+        "PATH-UROL-0022",
+        "PATH-CGEN-0016",
+        "PATH-CGEN-0017",
+        "PATH-CGEN-0019",
+        "PATH-CTHO-0001",
+        "PATH-CTHO-0002",
+        "PATH-CTHO-0006",
+        "PATH-CCVA-0003",
+        "PATH-TRAU-0014",
+        "PATH-TRAU-0016",
+        "PATH-TRAU-0019",
+        "PATH-TRAU-0035",
+        "PATH-TRAU-0039",
+        "PATH-NCHI-0001",
+        "PATH-SPUB-0001",
+        "PATH-URGE-0033",
+        "PATH-MINT_REA-0009"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0039",
+      "nom_fr": "Choc hémorragique traumatique",
+      "nom_en": "Traumatic haemorrhagic shock",
+      "synonymes": [],
+      "cim10": "T79.4",
+      "specialite": "TRAU",
+      "sous_specialite": "Polytraumatisé",
+      "categories": [
+        "traumatique",
+        "cardiovasculaire",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-106"
+      ],
+      "symptomes": [
+        "malaise",
+        "soif",
+        "agitation puis troubles de conscience"
+      ],
+      "signes_cliniques": [
+        "tachycardie",
+        "hypotension",
+        "marbrures",
+        "allongement du temps de recoloration",
+        "saignement extériorisé ou interne"
+      ],
+      "examens_cles": [
+        "hémoglobine, lactates",
+        "hémostase et fibrinogène (coagulopathie)",
+        "groupage",
+        "échographie FAST"
+      ],
+      "traitements_cles": [
+        "contrôle chirurgical ou radiologique de l'hémorragie",
+        "hypotension permissive (sauf traumatisme crânien)",
+        "transfusion précoce (concentrés érythrocytaires, plasma, plaquettes)",
+        "acide tranexamique",
+        "fibrinogène",
+        "prévention de l'hypothermie et de l'acidose"
+      ],
+      "pathologies_liees": [
+        "PATH-CGEN-0016",
+        "PATH-CTHO-0002",
+        "PATH-CCVA-0001",
+        "PATH-TRAU-0014",
+        "PATH-TRAU-0019",
+        "PATH-TRAU-0038",
+        "PATH-MINT_REA-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0040",
+      "nom_fr": "Syndrome des loges aigu",
+      "nom_en": "Acute compartment syndrome",
+      "synonymes": [
+        "syndrome compartimental aigu"
+      ],
+      "cim10": "T79.6",
+      "specialite": "TRAU",
+      "sous_specialite": "Polytraumatisé",
+      "categories": [
+        "traumatique",
+        "cardiovasculaire",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur intense disproportionnée, majorée par l'étirement passif des muscles",
+        "paresthésies"
+      ],
+      "signes_cliniques": [
+        "loge tendue",
+        "déficit sensitif puis moteur",
+        "pouls souvent conservés au début"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "mesure des pressions intramusculaires si doute"
+      ],
+      "traitements_cles": [
+        "ablation des pansements et plâtres circulaires",
+        "aponévrotomie de décharge en urgence"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0025",
+        "PATH-CCVA-0005",
+        "PATH-TRAU-0009",
+        "PATH-TRAU-0022",
+        "PATH-TRAU-0023",
+        "PATH-TRAU-0042",
+        "PATH-CPLA-0003",
+        "PATH-URGE-0022"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0041",
+      "nom_fr": "Syndrome d'embolie graisseuse",
+      "nom_en": "Fat embolism syndrome",
+      "synonymes": [],
+      "cim10": "T79.1",
+      "specialite": "TRAU",
+      "sous_specialite": "Polytraumatisé",
+      "categories": [
+        "traumatique",
+        "respiratoire",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "détresse respiratoire",
+        "confusion 24 à 72 heures après une fracture des os longs"
+      ],
+      "signes_cliniques": [
+        "hypoxémie",
+        "troubles neurologiques",
+        "pétéchies (thorax, conjonctives, aisselles)"
+      ],
+      "examens_cles": [
+        "gaz du sang",
+        "radiographie et scanner thoraciques",
+        "IRM cérébrale",
+        "fond d'œil"
+      ],
+      "traitements_cles": [
+        "traitement symptomatique (oxygénothérapie, ventilation)",
+        "stabilisation précoce des fractures (prévention)"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0019",
+        "PATH-MINT_REA-0004",
+        "PATH-ANAP-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0042",
+      "nom_fr": "Syndrome d'écrasement (crush syndrome)",
+      "nom_en": "Crush syndrome",
+      "synonymes": [
+        "rhabdomyolyse traumatique"
+      ],
+      "cim10": "T79.5",
+      "specialite": "TRAU",
+      "sous_specialite": "Polytraumatisé",
+      "categories": [
+        "traumatique",
+        "rénale",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "écrasement prolongé d'un membre (ensevelissement, catastrophe)",
+        "urines foncées"
+      ],
+      "signes_cliniques": [
+        "membre tuméfié",
+        "troubles du rythme (hyperkaliémie) lors de la levée de compression",
+        "oligoanurie"
+      ],
+      "examens_cles": [
+        "CPK très élevées",
+        "kaliémie",
+        "créatininémie",
+        "myoglobinurie",
+        "gaz du sang"
+      ],
+      "traitements_cles": [
+        "remplissage précoce avant la désincarcération",
+        "traitement de l'hyperkaliémie",
+        "épuration extrarénale",
+        "aponévrotomies selon le cas"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0040",
+        "PATH-URGE-0033",
+        "PATH-MLEG-0005"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-TRAU-0043",
+      "nom_fr": "Fracture de fatigue",
+      "nom_en": "Stress fracture",
+      "synonymes": [
+        "fracture de stress"
+      ],
+      "cim10": "M84.3",
+      "specialite": "TRAU",
+      "sous_specialite": "Traumatologie du sport",
+      "categories": [
+        "traumatique",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur mécanique progressive lors d'activités répétées (marche, course)"
+      ],
+      "signes_cliniques": [
+        "douleur exquise localisée",
+        "terrain (sportifs, militaires, déséquilibre nutritionnel ou hormonal)"
+      ],
+      "examens_cles": [
+        "radiographies (souvent normales au début)",
+        "IRM ou scintigraphie"
+      ],
+      "traitements_cles": [
+        "repos et mise en décharge",
+        "correction des facteurs favorisants",
+        "ostéosynthèse de certaines localisations à risque (col fémoral)"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0028"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NCHI-0001",
+      "nom_fr": "Traumatisme crânio-encéphalique",
+      "nom_en": "Traumatic brain injury",
+      "synonymes": [
+        "traumatisme crânien"
+      ],
+      "cim10": "S06",
+      "specialite": "NCHI",
+      "sous_specialite": "Traumatologie crânio-rachidienne",
+      "categories": [
+        "traumatique",
+        "neurologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-051"
+      ],
+      "symptomes": [
+        "perte de connaissance",
+        "céphalées",
+        "vomissements",
+        "confusion",
+        "amnésie"
+      ],
+      "signes_cliniques": [
+        "score de Glasgow",
+        "signes de localisation",
+        "anomalies pupillaires",
+        "otorragie, rhinorrhée",
+        "lésions associées (rachis cervical)"
+      ],
+      "examens_cles": [
+        "scanner cérébral et du rachis cervical selon les critères",
+        "bilan biologique",
+        "surveillance neurologique"
+      ],
+      "traitements_cles": [
+        "prévention des agressions cérébrales secondaires d'origine systémique (hypoxie, hypotension)",
+        "évacuation chirurgicale des hématomes compressifs",
+        "traitement de l'hypertension intracrânienne",
+        "réanimation des formes graves"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0038",
+        "PATH-NCHI-0002",
+        "PATH-NCHI-0003",
+        "PATH-NCHI-0005",
+        "PATH-NCHI-0006",
+        "PATH-NCHI-0007",
+        "PATH-NCHI-0027",
+        "PATH-MPR-0006",
+        "PATH-NCHI-0004",
+        "PATH-NCHI-0008",
+        "PATH-NCHI-0009",
+        "PATH-URGE-0008",
+        "PATH-MINT_REA-0006",
+        "PATH-MINT_REA-0007",
+        "PATH-SPUB-0001",
+        "PATH-NCHI-0029"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NCHI-0002",
+      "nom_fr": "Hématome extradural",
+      "nom_en": "Extradural (epidural) haematoma",
+      "synonymes": [
+        "hématome épidural"
+      ],
+      "cim10": "S06.4",
+      "specialite": "NCHI",
+      "sous_specialite": "Traumatologie crânio-rachidienne",
+      "categories": [
+        "traumatique",
+        "neurologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-051"
+      ],
+      "symptomes": [
+        "perte de connaissance initiale suivie d'un intervalle libre puis aggravation",
+        "céphalées",
+        "vomissements"
+      ],
+      "signes_cliniques": [
+        "aggravation de la conscience",
+        "mydriase homolatérale",
+        "hémiparésie controlatérale"
+      ],
+      "examens_cles": [
+        "scanner cérébral (lentille biconvexe hyperdense, fracture associée)"
+      ],
+      "traitements_cles": [
+        "évacuation chirurgicale en urgence (craniotomie)",
+        "surveillance des formes de petit volume"
+      ],
+      "pathologies_liees": [
+        "PATH-NCHI-0001",
+        "PATH-NCHI-0008",
+        "PATH-NCHI-0028"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NCHI-0003",
+      "nom_fr": "Hématome sous-dural aigu",
+      "nom_en": "Acute subdural haematoma",
+      "synonymes": [],
+      "cim10": "S06.5",
+      "specialite": "NCHI",
+      "sous_specialite": "Traumatologie crânio-rachidienne",
+      "categories": [
+        "traumatique",
+        "neurologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-051"
+      ],
+      "symptomes": [
+        "troubles de conscience d'emblée",
+        "céphalées"
+      ],
+      "signes_cliniques": [
+        "coma",
+        "signes de localisation",
+        "mydriase"
+      ],
+      "examens_cles": [
+        "scanner cérébral (croissant hyperdense, effet de masse)"
+      ],
+      "traitements_cles": [
+        "évacuation chirurgicale si épaisseur importante ou déviation de la ligne médiane",
+        "réanimation neurologique"
+      ],
+      "pathologies_liees": [
+        "PATH-NCHI-0001",
+        "PATH-NCHI-0005",
+        "PATH-MLEG-0011",
+        "PATH-NCHI-0028"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NCHI-0004",
+      "nom_fr": "Hématome sous-dural chronique",
+      "nom_en": "Chronic subdural haematoma",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "NCHI",
+      "sous_specialite": "Traumatologie crânio-rachidienne",
+      "categories": [
+        "neurologique",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "céphalées",
+        "troubles cognitifs ou du comportement",
+        "troubles de la marche chez un sujet âgé"
+      ],
+      "signes_cliniques": [
+        "déficit moteur progressif",
+        "terrain (anticoagulants, antiagrégants, alcool)",
+        "traumatisme mineur souvent oublié"
+      ],
+      "examens_cles": [
+        "scanner cérébral (collection hypodense ou mixte en croissant)"
+      ],
+      "traitements_cles": [
+        "évacuation chirurgicale (trous de trépan) des formes symptomatiques",
+        "gestion des antithrombotiques",
+        "embolisation de l'artère méningée moyenne selon les pratiques"
+      ],
+      "pathologies_liees": [
+        "PATH-NCHI-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NCHI-0005",
+      "nom_fr": "Contusion cérébrale",
+      "nom_en": "Cerebral contusion",
+      "synonymes": [],
+      "cim10": "S06.3",
+      "specialite": "NCHI",
+      "sous_specialite": "Traumatologie crânio-rachidienne",
+      "categories": [
+        "traumatique",
+        "neurologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-051"
+      ],
+      "symptomes": [
+        "troubles de conscience",
+        "céphalées",
+        "crises d'épilepsie"
+      ],
+      "signes_cliniques": [
+        "déficits focaux selon la localisation"
+      ],
+      "examens_cles": [
+        "scanner cérébral (contusions hémorragiques frontales et temporales, aggravation possible à 24 heures)"
+      ],
+      "traitements_cles": [
+        "surveillance neurologique et scanner de contrôle",
+        "traitement de l'œdème et de l'hypertension intracrânienne",
+        "chirurgie de décompression selon les cas"
+      ],
+      "pathologies_liees": [
+        "PATH-NCHI-0001",
+        "PATH-NCHI-0003",
+        "PATH-NCHI-0027"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NCHI-0006",
+      "nom_fr": "Lésions axonales diffuses",
+      "nom_en": "Diffuse axonal injury",
+      "synonymes": [],
+      "cim10": "S06.2",
+      "specialite": "NCHI",
+      "sous_specialite": "Traumatologie crânio-rachidienne",
+      "categories": [
+        "traumatique",
+        "neurologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-051"
+      ],
+      "symptomes": [
+        "coma d'emblée après un traumatisme à forte décélération"
+      ],
+      "signes_cliniques": [
+        "coma profond sans lésion focale chirurgicale"
+      ],
+      "examens_cles": [
+        "scanner (souvent peu contributif)",
+        "IRM (lésions de la substance blanche et du corps calleux)"
+      ],
+      "traitements_cles": [
+        "réanimation neurologique",
+        "rééducation prolongée"
+      ],
+      "pathologies_liees": [
+        "PATH-NCHI-0001",
+        "PATH-MPR-0006"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NCHI-0007",
+      "nom_fr": "Commotion cérébrale (traumatisme crânien léger)",
+      "nom_en": "Concussion",
+      "synonymes": [],
+      "cim10": "S06.0",
+      "specialite": "NCHI",
+      "sous_specialite": "Traumatologie crânio-rachidienne",
+      "categories": [
+        "traumatique",
+        "neurologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [
+        "RES-CHI-051"
+      ],
+      "symptomes": [
+        "perte de connaissance brève ou confusion",
+        "céphalées",
+        "vertiges",
+        "troubles de la concentration"
+      ],
+      "signes_cliniques": [
+        "score de Glasgow 13 à 15",
+        "examen neurologique normal"
+      ],
+      "examens_cles": [
+        "scanner cérébral selon les critères de risque",
+        "surveillance"
+      ],
+      "traitements_cles": [
+        "surveillance et consignes écrites",
+        "repos cognitif puis reprise progressive (retour au sport encadré)",
+        "prise en charge du syndrome post-commotionnel"
+      ],
+      "pathologies_liees": [
+        "PATH-NCHI-0001",
+        "PATH-MPR-0006"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NCHI-0008",
+      "nom_fr": "Fracture de la voûte du crâne (embarrure)",
+      "nom_en": "Fracture of vault of skull (depressed fracture)",
+      "synonymes": [],
+      "cim10": "S02.0",
+      "specialite": "NCHI",
+      "sous_specialite": "Traumatologie crânio-rachidienne",
+      "categories": [
+        "traumatique",
+        "neurologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-051"
+      ],
+      "symptomes": [
+        "céphalées après traumatisme",
+        "plaie du cuir chevelu"
+      ],
+      "signes_cliniques": [
+        "dépression palpable",
+        "plaie crânio-cérébrale"
+      ],
+      "examens_cles": [
+        "scanner cérébral en fenêtre osseuse"
+      ],
+      "traitements_cles": [
+        "relèvement chirurgical d'une embarrure importante ou ouverte",
+        "antibioprophylaxie et prophylaxie antitétanique des formes ouvertes"
+      ],
+      "pathologies_liees": [
+        "PATH-NCHI-0002",
+        "PATH-NCHI-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NCHI-0009",
+      "nom_fr": "Fracture de la base du crâne",
+      "nom_en": "Fracture of base of skull",
+      "synonymes": [],
+      "cim10": "S02.1",
+      "specialite": "NCHI",
+      "sous_specialite": "Traumatologie crânio-rachidienne",
+      "categories": [
+        "traumatique",
+        "neurologique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-051"
+      ],
+      "symptomes": [
+        "rhinorrhée ou otorrhée claire",
+        "hypoacousie",
+        "paralysie faciale"
+      ],
+      "signes_cliniques": [
+        "ecchymose périorbitaire bilatérale (yeux de raton laveur)",
+        "ecchymose mastoïdienne (signe de Battle)",
+        "otorragie"
+      ],
+      "examens_cles": [
+        "scanner cérébral et des rochers",
+        "recherche de bêta-2 transferrine dans l'écoulement"
+      ],
+      "traitements_cles": [
+        "surveillance",
+        "vaccination antipneumococcique selon les recommandations",
+        "fermeture chirurgicale d'une brèche ostéoméningée persistante"
+      ],
+      "pathologies_liees": [
+        "PATH-NCHI-0001",
+        "PATH-NCHI-0029"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NCHI-0010",
+      "nom_fr": "Traumatisme vertébro-médullaire",
+      "nom_en": "Spinal cord injury",
+      "synonymes": [
+        "contusion médullaire",
+        "section médullaire"
+      ],
+      "cim10": null,
+      "specialite": "NCHI",
+      "sous_specialite": "Traumatologie crânio-rachidienne",
+      "categories": [
+        "traumatique",
+        "neurologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-053"
+      ],
+      "symptomes": [
+        "déficit moteur et sensitif après traumatisme rachidien",
+        "troubles sphinctériens"
+      ],
+      "signes_cliniques": [
+        "niveau lésionnel",
+        "caractère complet ou incomplet (score ASIA)",
+        "choc spinal (bradycardie, hypotension)"
+      ],
+      "examens_cles": [
+        "scanner et IRM du rachis"
+      ],
+      "traitements_cles": [
+        "immobilisation rachidienne dès le ramassage",
+        "maintien d'une pression artérielle suffisante",
+        "décompression et stabilisation chirurgicale précoces",
+        "prévention des complications de décubitus",
+        "rééducation"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0035",
+        "PATH-TRAU-0037",
+        "PATH-MPR-0002",
+        "PATH-MPR-0003",
+        "PATH-MPR-0005"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NCHI-0011",
+      "nom_fr": "Schwannome vestibulaire (neurinome de l'acoustique)",
+      "nom_en": "Vestibular schwannoma (acoustic neuroma)",
+      "synonymes": [],
+      "cim10": "D33.3",
+      "specialite": "NCHI",
+      "sous_specialite": "Neuro-oncologie chirurgicale",
+      "categories": [
+        "néoplasique",
+        "neurologique",
+        "ORL"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "hypoacousie unilatérale progressive",
+        "acouphènes unilatéraux",
+        "instabilité"
+      ],
+      "signes_cliniques": [
+        "surdité de perception unilatérale",
+        "atteinte des nerfs crâniens voisins (V, VII) dans les formes volumineuses"
+      ],
+      "examens_cles": [
+        "audiométrie",
+        "potentiels évoqués auditifs",
+        "IRM du conduit auditif interne et de l'angle ponto-cérébelleux avec injection"
+      ],
+      "traitements_cles": [
+        "surveillance",
+        "radiochirurgie",
+        "exérèse microchirurgicale selon la taille, l'âge et l'audition"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0009",
+        "PATH-ORL-0012"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NCHI-0012",
+      "nom_fr": "Tumeurs intradurales de la moelle (méningiome, schwannome)",
+      "nom_en": "Intradural spinal tumours",
+      "synonymes": [],
+      "cim10": "D33.4",
+      "specialite": "NCHI",
+      "sous_specialite": "Neuro-oncologie chirurgicale",
+      "categories": [
+        "néoplasique",
+        "neurologique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "douleurs radiculaires ou rachidiennes nocturnes",
+        "troubles de la marche",
+        "troubles sphinctériens"
+      ],
+      "signes_cliniques": [
+        "syndrome lésionnel et sous-lésionnel (compression médullaire lente)"
+      ],
+      "examens_cles": [
+        "IRM médullaire"
+      ],
+      "traitements_cles": [
+        "exérèse microchirurgicale",
+        "rééducation"
+      ],
+      "pathologies_liees": [],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NCHI-0013",
+      "nom_fr": "Épendymome",
+      "nom_en": "Ependymoma",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "NCHI",
+      "sous_specialite": "Neuro-oncologie chirurgicale",
+      "categories": [
+        "néoplasique",
+        "neurologique",
+        "pédiatrique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "céphalées",
+        "vomissements",
+        "troubles de l'équilibre (fosse postérieure) ou douleurs et déficit (localisation médullaire)"
+      ],
+      "signes_cliniques": [
+        "syndrome d'hypertension intracrânienne",
+        "syndrome médullaire"
+      ],
+      "examens_cles": [
+        "IRM cérébrale et médullaire"
+      ],
+      "traitements_cles": [
+        "exérèse chirurgicale complète",
+        "radiothérapie selon le grade et la qualité de l'exérèse"
+      ],
+      "pathologies_liees": [
+        "PATH-NCHI-0025"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NCHI-0014",
+      "nom_fr": "Empyème sous-dural et extradural",
+      "nom_en": "Subdural and extradural empyema",
+      "synonymes": [],
+      "cim10": "G06.2",
+      "specialite": "NCHI",
+      "sous_specialite": "Neuro-oncologie chirurgicale",
+      "categories": [
+        "infectieuse",
+        "neurologique",
+        "chirurgicale",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-054"
+      ],
+      "symptomes": [
+        "céphalées",
+        "fièvre",
+        "crises d'épilepsie",
+        "troubles de conscience"
+      ],
+      "signes_cliniques": [
+        "signes de localisation",
+        "contexte de sinusite frontale ou de mastoïdite"
+      ],
+      "examens_cles": [
+        "IRM cérébrale",
+        "scanner des sinus"
+      ],
+      "traitements_cles": [
+        "évacuation chirurgicale en urgence",
+        "antibiothérapie",
+        "traitement du foyer ORL"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0014",
+        "PATH-ORL-0005",
+        "PATH-ORL-0004"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NCHI-0015",
+      "nom_fr": "Kyste hydatique cérébral",
+      "nom_en": "Cerebral hydatid cyst",
+      "synonymes": [
+        "échinococcose cérébrale"
+      ],
+      "cim10": "B67.3",
+      "specialite": "NCHI",
+      "sous_specialite": "Neuro-oncologie chirurgicale",
+      "categories": [
+        "parasitaire",
+        "neurologique",
+        "chirurgicale",
+        "pédiatrique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "céphalées",
+        "vomissements",
+        "crises d'épilepsie",
+        "troubles visuels chez l'enfant en zone d'endémie"
+      ],
+      "signes_cliniques": [
+        "signes d'hypertension intracrânienne",
+        "déficit focal",
+        "macrocrânie"
+      ],
+      "examens_cles": [
+        "scanner et IRM (kyste volumineux, sphérique, sans prise de contraste ni œdème)",
+        "sérologie hydatique",
+        "recherche d'autres localisations"
+      ],
+      "traitements_cles": [
+        "exérèse chirurgicale sans rupture du kyste (technique de l'accouchement par hydropulsion)",
+        "albendazole"
+      ],
+      "pathologies_liees": [
+        "PATH-UROL-0006",
+        "PATH-NCHI-0027",
+        "PATH-CDIG-0016"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NCHI-0016",
+      "nom_fr": "Anévrisme intracrânien non rompu",
+      "nom_en": "Unruptured intracranial aneurysm",
+      "synonymes": [],
+      "cim10": "I67.1",
+      "specialite": "NCHI",
+      "sous_specialite": "Neurochirurgie vasculaire",
+      "categories": [
+        "neurologique",
+        "cardiovasculaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "le plus souvent asymptomatique (découverte fortuite)",
+        "paralysie du III (compression)"
+      ],
+      "signes_cliniques": [
+        "examen normal ou paralysie oculomotrice"
+      ],
+      "examens_cles": [
+        "angio-IRM",
+        "angioscanner",
+        "artériographie"
+      ],
+      "traitements_cles": [
+        "surveillance ou traitement préventif (endovasculaire ou chirurgical) selon la taille, la localisation et le terrain",
+        "contrôle des facteurs de risque (HTA, tabac)"
+      ],
+      "pathologies_liees": [
+        "PATH-OPHT-0030"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NCHI-0017",
+      "nom_fr": "Malformation artério-veineuse cérébrale",
+      "nom_en": "Cerebral arteriovenous malformation",
+      "synonymes": [],
+      "cim10": "Q28.2",
+      "specialite": "NCHI",
+      "sous_specialite": "Neurochirurgie vasculaire",
+      "categories": [
+        "congénitale",
+        "neurologique",
+        "cardiovasculaire"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "hémorragie cérébrale révélatrice",
+        "crises d'épilepsie",
+        "céphalées"
+      ],
+      "signes_cliniques": [
+        "déficit neurologique en cas d'hémorragie"
+      ],
+      "examens_cles": [
+        "IRM",
+        "angioscanner",
+        "artériographie cérébrale (classification de Spetzler-Martin)"
+      ],
+      "traitements_cles": [
+        "microchirurgie, radiochirurgie, embolisation, seules ou combinées",
+        "abstention dans certaines formes non rompues"
+      ],
+      "pathologies_liees": [
+        "PATH-NCHI-0018"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NCHI-0018",
+      "nom_fr": "Cavernome cérébral",
+      "nom_en": "Cerebral cavernous malformation",
+      "synonymes": [
+        "angiome caverneux"
+      ],
+      "cim10": null,
+      "specialite": "NCHI",
+      "sous_specialite": "Neurochirurgie vasculaire",
+      "categories": [
+        "congénitale",
+        "neurologique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "crises d'épilepsie",
+        "céphalées",
+        "déficit en cas de saignement"
+      ],
+      "signes_cliniques": [
+        "examen souvent normal"
+      ],
+      "examens_cles": [
+        "IRM (aspect « en pop-corn » avec liseré d'hémosidérine en séquences T2*/SWI)"
+      ],
+      "traitements_cles": [
+        "surveillance",
+        "exérèse chirurgicale des formes symptomatiques accessibles (épilepsie, hémorragies répétées)"
+      ],
+      "pathologies_liees": [
+        "PATH-NCHI-0017"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NCHI-0019",
+      "nom_fr": "Spina bifida (myéloméningocèle)",
+      "nom_en": "Spina bifida (myelomeningocele)",
+      "synonymes": [
+        "dysraphisme spinal ouvert"
+      ],
+      "cim10": "Q05",
+      "specialite": "NCHI",
+      "sous_specialite": "Neurochirurgie pédiatrique",
+      "categories": [
+        "congénitale",
+        "neurologique",
+        "pédiatrique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "malformation lombo-sacrée visible à la naissance",
+        "troubles moteurs des membres inférieurs"
+      ],
+      "signes_cliniques": [
+        "sac méningé contenant des éléments nerveux",
+        "paraplégie",
+        "troubles sphinctériens",
+        "pied bot",
+        "hydrocéphalie associée"
+      ],
+      "examens_cles": [
+        "diagnostic anténatal (échographie, alpha-fœtoprotéine)",
+        "IRM",
+        "bilan urodynamique"
+      ],
+      "traitements_cles": [
+        "fermeture chirurgicale précoce (anténatale ou postnatale)",
+        "dérivation de l'hydrocéphalie",
+        "prise en charge urologique et orthopédique",
+        "prévention par supplémentation périconceptionnelle en acide folique"
+      ],
+      "pathologies_liees": [
+        "PATH-CPED-0008",
+        "PATH-CPED-0028",
+        "PATH-UROL-0018",
+        "PATH-CDIG-0015",
+        "PATH-ORTH-0002",
+        "PATH-NCHI-0024",
+        "PATH-NCHI-0022",
+        "PATH-MPR-0002",
+        "PATH-NCHI-0020",
+        "PATH-NCHI-0031"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NCHI-0020",
+      "nom_fr": "Encéphalocèle",
+      "nom_en": "Encephalocele",
+      "synonymes": [],
+      "cim10": "Q01",
+      "specialite": "NCHI",
+      "sous_specialite": "Neurochirurgie pédiatrique",
+      "categories": [
+        "congénitale",
+        "neurologique",
+        "pédiatrique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "masse crânienne visible à la naissance"
+      ],
+      "signes_cliniques": [
+        "hernie des méninges et du tissu cérébral par un défect osseux (occipital, frontal)"
+      ],
+      "examens_cles": [
+        "IRM cérébrale",
+        "échographie anténatale"
+      ],
+      "traitements_cles": [
+        "chirurgie de fermeture et de réparation"
+      ],
+      "pathologies_liees": [
+        "PATH-NCHI-0019",
+        "PATH-NCHI-0024"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NCHI-0021",
+      "nom_fr": "Craniosténose",
+      "nom_en": "Craniosynostosis",
+      "synonymes": [
+        "craniosynostose"
+      ],
+      "cim10": "Q75.0",
+      "specialite": "NCHI",
+      "sous_specialite": "Neurochirurgie pédiatrique",
+      "categories": [
+        "congénitale",
+        "neurologique",
+        "pédiatrique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "déformation du crâne présente dès la naissance ou d'apparition précoce"
+      ],
+      "signes_cliniques": [
+        "forme du crâne selon la suture atteinte (scaphocéphalie, trigonocéphalie, plagiocéphalie antérieure)",
+        "signes d'hypertension intracrânienne",
+        "syndromes associés (Crouzon, Apert)"
+      ],
+      "examens_cles": [
+        "radiographies et scanner crânien 3D",
+        "fond d'œil"
+      ],
+      "traitements_cles": [
+        "chirurgie de remodelage crânien",
+        "prise en charge pluridisciplinaire des formes syndromiques"
+      ],
+      "pathologies_liees": [
+        "PATH-NCHI-0027",
+        "PATH-OPHT-0029",
+        "PATH-NCHI-0032"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NCHI-0022",
+      "nom_fr": "Malformation de Chiari",
+      "nom_en": "Chiari malformation",
+      "synonymes": [
+        "malformation d'Arnold-Chiari"
+      ],
+      "cim10": "Q07.0",
+      "specialite": "NCHI",
+      "sous_specialite": "Neurochirurgie pédiatrique",
+      "categories": [
+        "congénitale",
+        "neurologique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "céphalées occipitales à la toux et à l'effort",
+        "vertiges",
+        "troubles de la déglutition"
+      ],
+      "signes_cliniques": [
+        "syndrome cérébelleux",
+        "signes de syringomyélie (anesthésie thermo-algique suspendue)"
+      ],
+      "examens_cles": [
+        "IRM cérébrale et médullaire (ptose des amygdales cérébelleuses, syringomyélie)"
+      ],
+      "traitements_cles": [
+        "décompression chirurgicale de la charnière cervico-occipitale si symptomatique"
+      ],
+      "pathologies_liees": [
+        "PATH-NCHI-0019",
+        "PATH-NCHI-0024"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NCHI-0023",
+      "nom_fr": "Malformation de Dandy-Walker",
+      "nom_en": "Dandy-Walker malformation",
+      "synonymes": [],
+      "cim10": "Q03.1",
+      "specialite": "NCHI",
+      "sous_specialite": "Neurochirurgie pédiatrique",
+      "categories": [
+        "congénitale",
+        "neurologique",
+        "pédiatrique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "macrocrânie",
+        "retard psychomoteur",
+        "vomissements"
+      ],
+      "signes_cliniques": [
+        "signes d'hypertension intracrânienne",
+        "ataxie"
+      ],
+      "examens_cles": [
+        "échographie anténatale",
+        "IRM cérébrale (dilatation kystique du quatrième ventricule, hypoplasie du vermis)"
+      ],
+      "traitements_cles": [
+        "dérivation du LCR en cas d'hydrocéphalie",
+        "prise en charge du développement"
+      ],
+      "pathologies_liees": [
+        "PATH-NCHI-0024"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NCHI-0024",
+      "nom_fr": "Hydrocéphalie congénitale",
+      "nom_en": "Congenital hydrocephalus",
+      "synonymes": [],
+      "cim10": "Q03",
+      "specialite": "NCHI",
+      "sous_specialite": "Hydrocéphalie",
+      "categories": [
+        "congénitale",
+        "neurologique",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-052"
+      ],
+      "symptomes": [
+        "augmentation rapide du périmètre crânien",
+        "vomissements",
+        "irritabilité"
+      ],
+      "signes_cliniques": [
+        "macrocrânie",
+        "fontanelle bombée",
+        "disjonction des sutures",
+        "regard en « coucher de soleil »"
+      ],
+      "examens_cles": [
+        "échographie transfontanellaire",
+        "IRM cérébrale",
+        "échographie anténatale"
+      ],
+      "traitements_cles": [
+        "dérivation ventriculo-péritonéale",
+        "ventriculocisternostomie endoscopique selon le mécanisme"
+      ],
+      "pathologies_liees": [
+        "PATH-NCHI-0019",
+        "PATH-NCHI-0020",
+        "PATH-NCHI-0022",
+        "PATH-NCHI-0023",
+        "PATH-NCHI-0026",
+        "PATH-NCHI-0027",
+        "PATH-NCHI-0030"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NCHI-0025",
+      "nom_fr": "Hydrocéphalie acquise (obstructive ou communicante)",
+      "nom_en": "Acquired hydrocephalus",
+      "synonymes": [],
+      "cim10": "G91",
+      "specialite": "NCHI",
+      "sous_specialite": "Hydrocéphalie",
+      "categories": [
+        "neurologique",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-052"
+      ],
+      "symptomes": [
+        "céphalées",
+        "vomissements",
+        "troubles visuels",
+        "troubles de conscience"
+      ],
+      "signes_cliniques": [
+        "signes d'hypertension intracrânienne",
+        "œdème papillaire"
+      ],
+      "examens_cles": [
+        "scanner ou IRM cérébrale (dilatation ventriculaire, cause : tumeur, hémorragie, méningite)"
+      ],
+      "traitements_cles": [
+        "dérivation ventriculaire externe en urgence",
+        "ventriculocisternostomie ou dérivation ventriculo-péritonéale",
+        "traitement de la cause"
+      ],
+      "pathologies_liees": [
+        "PATH-NEON-0010",
+        "PATH-NEON-0028",
+        "PATH-NCHI-0013",
+        "PATH-NCHI-0026",
+        "PATH-NCHI-0027"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NCHI-0026",
+      "nom_fr": "Dysfonction de valve de dérivation ventriculaire",
+      "nom_en": "Ventricular shunt malfunction",
+      "synonymes": [],
+      "cim10": "T85.0",
+      "specialite": "NCHI",
+      "sous_specialite": "Hydrocéphalie",
+      "categories": [
+        "neurologique",
+        "iatrogène",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "céphalées",
+        "vomissements",
+        "somnolence chez un patient porteur de valve"
+      ],
+      "signes_cliniques": [
+        "signes d'hypertension intracrânienne",
+        "fièvre (infection de valve)"
+      ],
+      "examens_cles": [
+        "scanner cérébral comparatif",
+        "radiographies du trajet de la valve",
+        "ponction de la valve"
+      ],
+      "traitements_cles": [
+        "révision chirurgicale de la dérivation",
+        "antibiothérapie et ablation du matériel en cas d'infection"
+      ],
+      "pathologies_liees": [
+        "PATH-NCHI-0024",
+        "PATH-NCHI-0025",
+        "PATH-NCHI-0027"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NCHI-0027",
+      "nom_fr": "Hypertension intracrânienne",
+      "nom_en": "Raised intracranial pressure",
+      "synonymes": [
+        "syndrome d'hypertension intracrânienne"
+      ],
+      "cim10": null,
+      "specialite": "NCHI",
+      "sous_specialite": "Hydrocéphalie",
+      "categories": [
+        "neurologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-052"
+      ],
+      "symptomes": [
+        "céphalées matinales",
+        "vomissements en jet",
+        "troubles visuels (éclipses)",
+        "troubles de conscience"
+      ],
+      "signes_cliniques": [
+        "œdème papillaire au fond d'œil",
+        "paralysie du VI",
+        "signes d'engagement (mydriase, bradycardie, HTA)"
+      ],
+      "examens_cles": [
+        "scanner ou IRM cérébrale en urgence (cause)",
+        "fond d'œil",
+        "ponction lombaire contre-indiquée en cas de processus expansif"
+      ],
+      "traitements_cles": [
+        "position proclive",
+        "osmothérapie",
+        "traitement de la cause (évacuation d'un hématome, exérèse tumorale, dérivation du LCR)",
+        "corticoïdes (œdème péritumoral)",
+        "craniectomie décompressive selon les cas"
+      ],
+      "pathologies_liees": [
+        "PATH-PEDI-0017",
+        "PATH-NCHI-0001",
+        "PATH-NCHI-0005",
+        "PATH-NCHI-0015",
+        "PATH-NCHI-0021",
+        "PATH-NCHI-0024",
+        "PATH-NCHI-0025",
+        "PATH-NCHI-0026",
+        "PATH-NCHI-0028",
+        "PATH-OPHT-0029",
+        "PATH-OPHT-0031",
+        "PATH-NCHI-0030"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NCHI-0028",
+      "nom_fr": "Engagement cérébral",
+      "nom_en": "Brain herniation",
+      "synonymes": [],
+      "cim10": "G93.5",
+      "specialite": "NCHI",
+      "sous_specialite": "Hydrocéphalie",
+      "categories": [
+        "neurologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-052"
+      ],
+      "symptomes": [
+        "aggravation brutale de la conscience",
+        "céphalées",
+        "vomissements"
+      ],
+      "signes_cliniques": [
+        "mydriase aréactive homolatérale (engagement temporal)",
+        "torticolis et troubles neurovégétatifs (engagement amygdalien)",
+        "triade de Cushing"
+      ],
+      "examens_cles": [
+        "scanner cérébral en urgence"
+      ],
+      "traitements_cles": [
+        "osmothérapie, hyperventilation transitoire",
+        "neurochirurgie en urgence (évacuation, décompression)"
+      ],
+      "pathologies_liees": [
+        "PATH-NCHI-0002",
+        "PATH-NCHI-0003",
+        "PATH-NCHI-0027"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPLA-0001",
+      "nom_fr": "Brûlures graves (étendues)",
+      "nom_en": "Severe (extensive) burns",
+      "synonymes": [
+        "grand brûlé"
+      ],
+      "cim10": "T31",
+      "specialite": "CPLA",
+      "sous_specialite": "Brûlures",
+      "categories": [
+        "traumatique",
+        "dermatologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-017"
+      ],
+      "symptomes": [
+        "douleur",
+        "soif",
+        "détresse respiratoire (inhalation de fumées)"
+      ],
+      "signes_cliniques": [
+        "surface cutanée brûlée (règle des 9 de Wallace, table de Lund et Browder)",
+        "profondeur (1er, 2e superficiel et profond, 3e degré)",
+        "localisations graves (face, mains, périnée, circulaires)",
+        "signes d'inhalation"
+      ],
+      "examens_cles": [
+        "évaluation de la surface et de la profondeur",
+        "gaz du sang, carboxyhémoglobine, lactates",
+        "ionogramme, protidémie",
+        "fibroscopie bronchique si inhalation"
+      ],
+      "traitements_cles": [
+        "refroidissement initial",
+        "remplissage vasculaire (formules type Parkland) guidé par la diurèse",
+        "analgésie",
+        "prise en charge des voies aériennes",
+        "incisions de décharge",
+        "excision-greffe précoce",
+        "nutrition hypercalorique",
+        "prévention de l'infection",
+        "prise en charge en centre de brûlés"
+      ],
+      "pathologies_liees": [
+        "PATH-CPLA-0002",
+        "PATH-CPLA-0003",
+        "PATH-CPLA-0004",
+        "PATH-CPLA-0005",
+        "PATH-URGE-0001",
+        "PATH-MINT_REA-0001",
+        "PATH-MINT_REA-0009",
+        "PATH-CDIG-0021"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPLA-0002",
+      "nom_fr": "Brûlures domestiques de l'enfant",
+      "nom_en": "Domestic burns in children",
+      "synonymes": [
+        "brûlures par liquides chauds"
+      ],
+      "cim10": null,
+      "specialite": "CPLA",
+      "sous_specialite": "Brûlures",
+      "categories": [
+        "traumatique",
+        "dermatologique",
+        "pédiatrique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-CHI-017"
+      ],
+      "symptomes": [
+        "douleur",
+        "pleurs",
+        "brûlure par ébouillantement (eau, thé, lait, huile) dans le cadre domestique"
+      ],
+      "signes_cliniques": [
+        "surface brûlée (table de Lund et Browder adaptée à l'âge)",
+        "profondeur",
+        "localisations à risque",
+        "recherche de signes de maltraitance (brûlures en « chaussette », de cigarette)"
+      ],
+      "examens_cles": [
+        "évaluation de la surface brûlée",
+        "bilan biologique si brûlure étendue"
+      ],
+      "traitements_cles": [
+        "refroidissement immédiat à l'eau tiède",
+        "analgésie",
+        "réhydratation (seuils plus bas chez l'enfant)",
+        "pansements",
+        "greffe des brûlures profondes",
+        "prévention des accidents domestiques"
+      ],
+      "pathologies_liees": [
+        "PATH-CPLA-0001",
+        "PATH-CPLA-0005",
+        "PATH-MLEG-0010",
+        "PATH-PEDI-0028",
+        "PATH-SPUB-0002"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPLA-0003",
+      "nom_fr": "Brûlures électriques",
+      "nom_en": "Electrical burns",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "CPLA",
+      "sous_specialite": "Brûlures",
+      "categories": [
+        "traumatique",
+        "dermatologique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "contact avec un courant électrique",
+        "douleur",
+        "impotence"
+      ],
+      "signes_cliniques": [
+        "points d'entrée et de sortie",
+        "lésions profondes sous une peau peu atteinte",
+        "troubles du rythme",
+        "rhabdomyolyse"
+      ],
+      "examens_cles": [
+        "ECG",
+        "CPK",
+        "myoglobinurie",
+        "fonction rénale"
+      ],
+      "traitements_cles": [
+        "surveillance cardiaque",
+        "remplissage avec diurèse abondante",
+        "aponévrotomies",
+        "excision des tissus nécrosés",
+        "amputations si nécessaire"
+      ],
+      "pathologies_liees": [
+        "PATH-CPLA-0001",
+        "PATH-URGE-0029",
+        "PATH-TRAU-0040"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPLA-0004",
+      "nom_fr": "Brûlures chimiques cutanées",
+      "nom_en": "Chemical burns of the skin",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "CPLA",
+      "sous_specialite": "Brûlures",
+      "categories": [
+        "traumatique",
+        "dermatologique",
+        "toxique",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur",
+        "contact avec un acide ou une base"
+      ],
+      "signes_cliniques": [
+        "lésions évolutives (aggravation après contact pour les bases)",
+        "atteinte oculaire associée possible"
+      ],
+      "examens_cles": [
+        "identification du produit"
+      ],
+      "traitements_cles": [
+        "lavage abondant et prolongé à l'eau",
+        "retrait des vêtements contaminés",
+        "antidotes spécifiques (acide fluorhydrique : gluconate de calcium)",
+        "prise en charge comme une brûlure thermique"
+      ],
+      "pathologies_liees": [
+        "PATH-CPLA-0001",
+        "PATH-OPHT-0043"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPLA-0005",
+      "nom_fr": "Séquelles de brûlures (cicatrices hypertrophiques et brides rétractiles)",
+      "nom_en": "Burn scar sequelae (hypertrophic scars and contractures)",
+      "synonymes": [],
+      "cim10": "T95",
+      "specialite": "CPLA",
+      "sous_specialite": "Brûlures",
+      "categories": [
+        "dermatologique",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [
+        "RES-CHI-017"
+      ],
+      "symptomes": [
+        "prurit",
+        "douleur",
+        "limitation des mouvements",
+        "retentissement esthétique"
+      ],
+      "signes_cliniques": [
+        "cicatrices hypertrophiques",
+        "brides rétractiles en regard des plis de flexion"
+      ],
+      "examens_cles": [
+        "évaluation clinique fonctionnelle"
+      ],
+      "traitements_cles": [
+        "vêtements compressifs",
+        "massages",
+        "orthèses",
+        "cures thermales",
+        "chirurgie de libération des brides (plasties en Z, greffes, lambeaux)"
+      ],
+      "pathologies_liees": [
+        "PATH-CPLA-0001",
+        "PATH-CPLA-0002",
+        "PATH-CPLA-0006",
+        "PATH-MPR-0011"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPLA-0006",
+      "nom_fr": "Cicatrice chéloïde",
+      "nom_en": "Keloid scar",
+      "synonymes": [],
+      "cim10": "L91.0",
+      "specialite": "CPLA",
+      "sous_specialite": "Chirurgie reconstructrice",
+      "categories": [
+        "dermatologique",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "prurit",
+        "douleur",
+        "gêne esthétique"
+      ],
+      "signes_cliniques": [
+        "cicatrice hypertrophique dépassant les limites de la plaie initiale",
+        "localisations favorites (lobe de l'oreille, région présternale, épaules)"
+      ],
+      "examens_cles": [
+        "diagnostic clinique"
+      ],
+      "traitements_cles": [
+        "injections de corticoïdes intralésionnelles",
+        "compression",
+        "exérèse chirurgicale associée à un traitement adjuvant (corticoïdes, radiothérapie) pour limiter la récidive"
+      ],
+      "pathologies_liees": [
+        "PATH-CPLA-0005"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPLA-0007",
+      "nom_fr": "Fente labio-palatine",
+      "nom_en": "Cleft lip and palate",
+      "synonymes": [
+        "bec-de-lièvre"
+      ],
+      "cim10": "Q37",
+      "specialite": "CPLA",
+      "sous_specialite": "Chirurgie reconstructrice",
+      "categories": [
+        "congénitale",
+        "ORL",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "troubles de l'alimentation",
+        "reflux nasal",
+        "troubles de la phonation"
+      ],
+      "signes_cliniques": [
+        "fente labiale uni- ou bilatérale",
+        "fente du palais",
+        "otites séromuqueuses associées"
+      ],
+      "examens_cles": [
+        "diagnostic anténatal échographique",
+        "bilan malformatif et génétique"
+      ],
+      "traitements_cles": [
+        "prise en charge pluridisciplinaire",
+        "chirurgie de fermeture labiale et palatine selon un calendrier",
+        "orthophonie",
+        "orthodontie",
+        "suivi ORL (aérateurs transtympaniques)"
+      ],
+      "pathologies_liees": [
+        "PATH-ORL-0002",
+        "PATH-DENT-0020"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPLA-0008",
+      "nom_fr": "Hypertrophie mammaire (gigantomastie)",
+      "nom_en": "Breast hypertrophy (macromastia)",
+      "synonymes": [],
+      "cim10": "N62",
+      "specialite": "CPLA",
+      "sous_specialite": "Chirurgie reconstructrice",
+      "categories": [
+        "gynécologique",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "dorsalgies",
+        "cervicalgies",
+        "intertrigo sous-mammaire",
+        "gêne fonctionnelle et psychologique"
+      ],
+      "signes_cliniques": [
+        "volume mammaire excessif",
+        "ptose"
+      ],
+      "examens_cles": [
+        "examen clinique",
+        "imagerie mammaire préopératoire selon l'âge"
+      ],
+      "traitements_cles": [
+        "plastie mammaire de réduction"
+      ],
+      "pathologies_liees": [],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPLA-0009",
+      "nom_fr": "Plaies des tendons fléchisseurs de la main",
+      "nom_en": "Flexor tendon injuries of the hand",
+      "synonymes": [],
+      "cim10": "S66",
+      "specialite": "CPLA",
+      "sous_specialite": "Chirurgie de la main",
+      "categories": [
+        "traumatique",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "plaie de la main ou du doigt",
+        "impossibilité de fléchir le doigt"
+      ],
+      "signes_cliniques": [
+        "perte de la flexion active de l'interphalangienne distale (fléchisseur profond) ou proximale (superficiel)",
+        "recherche d'une atteinte des nerfs collatéraux"
+      ],
+      "examens_cles": [
+        "examen clinique",
+        "exploration chirurgicale de toute plaie de la main"
+      ],
+      "traitements_cles": [
+        "exploration et réparation chirurgicale (suture tendineuse et nerveuse) en urgence",
+        "rééducation spécialisée prolongée"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0013",
+        "PATH-CPLA-0014",
+        "PATH-CPLA-0011",
+        "PATH-URGE-0032",
+        "PATH-CPLA-0015"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPLA-0010",
+      "nom_fr": "Panaris",
+      "nom_en": "Whitlow (paronychia, felon)",
+      "synonymes": [],
+      "cim10": "L03.0",
+      "specialite": "CPLA",
+      "sous_specialite": "Chirurgie de la main",
+      "categories": [
+        "infectieuse",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur pulsatile d'un doigt",
+        "insomnie (stade collecté)"
+      ],
+      "signes_cliniques": [
+        "tuméfaction inflammatoire péri-unguéale ou de la pulpe",
+        "collection purulente"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "radiographie si atteinte osseuse ou articulaire suspectée"
+      ],
+      "traitements_cles": [
+        "soins locaux au stade phlegmasique",
+        "excision chirurgicale de tous les tissus nécrosés au stade collecté",
+        "prophylaxie antitétanique"
+      ],
+      "pathologies_liees": [
+        "PATH-CPLA-0011"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPLA-0011",
+      "nom_fr": "Phlegmon des gaines synoviales des fléchisseurs",
+      "nom_en": "Flexor tenosynovitis (tendon sheath infection)",
+      "synonymes": [],
+      "cim10": "M65.0",
+      "specialite": "CPLA",
+      "sous_specialite": "Chirurgie de la main",
+      "categories": [
+        "infectieuse",
+        "chirurgicale",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur intense d'un doigt après une piqûre",
+        "fièvre"
+      ],
+      "signes_cliniques": [
+        "doigt en crochet",
+        "tuméfaction fusiforme",
+        "douleur au cul-de-sac proximal de la gaine (signes de Kanavel)"
+      ],
+      "examens_cles": [
+        "diagnostic clinique"
+      ],
+      "traitements_cles": [
+        "lavage chirurgical de la gaine en urgence",
+        "antibiothérapie",
+        "immobilisation puis rééducation"
+      ],
+      "pathologies_liees": [
+        "PATH-CPLA-0009",
+        "PATH-CPLA-0010",
+        "PATH-URGE-0023"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPLA-0012",
+      "nom_fr": "Maladie de Dupuytren",
+      "nom_en": "Dupuytren's contracture",
+      "synonymes": [],
+      "cim10": "M72.0",
+      "specialite": "CPLA",
+      "sous_specialite": "Chirurgie de la main",
+      "categories": [
+        "ostéo-articulaire",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "nodules palmaires",
+        "flexion progressive et irréductible des doigts (4e et 5e)"
+      ],
+      "signes_cliniques": [
+        "cordes fibreuses palmaires",
+        "flessum des articulations métacarpo-phalangiennes et interphalangiennes",
+        "test de la table positif"
+      ],
+      "examens_cles": [
+        "diagnostic clinique"
+      ],
+      "traitements_cles": [
+        "aponévrotomie percutanée à l'aiguille",
+        "aponévrectomie chirurgicale",
+        "rééducation et orthèses"
+      ],
+      "pathologies_liees": [
+        "PATH-UROL-0016"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPLA-0013",
+      "nom_fr": "Doigt à ressaut",
+      "nom_en": "Trigger finger",
+      "synonymes": [
+        "ténosynovite sténosante"
+      ],
+      "cim10": "M65.3",
+      "specialite": "CPLA",
+      "sous_specialite": "Chirurgie de la main",
+      "categories": [
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "blocage et ressaut douloureux du doigt en flexion-extension"
+      ],
+      "signes_cliniques": [
+        "nodule palpable à la base du doigt"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "échographie selon les cas"
+      ],
+      "traitements_cles": [
+        "infiltration de corticoïdes",
+        "ouverture chirurgicale de la poulie A1"
+      ],
+      "pathologies_liees": [],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPLA-0014",
+      "nom_fr": "Amputation traumatique des doigts et de la main",
+      "nom_en": "Traumatic amputation of fingers and hand",
+      "synonymes": [],
+      "cim10": "S68",
+      "specialite": "CPLA",
+      "sous_specialite": "Chirurgie de la main",
+      "categories": [
+        "traumatique",
+        "chirurgicale",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "section totale ou partielle d'un ou plusieurs doigts (machines, scies)"
+      ],
+      "signes_cliniques": [
+        "niveau d'amputation",
+        "état du segment amputé"
+      ],
+      "examens_cles": [
+        "radiographies de la main et du segment amputé"
+      ],
+      "traitements_cles": [
+        "conservation du segment amputé au froid sans contact direct avec la glace",
+        "transfert vers un centre de chirurgie de la main (réimplantation microchirurgicale selon les indications)",
+        "régularisation du moignon"
+      ],
+      "pathologies_liees": [
+        "PATH-CPLA-0009",
+        "PATH-MPR-0009",
+        "PATH-CPLA-0015"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MPR-0001",
+      "nom_fr": "Hémiplégie séquellaire (handicap après accident vasculaire cérébral)",
+      "nom_en": "Post-stroke hemiplegia",
+      "synonymes": [],
+      "cim10": "G81",
+      "specialite": "MPR",
+      "sous_specialite": "Rééducation neurologique",
+      "categories": [
+        "neurologique",
+        "handicap"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [
+        "RES-MED-105"
+      ],
+      "symptomes": [
+        "faiblesse d'un hémicorps",
+        "troubles de la marche",
+        "troubles du langage ou cognitifs"
+      ],
+      "signes_cliniques": [
+        "déficit moteur avec spasticité",
+        "épaule douloureuse",
+        "pied équin varus"
+      ],
+      "examens_cles": [
+        "évaluation fonctionnelle (mesure d'indépendance fonctionnelle, Barthel)",
+        "analyse de la marche"
+      ],
+      "traitements_cles": [
+        "rééducation précoce et intensive",
+        "traitement de la spasticité (toxine botulique)",
+        "orthèses",
+        "aides techniques",
+        "réinsertion"
+      ],
+      "pathologies_liees": [
+        "PATH-MPR-0004",
+        "PATH-MPR-0007",
+        "PATH-MPR-0011",
+        "PATH-MPR-0013"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MPR-0002",
+      "nom_fr": "Paraplégie (lésion médullaire)",
+      "nom_en": "Paraplegia",
+      "synonymes": [
+        "blessé médullaire"
+      ],
+      "cim10": "G82.2",
+      "specialite": "MPR",
+      "sous_specialite": "Rééducation neurologique",
+      "categories": [
+        "neurologique",
+        "handicap"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-105"
+      ],
+      "symptomes": [
+        "paralysie des membres inférieurs",
+        "troubles sensitifs",
+        "troubles vésico-sphinctériens et sexuels"
+      ],
+      "signes_cliniques": [
+        "niveau lésionnel thoracique ou lombaire",
+        "score ASIA",
+        "spasticité ou flaccidité"
+      ],
+      "examens_cles": [
+        "IRM médullaire",
+        "bilan urodynamique",
+        "échographie rénale",
+        "évaluation fonctionnelle"
+      ],
+      "traitements_cles": [
+        "rééducation en centre spécialisé",
+        "prévention des escarres",
+        "prise en charge vésico-sphinctérienne (autosondages)",
+        "fauteuil roulant et aides techniques",
+        "réinsertion sociale et professionnelle"
+      ],
+      "pathologies_liees": [
+        "PATH-UROL-0018",
+        "PATH-TRAU-0037",
+        "PATH-NCHI-0010",
+        "PATH-NCHI-0019",
+        "PATH-MPR-0010",
+        "PATH-MPR-0004",
+        "PATH-SPUB-0001",
+        "PATH-EPID-0004"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MPR-0003",
+      "nom_fr": "Tétraplégie",
+      "nom_en": "Tetraplegia",
+      "synonymes": [],
+      "cim10": "G82.5",
+      "specialite": "MPR",
+      "sous_specialite": "Rééducation neurologique",
+      "categories": [
+        "neurologique",
+        "handicap"
+      ],
+      "maladie_rare": false,
+      "priorite": "residanat",
+      "items_residanat": [
+        "RES-MED-105"
+      ],
+      "symptomes": [
+        "paralysie des quatre membres",
+        "troubles respiratoires (atteinte haute)",
+        "troubles sphinctériens"
+      ],
+      "signes_cliniques": [
+        "niveau lésionnel cervical",
+        "atteinte respiratoire (au-dessus de C4)"
+      ],
+      "examens_cles": [
+        "IRM médullaire",
+        "EFR",
+        "bilan urodynamique"
+      ],
+      "traitements_cles": [
+        "assistance respiratoire selon le niveau",
+        "rééducation",
+        "chirurgie fonctionnelle du membre supérieur",
+        "aides techniques et domotique",
+        "prévention et traitement de l'hyperréflexie autonome"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0035",
+        "PATH-NCHI-0010",
+        "PATH-MPR-0005"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MPR-0004",
+      "nom_fr": "Spasticité (syndrome spastique)",
+      "nom_en": "Spasticity",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "MPR",
+      "sous_specialite": "Rééducation neurologique",
+      "categories": [
+        "neurologique",
+        "handicap"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "raideur",
+        "spasmes",
+        "douleurs",
+        "gêne à la marche et aux soins"
+      ],
+      "signes_cliniques": [
+        "hypertonie dépendant de la vitesse d'étirement",
+        "réflexes vifs",
+        "clonus"
+      ],
+      "examens_cles": [
+        "échelle d'Ashworth modifiée",
+        "évaluation fonctionnelle"
+      ],
+      "traitements_cles": [
+        "kinésithérapie et étirements",
+        "myorelaxants oraux (baclofène, dantrolène)",
+        "toxine botulique",
+        "baclofène intrathécal",
+        "chirurgie (neurotomies, ténotomies)"
+      ],
+      "pathologies_liees": [
+        "PATH-MPR-0001",
+        "PATH-MPR-0002",
+        "PATH-MPR-0011",
+        "PATH-MPR-0013"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MPR-0005",
+      "nom_fr": "Hyperréflexie autonome du blessé médullaire",
+      "nom_en": "Autonomic dysreflexia",
+      "synonymes": [
+        "dysréflexie autonome"
+      ],
+      "cim10": null,
+      "specialite": "MPR",
+      "sous_specialite": "Rééducation neurologique",
+      "categories": [
+        "neurologique",
+        "cardiovasculaire",
+        "handicap",
+        "urgence"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "céphalées pulsatiles brutales",
+        "sueurs et rougeur au-dessus de la lésion"
+      ],
+      "signes_cliniques": [
+        "poussée hypertensive majeure",
+        "bradycardie",
+        "lésion médullaire au-dessus de T6",
+        "facteur déclenchant (globe vésical, fécalome)"
+      ],
+      "examens_cles": [
+        "mesure de la pression artérielle",
+        "recherche du stimulus déclenchant"
+      ],
+      "traitements_cles": [
+        "position assise",
+        "suppression du stimulus (sondage, évacuation d'un fécalome)",
+        "antihypertenseur d'action rapide si persistance"
+      ],
+      "pathologies_liees": [
+        "PATH-NCHI-0010",
+        "PATH-MPR-0003",
+        "PATH-UROL-0018"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MPR-0006",
+      "nom_fr": "Séquelles de traumatisme crânien (handicap cognitivo-comportemental)",
+      "nom_en": "Sequelae of traumatic brain injury",
+      "synonymes": [
+        "syndrome post-commotionnel"
+      ],
+      "cim10": "T90.5",
+      "specialite": "MPR",
+      "sous_specialite": "Rééducation neurologique",
+      "categories": [
+        "neurologique",
+        "handicap"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "troubles de la mémoire et de l'attention",
+        "fatigue",
+        "irritabilité",
+        "céphalées"
+      ],
+      "signes_cliniques": [
+        "syndrome dysexécutif",
+        "troubles du comportement",
+        "déficits moteurs séquellaires"
+      ],
+      "examens_cles": [
+        "évaluation neuropsychologique",
+        "IRM cérébrale"
+      ],
+      "traitements_cles": [
+        "rééducation cognitive",
+        "prise en charge pluridisciplinaire",
+        "réinsertion familiale, sociale et professionnelle"
+      ],
+      "pathologies_liees": [
+        "PATH-NCHI-0001",
+        "PATH-NCHI-0006",
+        "PATH-NCHI-0007",
+        "PATH-MPR-0010"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MPR-0007",
+      "nom_fr": "Troubles de la déglutition d'origine neurologique",
+      "nom_en": "Neurogenic dysphagia",
+      "synonymes": [
+        "dysphagie oropharyngée"
+      ],
+      "cim10": "R13",
+      "specialite": "MPR",
+      "sous_specialite": "Rééducation neurologique",
+      "categories": [
+        "neurologique",
+        "handicap"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "toux et étouffements lors des repas",
+        "voix mouillée",
+        "amaigrissement"
+      ],
+      "signes_cliniques": [
+        "pneumopathies d'inhalation répétées",
+        "contexte (AVC, maladie neurodégénérative, traumatisme crânien)"
+      ],
+      "examens_cles": [
+        "évaluation clinique de la déglutition",
+        "vidéofluoroscopie ou nasofibroscopie de déglutition"
+      ],
+      "traitements_cles": [
+        "rééducation orthophonique",
+        "adaptation des textures et des postures",
+        "alimentation entérale (gastrostomie) si nécessaire"
+      ],
+      "pathologies_liees": [
+        "PATH-MPR-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MPR-0008",
+      "nom_fr": "Amputation du membre inférieur (handicap et appareillage)",
+      "nom_en": "Lower limb amputation",
+      "synonymes": [
+        "moignon d'amputation"
+      ],
+      "cim10": "Z89",
+      "specialite": "MPR",
+      "sous_specialite": "Appareillage",
+      "categories": [
+        "handicap",
+        "cardiovasculaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "perte d'un segment de membre",
+        "douleurs du membre fantôme",
+        "douleurs du moignon"
+      ],
+      "signes_cliniques": [
+        "niveau d'amputation",
+        "état du moignon (cicatrisation, névromes)",
+        "état du membre controlatéral"
+      ],
+      "examens_cles": [
+        "évaluation fonctionnelle et vasculaire"
+      ],
+      "traitements_cles": [
+        "rééducation",
+        "appareillage (prothèse)",
+        "traitement des douleurs fantômes",
+        "prévention des complications du membre controlatéral"
+      ],
+      "pathologies_liees": [
+        "PATH-MPR-0009",
+        "PATH-CCVA-0005",
+        "PATH-ANES-0015"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MPR-0009",
+      "nom_fr": "Amputation du membre supérieur (handicap et appareillage)",
+      "nom_en": "Upper limb amputation",
+      "synonymes": [],
+      "cim10": "Z89",
+      "specialite": "MPR",
+      "sous_specialite": "Appareillage",
+      "categories": [
+        "handicap",
+        "traumatique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "perte d'un segment du membre supérieur",
+        "douleurs du membre fantôme"
+      ],
+      "signes_cliniques": [
+        "niveau d'amputation",
+        "état du moignon"
+      ],
+      "examens_cles": [
+        "évaluation fonctionnelle"
+      ],
+      "traitements_cles": [
+        "rééducation et ergothérapie",
+        "appareillage (prothèse esthétique, mécanique ou myoélectrique)",
+        "adaptation du poste de travail"
+      ],
+      "pathologies_liees": [
+        "PATH-MPR-0008",
+        "PATH-CPLA-0014"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MPR-0010",
+      "nom_fr": "Para-ostéo-arthropathies neurogènes",
+      "nom_en": "Neurogenic heterotopic ossification",
+      "synonymes": [
+        "ossifications hétérotopiques neurogènes"
+      ],
+      "cim10": "M61.2",
+      "specialite": "MPR",
+      "sous_specialite": "Rééducation locomotrice",
+      "categories": [
+        "ostéo-articulaire",
+        "neurologique",
+        "handicap"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "limitation articulaire",
+        "douleur (si sensibilité conservée)"
+      ],
+      "signes_cliniques": [
+        "tuméfaction inflammatoire péri-articulaire (hanche, coude, genou) chez un blessé médullaire ou cérébral"
+      ],
+      "examens_cles": [
+        "radiographies et scanner (ossifications)",
+        "scintigraphie (évolutivité)"
+      ],
+      "traitements_cles": [
+        "rééducation",
+        "exérèse chirurgicale si retentissement fonctionnel majeur"
+      ],
+      "pathologies_liees": [
+        "PATH-MPR-0002",
+        "PATH-MPR-0006",
+        "PATH-MPR-0011"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MPR-0011",
+      "nom_fr": "Rétractions et attitudes vicieuses articulaires",
+      "nom_en": "Joint contractures",
+      "synonymes": [],
+      "cim10": "M24.5",
+      "specialite": "MPR",
+      "sous_specialite": "Rééducation locomotrice",
+      "categories": [
+        "ostéo-articulaire",
+        "handicap"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "limitation des amplitudes articulaires",
+        "gêne fonctionnelle"
+      ],
+      "signes_cliniques": [
+        "flessum (hanche, genou, coude)",
+        "pied équin"
+      ],
+      "examens_cles": [
+        "bilan articulaire goniométrique"
+      ],
+      "traitements_cles": [
+        "prévention par la mobilisation et le positionnement",
+        "étirements et postures",
+        "orthèses",
+        "toxine botulique",
+        "chirurgie (ténotomies, allongements)"
+      ],
+      "pathologies_liees": [
+        "PATH-CPLA-0005",
+        "PATH-MPR-0001",
+        "PATH-MPR-0004",
+        "PATH-MPR-0010"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0028",
+      "nom_fr": "Pied plat de l'enfant",
+      "nom_en": "Flatfoot in children",
+      "synonymes": [
+        "pied plat valgus"
+      ],
+      "cim10": null,
+      "specialite": "ORTH",
+      "sous_specialite": "Orthopédie pédiatrique",
+      "categories": [
+        "ostéo-articulaire",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "souvent asymptomatique",
+        "douleurs ou fatigue à la marche",
+        "usure anormale des chaussures"
+      ],
+      "signes_cliniques": [
+        "affaissement de l'arche interne en charge, réductible en pointe de pieds (pied plat souple)",
+        "raideur (synostose du tarse)"
+      ],
+      "examens_cles": [
+        "examen clinique",
+        "radiographies des pieds en charge et scanner si pied plat raide ou douloureux"
+      ],
+      "traitements_cles": [
+        "abstention et surveillance du pied plat souple",
+        "orthèses plantaires si douleurs",
+        "chirurgie des formes raides ou douloureuses persistantes"
+      ],
+      "pathologies_liees": [
+        "PATH-ORTH-0002",
+        "PATH-ORTH-0029"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0029",
+      "nom_fr": "Troubles de l'axe des membres inférieurs de l'enfant (genu varum, genu valgum)",
+      "nom_en": "Angular deformities of the lower limbs in children",
+      "synonymes": [
+        "genu varum",
+        "genu valgum"
+      ],
+      "cim10": null,
+      "specialite": "ORTH",
+      "sous_specialite": "Orthopédie pédiatrique",
+      "categories": [
+        "ostéo-articulaire",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "déformation des jambes remarquée par les parents",
+        "troubles de la marche"
+      ],
+      "signes_cliniques": [
+        "écart intercondylien (genu varum) ou intermalléolaire (genu valgum)",
+        "caractère physiologique selon l'âge",
+        "asymétrie ou petite taille (formes pathologiques)"
+      ],
+      "examens_cles": [
+        "examen clinique",
+        "pangonogramme",
+        "bilan phosphocalcique (rachitisme)"
+      ],
+      "traitements_cles": [
+        "surveillance des formes physiologiques",
+        "traitement d'un rachitisme",
+        "épiphysiodèse temporaire ou ostéotomie des formes pathologiques"
+      ],
+      "pathologies_liees": [
+        "PATH-ORTH-0028",
+        "PATH-PEDI-0004",
+        "PATH-ORTH-0009"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0030",
+      "nom_fr": "Maladie de Sever (apophysite calcanéenne)",
+      "nom_en": "Sever's disease (calcaneal apophysitis)",
+      "synonymes": [],
+      "cim10": "M92.6",
+      "specialite": "ORTH",
+      "sous_specialite": "Orthopédie pédiatrique",
+      "categories": [
+        "ostéo-articulaire",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur du talon à l'effort chez l'enfant sportif de 8 à 12 ans"
+      ],
+      "signes_cliniques": [
+        "douleur à la pression de la tubérosité postérieure du calcanéum",
+        "raideur du triceps sural"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "radiographie si atypie"
+      ],
+      "traitements_cles": [
+        "repos sportif relatif",
+        "talonnette",
+        "étirements",
+        "évolution favorable"
+      ],
+      "pathologies_liees": [
+        "PATH-ORTH-0006"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0031",
+      "nom_fr": "Kyste poplité (kyste de Baker)",
+      "nom_en": "Popliteal (Baker's) cyst",
+      "synonymes": [],
+      "cim10": "M71.2",
+      "specialite": "ORTH",
+      "sous_specialite": "Membre inférieur",
+      "categories": [
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "tuméfaction ou gêne du creux poplité",
+        "douleur du mollet si rupture"
+      ],
+      "signes_cliniques": [
+        "masse rénitente du creux poplité",
+        "pathologie intra-articulaire associée (arthrose, lésion méniscale)"
+      ],
+      "examens_cles": [
+        "échographie (diagnostic différentiel avec une thrombose veineuse ou un anévrisme poplité)"
+      ],
+      "traitements_cles": [
+        "traitement de la pathologie articulaire causale",
+        "ponction ou infiltration",
+        "exérèse rarement"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0031",
+        "PATH-CCVA-0007"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0032",
+      "nom_fr": "Syndrome fémoro-patellaire et instabilité rotulienne",
+      "nom_en": "Patellofemoral pain and patellar instability",
+      "synonymes": [
+        "syndrome rotulien"
+      ],
+      "cim10": "M22.2",
+      "specialite": "ORTH",
+      "sous_specialite": "Membre inférieur",
+      "categories": [
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur antérieure du genou majorée par les escaliers, l'accroupissement et la position assise prolongée",
+        "sensations d'instabilité"
+      ],
+      "signes_cliniques": [
+        "douleur à la mobilisation de la rotule",
+        "facteurs morphologiques (dysplasie de la trochlée, rotule haute)"
+      ],
+      "examens_cles": [
+        "radiographies (incidences axiales)",
+        "scanner ou IRM (facteurs d'instabilité)"
+      ],
+      "traitements_cles": [
+        "rééducation (renforcement du quadriceps, proprioception)",
+        "stabilisation chirurgicale en cas d'instabilité objective récidivante"
+      ],
+      "pathologies_liees": [
+        "PATH-TRAU-0033",
+        "PATH-ORTH-0006"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0033",
+      "nom_fr": "Hallux rigidus",
+      "nom_en": "Hallux rigidus",
+      "synonymes": [
+        "arthrose métatarso-phalangienne du gros orteil"
+      ],
+      "cim10": "M20.2",
+      "specialite": "ORTH",
+      "sous_specialite": "Membre inférieur",
+      "categories": [
+        "dégénérative",
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur de la première articulation métatarso-phalangienne à la marche",
+        "raideur"
+      ],
+      "signes_cliniques": [
+        "limitation de la flexion dorsale du gros orteil",
+        "ostéophyte dorsal"
+      ],
+      "examens_cles": [
+        "radiographies des pieds en charge"
+      ],
+      "traitements_cles": [
+        "chaussage adapté",
+        "orthèses",
+        "infiltration",
+        "chirurgie (chéilectomie, arthrodèse)"
+      ],
+      "pathologies_liees": [
+        "PATH-ORTH-0021"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0034",
+      "nom_fr": "Conflit fémoro-acétabulaire",
+      "nom_en": "Femoroacetabular impingement",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "ORTH",
+      "sous_specialite": "Membre inférieur",
+      "categories": [
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur de l'aine chez l'adulte jeune sportif, majorée par la flexion et la rotation interne de hanche"
+      ],
+      "signes_cliniques": [
+        "test de conflit antérieur positif (flexion-adduction-rotation interne)"
+      ],
+      "examens_cles": [
+        "radiographies (morphologie de type came ou tenaille)",
+        "arthro-IRM (lésions du labrum et du cartilage)"
+      ],
+      "traitements_cles": [
+        "adaptation de l'activité",
+        "rééducation",
+        "chirurgie arthroscopique de correction du conflit"
+      ],
+      "pathologies_liees": [
+        "PATH-ORTH-0001",
+        "PATH-ORTH-0003"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0035",
+      "nom_fr": "Kyste synovial du poignet",
+      "nom_en": "Ganglion cyst of the wrist",
+      "synonymes": [
+        "kyste mucoïde"
+      ],
+      "cim10": "M67.4",
+      "specialite": "ORTH",
+      "sous_specialite": "Membre supérieur",
+      "categories": [
+        "ostéo-articulaire"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "tuméfaction dorsale ou palmaire du poignet",
+        "gêne ou douleur"
+      ],
+      "signes_cliniques": [
+        "masse ferme, bien limitée, transilluminable"
+      ],
+      "examens_cles": [
+        "échographie"
+      ],
+      "traitements_cles": [
+        "abstention",
+        "ponction",
+        "exérèse chirurgicale si gêne (récidive possible)"
+      ],
+      "pathologies_liees": [],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-ORTH-0036",
+      "nom_fr": "Fibrome non ossifiant (lacune fibreuse corticale)",
+      "nom_en": "Non-ossifying fibroma",
+      "synonymes": [
+        "défect fibreux cortical"
+      ],
+      "cim10": "D16",
+      "specialite": "ORTH",
+      "sous_specialite": "Tumeurs osseuses",
+      "categories": [
+        "néoplasique",
+        "ostéo-articulaire",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [
+        "RES-CHI-039"
+      ],
+      "symptomes": [
+        "le plus souvent asymptomatique",
+        "fracture pathologique rare"
+      ],
+      "signes_cliniques": [
+        "découverte radiologique fortuite chez l'enfant ou l'adolescent"
+      ],
+      "examens_cles": [
+        "radiographie (lacune corticale métaphysaire excentrée, bien limitée par un liseré de condensation)"
+      ],
+      "traitements_cles": [
+        "abstention et surveillance (régression spontanée)",
+        "curetage-comblement en cas de risque fracturaire"
+      ],
+      "pathologies_liees": [
+        "PATH-ORTH-0017",
+        "PATH-ORTH-0019"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NCHI-0029",
+      "nom_fr": "Brèche ostéoméningée (fuite de liquide cérébrospinal)",
+      "nom_en": "Cerebrospinal fluid leak",
+      "synonymes": [
+        "rhinorrhée cérébrospinale"
+      ],
+      "cim10": "G96.0",
+      "specialite": "NCHI",
+      "sous_specialite": "Traumatologie crânio-rachidienne",
+      "categories": [
+        "neurologique",
+        "traumatique",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "écoulement nasal clair, unilatéral, majoré par l'antéflexion",
+        "céphalées"
+      ],
+      "signes_cliniques": [
+        "antécédent de traumatisme crânien (fracture de la base) ou de chirurgie de la base du crâne",
+        "méningites récidivantes"
+      ],
+      "examens_cles": [
+        "dosage de la bêta-2 transferrine dans le liquide",
+        "scanner de la base du crâne en coupes fines",
+        "cisternographie selon les cas"
+      ],
+      "traitements_cles": [
+        "surveillance (fermeture spontanée fréquente)",
+        "fermeture chirurgicale (voie endoscopique endonasale ou intracrânienne) si persistance",
+        "vaccination antipneumococcique"
+      ],
+      "pathologies_liees": [
+        "PATH-NCHI-0009",
+        "PATH-NCHI-0001"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NCHI-0030",
+      "nom_fr": "Kyste arachnoïdien",
+      "nom_en": "Arachnoid cyst",
+      "synonymes": [],
+      "cim10": "G93.0",
+      "specialite": "NCHI",
+      "sous_specialite": "Neurochirurgie pédiatrique",
+      "categories": [
+        "neurologique",
+        "congénitale",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "souvent asymptomatique (découverte fortuite)",
+        "céphalées",
+        "macrocrânie",
+        "crises d'épilepsie"
+      ],
+      "signes_cliniques": [
+        "signes d'hypertension intracrânienne dans les formes compressives"
+      ],
+      "examens_cles": [
+        "IRM cérébrale (lésion kystique de signal identique au LCR)"
+      ],
+      "traitements_cles": [
+        "surveillance des formes asymptomatiques",
+        "fenestration endoscopique ou dérivation des formes symptomatiques"
+      ],
+      "pathologies_liees": [
+        "PATH-NCHI-0024",
+        "PATH-NCHI-0027"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NCHI-0031",
+      "nom_fr": "Dysraphismes spinaux fermés (spina bifida occulta, moelle attachée)",
+      "nom_en": "Closed spinal dysraphism (spina bifida occulta, tethered cord)",
+      "synonymes": [
+        "lipome lombo-sacré",
+        "syndrome de la moelle attachée"
+      ],
+      "cim10": "Q76.0",
+      "specialite": "NCHI",
+      "sous_specialite": "Neurochirurgie pédiatrique",
+      "categories": [
+        "congénitale",
+        "neurologique",
+        "pédiatrique"
+      ],
+      "maladie_rare": true,
+      "priorite": "rare",
+      "items_residanat": [],
+      "symptomes": [
+        "troubles mictionnels",
+        "troubles de la marche",
+        "douleurs lombaires",
+        "déformation des pieds apparaissant avec la croissance"
+      ],
+      "signes_cliniques": [
+        "marqueurs cutanés lombo-sacrés (fossette, touffe de poils, angiome, lipome sous-cutané)",
+        "pied creux",
+        "scoliose"
+      ],
+      "examens_cles": [
+        "échographie médullaire chez le nourrisson",
+        "IRM médullaire",
+        "bilan urodynamique"
+      ],
+      "traitements_cles": [
+        "libération chirurgicale de la moelle attachée en cas de symptômes ou d'aggravation",
+        "suivi urologique et orthopédique"
+      ],
+      "pathologies_liees": [
+        "PATH-NCHI-0019",
+        "PATH-UROL-0018"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-NCHI-0032",
+      "nom_fr": "Plagiocéphalie positionnelle du nourrisson",
+      "nom_en": "Positional plagiocephaly",
+      "synonymes": [
+        "tête plate du nourrisson"
+      ],
+      "cim10": "Q67.3",
+      "specialite": "NCHI",
+      "sous_specialite": "Neurochirurgie pédiatrique",
+      "categories": [
+        "ostéo-articulaire",
+        "pédiatrique"
+      ],
+      "maladie_rare": false,
+      "priorite": "frequente",
+      "items_residanat": [],
+      "symptomes": [
+        "aplatissement d'une partie du crâne remarqué par les parents"
+      ],
+      "signes_cliniques": [
+        "déformation occipitale unilatérale en parallélogramme vu du dessus",
+        "torticolis associé fréquent",
+        "absence de crête suturale (diagnostic différentiel de la craniosténose)"
+      ],
+      "examens_cles": [
+        "diagnostic clinique",
+        "imagerie seulement si doute de craniosténose"
+      ],
+      "traitements_cles": [
+        "conseils de positionnement (alterner la position de la tête, temps sur le ventre en éveil)",
+        "kinésithérapie du torticolis",
+        "orthèse crânienne dans certaines formes sévères"
+      ],
+      "pathologies_liees": [
+        "PATH-ORTH-0008",
+        "PATH-NCHI-0021"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-CPLA-0015",
+      "nom_fr": "Plaies des nerfs de la main et du poignet",
+      "nom_en": "Nerve injuries of the wrist and hand",
+      "synonymes": [
+        "section du nerf médian ou ulnaire"
+      ],
+      "cim10": "S64",
+      "specialite": "CPLA",
+      "sous_specialite": "Chirurgie de la main",
+      "categories": [
+        "traumatique",
+        "neurologique",
+        "chirurgicale"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "plaie du poignet ou des doigts",
+        "perte de sensibilité",
+        "faiblesse de la main"
+      ],
+      "signes_cliniques": [
+        "déficit sensitif dans le territoire du nerf (médian, ulnaire, nerfs digitaux)",
+        "déficit moteur (opposition du pouce, muscles intrinsèques)"
+      ],
+      "examens_cles": [
+        "examen clinique comparatif",
+        "exploration chirurgicale de toute plaie suspecte"
+      ],
+      "traitements_cles": [
+        "réparation microchirurgicale (suture épineurale, greffe nerveuse)",
+        "rééducation sensitive et motrice"
+      ],
+      "pathologies_liees": [
+        "PATH-CPLA-0009",
+        "PATH-CPLA-0014"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MPR-0012",
+      "nom_fr": "Déconditionnement physique à l'effort (réentraînement)",
+      "nom_en": "Physical deconditioning",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "MPR",
+      "sous_specialite": "Réadaptation cardio-respiratoire",
+      "categories": [
+        "handicap"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "dyspnée et fatigue à l'effort",
+        "diminution de la tolérance à l'effort après une maladie chronique, une hospitalisation prolongée ou une réanimation"
+      ],
+      "signes_cliniques": [
+        "amyotrophie",
+        "baisse de la force musculaire"
+      ],
+      "examens_cles": [
+        "épreuve d'effort cardio-respiratoire",
+        "test de marche de 6 minutes",
+        "évaluation de la force musculaire"
+      ],
+      "traitements_cles": [
+        "programme de réentraînement à l'effort (endurance, renforcement) en réadaptation cardiaque ou respiratoire",
+        "éducation thérapeutique"
+      ],
+      "pathologies_liees": [
+        "PATH-MINT_REA-0012",
+        "PATH-MINT_REA-0008"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    },
+    {
+      "id": "PATH-MPR-0013",
+      "nom_fr": "Épaule douloureuse de l'hémiplégique",
+      "nom_en": "Hemiplegic shoulder pain",
+      "synonymes": [],
+      "cim10": null,
+      "specialite": "MPR",
+      "sous_specialite": "Rééducation neurologique",
+      "categories": [
+        "neurologique",
+        "ostéo-articulaire",
+        "handicap"
+      ],
+      "maladie_rare": false,
+      "priorite": "importante",
+      "items_residanat": [],
+      "symptomes": [
+        "douleur de l'épaule du côté hémiplégique",
+        "limitation des mouvements"
+      ],
+      "signes_cliniques": [
+        "subluxation inférieure de la tête humérale",
+        "spasticité",
+        "capsulite",
+        "algodystrophie associée possible"
+      ],
+      "examens_cles": [
+        "examen clinique",
+        "radiographies",
+        "échographie"
+      ],
+      "traitements_cles": [
+        "positionnement et soutien du membre supérieur",
+        "mobilisation douce",
+        "traitement de la spasticité (toxine botulique)",
+        "antalgiques"
+      ],
+      "pathologies_liees": [
+        "PATH-MPR-0001",
+        "PATH-MPR-0004"
+      ],
+      "dossier": null,
+      "statut": "referentiel_a_auditer"
+    }
+  ]
+}
