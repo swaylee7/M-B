@@ -198,13 +198,9 @@ La définition de la pré-éclampsie a évolué : historiquement fondée sur le 
 
 ## 2. Historique (repères)
 
-- Antiquité : les crises convulsives de la femme enceinte sont décrites de longue date ; le terme *éclampsie* (du grec « éclair », « jaillissement ») traduit la brutalité de la crise.
-- XIXe siècle : association de l'éclampsie à l'albuminurie puis à l'hypertension (mesure tensionnelle devenue courante au début du XXe siècle).
-- 1955 : Pritchard (Dallas) codifie un schéma de sulfate de magnésium **intramusculaire** ; dans les années 1960-1970, Zuspan propose un schéma **intraveineux** continu. Les noms de ces deux auteurs désignent encore aujourd'hui les deux protocoles de référence.
-- 1982 : Weinstein propose l'acronyme **HELLP**.
-- 1995-2002 : essais randomisés confirmant la supériorité du sulfate de magnésium sur le diazépam et la phénytoïne dans l'éclampsie, puis l'essai **Magpie** (10 141 femmes dans 33 pays) montrant que le sulfate de magnésium réduit d'environ **58 %** le risque d'éclampsie chez les femmes pré-éclamptiques [S5].
-- 2003-2006 : découverte du rôle du **sFlt-1** et de la **soluble endogline** dans le syndrome maternel ; développement des dosages sFlt-1/PlGF, dont l'étude PROGNOSIS valide le seuil de 38 pour exclure une PE à une semaine [S8].
-- 2017 : essai **ASPRE** (aspirine 150 mg/j) [S6] ; 2022 : essai **CHAP** sur le traitement de l'HTA chronique légère [S7] ; 2021-2022 : nouvelles recommandations ISSHP [S1].
+- 1955-1970 : Pritchard (schéma IM) puis Zuspan (schéma IV) codifient le **sulfate de magnésium** ; 1982 : Weinstein propose l'acronyme **HELLP**.
+- 2002 : essai **Magpie** (10 141 femmes, 33 pays) : le MgSO₄ réduit d'environ **58 %** le risque d'éclampsie [S5].
+- 2016-2022 : validation du rapport **sFlt-1/PlGF** (PROGNOSIS) [S8], essais **ASPRE** [S6] et **CHAP** [S7], recommandations **ISSHP 2021** [S1].
 
 ## 3. Épidémiologie
 
@@ -214,7 +210,7 @@ La pré-éclampsie complique environ **2 à 8 % des grossesses** dans le monde s
 
 ### 3.2 En Algérie
 
-Les données nationales publiées et vérifiables sont limitées. L'audit des décès maternels de **2011**, réalisé par questionnaire auprès des 48 directions de santé de wilaya et présenté en 2013, a recensé **220 décès maternels**, dont **93 % survenus à l'hôpital** et **26 % après une évacuation en urgence** ; les causes principales étaient l'**hémorragie (31,4 %)**, les **complications de l'HTA (12,7 %)**, les causes cardiovasculaires (12,3 %) et les infections (6,4 %) [S10]. Les auteurs soulignaient l'insuffisance de l'accès à des soins obstétricaux essentiels de qualité, l'absence de hiérarchisation claire des niveaux de soins, les évacuations tardives et la mauvaise gestion des urgences obstétricales [S10]. Des travaux régionaux plus récents (wilayas du Sud) placent également les complications de la pré-éclampsie au deuxième rang des causes obstétricales directes après les hémorragies [référence exacte À VÉRIFIER].
+Les données nationales publiées et vérifiables sont limitées. L'audit des décès maternels de **2011**, réalisé par questionnaire auprès des 48 directions de santé de wilaya et présenté en 2013, a recensé **220 décès maternels**, dont **93 % survenus à l'hôpital** et **26 % après une évacuation en urgence** ; les causes principales étaient l'**hémorragie (31,4 %)**, les **complications de l'HTA (12,7 %)**, les causes cardiovasculaires (12,3 %) et les infections (6,4 %) [S10]. Les auteurs soulignaient l'insuffisance de l'accès à des soins obstétricaux essentiels de qualité, l'absence de hiérarchisation claire des niveaux de soins, les évacuations tardives et la mauvaise gestion des urgences obstétricales [S10]. Des travaux régionaux plus récents vont dans le même sens [À VÉRIFIER].
 
 Le ministère de la Santé a publié en 2025 une nouvelle édition des **Protocoles et procédures de prise en charge de la grossesse, de l'accouchement et de la période postnatale** (avec l'appui de l'UNICEF), qui couvre la période préconceptionnelle jusqu'au post-partum, y compris les situations pathologiques et les urgences [S11] ; le lecteur algérien doit s'y référer pour les protocoles de son établissement (le contenu détaillé de ce document n'a pas pu être consulté pendant la rédaction).
 
@@ -235,10 +231,9 @@ Cette transformation explique la chute physiologique des résistances au **Doppl
 
 ### 4.2 Adaptations hémodynamiques maternelles normales
 
-- Augmentation du **volume plasmatique** (≈ 40-50 %) et du **débit cardiaque** (≈ 30-50 %).
-- **Baisse des résistances vasculaires systémiques**, d'où une diminution physiologique de la PA au deuxième trimestre (nadir vers 20-24 SA). Une HTA « masquée » peut ainsi être méconnue en début de grossesse puis réapparaître au troisième trimestre.
-- Réfractarité physiologique à l'angiotensine II, augmentation du débit de filtration glomérulaire (≈ 50 %) : la **créatininémie normale de la femme enceinte est plus basse** (souvent 40-70 µmol/L). Une créatininémie de 90 µmol/L, « normale » hors grossesse, est déjà pathologique pendant la grossesse [S1].
-- Hypercoagulabilité physiologique (élévation du fibrinogène et de plusieurs facteurs).
+- Hausse du volume plasmatique (≈ 40-50 %) et du débit cardiaque ; **baisse des résistances vasculaires** (nadir tensionnel vers 20-24 SA, pouvant masquer une HTA chronique).
+- Hausse du débit de filtration glomérulaire (≈ 50 %) : la **créatininémie normale de la femme enceinte est plus basse** (souvent 40-70 µmol/L) ; 90 µmol/L est déjà pathologique [S1].
+- Hypercoagulabilité physiologique.
 
 ## 5. Physiopathologie
 
@@ -308,7 +303,7 @@ La cause exacte reste inconnue ; on raisonne en **facteurs de risque**, dont l'i
 
 ### 6.2 Facteurs de risque selon l'ACOG [S2]
 
-L'ACOG retient comme facteurs de **risque élevé** : antécédent de PE (surtout avec issue défavorable), grossesse multiple, HTA chronique, diabète prégestationnel, néphropathie, maladie auto-immune ; et comme facteurs **modérés** : nulliparité, obésité (IMC > 30), antécédent familial, âge ≥ 35 ans, antécédents personnels obstétricaux défavorables (petit poids de naissance, intervalle > 10 ans), conception par fécondation in vitro, ainsi que des facteurs sociodémographiques (bas niveau socio-économique). Les seuils d'âge et d'IMC **diffèrent** de ceux du NICE (cf. §21).
+Mêmes facteurs de **risque élevé** que le NICE (plus la grossesse multiple et l'antécédent de PE) ; facteurs **modérés** : nulliparité, IMC > 30, antécédent familial, âge ≥ 35 ans, antécédents obstétricaux défavorables, FIV, facteurs sociodémographiques. Les seuils d'âge et d'IMC **diffèrent** du NICE (cf. §21).
 
 ### 6.3 Autres facteurs reconnus
 
@@ -321,12 +316,12 @@ L'ACOG retient comme facteurs de **risque élevé** : antécédent de PE (surtou
 
 ### 7.1 Tableau de synthèse
 
-| Classification | Catégories | Particularités |
-|---|---|---|
-| **ISSHP 2021** [S1] | HTA chronique ; HTA gravidique ; PE de novo ou surajoutée ; HTA blouse blanche ; HTA masquée ; (HTA transitoire) | Inclut la dysfonction utéroplacentaire et le **déséquilibre angiogénique** dans la définition de la PE ; pas de distinction « légère/sévère » |
-| **ACOG 2020** [S2] | HTA chronique ; HTA gravidique ; PE (± *severe features*) ; éclampsie ; HELLP ; PE surajoutée | La protéinurie massive et le RCIU ne sont plus des critères de sévérité |
-| **NICE NG133** [S3] | HTA chronique ; HTA gravidique ; PE ; PE sévère ; éclampsie ; HELLP | Recommande un test **PlGF** pour aider au diagnostic entre 20 SA et 36+6 SA (mise à jour 2023) |
-| **SFAR-CNGOF 2020** [S4] | PE ; PE sévère (critères maternels et fœtaux) ; éclampsie ; HELLP | Conserve une catégorie « sévère » à valeur décisionnelle (transfert, MgSO₄, extraction) |
+| Classification | Particularités |
+|---|---|
+| **ISSHP 2021** [S1] | HTA chronique, gravidique, PE de novo/surajoutée, HTA blouse blanche/masquée ; PE incluant la dysfonction utéroplacentaire et le **déséquilibre angiogénique** ; pas de distinction légère/sévère |
+| **ACOG 2020** [S2] | PE ± *severe features* ; protéinurie massive et RCIU ne sont plus des critères de sévérité |
+| **NICE NG133** [S3] | Test **PlGF** recommandé entre 20 et 36+6 SA en cas de suspicion (2023) |
+| **SFAR-CNGOF 2020** [S4] | Catégorie « PE sévère » décisionnelle (transfert, MgSO₄, extraction) |
 
 ### 7.2 Classification du HELLP syndrome
 
@@ -355,10 +350,7 @@ L'ACOG retient comme facteurs de **risque élevé** : antécédent de PE (surtou
 
 ### 8.2 Mesure correcte de la pression artérielle
 
-- Patiente assise depuis au moins 5 minutes, bras à hauteur du cœur, **brassard adapté** à la circonférence brachiale (un brassard trop petit surestime la PA, problème fréquent chez les patientes obèses).
-- La PAD correspond à la **disparition des bruits** (phase V de Korotkoff).
-- Les appareils automatiques doivent être **validés pour la grossesse et la PE** (certains sous-estiment la PA en cas de PE).
-- L'automesure à domicile est utile pour dépister l'HTA blouse blanche et surveiller l'HTA chronique [S1].
+Patiente assise au repos, **brassard adapté** (un brassard trop petit surestime la PA), PAD = phase V de Korotkoff, appareils automatiques **validés pour la grossesse** ; l'automesure dépiste l'HTA blouse blanche [S1].
 
 ### 8.3 Examen physique
 
@@ -422,13 +414,10 @@ La **fréquence** du bilan dépend de la gravité : au moins **deux fois par sem
 - **PE tardive (≥ 34 SA)** : fréquente, souvent moins grave, fœtus généralement eutrophe ; l'accouchement est la règle dès que la PE est sévère à partir de 34 SA et, pour toute PE, à partir de 37 SA [S2, S3].
 
 ### 10.2 Formes compliquées
-- **Éclampsie** : crise tonico-clonique généralisée, parfois précédée de prodromes (céphalées, troubles visuels, barre épigastrique, ROT vifs), suivie d'une phase post-critique ; complications : inhalation, traumatisme, état de mal, hémorragie cérébrale, anoxie fœtale (bradycardie fœtale pendant et juste après la crise, habituellement réversible après stabilisation maternelle). **Environ un tiers des éclampsies surviennent dans le post-partum** (chiffre classique ; ordre de grandeur à confronter aux données locales).
-- **HELLP syndrome** : douleur épigastrique/hypochondre droit, nausées, vomissements, malaise ; HTA parfois modérée ; évolution imprévisible, parfois fulgurante ; complications : CIVD, HRP, insuffisance rénale aiguë, OAP, **hématome sous-capsulaire du foie** et rupture hépatique.
-- **Hématome rétroplacentaire (HRP)** : douleur utérine brutale, hypertonie, métrorragies noirâtres, souffrance ou mort fœtale, CIVD — urgence obstétricale absolue.
-- **Œdème aigu du poumon** : favorisé par la fuite capillaire, l'hypoalbuminémie, l'excès de remplissage et le post-partum immédiat (redistribution des volumes).
-- **Insuffisance rénale aiguë** : souvent fonctionnelle ou par nécrose tubulaire (HRP, hémorragie), rarement corticale.
-- **AVC hémorragique** : principale cause de décès maternel liée à l'HTA sévère non contrôlée, d'où l'urgence du traitement antihypertenseur pour une PAS ≥ 160 mmHg.
-- **Cécité corticale**, décollement séreux rétinien : habituellement réversibles.
+- **Éclampsie** : crise tonico-clonique généralisée, souvent précédée de prodromes (céphalées, troubles visuels, barre épigastrique) ; risques d'inhalation, d'état de mal, d'hémorragie cérébrale ; bradycardie fœtale per-critique habituellement réversible ; une part importante (classiquement un tiers) survient **dans le post-partum**.
+- **HELLP syndrome** : douleur épigastrique, nausées, HTA parfois modérée ; risques de CIVD, HRP, IRA, OAP et **hématome sous-capsulaire du foie**.
+- **HRP** : douleur brutale, hypertonie, métrorragies noirâtres, souffrance fœtale, CIVD.
+- **OAP**, **insuffisance rénale aiguë**, **AVC hémorragique** (principale cause de décès liée à l'HTA sévère), cécité corticale (réversible).
 
 ### 10.3 Formes selon le terrain
 - **PE surajoutée à une HTA chronique** ou à une néphropathie : diagnostic d'aggravation (apparition d'une protéinurie nouvelle ou majorée brutalement, d'une thrombopénie, d'une cytolyse, d'une dysfonction utéroplacentaire) [S1].
@@ -502,9 +491,7 @@ Après l'accouchement, l'HTA se normalise habituellement en quelques jours à se
 - **Récidive** lors d'une grossesse ultérieure : risque d'autant plus élevé que la PE a été précoce et sévère ; justifie l'aspirine dès la grossesse suivante [S3].
 - **Risque cardiovasculaire** : environ doublé (HTA, coronaropathie, AVC) ; la PE est un « test d'effort » révélateur d'une vulnérabilité vasculaire [S1, S3].
 
-### 12.5 Outils pronostiques
-- Le modèle **fullPIERS** (ISSHP) estime le risque de complication maternelle grave dans les 48 h à partir de l'âge gestationnel, de la douleur thoracique/dyspnée, de la SpO₂, des plaquettes, de la créatininémie et des transaminases [mention de l'ISSHP ; modalités à VÉRIFIER dans S1].
-- Le rapport **sFlt-1/PlGF** très élevé est associé à un délai court avant l'accouchement.
+
 
 ## 13. Traitement
 
@@ -525,30 +512,21 @@ Après l'accouchement, l'HTA se normalise habituellement en quelques jours à se
 
 #### 13.2.2 Antihypertenseurs
 
-**Principes communs**
-- **HTA sévère (≥ 160/110)** : urgence thérapeutique ; l'ACOG recommande de débuter le traitement **dans les 30 à 60 minutes** après la confirmation [S2]. L'objectif est d'**abaisser progressivement** la pression (éviter les chutes brutales qui compromettent la perfusion placentaire).
-- **HTA non sévère** : les recommandations convergent désormais vers un traitement à partir de **140/90 mmHg** :
-  - **ISSHP 2021** : traiter toute HTA ≥ 140/90 (au cabinet) ou ≥ 135/85 (à domicile) avec une **cible de PAD à 85 mmHg** [S1] ;
-  - **NICE** : traiter si ≥ 140/90 avec une cible ≤ 135/85 mmHg [S3] ;
-  - **essai CHAP** : chez des femmes ayant une HTA chronique légère, un traitement visant < 140/90 a réduit le critère composite (PE sévère, accouchement médicalement indiqué < 35 SA, HRP, mort fœtale ou néonatale) de 37,0 % à 30,2 % sans augmenter le risque de petit poids pour l'âge gestationnel [S7] ;
-  - l'essai **CHIPS** (2015) avait montré qu'un contrôle « serré » (PAD cible 85) réduisait la fréquence de l'HTA sévère sans effet délétère fœtal [S12 — À VÉRIFIER].
-- **Molécules contre-indiquées** : **IEC et ARA II** (fœtotoxicité : insuffisance rénale fœtale, oligoamnios, hypoplasie pulmonaire, anomalies de l'ossification de la voûte), **antagonistes de l'aldostérone**, **aliskiren** ; **diurétiques** déconseillés (aggravent l'hypovolémie relative), sauf en cas d'OAP ; **aténolol** (associé à des RCIU) ; **nitroprussiate** (toxicité cyanhydrique fœtale) en dehors d'une situation extrême ; **nifédipine sublinguale** (chute tensionnelle brutale, hypoperfusion placentaire).
+**Principes**
+- **HTA sévère (≥ 160/110)** : urgence ; traitement **dans les 30 à 60 minutes** (ACOG) [S2], baisse **progressive** (pas de chute brutale).
+- **HTA non sévère** : traitement dès **140/90** — cible de PAD **85 mmHg** (ISSHP) [S1], ≤ **135/85** (NICE) [S3] ; dans l'essai **CHAP** (HTA chronique légère), viser < 140/90 a réduit le critère composite de 37,0 % à 30,2 % sans excès de petit poids pour l'âge gestationnel [S7] ; l'essai CHIPS allait dans le même sens [S12 — À VÉRIFIER].
+- **Contre-indiqués pendant la grossesse** : **IEC, ARA II**, antagonistes de l'aldostérone, aliskiren (fœtotoxicité) ; **diurétiques** (sauf OAP) ; **aténolol** (RCIU) ; **nifédipine sublinguale** (chute brutale).
 
-**Principales molécules** (posologies standard ; vérifier les RCP et protocoles locaux)
+| Molécule | Voie et posologie usuelle | Remarques |
+|---|---|---|
+| **Labétalol** (α/β-bloquant) | Orale : 100-200 mg × 2-3/j (maximum variable selon les sources) ; IV (ACOG) : 20 mg en 2 min puis 40 puis 80 mg toutes les 10 min, dose cumulée ≈ 300 mg, ou 1-2 mg/min [S2, S3 — POSOLOGIE À VÉRIFIER — RCP / protocole local] | 1re intention NICE ; contre-indiqué si asthme, bloc AV ; surveillance néonatale (bradycardie, hypoglycémie) |
+| **Nifédipine** | Orale LI (urgence, ACOG) : 10-20 mg, à répéter après 20-30 min ; formes LP en traitement de fond [POSOLOGIE À VÉRIFIER] | Jamais sublinguale ; céphalées, tachycardie |
+| **Nicardipine** | IV au pousse-seringue (1re intention française dans la PE sévère) : titration puis 1-6 mg/h selon la PA [S4 — POSOLOGIE À VÉRIFIER] | Veinite ; association au MgSO₄ sous surveillance |
+| **Hydralazine** | IV (ACOG) : 5-10 mg en 2 min toutes les 20 min, maximum cumulé ≈ 20-30 mg [POSOLOGIE À VÉRIFIER] | Hypotension, tachycardie réflexe, céphalées |
+| **Méthyldopa** | Orale : 250 mg × 2-3/j, jusqu'à 2-3 g/j [POSOLOGIE À VÉRIFIER] | Large recul ; somnolence, dépression ; **à remplacer dans le post-partum** [S3] ; très utilisée en Algérie |
+| **Urapidil** | IV (alternative française) [POSOLOGIE À VÉRIFIER] | Disponibilité variable |
 
-| Molécule | Classe | Voie et posologie usuelle | Remarques |
-|---|---|---|---|
-| **Labétalol** | α- et β-bloquant | **Orale** : 100-200 mg × 2-3/j, jusqu'à 1 200 mg/j (posologie maximale variable selon les sources) [S2, S3] ; **IV** (urgence, ACOG) : 20 mg en 2 min, puis 40 mg puis 80 mg toutes les 10 min si besoin, dose cumulée maximale ≈ 300 mg ; ou perfusion continue 1-2 mg/min [POSOLOGIE À VÉRIFIER — RCP / protocole local] | 1re intention NICE (oral) ; contre-indiqué dans l'asthme, l'insuffisance cardiaque décompensée, les blocs AV ; risque de bradycardie et d'hypoglycémie néonatales (surveillance) |
-| **Nifédipine** | Inhibiteur calcique (dihydropyridine) | **Orale** à libération immédiate (urgence, ACOG) : 10-20 mg, à répéter après 20-30 min si besoin ; formes à libération prolongée pour le traitement de fond (ex. 20-60 mg × 1-2/j selon la forme) [POSOLOGIE À VÉRIFIER — RCP / protocole local] | **Jamais par voie sublinguale** ; céphalées, flush, tachycardie ; prudence théorique avec le MgSO₄ (hypotension, potentialisation neuromusculaire décrite mais rare) |
-| **Nicardipine** | Inhibiteur calcique IV | **IV** au pousse-seringue : utilisée en 1re intention en France dans la PE sévère ; schémas usuels : bolus titré de 0,5-1 mg puis perfusion de 1 à 6 mg/h selon la PA [POSOLOGIE À VÉRIFIER — RCP / protocole local et texte SFAR-CNGOF S4] | Veinite (voie veineuse de bon calibre) ; tachycardie ; association au MgSO₄ sous surveillance |
-| **Hydralazine (dihydralazine)** | Vasodilatateur direct | **IV** (ACOG) : 5-10 mg en 2 min, à répéter toutes les 20 min selon la PA, dose maximale cumulée ≈ 20-30 mg ; perfusion continue possible [POSOLOGIE À VÉRIFIER — RCP / protocole local] | Hypotension brutale, tachycardie réflexe, céphalées (confusion avec l'aggravation de la PE) ; moins utilisée en 1re intention en France |
-| **Méthyldopa** | Antihypertenseur central | **Orale** : 250 mg × 2-3/j, jusqu'à 2-3 g/j [POSOLOGIE À VÉRIFIER — RCP / protocole local] | Large recul pendant la grossesse ; somnolence, dépression, cytolyse, anémie hémolytique (Coombs +) ; **à remplacer dans le post-partum** (risque de dépression) [S3] ; molécule historiquement très utilisée en Algérie |
-| **Urapidil** | α1-bloquant | **IV** : utilisé en France comme alternative ou en association à la nicardipine dans la PE sévère [POSOLOGIE À VÉRIFIER — RCP / protocole local] | Disponibilité variable |
-
-**Stratégie habituelle**
-- **Traitement de fond** (HTA non sévère) : labétalol oral, nifédipine à libération prolongée ou méthyldopa ; monothérapie puis bithérapie.
-- **HTA sévère** : labétalol IV, nifédipine orale à libération immédiate ou hydralazine IV (ACOG) [S2] ; **nicardipine IV** ± labétalol IV ou urapidil (pratique française) [S4]. Surveillance de la PA toutes les 5 à 15 minutes pendant la phase de titration, puis rapprochée ; RCF continu.
-- **Cible en urgence** : l'objectif est d'obtenir rapidement une PAS < 160 et une PAD < 110 mmHg, puis de stabiliser la PA autour de 135-150/80-100 mmHg sans chute brutale (cible ISSHP de PAD : 85 mmHg) [S1, S3]. Les cibles chiffrées exactes de la RFE française doivent être vérifiées dans le texte [S4 — À VÉRIFIER].
+**Stratégie** : fond = labétalol, nifédipine LP ou méthyldopa ; urgence = labétalol IV, nifédipine orale LI ou hydralazine IV (ACOG) [S2], **nicardipine IV** ± labétalol ou urapidil (France) [S4] ; PA toutes les 5-15 min pendant la titration, RCF continu ; objectif PAS < 160 et PAD < 110 puis stabilisation sans chute brutale (cibles françaises exactes [S4 — À VÉRIFIER]).
 
 #### 13.2.3 Sulfate de magnésium (MgSO₄)
 
@@ -658,21 +636,15 @@ En cas d'accouchement prévisible **avant 34 SA** (voire jusqu'à 34+6 SA selon 
 - **Méthylergométrine (ergométrine) contre-indiquée** dans la prévention ou le traitement de l'hémorragie du post-partum chez la femme hypertendue (poussée hypertensive) ; utiliser l'ocytocine.
 
 #### 13.3.5 Post-partum
-- Poursuite du **MgSO₄ 24 h** après l'accouchement (si indiqué) [S2].
-- **Surveillance tensionnelle** rapprochée : le pic tensionnel survient souvent entre **J3 et J6** ; risque d'éclampsie et d'AVC tardifs.
-- **Antihypertenseurs compatibles avec l'allaitement** : nifédipine, labétalol, **énalapril** (IEC autorisé après l'accouchement selon le NICE), amlodipine ; **arrêter la méthyldopa** dans les 2 jours suivant l'accouchement (risque dépressif) [S3].
-- **AINS** : divergence (cf. §21) — l'ACOG les autorise pour l'analgésie [À VÉRIFIER — S2], le NICE invite à les éviter en cas d'atteinte rénale ou d'HTA mal contrôlée [S3 — À VÉRIFIER].
-- **Contrôle biologique** (plaquettes, créatinine, transaminases) jusqu'à normalisation.
-- **Consultation à 6-8 semaines** : PA, protéinurie, bilan ; si persistance > 12 semaines → exploration (HTA chronique, néphropathie).
-- **Information et suivi à long terme** : risque cardiovasculaire, contrôle annuel de la PA, du poids, de la glycémie et du bilan lipidique ; aspirine et suivi spécialisé lors de la grossesse suivante.
-- Contraception : éviter les œstroprogestatifs si l'HTA persiste ; méthodes progestatives ou DIU.
+- **MgSO₄ 24 h** (si indiqué) [S2] ; surveillance tensionnelle rapprochée (pic **J3-J6** ; éclampsie et AVC tardifs possibles).
+- Antihypertenseurs compatibles avec l'allaitement : nifédipine, labétalol, **énalapril**, amlodipine ; **arrêt de la méthyldopa** dans les 2 jours (risque dépressif) [S3] ; AINS : cf. §21.
+- Biologie jusqu'à normalisation ; consultation à **6-8 semaines** ; HTA ou protéinurie > 12 semaines → explorer.
+- Suivi cardiovasculaire à long terme ; aspirine à la grossesse suivante ; contraception sans œstrogènes si l'HTA persiste.
 
 ### 13.4 Particularités algériennes
-- **Référentiel national** : les protocoles du ministère de la Santé (édition 2025) constituent la référence opposable pour les maternités algériennes [S11] ; le contenu détaillé (schéma de MgSO₄ retenu, antihypertenseurs de première ligne) doit être vérifié dans le document [À VÉRIFIER].
-- **Organisation des soins** : l'audit national 2011 a mis en évidence des décès survenant après des **évacuations tardives** et une hiérarchisation insuffisante des niveaux de soins [S10]. En pratique, toute PE sévère, tout HELLP et toute éclampsie doivent être **stabilisés sur place** (MgSO₄, antihypertenseur, voie veineuse) **avant** un transfert médicalisé vers une structure disposant d'une réanimation adulte et néonatale (CHU, EHS mère-enfant, EPH de référence).
-- Le **schéma de Pritchard** (IM) est utile dans les maternités périphériques et pendant les transferts, car il ne nécessite pas de pousse-seringue.
-- La **méthyldopa** reste largement prescrite en Algérie comme antihypertenseur oral de fond pendant la grossesse ; il faut penser à la **relayer dans le post-partum** [S3].
-- Les dosages **sFlt-1/PlGF** ne sont pas disponibles en routine dans la plupart des structures publiques [À VÉRIFIER] : le diagnostic repose sur la clinique, la protéinurie et le bilan biologique classique.
+- Les **protocoles nationaux 2025** du ministère de la Santé sont la référence des maternités algériennes [S11] (contenu détaillé non consulté [À VÉRIFIER]).
+- L'audit 2011 a souligné les **évacuations tardives** et la hiérarchisation insuffisante des soins [S10] : PE sévère, HELLP et éclampsie doivent être **stabilisés sur place** (MgSO₄, antihypertenseur) avant un **transfert médicalisé** vers une structure dotée de réanimations adulte et néonatale ; le **schéma de Pritchard** (IM) est adapté aux maternités périphériques et aux transferts.
+- La **méthyldopa**, très prescrite, doit être relayée dans le post-partum [S3] ; les dosages sFlt-1/PlGF sont rarement disponibles [À VÉRIFIER].
 
 ## 14. Surveillance
 
@@ -709,10 +681,8 @@ En cas d'accouchement prévisible **avant 34 SA** (voire jusqu'à 34+6 SA selon 
 **Contre-indications** : allergie à l'aspirine, ulcère évolutif, troubles de l'hémostase, asthme induit par l'aspirine.
 
 ### 15.2 Autres mesures préventives
-- **Calcium** : supplémentation recommandée par l'OMS dans les populations à **faibles apports calciques** (1,5 à 2 g/j de calcium élément) [S9 — dose À VÉRIFIER] ; l'ISSHP recommande également un apport calcique suffisant chez les femmes à faible apport [S1 — À VÉRIFIER].
-- **Activité physique** régulière pendant la grossesse (recommandée par l'ISSHP) [S1].
-- **Optimisation préconceptionnelle** : contrôle d'une HTA chronique (relais des IEC/ARA II avant la conception ou dès le diagnostic de grossesse), d'un diabète, d'une néphropathie, d'un lupus ; perte de poids.
-- **Inefficaces** et non recommandés : vitamines C et E, restriction sodée, diurétiques, repos strict, héparine en prévention primaire (hors SAPL).
+- **Calcium** si apports faibles (OMS : 1,5-2 g/j de calcium élément [S9 — dose À VÉRIFIER]) ; activité physique [S1] ; optimisation préconceptionnelle (relais des IEC/ARA II, contrôle du diabète, de la néphropathie, du lupus).
+- Inefficaces : vitamines C et E, restriction sodée, diurétiques, repos strict.
 
 ### 15.3 Prévention secondaire et tertiaire
 - **Dépistage précoce** par la mesure de la PA et la recherche de protéinurie à chaque consultation prénatale (programme national de suivi de la grossesse) [S11].
@@ -771,98 +741,57 @@ PE SÉVÈRE
                          (cadre légal national) vs expectative exceptionnelle
 ```
 
-### 16.3 Arbre de prise en charge sous MgSO₄
 
-```text
-MgSO4 en cours ── Surveillance horaire : ROT, FR, diurèse, conscience
-│
-├─ ROT présents, FR > 12/min, diurèse > 25-30 mL/h ──► poursuivre
-│
-├─ ROT abolis ──► suspendre la perfusion, magnésémie, réévaluer
-│
-├─ FR < 12/min ou SpO2 basse ──► ARRÊT du MgSO4, O2, ventilation si besoin,
-│                                 GLUCONATE DE CALCIUM 1 g IV lente
-│
-└─ Oligurie < 25-30 mL/h ──► réduire l'entretien, magnésémie, bilan rénal
-```
 
 ## 17. Cas clinique commenté
 
 > Scénario **fictif**, construit à des fins pédagogiques.
 
-**Présentation.** Mme S., 24 ans, primigeste, est adressée un soir par la sage-femme d'une polyclinique à l'urgence de la maternité d'un établissement public hospitalier de wilaya, à **33 SA + 2 jours**. Elle se plaint depuis le matin de **céphalées frontales** non calmées par le paracétamol et d'une **douleur épigastrique en barre** apparue depuis 3 heures, avec deux vomissements. Grossesse jusque-là sans particularité ; dernière consultation à 28 SA avec une PA à 125/80. Aucun antécédent.
+**Présentation.** Mme S., 24 ans, primigeste, est adressée par une sage-femme à l'urgence de la maternité d'un EPH de wilaya à **33 SA + 2 j** pour des **céphalées frontales** résistantes au paracétamol et une **douleur épigastrique en barre** depuis 3 heures avec vomissements. PA à 125/80 à 28 SA.
 
-**Examen.** PA **168/112 mmHg** au bras droit, contrôlée à **172/114** quinze minutes plus tard ; FC 96/min ; SpO₂ 98 % ; œdèmes du visage et des membres inférieurs ; ROT vifs et diffusés, pas de clonus ; conscience normale, pas de déficit. Hauteur utérine 28 cm. Utérus souple, pas de métrorragies. Bandelette urinaire : protéines **3+**. RCF : 140 bpm, variabilité normale, accélérations présentes.
+**Examen.** PA **168/112** puis **172/114 mmHg** ; FC 96/min ; œdèmes du visage ; ROT vifs sans clonus ; conscience normale ; hauteur utérine 28 cm ; utérus souple ; protéinurie **3+** ; RCF normal.
 
-**Biologie (H+1)** : Hb 13,8 g/dL ; plaquettes **86 000/mm³** ; ASAT **142 UI/L**, ALAT 118 UI/L ; LDH **720 UI/L** ; bilirubine totale 18 mg/L ; haptoglobine effondrée ; schizocytes présents ; créatininémie **98 µmol/L** ; TP 88 %, fibrinogène 3,1 g/L ; RPC 210 mg/mmol.
+**Biologie** : plaquettes **86 000/mm³** ; ASAT **142 UI/L** ; LDH **720 UI/L** ; haptoglobine effondrée ; schizocytes ; créatininémie **98 µmol/L** ; hémostase normale ; RPC 210 mg/mmol. **Échographie** : poids fœtal au 8e percentile, oligoamnios, Doppler ombilical pathologique avec diastole présente.
 
-**Échographie** : estimation de poids fœtal au 8e percentile ; liquide amniotique diminué ; Doppler ombilical : index de résistance augmenté, diastole présente ; artère cérébrale moyenne : vasodilatation modérée.
+**1. Diagnostic ?** PE **sévère** compliquée d'un **HELLP complet** (hémolyse, ASAT ≥ 70, plaquettes < 100 000), avec atteinte rénale (≥ 90 µmol/L en grossesse), signes neurologiques, douleur épigastrique et RCIU débutant [S1, S2, S4].
 
-### Questions et commentaires
+**2. Mesures immédiates ?** Senior et anesthésiste ; deux voies veineuses ; sonde urinaire ; **antihypertenseur IV dans les 30-60 min** (nicardipine ou labétalol) ; **MgSO₄** 4 g IV en 20 min puis 1 g/h (ou Pritchard) ; apports limités (≈ 80 mL/h) ; **bétaméthasone** ; échographie hépatique si la douleur persiste [S2, S3, S5, S9].
 
-**1. Quel est votre diagnostic ?**
-Pré-éclampsie **sévère** compliquée d'un **HELLP syndrome complet** (hémolyse : LDH ≥ 600, schizocytes, haptoglobine effondrée ; cytolyse : ASAT ≥ 70 ; thrombopénie < 100 000) chez une primigeste à 33 SA, avec **atteinte rénale** (créatininémie ≥ 90 µmol/L en grossesse), **signes neurologiques** (céphalées résistantes), **douleur épigastrique** (distension de la capsule de Glisson) et **retentissement fœtal** (RCIU débutant, oligoamnios, redistribution) [S1, S2, S4].
+**3. Transfert ?** Oui, vers une maternité de niveau III, **après stabilisation**, médicalisé ; le schéma de Pritchard sécurise le trajet [S10, S11].
 
-**2. Quelles sont les mesures immédiates ?**
-- Appel de l'obstétricien senior et de l'anesthésiste-réanimateur ; deux voies veineuses ; monitorage ; sonde urinaire avec diurèse horaire ; groupe-RAI.
-- **Antihypertenseur IV** dans les 30-60 min (nicardipine au pousse-seringue ou labétalol IV selon le protocole), cible PAS < 160 et PAD < 110 sans chute brutale [S2, S4].
-- **MgSO₄** : la patiente présente des signes neurologiques et un HELLP ; l'indication est retenue par toutes les recommandations — 4 g IV en 20 min puis 1 g/h (Zuspan), ou schéma de Pritchard si le pousse-seringue n'est pas disponible [S5, S9].
-- **Restriction des apports hydriques** (≈ 80 mL/h) [S3].
-- **Bétaméthasone** 12 mg IM (1re dose) car terme < 34 SA.
-- Échographie hépatique si la douleur persiste ou s'aggrave (hématome sous-capsulaire).
+**4. Attendre 48 h pour la corticothérapie ?** Seulement si l'état maternel est stable ; un HELLP qui s'aggrave (douleur hépatique, chute des plaquettes, atteinte rénale) impose l'extraction après stabilisation [S2].
 
-**3. Faut-il transférer cette patiente ?**
-La maternité ne dispose pas de réanimation néonatale pour un nouveau-né de 33 SA hypotrophe ni de réanimation adulte : un **transfert médicalisé** vers une maternité de niveau III est indiqué, **après stabilisation** (PA contrôlée, MgSO₄ débuté, bilan prélevé), avec un médecin et le matériel d'urgence pendant le transport [S10, S11]. Le schéma de Pritchard (IM) peut sécuriser la continuité du traitement pendant le trajet.
+**5. Voie et anesthésie ?** La PE n'impose pas la césarienne, mais col défavorable, terme précoce et HELLP évolutif la font souvent retenir ; rachianesthésie si plaquettes stables au-dessus du seuil local, sinon anesthésie générale (poussée hypertensive, intubation difficile) ; plaquettes avant césarienne si < 50 000/mm³ [S4].
 
-**4. Faut-il attendre la fin de la corticothérapie (48 h) avant d'accoucher ?**
-Le HELLP est **évolutif** ; à 33 SA, une attente de 48 h n'est envisageable que si l'état maternel est **stable** sous traitement (PA contrôlée, plaquettes stables, pas de douleur hépatique croissante, pas de CIVD). Ici, la douleur épigastrique, la thrombopénie et l'atteinte rénale incitent à **ne pas différer l'accouchement au-delà de la stabilisation** si la biologie se dégrade au contrôle de H+6 [S2]. La décision est collégiale (obstétricien, anesthésiste, pédiatre).
+**6. Évolution.** Césarienne à H+10 (plaquettes 71 000) ; fille de 1 650 g ; MgSO₄ 24 h ; nadir plaquettaire à J1 (aggravation transitoire classique) ; PA 150/100 à J4 : nifédipine LP puis **énalapril**, **sans méthyldopa** [S3].
 
-**5. Quelle voie d'accouchement et quelle anesthésie ?**
-La PE n'impose pas la césarienne. Mais à 33 SA, avec un col défavorable (Bishop 2), un fœtus hypotrophe et un HELLP évolutif, une **césarienne** est souvent retenue. Avec **86 000 plaquettes** stables et une hémostase normale, une **rachianesthésie** est discutable selon le seuil local ; si les plaquettes chutent sous le seuil de l'équipe, l'anesthésie générale sera nécessaire, en prévenant la poussée hypertensive de l'intubation et en anticipant une intubation difficile (œdème laryngé) [S4]. Une transfusion plaquettaire est indiquée avant césarienne si plaquettes < 50 000/mm³ (seuil classique, à adapter).
+**7. À la sortie.** Automesure, consultation à 6-8 semaines, **aspirine 75-150 mg/j avant 16 SA** lors de la prochaine grossesse, suivi du risque cardiovasculaire, contraception sans œstrogènes tant que l'HTA persiste [S1, S3, S6].
 
-**6. Évolution et post-partum.**
-Une césarienne est réalisée à H+10 (plaquettes 71 000) sous anesthésie générale ; naissance d'une fille de 1 650 g transférée en néonatologie. Le **MgSO₄ est poursuivi 24 h**. À J1, les plaquettes atteignent un nadir de 58 000 (aggravation transitoire classique dans les 24-48 h), puis remontent à J3. La PA reste élevée (150/100) à J4 : relais par **nifédipine LP** puis ajout d'**énalapril** (compatibles avec l'allaitement), **sans méthyldopa** dans le post-partum [S3]. Sortie à J7.
-
-**7. Que dire à la patiente à la sortie ?**
-- Surveillance tensionnelle (automesure) ; consultation à 6-8 semaines (PA, protéinurie, créatinine).
-- **Risque de récidive** lors d'une prochaine grossesse : consultation préconceptionnelle, **aspirine 75-150 mg/j** dès 12 SA (avant 16 SA), suivi en niveau adapté [S3, S6].
-- **Risque cardiovasculaire à long terme** : contrôle annuel de la PA, du poids, de la glycémie et des lipides ; activité physique [S1, S3].
-- Contraception sans œstrogènes tant que l'HTA persiste.
-
-**Message pédagogique** : une « gastrite » du troisième trimestre chez une femme hypertendue est un **HELLP jusqu'à preuve du contraire** ; la PA « seulement » à 168/112 suffit à exposer à un AVC ; le MgSO₄ prévient l'éclampsie mais ne traite pas l'HTA ; la stabilisation précède toujours le transfert et l'extraction.
+**Message** : une « gastrite » du 3e trimestre chez une hypertendue est un **HELLP jusqu'à preuve du contraire** ; stabiliser avant de transférer et d'extraire.
 
 ## 18. Points clés à retenir
 
-1. HTA gravidique = PA ≥ 140/90 confirmée ; **sévère si ≥ 160/110** → traitement dans les 30-60 min [S2].
-2. Pré-éclampsie = HTA de novo ≥ 20 SA + protéinurie **ou** dysfonction d'organe maternelle **ou** dysfonction utéroplacentaire (dont déséquilibre angiogénique pour l'ISSHP 2021) [S1].
-3. L'**absence de protéinurie n'élimine pas** une PE ; l'œdème n'est pas un critère.
-4. Physiopathologie : défaut de remodelage des artères spiralées → ischémie placentaire → sFlt-1/endogline → **dysfonction endothéliale** systémique.
-5. Rapport **sFlt-1/PlGF ≤ 38** : excellente valeur prédictive négative (99,3 %) à 1 semaine ; faible valeur prédictive positive [S8].
-6. **Aspirine** 75-150 mg/j (81 mg aux États-Unis, 150 mg dans ASPRE), débutée **avant 16 SA**, chez les femmes à risque ; elle prévient surtout la **PE pré-terme** [S3, S6].
-7. Antihypertenseurs autorisés : **labétalol, nifédipine, nicardipine IV, méthyldopa, hydralazine** ; **IEC/ARA II contre-indiqués pendant la grossesse** ; jamais de nifédipine sublinguale.
-8. Cible : PAD ≈ 85 mmHg (ISSHP), ≤ 135/85 (NICE) pour l'HTA non sévère ; CHAP soutient le traitement dès 140/90 [S1, S3, S7].
-9. **MgSO₄** : traitement de l'éclampsie et prévention dans la PE sévère (−58 % d'éclampsie dans Magpie) ; Zuspan 4 g IV + 1 g/h ; Pritchard 4 g IV + 10 g IM puis 5 g IM/4 h ; 24 h post-partum [S5, S9].
-10. Surveillance du MgSO₄ : **ROT, FR, diurèse** ; antidote : **gluconate de calcium 1 g IV**.
-11. Seul traitement curatif : **la délivrance** ; PE sans sévérité → accouchement à **37 SA** ; PE sévère → à **34 SA**, ou avant si indication maternelle ou fœtale [S2].
-12. Stabiliser **avant** de transférer et **avant** d'extraire ; corticothérapie si < 34 SA.
-13. Post-partum : MgSO₄ 24 h, pic tensionnel J3-J6, **pas de méthyldopa**, énalapril autorisé ; suivi cardiovasculaire à vie.
-14. En Algérie, les complications de l'HTA représentaient **12,7 %** des décès maternels dans l'audit 2011, avec un rôle des évacuations tardives [S10].
+1. HTA = PA ≥ 140/90 confirmée ; **sévère ≥ 160/110** → traitement en 30-60 min [S2].
+2. PE = HTA de novo ≥ 20 SA + protéinurie **ou** dysfonction d'organe **ou** dysfonction utéroplacentaire (dont déséquilibre angiogénique, ISSHP 2021) [S1] ; l'œdème n'est pas un critère.
+3. Physiopathologie : défaut de remodelage des artères spiralées → sFlt-1/endogline → **dysfonction endothéliale**.
+4. **sFlt-1/PlGF ≤ 38** : VPN 99,3 % à 1 semaine ; VPP faible [S8].
+5. **Aspirine** 75-150 mg/j avant 16 SA chez les femmes à risque ; prévient la PE **pré-terme** [S3, S6].
+6. Antihypertenseurs : labétalol, nifédipine, nicardipine IV, méthyldopa, hydralazine ; **IEC/ARA II contre-indiqués pendant la grossesse** ; cible PAD 85 (ISSHP) [S1, S7].
+7. **MgSO₄** : Zuspan 4 g IV + 1 g/h ; Pritchard 4 g IV + 10 g IM puis 5 g IM/4 h ; 24 h ; surveillance ROT-FR-diurèse ; antidote : **gluconate de calcium 1 g IV** [S5, S9].
+8. Seul traitement curatif : **la délivrance** ; 37 SA si PE sans sévérité, 34 SA si sévère, avant si indication maternelle ou fœtale [S2].
+9. Post-partum : MgSO₄ 24 h, pic tensionnel J3-J6, pas de méthyldopa, énalapril possible ; suivi cardiovasculaire à vie.
+10. Algérie : complications de l'HTA = **12,7 %** des décès maternels (audit 2011), rôle des évacuations tardives [S10].
 
 ## 19. Pièges classiques à l'examen
 
-- **Confondre HTA gravidique et PE** : l'HTA gravidique n'a, par définition, aucun critère de PE, mais peut évoluer vers une PE ; elle n'est pas « bénigne » [S2].
-- **Exiger une protéinurie** pour diagnostiquer une PE : faux depuis les définitions récentes (ACOG 2013/2020, ISSHP).
-- **Considérer l'œdème** ou la prise de poids comme critère diagnostique.
-- Interpréter une créatininémie à **90 µmol/L** comme normale : elle est pathologique pendant la grossesse.
-- Croire que le **MgSO₄ fait baisser la PA** : il ne remplace pas l'antihypertenseur.
-- Oublier que l'**abolition des ROT** précède la dépression respiratoire dans le surdosage en magnésium.
-- Prescrire un **IEC** pendant la grossesse (mais il est **autorisé dans le post-partum**, même en cas d'allaitement, pour l'énalapril selon le NICE).
-- Prescrire de la **méthylergométrine** à une femme hypertendue pour une hémorragie de la délivrance.
-- Penser que la PE **guérit dès l'accouchement** : l'éclampsie et le HELLP peuvent apparaître ou s'aggraver dans le post-partum.
-- Faire une **césarienne en urgence pendant une crise d'éclampsie** chez une mère non stabilisée.
-- Débuter l'**aspirine après 16 SA** pour prévenir la PE pré-terme, ou la prescrire « à toute primipare » sans autre facteur.
-- Classer comme PE une HTA apparue **avant 20 SA** sans rechercher une **môle hydatiforme**.
-- Confondre HELLP et **SHAG** (hypoglycémie, insuffisance hépatocellulaire) ou **PTT** (ADAMTS13 effondrée).
+- Exiger une **protéinurie** ou retenir l'**œdème** comme critère de PE ; croire l'HTA gravidique « bénigne ».
+- Juger normale une créatininémie à **90 µmol/L** pendant la grossesse.
+- Croire que le **MgSO₄ fait baisser la PA** ; oublier que l'**abolition des ROT** précède la dépression respiratoire.
+- Prescrire un **IEC** pendant la grossesse (mais l'énalapril est autorisé après l'accouchement) ou de la **méthylergométrine** chez une hypertendue.
+- Penser que la PE **guérit dès l'accouchement**.
+- Faire une **césarienne pendant une crise d'éclampsie** chez une mère non stabilisée.
+- Débuter l'**aspirine après 16 SA** pour prévenir la PE pré-terme.
+- Méconnaître une **môle** devant une PE < 20 SA ; confondre HELLP, **SHAG** (hypoglycémie, insuffisance hépatocellulaire) et **PTT** (ADAMTS13 effondrée).
 
 ## 20. QCM d'auto-évaluation
 
@@ -952,35 +881,34 @@ Une césarienne est réalisée à H+10 (plaquettes 71 000) sous anesthésie gén
 
 ## 21. Divergences entre recommandations
 
-| Thème | Position A | Position B | Commentaire |
-|---|---|---|---|
-| **Définition de la PE** | ISSHP 2021 : inclut la dysfonction utéroplacentaire (RCIU, Doppler) et le **déséquilibre angiogénique** [S1] | ACOG 2020 : protéinurie ou signes de sévérité ; le RCIU n'est pas un critère [S2] | Une même patiente (HTA + RCIU isolé) est « PE » pour l'ISSHP mais « HTA gravidique » pour l'ACOG |
-| **Notion de « sévérité »** | ACOG 2020 et SFAR-CNGOF 2020 : catégorie « sévère » décisionnelle [S2, S4] | ISSHP 2021 : pas de distinction légère/sévère, toute PE est potentiellement grave [S1] | L'enseignement algérien utilise généralement la notion de PE sévère |
-| **Protéinurie massive** | France (historiquement, CNGOF 2009) : protéinurie > 5 g/24 h = critère de sévérité [S4 — maintien en 2020 À VÉRIFIER] | ACOG depuis 2013 : la protéinurie massive n'est plus un critère de sévérité [S2] | Vérifier la version 2020 française |
-| **Seuil de traitement de l'HTA non sévère** | ISSHP 2021, NICE 2019/2023 : traiter dès 140/90 ; cible PAD 85 (ISSHP), ≤ 135/85 (NICE) [S1, S3] ; essai CHAP 2022 [S7] | Pratiques plus anciennes : traitement réservé à des chiffres plus élevés (≥ 150-160/100-110) [S14 — À VÉRIFIER] | Tendance actuelle convergente vers 140/90 |
-| **Indication du MgSO₄** | ACOG 2020, OMS 2011 : toute PE avec signes de sévérité [S2, S9] | SFAR-CNGOF 2020 : prévention ciblée (PE sévère avec signes neurologiques ou à haut risque d'éclampsie) [S4 — À VÉRIFIER] | Différence de stratégie « universelle » vs « ciblée » |
-| **Dose d'aspirine** | ACOG : 81 mg/j [S2] | NICE : 75-150 mg/j ; ISSHP : 75-162 mg/j ; ASPRE : 150 mg/j [S1, S3, S6] | Le choix dépend aussi de la présentation disponible (en Algérie : formes à 100 mg courantes [À VÉRIFIER]) |
-| **Début/arrêt de l'aspirine** | NICE, ACOG : jusqu'à l'accouchement [S2, S3] | ASPRE : arrêt à 36 SA [S6] | L'arrêt à 36 SA vise à limiter le risque hémorragique péri-partum |
-| **Facteurs de risque modérés** | NICE : âge ≥ 40 ans, IMC ≥ 35 [S3] | ACOG : âge ≥ 35 ans, IMC > 30 [S2] | Les populations éligibles à l'aspirine diffèrent |
-| **Biomarqueurs angiogéniques** | NICE 2023 : test PlGF recommandé en cas de suspicion entre 20 et 36+6 SA [S3] ; ISSHP : intégrés à la définition [S1] | ACOG 2020 : non recommandés en routine [S2 — À VÉRIFIER] | Disponibilité limitée en Algérie |
-| **AINS dans le post-partum** | ACOG : utilisables pour l'analgésie [À VÉRIFIER] | NICE : à éviter en cas d'atteinte rénale ou d'HTA mal contrôlée [À VÉRIFIER] | Raisonner au cas par cas |
-| **Terme d'accouchement en cas d'HTA gravidique** | ACOG : 37 SA [S2] | NICE : pas d'accouchement systématique avant 37 SA si PA contrôlée ; discussion du terme au-delà [S3 — À VÉRIFIER] | |
+| Thème | Position A | Position B |
+|---|---|---|
+| **Définition de la PE** | ISSHP 2021 : inclut RCIU, Doppler pathologique et déséquilibre angiogénique [S1] | ACOG 2020 : protéinurie ou signes de sévérité ; RCIU non retenu [S2] |
+| **Notion de sévérité** | ACOG 2020, SFAR-CNGOF 2020 : catégorie « sévère » décisionnelle [S2, S4] | ISSHP 2021 : pas de distinction légère/sévère [S1] |
+| **Protéinurie massive** | France (CNGOF 2009) : critère de sévérité [S4 — maintien en 2020 À VÉRIFIER] | ACOG depuis 2013 : n'est plus un critère [S2] |
+| **Seuil de traitement de l'HTA non sévère** | ISSHP, NICE : dès 140/90 (cible PAD 85 ; ≤ 135/85) [S1, S3] ; CHAP 2022 [S7] | Pratiques antérieures : traitement à partir de 150-160/100-110 [S14 — À VÉRIFIER] |
+| **Indication du MgSO₄** | ACOG 2020, OMS 2011 : toute PE avec signes de sévérité [S2, S9] | SFAR-CNGOF 2020 : stratégie ciblée (signes neurologiques, haut risque) [S4 — À VÉRIFIER] |
+| **Aspirine** | ACOG : 81 mg/j jusqu'à l'accouchement [S2] | NICE 75-150 mg/j ; ISSHP 75-162 mg/j ; ASPRE 150 mg/j arrêtée à 36 SA [S1, S3, S6] |
+| **Facteurs de risque modérés** | NICE : âge ≥ 40 ans, IMC ≥ 35 [S3] | ACOG : âge ≥ 35 ans, IMC > 30 [S2] |
+| **Biomarqueurs angiogéniques** | NICE 2023 : test PlGF recommandé ; ISSHP : dans la définition [S1, S3] | ACOG 2020 : pas en routine [S2 — À VÉRIFIER] |
+| **AINS dans le post-partum** | ACOG : utilisables [À VÉRIFIER] | NICE : à éviter si atteinte rénale ou HTA mal contrôlée [À VÉRIFIER] |
 
 ## 22. Références
 
-1. **[S1]** Magee LA, Brown MA, Hall DR, et al. The 2021 ISSHP classification, diagnosis & management recommendations for international practice. *Pregnancy Hypertens.* 2022;27:148-169. doi:10.1016/j.preghy.2021.09.008. — *Vérifiée.*
-2. **[S2]** ACOG. Gestational Hypertension and Preeclampsia. Practice Bulletin No. 222. *Obstet Gynecol.* 2020;135(6):e237-e260. doi:10.1097/AOG.0000000000003891. — *Vérifiée.*
-3. **[S3]** NICE. Hypertension in pregnancy: diagnosis and management (NG133). 2019, mise à jour avril 2023. https://www.nice.org.uk/guidance/ng133 — *Vérifiée.*
-4. **[S4]** Bonnet MP, Garnier M, Keita H, et al. Guidelines for the management of women with severe pre-eclampsia (SFAR-CNGOF). *Anaesth Crit Care Pain Med.* 2021;40(5):100901. doi:10.1016/j.accpm.2021.100901. — *Vérifiée (contenu détaillé non consulté : seuils à vérifier).*
-5. **[S5]** Magpie Trial Collaborative Group. *Lancet.* 2002;359(9321):1877-1890. doi:10.1016/S0140-6736(02)08778-0. — *Vérifiée.*
-6. **[S6]** Rolnik DL, et al. Aspirin versus placebo in pregnancies at high risk for preterm preeclampsia. *N Engl J Med.* 2017;377(7):613-622. doi:10.1056/NEJMoa1704559. — *Vérifiée.*
-7. **[S7]** Tita AT, et al. Treatment for mild chronic hypertension during pregnancy. *N Engl J Med.* 2022;386(19):1781-1792. doi:10.1056/NEJMoa2201295. — *Vérifiée.*
-8. **[S8]** Zeisler H, et al. Predictive value of the sFlt-1:PlGF ratio in women with suspected preeclampsia. *N Engl J Med.* 2016;374(1):13-22. — *Vérifiée.*
-9. **[S9]** OMS. WHO recommendations for prevention and treatment of pre-eclampsia and eclampsia. Genève ; 2011. — *Existence vérifiée (recommandation du MgSO₄ comme anticonvulsivant de premier choix) ; texte intégral non consulté.*
-10. **[S10]** Keddad N, et al. A descriptive study of maternal deaths in Algeria in 2011. *Antimicrob Resist Infect Control.* 2013;2(Suppl 1):P357. doi:10.1186/2047-2994-2-S1-P357. — *Vérifiée (résumé).*
-11. **[S11]** Ministère de la Santé (Algérie), DGSSRH, avec l'UNICEF. Protocoles et procédures de prise en charge de la grossesse, de l'accouchement et de la période postnatale. Édition 2025. — *Existence vérifiée ; contenu non consulté.*
-12. **[S12]** Magee LA, et al. Less-tight versus tight control of hypertension in pregnancy (CHIPS). *N Engl J Med.* 2015;372(5):407-417. — *Non revérifiée pendant la session [À VÉRIFIER].*
-13. **[S13]** Koopmans CM, et al. HYPITAT. *Lancet.* 2009;374(9694):979-988. — *Non revérifiée pendant la session [À VÉRIFIER].*
-14. **[S14]** SFHTA / CNGOF. Recommandations sur les désordres hypertensifs de la femme enceinte. — *Référence exacte non établie [À VÉRIFIER].*
+1. **[S1]** Magee LA, et al. ISSHP 2021. *Pregnancy Hypertens.* 2022;27:148-169. doi:10.1016/j.preghy.2021.09.008 — vérifiée.
+2. **[S2]** ACOG Practice Bulletin No. 222. *Obstet Gynecol.* 2020;135(6):e237-e260. doi:10.1097/AOG.0000000000003891 — vérifiée.
+3. **[S3]** NICE NG133, 2019 (mise à jour 2023). https://www.nice.org.uk/guidance/ng133 — vérifiée.
+4. **[S4]** Bonnet MP, et al. SFAR-CNGOF. *Anaesth Crit Care Pain Med.* 2021;40(5):100901. doi:10.1016/j.accpm.2021.100901 — vérifiée (seuils à relire).
+5. **[S5]** Magpie Trial. *Lancet.* 2002;359:1877-1890. doi:10.1016/S0140-6736(02)08778-0 — vérifiée.
+6. **[S6]** Rolnik DL, et al. ASPRE. *N Engl J Med.* 2017;377:613-622 — vérifiée.
+7. **[S7]** Tita AT, et al. CHAP. *N Engl J Med.* 2022;386:1781-1792 — vérifiée.
+8. **[S8]** Zeisler H, et al. PROGNOSIS. *N Engl J Med.* 2016;374:13-22 — vérifiée.
+9. **[S9]** OMS. Recommendations for prevention and treatment of pre-eclampsia and eclampsia. 2011 — existence vérifiée.
+10. **[S10]** Keddad N, et al. Maternal deaths in Algeria in 2011. *Antimicrob Resist Infect Control.* 2013;2(Suppl 1):P357 — vérifiée.
+11. **[S11]** Ministère de la Santé (Algérie). Protocoles et procédures… grossesse, accouchement, période postnatale. Édition 2025 — existence vérifiée.
+12. **[S12]** Magee LA, et al. CHIPS. *N Engl J Med.* 2015 — [À VÉRIFIER].
+13. **[S13]** Koopmans CM, et al. HYPITAT. *Lancet.* 2009 — [À VÉRIFIER].
+14. **[S14]** SFHTA/CNGOF. Désordres hypertensifs de la femme enceinte — [référence À VÉRIFIER].
+
 
 > **Note de l'auteur (traçabilité)** : les références S1 à S11 ont été confirmées par recherche web pendant la session de rédaction (19/11/2026) ; leur texte intégral n'a pas toujours été accessible, ce qui explique les mentions [À VÉRIFIER] portant sur des seuils précis. Les posologies sont des posologies standard publiées ; elles doivent être confrontées aux RCP et aux protocoles nationaux algériens [S11].

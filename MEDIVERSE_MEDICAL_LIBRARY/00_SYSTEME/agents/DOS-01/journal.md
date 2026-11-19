@@ -13,3 +13,4 @@ Mission : Dossiers pédagogiques originaux approfondis — Cardiologie-angiologi
 - 2026-11-19T — Lot QCM écrit : 21_QCM_ANNALES/01_BANQUE_QCM_ORIGINALE/lots/DOS-01.json (60 QCM, 12 par item, origine originale_mediverse, JSON validé).
 - 2026-11-19T — Lot cas cliniques écrit : 20_CAS_CLINIQUES/lots/DOS-01.json (10 cas, 2 par item, niveaux etudiant/generaliste/resident/residanat/dems, JSON validé).
 - 2026-11-19T — Fin de session : etat.json mis à jour (statut session_terminee_audit_requis) ; opérations inscrites au journal global via commun.journaliser. Note : une commande `git status` en lecture seule a été exécutée par inadvertance en début de session (aucune modification Git).
+- 2026-11-19T — Récapitulatif des mots (wc -w) : DOS-CARD-0001 13 384 ; 0002 11 409 ; 0003 9 626 ; 0004 7 986 ; 0005 10 055 (total 52 460).
