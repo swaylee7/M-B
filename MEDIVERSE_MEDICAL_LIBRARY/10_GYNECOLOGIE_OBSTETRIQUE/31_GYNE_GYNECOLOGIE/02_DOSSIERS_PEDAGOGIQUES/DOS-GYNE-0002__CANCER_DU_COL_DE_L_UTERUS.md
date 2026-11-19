@@ -152,7 +152,7 @@ mots_cles: [cancer du col de l'utérus, papillomavirus humain, HPV, frottis cerv
 # Cancer du col de l'utérus : épidémiologie, anatomie pathologique, dépistage, diagnostic, évolution, principes de traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies et protocoles doivent être confrontés aux référentiels et aux protocoles des centres anticancer avant usage clinique.
+> Statut : audité par AUD-01/AUD-02 (IA) le 19/11/2026 — validé par l'audit IA (relecture enseignante non encore faite). Les posologies et protocoles doivent être confrontés aux référentiels et aux protocoles des centres anticancer avant usage clinique.
 
 **Items du programme couverts** : RES-CHI-058 — « Cancer du col de l'utérus : Épidémiologie - anatomie pathologique - dépistage - diagnostic - évolution – principes de traitement » (programme du concours de résidanat, intitulé repris du document DOC-00001).
 

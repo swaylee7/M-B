@@ -104,7 +104,7 @@ mots_cles: [grossesse extra-utérine, GEU, hCG, échographie endovaginale, méth
 # Grossesse extra-utérine : anatomie pathologique, diagnostic, traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : audité par AUD-01/AUD-02 (IA) le 19/11/2026 — corrections requises (voir le bloc `audit` et le rapport). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 
 **Items du programme couverts** : RES-CHI-057 — « Grossesse extra-utérine : Anatomie pathologique - diagnostic - traitement » (programme du concours de résidanat, intitulé repris du document DOC-00001).
 

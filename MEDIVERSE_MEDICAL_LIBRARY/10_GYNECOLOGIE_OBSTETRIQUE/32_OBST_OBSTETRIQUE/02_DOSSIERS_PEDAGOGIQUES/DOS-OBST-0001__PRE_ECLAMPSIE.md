@@ -136,7 +136,7 @@ mots_cles: [pré-éclampsie, hypertension gravidique, HELLP syndrome, éclampsie
 # Pré-éclampsie : diagnostic et prise en charge
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : audité par AUD-01/AUD-02 (IA) le 19/11/2026 — corrections requises (voir le bloc `audit` et le rapport). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 
 **Items du programme couverts** : RES-CHI-066 — « Pré-éclampsie : Diagnostic et prise en charge » (programme du concours de résidanat, intitulé repris du document DOC-00001).
 

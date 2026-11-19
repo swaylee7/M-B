@@ -144,7 +144,7 @@ mots_cles: [cancer du sein, tumeurs bénignes du sein, fibroadénome, tumeur phy
 # Tumeurs du sein : épidémiologie, anatomie pathologique, diagnostic, principes du traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies et protocoles doivent être confrontés aux référentiels, aux RCP et aux protocoles des centres anticancer avant usage clinique.
+> Statut : audité par AUD-01/AUD-02 (IA) le 19/11/2026 — corrections requises (voir le bloc `audit` et le rapport). Les posologies et protocoles doivent être confrontés aux référentiels, aux RCP et aux protocoles des centres anticancer avant usage clinique.
 
 **Items du programme couverts** : RES-CHI-062 — « Tumeurs du sein : Épidémiologie - anatomie pathologique - diagnostic - principe du traitement » (programme du concours de résidanat, intitulé repris du document DOC-00001).
 
