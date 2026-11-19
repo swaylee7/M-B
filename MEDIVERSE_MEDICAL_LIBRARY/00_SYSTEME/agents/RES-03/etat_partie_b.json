@@ -1,14 +1,45 @@
 {
   "id": "RES-03",
   "partie": "b",
-  "statut": "en_cours",
+  "statut": "termine_a_auditer",
   "derniere_execution": "2026-11-19",
-  "plage_ids": "QCM-<CODE>-6001…6999",
-  "taches_terminees": [],
-  "taches_suivantes": [
-    "QCM MED-102…137 (lot RES-03-c.json)",
-    "QCM MED-138…174 (lot RES-03-d.json)"
+  "plage_ids": "QCM-<CODE>-6001…6999 (utilisés : 6001–6180)",
+  "taches_terminees": [
+    "QCM MED-102…137 (lot RES-03-c.json : 75 QCM, ids 6001–6075)",
+    "QCM MED-138…174 (lot RES-03-d.json : 105 QCM, ids 6076–6180)"
   ],
-  "objectifs": {"items": 60, "qcm_par_item": 3, "qcm_total": 180},
-  "compteurs": {"qcm": 0}
+  "taches_suivantes": [
+    "Audit (AUD-xx) des 180 QCM, en priorité les points listés dans journal_partie_b.md (section « Points à auditer »)"
+  ],
+  "objectifs": {
+    "items": 60,
+    "qcm_par_item": 3,
+    "qcm_total": 180
+  },
+  "compteurs": {
+    "qcm": 180,
+    "par_module": {
+      "RHUMATOLOGIE - READAPTATION PHYSIQUE": 12,
+      "REANIMATION": 6,
+      "HEMATOLOGIE CLINIQUE": 6,
+      "NEPHROLOGIE": 21,
+      "EPIDEMIOLOGIE ET MEDECINE PREVENTIVE": 30,
+      "MEDECINE LEGALE": 12,
+      "MEDECINE DU TRAVAIL": 21,
+      "PSYCHIATRIE": 15,
+      "MALADIES SYSTEMIQUES": 9,
+      "PERSONNES AGEES": 21,
+      "THERAPEUTIQUE": 27
+    },
+    "difficultes": {
+      "2": 122,
+      "3": 33,
+      "1": 25
+    },
+    "formats": {
+      "QCM (réponses multiples)": 153,
+      "QCS (réponse unique)": 27
+    }
+  },
+  "outils": "scratchpad de session : res03b/outil.py, defs/d1…d7_*.py, patch1.py, assembler.py (ids séquentiels, permutation déterministe des propositions, validation)"
 }

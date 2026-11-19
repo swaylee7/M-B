@@ -10,3 +10,4 @@ Mission : Dossiers pédagogiques originaux approfondis — Urologie-orthopédie-
 - 2026-11-19 — Non vérifiables dans Europe PMC (marquées verifiee: false) : Garden 1961, Pauwels 1935, Castaing 1964, Frykman 1967, BOAST radius.
 - 2026-11-19 — DOS-UROL-0001 (lithiase urinaire + CN compliquée) rédigé en 4 passes : 10 765 mots (wc -w, YAML inclus), 21 sources toutes vérifiées (existence).
 - 2026-11-19 — DOS-UROL-0002 (HBP) rédigé en 4 passes : 8 405 mots (wc -w, YAML inclus), 14 sources toutes vérifiées (existence).
+- 2026-11-19 — DOS-TRAU-0001 (fractures du col du fémur) rédigé en 4 passes ; 15 sources dont 13 vérifiées (Garden 1961 et Pauwels 1935 non vérifiées).

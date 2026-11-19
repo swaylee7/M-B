@@ -842,3 +842,212 @@ Hémorragie grave : arrêt de l'apixaban, remplissage, transfusion (seuil restri
 - Prescrire un **AINS** à un patient anticoagulé.
 - Rechercher une **thrombophilie** en phase aiguë ou sous anticoagulant.
 
+---
+
+## 20. QCM d'auto-évaluation
+
+*QCM originaux Mediverse (5 propositions, une ou plusieurs réponses exactes). Ils figurent aussi, avec d'autres, dans la banque structurée (lot DOS-14).*
+
+**QCM 1** (`QCM-PHAR-1413`) — Concernant le mécanisme d'action des anticoagulants, quelles propositions sont exactes ?
+
+- A. L'HNF potentialise l'antithrombine et inhibe de façon équivalente la thrombine et le facteur Xa
+- B. Le fondaparinux est un inhibiteur direct du facteur Xa, indépendant de l'antithrombine
+- C. Le dabigatran est un inhibiteur direct de la thrombine
+- D. Les AVK inhibent la vitamine K époxyde réductase (VKORC1)
+- E. L'activité des HBPM est complètement neutralisée par la protamine
+
+**QCM 2** (`QCM-PHAR-1414`) — Un patient traité par HBPM pour une thrombose veineuse profonde doit être relayé par warfarine. Quelles propositions sont exactes ?
+
+- A. L'AVK peut être débuté dès le premier jour du traitement
+- B. Le chevauchement héparine–AVK doit durer au moins 5 jours
+- C. L'HBPM est arrêtée dès le premier INR supérieur à 2
+- D. L'HBPM est arrêtée après deux INR consécutifs dans la cible à 24 heures d'intervalle
+- E. Une dose de charge de 20 mg de warfarine permet d'accélérer l'équilibre
+
+**QCM 3** (`QCM-PHAR-1415`) — Dans quelle(s) situation(s) un anticoagulant oral direct (AOD) est-il contre-indiqué ou à éviter ?
+
+- A. Prothèse valvulaire mécanique
+- B. Fibrillation atriale avec rétrécissement mitral serré
+- C. Grossesse
+- D. Fibrillation atriale non valvulaire chez un patient de 85 ans à fonction rénale normale
+- E. Dabigatran chez un patient dont la clairance de la créatinine est de 25 mL/min
+
+**QCM 4** (`QCM-PHAR-1416`) — Une femme de 82 ans, 70 kg, créatininémie 95 µmol/L, a une fibrillation atriale non valvulaire. Un apixaban est décidé. Quelles propositions sont exactes ?
+
+- A. La dose adaptée est 5 mg deux fois par jour
+- B. La dose adaptée est 2,5 mg deux fois par jour car elle a plus de 80 ans
+- C. Un poids ≤ 60 kg fait partie des critères de réduction de dose
+- D. Une créatininémie ≥ 133 µmol/L fait partie des critères de réduction de dose
+- E. La dose doit être réduite chez tout patient de plus de 75 ans
+
+**QCM 5** (`QCM-PHAR-1417`) — Concernant la thrombopénie induite par l'héparine (TIH) de type immunologique, quelles propositions sont exactes ?
+
+- A. Elle survient typiquement entre le 5e et le 10e jour de traitement
+- B. Elle est due à des anticorps dirigés contre le complexe facteur 4 plaquettaire–héparine
+- C. Elle expose surtout à des thromboses veineuses et artérielles
+- D. Une transfusion de plaquettes est systématique
+- E. Un AVK doit être débuté immédiatement pour remplacer l'héparine
+
+**QCM 6** (`QCM-PHAR-1418`) — Un patient sous warfarine pour fibrillation atriale (cible 2–3) a un INR à 7,2 sans aucun saignement. Selon la HAS (2008), quelles mesures sont adaptées ?
+
+- A. Arrêt de l'AVK
+- B. Vitamine K 1 à 2 mg per os
+- C. Concentré de complexe prothrombinique
+- D. Contrôle de l'INR le lendemain
+- E. Transfusion de plasma frais congelé
+
+**QCM 7** (`QCM-PHAR-1419`) — Un patient sous acénocoumarol présente un hématome intracérébral. Quelles mesures sont recommandées ?
+
+- A. Administration de concentré de complexe prothrombinique
+- B. Vitamine K 10 mg
+- C. Objectif d'INR inférieur à 1,5
+- D. Sulfate de protamine
+- E. Idarucizumab
+
+**QCM 8** (`QCM-PHAR-1420`) — Concernant la surveillance biologique des anticoagulants, quelles propositions sont exactes ?
+
+- A. L'HNF à dose curative est surveillée par le TCA ou l'activité anti-Xa
+- B. Les HBPM nécessitent un dosage anti-Xa systématique chez tous les patients
+- C. Les AOD ne nécessitent pas de surveillance biologique d'efficacité en routine
+- D. Un TP normal permet d'exclure la présence d'apixaban
+- E. Une numération plaquettaire doit être faite avant de débuter une héparine
+
+**QCM 9** (`QCM-PHAR-1421`) — Concernant l'utilisation des AOD dans le traitement d'une embolie pulmonaire à risque faible, quelles propositions sont exactes ?
+
+- A. L'apixaban est débuté à 10 mg deux fois par jour pendant 7 jours
+- B. Le rivaroxaban est débuté à 15 mg deux fois par jour pendant 21 jours
+- C. Le dabigatran peut être débuté d'emblée sans anticoagulant parentéral
+- D. L'édoxaban est débuté après au moins 5 jours d'anticoagulant parentéral
+- E. La durée minimale du traitement anticoagulant est de 3 mois
+
+**QCM 10** (`QCM-PHAR-1422`) — Concernant la gestion périopératoire des anticoagulants oraux, quelles propositions sont exactes ?
+
+- A. La warfarine est arrêtée 5 jours avant une chirurgie programmée
+- B. Un relais par HBPM est recommandé chez tout patient en fibrillation atriale sous AVK
+- C. Dans l'essai BRIDGE, le relais par HBPM augmentait les hémorragies majeures sans réduire les thromboembolies
+- D. Pour une chirurgie à haut risque hémorragique, un AOD anti-Xa est interrompu 2 jours avant (dernière prise à J-3)
+- E. Chez un patient sous dabigatran avec clairance < 50 mL/min, l'interruption doit être plus longue
+
+### Corrigé commenté
+
+**QCM 1** — Réponses : **A, C, D**. HNF, HBPM et fondaparinux sont des anticoagulants indirects (via l'antithrombine). Le dabigatran (anti-IIa) et les xabans (anti-Xa) sont directs. Les AVK bloquent le recyclage de la vitamine K. La protamine ne neutralise que partiellement les HBPM.
+  - A : Vrai : rapport anti-Xa/anti-IIa ≈ 1.
+  - B : Faux : le fondaparinux agit via l'antithrombine (anti-Xa indirect).
+  - C : Vrai.
+  - D : Vrai.
+  - E : Faux : neutralisation partielle (≈ 60 % de l'activité anti-Xa).
+  - *Piège* : Classer le fondaparinux parmi les anti-Xa directs.
+
+**QCM 2** — Réponses : **A, B, D**. Le relais commence tôt ; le chevauchement couvre la période où l'INR s'allonge (baisse du VII) avant que l'effet antithrombotique (baisse du II et du X) soit complet.
+  - A : Vrai.
+  - B : Vrai : délai nécessaire à la baisse des facteurs II et X.
+  - C : Faux : un seul INR ne suffit pas.
+  - D : Vrai.
+  - E : Faux : pas de dose de charge élevée (risque hémorragique, chute précoce de la protéine C).
+  - *Piège* : Arrêter l'héparine au premier INR dans la cible.
+
+**QCM 3** — Réponses : **A, B, C, E**. Les AOD sont contre-indiqués sur valve mécanique et dans le rétrécissement mitral modéré à serré (AVK obligatoires), pendant la grossesse, et le dabigatran l'est si la clairance est < 30 mL/min. L'âge n'est pas une contre-indication.
+  - A : Vrai : AVK seuls.
+  - B : Vrai : ESC 2024.
+  - C : Vrai : HBPM de choix.
+  - D : Faux : l'AOD est préféré, l'âge n'est pas une contre-indication.
+  - E : Vrai : élimination rénale majeure.
+  - *Piège* : Croire que le grand âge contre-indique les AOD.
+
+**QCM 4** — Réponses : **A, C, D**. La dose réduite d'apixaban (2,5 mg × 2) n'est justifiée que si au moins 2 critères sur 3 sont présents : âge ≥ 80 ans, poids ≤ 60 kg, créatininémie ≥ 133 µmol/L. Ici, un seul critère (âge).
+  - A : Vrai : un seul critère présent.
+  - B : Faux : un critère isolé ne suffit pas.
+  - C : Vrai.
+  - D : Vrai.
+  - E : Faux : sous-dosage injustifié, risque d'AVC.
+  - *Piège* : Réduire la dose d'AOD sur l'âge seul.
+
+**QCM 5** — Réponses : **A, B, C**. La TIH est un syndrome prothrombotique : arrêt de toute héparine, anticoagulant non hépariné à dose curative, pas de transfusion plaquettaire sauf hémorragie, pas d'AVK avant remontée des plaquettes (risque de gangrène).
+  - A : Vrai : plus tôt si exposition récente.
+  - B : Vrai.
+  - C : Vrai.
+  - D : Faux : réservée aux hémorragies.
+  - E : Faux : risque de nécrose/gangrène veineuse ; attendre la normalisation des plaquettes.
+  - *Piège* : Transfuser des plaquettes ou débuter un AVK en phase aiguë.
+
+**QCM 6** — Réponses : **A, B, D**. INR 6–10 sans saignement : arrêt, vitamine K orale 1–2 mg, INR le lendemain, recherche de la cause. Le CCP est réservé aux hémorragies graves.
+  - A : Vrai.
+  - B : Vrai.
+  - C : Faux : pas d'hémorragie.
+  - D : Vrai.
+  - E : Faux : non indiqué.
+
+**QCM 7** — Réponses : **A, B, C**. Hémorragie grave sous AVK : CCP (≈ 25 UI/kg) + vitamine K 10 mg, objectif INR < 1,5, contrôle de l'INR à 30 min puis 6–8 h (HAS 2008).
+  - A : Vrai.
+  - B : Vrai : prolonge l'effet du CCP.
+  - C : Vrai.
+  - D : Faux : antidote des héparines.
+  - E : Faux : antidote du dabigatran.
+  - *Piège* : Oublier la vitamine K avec le CCP.
+
+**QCM 8** — Réponses : **A, C, E**. Seule l'HNF (TCA/anti-Xa) et les AVK (INR) ont une surveillance d'efficacité systématique. L'anti-Xa des HBPM est réservé à des situations ciblées. TP et TCA sont peu fiables pour les AOD.
+  - A : Vrai.
+  - B : Faux : situations ciblées (insuffisance rénale, poids extrêmes, grossesse).
+  - C : Vrai : mais fonction rénale à surveiller.
+  - D : Faux : l'apixaban modifie peu le TP.
+  - E : Vrai : valeur de référence pour dépister une TIH.
+  - *Piège* : Croire qu'un bilan d'hémostase standard normal exclut un AOD.
+
+**QCM 9** — Réponses : **A, B, D, E**. Apixaban et rivaroxaban : stratégie orale d'emblée avec phase d'attaque ; dabigatran et édoxaban : après ≥ 5 jours d'héparine. Durée minimale 3 mois.
+  - A : Vrai.
+  - B : Vrai.
+  - C : Faux : 5 jours d'héparine préalables.
+  - D : Vrai.
+  - E : Vrai.
+  - *Piège* : Débuter le dabigatran sans héparine préalable.
+
+**QCM 10** — Réponses : **A, C, D, E**. ACCP 2022 et PAUSE : interruptions standardisées des AOD sans relais ; AVK arrêtés 5 jours avant, relais réservé aux très hauts risques thrombotiques.
+  - A : Vrai.
+  - B : Faux : relais réservé aux très hauts risques (valve mécanique mitrale, AVC récent…).
+  - C : Vrai.
+  - D : Vrai.
+  - E : Vrai : élimination rénale du dabigatran.
+  - *Piège* : Le « bridging » systématique.
+
+---
+
+## 21. Divergences entre recommandations
+
+| Thème | Position 1 (organisme, date) | Position 2 (organisme, date) | Commentaire |
+|---|---|---|---|
+| Place des AOD vs AVK dans la FA non valvulaire | ESC 2024 : AOD **préférés** aux AVK (sauf valve mécanique, rétrécissement mitral modéré à serré) [S1] | HAS, fiche de bon usage 2018 : AVK et AOD **au même rang** en première intention, choix au cas par cas [S10] | Document HAS antérieur ; les recommandations européennes récentes vont vers une préférence pour les AOD |
+| Score de risque thromboembolique | ESC 2024 : **CHA₂DS₂-VA** (le sexe féminin n'est plus compté) [S1] | Guide HAS 2014 et recommandations antérieures : CHA₂DS₂-VASc | Les seuils de décision changent pour les femmes |
+| Dose initiale de warfarine | ACCP 2012 : 10 mg/j pendant 2 jours chez l'ambulatoire en bonne santé [S13] | Pratique française : doses initiales plus faibles, sans dose de charge `[À VÉRIFIER — ANSM/HAS]` | Différences de population, de génétique et d'habitudes ; adapter au sujet âgé |
+| Surveillance anti-Xa des HBPM | ASH 2018 : suggère de **ne pas** guider la dose par l'anti-Xa et de doser selon le poids réel [S7] | Pratique française et nombreux RCP : anti-Xa recommandée dans des situations ciblées (insuffisance rénale modérée, poids extrêmes, grossesse) `[À VÉRIFIER — RCP]` | Recommandation ASH conditionnelle, niveau de preuve faible |
+| Relais périopératoire par héparine | ACCP 2022 et ASH 2018 : contre le relais systématique ; BRIDGE [S4, S7, S14] | ESC 2022 (chirurgie non cardiaque) : relais à considérer chez les porteurs de valve mécanique à haut risque thrombotique [S11] | Convergence : relais réservé aux très hauts risques |
+| Durée du traitement après MTEV non provoquée | ESC 2019 / ASH 2020 : traitement prolongé à envisager, voire indéfini [S2, S8] | CHEST 2021 : traitement prolongé suggéré avec réévaluation périodique ; doses réduites d'AOD en phase prolongée [S3] | Toujours individualiser selon le risque hémorragique |
+| Réversion des anti-Xa | ANNEXA-I : andexanet améliore le contrôle de l'hématome intracérébral mais augmente les événements thrombotiques [S17] | EHRA 2021 : CCP à défaut d'andexanet [S5] | Disponibilité et coût conditionnent le choix |
+
+---
+
+## 22. Références
+
+1. **[S1]** Van Gelder IC, Rienstra M, Bunting KV, et al. 2024 ESC Guidelines for the management of atrial fibrillation (with EACTS). *Eur Heart J*. 2024;45(36):3314-3414. doi:10.1093/eurheartj/ehae176 — vérifiée (Europe PMC, PMID 39210723 ; catalogue REC-0214).
+2. **[S2]** Konstantinides SV, Meyer G, Becattini C, et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism (with ERS). *Eur Heart J*. 2020;41(4):543-603. doi:10.1093/eurheartj/ehz405 — vérifiée (catalogue REC-0220). Les tableaux de doses d'HBPM/fondaparinux et d'AOD sont cités de mémoire documentaire et **doivent être confrontés au texte** `[À VÉRIFIER]`.
+3. **[S3]** Stevens SM, Woller SC, Kreuziger LB, et al. Antithrombotic Therapy for VTE Disease: Second Update of the CHEST Guideline and Expert Panel Report. *Chest*. 2021;160(6):e545-e608. doi:10.1016/j.chest.2021.07.055 — vérifiée (Europe PMC, PMID 34352278).
+4. **[S4]** Douketis JD, Spyropoulos AC, Murad MH, et al. Perioperative Management of Antithrombotic Therapy: An ACCP Clinical Practice Guideline. *Chest*. 2022;162(5):e207-e243. doi:10.1016/j.chest.2022.07.025 — vérifiée (Europe PMC, PMID 35964704).
+5. **[S5]** Steffel J, Collins R, Antz M, et al. 2021 EHRA Practical Guide on the Use of Non-Vitamin K Antagonist Oral Anticoagulants in Patients with Atrial Fibrillation. *Europace*. 2021;23(10):1612-1676. doi:10.1093/europace/euab065 — vérifiée (Europe PMC, PMID 33895845).
+6. **[S6]** Cuker A, Arepally GM, Chong BH, et al. ASH 2018 guidelines for management of venous thromboembolism: heparin-induced thrombocytopenia. *Blood Adv*. 2018;2(22):3360-3392. doi:10.1182/bloodadvances.2018024489 — vérifiée (Europe PMC, PMID 30482768 ; résumé lu).
+7. **[S7]** Witt DM, Nieuwlaat R, Clark NP, et al. ASH 2018 guidelines for management of venous thromboembolism: optimal management of anticoagulation therapy. *Blood Adv*. 2018;2(22):3257-3291. doi:10.1182/bloodadvances.2018024893 — vérifiée (Europe PMC, PMID 30482765 ; résumé lu).
+8. **[S8]** Ortel TL, Neumann I, Ageno W, et al. ASH 2020 guidelines for management of venous thromboembolism: treatment of DVT and PE. *Blood Adv*. 2020;4(19):4693-4738. doi:10.1182/bloodadvances.2020001830 — vérifiée (catalogue REC-0386).
+9. **[S9]** HAS, GEHT. Prise en charge des surdosages en antivitamines K, des situations à risque hémorragique et des accidents hémorragiques chez les patients traités par AVK en ville et en milieu hospitalier. Avril 2008. https://www.has-sante.fr/jcms/c_682188/ — vérifiée (existence et date ; seuils d'INR cités d'après la synthèse de la recommandation, à confronter au texte).
+10. **[S10]** HAS. Fiche bon usage du médicament — Les anticoagulants oraux. 2018. https://www.has-sante.fr/jcms/c_2851086/fr/les-anticoagulants-oraux — vérifiée (existence ; AVK et AOD en 1re intention, fluindione en dernière intention).
+11. **[S11]** Halvorsen S, Mehilli J, Cassese S, et al. 2022 ESC Guidelines on cardiovascular assessment and management of patients undergoing non-cardiac surgery. *Eur Heart J*. 2022;43(39):3826-3924. doi:10.1093/eurheartj/ehac270 — vérifiée (Europe PMC, PMID 36017553).
+12. **[S12]** Raschke RA, Reilly BM, Guidry JR, Fontana JR, Srinivas S. The weight-based heparin dosing nomogram compared with a "standard care" nomogram. *Ann Intern Med*. 1993;119(9):874-881. doi:10.7326/0003-4819-119-9-199311010-00002 — vérifiée (Europe PMC, PMID 8214998).
+13. **[S13]** Holbrook A, Schulman S, Witt DM, et al. Evidence-based management of anticoagulant therapy (ACCP, 9th ed). *Chest*. 2012;141(2 Suppl):e152S-e184S. doi:10.1378/chest.11-2295 — vérifiée (Europe PMC, PMID 22315259).
+14. **[S14]** Douketis JD, Spyropoulos AC, Kaatz S, et al. Perioperative Bridging Anticoagulation in Patients with Atrial Fibrillation. *N Engl J Med*. 2015;373(9):823-833. doi:10.1056/nejmoa1501035 — vérifiée (Europe PMC, PMID 26095867).
+15. **[S15]** Douketis JD, Spyropoulos AC, Duncan J, et al. Perioperative Management of Patients With Atrial Fibrillation Receiving a Direct Oral Anticoagulant. *JAMA Intern Med*. 2019;179(11):1469-1478. doi:10.1001/jamainternmed.2019.2431 — vérifiée (Europe PMC, PMID 31380891).
+16. **[S16]** Pollack CV, Reilly PA, van Ryn J, et al. Idarucizumab for Dabigatran Reversal — Full Cohort Analysis. *N Engl J Med*. 2017;377(5):431-441. doi:10.1056/nejmoa1707278 — vérifiée (Europe PMC, PMID 28693366).
+17. **[S17]** Connolly SJ, Sharma M, Cohen AT, et al. Andexanet for Factor Xa Inhibitor-Associated Acute Intracerebral Hemorrhage. *N Engl J Med*. 2024;390(19):1745-1755. doi:10.1056/nejmoa2313040 — vérifiée (Europe PMC, PMID 38749032).
+18. **[S18]** Samama MM, Cohen AT, Darmon JY, et al. A comparison of enoxaparin with placebo for the prevention of venous thromboembolism in acutely ill medical patients. *N Engl J Med*. 1999;341(11):793-800. doi:10.1056/nejm199909093411103 — vérifiée (Europe PMC, PMID 10477777 ; résumé lu).
+19. **[S19]** Vahanian A, Beyersdorf F, Praz F, et al. 2021 ESC/EACTS Guidelines for the management of valvular heart disease. *Eur Heart J*. 2022;43(7):561-632. doi:10.1093/eurheartj/ehab395 — vérifiée (catalogue REC-0218 ; remplacée par ESC/EACTS 2025, REC-0219 : cibles d'INR à revérifier).
+20. **[S20]** Tektonidou MG, Andreoli L, Limper M, et al. EULAR recommendations for the management of antiphospholipid syndrome in adults. *Ann Rheum Dis*. 2019;78(10):1296-1304. doi:10.1136/annrheumdis-2019-215213 — vérifiée (catalogue REC-0463).
+21. **[S21]** World Health Organization. WHO Model List of Essential Medicines, 24th list (2025), section 10.2. — vérifiée (document acquis, lu).
+22. **[S22]** HAS. Flash sécurité patient — Gestion périopératoire des anticoagulants. Juillet 2024. — vérifiée (existence du document).
+
+*Points à auditer en priorité* : doses d'HBPM en une injection quotidienne (AMM nationale), doses préventives hors énoxaparine 40 mg, schémas de protamine, CCP pour les anti-Xa, cibles d'INR des valves mécaniques (ESC/EACTS 2025), seuils de clairance des RCP, dose initiale des AVK en pratique algérienne, disponibilité des antidotes en Algérie.

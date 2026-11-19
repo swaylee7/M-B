@@ -6,11 +6,24 @@ sous_specialite: "Rhumatismes inflammatoires chroniques"
 items_residanat: [RES-MED-099]
 niveaux: [etudiant, generaliste, resident, residanat, dems]
 langue: fr
-version: "1.0"
+version: "1.1"
 date_creation: 2026-11-19
 date_revision: 2026-11-19
 auteur: "Agent DOS-09 (IA) — dossier pédagogique original"
-statut: brouillon_a_auditer
+statut: audite_corrections_requises
+audit:
+  - date: 2026-11-19
+    auditeur: "AUD-01 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 9
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-RHUM-0001.md
+    remarque: "Critères ACR/EULAR 2010, DAS28/SDAI/CDAI, rémission booléenne 2022 et 3E conformes. Facteurs de mauvais pronostic EULAR complétés ; restrictions EMA des inhibiteurs de JAK précisées ; score ACR/EULAR du cas corrigé (MTP) ; traitement de l'ITL documenté (OMS 2024, délai S3 2026) ; instruction algérienne ITL 2024 toujours non relue."
+  - date: 2026-11-19
+    auditeur: "AUD-02 (IA)"
+    verdict: audite_corrections_requises
+    corrections: 4
+    rapport: 00_SYSTEME/agents/AUD-01/rapports/DOS-RHUM-0001.md
+    remarque: "Posologies levées (RCP) : léflunomide, sulfasalazine, biothérapies, inhibiteurs de JAK. Restent 2 marqueurs : dose initiale de la corticothérapie de pont (non standardisée par l'EULAR). RCP non consultables depuis la session (S14 non vérifiée)."
 sources:
   - id: S1
     reference: "Aletaha D, Neogi T, Silman AJ, et al. 2010 rheumatoid arthritis classification criteria: an American College of Rheumatology/European League Against Rheumatism collaborative initiative. Ann Rheum Dis. 2010;69(9):1580-1588."
@@ -116,13 +129,45 @@ sources:
     doi: "10.1136/annrheumdis-2019-215882"
     url: ""
     verifiee: true
+  - id: S14
+    reference: "Résumés des caractéristiques du produit (RCP) des spécialités citées (AMM européennes, EPAR de l'EMA, ou AMM nationales) : léflunomide, sulfasalazine, anti-TNF, tocilizumab, sarilumab, abatacept, rituximab, tofacitinib, baricitinib, upadacitinib, filgotinib — versions en vigueur."
+    organisme: "EMA / autorités nationales"
+    annee: 2026
+    type: texte_officiel
+    doi: ""
+    url: "https://www.ema.europa.eu/en/medicines"
+    verifiee: false
+  - id: S15
+    reference: "European Medicines Agency. EMA confirms measures to minimise risk of serious side effects with Janus kinase inhibitors for chronic inflammatory disorders (procédure de l'article 20 ; recommandations du PRAC confirmées par le CHMP, texte amendé en janvier 2023)."
+    organisme: "EMA (PRAC / CHMP)"
+    annee: 2023
+    type: texte_officiel
+    doi: ""
+    url: "https://www.ema.europa.eu/en/news/ema-confirms-measures-minimise-risk-serious-side-effects-janus-kinase-inhibitors-chronic-inflammatory-disorders"
+    verifiee: true
+  - id: S16
+    reference: "World Health Organization. WHO consolidated guidelines on tuberculosis. Module 1: prevention — tuberculosis preventive treatment. 2nd ed. Geneva: WHO; 2024. ISBN 9789240096196."
+    organisme: OMS
+    annee: 2024
+    type: recommandation
+    doi: ""
+    url: "https://iris.who.int/handle/10665/378536"
+    verifiee: true
+  - id: S17
+    reference: "Nast A, Altenburg A, Augustin M, et al. S3 Guideline for the Treatment of Psoriasis vulgaris, adapted from EuroGuiDerm - part 2: Specific clinical and comorbid situations. J Dtsch Dermatol Ges. 2026;24(2):270-282."
+    organisme: "DDG / BVDD (avec la DGP pour le chapitre tuberculose)"
+    annee: 2026
+    type: recommandation
+    doi: "10.1111/ddg.16001"
+    url: ""
+    verifiee: true
 mots_cles: [polyarthrite rhumatoïde, anti-CCP, ACPA, facteur rhumatoïde, critères ACR/EULAR 2010, DAS28, treat-to-target, méthotrexate, biothérapies, anti-TNF, inhibiteurs de JAK, tuberculose latente, Algérie]
 ---
 
 # Polyarthrite rhumatoïde de l'adulte : diagnostic et principes de traitement
 
 > **Dossier pédagogique original Mediverse** — rédigé à partir de plusieurs sources citées ; ne reproduit aucun ouvrage.
-> Statut : brouillon à auditer. Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
+> Statut : **audité (AUD-01/AUD-02, 2026-11-19) — corrections requises** (voir le rapport d'audit). Les posologies doivent être confrontées au RCP et aux protocoles locaux avant usage clinique.
 
 **Items du programme couverts** : RES-MED-099 — « Polyarthrite rhumatoïde de l'adulte : Diagnostic - principes de traitement ».
 
@@ -433,11 +478,11 @@ Sans traitement de fond efficace, la PR évolue par poussées sur un fond chroni
 ### 12.2 Facteurs de mauvais pronostic
 Les recommandations EULAR 2022 retiennent, pour orienter l'escalade thérapeutique en cas d'échec du premier traitement de fond [S2] :
 - la **présence d'auto-anticorps** (FR et/ou ACPA), surtout à titre élevé ;
-- une **activité élevée** de la maladie ;
+- une **activité modérée ou élevée persistante** malgré le csDMARD (score composite), un **syndrome inflammatoire important** et un **nombre élevé d'articulations gonflées** ;
 - des **érosions précoces** ;
-- l'**échec de deux csDMARD**.
+- l'**échec de deux csDMARD** (ou plus).
 
-D'autres éléments assombrissent le pronostic : syndrome inflammatoire important, nombre élevé d'articulations gonflées, manifestations extra-articulaires, tabagisme, handicap fonctionnel initial élevé, faible niveau socio-économique et retard au traitement.
+D'autres éléments assombrissent le pronostic : manifestations extra-articulaires, tabagisme, handicap fonctionnel initial élevé, faible niveau socio-économique et retard au traitement.
 
 ### 12.3 Complications
 1. **Articulaires** : destructions, déformations, ruptures tendineuses, luxation C1-C2 avec myélopathie, arthrite septique sur articulation rhumatoïde (piège : poussée « monoarticulaire » fébrile chez un patient immunodéprimé → ponction).
@@ -464,7 +509,7 @@ D'autres éléments assombrissent le pronostic : syndrome inflammatoire importan
 #### 13.2.1 Traitements symptomatiques
 - **Antalgiques** (paracétamol, éventuellement associations) selon la douleur.
 - **AINS** : efficaces sur la douleur et la raideur, sans effet structural ; à la dose minimale efficace, en tenant compte du risque digestif, rénal et cardiovasculaire.
-- **Glucocorticoïdes (GC)** : effet rapide et puissant. Selon l'EULAR, ils sont utilisés **à court terme** lors de l'instauration ou du changement d'un csDMARD (« traitement d'attente »), à des schémas et voies variables, avec une décroissance **aussi rapide que cliniquement possible** jusqu'à l'arrêt [S2]. Doses : faible dose orale en général — **[POSOLOGIE À VÉRIFIER — RCP / protocole local]**. Les **infiltrations** cortisoniques intra-articulaires sont utiles sur une articulation restant active.
+- **Glucocorticoïdes (GC)** : effet rapide et puissant. Selon l'EULAR, ils sont utilisés **à court terme** lors de l'instauration ou du changement d'un csDMARD (« traitement d'attente »), à des schémas et voies variables, avec une décroissance **aussi rapide que cliniquement possible** jusqu'à l'arrêt [S2]. Doses : l'EULAR ne fixe ni dose ni voie (orale, intramusculaire ou intraveineuse) ; la règle est la dose minimale efficace sur une durée courte — moins de 3 mois, seuil employé par l'ACR 2021 pour une corticothérapie « de courte durée » [S2, S4] ; dose initiale selon le protocole local **[POSOLOGIE À VÉRIFIER — protocole local]**. Les **infiltrations** cortisoniques intra-articulaires sont utiles sur une articulation restant active.
 - Mesures associées à toute corticothérapie prolongée : apport calcique et vitamine D, évaluation du risque d'ostéoporose, surveillance tensionnelle et glycémique.
 
 #### 13.2.2 Traitements de fond synthétiques conventionnels (csDMARD)
@@ -490,8 +535,8 @@ D'autres éléments assombrissent le pronostic : syndrome inflammatoire importan
 
 | Molécule | Place | Posologie | Points de vigilance |
 |---|---|---|---|
-| **Léflunomide** | Alternative au MTX en cas de contre-indication ou d'intolérance [S2] | **[POSOLOGIE À VÉRIFIER — RCP]** | Tératogène avec demi-vie très longue (procédure d'élimination par cholestyramine avant grossesse), HTA, diarrhée, hépatotoxicité |
-| **Sulfasalazine** | Alternative au MTX ; utilisable pendant la grossesse | Augmentation progressive **[POSOLOGIE À VÉRIFIER — RCP]** | Troubles digestifs, éruptions, cytopénies, oligospermie réversible |
+| **Léflunomide** | Alternative au MTX en cas de contre-indication ou d'intolérance [S2] | 20 mg/j en une prise ; la dose de charge du RCP (100 mg/j pendant 3 jours) est facultative et sa suppression améliore la tolérance [S14] | Tératogène avec demi-vie très longue (procédure d'élimination accélérée avant grossesse : colestyramine 8 g × 3/j pendant 11 jours [S14]), HTA, diarrhée, hépatotoxicité |
+| **Sulfasalazine** | Alternative au MTX ; utilisable pendant la grossesse | 500 mg/j, augmentés de 500 mg par semaine jusqu'à 2 g/j en 2 prises (3 g/j au maximum si réponse insuffisante) [S14] | Troubles digestifs, éruptions, cytopénies, oligospermie réversible |
 | **Hydroxychloroquine** | Formes peu actives, en association (« trithérapie » MTX + sulfasalazine + HCQ) | Dose quotidienne ≤ **5 mg/kg de poids réel** [S8] | Rétinopathie : examen ophtalmologique de référence, puis dépistage annuel après 5 ans de traitement en l'absence de facteur de risque [S8] |
 
 #### 13.2.3 Traitements de fond biologiques (bDMARD)
@@ -504,17 +549,33 @@ Ils sont réservés aux patients en **échec** (ou contre-indication) des csDMAR
 | **Modulateur de la co-stimulation** | Abatacept | Blocage du signal CD80/86–CD28 | Profil infectieux favorable ; option privilégiée en cas de PID selon la SFR 2024 [S3] |
 | **Anti-CD20** | Rituximab | Déplétion des lymphocytes B | Plus efficace dans les PR séropositives ; choix possible en cas d'antécédent de lymphome ou de PID [S3] ; hypogammaglobulinémie ; **réactivation du VHB** (anti-HBc) |
 
-Doses et rythmes d'administration : **[POSOLOGIE À VÉRIFIER — RCP]** (variables selon la molécule et la voie).
+Posologies usuelles de l'adulte dans la PR (RCP [S14]) :
+
+| Molécule | Posologie |
+|---|---|
+| Adalimumab | 40 mg SC toutes les 2 semaines |
+| Étanercept | 50 mg SC par semaine |
+| Infliximab | 3 mg/kg IV à S0, S2 et S6, puis toutes les 8 semaines, **associé au MTX** |
+| Certolizumab pegol | 400 mg SC à S0, S2 et S4, puis 200 mg toutes les 2 semaines |
+| Golimumab | 50 mg SC une fois par mois |
+| Tocilizumab | 8 mg/kg IV toutes les 4 semaines (sans dépasser 800 mg par perfusion) ou 162 mg SC par semaine |
+| Sarilumab | 200 mg SC toutes les 2 semaines |
+| Abatacept | 125 mg SC par semaine, ou IV à S0, S2, S4 puis toutes les 4 semaines (500 mg si < 60 kg, 750 mg de 60 à 100 kg, 1 g si > 100 kg) |
+| Rituximab | 2 perfusions IV de 1 000 mg à 2 semaines d'intervalle, précédées de 100 mg IV de méthylprednisolone ; nouveau cycle pas avant 16 semaines, selon l'activité |
 
 #### 13.2.4 Traitements de fond synthétiques ciblés (tsDMARD) : inhibiteurs de JAK
-Tofacitinib, baricitinib, upadacitinib, filgotinib : prise orale, efficacité comparable à celle des biothérapies. Depuis la mise à jour 2022, l'EULAR précise qu'ils ne doivent être envisagés qu'**après une évaluation soigneuse du risque d'événements cardiovasculaires majeurs, de cancers et d'événements thromboemboliques** [S2] ; la SFR 2024 intègre ces mêmes données [S3]. En pratique, on les réserve, chez les sujets âgés (65 ans et plus), fumeurs ou anciens fumeurs, à risque cardiovasculaire, thromboembolique ou néoplasique, aux situations sans alternative appropriée. Autres effets : **zona**, infections, cytopénies, dyslipidémie.
+Tofacitinib, baricitinib, upadacitinib, filgotinib : prise orale, efficacité comparable à celle des biothérapies. Depuis la mise à jour 2022, l'EULAR précise qu'ils ne doivent être envisagés qu'**après une évaluation soigneuse du risque d'événements cardiovasculaires majeurs, de cancers et d'événements thromboemboliques** [S2] ; la SFR 2024 intègre ces mêmes données [S3]. Depuis la réévaluation de l'EMA (2022–2023) [S15], chez les patients de **65 ans ou plus**, les **fumeurs** ou anciens fumeurs de longue durée, les patients ayant une **maladie cardiovasculaire athéroscléreuse ou d'autres facteurs de risque cardiovasculaire**, ou des **facteurs de risque de cancer**, ils ne doivent être utilisés qu'**en l'absence d'alternative appropriée** ; ils s'emploient avec prudence en cas de facteurs de risque thromboembolique veineux, à dose réduite chez les patients à risque lorsque le RCP le prévoit, avec un examen cutané périodique. Doses usuelles (RCP [S14]) : tofacitinib 5 mg × 2/j ; baricitinib 4 mg/j (2 mg/j à partir de 75 ans) ; upadacitinib 15 mg/j ; filgotinib 200 mg/j. Autres effets : **zona**, infections, cytopénies, dyslipidémie.
 
 #### 13.2.5 Bilan pré-biothérapie et pré-inhibiteurs de JAK — priorité au dépistage tuberculeux
 Dans un pays où la tuberculose reste endémique comme l'Algérie, ce bilan est **non négociable** :
 
 1. **Rechercher une tuberculose active** : interrogatoire (antécédents, contage, toux prolongée, fièvre, sueurs, amaigrissement), examen clinique, **radiographie thoracique** ; en cas de suspicion, investigations bactériologiques **avant** tout immunosuppresseur.
 2. **Dépister l'infection tuberculeuse latente (ITL)** : test de libération de l'interféron gamma (**IGRA**), à préférer à l'intradermoréaction (IDR) **lorsqu'il est disponible** [S7] ; à défaut IDR à la tuberculine, en tenant compte de la vaccination BCG et de l'effet des corticoïdes (faux négatifs).
-3. **Traiter l'ITL** selon les directives nationales en vigueur (instruction ministérielle de 2024 relative à l'ITL [S11] ; programme national de lutte antituberculeuse [S12]) — schéma et durée **[À VÉRIFIER — protocole national]** ; la biothérapie n'est habituellement débutée qu'après plusieurs semaines de traitement de l'ITL **[délai À VÉRIFIER — protocole national]**.
+3. **Traiter l'ITL** (après exclusion d'une tuberculose active) :
+   - **schémas OMS 2024** [S16] : 6 ou 9 mois d'isoniazide quotidien (6H, 9H), 3 mois de rifapentine + isoniazide hebdomadaires (3HP) ou 3 mois d'isoniazide + rifampicine quotidiens (3HR) ; alternatives : 1 mois de rifapentine + isoniazide quotidiens (1HP) ou 4 mois de rifampicine quotidienne (4R). Chez un candidat à un anti-TNF, l'OMS souligne l'intérêt de terminer vite le traitement préventif (schémas courts) [S16]. Posologies de l'adulte données par l'OMS : 4R, rifampicine 10 mg/kg/j ; 1HP, isoniazide 300 mg/j + rifapentine 600 mg/j (≥ 13 ans) ; pour les autres schémas, manuel opérationnel de l'OMS et protocole national ;
+   - les rifamycines sont des **inducteurs enzymatiques** (corticoïdes, inhibiteurs de la calcineurine, certains inhibiteurs de JAK, contraception hormonale) : revoir les interactions ;
+   - **délai avant la biothérapie** : ni l'OMS ni l'EULAR 2022 n'en fixent ; la recommandation S3 allemande 2026 suggère en général **4 semaines** entre le début du traitement préventif et l'immunosuppression (accord d'experts, sans données d'essai) [S17] ;
+   - **Algérie** : l'instruction ministérielle de 2024 relative à l'ITL [S11] (schémas retenus, délai, disponibilité de la rifapentine) n'a pas pu être relue : contenu **à confirmer** avant usage. Programme national de lutte antituberculeuse : [S12].
 4. L'EULAR propose d'envisager aussi ce dépistage avant les csDMARD, les corticoïdes et les immunosuppresseurs [S7].
 5. **Hépatite B** : AgHBs, anticorps anti-HBc, anti-HBs ; décision antivirale guidée par ce statut [S7] ; **hépatite C** (ARN viral positif → traitement antiviral) ; **VIH**.
 6. **Vaccinations** : à mettre à jour, idéalement **avant** l'immunosuppression ; grippe saisonnière et pneumocoque recommandés ; vaccins vivants atténués à éviter sous biothérapie ou forte corticothérapie [S13].
@@ -644,13 +705,13 @@ DEVANT UNE POLYARTHRITE RÉCENTE (≥ 3 articulations gonflées)
 
 **Questions et commentaires**
 
-1. *Quel diagnostic retenez-vous ?* — Polyarthrite bilatérale symétrique des petites articulations, inflammatoire, évoluant depuis plus de 6 semaines, avec ACPA fortement positifs : **PR débutante, séropositive**. Score ACR/EULAR 2010 : 10 petites articulations atteintes (gonflées ou douloureuses : MCP, IPP, poignets), soit « 4 à 10 petites articulations » = **3** ; sérologie fortement positive = **3** ; CRP/VS anormales = **1** ; durée ≥ 6 semaines = **1** ; total **8/10** [S1]. De plus, une érosion typique est présente.
+1. *Quel diagnostic retenez-vous ?* — Polyarthrite bilatérale symétrique des petites articulations, inflammatoire, évoluant depuis plus de 6 semaines, avec ACPA fortement positifs : **PR débutante, séropositive**. Score ACR/EULAR 2010 : 10 petites articulations atteintes aux mains et aux poignets (gonflées ou douloureuses : MCP, IPP, poignets) ; les MTP douloureuses au squeeze test s'y ajoutent, soit plus de 10 articulations dont au moins une petite = **5** (en ne comptant que les mains et poignets : « 4 à 10 petites articulations » = 3) ; sérologie fortement positive = **3** ; CRP/VS anormales = **1** ; durée ≥ 6 semaines = **1** ; total **10/10** (8/10 au minimum) [S1]. De plus, une érosion typique est présente.
 2. *Facteurs de mauvais pronostic ?* — ACPA à titre élevé, FR positif, érosion précoce, activité élevée, tabagisme [S2].
 3. *Activité ?* — Le DAS28-VS calculé est > 5,1 : **forte activité**.
-4. *Traitement initial ?* — Information, décision partagée, **arrêt du tabac** ; **méthotrexate** hebdomadaire à dose initiale de 10 à 15 mg/semaine, augmentée par paliers de 5 mg toutes les 2 à 4 semaines vers 20–25 mg/semaine selon tolérance, avec **acide folique ≥ 5 mg/semaine** [S5] ; **corticothérapie orale à faible dose de courte durée** avec décroissance rapide [S2] **[POSOLOGIE À VÉRIFIER]** ; contraception efficace (MTX tératogène) ; vaccination anti-VHB (sérologie négative), antigrippale et antipneumococcique [S13] ; calcium/vitamine D.
+4. *Traitement initial ?* — Information, décision partagée, **arrêt du tabac** ; **méthotrexate** hebdomadaire à dose initiale de 10 à 15 mg/semaine, augmentée par paliers de 5 mg toutes les 2 à 4 semaines vers 20–25 mg/semaine selon tolérance, avec **acide folique ≥ 5 mg/semaine** [S5] ; **corticothérapie orale à faible dose de courte durée** (< 3 mois) avec décroissance rapide [S2, S4] **[POSOLOGIE À VÉRIFIER — protocole local]** ; contraception efficace (MTX tératogène) ; vaccination anti-VHB (sérologie négative), antigrippale et antipneumococcique [S13] ; calcium/vitamine D.
 5. *Surveillance ?* — NFS, ALAT, créatinine toutes les 4 à 6 semaines jusqu'à dose stable [S5] ; DAS28 tous les 1 à 3 mois.
 
-**Évolution.** À 3 mois, sous MTX 20 mg/semaine en sous-cutané, le DAS28 passe à 4,1 (amélioration insuffisante) et la corticothérapie ne peut être diminuée sous 7,5 mg/j. À 6 mois, la cible n'est pas atteinte. En présence de facteurs de mauvais pronostic, l'**ajout d'un bDMARD** au MTX est décidé [S2]. Le **bilan pré-biothérapie** comporte : interrogatoire et examen orientés, radiographie thoracique normale, **IGRA positif**. Une tuberculose active ayant été écartée, un **traitement de l'ITL** est instauré selon l'instruction nationale [S11] ; l'anti-TNF est débuté après le délai prévu par le protocole **[À VÉRIFIER]**. À 12 mois : rémission booléenne (0 articulation gonflée, 1 douloureuse, CRP 0,3 mg/dL, appréciation globale 2/10) [S6] ; la corticothérapie est arrêtée.
+**Évolution.** À 3 mois, sous MTX 20 mg/semaine en sous-cutané, le DAS28 passe à 4,1 (amélioration insuffisante) et la corticothérapie ne peut être diminuée sous 7,5 mg/j. À 6 mois, la cible n'est pas atteinte. En présence de facteurs de mauvais pronostic, l'**ajout d'un bDMARD** au MTX est décidé [S2]. Le **bilan pré-biothérapie** comporte : interrogatoire et examen orientés, radiographie thoracique normale, **IGRA positif**. Une tuberculose active ayant été écartée, un **traitement de l'ITL** est instauré, par exemple par un schéma court de l'OMS (3HR ou 4R) [S16], selon l'instruction nationale [S11] (à confirmer) ; l'anti-TNF est débuté après environ 4 semaines de traitement préventif (délai suggéré par la recommandation S3 allemande [S17] ; délai national à confirmer). À 12 mois : rémission booléenne (0 articulation gonflée, 1 douloureuse, CRP 0,3 mg/dL, appréciation globale 2/10) [S6] ; la corticothérapie est arrêtée.
 
 **Messages pédagogiques** : précocité du traitement de fond ; MTX optimisé (dose, voie, folates) ; réévaluation à 3 et 6 mois ; stratification sur les facteurs pronostiques ; dépistage de l'ITL systématique avant biothérapie en Algérie ; arrêt des GC dès que possible.
 
@@ -869,9 +930,9 @@ DEVANT UNE POLYARTHRITE RÉCENTE (≥ 3 articulations gonflées)
 |---|---|---|---|
 | Corticothérapie de « pont » à l'instauration du csDMARD | **EULAR 2022** : GC de courte durée recommandés lors de l'initiation ou du changement de csDMARD, décroissance et arrêt aussi rapides que possible [S2] ; **SFR 2024** s'appuie sur cette version EULAR [S3] | **ACR 2021** : recommandation conditionnelle **contre** l'association systématique d'une corticothérapie de courte durée lors de l'initiation d'un csDMARD [S4] | Divergence réelle sur le rapport bénéfice/risque des GC ; dans tous les textes, la corticothérapie prolongée est à éviter |
 | Stratification de l'escalade | **EULAR 2022** : facteurs de mauvais pronostic → ajout d'un bDMARD (ou tsDMARD après évaluation des risques) ; absence → autre csDMARD [S2] | **ACR 2021** : chez le patient non contrôlé sous MTX à dose maximale tolérée, l'ajout d'un bDMARD ou d'un tsDMARD est préféré (conditionnellement) à la trithérapie conventionnelle, sans stratification formelle sur les facteurs pronostiques [S4] | En contexte de ressources limitées, l'option « autre csDMARD / trithérapie » garde une place pratique |
-| Inhibiteurs de JAK | **EULAR 2022 / SFR 2024** : à n'envisager qu'après évaluation du risque d'événements cardiovasculaires majeurs, de cancers et de thromboses [S2, S3] | **ACR 2021** : publié avant les données de sécurité ayant conduit à ces restrictions ; position moins restrictive [S4] | Appliquer la version la plus récente et les mentions du RCP en vigueur |
+| Inhibiteurs de JAK | **EULAR 2022 / SFR 2024** : à n'envisager qu'après évaluation du risque d'événements cardiovasculaires majeurs, de cancers et de thromboses [S2, S3] ; **EMA 2023** : réservés, chez les patients à risque, aux situations sans alternative appropriée [S15] | **ACR 2021** : publié avant les données de sécurité ayant conduit à ces restrictions ; position moins restrictive [S4] | Appliquer la version la plus récente et les mentions du RCP en vigueur |
 | Définition de la rémission | **DAS28 < 2,6** : seuil largement utilisé en pratique et dans les études (dont la série algérienne [S9]) | **ACR/EULAR booléenne (révision 2022)** ou SDAI ≤ 3,3 : définitions plus strictes ; appréciation globale du patient ≤ 2/10 depuis 2022 [S6] | Le DAS28 peut surestimer la rémission |
-| Dépistage de la tuberculose latente | **EULAR 2022** : IGRA préféré à l'IDR là où il est disponible [S7] | **Algérie** : application des directives nationales (instruction ITL 2024, programme national) qui fixent les tests disponibles et les schémas [S11, S12] | Contenu exact de l'instruction nationale à relire avant usage **[À VÉRIFIER]** |
+| Dépistage et traitement de la tuberculose latente | **EULAR 2022** : IGRA préféré à l'IDR là où il est disponible ; choix du traitement préventif renvoyé aux recommandations nationales [S7] ; **OMS 2024** : 6H/9H, 3HP, 3HR, alternatives 1HP et 4R [S16] ; **S3 allemande 2026** : délai de 4 semaines avant l'immunosuppression [S17] | **Algérie** : directives nationales (instruction ITL 2024, programme national) qui fixent les tests disponibles, les schémas et le délai [S11, S12] | Contenu exact de l'instruction nationale à relire avant usage **[À VÉRIFIER]** |
 | Personnes à risque de PR (sans arthrite) | **SFR 2024** : volet dédié, information, surveillance, arrêt du tabac, pas de csDMARD systématique [S3] | **EULAR 2022** (prise en charge par DMARD) ne traite pas spécifiquement ce stade [S2] | Domaine de recherche active |
 
 ## 22. Références
@@ -889,3 +950,7 @@ DEVANT UNE POLYARTHRITE RÉCENTE (≥ 3 articulations gonflées)
 11. **[S11]** Ministère de la Santé (Algérie). Instruction relative à la prise en charge de l'infection tuberculeuse latente, 2024 (numéro et date exacts à vérifier). PDF diffusé par sapp.dz — existence signalée par DOS-02 le 2026-11-19, non reconfirmée par DOS-09 ; contenu non relu **[À VÉRIFIER]**.
 12. **[S12]** MSPRH / INSP. Programme national de lutte contre la tuberculose — Manuel de la lutte antituberculeuse à l'usage des personnels médicaux. Alger, 2011 — existence signalée par DOS-02 le 2026-11-19, non reconfirmée par DOS-09 **[À VÉRIFIER]**.
 13. **[S13]** Furer V, Rondaan C, Heijstek MW, et al. 2019 update of EULAR recommendations for vaccination in adult patients with autoimmune inflammatory rheumatic diseases. *Ann Rheum Dis.* 2020;79(1):39-52. doi:10.1136/annrheumdis-2019-215882 — vérifiée (PMID 31413005).
+14. **[S14]** Résumés des caractéristiques du produit (RCP) des spécialités citées (EPAR de l'EMA ou AMM nationales), versions en vigueur — non consultés pendant l'audit (site de l'EMA inaccessible depuis la session) ; posologies d'AMM standard, à recouper sur le RCP en vigueur **[À VÉRIFIER]**.
+15. **[S15]** European Medicines Agency. EMA confirms measures to minimise risk of serious side effects with Janus kinase inhibitors for chronic inflammatory disorders (article 20, PRAC/CHMP, 2022–2023). https://www.ema.europa.eu/en/news/ema-confirms-measures-minimise-risk-serious-side-effects-janus-kinase-inhibitors-chronic-inflammatory-disorders — existence et contenu principal vérifiés (recherche web, AUD-01, 2026-11-19).
+16. **[S16]** OMS. WHO consolidated guidelines on tuberculosis. Module 1: prevention — tuberculosis preventive treatment, 2e éd. Genève : OMS ; 2024 — vérifiée (catalogue REC-0263, document DOC-00027 relu par AUD-01).
+17. **[S17]** Nast A, Altenburg A, Augustin M, et al. S3 Guideline for the Treatment of Psoriasis vulgaris, adapted from EuroGuiDerm – part 2: Specific clinical and comorbid situations. *J Dtsch Dermatol Ges.* 2026;24(2):270-282. doi:10.1111/ddg.16001 — vérifiée (PMID 41641952 ; texte intégral en accès libre relu, chapitre tuberculose).
